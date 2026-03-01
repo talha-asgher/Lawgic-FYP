@@ -1,0 +1,62 @@
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+Frontend//lawgic_fenode_modules/
+Frontend/lawgic_fe/.next/
+Frontend/lawgic_feout/
+Frontend/lawgic_febuild/
+
+# Next.js cache
+Frontend/.turbo/
+Frontend/.vercel/
+
+# TypeScript
+Frontend/*.tsbuildinfo
+
+# Python cache
+Backend/__pycache__/
+Backend/*.py[cod]
+Backend/*$py.class
+
+# Virtual environments
+Backend/venv/
+Backend/.venv/
+Backend/env/
+
+# FastAPI / Uvicorn
+Backend/.pytest_cache/
+Backend/.mypy_cache/
+
+# Coverage reports
+Backend/htmlcov/
+Backend/.coverage
+Backend/coverage.xml
+
+
+*.sql
+*.dump
+*.bak
+
+
+*.bak
+*.tmp

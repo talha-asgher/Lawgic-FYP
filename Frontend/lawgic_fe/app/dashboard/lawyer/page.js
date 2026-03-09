@@ -1,19 +1,20 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { 
-  Users, 
-  Calendar, 
-  DollarSign, 
-  Star, 
-  Edit, 
-  Clock, 
-  MessageSquare, 
-  CheckCircle, 
+import {
+  Users,
+  Calendar,
+  DollarSign,
+  Star,
+  Edit,
+  Clock,
+  MessageSquare,
+  CheckCircle,
   AlertCircle,
   Settings,
   MoreVertical
 } from 'lucide-react';
+import { getMyProfile, getMyStats, getMyLawyerProfile, getMyAppointments, getMyConversations } from '@/lib/api';
 
 export default function LawyerDashboard() {
 
@@ -39,86 +40,50 @@ export default function LawyerDashboard() {
     const fetchDashboardData = async () => {
       try {
         setLoading(true);
-
-        // backend here
-        
-        /* // Example API Call structure:
-        const response = await fetch('http://localhost:5000/api/lawyer/dashboard', {
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-        const data = await response.json();
-        setProfile(data.profile);
-        setStats(data.stats);
-        // ... map other data
-        */
-        await new Promise(resolve => setTimeout(resolve, 800)); // Simulate latency
-
+        const [userProfile, lawyerProfile, statsData, appts, convs] = await Promise.all([
+          getMyProfile(),
+          getMyLawyerProfile().catch(() => null),
+          getMyStats(),
+          getMyAppointments({ upcoming_only: true }).catch(() => []),
+          getMyConversations().catch(() => []),
+        ]);
         setProfile({
-          name: "Advocate Ali Ahmed",
-          email: "ali.ahmed@lawfirm.pk",
-          barId: "L/12345/2015",
-          rating: 4.8,
-          initials: "AA"
+          name: userProfile.name,
+          email: userProfile.email,
+          barId: lawyerProfile?.bar_council_number || 'N/A',
+          rating: lawyerProfile?.average_rating || 0,
+          initials: userProfile.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
         });
-
         setStats({
-          activeClients: 24,
-          appointmentsThisWeek: 8,
-          earnings: "125K",
-          averageRating: 4.8
+          activeClients: statsData.open_cases || 0,
+          appointmentsThisWeek: statsData.appointments || 0,
+          earnings: '—',
+          averageRating: lawyerProfile?.average_rating || 0,
         });
-
-        setAppointments([
-          {
-            id: 1,
-            clientName: "Advocate Sarah Khan", 
-            date: "2025-10-15",
-            time: "10:00 AM",
-            status: "Confirmed",
-            type: "confirmed"
-          },
-          {
-            id: 2,
-            clientName: "Advocate Ahmed Malik",
-            date: "2025-10-12",
-            time: "2:30 PM",
-            status: "Pending",
-            type: "pending"
-          }
-        ]);
-
-        setMessages([
-          {
-            id: 1,
-            sender: "Ahmed Khan",
-            text: "Need consultation about property dispute",
-            time: "2 hours ago",
-            isNew: true
-          },
-          {
-            id: 2,
-            sender: "Sara Ali",
-            text: "Following up on divorce case",
-            time: "5 hours ago",
-            isNew: true
-          },
-          {
-            id: 3,
-            sender: "Hassan Raza",
-            text: "Thank you for the consultation",
-            time: "1 day ago",
-            isNew: false
-          }
-        ]);
-        
-
+        setAppointments(appts.slice(0, 5).map(a => ({
+          id: a.appt_id,
+          clientName: a.client_name || 'Client',
+          date: new Date(a.scheduled_at).toLocaleDateString(),
+          time: new Date(a.scheduled_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          status: a.status === 'accepted' ? 'Confirmed' : a.status.charAt(0).toUpperCase() + a.status.slice(1),
+          type: a.status === 'accepted' ? 'confirmed' : 'pending',
+        })));
+        setMessages(convs.slice(0, 5).map(c => {
+          const other = c.participants?.find(p => p.name !== userProfile.name);
+          return {
+            id: c.conv_id,
+            sender: other?.name || 'Client',
+            text: c.last_message || 'New conversation',
+            time: c.last_message_at ? new Date(c.last_message_at).toLocaleDateString() : '',
+            isNew: c.unread_count > 0,
+          };
+        }));
       } catch (error) {
-        console.error("Failed to load dashboard:", error);
+        console.error('Failed to load dashboard:', error);
       } finally {
         setLoading(false);
       }
     };
-
     fetchDashboardData();
   }, []);
 
@@ -253,7 +218,7 @@ export default function LawyerDashboard() {
 
             <div className="space-y-4">
               {messages.map((msg) => (
-                <div key={msg.id} className="p-4 bg-[#F6F8FB] rounded-xl hover:bg-gray-50 transition-colors cursor-pointer group">
+                <div key={msg.id} onClick={() => { window.location.href = '/chat/' + msg.id; }} className="p-4 bg-[#F6F8FB] rounded-xl hover:bg-gray-50 transition-colors cursor-pointer group">
                   <div className="flex justify-between items-start mb-1">
                     <div className="flex items-center gap-2">
                       <h3 className="text-sm font-medium text-gray-900">{msg.sender}</h3>

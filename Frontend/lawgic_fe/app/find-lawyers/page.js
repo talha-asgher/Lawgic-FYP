@@ -1,17 +1,18 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { 
-  Search, 
-  MapPin, 
-  Star, 
-  Filter, 
-  Briefcase, 
-  Clock, 
-  DollarSign, 
-  ChevronDown, 
-  Loader2 
+import {
+  Search,
+  MapPin,
+  Star,
+  Filter,
+  Briefcase,
+  Clock,
+  DollarSign,
+  ChevronDown,
+  Loader2
 } from 'lucide-react';
+import { searchLawyers } from '@/lib/api';
 
 export default function FindLawyersPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -22,44 +23,7 @@ export default function FindLawyersPage() {
     feeRange: ''
   });
 
-  const [lawyers, setLawyers] = useState([
-    {
-      id: 1,
-      name: "Advocate Sarah Khan",
-      image: "https://placehold.co/100x100",
-      specializations: ["Civil Law", "Family Law"],
-      location: "Lahore",
-      experience: "12 years",
-      rating: 4.8,
-      reviews: 124,
-      fee: "PKR 5,000 - 15,000",
-      description: "Specializes in property, contract, and family dispute cases with a high success rate in civil litigation."
-    },
-    {
-      id: 2,
-      name: "Advocate Ahmed Malik",
-      image: "https://placehold.co/100x100",
-      specializations: ["Criminal Law", "Corporate Law"],
-      location: "Karachi",
-      experience: "15 years",
-      rating: 4.9,
-      reviews: 89,
-      fee: "PKR 10,000 - 25,000",
-      description: "Expert in criminal defense and corporate structuring. Former legal advisor to multinational corporations."
-    },
-    {
-      id: 3,
-      name: "Advocate Fatima Ali",
-      image: "https://placehold.co/100x100",
-      specializations: ["Family Law", "Immigration"],
-      location: "Islamabad",
-      experience: "8 years",
-      rating: 4.7,
-      reviews: 56,
-      fee: "PKR 8,000 - 20,000",
-      description: "Dedicated to helping families navigate complex legal matters including divorce, custody, and immigration."
-    }
-  ]);
+  const [lawyers, setLawyers] = useState([]);
 
   useEffect(() => {
     fetchLawyers();
@@ -68,29 +32,25 @@ export default function FindLawyersPage() {
   const fetchLawyers = async (query = searchQuery) => {
     setIsLoading(true);
     try {
-     
-      /*
-      // Build query string from filters
-      const queryParams = new URLSearchParams({
-        search: query,
-        location: filters.location,
-        minRating: filters.rating,
-        // ... other filters
-      }).toString();
-
-      const response = await fetch(`http://localhost:5000/api/lawyers?${queryParams}`, {
-        method: 'GET',
-        headers: { 'Content-Type': 'application/json' }
-      });
-      
-      const data = await response.json();
-      setLawyers(data.lawyers);
-      */
-
-       await new Promise(resolve => setTimeout(resolve, 600)); // Simulate network load
-     
+      const params = {};
+      if (query) params.q = query;
+      if (filters.location) params.city = filters.location;
+      const data = await searchLawyers(params);
+      // Map API response to FE shape
+      setLawyers(data.map(l => ({
+        id: l.lawyer_id,
+        name: l.name,
+        image: 'https://placehold.co/100x100',
+        specializations: l.specializations && l.specializations.length > 0 ? l.specializations : [l.specialization],
+        location: l.city || l.office_address || 'Pakistan',
+        experience: l.years_of_experience ? l.years_of_experience + ' years' : 'N/A',
+        rating: l.average_rating || 0,
+        reviews: l.review_count || 0,
+        fee: l.consultation_fee ? 'PKR ' + l.consultation_fee.toLocaleString() : 'Contact for fee',
+        description: l.bio_data || 'Experienced legal professional.',
+      })));
     } catch (error) {
-      console.error("Failed to fetch lawyers:", error);
+      console.error('Failed to fetch lawyers:', error);
     } finally {
       setIsLoading(false);
     }
@@ -222,7 +182,7 @@ export default function FindLawyersPage() {
 
                
                 <div className="flex justify-end">
-                  <button className="w-full md:w-auto px-6 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-lg hover:bg-[#041d5c] transition-colors">
+                  <button onClick={() => { window.location.href = '/lawyers/' + lawyer.id; }} className="w-full md:w-auto px-6 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-lg hover:bg-[#041d5c] transition-colors">
                     View Profile
                   </button>
                 </div>

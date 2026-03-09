@@ -1,24 +1,26 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { 
-  Check, 
-  ChevronRight, 
-  ChevronLeft, 
-  UploadCloud, 
-  ShieldCheck, 
-  FileText, 
-  Briefcase, 
-  User, 
-  Phone, 
-  GraduationCap, 
+import {
+  Check,
+  ChevronRight,
+  ChevronLeft,
+  UploadCloud,
+  ShieldCheck,
+  FileText,
+  Briefcase,
+  User,
+  Phone,
+  GraduationCap,
   Loader2
 } from 'lucide-react';
+import { registerUser, upsertLawyerProfile, loginUser } from '@/lib/api';
 
 export default function LawyerRegistration() {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   const [formData, setFormData] = useState({
     fullName: '',
@@ -81,40 +83,33 @@ export default function LawyerRegistration() {
   };
 
   const handleSubmit = async () => {
-    setLoading(true);
-    try {
-      const dataPayload = new FormData();
-      
-      Object.keys(formData).forEach(key => {
-        if (key !== 'barLicenseFile' && key !== 'cnicFile') {
-          dataPayload.append(key, formData[key]);
-        }
-      });
-
-      if (formData.barLicenseFile) dataPayload.append('barLicense', formData.barLicenseFile);
-      if (formData.cnicFile) dataPayload.append('cnic', formData.cnicFile);
-
-      /*
-      const response = await fetch('http://localhost:5000/api/auth/register-lawyer', {
-        method: 'POST',
-        body: dataPayload, // No Content-Type header needed for FormData
-      });
-
-      if (!response.ok) throw new Error('Registration failed');
-      
-      // Redirect to Login
-      window.location.href = '/login';
-      */
-
-      console.log("Submitting Lawyer Data:", formData);
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      alert("Registration Submitted for Review!");
-      
-    } catch (error) {
-      console.error("Submission Error:", error);
-    } finally {
-      setLoading(false);
+    if (formData.password !== formData.confirmPassword) {
+      setError("Passwords do not match."); setCurrentStep(5); return;
     }
+    if (formData.password.length < 6) {
+      setError("Password must be at least 6 characters."); setCurrentStep(5); return;
+    }
+    setLoading(true); setError('');
+    try {
+      await registerUser(formData.fullName, formData.email, formData.password, formData.phone, 'lawyer');
+      await loginUser(formData.email, formData.password);
+      await upsertLawyerProfile({
+        specialization: formData.specialization,
+        bio_data: formData.bio,
+        years_of_experience: formData.experience ? parseInt(formData.experience) : null,
+        office_address: formData.officeAddress,
+        consultation_fee: formData.hourlyRate ? parseFloat(formData.hourlyRate) : null,
+        city: formData.city || null,
+        languages: 'Urdu,English',
+        bar_council_number: formData.barNumber,
+        law_school: formData.lawSchool,
+        grad_year: formData.gradYear ? parseInt(formData.gradYear) : null,
+        degree_type: formData.degreeType,
+      });
+      window.location.href = '/dashboard/lawyer';
+    } catch (err) {
+      setError(err.message || 'Registration failed. Please try again.');
+    } finally { setLoading(false); }
   };
 
   const renderStepContent = () => {
@@ -212,12 +207,23 @@ export default function LawyerRegistration() {
             </div>
             <div className="col-span-1 md:col-span-2 space-y-2">
               <label className="text-sm font-medium text-gray-900">Office Address</label>
-              <input 
-                type="text" 
-                name="officeAddress" 
-                value={formData.officeAddress} 
-                onChange={handleChange} 
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500" 
+              <input
+                type="text"
+                name="officeAddress"
+                value={formData.officeAddress}
+                onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500"
+              />
+            </div>
+            <div className="space-y-2">
+              <label className="text-sm font-medium text-gray-900">City</label>
+              <input
+                type="text"
+                name="city"
+                value={formData.city}
+                onChange={handleChange}
+                placeholder="e.g. Lahore"
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500"
               />
             </div>
           </div>
@@ -363,6 +369,13 @@ export default function LawyerRegistration() {
         <h1 className="text-3xl font-medium text-gray-900">Lawyer Registration Portal</h1>
         <p className="text-gray-500">Complete your professional registration to join our legal network</p>
       </div>
+
+      {/* Error Display */}
+      {error && (
+        <div className="w-full max-w-4xl mb-4 px-4 py-3 bg-red-50 border border-red-200 text-red-700 rounded-xl text-sm">
+          {error}
+        </div>
+      )}
 
       {/*  Main Card */}
       <div className="w-full max-w-4xl bg-white border border-gray-200 rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">

@@ -141,6 +141,129 @@ def list_my_cases(
     return query.order_by(models.Case.created_at.desc()).all()
 
 
+# NOTE: /requests/my and /requests/{request_id}/respond MUST be declared before
+# /{case_id} to prevent FastAPI matching "requests" as a case_id path param.
+
+@router.get("/requests/my", response_model=List[schemas.CaseRequestOut])
+def list_my_requests(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+    status_filter: Optional[str] = "pending",
+):
+    ensure_lawyer(current_user)
+
+    query = db.query(models.Request).filter(
+        models.Request.lawyer_id == current_user.user_id
+    )
+
+    if status_filter:
+        s = status_filter.lower()
+        if s not in VALID_REQUEST_STATUSES:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Invalid status_filter. Allowed: {', '.join(sorted(VALID_REQUEST_STATUSES))}",
+            )
+        query = query.filter(models.Request.status == s)
+
+    return query.order_by(models.Request.created_at.desc()).all()
+
+
+@router.post("/requests/{request_id}/respond")
+def respond_to_request(
+    request_id: int,
+    resp: schemas.RequestResponse,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+):
+    ensure_lawyer(current_user)
+
+    new_status = resp.status.lower()
+    if new_status not in {"accepted", "rejected"}:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Status must be 'accepted' or 'rejected'",
+        )
+
+    req = db.get(models.Request, request_id)
+    if not req:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Request not found",
+        )
+
+    if req.lawyer_id != current_user.user_id:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="This request is not assigned to you",
+        )
+
+    if req.status != "pending":
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Request is already {req.status}",
+        )
+
+    case = db.get(models.Case, req.case_id)
+    if not case:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Case not found",
+        )
+
+    if new_status == "rejected":
+        req.status = "rejected"
+        db.commit()
+        return {"detail": "Request rejected", "request_id": request_id, "status": "rejected"}
+
+    # accepted — create assignment
+    existing_assignment = (
+        db.query(models.CaseAssignment)
+        .filter(
+            models.CaseAssignment.case_id == case.case_id,
+            models.CaseAssignment.status == "active",
+        )
+        .first()
+    )
+    if existing_assignment:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Case is already assigned to another lawyer",
+        )
+
+    req.status = "accepted"
+
+    assignment = models.CaseAssignment(
+        case_id=case.case_id,
+        lawyer_id=current_user.user_id,
+        status="active",
+    )
+    db.add(assignment)
+    case.status = "in_progress"
+
+    # Reject all other pending requests for this case
+    other_pending = (
+        db.query(models.Request)
+        .filter(
+            models.Request.case_id == case.case_id,
+            models.Request.request_id != req.request_id,
+            models.Request.status == "pending",
+        )
+        .all()
+    )
+    for r in other_pending:
+        r.status = "rejected"
+
+    db.commit()
+    db.refresh(assignment)
+    return schemas.CaseAssignmentOut(
+        assignment_id=assignment.assignment_id,
+        case_id=assignment.case_id,
+        lawyer_id=assignment.lawyer_id,
+        status=assignment.status,
+        created_at=assignment.created_at,
+    )
+
+
 @router.get("/{case_id}", response_model=schemas.CaseOut)
 def get_case(
     case_id: int,
@@ -219,122 +342,6 @@ def invite_lawyers(
 
     db.commit()
     return created_requests
-
-
-@router.get("/requests/my", response_model=List[schemas.CaseRequestOut])
-def list_my_requests(
-    db: Session = Depends(get_db),
-    current_user: models.User = Depends(get_current_user),
-    status_filter: Optional[str] = "pending",
-):
-    ensure_lawyer(current_user)
-
-    query = db.query(models.Request).filter(
-        models.Request.lawyer_id == current_user.user_id
-    )
-
-    if status_filter:
-        s = status_filter.lower()
-        if s not in VALID_REQUEST_STATUSES:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail=f"Invalid status_filter. Allowed: {', '.join(sorted(VALID_REQUEST_STATUSES))}",
-            )
-        query = query.filter(models.Request.status == s)
-
-    return query.order_by(models.Request.created_at.desc()).all()
-
-
-@router.post("/requests/{request_id}/respond", response_model=schemas.CaseAssignmentOut)
-def respond_to_request(
-    request_id: int,
-    resp: schemas.RequestResponse,
-    db: Session = Depends(get_db),
-    current_user: models.User = Depends(get_current_user),
-):
-    ensure_lawyer(current_user)
-
-    new_status = resp.status.lower()
-    if new_status not in {"accepted", "rejected"}:
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Status must be 'accepted' or 'rejected'",
-        )
-
-    req = db.get(models.Request, request_id)
-    if not req:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Request not found",
-        )
-
-    if req.lawyer_id != current_user.user_id:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="This request is not assigned to you",
-        )
-
-    if req.status != "pending":
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Request is already {req.status}",
-        )
-
-    case = db.get(models.Case, req.case_id)
-    if not case:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Case not found",
-        )
-
-    if new_status == "accepted":
-        existing_assignment = (
-            db.query(models.CaseAssignment)
-            .filter(
-                models.CaseAssignment.case_id == case.case_id,
-                models.CaseAssignment.status == "active",
-            )
-            .first()
-        )
-        if existing_assignment:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Case is already assigned to another lawyer",
-            )
-
-        req.status = "accepted"
-
-        assignment = models.CaseAssignment(
-            case_id=case.case_id,
-            lawyer_id=current_user.user_id,
-            status="active",
-        )
-        db.add(assignment)
-
-        case.status = "in_progress"
-
-        other_pending = (
-            db.query(models.Request)
-            .filter(
-                models.Request.case_id == case.case_id,
-                models.Request.request_id != req.request_id,
-                models.Request.status == "pending",
-            )
-            .all()
-        )
-        for r in other_pending:
-            r.status = "rejected"
-
-        db.commit()
-        db.refresh(assignment)
-        return assignment
-
-    req.status = "rejected"
-    db.commit()
-    raise HTTPException(
-        status_code=status.HTTP_200_OK,
-        detail="Request rejected",
-    )
 
 
 @router.patch("/{case_id}/status", response_model=schemas.CaseOut)

@@ -8,6 +8,7 @@ from sqlalchemy import (
     ForeignKey,
     Float,
     Boolean,
+    UniqueConstraint,
 )
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
@@ -23,14 +24,12 @@ class User(Base):
     name = Column(Text, nullable=False)
     password_hash = Column(Text, nullable=False)
     phone_num = Column(Text, nullable=True)
-    role = Column(Text, nullable=False)
+    role = Column(Text, nullable=False)  # 'client' or 'lawyer'
     is_active = Column(Boolean, default=True)
+    profile_image_url = Column(Text, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
-    lawyer_profile = relationship(
-        "LawyerProfile",
-        back_populates="user",
-        uselist=False,
-    )
+    lawyer_profile = relationship("LawyerProfile", back_populates="user", uselist=False)
     documents = relationship("Document", back_populates="user")
     complaints = relationship("Complaint", back_populates="user")
     qa_interactions = relationship("QAInteraction", back_populates="user")
@@ -38,35 +37,36 @@ class User(Base):
     cases = relationship("Case", back_populates="user")
     requests = relationship("Request", back_populates="user")
     appointments = relationship("Appointment", back_populates="user")
+    sent_messages = relationship("Message", back_populates="sender", foreign_keys="Message.sender_id")
+    conversation_participants = relationship("ConversationParticipant", back_populates="user")
 
 
 class LawyerProfile(Base):
     __tablename__ = "lawyer_profiles"
 
-    lawyer_id = Column(
-        Integer,
-        ForeignKey("users.user_id"),
-        primary_key=True,
-    )
-    specialization = Column(Text, nullable=False)
+    lawyer_id = Column(Integer, ForeignKey("users.user_id"), primary_key=True)
+    specialization = Column(Text, nullable=False)  # comma-separated for multi
     bio_data = Column(Text, nullable=True)
-    verification_status = Column(Text, nullable=False)
+    verification_status = Column(Text, nullable=False, default="pending")
     years_of_experience = Column(Integer, nullable=True)
     office_address = Column(Text, nullable=True)
     consultation_fee = Column(Numeric, nullable=True)
+    # New fields
+    city = Column(Text, nullable=True)
+    languages = Column(Text, nullable=True)          # comma-separated e.g. "Urdu,English"
+    bar_council_number = Column(Text, nullable=True)
+    law_school = Column(Text, nullable=True)
+    grad_year = Column(Integer, nullable=True)
+    degree_type = Column(Text, nullable=True)        # LLB, LLM, Bar-at-Law
+    # Denormalized aggregates (updated when a review is submitted)
+    average_rating = Column(Float, nullable=True, default=0.0)
+    review_count = Column(Integer, nullable=False, default=0)
 
     user = relationship("User", back_populates="lawyer_profile")
-    assignments = relationship(
-        "CaseAssignment",
-        back_populates="lawyer_profile",
-        cascade="all, delete-orphan",
-    )
-    requests = relationship(
-        "Request",
-        back_populates="lawyer_profile",
-        cascade="all, delete-orphan",
-    )
+    assignments = relationship("CaseAssignment", back_populates="lawyer_profile", cascade="all, delete-orphan")
+    requests = relationship("Request", back_populates="lawyer_profile", cascade="all, delete-orphan")
     appointments = relationship("Appointment", back_populates="lawyer")
+    reviews = relationship("RatingReview", back_populates="lawyer_profile", foreign_keys="RatingReview.lawyer_id")
 
 
 class LegalSource(Base):
@@ -84,16 +84,14 @@ class LegalInstitution(Base):
     __tablename__ = "legal_institutions"
 
     inst_id = Column(Integer, primary_key=True, index=True)
-
     osm_id = Column(Text, unique=True, nullable=True)
     name = Column(Text, nullable=True)
     amenity = Column(Text, nullable=True)
     office = Column(Text, nullable=True)
-
     type = Column(Text, nullable=True)
     address = Column(Text, nullable=True)
     jurisdiction = Column(Text, nullable=True)
-
+    city = Column(Text, nullable=True)
     latitude = Column(Float, nullable=True)
     longitude = Column(Float, nullable=True)
 
@@ -103,7 +101,11 @@ class DocumentTemplate(Base):
 
     template_id = Column(Integer, primary_key=True, index=True)
     type = Column(Text, nullable=False)
-    language = Column(Text, nullable=False)
+    language = Column(Text, nullable=False, default="en")
+    title = Column(Text, nullable=True)
+    description = Column(Text, nullable=True)
+    fields_schema = Column(Text, nullable=True)   # JSON string of expected fields
+    sample_content = Column(Text, nullable=True)  # placeholder template text
 
     documents = relationship("Document", back_populates="template")
 
@@ -113,42 +115,31 @@ class Document(Base):
 
     doc_id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
-    template_id = Column(
-        Integer,
-        ForeignKey("document_templates.template_id"),
-        nullable=True,
-    )
+    template_id = Column(Integer, ForeignKey("document_templates.template_id"), nullable=True)
     title = Column(Text, nullable=False)
     type = Column(Text, nullable=False)
     content = Column(Text, nullable=False)
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    input_data = Column(Text, nullable=True)  # JSON of form fields used
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="documents")
     template = relationship("DocumentTemplate", back_populates="documents")
-    analysis = relationship(
-        "DocAnalysis",
-        back_populates="document",
-        uselist=False,
-    )
+    analysis = relationship("DocAnalysis", back_populates="document", uselist=False)
 
 
 class DocAnalysis(Base):
     __tablename__ = "doc_analysis"
 
-    analysis_id = Column(
-        Integer,
-        ForeignKey("documents.doc_id"),
-        primary_key=True,
-    )
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    analysis_id = Column(Integer, primary_key=True, index=True)
+    doc_id = Column(Integer, ForeignKey("documents.doc_id"), nullable=True)
+    user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
+    file_name = Column(Text, nullable=True)
+    file_size = Column(Integer, nullable=True)
+    status = Column(Text, nullable=False, default="pending")  # pending, processing, done, failed
+    summary = Column(Text, nullable=True)
+    risks = Column(Text, nullable=True)      # JSON string of risk items
+    key_details = Column(Text, nullable=True)  # JSON string
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     document = relationship("Document", back_populates="analysis")
 
@@ -170,12 +161,10 @@ class QAInteraction(Base):
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     question = Column(Text, nullable=False)
     answer = Column(Text, nullable=True)
-    language = Column(Text, nullable=False)
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    language = Column(Text, nullable=False, default="en")
+    status = Column(Text, nullable=False, default="pending")  # pending, answered, failed
+    session_id = Column(Text, nullable=True)  # groups interactions into a conversation session
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="qa_interactions")
     citations = relationship("QACitation", back_populates="qa")
@@ -186,17 +175,11 @@ class QACitation(Base):
 
     citation_id = Column(Integer, primary_key=True, index=True)
     qa_id = Column(Integer, ForeignKey("qa_interactions.qa_id"), nullable=False)
-    source_id = Column(
-        Integer,
-        ForeignKey("legal_sources.source_id"),
-        nullable=False,
-    )
+    source_id = Column(Integer, ForeignKey("legal_sources.source_id"), nullable=True)
     snippet_text = Column(Text, nullable=True)
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    source_title = Column(Text, nullable=True)   # denormalized for quick display
+    citation_ref = Column(Text, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     qa = relationship("QAInteraction", back_populates="citations")
     source = relationship("LegalSource", back_populates="qa_citations")
@@ -207,20 +190,17 @@ class RatingReview(Base):
 
     rating_id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
-    lawyer_id = Column(
-        Integer,
-        ForeignKey("lawyer_profiles.lawyer_id"),
-        nullable=False,
-    )
+    lawyer_id = Column(Integer, ForeignKey("lawyer_profiles.lawyer_id"), nullable=False)
     stars = Column(Integer, nullable=False)
     comment = Column(Text, nullable=True)
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint("user_id", "lawyer_id", name="uq_user_lawyer_review"),
     )
 
     user = relationship("User", back_populates="ratings_given")
+    lawyer_profile = relationship("LawyerProfile", back_populates="reviews", foreign_keys=[lawyer_id])
 
 
 class Case(Base):
@@ -232,16 +212,14 @@ class Case(Base):
     description = Column(Text, nullable=False)
     law_domain = Column(Text, nullable=False)
     jurisdiction = Column(Text, nullable=True)
-    status = Column(Text, nullable=False)
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    status = Column(Text, nullable=False)  # open, in_progress, closed
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="cases")
     assignments = relationship("CaseAssignment", back_populates="case")
     requests = relationship("Request", back_populates="case")
+    messages = relationship("CaseMessage", back_populates="case")
+    conversations = relationship("Conversation", back_populates="case")
 
 
 class Request(Base):
@@ -251,12 +229,8 @@ class Request(Base):
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     lawyer_id = Column(Integer, ForeignKey("lawyer_profiles.lawyer_id"), nullable=False)
-    status = Column(Text, nullable=False, default="pending")
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    status = Column(Text, nullable=False, default="pending")  # pending, accepted, rejected
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     case = relationship("Case", back_populates="requests")
     user = relationship("User", back_populates="requests")
@@ -269,12 +243,8 @@ class CaseAssignment(Base):
     assignment_id = Column(Integer, primary_key=True, index=True)
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     lawyer_id = Column(Integer, ForeignKey("lawyer_profiles.lawyer_id"), nullable=False)
-    status = Column(Text, nullable=False, default="active")
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
-    )
+    status = Column(Text, nullable=False, default="active")  # active, closed
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     case = relationship("Case", back_populates="assignments")
     lawyer_profile = relationship("LawyerProfile", back_populates="assignments")
@@ -284,9 +254,11 @@ class Appointment(Base):
     __tablename__ = "appointments"
 
     appt_id = Column(Integer, primary_key=True, index=True)
-    mode_of_comm = Column(Text, nullable=False)
+    mode_of_comm = Column(Text, nullable=False)   # online_meeting, phone, physical, chat
     scheduled_at = Column(DateTime(timezone=True), nullable=False)
-    status = Column(Text, nullable=False)
+    status = Column(Text, nullable=False, default="pending")  # pending, accepted, rejected, cancelled
+    notes = Column(Text, nullable=True)
+    meeting_link = Column(Text, nullable=True)
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     lawyer_id = Column(Integer, ForeignKey("lawyer_profiles.lawyer_id"), nullable=False)
 
@@ -295,14 +267,65 @@ class Appointment(Base):
 
 
 class CaseMessage(Base):
+    """Messages scoped to a specific case (case-level chat)."""
     __tablename__ = "case_messages"
 
     message_id = Column(Integer, primary_key=True, index=True)
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     sender_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     content = Column(Text, nullable=False)
-    created_at = Column(
-        DateTime(timezone=True),
-        server_default=func.now(),
-        nullable=False,
+    is_read = Column(Boolean, default=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    case = relationship("Case", back_populates="messages")
+    sender = relationship("User", foreign_keys=[sender_id])
+
+
+# ── Direct Messaging (Conversations) ─────────────────────────────────────────
+
+class Conversation(Base):
+    """
+    A conversation thread between two users (client ↔ lawyer).
+    Optionally linked to a case. Designed to support WebSocket upgrades later.
+    """
+    __tablename__ = "conversations"
+
+    conv_id = Column(Integer, primary_key=True, index=True)
+    case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=True)  # optional case link
+    title = Column(Text, nullable=True)  # optional display title
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+    case = relationship("Case", back_populates="conversations")
+    participants = relationship("ConversationParticipant", back_populates="conversation", cascade="all, delete-orphan")
+    messages = relationship("Message", back_populates="conversation", cascade="all, delete-orphan", order_by="Message.created_at")
+
+
+class ConversationParticipant(Base):
+    __tablename__ = "conversation_participants"
+
+    id = Column(Integer, primary_key=True, index=True)
+    conv_id = Column(Integer, ForeignKey("conversations.conv_id"), nullable=False)
+    user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint("conv_id", "user_id", name="uq_conv_participant"),
     )
+
+    conversation = relationship("Conversation", back_populates="participants")
+    user = relationship("User", back_populates="conversation_participants")
+
+
+class Message(Base):
+    """A message inside a Conversation."""
+    __tablename__ = "messages"
+
+    message_id = Column(Integer, primary_key=True, index=True)
+    conv_id = Column(Integer, ForeignKey("conversations.conv_id"), nullable=False)
+    sender_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
+    content = Column(Text, nullable=False)
+    is_read = Column(Boolean, default=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    conversation = relationship("Conversation", back_populates="messages")
+    sender = relationship("User", back_populates="sent_messages", foreign_keys=[sender_id])

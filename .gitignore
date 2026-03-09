@@ -1,62 +1,73 @@
 
-# Environment variables
+# ── Environment variables ─────────────────────────────────────────────────────
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# OS files
+# ── OS files ──────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Logs
-*.log
-logs/
-
-# IDE
+# ── IDE ───────────────────────────────────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
 *.swo
 
-
-Frontend//lawgic_fenode_modules/
-Frontend/lawgic_fe/.next/
-Frontend/lawgic_feout/
-Frontend/lawgic_febuild/
-
-# Next.js cache
-Frontend/.turbo/
-Frontend/.vercel/
-
-# TypeScript
-Frontend/*.tsbuildinfo
-
-# Python cache
-Backend/__pycache__/
-Backend/*.py[cod]
-Backend/*$py.class
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
 
 # Virtual environments
-Backend/venv/
-Backend/.venv/
-Backend/env/
+.venv/
+venv/
+env/
+ENV/
 
-# FastAPI / Uvicorn
-Backend/.pytest_cache/
-Backend/.mypy_cache/
+# Testing / coverage
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
 
-# Coverage reports
-Backend/htmlcov/
-Backend/.coverage
-Backend/coverage.xml
+# Compiled extensions
+*.so
+*.pyd
 
+# ── Node / Next.js ────────────────────────────────────────────────────────────
+node_modules/
+**/node_modules/
 
+# Next.js build output
+Frontend/lawgic_fe/.next/
+Frontend/lawgic_fe/out/
+Frontend/lawgic_fe/build/
+
+# Next.js cache / deploy
+Frontend/lawgic_fe/.turbo/
+Frontend/lawgic_fe/.vercel/
+Frontend/lawgic_fe/.env*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ── Database / backups ────────────────────────────────────────────────────────
 *.sql
 *.dump
-*.bak
+*.db
+*.sqlite
+*.sqlite3
 
-
+# ── Misc ──────────────────────────────────────────────────────────────────────
 *.bak
 *.tmp
+*.log
+logs/
+dist/

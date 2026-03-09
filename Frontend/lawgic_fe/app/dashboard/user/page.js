@@ -1,18 +1,19 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { 
-  Plus, 
-  MessageSquare, 
-  Clock, 
-  FileText, 
-  Calendar, 
-  Settings, 
-  Edit, 
+import {
+  Plus,
+  MessageSquare,
+  Clock,
+  FileText,
+  Calendar,
+  Settings,
+  Edit,
   User,
   CheckCircle,
   FileCheck
 } from 'lucide-react';
+import { getMyProfile, getMyStats, getAISessions } from '@/lib/api';
 
 export default function UserDashboard() {
   // --- STATE MANAGEMENT ---
@@ -64,36 +65,33 @@ export default function UserDashboard() {
     const fetchDashboardData = async () => {
       try {
         setLoading(true);
-       
-        //  CONNECT BACKEND
-       
-        
-        /*
-        // 1. Fetch User Profile
-        const userRes = await fetch('http://localhost:5000/api/user/profile');
-        const userData = await userRes.json();
-        setUser(userData);
-
-        // 2. Fetch Stats
-        const statsRes = await fetch('http://localhost:5000/api/user/stats');
-        const statsData = await statsRes.json();
-        setStats(statsData);
-
-        // 3. Fetch Activity
-        const activityRes = await fetch('http://localhost:5000/api/user/activity');
-        const activityData = await activityRes.json();
-        setActivities(activityData);
-        */
-
-        await new Promise(resolve => setTimeout(resolve, 800)); // Simulate loading
-
+        const [profile, statsData, sessions] = await Promise.all([
+          getMyProfile(),
+          getMyStats(),
+          getAISessions().catch(() => []),
+        ]);
+        setUser({
+          name: profile.name,
+          email: profile.email,
+          location: 'Pakistan',
+          initials: profile.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
+        });
+        setStats({
+          documents: statsData.documents || 0,
+          chats: statsData.qa_sessions || 0,
+          appointments: statsData.appointments || 0,
+        });
+        setChatHistory(sessions.slice(0, 5).map(s => ({
+          id: s.session_id,
+          title: s.title || 'Legal Question',
+          time: new Date(s.created_at).toLocaleDateString(),
+        })));
       } catch (error) {
-        console.error("Failed to fetch dashboard data:", error);
+        console.error('Failed to fetch dashboard data:', error);
       } finally {
         setLoading(false);
       }
     };
-
     fetchDashboardData();
   }, []);
 

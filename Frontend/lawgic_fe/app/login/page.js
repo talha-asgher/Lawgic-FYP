@@ -1,15 +1,22 @@
 "use client";
 
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Mail, Lock, Eye, EyeOff, Scale, Loader2, AlertCircle } from 'lucide-react';
-import { loginUser } from '@/lib/api';
+import { loginUser, isLoggedIn, getUser } from '@/lib/api';
 
 export default function LoginPage() {
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
+
+  // Redirect already-authenticated users away from the login page
+  useEffect(() => {
+    if (isLoggedIn()) {
+      const u = getUser();
+      window.location.replace(u?.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+    }
+  }, []);
   const [error, setError] = useState('');
-  const [rememberMe, setRememberMe] = useState(false);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -86,13 +93,6 @@ export default function LoginPage() {
                     {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                   </button>
                 </div>
-              </div>
-              <div className="flex items-center justify-between">
-                <label className="flex items-center gap-2 cursor-pointer">
-                  <input type="checkbox" checked={rememberMe} onChange={(e) => setRememberMe(e.target.checked)} className="w-4 h-4 rounded border border-black/20 bg-white" />
-                  <span className="text-sm text-[#4A5565]">Remember me</span>
-                </label>
-                <a href="#" className="text-sm text-black hover:underline">Forgot password?</a>
               </div>
               <button type="submit" disabled={loading}
                 className="w-full py-3 bg-[#052379] hover:bg-[#041d5e] disabled:bg-[#052379]/70 disabled:cursor-not-allowed text-white text-sm font-medium rounded-lg transition-colors shadow-md flex items-center justify-center gap-2">

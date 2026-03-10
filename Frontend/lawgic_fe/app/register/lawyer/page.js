@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Check,
   ChevronRight,
@@ -14,9 +14,15 @@ import {
   GraduationCap,
   Loader2
 } from 'lucide-react';
-import { registerUser, upsertLawyerProfile, loginUser } from '@/lib/api';
+import { registerUser, upsertLawyerProfile, loginUser, isLoggedIn, getUser } from '@/lib/api';
 
 export default function LawyerRegistration() {
+  useEffect(() => {
+    if (isLoggedIn()) {
+      const u = getUser();
+      window.location.replace(u?.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+    }
+  }, []);
 
   const [currentStep, setCurrentStep] = useState(1);
   const [loading, setLoading] = useState(false);

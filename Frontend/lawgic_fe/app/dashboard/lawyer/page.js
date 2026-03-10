@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Users,
   Calendar,
@@ -14,10 +14,9 @@ import {
   Settings,
   MoreVertical
 } from 'lucide-react';
-import { getMyProfile, getMyStats, getMyLawyerProfile, getMyAppointments, getMyConversations } from '@/lib/api';
+import { getMyProfile, getMyStats, getMyLawyerProfile, getMyAppointments, getMyConversations, isLoggedIn, getUser } from '@/lib/api';
 
 export default function LawyerDashboard() {
-
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState({
     name: "",
@@ -37,6 +36,10 @@ export default function LawyerDashboard() {
 
   
   useEffect(() => {
+    if (!isLoggedIn()) { window.location.replace('/login'); return; }
+    const u = getUser();
+    if (u?.role !== 'lawyer') { window.location.replace('/dashboard/user'); return; }
+
     const fetchDashboardData = async () => {
       try {
         setLoading(true);

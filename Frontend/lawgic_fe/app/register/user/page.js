@@ -1,10 +1,17 @@
 "use client";
 
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Mail, Lock, Eye, EyeOff, User, Phone, Scale, Loader2, AlertCircle } from 'lucide-react';
-import { registerUser } from '@/lib/api';
+import { registerUser, isLoggedIn, getUser } from '@/lib/api';
 
 export default function LawgicRegister() {
+  useEffect(() => {
+    if (isLoggedIn()) {
+      const u = getUser();
+      window.location.replace(u?.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+    }
+  }, []);
+
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [loading, setLoading] = useState(false);

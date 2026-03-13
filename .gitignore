@@ -17,7 +17,6 @@ desktop.ini
 *.swp
 *.swo
 
-# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 **/__pycache__/
 *.py[cod]
@@ -41,7 +40,6 @@ coverage.xml
 *.so
 *.pyd
 
-# ── Node / Next.js ────────────────────────────────────────────────────────────
 node_modules/
 **/node_modules/
 
@@ -55,17 +53,14 @@ Frontend/lawgic_fe/.turbo/
 Frontend/lawgic_fe/.vercel/
 Frontend/lawgic_fe/.env*.local
 
-# TypeScript build info
 *.tsbuildinfo
 
-# ── Database / backups ────────────────────────────────────────────────────────
 *.sql
 *.dump
 *.db
 *.sqlite
 *.sqlite3
 
-# ── Misc ──────────────────────────────────────────────────────────────────────
 *.bak
 *.tmp
 *.log

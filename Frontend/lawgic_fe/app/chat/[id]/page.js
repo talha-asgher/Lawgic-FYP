@@ -1,135 +1,269 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import { useParams } from 'next/navigation';
-import { ChevronLeft, Send, Loader2 } from 'lucide-react';
-import { getConversationMessages, sendConversationMessage, getMyConversations, getUser, isLoggedIn } from '@/lib/api';
+import { useState, useEffect, useRef } from "react";
+import { useParams, useRouter } from "next/navigation";
+import { Send, Loader2, ChevronLeft, MessageSquare } from "lucide-react";
+import {
+  getConversationMessages,
+  sendConversationMessage,
+  getMyConversations,
+  markConversationRead,
+  getUser,
+  isLoggedIn,
+} from "@/lib/api";
+import ChatSidebar from "@/app/components/ChatSidebar";
+
+// ── Date separator helpers ────────────────────────────────────────────────────
+
+function dayLabel(dateStr) {
+  const d = new Date(dateStr);
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+
+  if (d.toDateString() === today.toDateString()) return "Today";
+  if (d.toDateString() === yesterday.toDateString()) return "Yesterday";
+  return d.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+}
+
+function isSameDay(a, b) {
+  return new Date(a).toDateString() === new Date(b).toDateString();
+}
+
+// ── Component ─────────────────────────────────────────────────────────────────
 
 export default function ChatThreadPage() {
   const { id } = useParams();
-  const [messages, setMessages] = useState([]);
-  const [newMessage, setNewMessage] = useState('');
-  const [loading, setLoading] = useState(true);
-  const [sending, setSending] = useState(false);
-  const [convTitle, setConvTitle] = useState('');
-  const messagesContainerRef = useRef(null);
-  const bottomRef = useRef(null);
+  const router = useRouter();
   const currentUser = getUser();
 
+  const [conversations, setConversations] = useState([]);
+  const [convsLoading, setConvsLoading] = useState(true);
+  const [messages, setMessages] = useState([]);
+  const [msgsLoading, setMsgsLoading] = useState(true);
+  const [convTitle, setConvTitle] = useState("");
+  const [newMessage, setNewMessage] = useState("");
+  const [sending, setSending] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const bottomRef = useRef(null);
+  const inputRef = useRef(null);
+
+  // Scroll to bottom whenever messages change
   useEffect(() => {
-    if (!isLoggedIn()) { window.location.href = '/login'; return; }
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
+  // Load conversations (for sidebar) and initial messages
+  useEffect(() => {
+    if (!isLoggedIn()) { window.location.replace("/login"); return; }
     if (!id) return;
-    const load = async () => {
-      try {
-        const [msgs, convs] = await Promise.all([
-          getConversationMessages(id),
-          getMyConversations().catch(() => []),
-        ]);
-        setMessages(msgs);
-        const conv = convs.find(c => c.conv_id === parseInt(id));
-        if (conv && currentUser) {
-          const other = conv.participants?.find(p => p.user_id !== currentUser.user_id);
-          setConvTitle(other?.name || 'Conversation');
+
+    // Load sidebar conversations
+    getMyConversations()
+      .then((data) => {
+        setConversations(data);
+        if (currentUser) {
+          const conv = data.find((c) => c.conv_id === parseInt(id));
+          if (conv) {
+            const other = conv.participants?.find((p) => p.user_id !== currentUser.user_id);
+            setConvTitle(other?.name || "Conversation");
+          }
         }
-      } catch (err) {
-        console.error(err);
-      } finally {
-        setLoading(false);
-      }
-    };
-    load();
-    const interval = setInterval(async () => {
-      try {
-        const msgs = await getConversationMessages(id);
-        setMessages(msgs);
-      } catch {}
+      })
+      .catch(console.error)
+      .finally(() => setConvsLoading(false));
+
+    // Load messages
+    getConversationMessages(id)
+      .then(setMessages)
+      .catch(console.error)
+      .finally(() => setMsgsLoading(false));
+
+    // Mark conversation as read
+    markConversationRead(id).catch(() => {});
+
+    // Poll for new messages every 5 s
+    const interval = setInterval(() => {
+      getConversationMessages(id).then(setMessages).catch(() => {});
     }, 5000);
     return () => clearInterval(interval);
   }, [id]);
 
-  useEffect(() => {
-    const container = messagesContainerRef.current;
-    if (!container) return;
-  }, [messages]);
-
+  // Send message
   const handleSend = async (e) => {
     e.preventDefault();
     if (!newMessage.trim() || sending) return;
+    const text = newMessage.trim();
+    setNewMessage("");
     setSending(true);
     try {
-      const msg = await sendConversationMessage(id, newMessage.trim());
-      setMessages(prev => [...prev, msg]);
-      setNewMessage('');
+      const msg = await sendConversationMessage(id, text);
+      setMessages((prev) => [...prev, msg]);
     } catch (err) {
-      alert(err.message || 'Failed to send message');
+      // Restore the message on failure
+      setNewMessage(text);
+      alert(err.message || "Failed to send message");
     } finally {
       setSending(false);
+      inputRef.current?.focus();
     }
   };
 
+  // Allow Enter to send (Shift+Enter for newline — but input is single-line)
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSend(e);
+    }
+  };
+
+  // Header initials
+  const titleInitials = convTitle
+    ? convTitle.split(" ").map((n) => n[0]).join("").substring(0, 2).toUpperCase()
+    : "?";
+
+  // ── Render ──────────────────────────────────────────────────────────────────
   return (
-    <div className="flex flex-col h-[calc(100vh-80px)] bg-[#F6F8FB]">
-      {/* Header */}
-      <div className="bg-white border-b border-gray-200 px-4 py-3 flex items-center gap-3 shadow-sm">
-        <button onClick={() => window.location.href = '/chat'}
-          className="text-gray-600 hover:text-gray-900">
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-        <div className="w-9 h-9 bg-[#052379] rounded-full flex items-center justify-center text-white text-sm font-medium">
-          {convTitle.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase() || 'C'}
-        </div>
-        <div>
-          <h2 className="font-medium text-gray-900 text-sm">{convTitle || 'Conversation'}</h2>
-          <p className="text-xs text-gray-400">Active now</p>
-        </div>
-      </div>
+    <div className="flex h-[calc(100vh-128px)] bg-[#F6F8FB] overflow-hidden">
 
-      {/* Messages */}
-      <div
-        ref={messagesContainerRef}
-        className="flex-1 overflow-y-auto p-4 space-y-3"
-      >
-        {loading ? (
-          <div className="flex justify-center py-8"><Loader2 className="w-6 h-6 text-[#052379] animate-spin" /></div>
-        ) : messages.length === 0 ? (
-          <div className="text-center py-8 text-gray-400 text-sm">No messages yet. Start the conversation!</div>
-        ) : (
-          messages.map(msg => {
-            const isMe = msg.sender_id === currentUser?.user_id;
-            return (
-              <div key={msg.message_id} className={`flex ${isMe ? 'justify-end' : 'justify-start'}`}>
-                <div className={`max-w-xs lg:max-w-md px-4 py-2.5 rounded-2xl text-sm
-                  ${isMe ? 'bg-[#052379] text-white rounded-br-sm' : 'bg-white text-gray-900 border border-gray-200 rounded-bl-sm shadow-sm'}`}>
-                  {!isMe && <p className="text-xs font-medium text-gray-500 mb-1">{msg.sender_name}</p>}
-                  <p>{msg.content}</p>
-                  <p className={`text-[10px] mt-1 ${isMe ? 'text-blue-200' : 'text-gray-400'}`}>
-                    {new Date(msg.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                  </p>
-                </div>
-              </div>
-            );
-          })
-        )}
-        <div ref={bottomRef} />
-      </div>
-
-      {/* Input */}
-      <form onSubmit={handleSend} className="bg-white border-t border-gray-200 p-4 flex items-center gap-3">
-        <input
-          type="text"
-          value={newMessage}
-          onChange={(e) => setNewMessage(e.target.value)}
-          placeholder="Type a message..."
-          className="flex-1 px-4 py-2.5 bg-[#F6F8FB] border border-gray-200 rounded-xl text-sm text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#052379]/20"
+      {/* Left sidebar — hidden on mobile, shown on md+ */}
+      <div className="hidden md:flex h-full">
+        <ChatSidebar
+          conversations={conversations}
+          loading={convsLoading}
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          activeConvId={id}
+          currentUser={currentUser}
         />
-        <button
-          type="submit"
-          disabled={!newMessage.trim() || sending}
-          className="w-10 h-10 bg-[#052379] rounded-xl flex items-center justify-center text-white hover:bg-[#041d5c] transition-colors disabled:opacity-40"
+      </div>
+
+      {/* Right panel — chat thread */}
+      <div className="flex-1 flex flex-col min-w-0 bg-white">
+
+        {/* Thread header */}
+        <div className="flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-200 shadow-sm flex-shrink-0">
+          {/* Back button — mobile only */}
+          <button
+            onClick={() => router.push("/chat")}
+            className="md:hidden text-gray-600 hover:text-gray-900 flex-shrink-0"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+
+          {/* Avatar */}
+          <div className="relative flex-shrink-0">
+            <div className="w-10 h-10 bg-[#052379] rounded-full flex items-center justify-center text-white text-sm font-medium">
+              {msgsLoading ? "…" : titleInitials}
+            </div>
+            {/* Online indicator */}
+            <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
+          </div>
+
+          {/* Name */}
+          <div className="flex-1 min-w-0">
+            <h2 className="font-medium text-gray-900 text-sm truncate">
+              {convTitle || (msgsLoading ? "Loading…" : "Conversation")}
+            </h2>
+            <p className="text-xs text-emerald-500">Online</p>
+          </div>
+        </div>
+
+        {/* Messages area */}
+        <div className="flex-1 overflow-y-auto px-4 py-4 bg-[#F6F8FB]">
+          {msgsLoading ? (
+            <div className="flex justify-center items-center h-full">
+              <Loader2 className="w-7 h-7 text-[#052379] animate-spin" />
+            </div>
+          ) : messages.length === 0 ? (
+            <div className="flex flex-col items-center justify-center h-full gap-3 text-center">
+              <MessageSquare className="w-10 h-10 text-gray-200" />
+              <p className="text-sm text-gray-400">No messages yet. Say hello!</p>
+            </div>
+          ) : (
+            <div className="space-y-1 max-w-3xl mx-auto">
+              {messages.map((msg, i) => {
+                const isMe = msg.sender_id === currentUser?.user_id;
+                const prevMsg = messages[i - 1];
+                const showDateSep = !prevMsg || !isSameDay(prevMsg.created_at, msg.created_at);
+                const showSenderName = !isMe && (!prevMsg || prevMsg.sender_id !== msg.sender_id || showDateSep);
+                const isLastInGroup = !messages[i + 1] || messages[i + 1].sender_id !== msg.sender_id;
+
+                return (
+                  <div key={msg.message_id}>
+                    {/* Date separator */}
+                    {showDateSep && (
+                      <div className="flex items-center gap-3 my-4">
+                        <div className="flex-1 h-px bg-gray-200" />
+                        <span className="text-xs text-gray-400 bg-[#F6F8FB] px-2 whitespace-nowrap">
+                          {dayLabel(msg.created_at)}
+                        </span>
+                        <div className="flex-1 h-px bg-gray-200" />
+                      </div>
+                    )}
+
+                    {/* Message bubble */}
+                    <div className={`flex items-end gap-2 ${isMe ? "justify-end" : "justify-start"} ${isLastInGroup ? "mb-2" : "mb-0.5"}`}>
+                      {/* Other user avatar — only on last bubble in group */}
+                      {!isMe && (
+                        <div className={`w-7 h-7 rounded-full bg-[#052379] flex items-center justify-center text-white text-[10px] font-medium flex-shrink-0 ${isLastInGroup ? "opacity-100" : "opacity-0"}`}>
+                          {msg.sender_name ? msg.sender_name.split(" ").map((n) => n[0]).join("").substring(0, 2).toUpperCase() : "?"}
+                        </div>
+                      )}
+
+                      <div className={`flex flex-col ${isMe ? "items-end" : "items-start"}`}>
+                        {/* Sender name for incoming messages (first in group) */}
+                        {showSenderName && (
+                          <span className="text-[11px] text-gray-400 font-medium mb-1 ml-1">
+                            {msg.sender_name}
+                          </span>
+                        )}
+
+                        <div className={`relative max-w-xs lg:max-w-sm xl:max-w-md px-3.5 py-2 text-sm
+                          ${isMe
+                            ? "bg-[#052379] text-white rounded-2xl rounded-br-md"
+                            : "bg-white text-gray-900 border border-gray-200 rounded-2xl rounded-bl-md shadow-sm"
+                          }`}
+                        >
+                          <p className="leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
+                          <p className={`text-[10px] mt-1 text-right ${isMe ? "text-blue-200" : "text-gray-400"}`}>
+                            {new Date(msg.created_at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+              <div ref={bottomRef} />
+            </div>
+          )}
+        </div>
+
+        {/* Input area */}
+        <form
+          onSubmit={handleSend}
+          className="flex items-center gap-3 px-4 py-3 bg-white border-t border-gray-200 flex-shrink-0"
         >
-          {sending ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
-        </button>
-      </form>
+          <input
+            ref={inputRef}
+            type="text"
+            value={newMessage}
+            onChange={(e) => setNewMessage(e.target.value)}
+            onKeyDown={handleKeyDown}
+            placeholder="Type a message…"
+            className="flex-1 px-4 py-2.5 bg-[#F6F8FB] border border-gray-200 rounded-full text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-colors"
+          />
+          <button
+            type="submit"
+            disabled={!newMessage.trim() || sending}
+            className="w-10 h-10 bg-[#052379] rounded-full flex items-center justify-center text-white hover:bg-[#041d5c] transition-colors disabled:opacity-40 flex-shrink-0"
+          >
+            {sending ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

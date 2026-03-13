@@ -35,6 +35,10 @@ export default function LawgicRegister() {
       setError("Password must be at least 6 characters.");
       return;
     }
+    if (!/\d/.test(formData.password)) {
+      setError("Password must contain at least one number.");
+      return;
+    }
     setLoading(true);
     setError('');
     try {

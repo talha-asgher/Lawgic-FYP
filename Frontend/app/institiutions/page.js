@@ -51,17 +51,17 @@ export default function InstitutionsPage() {
   ]);
 
 
-  useEffect(() => {
+  // useEffect(() => {
    
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (pos) => setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
-        (err) => console.log("Location denied")
-      );
-    }
+  //   if (navigator.geolocation) {
+  //     navigator.geolocation.getCurrentPosition(
+  //       (pos) => setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+  //       (err) => console.log("Location denied")
+  //     );
+  //   }
 
-    fetchInstitutions();
-  }, []);
+  //   fetchInstitutions();
+  // }, []);
 
   const fetchInstitutions = async (query = '', type = 'all') => {
     setIsLoading(true);

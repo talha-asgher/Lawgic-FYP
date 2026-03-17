@@ -8,14 +8,16 @@ import Footer from "./Footer";
 export default function ClientLayout({ children }) {
   const pathname = usePathname();
 
-  const hideSubAndFooter =
+  // Login / register pages render their own full-page header
+  const hideAll =
     pathname.startsWith("/login") ||
     pathname.startsWith("/register");
 
+  const hideSubAndFooter = hideAll;
+
   return (
     <>
-      
-      {!hideSubAndFooter && <Navbar />}
+      {!hideAll && <Navbar />}
       {!hideSubAndFooter && <SubNavbar />}
       <main>{children}</main>
       {!hideSubAndFooter && <Footer />}

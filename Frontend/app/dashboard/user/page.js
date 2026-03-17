@@ -1,18 +1,19 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import { 
-  Plus, 
-  MessageSquare, 
-  Clock, 
-  FileText, 
-  Calendar, 
-  Settings, 
-  Edit, 
+import { useState, useEffect } from 'react';
+import {
+  Plus,
+  MessageSquare,
+  Clock,
+  FileText,
+  Calendar,
+  Settings,
+  Edit,
   User,
   CheckCircle,
   FileCheck
 } from 'lucide-react';
+import { getMyProfile, getMyStats, getAISessions, isLoggedIn, getUser } from '@/lib/api';
 
 export default function UserDashboard() {
   // --- STATE MANAGEMENT ---
@@ -61,78 +62,45 @@ export default function UserDashboard() {
   ]);
 
   useEffect(() => {
+    if (!isLoggedIn()) { window.location.replace('/login'); return; }
+    const u = getUser();
+    if (u?.role !== 'client') { window.location.replace('/dashboard/lawyer'); return; }
+
     const fetchDashboardData = async () => {
       try {
         setLoading(true);
-       
-        //  CONNECT BACKEND
-       
-        
-        /*
-        // 1. Fetch User Profile
-        const userRes = await fetch('http://localhost:5000/api/user/profile');
-        const userData = await userRes.json();
-        setUser(userData);
-
-        // 2. Fetch Stats
-        const statsRes = await fetch('http://localhost:5000/api/user/stats');
-        const statsData = await statsRes.json();
-        setStats(statsData);
-
-        // 3. Fetch Activity
-        const activityRes = await fetch('http://localhost:5000/api/user/activity');
-        const activityData = await activityRes.json();
-        setActivities(activityData);
-        */
-
-        await new Promise(resolve => setTimeout(resolve, 800)); // Simulate loading
-
+        const [profile, statsData, sessions] = await Promise.all([
+          getMyProfile(),
+          getMyStats(),
+          getAISessions().catch(() => []),
+        ]);
+        setUser({
+          name: profile.name,
+          email: profile.email,
+          location: 'Pakistan',
+          initials: profile.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
+        });
+        setStats({
+          documents: statsData.documents || 0,
+          chats: statsData.qa_sessions || 0,
+          appointments: statsData.appointments || 0,
+        });
+        setChatHistory(sessions.slice(0, 5).map(s => ({
+          id: s.session_id,
+          title: s.title || 'Legal Question',
+          time: new Date(s.created_at).toLocaleDateString(),
+        })));
       } catch (error) {
-        console.error("Failed to fetch dashboard data:", error);
+        console.error('Failed to fetch dashboard data:', error);
       } finally {
         setLoading(false);
       }
     };
-
     fetchDashboardData();
   }, []);
 
   return (
     <div className="flex min-h-[calc(100vh-80px)] bg-[#F6F8FB]">
-      
-      {/*  SIDEBAR  */}
-      <aside className="hidden lg:flex w-80 bg-white border-r border-gray-200 flex-col sticky top-0 h-screen overflow-y-auto">
-        
-        {/* New Chat Button */}
-        <div className="p-6 border-b border-gray-100">
-          <button className="w-full flex items-center justify-center gap-2 bg-[#052379] hover:bg-[#041d5c] text-white py-3 rounded-xl font-medium transition-colors shadow-sm">
-            <Plus className="w-5 h-5" />
-            New Chat
-          </button>
-        </div>
-
-        {/* History List */}
-        <div className="flex-1 p-4 space-y-2">
-          <h3 className="text-xs font-medium text-gray-400 uppercase tracking-wider px-2 mb-2">
-            Recent Conversations
-          </h3>
-          {chatHistory.map((item) => (
-            <button 
-              key={item.id}
-              className="w-full text-left p-3 rounded-lg hover:bg-gray-50 transition-colors group"
-            >
-              <div className="flex items-center gap-3 mb-1">
-                <MessageSquare className="w-4 h-4 text-gray-400 group-hover:text-[#052379]" />
-                <span className="text-sm text-gray-900 font-medium truncate">{item.title}</span>
-              </div>
-              <div className="flex items-center gap-1.5 pl-7">
-                <Clock className="w-3 h-3 text-gray-400" />
-                <span className="text-xs text-gray-500">{item.time}</span>
-              </div>
-            </button>
-          ))}
-        </div>
-      </aside>
 
       {/* main contnt  */}
       <main className="flex-1 p-6 lg:p-12 overflow-y-auto">

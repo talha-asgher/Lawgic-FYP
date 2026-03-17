@@ -2,15 +2,13 @@
 
 import React, { useState } from 'react';
 import { Mail, Lock, Eye, EyeOff, Scale, Loader2, AlertCircle } from 'lucide-react';
-
+import { useRouter } from "next/navigation";
+import { login } from "../lib/api";
+import { useAuthStore } from "../lib/authStore";
 export default function LoginPage() {
   
-  const router = {
-    push: (path) => {
-      console.log(`Navigating to: ${path}`);
-    
-    }
-  };
+ const router = useRouter();
+const loginStore = useAuthStore((state) => state.login);
 
   const [formData, setFormData] = useState({
     email: '',
@@ -30,65 +28,32 @@ export default function LoginPage() {
     setShowPassword(!showPassword);
   };
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setError('');
+const handleLogin = async (e) => {
+  e.preventDefault();
+  setLoading(true);
+  setError("");
 
-    try {
- 
-      /* // Example implementation using fetch:
-      
-      const response = await fetch('http://localhost:5000/api/auth/login', {
-        method: 'POST',
-        headers: { 
-          'Content-Type': 'application/json' 
-        },
-        body: JSON.stringify({ 
-          email: formData.email, 
-          password: formData.password 
-        }),
-      });
+  try {
+    const data = await login(formData.email, formData.password);
 
-      const data = await response.json();
+    localStorage.setItem("access_token", data.access_token);
+    localStorage.setItem("user", JSON.stringify(data.user));
 
-      if (!response.ok) {
-        throw new Error(data.message || 'Login failed');
-      }
+    // update global auth state
+    loginStore(data.user, data.access_token);
 
-      // 1. Store the JWT token from your Node backend
-      localStorage.setItem('token', data.token);
-      localStorage.setItem('user', JSON.stringify(data.user));
-
-      // 2. Check role from response and redirect
-      if (data.user.role === 'lawyer') {
-         router.push('/lawyer/dashboard');
-      } else {
-         router.push('/user/dashboard');
-      }
-      */
-
-       console.log("Simulating API Call to Node.js...", formData);
-      await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate network latency
-
-      if (formData.password === "error") {
-        throw new Error("Invalid email or password (Mock Error)");
-      }
-
-       if (formData.email.includes('lawyer')) {
-        router.push('/lawyer/dashboard');
-      } else {
-        router.push('/user/dashboard');
-      }
-      
-    } catch (err) {
-      console.error("Login Error:", err);
-      setError(err.message || "An error occurred. Please try again.");
-    } finally {
-      setLoading(false);
+    // redirect by role
+    if (data.user.role === "lawyer") {
+      router.push("/dashboard/lawyer");
+    } else {
+      router.push("/dashboard/user");
     }
-  };
-
+  } catch (err) {
+    setError(err.message);
+  } finally {
+    setLoading(false);
+  }
+};
   return (
     <div className="min-h-screen bg-white flex flex-col">
       {/* Header */}

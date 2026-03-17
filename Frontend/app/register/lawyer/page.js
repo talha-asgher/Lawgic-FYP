@@ -14,6 +14,7 @@ import {
   GraduationCap, 
   Loader2
 } from 'lucide-react';
+import { registerLawyer } from "../../lib/api";
 
 export default function LawyerRegistration() {
 
@@ -80,43 +81,22 @@ export default function LawyerRegistration() {
     }
   };
 
-  const handleSubmit = async () => {
-    setLoading(true);
-    try {
-      const dataPayload = new FormData();
-      
-      Object.keys(formData).forEach(key => {
-        if (key !== 'barLicenseFile' && key !== 'cnicFile') {
-          dataPayload.append(key, formData[key]);
-        }
-      });
+const handleSubmit = async () => {
+  setLoading(true);
 
-      if (formData.barLicenseFile) dataPayload.append('barLicense', formData.barLicenseFile);
-      if (formData.cnicFile) dataPayload.append('cnic', formData.cnicFile);
+  try {
+    await registerLawyer(formData);
 
-      /*
-      const response = await fetch('http://localhost:5000/api/auth/register-lawyer', {
-        method: 'POST',
-        body: dataPayload, // No Content-Type header needed for FormData
-      });
+    alert("Lawyer registration submitted for review!");
+    window.location.href = "/login";
 
-      if (!response.ok) throw new Error('Registration failed');
-      
-      // Redirect to Login
-      window.location.href = '/login';
-      */
-
-      console.log("Submitting Lawyer Data:", formData);
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      alert("Registration Submitted for Review!");
-      
-    } catch (error) {
-      console.error("Submission Error:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
+  } catch (error) {
+    console.error(error);
+    alert(error.message);
+  } finally {
+    setLoading(false);
+  }
+};
   const renderStepContent = () => {
     switch (currentStep) {
       case 1: 

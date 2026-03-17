@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { Mail, Lock, Eye, EyeOff, User, Phone, Scale, Loader2, AlertCircle } from 'lucide-react';
-
+import { registerUser } from "../../lib/api";
 export default function LawgicRegister() {
   
   const router = {
@@ -35,71 +35,30 @@ export default function LawgicRegister() {
     if (error) setError('');
   };
 
-  const handleRegister = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setError('');
+const handleRegister = async (e) => {
+  e.preventDefault();
 
-    if (formData.password !== formData.confirmPassword) {
-      setError("Passwords do not match.");
-      setLoading(false);
-      return;
-    }
+  setLoading(true);
+  setError("");
 
-    if (formData.password.length < 6) {
-        setError("Password must be at least 6 characters.");
-        setLoading(false);
-        return;
-    }
+  if (formData.password !== formData.confirmPassword) {
+    setError("Passwords do not match");
+    setLoading(false);
+    return;
+  }
 
-    try {
+  try {
+    await registerUser(formData);
 
-      
-      /* 
-      
-      const response = await fetch('http://localhost:5000/api/auth/register', {
-        method: 'POST',
-        headers: { 
-          'Content-Type': 'application/json' 
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          password: formData.password,
-          phone: formData.phone,
-          role: 'user' // Default role for this form
-        }),
-      });
+    alert("Registration successful!");
+    router.push("/login");
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.message || 'Registration failed');
-      }
-
-      // Success! Redirect to login or dashboard
-      router.push('/login');
-      */
-
-      console.log('Sending Registration Data:', formData);
-      await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate API delay
-
-      if (formData.email.includes("error")) {
-        throw new Error("This email is already registered.");
-      }
-
-      alert("Registration successful! Redirecting to Login...");
-      router.push('/login');
-     
-
-    } catch (err) {
-      console.error("Registration Error:", err);
-      setError(err.message || "An error occurred during registration.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
+  } catch (err) {
+    setError(err.message);
+  } finally {
+    setLoading(false);
+  }
+};
   return (
     <div className="min-h-screen flex flex-col bg-white">
       {/* Header */}

@@ -13,8 +13,6 @@ import {
 } from "@/lib/api";
 import ChatSidebar from "@/app/components/ChatSidebar";
 
-// ── Date separator helpers ────────────────────────────────────────────────────
-
 function dayLabel(dateStr) {
   const d = new Date(dateStr);
   const today = new Date();
@@ -29,8 +27,6 @@ function dayLabel(dateStr) {
 function isSameDay(a, b) {
   return new Date(a).toDateString() === new Date(b).toDateString();
 }
-
-// ── Component ─────────────────────────────────────────────────────────────────
 
 export default function ChatThreadPage() {
   const { id } = useParams();
@@ -49,17 +45,14 @@ export default function ChatThreadPage() {
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
 
-  // Scroll to bottom whenever messages change
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  // Load conversations (for sidebar) and initial messages
   useEffect(() => {
     if (!isLoggedIn()) { window.location.replace("/login"); return; }
     if (!id) return;
 
-    // Load sidebar conversations
     getMyConversations()
       .then((data) => {
         setConversations(data);
@@ -74,23 +67,19 @@ export default function ChatThreadPage() {
       .catch(console.error)
       .finally(() => setConvsLoading(false));
 
-    // Load messages
     getConversationMessages(id)
       .then(setMessages)
       .catch(console.error)
       .finally(() => setMsgsLoading(false));
 
-    // Mark conversation as read
     markConversationRead(id).catch(() => {});
 
-    // Poll for new messages every 5 s
     const interval = setInterval(() => {
       getConversationMessages(id).then(setMessages).catch(() => {});
     }, 5000);
     return () => clearInterval(interval);
   }, [id]);
 
-  // Send message
   const handleSend = async (e) => {
     e.preventDefault();
     if (!newMessage.trim() || sending) return;
@@ -101,7 +90,6 @@ export default function ChatThreadPage() {
       const msg = await sendConversationMessage(id, text);
       setMessages((prev) => [...prev, msg]);
     } catch (err) {
-      // Restore the message on failure
       setNewMessage(text);
       alert(err.message || "Failed to send message");
     } finally {
@@ -110,7 +98,6 @@ export default function ChatThreadPage() {
     }
   };
 
-  // Allow Enter to send (Shift+Enter for newline — but input is single-line)
   const handleKeyDown = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
@@ -118,16 +105,13 @@ export default function ChatThreadPage() {
     }
   };
 
-  // Header initials
   const titleInitials = convTitle
     ? convTitle.split(" ").map((n) => n[0]).join("").substring(0, 2).toUpperCase()
     : "?";
 
-  // ── Render ──────────────────────────────────────────────────────────────────
   return (
     <div className="flex h-[calc(100vh-128px)] bg-[#F6F8FB] overflow-hidden">
 
-      {/* Left sidebar — hidden on mobile, shown on md+ */}
       <div className="hidden md:flex h-full">
         <ChatSidebar
           conversations={conversations}
@@ -139,12 +123,12 @@ export default function ChatThreadPage() {
         />
       </div>
 
-      {/* Right panel — chat thread */}
+      {/* Right panel*/}
       <div className="flex-1 flex flex-col min-w-0 bg-white">
 
         {/* Thread header */}
         <div className="flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-200 shadow-sm flex-shrink-0">
-          {/* Back button — mobile only */}
+          {/* Back button*/}
           <button
             onClick={() => router.push("/chat")}
             className="md:hidden text-gray-600 hover:text-gray-900 flex-shrink-0"
@@ -205,7 +189,7 @@ export default function ChatThreadPage() {
 
                     {/* Message bubble */}
                     <div className={`flex items-end gap-2 ${isMe ? "justify-end" : "justify-start"} ${isLastInGroup ? "mb-2" : "mb-0.5"}`}>
-                      {/* Other user avatar — only on last bubble in group */}
+                      {/* Other user avatar*/}
                       {!isMe && (
                         <div className={`w-7 h-7 rounded-full bg-[#052379] flex items-center justify-center text-white text-[10px] font-medium flex-shrink-0 ${isLastInGroup ? "opacity-100" : "opacity-0"}`}>
                           {msg.sender_name ? msg.sender_name.split(" ").map((n) => n[0]).join("").substring(0, 2).toUpperCase() : "?"}
@@ -213,7 +197,7 @@ export default function ChatThreadPage() {
                       )}
 
                       <div className={`flex flex-col ${isMe ? "items-end" : "items-start"}`}>
-                        {/* Sender name for incoming messages (first in group) */}
+                        {/* Sender name for incoming messages*/}
                         {showSenderName && (
                           <span className="text-[11px] text-gray-400 font-medium mb-1 ml-1">
                             {msg.sender_name}
@@ -241,7 +225,6 @@ export default function ChatThreadPage() {
           )}
         </div>
 
-        {/* Input area */}
         <form
           onSubmit={handleSend}
           className="flex items-center gap-3 px-4 py-3 bg-white border-t border-gray-200 flex-shrink-0"

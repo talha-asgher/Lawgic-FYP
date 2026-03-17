@@ -20,7 +20,6 @@ export default function ChatListPage() {
   }, []);
 
   return (
-    // h-[calc(100vh-80px)] because only Navbar (80px) is shown on /chat pages
     <div className="flex h-[calc(100vh-128px)] bg-[#F6F8FB] overflow-hidden">
       <ChatSidebar
         conversations={conversations}
@@ -31,7 +30,7 @@ export default function ChatListPage() {
         currentUser={currentUser}
       />
 
-      {/* Right pane — shown only on md+ */}
+      {/* Right pane*/}
       <div className="hidden md:flex flex-1 flex-col items-center justify-center gap-4 text-center bg-[#F6F8FB]">
         <div className="w-20 h-20 bg-white rounded-full border border-gray-200 flex items-center justify-center shadow-sm">
           <MessageSquare className="w-9 h-9 text-gray-300" />

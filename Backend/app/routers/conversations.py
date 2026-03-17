@@ -1,9 +1,3 @@
-# app/routers/conversations.py
-"""
-Direct messaging between clients and lawyers.
-REST-based with a structure that supports WebSocket upgrades later.
-Each conversation has exactly 2 participants.
-"""
 from datetime import datetime, timezone
 from typing import List
 
@@ -61,17 +55,13 @@ def get_or_create_conversation(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """
-    Get an existing 1-on-1 conversation with other_user_id, or create one.
-    Optionally linked to a case.
-    """
+
     other_user = db.get(models.User, body.other_user_id)
     if not other_user:
         raise HTTPException(status_code=404, detail="User not found")
     if other_user.user_id == current_user.user_id:
         raise HTTPException(status_code=400, detail="Cannot start a conversation with yourself")
 
-    # Look for an existing 1-on-1 conversation between these two users
     my_convs = (
         db.query(models.ConversationParticipant.conv_id)
         .filter(models.ConversationParticipant.user_id == current_user.user_id)
@@ -92,7 +82,6 @@ def get_or_create_conversation(
     )
 
     if shared:
-        # If caller also passed an initial_message, send it
         if body.initial_message:
             msg = models.Message(
                 conv_id=shared.conv_id,
@@ -104,7 +93,6 @@ def get_or_create_conversation(
             db.refresh(shared)
         return _build_conv_out(shared, current_user.user_id)
 
-    # Create new conversation
     conv = models.Conversation(case_id=body.case_id)
     db.add(conv)
     db.flush()
@@ -129,7 +117,6 @@ def list_my_conversations(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """List all conversations the current user participates in."""
     participants = (
         db.query(models.ConversationParticipant)
         .filter(models.ConversationParticipant.user_id == current_user.user_id)
@@ -161,7 +148,6 @@ def list_messages(
         .all()
     )
 
-    # Mark unread messages from others as read
     for m in messages:
         if not m.is_read and m.sender_id != current_user.user_id:
             m.is_read = True
@@ -200,7 +186,6 @@ def send_message(
         content=msg_in.content.strip(),
     )
     db.add(msg)
-    # Explicitly update timestamp so polling clients see the new message
     conv.updated_at = datetime.now(timezone.utc)
     db.commit()
     db.refresh(msg)
@@ -222,7 +207,6 @@ def mark_as_read(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """Mark all messages from others in this conversation as read."""
     conv = _get_conv_or_404(conv_id, db)
     _verify_participant(conv, current_user)
 

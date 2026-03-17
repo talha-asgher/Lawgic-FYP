@@ -86,7 +86,6 @@ export default function CasesPage() {
           )}
         </div>
 
-        {/* Lawyer: Pending Requests tab */}
         {currentUser?.role === 'lawyer' && (
           <div className="flex gap-1 mb-6 bg-white rounded-xl border border-gray-200 p-1">
             {['cases', 'requests'].map(tab => (
@@ -183,10 +182,6 @@ export default function CasesPage() {
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-gray-400">{new Date(c.created_at).toLocaleDateString()}</span>
                       <div className="flex gap-2">
-                        <button onClick={() => { window.location.href = '/cases/' + c.case_id + '/chat'; }}
-                          className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-600 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
-                          <MessageSquare className="w-3 h-3" />Chat
-                        </button>
                         <button onClick={() => { window.location.href = '/find-lawyers'; }}
                           className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-[#052379] border border-[#052379]/20 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                           <Users className="w-3 h-3" />Find Lawyer
@@ -199,7 +194,6 @@ export default function CasesPage() {
             )}
           </div>
         ) : (
-          // Lawyer's pending requests
           <div className="space-y-4">
             {requests.length === 0 ? (
               <div className="bg-white rounded-2xl border border-gray-200 p-12 text-center">

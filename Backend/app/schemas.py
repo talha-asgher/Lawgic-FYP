@@ -52,6 +52,7 @@ class PasswordChange(BaseModel):
 class Token(BaseModel):
     access_token: str
     token_type: str
+    user: UserOut
 
 
 class LawyerProfileBase(BaseModel):
@@ -189,3 +190,15 @@ class CaseMessageOut(BaseModel):
 
     class Config:
         from_attributes = True
+
+class LawyerRegister(BaseModel):
+    name: str
+    email: EmailStr
+    password: str
+    phone_num: Optional[str] = None
+
+    specialization: str
+    bio_data: Optional[str] = None
+    years_of_experience: Optional[int] = None
+    office_address: Optional[str] = None
+    consultation_fee: Optional[float] = None

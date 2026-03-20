@@ -8,6 +8,7 @@ from sqlalchemy import (
     ForeignKey,
     Float,
     Boolean,
+    LargeBinary,
 )
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
@@ -121,12 +122,12 @@ class Document(Base):
     title = Column(Text, nullable=False)
     type = Column(Text, nullable=False)
     content = Column(Text, nullable=False)
+    pdf_data = Column(LargeBinary, nullable=True)
     created_at = Column(
         DateTime(timezone=True),
         server_default=func.now(),
         nullable=False,
     )
-
     user = relationship("User", back_populates="documents")
     template = relationship("DocumentTemplate", back_populates="documents")
     analysis = relationship(

@@ -7,6 +7,7 @@ from app.database import engine, Base
 from app import models
 from app.deps import get_db
 from app.routers import auth, lawyers, institutions, appointments, users, cases
+from app.routers.documents import router as documents_router  # ✅ ADD THIS
 
 Base.metadata.create_all(bind=engine)
 
@@ -31,6 +32,8 @@ app.include_router(institutions.router)
 app.include_router(appointments.router)
 app.include_router(users.router)
 app.include_router(cases.router)
+app.include_router(documents_router)  # ✅ ADD THIS
+
 
 
 @app.get("/health")

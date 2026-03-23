@@ -2,29 +2,39 @@
 
 import { useState, useEffect } from 'react';
 import { Mail, Lock, Eye, EyeOff, Scale, Loader2, AlertCircle } from 'lucide-react';
-import { loginUser, isLoggedIn, getUser } from '@/lib/api';
+import { useRouter } from "next/navigation";
+import { login } from "../lib/api";
+import { useAuthStore } from "../lib/authStore";
 
 export default function LoginPage() {
+  const router = useRouter();
+  const loginStore = useAuthStore((state) => state.login);
+  const { isLoggedIn, user } = useAuthStore();
+
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
-
-  // Redirect already-authenticated users away from the login page
-  useEffect(() => {
-    if (isLoggedIn()) {
-      const u = getUser();
-      window.location.replace(u?.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
-    }
-  }, []);
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (isLoggedIn && user) {
+      router.replace(user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+    }
+  }, [isLoggedIn, user, router]);
 
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError('');
     try {
-      const data = await loginUser(formData.email, formData.password);
-      window.location.href = data.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user';
+      const data = await login(formData.email, formData.password);
+
+      localStorage.setItem("access_token", data.access_token);
+      localStorage.setItem("user", JSON.stringify(data.user));
+
+      loginStore(data.user, data.access_token);
+
+      router.push(data.user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
     } catch (err) {
       setError(err.message || 'Login failed. Please try again.');
     } finally {
@@ -103,11 +113,11 @@ export default function LoginPage() {
             <div className="mt-6 pt-6 border-t border-[#E7ECF3]">
               <p className="text-center text-sm text-[#64748B] mb-3">Don&apos;t have an account?</p>
               <div className="flex gap-2">
-                <button onClick={() => { window.location.href = '/register/user'; }}
+                <button onClick={() => router.push('/register/user')}
                   className="flex-1 px-3 py-2 text-sm font-medium text-[#0E1726] bg-white hover:bg-[#F0F2F5] rounded-lg border border-[#E7ECF3] transition-all duration-200 shadow-sm hover:shadow-md">
                   Register as User
                 </button>
-                <button onClick={() => { window.location.href = '/register/lawyer'; }}
+                <button onClick={() => router.push('/register/lawyer')}
                   className="flex-1 px-3 py-2 text-sm font-medium text-[#0E1726] bg-white hover:bg-[#F0F2F5] rounded-lg border border-[#E7ECF3] transition-all duration-200 shadow-sm hover:shadow-md">
                   Register as Lawyer
                 </button>

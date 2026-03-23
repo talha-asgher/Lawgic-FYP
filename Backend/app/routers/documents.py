@@ -1,24 +1,26 @@
 # app/routers/documents.py
-"""
-Document Templates and Document Generation.
-Templates are seeded; generation creates a Document record.
-Full AI-powered generation can be plugged in via the service layer later.
-"""
 import json
-from typing import List, Optional
+import datetime
+from typing import List, Optional, Any
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi.responses import StreamingResponse
+from pydantic import BaseModel
 from sqlalchemy.orm import Session
+from io import BytesIO
 
 from app import models, schemas
 from app.deps import get_db
 from app.routers.auth import get_current_user
+from app.utils.pdf_generator import generate_document, PDF_GENERATORS
 
 router = APIRouter(
     prefix="/documents",
     tags=["documents"],
 )
 
+
+# ─── Template catalog routes ──────────────────────────────────────────────────
 
 @router.get("/templates", response_model=List[schemas.DocumentTemplateOut])
 def list_templates(
@@ -42,52 +44,165 @@ def get_template(template_id: int, db: Session = Depends(get_db)):
     return t
 
 
-@router.post("/generate", response_model=schemas.DocumentOut)
-def generate_document(
-    req: schemas.DocumentGenerateRequest,
+# ─── PDF generation schemas ───────────────────────────────────────────────────
+
+class GenerateDocumentRequest(BaseModel):
+    template_type: str
+    form_data: dict[str, Any]
+
+
+class GenerateDocumentResponse(BaseModel):
+    document_id: int
+    template_type: str
+    title: str
+    message: str
+    created_at: str
+
+
+class DocumentListItem(BaseModel):
+    document_id: int
+    title: str
+    type: str
+    created_at: str
+
+    class Config:
+        from_attributes = True
+
+
+# ─── PDF generation routes ────────────────────────────────────────────────────
+
+@router.post("/generate", response_model=GenerateDocumentResponse)
+def generate_document_endpoint(
+    request: GenerateDocumentRequest,
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """
-    Generate a document from a template.
-    Currently: merges input_data into the sample_content as a placeholder.
-    Future: plug in AI generation service here.
-    """
-    template = db.get(models.DocumentTemplate, req.template_id)
-    if not template:
-        raise HTTPException(status_code=404, detail="Template not found")
+    """Generate a PDF from a named template type, save to DB, return doc metadata."""
+    if request.template_type not in PDF_GENERATORS:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Unknown template type '{request.template_type}'. "
+                   f"Valid: {', '.join(PDF_GENERATORS.keys())}"
+        )
 
-    # Placeholder content generation: substitute {{field}} placeholders
-    content = template.sample_content or f"[{template.title or template.type} — content pending]"
-    if req.input_data:
-        for key, value in req.input_data.items():
-            content = content.replace(f"{{{{{key}}}}}", str(value))
+    try:
+        pdf_bytes = generate_document(request.template_type, request.form_data)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"PDF generation failed: {str(e)}"
+        )
 
-    doc = models.Document(
-        user_id=current_user.user_id,
-        template_id=req.template_id,
-        title=req.title,
-        type=template.type,
-        content=content,
-        input_data=json.dumps(req.input_data) if req.input_data else None,
+    title_map = {
+        "fir":          "FIR (First Information Report)",
+        "tenancy":      "Tenancy Agreement",
+        "divorce":      "Divorce Notice (Talaq)",
+        "affidavit":    "Affidavit",
+        "poa":          "Power of Attorney",
+        "legal_notice": "Legal Notice",
+    }
+    doc_title = (
+        f"{title_map.get(request.template_type, request.template_type)} — "
+        f"{datetime.date.today().strftime('%d %b %Y')}"
     )
-    db.add(doc)
+
+    db_doc = models.Document(
+        user_id=current_user.user_id,
+        template_id=None,
+        title=doc_title,
+        type=request.template_type,
+        content=json.dumps(request.form_data),
+        pdf_data=pdf_bytes,
+    )
+    db.add(db_doc)
     db.commit()
-    db.refresh(doc)
-    return doc
+    db.refresh(db_doc)
+
+    return GenerateDocumentResponse(
+        document_id=db_doc.doc_id,
+        template_type=request.template_type,
+        title=doc_title,
+        message="Document generated and saved successfully",
+        created_at=db_doc.created_at.isoformat(),
+    )
 
 
-@router.get("/my", response_model=List[schemas.DocumentOut])
-def list_my_documents(
+@router.get("/my-documents", response_model=List[DocumentListItem])
+def get_my_documents(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    return (
+    """Get all documents generated by the logged-in user."""
+    docs = (
         db.query(models.Document)
         .filter(models.Document.user_id == current_user.user_id)
         .order_by(models.Document.created_at.desc())
         .all()
     )
+    return [
+        DocumentListItem(
+            document_id=d.doc_id,
+            title=d.title,
+            type=d.type,
+            created_at=d.created_at.isoformat(),
+        )
+        for d in docs
+    ]
+
+
+@router.get("/download/{document_id}")
+def download_document(
+    document_id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+):
+    """Download PDF — only the owner can download their document."""
+    db_doc = db.query(models.Document).filter(
+        models.Document.doc_id == document_id
+    ).first()
+
+    if not db_doc:
+        raise HTTPException(status_code=404, detail="Document not found")
+
+    if db_doc.user_id != current_user.user_id:
+        raise HTTPException(status_code=403, detail="Access denied")
+
+    if not db_doc.pdf_data:
+        raise HTTPException(status_code=404, detail="PDF data not found")
+
+    filename = f"{db_doc.type}_{db_doc.doc_id}.pdf"
+
+    return StreamingResponse(
+        BytesIO(db_doc.pdf_data),
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f'attachment; filename="{filename}"',
+            "Content-Length": str(len(db_doc.pdf_data)),
+        }
+    )
+
+
+@router.delete("/delete/{document_id}")
+def delete_document(
+    document_id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+):
+    """Delete a document — only the owner can delete."""
+    db_doc = db.query(models.Document).filter(
+        models.Document.doc_id == document_id
+    ).first()
+
+    if not db_doc:
+        raise HTTPException(status_code=404, detail="Document not found")
+
+    if db_doc.user_id != current_user.user_id:
+        raise HTTPException(status_code=403, detail="Access denied")
+
+    db.delete(db_doc)
+    db.commit()
+
+    return {"message": "Document deleted successfully"}
 
 
 @router.get("/{doc_id}", response_model=schemas.DocumentOut)
@@ -122,13 +237,13 @@ def create_analysis_job(
     """
     Create an analysis job record.
     Actual file upload + AI analysis is a future integration point.
-    Returns a mock/placeholder analysis result for now.
+    Returns a placeholder analysis result for now.
     """
     analysis = models.DocAnalysis(
         user_id=current_user.user_id,
         file_name=file_name,
         file_size=file_size,
-        status="done",  # placeholder: immediately returns mock result
+        status="done",
         summary=(
             "This document appears to be a standard legal agreement. "
             "Key obligations are outlined in sections 2, 4, and 7."

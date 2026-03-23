@@ -15,7 +15,6 @@ router = APIRouter(
 
 
 def verify_case_access(case: models.Case, user: models.User, db: Session):
-    """Allow access to case owner (client) or active assigned lawyer."""
     if user.user_id == case.user_id:
         return
     assignment = (
@@ -86,7 +85,6 @@ def list_case_messages(
         .all()
     )
 
-    # Mark unread messages from others as read
     for m in messages:
         if not m.is_read and m.sender_id != current_user.user_id:
             m.is_read = True

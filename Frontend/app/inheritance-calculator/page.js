@@ -283,10 +283,10 @@ const InheritanceCalculator = () => {
     <div className="min-h-screen bg-gray-50">
       <main className="max-w-3xl mx-auto px-6 lg:px-12 py-12">
         <div className="mb-8">
-          <h1 className="text-3xl font-medium text-gray-900 mb-2">
-            Islamic Inheritance Calculator (Pakistan - Basic)
+          <h1 className="text-3xl font-medium text-gray-900 mb-2 text-center">
+            Basic Islamic Inheritance Calculator
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-center">
             Preliminary faraid estimate for common Pakistani Muslim cases
           </p>
         </div>

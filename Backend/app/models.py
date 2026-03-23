@@ -9,6 +9,8 @@ from sqlalchemy import (
     Float,
     Boolean,
     UniqueConstraint,
+    CheckConstraint,
+    Index,
 )
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
@@ -219,7 +221,6 @@ class Case(Base):
     assignments = relationship("CaseAssignment", back_populates="case")
     requests = relationship("Request", back_populates="case")
     messages = relationship("CaseMessage", back_populates="case")
-    conversations = relationship("Conversation", back_populates="case")
 
 
 class Request(Base):
@@ -284,19 +285,14 @@ class CaseMessage(Base):
 # ── Direct Messaging (Conversations) ─────────────────────────────────────────
 
 class Conversation(Base):
-    """
-    A conversation thread between two users (client ↔ lawyer).
-    Optionally linked to a case. Designed to support WebSocket upgrades later.
-    """
+    """A direct message thread between exactly two users (no case linkage)."""
     __tablename__ = "conversations"
 
     conv_id = Column(Integer, primary_key=True, index=True)
-    case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=True)  # optional case link
-    title = Column(Text, nullable=True)  # optional display title
+    title = Column(Text, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 
-    case = relationship("Case", back_populates="conversations")
     participants = relationship("ConversationParticipant", back_populates="conversation", cascade="all, delete-orphan")
     messages = relationship("Message", back_populates="conversation", cascade="all, delete-orphan", order_by="Message.created_at")
 
@@ -310,6 +306,7 @@ class ConversationParticipant(Base):
 
     __table_args__ = (
         UniqueConstraint("conv_id", "user_id", name="uq_conv_participant"),
+        Index("ix_conv_participant_user_id", "user_id"),
     )
 
     conversation = relationship("Conversation", back_populates="participants")
@@ -324,8 +321,13 @@ class Message(Base):
     conv_id = Column(Integer, ForeignKey("conversations.conv_id"), nullable=False)
     sender_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     content = Column(Text, nullable=False)
-    is_read = Column(Boolean, default=False)
+    is_read = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    __table_args__ = (
+        CheckConstraint("length(trim(content)) > 0", name="ck_message_content_not_blank"),
+        Index("ix_message_conv_created", "conv_id", "created_at"),
+    )
 
     conversation = relationship("Conversation", back_populates="messages")
     sender = relationship("User", back_populates="sent_messages", foreign_keys=[sender_id])

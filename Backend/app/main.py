@@ -18,7 +18,6 @@ from app.routers import (
     reviews,
     documents,
     ai_qa,
-    inheritance,
 )
 from app.routers.documents import analysis_router
 
@@ -55,7 +54,6 @@ app.include_router(institutions.router)
 app.include_router(documents.router)
 app.include_router(analysis_router)
 app.include_router(ai_qa.router)
-app.include_router(inheritance.router)
 
 
 @app.get("/health")

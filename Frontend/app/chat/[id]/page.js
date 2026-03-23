@@ -9,7 +9,9 @@ import {
   getMyConversations,
   markConversationRead,
   getUser,
+  getToken,
   isLoggedIn,
+  getWsBaseUrl,
 } from "@/lib/api";
 import ChatSidebar from "@/app/components/ChatSidebar";
 
@@ -42,15 +44,15 @@ export default function ChatThreadPage() {
   const [sending, setSending] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const bottomRef = useRef(null);
   const inputRef = useRef(null);
+  const wsRef = useRef(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+    if (!isLoggedIn()) {
+      window.location.replace("/login");
+      return;
+    }
 
-  useEffect(() => {
-    if (!isLoggedIn()) { window.location.replace("/login"); return; }
     if (!id) return;
 
     getMyConversations()
@@ -68,27 +70,59 @@ export default function ChatThreadPage() {
       .finally(() => setConvsLoading(false));
 
     getConversationMessages(id)
-      .then(setMessages)
+      .then((data) => {
+        const unique = [];
+        const seen = new Set();
+
+        for (const msg of data) {
+          if (!seen.has(msg.message_id)) {
+            seen.add(msg.message_id);
+            unique.push(msg);
+          }
+        }
+
+        setMessages(unique);
+      })
       .catch(console.error)
       .finally(() => setMsgsLoading(false));
 
     markConversationRead(id).catch(() => {});
 
-    const interval = setInterval(() => {
-      getConversationMessages(id).then(setMessages).catch(() => {});
-    }, 5000);
-    return () => clearInterval(interval);
+    const token = getToken();
+    const ws = new WebSocket(`${getWsBaseUrl()}/conversations/ws/${id}?token=${token}`);
+    wsRef.current = ws;
+
+    ws.onmessage = (event) => {
+      try {
+        const msg = JSON.parse(event.data);
+
+        setMessages((prev) => {
+          if (prev.some((m) => m.message_id === msg.message_id)) return prev;
+          return [...prev, msg];
+        });
+      } catch (error) {
+        console.error("Failed to parse WebSocket message:", error);
+      }
+    };
+
+    ws.onerror = () => {};
+
+    return () => {
+      ws.close();
+      wsRef.current = null;
+    };
   }, [id]);
 
   const handleSend = async (e) => {
     e.preventDefault();
     if (!newMessage.trim() || sending) return;
+
     const text = newMessage.trim();
     setNewMessage("");
     setSending(true);
+
     try {
-      const msg = await sendConversationMessage(id, text);
-      setMessages((prev) => [...prev, msg]);
+      await sendConversationMessage(id, text);
     } catch (err) {
       setNewMessage(text);
       alert(err.message || "Failed to send message");
@@ -111,7 +145,6 @@ export default function ChatThreadPage() {
 
   return (
     <div className="flex h-[calc(100vh-128px)] bg-[#F6F8FB] overflow-hidden">
-
       <div className="hidden md:flex h-full">
         <ChatSidebar
           conversations={conversations}
@@ -123,12 +156,8 @@ export default function ChatThreadPage() {
         />
       </div>
 
-      {/* Right panel*/}
       <div className="flex-1 flex flex-col min-w-0 bg-white">
-
-        {/* Thread header */}
         <div className="flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-200 shadow-sm flex-shrink-0">
-          {/* Back button*/}
           <button
             onClick={() => router.push("/chat")}
             className="md:hidden text-gray-600 hover:text-gray-900 flex-shrink-0"
@@ -136,16 +165,13 @@ export default function ChatThreadPage() {
             <ChevronLeft className="w-5 h-5" />
           </button>
 
-          {/* Avatar */}
           <div className="relative flex-shrink-0">
             <div className="w-10 h-10 bg-[#052379] rounded-full flex items-center justify-center text-white text-sm font-medium">
               {msgsLoading ? "…" : titleInitials}
             </div>
-            {/* Online indicator */}
             <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
           </div>
 
-          {/* Name */}
           <div className="flex-1 min-w-0">
             <h2 className="font-medium text-gray-900 text-sm truncate">
               {convTitle || (msgsLoading ? "Loading…" : "Conversation")}
@@ -154,7 +180,6 @@ export default function ChatThreadPage() {
           </div>
         </div>
 
-        {/* Messages area */}
         <div className="flex-1 overflow-y-auto px-4 py-4 bg-[#F6F8FB]">
           {msgsLoading ? (
             <div className="flex justify-center items-center h-full">
@@ -176,7 +201,6 @@ export default function ChatThreadPage() {
 
                 return (
                   <div key={msg.message_id}>
-                    {/* Date separator */}
                     {showDateSep && (
                       <div className="flex items-center gap-3 my-4">
                         <div className="flex-1 h-px bg-gray-200" />
@@ -187,32 +211,48 @@ export default function ChatThreadPage() {
                       </div>
                     )}
 
-                    {/* Message bubble */}
-                    <div className={`flex items-end gap-2 ${isMe ? "justify-end" : "justify-start"} ${isLastInGroup ? "mb-2" : "mb-0.5"}`}>
-                      {/* Other user avatar*/}
+                    <div
+                      className={`flex items-end gap-2 ${isMe ? "justify-end" : "justify-start"} ${
+                        isLastInGroup ? "mb-2" : "mb-0.5"
+                      }`}
+                    >
                       {!isMe && (
-                        <div className={`w-7 h-7 rounded-full bg-[#052379] flex items-center justify-center text-white text-[10px] font-medium flex-shrink-0 ${isLastInGroup ? "opacity-100" : "opacity-0"}`}>
-                          {msg.sender_name ? msg.sender_name.split(" ").map((n) => n[0]).join("").substring(0, 2).toUpperCase() : "?"}
+                        <div
+                          className={`w-7 h-7 rounded-full bg-[#052379] flex items-center justify-center text-white text-[10px] font-medium flex-shrink-0 ${
+                            isLastInGroup ? "opacity-100" : "opacity-0"
+                          }`}
+                        >
+                          {msg.sender_name
+                            ? msg.sender_name
+                                .split(" ")
+                                .map((n) => n[0])
+                                .join("")
+                                .substring(0, 2)
+                                .toUpperCase()
+                            : "?"}
                         </div>
                       )}
 
                       <div className={`flex flex-col ${isMe ? "items-end" : "items-start"}`}>
-                        {/* Sender name for incoming messages*/}
                         {showSenderName && (
                           <span className="text-[11px] text-gray-400 font-medium mb-1 ml-1">
                             {msg.sender_name}
                           </span>
                         )}
 
-                        <div className={`relative max-w-xs lg:max-w-sm xl:max-w-md px-3.5 py-2 text-sm
-                          ${isMe
-                            ? "bg-[#052379] text-white rounded-2xl rounded-br-md"
-                            : "bg-white text-gray-900 border border-gray-200 rounded-2xl rounded-bl-md shadow-sm"
+                        <div
+                          className={`relative max-w-xs lg:max-w-sm xl:max-w-md px-3.5 py-2 text-sm ${
+                            isMe
+                              ? "bg-[#052379] text-white rounded-2xl rounded-br-md"
+                              : "bg-white text-gray-900 border border-gray-200 rounded-2xl rounded-bl-md shadow-sm"
                           }`}
                         >
                           <p className="leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
                           <p className={`text-[10px] mt-1 text-right ${isMe ? "text-blue-200" : "text-gray-400"}`}>
-                            {new Date(msg.created_at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                            {new Date(msg.created_at).toLocaleTimeString([], {
+                              hour: "2-digit",
+                              minute: "2-digit",
+                            })}
                           </p>
                         </div>
                       </div>
@@ -220,7 +260,6 @@ export default function ChatThreadPage() {
                   </div>
                 );
               })}
-              <div ref={bottomRef} />
             </div>
           )}
         </div>

@@ -140,10 +140,6 @@ def list_my_cases(
 
     return query.order_by(models.Case.created_at.desc()).all()
 
-
-# NOTE: /requests/my and /requests/{request_id}/respond MUST be declared before
-# /{case_id} to prevent FastAPI matching "requests" as a case_id path param.
-
 @router.get("/requests/my", response_model=List[schemas.CaseRequestOut])
 def list_my_requests(
     db: Session = Depends(get_db),
@@ -215,7 +211,7 @@ def respond_to_request(
         db.commit()
         return {"detail": "Request rejected", "request_id": request_id, "status": "rejected"}
 
-    # accepted — create assignment
+
     existing_assignment = (
         db.query(models.CaseAssignment)
         .filter(
@@ -240,7 +236,6 @@ def respond_to_request(
     db.add(assignment)
     case.status = "in_progress"
 
-    # Reject all other pending requests for this case
     other_pending = (
         db.query(models.Request)
         .filter(

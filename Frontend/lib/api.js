@@ -7,6 +7,11 @@
  */
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const WS_BASE_URL = BASE_URL.replace(/^http:/, "ws:").replace(/^https:/, "wss:");
+
+export function getWsBaseUrl() {
+  return WS_BASE_URL;
+}
 
 // ── Token helpers ─────────────────────────────────────────────────────────────
 

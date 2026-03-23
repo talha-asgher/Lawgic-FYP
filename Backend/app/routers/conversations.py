@@ -1,18 +1,21 @@
 from datetime import datetime, timezone
 from typing import List
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query, WebSocket, WebSocketDisconnect
+from jose import JWTError, jwt
+from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 
 from app import models, schemas
 from app.deps import get_db
-from app.routers.auth import get_current_user
+from app.routers.auth import get_current_user, SECRET_KEY, ALGORITHM
+from app.ws.connection_manager import manager
 
 router = APIRouter(
     prefix="/conversations",
     tags=["conversations"],
 )
-
 
 def _get_conv_or_404(conv_id: int, db: Session) -> models.Conversation:
     conv = db.get(models.Conversation, conv_id)
@@ -21,7 +24,7 @@ def _get_conv_or_404(conv_id: int, db: Session) -> models.Conversation:
     return conv
 
 
-def _verify_participant(conv: models.Conversation, user: models.User):
+def _verify_participant(conv: models.Conversation, user: models.User) -> None:
     ids = {p.user_id for p in conv.participants}
     if user.user_id not in ids:
         raise HTTPException(status_code=403, detail="Access denied")
@@ -39,7 +42,6 @@ def _build_conv_out(conv: models.Conversation, current_user_id: int) -> schemas.
     )
     return schemas.ConversationOut(
         conv_id=conv.conv_id,
-        case_id=conv.case_id,
         title=conv.title,
         participants=participants,
         last_message=last_msg.content if last_msg else None,
@@ -49,84 +51,136 @@ def _build_conv_out(conv: models.Conversation, current_user_id: int) -> schemas.
     )
 
 
+def _find_existing_conversation(
+    db: Session, user_a_id: int, user_b_id: int
+) -> models.Conversation | None:
+    candidate_ids = (
+        db.query(models.ConversationParticipant.conv_id)
+        .filter(models.ConversationParticipant.user_id.in_([user_a_id, user_b_id]))
+        .group_by(models.ConversationParticipant.conv_id)
+        .having(func.count(func.distinct(models.ConversationParticipant.user_id)) == 2)
+        .subquery()
+    )
+
+    conversations = (
+        db.query(models.Conversation)
+        .filter(models.Conversation.conv_id.in_(candidate_ids))
+        .all()
+    )
+
+    for conv in conversations:
+        participant_ids = {
+            p.user_id
+            for p in db.query(models.ConversationParticipant)
+            .filter(models.ConversationParticipant.conv_id == conv.conv_id)
+            .all()
+        }
+        if participant_ids == {user_a_id, user_b_id}:
+            return conv
+
+    return None
+
 @router.post("/", response_model=schemas.ConversationOut)
 def get_or_create_conversation(
     body: schemas.ConversationCreate,
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-
     other_user = db.get(models.User, body.other_user_id)
     if not other_user:
         raise HTTPException(status_code=404, detail="User not found")
+
     if other_user.user_id == current_user.user_id:
         raise HTTPException(status_code=400, detail="Cannot start a conversation with yourself")
 
-    my_convs = (
-        db.query(models.ConversationParticipant.conv_id)
-        .filter(models.ConversationParticipant.user_id == current_user.user_id)
-        .subquery()
-    )
-    other_convs = (
-        db.query(models.ConversationParticipant.conv_id)
-        .filter(models.ConversationParticipant.user_id == body.other_user_id)
-        .subquery()
-    )
-    shared = (
-        db.query(models.Conversation)
-        .filter(
-            models.Conversation.conv_id.in_(my_convs),
-            models.Conversation.conv_id.in_(other_convs),
+    existing = _find_existing_conversation(db, current_user.user_id, body.other_user_id)
+
+    try:
+        if existing:
+            if body.initial_message is not None:
+                content = body.initial_message.strip() if body.initial_message else None
+                if content == "":
+                    raise HTTPException(status_code=400, detail="Initial message cannot be blank")
+
+                if content:
+                    db.add(
+                        models.Message(
+                            conv_id=existing.conv_id,
+                            sender_id=current_user.user_id,
+                            content=content,
+                            is_read=False,
+                        )
+                    )
+                    existing.updated_at = datetime.now(timezone.utc)
+                    db.commit()
+                    db.refresh(existing)
+
+            return _build_conv_out(existing, current_user.user_id)
+
+        title = body.title.strip() if body.title and body.title.strip() else None
+
+        conv = models.Conversation(
+            title=title,
+            created_at=datetime.now(timezone.utc),
+            updated_at=datetime.now(timezone.utc),
         )
-        .first()
-    )
+        db.add(conv)
+        db.flush()
 
-    if shared:
-        if body.initial_message:
-            msg = models.Message(
-                conv_id=shared.conv_id,
-                sender_id=current_user.user_id,
-                content=body.initial_message,
+        for uid in (current_user.user_id, body.other_user_id):
+            db.add(
+                models.ConversationParticipant(
+                    conv_id=conv.conv_id,
+                    user_id=uid,
+                )
             )
-            db.add(msg)
-            db.commit()
-            db.refresh(shared)
-        return _build_conv_out(shared, current_user.user_id)
 
-    conv = models.Conversation(case_id=body.case_id)
-    db.add(conv)
-    db.flush()
+        if body.initial_message is not None:
+            content = body.initial_message.strip() if body.initial_message else None
+            if content == "":
+                raise HTTPException(status_code=400, detail="Initial message cannot be blank")
 
-    for uid in [current_user.user_id, body.other_user_id]:
-        db.add(models.ConversationParticipant(conv_id=conv.conv_id, user_id=uid))
+            if content:
+                db.add(
+                    models.Message(
+                        conv_id=conv.conv_id,
+                        sender_id=current_user.user_id,
+                        content=content,
+                        is_read=False,
+                    )
+                )
 
-    if body.initial_message:
-        db.add(models.Message(
-            conv_id=conv.conv_id,
-            sender_id=current_user.user_id,
-            content=body.initial_message,
-        ))
+        db.commit()
+        db.refresh(conv)
+        return _build_conv_out(conv, current_user.user_id)
 
-    db.commit()
-    db.refresh(conv)
-    return _build_conv_out(conv, current_user.user_id)
+    except HTTPException:
+        db.rollback()
+        raise
+    except SQLAlchemyError:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Database error — transaction rolled back")
 
 
 @router.get("/", response_model=List[schemas.ConversationOut])
 def list_my_conversations(
+    skip: int = Query(0, ge=0, description="Number of conversations to skip"),
+    limit: int = Query(20, ge=1, le=100, description="Max conversations to return"),
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    participants = (
-        db.query(models.ConversationParticipant)
+    """List all conversations the current user participates in, newest first."""
+    conv_ids = (
+        db.query(models.ConversationParticipant.conv_id)
         .filter(models.ConversationParticipant.user_id == current_user.user_id)
-        .all()
+        .subquery()
     )
-    conv_ids = [p.conv_id for p in participants]
     convs = (
         db.query(models.Conversation)
         .filter(models.Conversation.conv_id.in_(conv_ids))
         .order_by(models.Conversation.updated_at.desc())
+        .offset(skip)
+        .limit(limit)
         .all()
     )
     return [_build_conv_out(c, current_user.user_id) for c in convs]
@@ -135,6 +189,8 @@ def list_my_conversations(
 @router.get("/{conv_id}/messages", response_model=List[schemas.MessageOut])
 def list_messages(
     conv_id: int,
+    skip: int = Query(0, ge=0, description="Number of messages to skip"),
+    limit: int = Query(50, ge=1, le=200, description="Max messages to return"),
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
@@ -145,13 +201,10 @@ def list_messages(
         db.query(models.Message)
         .filter(models.Message.conv_id == conv_id)
         .order_by(models.Message.created_at.asc())
+        .offset(skip)
+        .limit(limit)
         .all()
     )
-
-    for m in messages:
-        if not m.is_read and m.sender_id != current_user.user_id:
-            m.is_read = True
-    db.commit()
 
     return [
         schemas.MessageOut(
@@ -167,8 +220,8 @@ def list_messages(
     ]
 
 
-@router.post("/{conv_id}/messages", response_model=schemas.MessageOut)
-def send_message(
+@router.post("/{conv_id}/messages", response_model=schemas.MessageOut, status_code=201)
+async def send_message(
     conv_id: int,
     msg_in: schemas.MessageCreate,
     db: Session = Depends(get_db),
@@ -177,20 +230,21 @@ def send_message(
     conv = _get_conv_or_404(conv_id, db)
     _verify_participant(conv, current_user)
 
-    if not msg_in.content.strip():
-        raise HTTPException(status_code=400, detail="Message content cannot be empty")
+    try:
+        msg = models.Message(
+            conv_id=conv_id,
+            sender_id=current_user.user_id,
+            content=msg_in.content,
+        )
+        db.add(msg)
+        conv.updated_at = datetime.now(timezone.utc)
+        db.commit()
+        db.refresh(msg)
+    except SQLAlchemyError:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Database error — transaction rolled back")
 
-    msg = models.Message(
-        conv_id=conv_id,
-        sender_id=current_user.user_id,
-        content=msg_in.content.strip(),
-    )
-    db.add(msg)
-    conv.updated_at = datetime.now(timezone.utc)
-    db.commit()
-    db.refresh(msg)
-
-    return schemas.MessageOut(
+    out = schemas.MessageOut(
         message_id=msg.message_id,
         conv_id=msg.conv_id,
         sender_id=msg.sender_id,
@@ -199,6 +253,8 @@ def send_message(
         is_read=msg.is_read,
         created_at=msg.created_at,
     )
+    await manager.broadcast(conv_id, out.model_dump(mode="json"))
+    return out
 
 
 @router.patch("/{conv_id}/read")
@@ -210,16 +266,60 @@ def mark_as_read(
     conv = _get_conv_or_404(conv_id, db)
     _verify_participant(conv, current_user)
 
-    updated = (
-        db.query(models.Message)
-        .filter(
-            models.Message.conv_id == conv_id,
-            models.Message.sender_id != current_user.user_id,
-            models.Message.is_read == False,
+    try:
+        unread = (
+            db.query(models.Message)
+            .filter(
+                models.Message.conv_id == conv_id,
+                models.Message.sender_id != current_user.user_id,
+                models.Message.is_read == False,  # noqa: E712
+            )
+            .all()
         )
-        .all()
-    )
-    for m in updated:
-        m.is_read = True
-    db.commit()
-    return {"marked_read": len(updated)}
+        for m in unread:
+            m.is_read = True
+        db.commit()
+        return {"marked_read": len(unread)}
+
+    except SQLAlchemyError:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Database error — transaction rolled back")
+
+
+@router.websocket("/ws/{conv_id}")
+async def ws_conversation(
+    conv_id: int,
+    websocket: WebSocket,
+    token: str = Query(...),
+):
+    db = next(get_db())
+    try:
+        try:
+            payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+            user_id = int(payload.get("sub"))
+        except (JWTError, TypeError, ValueError):
+            await websocket.close(code=4001)
+            return
+
+        user = db.get(models.User, user_id)
+        if not user or not user.is_active:
+            await websocket.close(code=4001)
+            return
+
+        conv = db.get(models.Conversation, conv_id)
+        if not conv:
+            await websocket.close(code=4004)
+            return
+
+        if user_id not in {p.user_id for p in conv.participants}:
+            await websocket.close(code=4003)
+            return
+    finally:
+        db.close()
+
+    await manager.connect(conv_id, websocket)
+    try:
+        while True:
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        manager.disconnect(conv_id, websocket)

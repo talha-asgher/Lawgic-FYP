@@ -1,5 +1,5 @@
 # app/schemas.py
-from pydantic import BaseModel, EmailStr, field_validator
+from pydantic import BaseModel, EmailStr, Field, field_validator
 from typing import Optional, List, Any, Dict
 from datetime import datetime
 
@@ -286,8 +286,17 @@ class CaseMessageOut(BaseModel):
 
 class ConversationCreate(BaseModel):
     other_user_id: int
-    case_id: Optional[int] = None
-    initial_message: Optional[str] = None
+    title: Optional[str] = Field(None, max_length=150)
+    initial_message: Optional[str] = Field(None, max_length=2000)
+
+    @field_validator("initial_message")
+    @classmethod
+    def initial_message_not_blank(cls, v):
+        if v is not None:
+            if not v.strip():
+                raise ValueError("Initial message cannot be blank")
+            return v.strip()
+        return v
 
 
 class ConversationParticipantOut(BaseModel):
@@ -300,7 +309,6 @@ class ConversationParticipantOut(BaseModel):
 
 class ConversationOut(BaseModel):
     conv_id: int
-    case_id: Optional[int] = None
     title: Optional[str] = None
     participants: List[ConversationParticipantOut] = []
     last_message: Optional[str] = None
@@ -313,7 +321,15 @@ class ConversationOut(BaseModel):
 
 
 class MessageCreate(BaseModel):
-    content: str
+    content: str = Field(..., max_length=2000)
+
+    @field_validator("content")
+    @classmethod
+    def content_not_blank(cls, v):
+        stripped = v.strip()
+        if not stripped:
+            raise ValueError("Message content cannot be empty")
+        return stripped
 
 
 class MessageOut(BaseModel):

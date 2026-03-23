@@ -8,6 +8,7 @@ from sqlalchemy import (
     ForeignKey,
     Float,
     Boolean,
+    LargeBinary,
     UniqueConstraint,
     CheckConstraint,
     Index,
@@ -53,14 +54,12 @@ class LawyerProfile(Base):
     years_of_experience = Column(Integer, nullable=True)
     office_address = Column(Text, nullable=True)
     consultation_fee = Column(Numeric, nullable=True)
-    # New fields
     city = Column(Text, nullable=True)
     languages = Column(Text, nullable=True)          # comma-separated e.g. "Urdu,English"
     bar_council_number = Column(Text, nullable=True)
     law_school = Column(Text, nullable=True)
     grad_year = Column(Integer, nullable=True)
     degree_type = Column(Text, nullable=True)        # LLB, LLM, Bar-at-Law
-    # Denormalized aggregates (updated when a review is submitted)
     average_rating = Column(Float, nullable=True, default=0.0)
     review_count = Column(Integer, nullable=False, default=0)
 
@@ -121,7 +120,8 @@ class Document(Base):
     title = Column(Text, nullable=False)
     type = Column(Text, nullable=False)
     content = Column(Text, nullable=False)
-    input_data = Column(Text, nullable=True)  # JSON of form fields used
+    input_data = Column(Text, nullable=True)      # JSON of form fields used
+    pdf_data = Column(LargeBinary, nullable=True)  # raw PDF bytes
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="documents")

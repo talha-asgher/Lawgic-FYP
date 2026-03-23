@@ -1,6 +1,6 @@
 {
-  "name": "lawgic_be",
-  "version": "0.1.0",
+  "name": "lawgic-frontend",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,10 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "lucide-react": "^0.560.0",
+    "lucide-react": "^0.577.0",
     "next": "16.0.8",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -103,6 +103,47 @@ def register(user_in: schemas.UserCreate, db: Session = Depends(get_db)):
     return user
 
 
+@router.post("/register-lawyer")
+def register_lawyer(
+    data: schemas.LawyerRegister,
+    db: Session = Depends(get_db)
+):
+    existing = db.query(models.User).filter(models.User.email == data.email).first()
+    if existing:
+        raise HTTPException(status_code=400, detail="Email already registered")
+
+    if not validate_password(data.password):
+        raise HTTPException(
+            status_code=400,
+            detail="Password must contain letters and numbers"
+        )
+
+    user = models.User(
+        email=data.email,
+        name=data.name,
+        phone_num=data.phone_num,
+        role="lawyer",
+        password_hash=hash_password(data.password)
+    )
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+
+    profile = models.LawyerProfile(
+        lawyer_id=user.user_id,
+        specialization=data.specialization,
+        bio_data=data.bio_data,
+        years_of_experience=data.years_of_experience,
+        office_address=data.office_address,
+        consultation_fee=data.consultation_fee,
+        verification_status="pending"
+    )
+    db.add(profile)
+    db.commit()
+
+    return {"message": "Lawyer registered successfully"}
+
+
 @router.post("/login", response_model=schemas.Token)
 def login(
     form_data: OAuth2PasswordRequestForm = Depends(),
@@ -122,9 +163,7 @@ def login(
     return {
         "access_token": access_token,
         "token_type": "bearer",
-        "user_id": user.user_id,
-        "role": user.role,
-        "name": user.name,
+        "user": user,
     }
 
 

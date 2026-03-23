@@ -1,23 +1,26 @@
 "use client";
 
-import { Scale, ChevronDown, LogOut, LayoutDashboard, User } from "lucide-react";
+import { Scale, ChevronDown, LogOut, LayoutDashboard } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
-import { getUser, clearSession, isLoggedIn } from "@/lib/api";
+import { useAuthStore } from "../lib/authStore";
 
 export default function Navbar() {
   const router = useRouter();
+  const { user, isLoggedIn, logout, login } = useAuthStore();
 
-  // mounted prevents SSR/hydration mismatch and flicker
   const [mounted, setMounted] = useState(false);
-  const [user, setUser] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
   useEffect(() => {
-    setUser(getUser());
+    const savedUser = localStorage.getItem("user");
+    const savedToken = localStorage.getItem("access_token");
+    if (savedUser && savedToken) {
+      login(JSON.parse(savedUser), savedToken);
+    }
     setMounted(true);
-  }, []);
+  }, [login]);
 
   useEffect(() => {
     function handleClickOutside(e) {
@@ -30,8 +33,9 @@ export default function Navbar() {
   }, []);
 
   function handleLogout() {
-    clearSession();
-    setUser(null);
+    logout();
+    localStorage.removeItem("access_token");
+    localStorage.removeItem("user");
     setMenuOpen(false);
     router.push("/");
   }
@@ -41,7 +45,6 @@ export default function Navbar() {
     router.push(user?.role === "lawyer" ? "/dashboard/lawyer" : "/dashboard/user");
   }
 
-  // Initials from name for the avatar
   const initials = user?.name
     ? user.name.split(" ").map((w) => w[0]).join("").slice(0, 2).toUpperCase()
     : "?";
@@ -50,7 +53,7 @@ export default function Navbar() {
     <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+
           <div
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => router.push("/")}
@@ -58,20 +61,20 @@ export default function Navbar() {
             <div className="w-10 h-10 bg-[#052379] rounded-xl flex items-center justify-center">
               <Scale className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-semibold text-gray-900">Lawgic</span>
+            <span className="text-xl font-semibold text-gray-900">
+              Lawgic
+            </span>
           </div>
 
-          {/* Actions */}
           <div className="flex items-center gap-4">
+
             <button className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
               EN ↔ اردو
             </button>
 
-            {/* Auth area — render nothing until mounted to avoid flicker */}
             {!mounted ? (
               <div className="w-24 h-9" />
-            ) : user ? (
-              /* ── Logged-in: avatar + dropdown ── */
+            ) : isLoggedIn ? (
               <div className="relative" ref={menuRef}>
                 <button
                   onClick={() => setMenuOpen((o) => !o)}
@@ -81,7 +84,7 @@ export default function Navbar() {
                     {initials}
                   </div>
                   <span className="text-sm font-medium text-gray-900 max-w-[120px] truncate hidden sm:block">
-                    {user.name}
+                    {user?.name}
                   </span>
                   <ChevronDown className="w-4 h-4 text-gray-500" />
                 </button>
@@ -89,8 +92,8 @@ export default function Navbar() {
                 {menuOpen && (
                   <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-xl shadow-lg py-1 z-50">
                     <div className="px-4 py-2 border-b border-gray-100">
-                      <p className="text-xs text-gray-500 capitalize">{user.role}</p>
-                      <p className="text-sm font-medium text-gray-900 truncate">{user.name}</p>
+                      <p className="text-xs text-gray-500 capitalize">{user?.role}</p>
+                      <p className="text-sm font-medium text-gray-900 truncate">{user?.name}</p>
                     </div>
                     <button
                       onClick={goToDashboard}
@@ -111,7 +114,6 @@ export default function Navbar() {
                 )}
               </div>
             ) : (
-              /* ── Logged-out: Login / Register ── */
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => router.push("/login")}
@@ -127,6 +129,7 @@ export default function Navbar() {
                 </button>
               </div>
             )}
+
           </div>
         </div>
       </div>

@@ -37,12 +37,10 @@ class UserLogin(BaseModel):
 
 
 class Token(BaseModel):
-    """Extended token response: includes user identity for FE routing."""
+    """Token response — includes nested user object for frontend routing."""
     access_token: str
     token_type: str
-    user_id: int
-    role: str
-    name: str
+    user: UserOut
 
 
 class UserProfileOut(BaseModel):
@@ -128,6 +126,18 @@ class LawyerPublic(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class LawyerRegister(BaseModel):
+    name: str
+    email: EmailStr
+    password: str
+    phone_num: Optional[str] = None
+    specialization: str
+    bio_data: Optional[str] = None
+    years_of_experience: Optional[int] = None
+    office_address: Optional[str] = None
+    consultation_fee: Optional[float] = None
 
 
 # ── Reviews ───────────────────────────────────────────────────────────────────

@@ -2,15 +2,19 @@
 
 import { useState, useEffect } from 'react';
 import { Mail, Lock, Eye, EyeOff, User, Phone, Scale, Loader2, AlertCircle } from 'lucide-react';
-import { registerUser, isLoggedIn, getUser } from '@/lib/api';
+import { useRouter } from "next/navigation";
+import { registerUser } from "../../lib/api";
+import { useAuthStore } from "../../lib/authStore";
 
 export default function LawgicRegister() {
+  const router = useRouter();
+  const { isLoggedIn, user } = useAuthStore();
+
   useEffect(() => {
-    if (isLoggedIn()) {
-      const u = getUser();
-      window.location.replace(u?.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+    if (isLoggedIn && user) {
+      router.replace(user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
     }
-  }, []);
+  }, [isLoggedIn, user, router]);
 
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -42,8 +46,8 @@ export default function LawgicRegister() {
     setLoading(true);
     setError('');
     try {
-      await registerUser(formData.name, formData.email, formData.password, formData.phone, 'client');
-      window.location.href = '/login';
+      await registerUser(formData);
+      router.push('/login');
     } catch (err) {
       setError(err.message || "Registration failed. Please try again.");
     } finally {
@@ -157,7 +161,7 @@ export default function LawgicRegister() {
 
             <p className="text-center text-sm text-black mt-2">
               Already have an account?{" "}
-              <span onClick={() => { window.location.href = "/login"; }}
+              <span onClick={() => router.push("/login")}
                 className="text-[#1A2B3C] hover:underline cursor-pointer">Login</span>
             </p>
           </form>
@@ -165,7 +169,7 @@ export default function LawgicRegister() {
           <div className="mt-6 pt-6 border-t border-[#E7ECF3]">
             <p className="text-center text-sm text-[#64748B] mb-3">Or register as:</p>
             <div className="flex gap-2">
-              <button onClick={() => { window.location.href = "/register/lawyer"; }}
+              <button onClick={() => router.push("/register/lawyer")}
                 className="flex-1 px-3 py-2 text-sm font-medium text-[#0E1726] bg-white hover:bg-[#F0F2F5] rounded-lg border border-[#E7ECF3] transition-all duration-200 shadow-sm hover:shadow-md">
                 Lawyer
               </button>

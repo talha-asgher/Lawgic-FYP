@@ -93,6 +93,40 @@ def get_or_create_conversation(
     if other_user.user_id == current_user.user_id:
         raise HTTPException(status_code=400, detail="Cannot start a conversation with yourself")
 
+    if current_user.role == "client" and other_user.role == "lawyer":
+        active_assignment = (
+            db.query(models.CaseAssignment)
+            .join(models.Case)
+            .filter(
+                models.Case.user_id == current_user.user_id,
+                models.CaseAssignment.lawyer_id == other_user.user_id,
+                models.CaseAssignment.status == "active",
+            )
+            .first()
+        )
+        if not active_assignment:
+            raise HTTPException(
+                status_code=403,
+                detail="You can only message a lawyer after they have accepted one of your case requests",
+            )
+
+    if current_user.role == "lawyer" and other_user.role == "client":
+        active_assignment = (
+            db.query(models.CaseAssignment)
+            .join(models.Case)
+            .filter(
+                models.Case.user_id == other_user.user_id,
+                models.CaseAssignment.lawyer_id == current_user.user_id,
+                models.CaseAssignment.status == "active",
+            )
+            .first()
+        )
+        if not active_assignment:
+            raise HTTPException(
+                status_code=403,
+                detail="You can only message a client who has an active case assigned to you",
+            )
+
     existing = _find_existing_conversation(db, current_user.user_id, body.other_user_id)
 
     try:

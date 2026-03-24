@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Mail, Lock, Eye, EyeOff, User, Phone, Scale, Loader2, AlertCircle } from 'lucide-react';
 import { useRouter } from "next/navigation";
-import { registerUser } from "../../lib/api";
+import { registerUser } from "@/lib/api";
 import { useAuthStore } from "../../lib/authStore";
 
 export default function LawgicRegister() {
@@ -41,6 +41,10 @@ export default function LawgicRegister() {
     }
     if (!/\d/.test(formData.password)) {
       setError("Password must contain at least one number.");
+      return;
+    }
+    if (formData.phone.length < 8) {
+      setError("Phone number must be at least 8 characters.");
       return;
     }
     setLoading(true);

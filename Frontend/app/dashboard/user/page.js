@@ -22,45 +22,24 @@ export default function UserDashboard() {
   
   // 1. User Profile State
   const [user, setUser] = useState({
-    name: "John Doe",
-    email: "johndoe@example.com",
-    location: "Karachi, Pakistan",
-    initials: "JD"
+    name: "",
+    email: "",
+    location: "",
+    initials: ""
   });
 
   // 2. Stats State
   const [stats, setStats] = useState({
-    documents: 12,
-    chats: 5,
-    appointments: 3
+    documents: 0,
+    chats: 0,
+    appointments: 0
   });
 
   // 3. Recent Activity State
-  const [activities, setActivities] = useState([
-    {
-      id: 1,
-      title: "Document analyzed",
-      time: "2 hours ago",
-      type: "document",
-      icon: <FileCheck className="w-5 h-5 text-blue-600" />,
-      bg: "bg-blue-50"
-    },
-    {
-      id: 2,
-      title: "Appointment booked",
-      time: "1 day ago",
-      type: "appointment",
-      icon: <CheckCircle className="w-5 h-5 text-emerald-600" />,
-      bg: "bg-emerald-50"
-    }
-  ]);
+  const [activities, setActivities] = useState([]);
 
   // 4. Chat History State (Sidebar)
-  const [chatHistory, setChatHistory] = useState([
-    { id: 1, title: 'Tenant Rights Question', time: '2h ago' },
-    { id: 2, title: 'Property Dispute', time: '1d ago' },
-    { id: 3, title: 'Divorce Process', time: '3d ago' },
-  ]);
+  const [chatHistory, setChatHistory] = useState([]);
 
   useEffect(() => {
     if (!isLoggedIn()) { router.replace('/login'); return; }
@@ -166,31 +145,6 @@ export default function UserDashboard() {
             <div className="text-4xl font-bold text-gray-900">{stats.appointments}</div>
           </div>
         </div>
-
-        {/*  Activity Section */}
-        <div className="bg-white rounded-2xl border border-gray-200 p-6">
-          <h2 className="text-lg font-medium text-gray-900 mb-6">Recent Activity</h2>
-          
-          <div className="space-y-4">
-            {activities.map((activity) => (
-              <div key={activity.id} className="flex items-center gap-4 p-4 bg-[#F6F8FB] rounded-xl">
-                <div className={`w-10 h-10 ${activity.bg} rounded-full flex items-center justify-center flex-shrink-0`}>
-                  {activity.icon}
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-sm font-medium text-gray-900">{activity.title}</h4>
-                  <p className="text-xs text-gray-500">{activity.time}</p>
-                </div>
-              </div>
-            ))}
-            
-            {/* if no activity*/}
-            {activities.length === 0 && (
-              <p className="text-gray-500 text-sm text-center py-4">No recent activity found.</p>
-            )}
-          </div>
-        </div>
-
       </main>
     </div>
   );

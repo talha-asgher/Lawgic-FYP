@@ -4,17 +4,16 @@ import { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
   Calendar, Clock, Video, Phone, MapPin, ChevronLeft,
-  CheckCircle, Loader2, AlertCircle, Scale, FileText,
+  CheckCircle, Loader2, AlertCircle,
 } from "lucide-react";
-import { getLawyerById, createAppointment, isLoggedIn, getUser } from "@/lib/api";
+import { getLawyerById, getCaseById, createAppointment, isLoggedIn, getUser } from "@/lib/api";
 
 const MODES = [
-  { value: "in_person", label: "In Person", icon: MapPin, desc: "Visit the lawyer's office" },
-  { value: "online",    label: "Video Call", icon: Video,  desc: "Join via video conference" },
-  { value: "phone",     label: "Phone Call", icon: Phone,  desc: "Talk over the phone" },
+  { value: "physical", label: "In Person", icon: MapPin, desc: "Visit the lawyer's office" },
+  { value: "online_meeting", label: "Video Call", icon: Video, desc: "Join via video conference" },
+  { value: "phone", label: "Phone Call", icon: Phone, desc: "Talk over the phone" },
 ];
 
-// Return the minimum date string (today) for the date input
 function todayString() {
   return new Date().toISOString().split("T")[0];
 }
@@ -23,12 +22,14 @@ export default function BookAppointmentPage() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const lawyerId = searchParams.get("lawyer");
+  const caseId = searchParams.get("case");
 
   const [lawyer, setLawyer] = useState(null);
+  const [caseData, setCaseData] = useState(null);
   const [loadingLawyer, setLoadingLawyer] = useState(true);
   const [fetchError, setFetchError] = useState("");
 
-  const [mode, setMode] = useState("in_person");
+  const [mode, setMode] = useState("physical");
   const [date, setDate] = useState("");
   const [hour, setHour] = useState("");
   const [minute, setMinute] = useState("00");
@@ -43,19 +44,29 @@ export default function BookAppointmentPage() {
   useEffect(() => {
     if (!isLoggedIn()) { router.replace("/login"); return; }
     const user = getUser();
-    if (user?.role === "lawyer") {
-      router.replace("/dashboard/lawyer");
+    if (user?.role === "lawyer") { router.replace("/dashboard/lawyer"); return; }
+    if (!lawyerId || !caseId) {
+      setFetchError("Invalid appointment link. Please go to your cases and try again.");
+      setLoadingLawyer(false);
       return;
     }
-    if (!lawyerId) { router.replace("/find-lawyers"); return; }
 
-    getLawyerById(lawyerId)
-      .then(setLawyer)
-      .catch((e) => setFetchError(e.message || "Could not load lawyer profile."))
+    Promise.all([
+      getLawyerById(lawyerId),
+      getCaseById(caseId),
+    ])
+      .then(([lawyerData, caseInfo]) => {
+        if (caseInfo.status !== "in_progress") {
+          setFetchError("Appointments can only be booked for cases that have been accepted by a lawyer.");
+          return;
+        }
+        setLawyer(lawyerData);
+        setCaseData(caseInfo);
+      })
+      .catch((e) => setFetchError(e.message || "Could not load details."))
       .finally(() => setLoadingLawyer(false));
-  }, [lawyerId]);
+  }, [lawyerId, caseId]);
 
-  // Convert AM/PM picker values to a 24-h "HH:MM" string
   const get24hTime = () => {
     const h = parseInt(hour);
     const h24 = ampm === "PM" ? (h === 12 ? 12 : h + 12) : (h === 12 ? 0 : h);
@@ -88,7 +99,6 @@ export default function BookAppointmentPage() {
     }
   };
 
-  // ── Loading state ─────────────────────────────────────────────────────────
   if (loadingLawyer) {
     return (
       <div className="min-h-screen bg-[#F6F8FB] flex items-center justify-center">
@@ -103,17 +113,18 @@ export default function BookAppointmentPage() {
   if (fetchError) {
     return (
       <div className="min-h-screen bg-[#F6F8FB] flex items-center justify-center">
-        <div className="text-center">
+        <div className="text-center max-w-sm px-4">
           <AlertCircle className="w-12 h-12 text-red-400 mx-auto mb-3" />
           <p className="text-gray-700 mb-4">{fetchError}</p>
-          <button onClick={() => window.history.back()}
-            className="text-[#052379] hover:underline text-sm">Go back</button>
+          <button onClick={() => router.push("/cases")}
+            className="px-4 py-2 bg-[#052379] text-white text-sm font-medium rounded-xl hover:bg-[#041d5c] transition-colors">
+            Back to Cases
+          </button>
         </div>
       </div>
     );
   }
 
-  // ── Success state ─────────────────────────────────────────────────────────
   if (success) {
     const scheduledAt = new Date(`${date}T${get24hTime()}`);
     return (
@@ -128,7 +139,6 @@ export default function BookAppointmentPage() {
             been submitted. You'll be notified once it's confirmed.
           </p>
 
-          {/* Confirmation card */}
           <div className="bg-[#F6F8FB] rounded-xl p-4 text-left mb-6 space-y-2">
             <div className="flex items-center gap-2 text-sm">
               <Calendar className="w-4 h-4 text-gray-400" />
@@ -145,13 +155,13 @@ export default function BookAppointmentPage() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <button onClick={() => router.push("/dashboard/user")}
+            <button onClick={() => router.push("/appointments")}
               className="flex-1 px-4 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-xl hover:bg-[#041d5c] transition-colors">
-              Go to Dashboard
+              View Appointments
             </button>
-            <button onClick={() => router.push("/find-lawyers")}
+            <button onClick={() => router.push("/cases")}
               className="flex-1 px-4 py-2.5 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-xl hover:bg-gray-50 transition-colors">
-              Find More Lawyers
+              Back to Cases
             </button>
           </div>
         </div>
@@ -159,25 +169,21 @@ export default function BookAppointmentPage() {
     );
   }
 
-  // ── Lawyer initials helper ────────────────────────────────────────────────
   const initials = lawyer?.name
     ? lawyer.name.split(" ").map((n) => n[0]).join("").substring(0, 2).toUpperCase()
     : "?";
 
-  // ── Main form ─────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-[#F6F8FB] px-4 lg:px-8 py-8">
       <div className="max-w-2xl mx-auto">
-        {/* Back */}
-        <button onClick={() => router.push(`/lawyers/${lawyerId}`)}
+        <button onClick={() => router.push("/cases")}
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 text-sm">
           <ChevronLeft className="w-4 h-4" />
-          Back to Profile
+          Back to Cases
         </button>
 
         <h1 className="text-2xl font-semibold text-gray-900 mb-6">Book Appointment</h1>
 
-        {/* Lawyer summary card */}
         {lawyer && (
           <div className="bg-white rounded-2xl border border-gray-200 p-4 mb-6 shadow-sm flex items-center gap-4">
             <div className="w-14 h-14 bg-[#052379] rounded-xl flex items-center justify-center text-white font-semibold text-lg flex-shrink-0">
@@ -188,6 +194,9 @@ export default function BookAppointmentPage() {
               <p className="text-sm text-gray-500 truncate">
                 {(lawyer.specializations || [lawyer.specialization]).filter(Boolean).join(", ")}
               </p>
+              {caseData && (
+                <p className="text-xs text-emerald-700 mt-0.5">Case: {caseData.title}</p>
+              )}
             </div>
             {lawyer.consultation_fee && (
               <div className="text-right flex-shrink-0">
@@ -199,7 +208,6 @@ export default function BookAppointmentPage() {
         )}
 
         <form onSubmit={handleSubmit} className="space-y-6">
-          {/* Mode of communication */}
           <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
             <h2 className="font-medium text-gray-900 mb-4">How would you like to meet?</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -222,7 +230,6 @@ export default function BookAppointmentPage() {
             </div>
           </div>
 
-          {/* Date & Time */}
           <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
             <h2 className="font-medium text-gray-900 mb-4">Select Date &amp; Time</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -243,7 +250,6 @@ export default function BookAppointmentPage() {
                   <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />Time</span>
                 </label>
                 <div className="flex gap-2">
-                  {/* Hour */}
                   <select
                     value={hour}
                     onChange={(e) => { setHour(e.target.value); setValidationError(""); }}
@@ -254,7 +260,6 @@ export default function BookAppointmentPage() {
                       <option key={h} value={h}>{String(h).padStart(2,"0")}</option>
                     ))}
                   </select>
-                  {/* Minute */}
                   <select
                     value={minute}
                     onChange={(e) => { setMinute(e.target.value); setValidationError(""); }}
@@ -264,7 +269,6 @@ export default function BookAppointmentPage() {
                       <option key={m} value={m}>{m}</option>
                     ))}
                   </select>
-                  {/* AM/PM */}
                   <select
                     value={ampm}
                     onChange={(e) => { setAmpm(e.target.value); setValidationError(""); }}
@@ -278,7 +282,6 @@ export default function BookAppointmentPage() {
             </div>
           </div>
 
-          {/* Notes */}
           <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
             <h2 className="font-medium text-gray-900 mb-1">Additional Notes <span className="text-gray-400 font-normal text-sm">(optional)</span></h2>
             <p className="text-xs text-gray-400 mb-3">Briefly describe your legal matter so the lawyer can prepare.</p>
@@ -291,7 +294,6 @@ export default function BookAppointmentPage() {
             />
           </div>
 
-          {/* Errors */}
           {(validationError || submitError) && (
             <div className="flex items-start gap-2 p-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
               <AlertCircle className="w-4 h-4 flex-shrink-0 mt-0.5" />
@@ -299,7 +301,6 @@ export default function BookAppointmentPage() {
             </div>
           )}
 
-          {/* Submit */}
           <button
             type="submit"
             disabled={submitting}

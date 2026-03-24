@@ -1,13 +1,12 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import {
   Search,
   MapPin,
   Star,
-  Filter,
   Briefcase,
-  Clock,
   DollarSign,
   ChevronDown,
   Loader2
@@ -15,6 +14,7 @@ import {
 import { searchLawyers } from '@/lib/api';
 
 export default function FindLawyersPage() {
+  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [filters, setFilters] = useState({
@@ -26,8 +26,14 @@ export default function FindLawyersPage() {
   const [lawyers, setLawyers] = useState([]);
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const u = JSON.parse(localStorage.getItem('lawgic_user') || 'null');
+        if (u?.role === 'lawyer') { router.replace('/dashboard/lawyer'); return; }
+      } catch {}
+    }
     fetchLawyers();
-  }, [filters]); 
+  }, [filters]);
 
   const fetchLawyers = async (query = searchQuery) => {
     setIsLoading(true);

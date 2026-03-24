@@ -106,7 +106,28 @@ def create_case(
 
     db.commit()
     db.refresh(case)
-    return case
+    return _build_case_out(case)
+
+
+def _build_case_out(case: models.Case) -> schemas.CaseOut:
+    client_name = case.user.name if case.user else None
+    assigned_lawyer_name = None
+    for assignment in case.assignments:
+        if assignment.status == "active" and assignment.lawyer_profile and assignment.lawyer_profile.user:
+            assigned_lawyer_name = assignment.lawyer_profile.user.name
+            break
+    return schemas.CaseOut(
+        case_id=case.case_id,
+        user_id=case.user_id,
+        title=case.title,
+        description=case.description,
+        law_domain=case.law_domain,
+        jurisdiction=case.jurisdiction,
+        status=case.status,
+        created_at=case.created_at,
+        client_name=client_name,
+        assigned_lawyer_name=assigned_lawyer_name,
+    )
 
 
 @router.get("/my", response_model=List[schemas.CaseOut])
@@ -138,7 +159,7 @@ def list_my_cases(
             )
         query = query.filter(models.Case.status == s)
 
-    return query.order_by(models.Case.created_at.desc()).all()
+    return [_build_case_out(c) for c in query.order_by(models.Case.created_at.desc()).all()]
 
 @router.get("/requests/my", response_model=List[schemas.CaseRequestOut])
 def list_my_requests(
@@ -161,7 +182,64 @@ def list_my_requests(
             )
         query = query.filter(models.Request.status == s)
 
-    return query.order_by(models.Request.created_at.desc()).all()
+    requests = query.order_by(models.Request.created_at.desc()).all()
+    result = []
+    for req in requests:
+        result.append(schemas.CaseRequestOut(
+            request_id=req.request_id,
+            case_id=req.case_id,
+            lawyer_id=req.lawyer_id,
+            status=req.status,
+            created_at=req.created_at,
+            case_title=req.case.title if req.case else None,
+            case_description=req.case.description if req.case else None,
+            case_law_domain=req.case.law_domain if req.case else None,
+            client_name=req.user.name if req.user else None,
+            lawyer_name=current_user.name,
+        ))
+    return result
+
+
+@router.get("/client-requests/my", response_model=List[schemas.CaseRequestOut])
+def list_client_requests(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+    status_filter: Optional[str] = None,
+):
+    ensure_client(current_user)
+
+    query = db.query(models.Request).filter(
+        models.Request.user_id == current_user.user_id
+    )
+
+    if status_filter:
+        s = status_filter.lower()
+        if s not in VALID_REQUEST_STATUSES:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Invalid status_filter. Allowed: {', '.join(sorted(VALID_REQUEST_STATUSES))}",
+            )
+        query = query.filter(models.Request.status == s)
+
+    requests = query.order_by(models.Request.created_at.desc()).all()
+    result = []
+    for req in requests:
+        lawyer_name = None
+        if req.lawyer_profile and req.lawyer_profile.user:
+            lawyer_name = req.lawyer_profile.user.name
+        result.append(schemas.CaseRequestOut(
+            request_id=req.request_id,
+            case_id=req.case_id,
+            lawyer_id=req.lawyer_id,
+            status=req.status,
+            created_at=req.created_at,
+            case_title=req.case.title if req.case else None,
+            case_description=req.case.description if req.case else None,
+            case_law_domain=req.case.law_domain if req.case else None,
+            client_name=current_user.name,
+            lawyer_name=lawyer_name,
+        ))
+    return result
 
 
 @router.post("/requests/{request_id}/respond")
@@ -273,7 +351,7 @@ def get_case(
         )
 
     ensure_case_access(case, current_user, db)
-    return case
+    return _build_case_out(case)
 
 
 @router.post("/{case_id}/invite", response_model=List[schemas.CaseRequestOut])
@@ -395,4 +473,4 @@ def update_case_status(
 
     db.commit()
     db.refresh(case)
-    return case
+    return _build_case_out(case)

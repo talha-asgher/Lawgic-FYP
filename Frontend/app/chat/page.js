@@ -2,17 +2,19 @@
 
 import { useState, useEffect } from "react";
 import { MessageSquare } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { getMyConversations, getUser, isLoggedIn } from "@/lib/api";
 import ChatSidebar from "@/app/components/ChatSidebar";
 
 export default function ChatListPage() {
+  const router = useRouter();
   const [conversations, setConversations] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const currentUser = getUser();
 
   useEffect(() => {
-    if (!isLoggedIn()) { window.location.replace("/login"); return; }
+    if (!isLoggedIn()) { router.replace("/login"); return; }
     getMyConversations()
       .then(setConversations)
       .catch(console.error)

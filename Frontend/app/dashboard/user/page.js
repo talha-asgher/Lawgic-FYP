@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import {
   Plus,
   MessageSquare,
@@ -16,7 +17,7 @@ import {
 import { getMyProfile, getMyStats, getAISessions, isLoggedIn, getUser } from '@/lib/api';
 
 export default function UserDashboard() {
-  // --- STATE MANAGEMENT ---
+  const router = useRouter();
   const [loading, setLoading] = useState(true);
   
   // 1. User Profile State
@@ -62,16 +63,16 @@ export default function UserDashboard() {
   ]);
 
   useEffect(() => {
-    if (!isLoggedIn()) { window.location.replace('/login'); return; }
+    if (!isLoggedIn()) { router.replace('/login'); return; }
     const u = getUser();
-    if (u?.role !== 'client') { window.location.replace('/dashboard/lawyer'); return; }
+    if (u?.role !== 'client') { router.replace('/dashboard/lawyer'); return; }
 
     const fetchDashboardData = async () => {
       try {
         setLoading(true);
         const [profile, statsData, sessions] = await Promise.all([
           getMyProfile(),
-          getMyStats(),
+          getMyStats().catch(() => ({})),
           getAISessions().catch(() => []),
         ]);
         setUser({

@@ -5,6 +5,7 @@ import {
   Plus, Briefcase, Clock, CheckCircle, AlertCircle, Loader2,
   ChevronRight, MessageSquare, Users
 } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 import { getMyCases, getMyRequests, respondToRequest, createCase, getUser, isLoggedIn } from '@/lib/api';
 
 export default function CasesPage() {
@@ -15,10 +16,11 @@ export default function CasesPage() {
   const [creating, setCreating] = useState(false);
   const [activeTab, setActiveTab] = useState('cases');
   const [newCase, setNewCase] = useState({ title: '', description: '', law_domain: '', jurisdiction: '' });
+  const router = useRouter();
   const currentUser = getUser();
 
   useEffect(() => {
-    if (!isLoggedIn()) { window.location.href = '/login'; return; }
+    if (!isLoggedIn()) { router.push('/login'); return; }
     loadData();
   }, []);
 
@@ -182,7 +184,7 @@ export default function CasesPage() {
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-gray-400">{new Date(c.created_at).toLocaleDateString()}</span>
                       <div className="flex gap-2">
-                        <button onClick={() => { window.location.href = '/find-lawyers'; }}
+                        <button onClick={() => { router.push('/find-lawyers'); }}
                           className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-[#052379] border border-[#052379]/20 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                           <Users className="w-3 h-3" />Find Lawyer
                         </button>

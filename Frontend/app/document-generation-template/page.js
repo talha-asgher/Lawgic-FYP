@@ -197,7 +197,7 @@ export default function DocumentFormPage() {
     setSubmitError("");
 
     try {
-      const res = await fetch(`${API_BASE_URL}/documents/generate`, {
+      const genRes = await fetch(`${API_BASE_URL}/documents/generate`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -206,15 +206,33 @@ export default function DocumentFormPage() {
         body: JSON.stringify({ template_type: templateKey, form_data: formData }),
       });
 
-      if (res.status === 401) { setNotLoggedIn(true); setIsSubmitting(false); return; }
+      if (genRes.status === 401) { setNotLoggedIn(true); setIsSubmitting(false); return; }
 
-      if (!res.ok) {
-        const err = await res.json();
+      if (!genRes.ok) {
+        const err = await genRes.json();
         throw new Error(err.detail || "Failed to generate document");
       }
 
-      const data = await res.json();
-      setGeneratedDocId(data.document_id);
+      const data = await genRes.json();
+      const docId = data.document_id;
+
+      const dlRes = await fetch(`${API_BASE_URL}/documents/download/${docId}`, {
+        headers: { "Authorization": `Bearer ${token}` },
+      });
+
+      if (!dlRes.ok) throw new Error("Failed to download document");
+
+      const blob = await dlRes.blob();
+      const url  = URL.createObjectURL(blob);
+      const a    = document.createElement("a");
+      a.href = url;
+      a.download = `${templateKey}_${docId}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      setGeneratedDocId(docId);
       setGeneratedDocTitle(data.title);
       setIsSuccess(true);
     } catch (err) {

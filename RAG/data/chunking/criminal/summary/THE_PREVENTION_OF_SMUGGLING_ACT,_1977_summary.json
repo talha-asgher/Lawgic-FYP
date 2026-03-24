@@ -1,0 +1,506 @@
+{
+  "source_file": "THE PREVENTION OF SMUGGLING ACT, 1977.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE PREVENTION OF SMUGGLING ACT, 1977.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 53,
+  "total_child_chunks": 80,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_PREVENTION_OF_SMUGGLING_ACT,_1977_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_PREVENTION_OF_SMUGGLING_ACT,_1977_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_3",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "3",
+      "section_title": "Preventive detention",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_4",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Powers to deal with an absconding person",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_5",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "5",
+      "section_title": "Review Boards",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_6",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "6",
+      "section_title": "Power to revoke or modify detention order",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_7",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Delegation",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_8",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power to require person suspected of smuggling to appear",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_9",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Power of Special Judge to have inquiry conducted by Magistrate, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_10",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power to proceed against person accused of smuggling",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_11",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Report to Magistrate in respect of absconder, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Summons, etc., to embody substance of order",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_13",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Power to dispense with personal appearance",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_14",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Inquiry by Special Judge",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_15",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Power to require bond",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_16",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Contents of bond, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_17",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Habitual offenders",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_18",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Action where Special Judge does not proceed under section 15 or 17",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_19",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Order in respect of person in custody or detention",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_20",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power to reject surety",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Person failing to give security",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_22",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "22",
+      "section_title": "Surety may ask for cancellation of bond",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_23",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Cancellation of bond and execution of fresh bond",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Deposit of money in lieu of execution of bond",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Forfeiture of bond",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_26",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "26",
+      "section_title": "Execution of fresh bond in certain circumstances",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_27",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Recovery of amount of penalty",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Person required to execute bond may be photographed, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Appeal",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Property acquired by smuggling not to be held",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_31",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Notice to person holding property suspected to be acquired by smuggling",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_32",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "32",
+      "section_title": "Order of Special Judge",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_33",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "33",
+      "section_title": "Burden of proof",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_34",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Option to pay fine in lieu of property forfeited",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_35",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Transfer of certain property void",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_36",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Notice, etc., not to be called in question",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_37",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Special Judge, etc., to have certain powers of Civil Court",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_38",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Power of Special Judge to conduct inquiry, investigation, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_39",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "39",
+      "section_title": "Forfeited property to be surrendered",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_40",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "40",
+      "section_title": "Rectification of mistakes",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_41",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Finding of other court, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_42",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Service of notice",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_43",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Appeal",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_44",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Appointment of Special Judges",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_45",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Transfer of cases",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_46",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "46",
+      "section_title": "Constitution of Special Appellate Courts",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_47",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Special Prosecutors, etc",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_48",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "48",
+      "section_title": "Indemnity",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_49",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Act to override other laws",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_50",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_51",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "-",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_52",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "-",
+      "parent_id": "THE_PREVENTION_OF_SMUGGLING_ACT,_1977_53",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    }
+  ]
+}

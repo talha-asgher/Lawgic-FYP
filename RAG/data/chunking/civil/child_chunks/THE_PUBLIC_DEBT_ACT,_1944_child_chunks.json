@@ -1,0 +1,744 @@
+[
+  {
+    "text": "[22nd November, 1944] An Act to consolidate and amend the law relating to Government securities ²* * * and to the management ³* * * of the public debt ⁴* * * WHEREAS it is expedient to consolidate and amend the law relating to Government securities ²* * * and to the management ³* * * of the public debt ⁴* * *; It is hereby enacted as follows:—",
+    "footnotes": [
+      "²The original words \"issued by the Central Govt.\" omitted by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 2.",
+      "³The original words \"by the Reserve Bank of India\" omitted ibid.",
+      "⁴The original words \"of the Central Govt\" omitted ibid."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_1_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_1",
+      "section_title": "PREAMBLE",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "-",
+      "category": "civil",
+      "start_pos_raw": 1788,
+      "end_pos_raw": 2134,
+      "page_numbers": [
+        3
+      ]
+    }
+  },
+  {
+    "text": "1. Short title, extent and commencement.— (1) This Act may be called the Public Debt ⁵* * Act, 1944. ⁶[(2) It extends to the whole of Pakistan.] (3) It shall come into force on such date⁷ as the ⁸[Federal Government] may, by notification in the official Gazette, appoint in this behalf.",
+    "footnotes": [
+      "⁵The original words and brackets \"(Central Government)\" omitted, ibid., s. 3.",
+      "⁶Subs by the Central Laws (Statute Reform) Ordinance, 1960 (21 of 1960), s. 3 and 2nd Sch. (with effect from the 14th October, 1955), for the original sub-section (2), as amended by A. O., 1949.",
+      "⁷The Act shall come into force from the 1st day of May, 1946, see Notification No. F-9(1) B/46, dated the 20th April 1946, Gazette of India, 1946, Pt. I, p. 575.",
+      "⁸Subs. by F. A.O., 1975, Art. 2 and Table."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_2_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_2",
+      "section_title": "Short title, extent and commencement",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "1",
+      "category": "civil",
+      "start_pos_raw": 2140,
+      "end_pos_raw": 2428,
+      "page_numbers": [
+        3
+      ]
+    }
+  },
+  {
+    "text": "2. Definitions. In this Act, unless there is anything repugnant in the subject or context, — (1) \"the Bank\" means ⁹[the State Bank of Pakistan]. ¹⁰[(1A) \"Government\", in relation to Government security, means the ⁸[Federal or Provincial Government by whom the security is created and issued;] (2) \"Government security\" means— (a) a security, created and issued, whether before or after the commencement of this Act, by ¹¹[Government] for the purpose of raising a public loan, and having one of the following forms, namely:— (i) stock transferable by registration in the books of the Bank; or (ii) a promissory note payable to order; or (iii) a bearer bond payable to bearer; or (iv) a form prescribed in this behalf ¹[,] ²[or notified by Government from time to time;] (b) any other security created and issued by ³[Government] in such form and for such of the purposes of this Act as may be prescribed; (3) \"prescribed\" means prescribed by rules made under this Act;",
+    "footnotes": [
+      "⁹Subs. by the Pakistan (Adaption of Existing Pakistan Laws) (State Bank of Pakistan) Order, 1948 (G. G. O. 18 of 1948), for \"the Reserve Bank of India \".",
+      "¹⁰Clause (1A) ins. by Ordinance 7 of 1961, s. 4.",
+      "⁸Subs. by F. A.O., 1975, Art. 2 and Table.",
+      "¹¹Subs. ibid., for \"The Central Government\".",
+      "¹Sub. by the Public Debt (Amdt.) Act, 1963 (13 of 1963), s. 3, for the semi-colon (with effect from the 2nd August, 1960).",
+      "²Added ibid. (with effect from the 2nd August, 1960).",
+      "³Subs. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 4, for the \"Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_3_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_3",
+      "section_title": "Definitions",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "2",
+      "category": "civil",
+      "start_pos_raw": 2434,
+      "end_pos_raw": 5901,
+      "page_numbers": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "text": "(3) \"prescribed\" means prescribed by rules made under this Act; (4) \"promissory note\" includes a treasury bill.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_3_CH1",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_3",
+      "section_title": "Definitions",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "2",
+      "category": "civil",
+      "start_pos_raw": 5838,
+      "end_pos_raw": 5948,
+      "page_numbers": [
+        4
+      ]
+    }
+  },
+  {
+    "text": "3. Transfer of Government securities.— (1) Subject to the provisions of section 5, a transfer of a Government security shall be made only in the manner prescribed for the making of transfers of securities of the class to which it belongs, and no transfer of a Government security ⁴[which, in the case of a security issued by the ⁵[Federal Government] is made after the thirtieth day of April, 1946, and in the case of a security issued by a Provincial Government, is made after the commencement of the Public Debt ⁵[Federal Government] (Amendment) Ordinance, 1961] shall be valid if— (a) it does not purport to convey the full title to the security, or (b) it is of such a nature as to affect the manner in which the security was expressed by the ³[Government] to be held. (2) Nothing in this section shall affect any order made by the Bank under this Act, or any order made by a Court upon the Bank.",
+    "footnotes": [
+      "⁴Subs. ibid., s. 5, for \"made after the commencement of this Act\".",
+      "⁵Subs. by F. A. O., 1975, Art. 2 and Table for \"Central Government\".",
+      "³Subs. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 4, for the \"Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_4_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_4",
+      "section_title": "Transfer of Government securities",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "3",
+      "category": "civil",
+      "start_pos_raw": 5954,
+      "end_pos_raw": 6857,
+      "page_numbers": [
+        4
+      ]
+    }
+  },
+  {
+    "text": "4. Transferor of Government securities not liable for amount thereof.— Notwithstanding anything contained in the Negotiable Instruments Act, 1881 (XXVI of 1881), a person shall not, by reason only of his having transferred a Government security, be liable to pay any money due either as Principal or as interest there under.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_5_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_5",
+      "section_title": "Transferor of Government securities not liable for amount thereof",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "4",
+      "category": "civil",
+      "start_pos_raw": 6863,
+      "end_pos_raw": 7187,
+      "page_numbers": [
+        4
+      ]
+    }
+  },
+  {
+    "text": "5. Holding of Government securities by holders of public offices.—(1) In the case of any public office to which ⁷[Government] may, by notification⁸ in the official Gazette, declare this sub-section to apply, a Government security in the form of stock or of a promissory note may be held in the name of the office. (2) When a Government security is so held, it shall be deemed to be transferred without any or further endorsement or transfer deed from each holder of the office to the succeeding holder of the office on and from the date on which the latter takes charge of the office. (3) When the holder of the office transfers to a party not being his successor in office a Government security so held, the transfer shall be made by the signature of the holder of the office and the name of the office in the manner and subject to the conditions laid down in section 3.",
+    "footnotes": [
+      "⁷Subs. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 6, for the \"Central Government\".",
+      "⁸For notifin., see Ministry of Finance Notifin. No. D1383-B I/53, dated the Ist June, 1957, see Gaz., of P., 1957, Pt.I, pp. 242-245."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_6_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_6",
+      "section_title": "Holding of Government securities by holders of public offices",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "5",
+      "category": "civil",
+      "start_pos_raw": 7193,
+      "end_pos_raw": 8836,
+      "page_numbers": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "text": "(4) This section applies as well to an office of which there are two or more joint holders as to an office of which there is a single holder.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_6_CH1",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_6",
+      "section_title": "Holding of Government securities by holders of public offices",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "5",
+      "category": "civil",
+      "start_pos_raw": 8839,
+      "end_pos_raw": 8978,
+      "page_numbers": [
+        5
+      ]
+    }
+  },
+  {
+    "text": "6. Notice of trust not receivable.—(1) No notice of any trust in respect of any Government security shall be receivable by ¹[Government] nor shall ¹[Government] be bound by any such notice even though expressly given, nor shall ¹[Government] be regarded as a trustee in respect of any Government security. (2) Without prejudice to the provisions of sub-section (1), the Bank may, as an act of grace and without any liability to the Bank or to ¹[Government] record in its books such directions by the holder of stock for the payment of interest on, or of the maturity value of, or the transfer of, or such other matters relating to, the stock as the Bank thinks fit.",
+    "footnotes": [
+      "¹Subs. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 6, for the \"Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_7_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_7",
+      "section_title": "Notice of trust not receivable",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "6",
+      "category": "civil",
+      "start_pos_raw": 8984,
+      "end_pos_raw": 9650,
+      "page_numbers": [
+        5
+      ]
+    }
+  },
+  {
+    "text": "7. Persons whose title to a Government security of a deceased sole holder may be recognised by the Bank.—Subject to the provisions of section 9 the executors or administrators of a deceased sole holder of a Government security and the holder of a succession certificate issued under Part X of the Succession Act, 1925 (XXXIX of 1925), shall be the only persons who may be recognised by the Bank as having any title to the Government security:",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_8_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_8",
+      "section_title": "Persons whose title to a Government security of a deceased sole holder may be recognised by the Bank",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "7",
+      "category": "civil",
+      "start_pos_raw": 9656,
+      "end_pos_raw": 10099,
+      "page_numbers": [
+        5
+      ]
+    }
+  },
+  {
+    "text": "Provided that nothing in this section shall bar the recognition by the Bank of the manager or the sole surviving male member of a Hindu undivided family governed by the Mitakshara Law as having a title to a Government security, when the security, appears to the Bank to stand in the name of a deceased member of the family and an application is made by such manager or sole surviving member for recognition of his title and is supported by a certificate signed by such authority and after such inquiry as may be prescribed to the effect that the deceased belonged to a Hindu undivided family governed by the Mitakshara Law, that the Government security formed part of the joint property of the family, and that the applicant is the managing or sole surviving male member of the family. ²[* * * * * * *]",
+    "footnotes": [
+      "²Explanation rep. by the Federal Laws (Revision and Declaration) Act, 1951 (26 of 1951), s. 3 and 2nd Sch."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_8_CH1",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_8",
+      "section_title": "Persons whose title to a Government security of a deceased sole holder may be recognised by the Bank",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "7",
+      "category": "civil",
+      "start_pos_raw": 10102,
+      "end_pos_raw": 10903,
+      "page_numbers": [
+        5
+      ]
+    }
+  },
+  {
+    "text": "8. Right of survivors of joint holders of several payees.—Notwithstanding anything contained in section 45 of the Contract Act, 1872 (IX of 1872),— (a) when a Government security is held by two or more persons jointly and either or any of them dies, the title to the security shall vest in the survivor or survivors of those persons, and (b) when a Government security is payable to two or more persons severally and either or any of them dies, the security shall be payable to the survivor or survivors of those persons or to the representative of the deceased or to any of them: Provided that nothing contained in this section shall affect any claim which any representative of a deceased person may have against the survivor or survivors under or in respect of any security to which this section applies.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_9_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_9",
+      "section_title": "Right of survivors of joint holders of several payees",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "8",
+      "category": "civil",
+      "start_pos_raw": 10909,
+      "end_pos_raw": 11967,
+      "page_numbers": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "text": "*Explanation*.— For the purposes of this section a body in-corporate under the Companies Act, 1913 (VII of 1913), or the Co-operative Societies Act, 1912 (II of 1912), or any other enactment for the time being in of force whether within or without ¹[Pakistan], relating to the incorporation of associations of individuals, shall be deemed to die when it is dissolved.",
+    "footnotes": [
+      "¹Subs. by the Central Laws (Statute Reform) Ordinance, 1960 (21 of 1960), s. 3 and 2ⁿᵈ Sch. (*with effect from the 14ᵗʰ October, 1955*), for \"the Provinces and the Capital of the Federation\" which had been subs. by A. O., 1949, for \"British India\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_9_CH1",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_9",
+      "section_title": "Right of survivors of joint holders of several payees",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "8",
+      "category": "civil",
+      "start_pos_raw": 11977,
+      "end_pos_raw": 12345,
+      "page_numbers": [
+        6
+      ]
+    }
+  },
+  {
+    "text": "9. Summary procedure on death of holder of Government securities ²[* * *].— Notwithstanding anything contained in section 7, if within six months of the death of a person who was the holder of a Government security or securities the face value of which does not in the aggregate exceed five thousand rupees ³[or, in the case of Post Office Savings Certificates, twenty-five thousand rupees], probate of his will or letters of administration of his estate or a succession certificate issued under Part X of the Succession Act, X 1925 (XXXIX of 1925), is not produced to the Bank, or proof to the satisfaction of the Bank that proceedings have been instituted to obtain one of these is not furnished, the Bank may determine who is the person entitled to the security or securities, or to administer the estate of the deceased and may make an order vesting the security or securities in the person so determined.",
+    "footnotes": [
+      "²The original words \"not exceeding five thousand rupees face value\" omitted by the Government Savings Bank and Securities Laws (Amdt.) Act, 1958(42 of 1958), s. 2 and Sch. (*with effect from the 1ˢᵗ March, 1960*).",
+      "³Ins. *ibid*."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_9_CH2",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_9",
+      "section_title": "Right of survivors of joint holders of several payees",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "8",
+      "category": "civil",
+      "start_pos_raw": 12348,
+      "end_pos_raw": 13257,
+      "page_numbers": [
+        6
+      ]
+    }
+  },
+  {
+    "text": "10. Government securities not exceeding five thousand rupees face value belonging to minor or insane person.— When a Government security or securities belong to a minor or a person who is insane and incapable of managing his affairs and the face value of the security or securities does not in the aggregate exceed five thousand rupees, the Bank may make such order as it thinks fit for the vesting of such security or securities in such person as it considers represents the minor or insane person.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_10_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_10",
+      "section_title": "Government securities not exceeding five thousand rupees face value belonging to minor or insane person",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "10",
+      "category": "civil",
+      "start_pos_raw": 13263,
+      "end_pos_raw": 13368,
+      "page_numbers": [
+        6
+      ]
+    }
+  },
+  {
+    "text": "11. Issue of duplicate securities and of new securities on conversion, consolidation, sub-division or renewal.—(1) If the person entitled to a Government security ⁴[not being security in a form notified in pursuance of paragraph (iv) of sub-clause (a) of clause (2) of section 2,] applies to the Bank alleging that the security has been lost, stolen or destroyed, or has been defaced or mutilated, the Bank may, on proof to its satisfaction of the loss, theft, destruction, defacement or mutilation of the security, subject to such conditions and on payment of such fees as may be prescribed, order the issue of a duplicate security payable to the applicant. ⁵[(lA) If a Government security in any of the forms notified in pursuance of paragraph (iv) of sub clause",
+    "footnotes": [
+      "⁴Ins. by the Public Debt (Amdt.) Act, 1963 (13 of 1963), s. 4 (*with effect from the 2ⁿᵈ August, 1960*).",
+      "⁵New sub-section (1A) ins. by the Public Debt. (Amdt.) Act, 1963 (13 of 1963), s. 4 (*with effect from the 2ⁿᵈ August, 1960*)."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_11_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_11",
+      "section_title": "Issue of duplicate securities and of new securities on conversion, consolidation, sub-division or renewal",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "11",
+      "category": "civil",
+      "start_pos_raw": 13768,
+      "end_pos_raw": 14539,
+      "page_numbers": [
+        6
+      ]
+    }
+  },
+  {
+    "text": "⁵[(lA) If a Government security in any of the forms notified in pursuance of paragraph (iv) of sub clause (a) of clause (2) of section 2 has been defaced or mutilated, the holder thereof may, in such manner, and subject to such conditions and on payment of such fees, if any, as may be ⁶ notified by Government, apply for the issue of a duplicate security, or for the refund of its value ⁷[:] ⁸[Provided that where such Government security is in the form of a Prize Bond, the holder thereof may apply only for the refund of its value.]",
+    "footnotes": [
+      "⁵New sub-section (1A) ins. by the Public Debt. (Amdt.) Act, 1963 (13 of 1963), s. 4 (*with effect from the 2ⁿᵈ August, 1960*).",
+      "⁶For the Prize Bonds Refund Rules, 1963, *see* Gaz. of P., 1963, Ext. pp. 807-809.",
+      "⁷Subs. by the Public Debt (Amendment) Ordinance, 1979 (48 of 1979), s.2 for full-stop.",
+      "⁸Added *ibid*."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_11_CH1",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_11",
+      "section_title": "Issue of duplicate securities and of new securities on conversion, consolidation, sub-division or renewal",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "11",
+      "category": "civil",
+      "start_pos_raw": 14430,
+      "end_pos_raw": 14970,
+      "page_numbers": [
+        6
+      ]
+    }
+  },
+  {
+    "text": "⁸[Provided that where such Government security is in the form of a Prize Bond, the holder thereof may apply only for the refund of its value.] (2) If the person entitled to a Government security applies to the Bank to have the security converted into a security of another form, or into a security issued in connection with another loan or to have it consolidated with other like securities, or to have it subdivided, or to have it renewed, the Bank may, subject to such conditions and on payment of such fees as may be prescribed, cancel the security and order the issue of a new security or securities.",
+    "footnotes": [
+      "⁸Added *ibid*.",
+      "³Ins. *ibid*."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_11_CH2",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_11",
+      "section_title": "Issue of duplicate securities and of new securities on conversion, consolidation, sub-division or renewal",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "11",
+      "category": "civil",
+      "start_pos_raw": 14824,
+      "end_pos_raw": 16354,
+      "page_numbers": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "text": "(3) The person to whom a duplicate security or a new security is issued under this section shall be deemed for the purposes of section 19 to have been recognised by the Bank as the holder of the security; and a duplicate security or new security so issued to any person shall be deemed to constitute a new contract between ¹[Government] and such person and all persons deriving title thereafter through him.",
+    "footnotes": [
+      "¹Sub. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 6, for \"the Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_11_CH3",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_11",
+      "section_title": "Issue of duplicate securities and of new securities on conversion, consolidation, sub-division or renewal",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "11",
+      "category": "civil",
+      "start_pos_raw": 16361,
+      "end_pos_raw": 16766,
+      "page_numbers": [
+        7
+      ]
+    }
+  },
+  {
+    "text": "12. Summary determination by the Bank of title to Government security in case of dispute.—(1) If the Bank is of opinion that a doubt exists as to the title to a Government security, it may proceed to determine the person who shall for the purposes of the Bank be deemed to be the person entitled thereto. (2) The Bank shall give notice in writing to each claimant of whom it has knowledge, stating the names of all other claimants and the time when and the officer of the Bank by whom the determination of the Bank will be made. (3) The Bank shall give notice in writing to each claimant of the result of the determination so made. (4) On the expiry of six months from the issue of the notices referred to in sub-section (3), the Bank may make an order vesting in the person, found by the Bank to be entitled to the security, the security and any unpaid interest thereon.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_12_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_12",
+      "section_title": "Summary determination by the Bank of title to Government security in case of dispute",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "12",
+      "category": "civil",
+      "start_pos_raw": 16772,
+      "end_pos_raw": 17646,
+      "page_numbers": [
+        7
+      ]
+    }
+  },
+  {
+    "text": "13. Law applicable in regard to Government securities.— Notwithstanding that as a matter of convenience ¹[Government] may have arranged for payments on a Government security to be made elsewhere than in ²[Pakistan], the rights of all person in relation to Government securities shall be determined in connection with all such questions as are dealt with by this Act by the law and in the Courts of ²[Pakistan].",
+    "footnotes": [
+      "¹Sub. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 6, for \"the Central Government\".",
+      "²Subs. by the Central Laws (Statue Reform) Ordinance, 1960 (21 of 1960), s. 3 and 2nd Sch. (with effect from the 14th October, 1955), for \"the Provinces and the Capital of the Federation\" which had been subs. by A. O., 1949, for \"British India\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_13_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_13",
+      "section_title": "Law applicable in regard to Government securities",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "13",
+      "category": "civil",
+      "start_pos_raw": 17652,
+      "end_pos_raw": 18062,
+      "page_numbers": [
+        7
+      ]
+    }
+  },
+  {
+    "text": "14. Recording of evidence.— (1) For the purpose of making any order which it is empowered to make under this Act, the Bank may request a ³[Sessions Judge] ⁴* * * to record or to have recorded the whole or any part of such evidence as any person whose evidence the Bank requires may produce. A ³[Sessions Judge] so requested may himself record, or may direct any Magistrate of the first class subordinate to him or any Magistrate of the second class subordinate to him and empowered in this behalf by general or special order of the ³[High Court] to record the evidence, and shall forward a copy thereof to the Bank. (2) For the purpose of making a vesting order under this Act the Bank may direct one of its officers to record the evidence of any person whose evidence the Bank requires or may receive evidence upon affidavit. (3) A Magistrate or an officer of the Bank acting in pursuance of this section may administer an oath to any witness examined by him.",
+    "footnotes": [
+      "³Subs. by Ord. 23 of 02, s. 2. [this shall come into force in ICT with effect from 15.07.2004 wide SRO 601 (I)/2004].",
+      "⁴Certain words omitted by the Federal Laws (Revision and Declaration) Ordinance, 1981 (27 of 1981), s. 3 and 2nd \"Sch., which was previously amended by Act 26 of 1951, s. 4 and 3rd Sch."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_14_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_14",
+      "section_title": "Recording of evidence",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "14",
+      "category": "civil",
+      "start_pos_raw": 18068,
+      "end_pos_raw": 19032,
+      "page_numbers": [
+        7
+      ]
+    }
+  },
+  {
+    "text": "15. Postponement of payments and registration of transfers pending the making of a vesting Order.— Where the Bank contemplates making an order under this Act to vest a Government security in any person, the Bank may suspend payment of interest on or the maturity value of the security or postpone the making of any order section 11 or the registration of any transfer of the security until the vesting order has been made.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_15_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_15",
+      "section_title": "Postponement of payments and registration of transfers pending the making of a vesting Order",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "15",
+      "category": "civil",
+      "start_pos_raw": 19733,
+      "end_pos_raw": 20155,
+      "page_numbers": [
+        8
+      ]
+    }
+  },
+  {
+    "text": "16. Power of Bank to require bonds.—(1) Before making any order which is empowered to make under this Act, the Bank may require the person in whose favour the order is to be made to execute a bond with one or more sureties in such form as may be prescribed or to furnish security not exceeding twice the value of the subject-matter of the order, to be held at the disposal of the Bank, to pay to the Bank or any person to whom the Bank may assign the bond or security in furtherance of sub-section (2) the amount thereof. (2) A Court before which a claim in respect of the subject-matter of any such order is established may order the bond or security to be assigned to the successful claimant who shall thereupon be entitled to enforce the bond or realise the security to the extent of such claim.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_16_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_16",
+      "section_title": "Power of Bank to require bonds",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "16",
+      "category": "civil",
+      "start_pos_raw": 20161,
+      "end_pos_raw": 20960,
+      "page_numbers": [
+        8
+      ]
+    }
+  },
+  {
+    "text": "17. Publication of notices in official gazette.—Any notice required to be given by the Bank under this Act may be served by post, but every such notice shall also be published by the Bank in ¹[the Gazette of Pakistan or the official Gazette of a Province, according as the notice relates to a security issued by the ²[Federal Government] or a Provincial Government], and on such publication shall be deemed to have been delivered to all persons for whom it is intended.",
+    "footnotes": [
+      "¹Subs. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7 of 1961), s. 7, for \"the official Gazette\".",
+      "²Subs. by F. A. O., 1975, Art. 2 and Table, for \"Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_17_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_17",
+      "section_title": "Publication of notices in official gazette",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "17",
+      "category": "civil",
+      "start_pos_raw": 20966,
+      "end_pos_raw": 21435,
+      "page_numbers": [
+        8
+      ]
+    }
+  },
+  {
+    "text": "18. Scope of vesting order. An order made by the Bank under this Act may confer the full title to a Government security or may confer a title only to the accrued and accruing interest on the security pending a further order vesting the full title.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_18_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_18",
+      "section_title": "Scope of vesting order",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "18",
+      "category": "civil",
+      "start_pos_raw": 21441,
+      "end_pos_raw": 21688,
+      "page_numbers": [
+        8
+      ]
+    }
+  },
+  {
+    "text": "19. Legal effect of orders made by the Bank. No recognition by the Bank of a person as the holder of a Government security, and no order made by the Bank under this Act shall be called in question by any Court so far as such recognition or order affects the relations of ³[Government] or the Bank with the person recognised by the Bank as the holder of a Government security or with any person claiming an interest in such security; and any such recognition by the Bank of any person or any order by the Bank vesting a Government security in any person shall operate to confer on that person a title to the security subject only to a personal liability to the rightful owner of the security for money had and received on his account.",
+    "footnotes": [
+      "³Subs. *ibid*, ss. 8, 9 and 10, for Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_19_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_19",
+      "section_title": "Legal effect of orders made by the Bank",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "19",
+      "category": "civil",
+      "start_pos_raw": 21694,
+      "end_pos_raw": 22427,
+      "page_numbers": [
+        8
+      ]
+    }
+  },
+  {
+    "text": "20. Stay of proceedings on order of Court. Where the Bank contemplates making with reference to any Government security any order which it is empowered to make under this Act, and before the order is made the Bank receives from a Court in ⁴[Pakistan] an order to stay the making of such order, the Bank shall either— (a) hold the security together with any interest unpaid or accruing thereon until the further orders of the Court are received, or (b) apply to the Court to have the security transferred to the Official Trustees appointed for the Province in which such Court is situated, pending the disposal of the proceedings before the Court.",
+    "footnotes": [
+      "⁴Subs. by the Central Laws (Statue Reforms) Ordinance, 1960 (21 of 1960), s. 3 and 2ⁿᵈ Sch. (*with effect from the 14ᵗʰ October, 1955*), for \"the Provinces and the Capital of the Federation\" which had been subs. by A. O., 1949, for \"British India\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_20_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_20",
+      "section_title": "Stay of proceedings on order of Court",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "20",
+      "category": "civil",
+      "start_pos_raw": 22433,
+      "end_pos_raw": 23083,
+      "page_numbers": [
+        8
+      ]
+    }
+  },
+  {
+    "text": "21. Cancellation by the Bank of vesting proceedings. Where the Bank contemplates making an order under this Act vesting a Government security in any person the Bank may, at any time before the order is made, cancel any proceedings already taken for that purpose and may, on such cancellation, proceed anew to the making of such order.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_21_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_21",
+      "section_title": "Cancellation by the Bank of vesting proceedings",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "21",
+      "category": "civil",
+      "start_pos_raw": 23609,
+      "end_pos_raw": 23943,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "22. Discharge in respect of interest on Government securities. Save as otherwise expressly provided in the terms of a Government security, no person shall be entitled to claim interest on such security in respect of any period which has elapsed after the earliest date on which demand could have been made for the payment of the amount due on such security.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_22_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_22",
+      "section_title": "Discharge in respect of interest on Government securities",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "22",
+      "category": "civil",
+      "start_pos_raw": 23949,
+      "end_pos_raw": 24306,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "23. Discharge in respect of bearer bonds. ¹[Government] shall be discharged from all liability on a bearer bond or on any interest coupon of such a bond on payment to the holder of such bond or coupon on presentation on or after the date when it becomes due of the amount expressed therein, unless before such payment an order of a Court in ²[Pakistan] has been served on ¹[Government] restraining it from making payment.",
+    "footnotes": [
+      "¹Subs. by the public debit (Amdt.) Ordinance, 1961 (VII of 1961), ss. 8, 9 and 10, for \"Central Government\".",
+      "²Subs. by the Central Laws (Statue Reforms) Ordinance, 1960 (21 of 1960), s. 3 and 2ⁿᵈ Sch. (with effect from the 14ᵗʰ October, 1955), for \"the Provinces and the Capital of the Federation\" which had been subs. by A. O., 1949, for \"British India\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_23_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_23",
+      "section_title": "Discharge in respect of bearer bonds",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "23",
+      "category": "civil",
+      "start_pos_raw": 24312,
+      "end_pos_raw": 24733,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "24. Period of limitation of Government's liability in respect of interest. Where no shorter period of limitation is fixed by any law for the time being in force, the liability of ¹[Government] in respect of any interest payment due on a Government security shall terminate on the expiry of six years from the date on which the amount due by way of interest became payable.",
+    "footnotes": [
+      "¹Subs. by the public debit (Amdt.) Ordinance, 1961 (VII of 1961), ss. 8, 9 and 10, for \"Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_24_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_24",
+      "section_title": "Period of limitation of Government's liability in respect of interest",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "24",
+      "category": "civil",
+      "start_pos_raw": 24739,
+      "end_pos_raw": 25111,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "25. Inspection of documents. No person shall be entitled to inspect, or to receive information derived from any Government security in the possession or custody of ¹[Government] or from any book, register, or other document kept or maintained by or on behalf of ¹[Government] in relation to Government securities or any Government security, save in such circumstances and manner and subject to such conditions as may be prescribed.",
+    "footnotes": [
+      "¹Subs. by the public debit (Amdt.) Ordinance, 1961 (VII of 1961), ss. 8, 9 and 10, for \"Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_25_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_25",
+      "section_title": "Inspection of documents",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "25",
+      "category": "civil",
+      "start_pos_raw": 25117,
+      "end_pos_raw": 25548,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "26. The Bank and its officers to be deemed public officers. For the purposes of section 124 of the Evidence Act, 1872 (I of 1872), the provisions of Part IV of the Code of Civil Procedure, 1908 (V of 1908), relating to suits by or against public officers in their official capacity, and the provisions of rule 27 of Order V, and rule 52 of Order XXI of the said Code, the Bank and any officer of the Bank acting in his capacity as such shall be deemed to be a public officer.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_26_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_26",
+      "section_title": "The Bank and its officers to be deemed public officers",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "26",
+      "category": "civil",
+      "start_pos_raw": 25554,
+      "end_pos_raw": 26029,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "27. Penalty.—(1) If any person, for the purpose of obtaining for himself or for any other person any title to a Government security, makes to any authority under this Act in any application made under this Act or in the course of any inquiry undertaken in pursuance of this Act any statement which is false and which he either knows to be false or does not believe to be true he shall be punishable with imprisonment for a term which may extend to six months, or with fine or with both. (2) No Court shall take cognizance of any offence under sub-section (1) except on the complaint of the Bank.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_27_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_27",
+      "section_title": "Penalty",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "27",
+      "category": "civil",
+      "start_pos_raw": 26035,
+      "end_pos_raw": 26633,
+      "page_numbers": [
+        9
+      ]
+    }
+  },
+  {
+    "text": "28. Power to make rules.—(1) The ¹[Government] may, subject to the condition of previous publication, by notification in the official Gazette, make rules² to carry out the purposes of this Act. (2) In particular and without prejudice to the generality of the foregoing power such rules may provide for all or any of the following matters, namely:— (a) the forms in which Government securities may be issued; (b) the form of the obligations referred to in clause (iv) of sub-clause (a) of clause (2) of section 2; (c) ³[* * * * * * *] (d) the manner in which different forms of Government securities may be transferred; (e) the holding of Government securities in the form of stock by the holders of offices other than public offices, and the manner in which and the conditions subject to which Government securities so held may be transferred; (f) the manner in which payment of interest in respect of Government securities is to be made and acknowledged;",
+    "footnotes": [
+      "¹Subs. by A.O. 1964, Art.2 & schedule for \"Central Government\"",
+      "²For the Prize Bonds Refund Rules, 1963, see Gaz. of P., 1963, Ext., pp. 807-809.",
+      "³Omitted by the Federal Laws (Revision and Declaration) Ordinance, 1981 (27 of 1981), s. 3 and Sch. II, which was previously subs. by Act 26 of 1951, s. 4 and 3ʳᵈ Sch."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_28_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_28",
+      "section_title": "Power to make rules",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "28",
+      "category": "civil",
+      "start_pos_raw": 27022,
+      "end_pos_raw": 27988,
+      "page_numbers": [
+        10
+      ]
+    }
+  },
+  {
+    "text": "(f) the manner in which payment of interest in respect of Government securities is to be made and acknowledged; (g) the conditions governing the grant of duplicate, renewed, converted, consolidated and sub-divided Government securities; (h) the fees to be paid in respect of the issue of duplicate Government securities and of the renewal, conversion, consolidation and sub-division of Government securities; (i) the form in which receipt of a Government security delivered for discharge, renewal, conversion, consolidation or sub-division is to be acknowledged; (j) the manner of attestation of documents relating to Government securities in the form of stock; (k) the manner in which any document relating to a Government security or any endorsement on a promissory note issued by ⁴[Government] may, on the demand of a person who from any cause is unable to write, be executed on his behalf; (n) the procedure to be followed in making vesting orders;",
+    "footnotes": [
+      "⁴Subs. by the Public Debt (Central Government) (Amdt.) Ordinance, 1961 (7of 1961), ss. 8,9 and 10, for \"the Central Government\"."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_28_CH1",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_28",
+      "section_title": "Power to make rules",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "28",
+      "category": "civil",
+      "start_pos_raw": 27875,
+      "end_pos_raw": 28838,
+      "page_numbers": [
+        10
+      ]
+    }
+  },
+  {
+    "text": "(n) the procedure to be followed in making vesting orders; (o) the authority by whom the certificate referred to in the proviso to section 7 is to be granted and the manner of making the inquiry therein mentioned. (3) A copy of all rules under this section shall be laid on the table of ¹[the Central Legislature] ²[or, as the case may be, of the Provincial Legislature] as soon as may be after they are made.",
+    "footnotes": [
+      "¹Subs. by A.O. 1964, Art.2 & schedule for \"Central Government\"",
+      "²For the Prize Bonds Refund Rules, 1963, see Gaz. of P., 1963, Ext., pp. 807-809."
+    ],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_28_CH2",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_28",
+      "section_title": "Power to make rules",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "28",
+      "category": "civil",
+      "start_pos_raw": 28775,
+      "end_pos_raw": 29185,
+      "page_numbers": [
+        10
+      ]
+    }
+  },
+  {
+    "text": "29. Act X of 1920 not to apply to Government securities. The Securities Act, 1920 (X of 1920), shall cease to apply to Government securities to which this Act applies, and to all matters for which provision is made by this Act.",
+    "footnotes": [],
+    "metadata": {
+      "child_id": "THE_PUBLIC_DEBT_ACT,_1944_29_CH0",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_29",
+      "section_title": "Act X of 1920 not to apply to Government securities",
+      "act_name": "THE PUBLIC DEBT ACT, 1944",
+      "section_number": "29",
+      "category": "civil",
+      "start_pos_raw": 29660,
+      "end_pos_raw": 29893,
+      "page_numbers": [
+        11
+      ]
+    }
+  }
+]

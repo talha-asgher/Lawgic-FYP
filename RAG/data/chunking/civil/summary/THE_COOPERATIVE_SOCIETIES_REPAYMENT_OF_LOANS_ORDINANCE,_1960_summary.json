@@ -1,0 +1,99 @@
+{
+  "source_file": "THE COOPERATIVE SOCIETIES (REPAYMENT OF LOANS) ORDINANCE, 1960.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE COOPERATIVE SOCIETIES (REPAYMENT OF LOANS) ORDINANCE, 1960.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 9,
+  "total_child_chunks": 14,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_COOPERATIVE_SOCIETIES_REPAYMENT_OF_LOANS_ORDINANCE,_1960_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_COOPERATIVE_SOCIETIES_REPAYMENT_OF_LOANS_ORDINANCE,_1960_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement.―",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions.―",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "3",
+      "section_title": "Repayment of Loans, etc",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Determination of liability to repay, etc",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_5",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power of Registrar when making inquiry",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Power to make Rules",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Penalty",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Procedure",
+      "parent_id": "THE_COOPERATIVE_SOCIETIES_(REPAYMENT_OF_LOANS)_ORDINANCE,_1960_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "source_file": "THE FOREIGNERS ACT, 1946.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE FOREIGNERS ACT, 1946.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 24,
+  "total_child_chunks": 34,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_FOREIGNERS_ACT,_1946_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_FOREIGNERS_ACT,_1946_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Power to make orders",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_4",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "4",
+      "section_title": "Internees",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_5",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Change of name",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Obligations of masters of vessels, etc",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_7",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Obligation of hotel keepers and others to furnish particulars",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Determination of nationality",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_9",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Burden of proof",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_10",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power to exempt from application of Act",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_11",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Power to give effect to orders, directions, etc",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_12",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Power to delegate authority",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Attempts, etc., to contravene the provisions of this Act etc",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_14_1",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Attempts, etc., to contravene the provisions of this Act etc",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_14_2",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13B",
+      "section_title": "Prohibition to employ an illegal entrant",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Penalties",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_16_1",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Penalties",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_16_2",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14B",
+      "section_title": "Deportation pending trial or undergoing sentence of imprisonment",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_17",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14C",
+      "section_title": "Custody pending deportation",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14D",
+      "section_title": "Registration of illegal immigrants",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_19",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Protection to persons acting under this Act",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Application of other laws not barred",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Repeals",
+      "parent_id": "THE_FOREIGNERS_ACT,_1946_22",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    }
+  ]
+}

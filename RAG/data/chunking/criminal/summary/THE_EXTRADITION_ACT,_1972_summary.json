@@ -1,0 +1,284 @@
+{
+  "source_file": "THE EXTRADITION ACT, 1972.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE EXTRADITION ACT, 1972.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 29,
+  "total_child_chunks": 35,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_EXTRADITION_ACT,_1972_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_EXTRADITION_ACT,_1972_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent, commencement and application",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Treaty State",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Application of Act to non-treaty States",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Liability of fugitive offenders to be surrendered",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_6",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6",
+      "section_title": "Requisition for surrender of fugitive offender",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Order of Magisterial enquiry",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_8",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Magisterial enquiry",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Receipt in evidence of exhibits, depositions, etc",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "10",
+      "section_title": "Magistrate to report after enquiry",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_11",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Removal and delivery of the fugitive offender",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Discharge of person apprehended if not surrendered within two months",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Power to the Federal Government to discharge a fugitive offender",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Simultaneous requisitions",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Requisition for surrender of persons to Pakistan",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_16",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "A person surrendered by a treaty State not to be tried for previous offence",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Return of the persons surrendered to Pakistan",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Jurisdiction as to offences committed at sea or in air",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Release of persons arrested on bail",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Property found on fugitive offender",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Lawfulness of custody and re-taking under warrant issued under Act",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_22",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_23",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Power to amend the Schedule",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "-",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_26",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22",
+      "section_title": "-",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_27",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "-",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_28",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "-",
+      "parent_id": "THE_EXTRADITION_ACT,_1972_29",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    }
+  ]
+}

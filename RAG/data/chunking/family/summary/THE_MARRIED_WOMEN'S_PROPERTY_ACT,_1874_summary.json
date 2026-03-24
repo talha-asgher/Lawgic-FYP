@@ -1,0 +1,118 @@
+{
+  "source_file": "THE MARRIED WOMEN'S PROPERTY ACT, 1874.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE MARRIED WOMEN'S PROPERTY ACT, 1874.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 11,
+  "total_child_chunks": 14,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Extent and application",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "[",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Married women's earnings to be their separate property",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Married woman may effect policy of insurance",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Insurance by husband for benefit of wife",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_7",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Married woman may take legal proceedings",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Wife's liability for postnuptial debts",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Husband not liable for wife's antenuptial debts",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_10",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Extent of husband's liability for wife's breach of trust or devastation",
+      "parent_id": "THE_MARRIED_WOMEN'S_PROPERTY_ACT,_1874_11",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    }
+  ]
+}

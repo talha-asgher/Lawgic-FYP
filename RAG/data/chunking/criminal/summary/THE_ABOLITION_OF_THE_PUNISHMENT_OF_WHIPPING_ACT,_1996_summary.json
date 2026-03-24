@@ -1,0 +1,61 @@
+{
+  "source_file": "THE ABOLITION OF THE PUNISHMENT OF WHIPPING ACT, 1996.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE ABOLITION OF THE PUNISHMENT OF WHIPPING ACT, 1996.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 5,
+  "total_child_chunks": 5,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Abolition of punishment of whipping",
+      "parent_id": "THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Repeal",
+      "parent_id": "THE_ABOLITION_OF_THE_PUNISHMENT_OF_WHIPPING_ACT,_1996_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

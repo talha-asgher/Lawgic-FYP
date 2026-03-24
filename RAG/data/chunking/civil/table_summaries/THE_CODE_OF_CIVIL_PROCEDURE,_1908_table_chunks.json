@@ -1,0 +1,308 @@
+[
+  {
+    "text": "| 4. | Except as to Rs. | same as | 1. |\n| -- | ---------------- | ------- | -- |\n| 5. |                  |         | 2. |\n| 6. |                  |         | 3. |",
+    "summary": "Title: EXECUTION OF TRUSTS\nType: table\nContains: Except as to Rs.",
+    "metadata": {
+      "table_id": "TABLE_1",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_857",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "EXECUTION OF TRUSTS",
+      "category": "civil",
+      "table_index_in_section": 1,
+      "page_numbers": [
+        213
+      ],
+      "page": 213,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| 1907, January, 25th | .. | .. | .. | .. | ..    | Rs.<br/>150 |\n| ------------------- | -- | -- | -- | -- | ----- | ----------: |\n| February, 1ˢᵗ       | .. | .. | .. | .. | ..    |          50 |\n|                     |    |    |    |    | Total |         200 |",
+    "summary": "Title: DEFENCE IN ANY SUIT FOR DEBT\nType: table\nContains: January; 25th; Rs. 150; -- -- -----; February; 1ˢᵗ; Total",
+    "metadata": {
+      "table_id": "TABLE_2",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_859",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "DEFENCE IN ANY SUIT FOR DEBT",
+      "category": "civil",
+      "table_index_in_section": 2,
+      "page_numbers": [
+        214
+      ],
+      "page": 214,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| (Insert date)\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_, | .. | .. | .. | Rs.<br/>1,000 |\n| ---------------------------------------------------- | -- | -- | -- | ------------- |\n| (insert date)\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_, | .. | .. | .. | 500           |",
+    "summary": "Title: DEFENCE IN SUITS FOR INFRINGEMENT OF COPYRIGHT\nType: table\nContains: (Insert date)_; Rs. 1; -- --; (insert date)_",
+    "metadata": {
+      "table_id": "TABLE_3",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_863",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "DEFENCE IN SUITS FOR INFRINGEMENT OF COPYRIGHT",
+      "category": "civil",
+      "table_index_in_section": 3,
+      "page_numbers": [
+        217
+      ],
+      "page": 217,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Facts admitted.                           | Qualifications or limitations, if any, subject to which they are admitted. |\n| ----------------------------------------- | -------------------------------------------------------------------------- |\n| 1. That M. died on the 1st January, 1890. | 1.                                                                         |\n| 2. That he died intestate                 | 2.                                                                         |\n| 3. That N. was his lawful son             | 3. But not that he was his only lawful son.                                |\n| 4. That O. died                           | 4. But not that he died on the 1st April, 1896.                            |\n| 5. That O. was never married.             | 5.                                                                         |",
+    "summary": "Title: DISCOVERY, INSPECTION AND ADMISSION\nType: table\nContains: Qualifications or limitations, if any, subject to which they are admitted.; 1. That M. died on the 1st January, 1890.; 2. That he died intestate; 3. But not that he was his only lawful son.; 4. But not that he died on the 1st April, 1896.; 5. That O. was never married.",
+    "metadata": {
+      "table_id": "TABLE_4",
+      "parent_id": "",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "DISCOVERY, INSPECTION AND ADMISSION",
+      "category": "civil",
+      "table_index_in_section": 4,
+      "page_numbers": [
+        235
+      ],
+      "page": 235,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Plaintiff                     | Plaintiff<br/>Rs. | Plaintiff<br/>A. | Plaintiff<br/>P. | Defendant                 | Defendant<br/>Rs | Defendant<br/>A. | Defendant<br/>P. |\n| ----------------------------- | ----------------- | ---------------- | ---------------- | ------------------------- | ---------------- | ---------------- | ---------------- |\n| 1. Stamp for plaint ..        |                   |                  |                  | Stamp for power ..        |                  |                  |                  |\n| 2. Do. for power ..           |                   |                  |                  | Do. for petition..        |                  |                  |                  |\n| 3. Do for exhibits ..         |                   |                  |                  | Pleader's fee ..          |                  |                  |                  |\n| 4. Pleader's fee on Rs.       |                   |                  |                  | Subsistence for witnesses |                  |                  |                  |\n| 5. Subsistence for witnesses. |                   |                  |                  | Service of process        |                  |                  |                  |\n| 6. Commissioner's fee         |                   |                  |                  | Commissioner's fee        |                  |                  |                  |\n| 7. Service of process ..      |                   |                  |                  |                           |                  |                  |                  |\n| Total                         |                   |                  |                  | Total                     |                  |                  |                  |",
+    "summary": "Title: DECREES\nType: party/case details table\nContains: Plaintiff<br/>Rs.",
+    "metadata": {
+      "table_id": "TABLE_5",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_873",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "DECREES",
+      "category": "civil",
+      "table_index_in_section": 5,
+      "page_numbers": [
+        236
+      ],
+      "page": 236,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Plaintiff                     | Plaintiff | Plaintiff | Plaintiff | Defendant                 | Defendant | Defendant | Defendant |\n| ----------------------------- | --------- | --------- | --------- | ------------------------- | --------- | --------- | --------- |\n|                               | Rs.       | A.        | P.        |                           | Rs.       | A.        | P.        |\n| 1. Stamp for plaint ..        |           |           |           | Stamp for power ..        |           |           |           |\n| 2. Do. for power ..           |           |           |           | Do. for petition ..       |           |           |           |\n| 3. Do for exhibits ..         |           |           |           | Pleader's fee ..          |           |           |           |\n| 4. Pleader's fee on Rs.       |           |           |           | Subsistence for witnesses |           |           |           |\n| 5. Subsistence for witnesses. |           |           |           | Service of process        |           |           |           |\n| 6. Commissioner's fee         |           |           |           | Commissioner's fee        |           |           |           |\n| 7. Service of process         |           |           |           |                           |           |           |           |\n| Total ..                      |           |           |           | Total ..                  |           |           |           |",
+    "summary": "Title: DECREES\nType: party/case details table\nContains: Plaintiff",
+    "metadata": {
+      "table_id": "TABLE_6",
+      "parent_id": "",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "DECREES",
+      "category": "civil",
+      "table_index_in_section": 6,
+      "page_numbers": [
+        237
+      ],
+      "page": 237,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Plaintiff      | ..  | .. | .. | .. | .. | 2nd Mortgagee, |\n| -------------- | --- | -- | -- | -- | -- | -------------- |\n| vs.            |     |    |    |    |    |                |\n| Defendant No.1 | ... | .. | .. | .. |    | Mortgagor      |\n| Defendant No.2 | ... | .. | .. | .. |    | 1st Mortgagee] |",
+    "summary": "Title: ## SCHEDULE\nType: party/case details table\nContains: Plaintiff; 2nd Mortgagee; --- -- --; vs.; Defendant No.1; .. Mortgagor; Defendant No.2; .. 1st Mortgagee]",
+    "metadata": {
+      "table_id": "TABLE_7",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_895",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "## SCHEDULE",
+      "category": "civil",
+      "table_index_in_section": 7,
+      "page_numbers": [
+        256
+      ],
+      "page": 256,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Number of suit and the Court by which decree was passed. | Names of parties. | Date of application for execution. | Number of the execution case. | Process issued and dates of service thereof. | Costs of execution. | Amount realized. | How the case is disposed of. | Remarks. |\n| -------------------------------------------------------- | ----------------- | ---------------------------------- | ----------------------------- | -------------------------------------------- | ------------------- | ---------------- | ---------------------------- | -------- |\n| 1                                                        | 2                 | 3                                  | 4                             | 5                                            | 6                   | 7                | 8                            | 9        |\n|                                                          |                   |                                    |                               |                                              | *Rs. a.p*           | *Rs. a.p.*       |                              |          |",
+    "summary": "Title: INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL\nType: fees/costs table\nContains: Names of parties.",
+    "metadata": {
+      "table_id": "TABLE_8",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_904",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL",
+      "category": "civil",
+      "table_index_in_section": 8,
+      "page_numbers": [
+        270
+      ],
+      "page": 270,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| No. of suit. | Names of parties.                 | Date of decree.    | Whether any appeal preferred from decree. | Payment or adjustment made, if any. | Previous application, if any, with date and result.         | Amount with interest due upon the decree till date of decree and Amount other relief granted thereby together with particulars of any cross decree.  | Amount of costs, if any, awarded. | Against whom to be executed. | Mode in which the assistance of the Court is required. |\n| ------------ | --------------------------------- | ------------------ | ----------------------------------------- | ----------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ---------------------------- | ------------------------------------------------------ |\n| 1            | 2                                 | 3                  | 4                                         | 5                                   | 6                                                           | 7                                                                                                                                                    | 8                                 | 9                            | 10                                                     |\n| 789 of 1897  | A.B- Plaintiff<br/>C.D- Defendant | October 11th, 1897 | No.                                       | None                                | Rs. 72-4 recorded on application, dated the 4th March. 1899 | Rs. 314-8-2 principal \\[interest at 6 per cent per annum, from date of decree till payment].<br/>Rs. A.P.&#xA;47 8 0&#xA;8 2 0&#xA;55 12 4&#xA;Total |                                   |                              |                                                        |",
+    "summary": "Title: INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL\nType: party/case details table\nContains: Names of parties.; A.B- Plaintiff<br/>C.D- Defendant",
+    "metadata": {
+      "table_id": "TABLE_9",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_905",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL",
+      "category": "civil",
+      "table_index_in_section": 9,
+      "page_numbers": [
+        271
+      ],
+      "page": 271,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Decree             |   |   |   |\n| ------------------ | - | - | - |\n| Principal ..       |   |   |   |\n| Interest Cost..    |   |   |   |\n| Costs of execution |   |   |   |\n| Further interest   |   |   |   |\n| Total              |   |   |   |",
+    "summary": "Title: INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL\nType: fees/costs table\nContains: Decree - -; Principal ..; Interest Cost..; Costs of execution; Further interest; Total",
+    "metadata": {
+      "table_id": "TABLE_10",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_905",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL",
+      "category": "civil",
+      "table_index_in_section": 10,
+      "page_numbers": [
+        273
+      ],
+      "page": 273,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Decree       |   |   |   |\n| ------------ | - | - | - |\n| Principal .. |   |   |   |\n| Interest ..  |   |   |   |\n| Cost ..      |   |   |   |\n| Execution .. |   |   |   |\n|              |   |   |   |\n| Total        |   |   |   |",
+    "summary": "Title: INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL\nType: fees/costs table\nContains: Decree - -; Principal ..; Interest ..; Cost ..; Execution ..; Total",
+    "metadata": {
+      "table_id": "TABLE_11",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_905",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "INJUNCTION AGAINST BUILDING HIGHER THAN OLD LEVEL",
+      "category": "civil",
+      "table_index_in_section": 11,
+      "page_numbers": [
+        275
+      ],
+      "page": 275,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| No. of lot | Description of property to be sold, with the name of each owner where there are more judgment debtors than one. | The revenue assessed upon the estate or part of the estate if the property to be sold is an interest in an estate or a part of an estate paying revenue to Government. | Detail of any incumbrances to which the property is liable. | Claims, if any, which have been put forward to the property and any other known particulars bearing on its nature and value. |\n| ---------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |\n|            |                                                                                                                 |                                                                                                                                                                        |                                                             |                                                                                                                              |",
+    "summary": "Title: ATTACHMENT IN EXECUTION\nType: property details table\nContains: Description of property to be sold, with the name of each owner where there are more judgment debtors than one.",
+    "metadata": {
+      "table_id": "TABLE_12",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_913",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "ATTACHMENT IN EXECUTION",
+      "category": "civil",
+      "table_index_in_section": 12,
+      "page_numbers": [
+        284
+      ],
+      "page": 284,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Principal | .. |   |   |   |\n| --------- | -- | - | - | - |\n| Interest  | .. |   |   |   |\n| Costs     | .. |   |   |   |\n|           |    |   |   |   |\n| Total     | .. |   |   |   |",
+    "summary": "Title: SIR,\nType: fees/costs table\nContains: Principal; .. -- -; Interest; Costs; Total",
+    "metadata": {
+      "table_id": "TABLE_13",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_916",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "SIR,",
+      "category": "civil",
+      "table_index_in_section": 13,
+      "page_numbers": [
+        291
+      ],
+      "page": 291,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Appellant                         | Amount | Amount | Amount | Respondent               | Amount | Amount | Amount |\n| --------------------------------- | ------ | ------ | ------ | ------------------------ | ------ | ------ | ------ |\n|                                   | Rs.    | a.     | p.     |                          | Rs.    | a.     | p.     |\n| 1. Stamp for memorandum of appeal |        |        |        | Stamp for power          |        |        |        |\n| 2. Do. for power ..               |        |        |        | Do. for petition Service |        |        |        |\n| 3. Service of processes           |        |        |        | of processes             |        |        |        |\n| 4. Pleader's fee on Rs.           |        |        |        | Pleader's fee on Rs.     |        |        |        |\n| Total ..                          |        |        |        | Total ..                 |        |        |        |",
+    "summary": "Title: NOTICE TO RESPONDENT OF THE DAY FIXED FOR THE HEARING OF THE APPEAL\nType: fees/costs table\nContains: Amount",
+    "metadata": {
+      "table_id": "TABLE_14",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_919",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "NOTICE TO RESPONDENT OF THE DAY FIXED FOR THE HEARING OF THE APPEAL",
+      "category": "civil",
+      "table_index_in_section": 14,
+      "page_numbers": [
+        302
+      ],
+      "page": 302,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| No. | Description of<br/>documents | Date, if any,<br/>which the<br/>document bears | Signature of party or<br/>pleader |\n| --- | ---------------------------- | ---------------------------------------------- | --------------------------------- |\n| 1   | 2                            | 3                                              | 4                                 |\n|     |                              |                                                |                                   |",
+    "summary": "Title: APPENDIX H\nType: fees/costs table\nContains: Description of<br/>documents",
+    "metadata": {
+      "table_id": "TABLE_15",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_920",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "APPENDIX H",
+      "category": "civil",
+      "table_index_in_section": 15,
+      "page_numbers": [
+        307
+      ],
+      "page": 307,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "| Plaintiff                         | Defendant | Claim | Appear a nce | Judgment | Appeal | Execution | Return of Execution                                                                          |\n| --------------------------------- | --------- | ----- | ------------ | -------- | ------ | --------- | -------------------------------------------------------------------------------------------- |\n| Date of Presentation of plaint    |           |       |              |          |        |           | Minute of<br/>other Return<br/>than Payment<br/>or Arrest,<br/>and date of<br/>every Return. |\n| Number of suit.                   |           |       |              |          |        |           |                                                                                              |\n| Name.                             |           |       |              |          |        |           |                                                                                              |\n| Description.                      |           |       |              |          |        |           |                                                                                              |\n| Place of residence.               |           |       |              |          |        |           |                                                                                              |\n| Name.                             |           |       |              |          |        |           |                                                                                              |\n| Description.                      |           |       |              |          |        |           |                                                                                              |\n| Place of residence.               |           |       |              |          |        |           |                                                                                              |\n| Amount or value.                  |           |       |              |          |        |           |                                                                                              |\n| When the cause of action accrued. |           |       |              |          |        |           |                                                                                              |\n| Day for parties to appear.        |           |       |              |          |        |           |                                                                                              |\n| Plaintiff.                        |           |       |              |          |        |           |                                                                                              |\n| Defendant.                        |           |       |              |          |        |           |                                                                                              |\n| Date.                             |           |       |              |          |        |           |                                                                                              |\n| For whom.                         |           |       |              |          |        |           |                                                                                              |\n| For what or amount.               |           |       |              |          |        |           |                                                                                              |\n| Date of decision of appeal        |           |       |              |          |        |           |                                                                                              |\n| Judgment in appeal.               |           |       |              |          |        |           |                                                                                              |\n| Date of application.              |           |       |              |          |        |           |                                                                                              |\n| Date of order.                    |           |       |              |          |        |           |                                                                                              |\n| Against whom.                     |           |       |              |          |        |           |                                                                                              |\n| For what and amt.; or of money.   |           |       |              |          |        |           |                                                                                              |\n| Amount of costs.                  |           |       |              |          |        |           |                                                                                              |\n| Amount paid into Court.           |           |       |              |          |        |           |                                                                                              |\n| Arrested.                         |           |       |              |          |        |           |                                                                                              |",
+    "summary": "Title: NOTICE TO SURETY OF HIS LIABILITY UNDER A DECREE\nType: party/case details table\nContains: Defendant",
+    "metadata": {
+      "table_id": "TABLE_16",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_922",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "NOTICE TO SURETY OF HIS LIABILITY UNDER A DECREE",
+      "category": "civil",
+      "table_index_in_section": 16,
+      "page_numbers": [
+        312
+      ],
+      "page": 312,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  },
+  {
+    "text": "|   | Date of memorandum.            |                       |                                   |   |\n| - | ------------------------------ | --------------------- | --------------------------------- | - |\n|   | Number of appeal.              |                       |                                   |   |\n|   | Name.                          |                       | Appellant.                        |   |\n|   | Description.                   |                       |                                   |   |\n|   | Place of residence.            |                       |                                   |   |\n|   | Name.                          |                       | REGISTER OF APPEALS TO \\[1, f, 9] |   |\n|   | Description.                   | Respondent            |                                   |   |\n|   | Place of residence.            |                       |                                   |   |\n|   | Of what Court.                 |                       |                                   |   |\n|   | Number of Original Suit.       | Decree appealed from. |                                   |   |\n|   | Particulars.                   |                       |                                   |   |\n|   | Amount or value.               |                       |                                   |   |\n|   | Day for parties to appear.     |                       | Appearance.                       |   |\n|   | Appellant.                     |                       |                                   |   |\n|   | Respondent.                    | Judgment.             |                                   |   |\n|   | Date.                          |                       |                                   |   |\n|   | Confirmed, reversed or varied. |                       |                                   |   |\n|   | For what or amount.            |                       |                                   |   |\n\n\n| COURT OF HIGH COURT AT | RETURN OF APPEALS FROM DECREES IN THE YEAR 19 | No. 15 |\n| ---------------------- | --------------------------------------------- | ------ |",
+    "summary": "Title: NOTICE TO SURETY OF HIS LIABILITY UNDER A DECREE\nType: table\nContains: Date of memorandum.; Number of appeal.; Name.; Description.; Place of residence.; Of what Court.; Number of Original Suit.; … and 9 further rows or topics",
+    "metadata": {
+      "table_id": "TABLE_17",
+      "parent_id": "THE_CODE_OF_CIVIL_PROCEDURE,_1908_922",
+      "act_name": "THE CODE OF CIVIL PROCEDURE, 1908",
+      "section_number": "-",
+      "section_title": "NOTICE TO SURETY OF HIS LIABILITY UNDER A DECREE",
+      "category": "civil",
+      "table_index_in_section": 17,
+      "page_numbers": [
+        313
+      ],
+      "page": 313,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CODE OF CIVIL PROCEDURE, 1908.pdf"
+    }
+  }
+]

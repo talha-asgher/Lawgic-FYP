@@ -1,0 +1,90 @@
+{
+  "source_file": "THE RECUSANT WITNESSES ACT, 1853.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE RECUSANT WITNESSES ACT, 1853.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 8,
+  "total_child_chunks": 9,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_RECUSANT_WITNESSES_ACT,_1853_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_RECUSANT_WITNESSES_ACT,_1853_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_1",
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1-",
+      "section_title": "18",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "-",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20-",
+      "section_title": "25",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Persons absconding, etc, to avoid service of summons, etc., liable for damages",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27-",
+      "section_title": "39",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "-",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41-",
+      "section_title": "44",
+      "parent_id": "THE_RECUSANT_WITNESSES_ACT,_1853_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

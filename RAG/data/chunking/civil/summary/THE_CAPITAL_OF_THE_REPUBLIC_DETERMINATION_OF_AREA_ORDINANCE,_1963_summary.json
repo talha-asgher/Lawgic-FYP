@@ -1,0 +1,52 @@
+{
+  "source_file": "THE CAPITAL OF THE REPUBLIC (DETERMINATION OF AREA) ORDINANCE, 1963.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CAPITAL OF THE REPUBLIC (DETERMINATION OF AREA) ORDINANCE, 1963.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 4,
+  "total_child_chunks": 11,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CAPITAL_OF_THE_REPUBLIC_DETERMINATION_OF_AREA_ORDINANCE,_1963_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CAPITAL_OF_THE_REPUBLIC_DETERMINATION_OF_AREA_ORDINANCE,_1963_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CAPITAL_OF_THE_REPUBLIC_(DETERMINATION_OF_AREA)_ORDINANCE,_1963_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_CAPITAL_OF_THE_REPUBLIC_(DETERMINATION_OF_AREA)_ORDINANCE,_1963_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Area of the Capital",
+      "parent_id": "THE_CAPITAL_OF_THE_REPUBLIC_(DETERMINATION_OF_AREA)_ORDINANCE,_1963_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_CAPITAL_OF_THE_REPUBLIC_(DETERMINATION_OF_AREA)_ORDINANCE,_1963_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 7
+    }
+  ]
+}

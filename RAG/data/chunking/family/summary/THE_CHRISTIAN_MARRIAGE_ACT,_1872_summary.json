@@ -1,0 +1,899 @@
+{
+  "source_file": "THE CHRISTIAN MARRIAGE ACT, 1872.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE CHRISTIAN MARRIAGE ACT, 1872.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 97,
+  "total_child_chunks": 112,
+  "total_table_chunks": 5,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_CHRISTIAN_MARRIAGE_ACT,_1872_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_CHRISTIAN_MARRIAGE_ACT,_1872_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\table_chunks\\THE_CHRISTIAN_MARRIAGE_ACT,_1872_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_1",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_2",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "[Enactments repealed.]",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_3",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation-clause",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_4",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Marriages to be solemnized according to Act",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_5",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Persons by whom marriages may be solemnized",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_6_1",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Persons by whom marriages may be solemnized",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_6_2",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Marriage Registrars",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_7",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "-",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_8",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Licensing of persons to grant certificates of marriage between Native Christians",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_9",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Time for solemnizing marriage",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_10",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Place for solemnizing marriage",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_11",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Notice of intended marriage",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Publication of such notice",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_13",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Notice of intended marriage in private dwelling",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_14",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Sending copy of notice to Marriage Registrar when one party is a minor",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Procedure on receipt of notice",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Issue of certificate of notice given and declaration made",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_17",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Declaration before issue of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Consent of father, or guardian, or mother",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_19",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power to prohibit by notice issue of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Procedure on receipt of notice",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Issue of certificate in case of minority",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_22",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Issue of certificate to Native Christians",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_23",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Form of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_24",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Solemnization of marriage",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_25",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Certificate void if marriage not solemnized within two months",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_26",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Marriages when to be registered",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_27",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Registration of marriages solemnized by Clergymen of Church of England",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_28",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Quarterly returns to Archdeaconry",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_29",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Registration and returns of marriages solemnized by Clergymen of Church of Rome",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_30",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Registration and returns of marriages solemnized by Clergymen of Church of Scotland",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_31",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Certain marriages to be registered in duplicate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_32",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Entries of such marriages to be signed and attested",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_33",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Certificate to be forwarded to Marriage Registrar, copied and sent to Registrar General",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_34",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Copies of certificates to be entered and numbered",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_35",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Registrar to add number of entry to certificate, and send to Registrar General",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_36",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Registration of marriages between Native Christians by persons referred to in clauses (1), (2) and (3) of section 5",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_37",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "38",
+      "section_title": "Notice of intended marriage before Marriage Registrar",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_38",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Publication of notice",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_39",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Notice to be filed and copy entered in Marriage Notice Book",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_40",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "42",
+      "section_title": "Oath before issue of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_41",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "-",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_42",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Consent of father or guardian",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_43",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Petition where person whose consent is necessary is insane, or unjustly withholds consent",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_44",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "46",
+      "section_title": "Petition where Marriage Registrar refuses certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_45",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Petition when Registrar doubts authority of person forbidding",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_46",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "49",
+      "section_title": "Liability for frivolous protest against issue of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_47",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Form of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_48",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Solemnization of marriage after issue of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_49",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "52",
+      "section_title": "When marriage not had within two months after notice, new notice required",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_50",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Marriage Registrar may ask for particulars to be registered",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_51",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Registration of marriage solemnized under Part V",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_52",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "55",
+      "section_title": "Certificates to be sent monthly to Registrar General",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_53",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Officers to whom Registrars in Acceding States shall send certificates",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_54",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Registrars to ascertain that notice and certificate are understood by Native Christians",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_55",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Native Christians to be made to understand declarations",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_56",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Registration of marriages between Native Christians",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_57",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## ³PART VI",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_58",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "On what conditions marriages of Native Christians may be certified",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_59",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "61",
+      "section_title": "Grant of certificate",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_60",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## ³PART VI",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_61",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "-",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_62_1",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "-",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_62_2",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Searches in register book and copies of entries",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_63",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Books in which marriages of Native Christians under Part I or Part III are registered",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_64",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Part VI not to apply to Roman Catholics. Saving of certain marriages",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_65",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART VII",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_66",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Forbidding, by false personation issue of certificate by Marriage Registrar",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_67_1",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Forbidding, by false personation issue of certificate by Marriage Registrar",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_67_2",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Solemnizing marriage out of proper time, or without witnesses",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_68",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "70",
+      "section_title": "Solemnizing without notice or within fourteen days after notice, marriage with minor",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_69",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Issuing certificate, or marrying without publication of notice; marrying after expiry of notice; solemnizing marriage with minor within fourteen days without authority of Court or without sending copy of notice; issuing certificate against authorized prohibition",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_70",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "72",
+      "section_title": "Issuing certificate after expiry of notice, or, in case of minor, within fourteen days after notice, or against authorized prohibition",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_71",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Persons authorized to solemnize marriage(other than Clergy of Churches of Enland, Scotland or Rome);",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_72",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "74",
+      "section_title": "Unlicensed person granting certificate pretending to be licensed",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_73",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Destroying or falsifying register-books",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_74",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Limitation of prosecutions under Act",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_75",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "What matters need not be proved in respect of marriage in accordance with Act",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_76",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Correction of errors",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_77",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Searches and copies of entries",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_78",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "80",
+      "section_title": "Certified copy of entry in marriage-register, etc., to be evidence",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_79_1",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "80",
+      "section_title": "Certified copy of entry in marriage-register, etc., to be evidence",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_79_2",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "82",
+      "section_title": "Provincial Government to prescribe fees",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_80",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_81",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "84",
+      "section_title": "-",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_82",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85",
+      "section_title": "Power to declare who shall be District Judge",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_83",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "-",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_84",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "87",
+      "section_title": "Saving of Consular marriages",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_85",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "Non-validation of marriages within prohibited degrees",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_86",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE I",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_87",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE II",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_88",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE III",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_89",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "MARRIAGES",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_90",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE IV",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_91",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CERTIFICATE OF MARRIAGE",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_92",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE IV",
+      "parent_id": "THE_CHRISTIAN_MARRIAGE_ACT,_1872_93",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    }
+  ]
+}

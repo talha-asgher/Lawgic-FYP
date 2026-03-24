@@ -1,0 +1,385 @@
+{
+  "source_file": "THE GENERAL CLAUSES ACT, 1897.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE GENERAL CLAUSES ACT, 1897.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 39,
+  "total_child_chunks": 67,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_GENERAL_CLAUSES_ACT,_1897_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_GENERAL_CLAUSES_ACT,_1897_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_4_1",
+      "page_numbers": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_4_2",
+      "page_numbers": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "num_children": 11
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_4_3",
+      "page_numbers": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "4",
+      "section_title": "Application of foregoing definitions to previous enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_5",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4A",
+      "section_title": "Application of certain definitions to all Pakistan Laws",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_6",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Coming into operation of enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_7",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Effect of repeal",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_8_1",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Effect of repeal",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_8_2",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Revival of repealed enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_9",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Construction of references to repealed enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_10",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Commencement and termination of time",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_11",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Computation of time",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_12",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Measurement of distances",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_13",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Duty to be taken prorate in enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_14",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Gender and number",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_15",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13A",
+      "section_title": "-",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_16",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Powers conferred to be exercisable from time to time",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_17",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Power to appoint to include power to appoint",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_18",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power to appoint to include power to suspend or dismiss",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_19",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Substitution of functionaries",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_20",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Successors",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_21",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Official chiefs and subordinates",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_22",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Construction of orders, etc., issued under enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_23",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20A",
+      "section_title": "Rules and Order, etc., to be published",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_24",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Power to make, to include power to add to, amend, vary or rescind, orders, rules or bye-laws",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_25",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Making of rules or bye-laws and issuing or orders between passing and commencement of enactment",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_26",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Provisions applicable to making of rules or bye-laws after previous publication",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_27",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Continuation, of orders, etc., issued under enactments repealed and re-enacted",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_28",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "24A",
+      "section_title": "Exercise of power under enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_29",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Recovery of fines",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_30",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Provision as to offences punishable under two or more enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_31",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Meaning of service by post",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_32",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Citation of enactments",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_33",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Saving for previous enactments, rules and bye-laws",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_34_1",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Saving for previous enactments, rules and bye-laws",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_34_2",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Saving for previous enactments, rules and bye-laws",
+      "parent_id": "THE_GENERAL_CLAUSES_ACT,_1897_34_3",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    }
+  ]
+}

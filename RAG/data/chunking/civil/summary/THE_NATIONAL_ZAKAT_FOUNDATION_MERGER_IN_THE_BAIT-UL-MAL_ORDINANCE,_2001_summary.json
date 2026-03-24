@@ -1,0 +1,62 @@
+{
+  "source_file": "THE NATIONAL ZAKAT FOUNDATION (MERGER IN THE BAIT-UL-MAL) ORDINANCE, 2001.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE NATIONAL ZAKAT FOUNDATION (MERGER IN THE BAIT-UL-MAL) ORDINANCE, 2001.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 5,
+  "total_child_chunks": 9,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_NATIONAL_ZAKAT_FOUNDATION_MERGER_IN_THE_BAIT-UL-MAL_ORDINANCE,_2001_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_NATIONAL_ZAKAT_FOUNDATION_MERGER_IN_THE_BAIT-UL-MAL_ORDINANCE,_2001_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_NATIONAL_ZAKAT_FOUNDATION_(MERGER_IN_THE_BAIT-UL-MAL)_ORDINANCE,_2001_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_NATIONAL_ZAKAT_FOUNDATION_(MERGER_IN_THE_BAIT-UL-MAL)_ORDINANCE,_2001_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_NATIONAL_ZAKAT_FOUNDATION_(MERGER_IN_THE_BAIT-UL-MAL)_ORDINANCE,_2001_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Merger of Foundation in the Bait-ul-Mal",
+      "parent_id": "THE_NATIONAL_ZAKAT_FOUNDATION_(MERGER_IN_THE_BAIT-UL-MAL)_ORDINANCE,_2001_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Transfer etc., of employees of the Foundation",
+      "parent_id": "THE_NATIONAL_ZAKAT_FOUNDATION_(MERGER_IN_THE_BAIT-UL-MAL)_ORDINANCE,_2001_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 3
+    }
+  ]
+}

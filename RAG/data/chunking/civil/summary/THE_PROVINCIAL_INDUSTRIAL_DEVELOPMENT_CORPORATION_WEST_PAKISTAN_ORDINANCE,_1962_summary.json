@@ -1,0 +1,374 @@
+{
+  "source_file": "THE PROVINCIAL INDUSTRIAL DEVELOPMENT CORPORATION (WEST PAKISTAN) ORDINANCE, 1962.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PROVINCIAL INDUSTRIAL DEVELOPMENT CORPORATION (WEST PAKISTAN) ORDINANCE, 1962.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 39,
+  "total_child_chunks": 49,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_WEST_PAKISTAN_ORDINANCE,_1962_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_WEST_PAKISTAN_ORDINANCE,_1962_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Establishment of the Corporation and its offices",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Share Capital",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Management",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_6",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Appointment and term of office of Directors",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Chairman",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_9",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Disqualification of Directors",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Appointment of officers",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "11",
+      "section_title": "Declaration of fidelity and secrecy",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Meetings of the Board",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Forwarding of statements, etc., to the Government",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_14",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13A",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_15",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Business which the Corporation shall transact",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_17",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "15B",
+      "section_title": "Security for loans or subscription",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15C",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_19",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15D",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15E",
+      "section_title": "Loans in foreign currency",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15F",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_22",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15G",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_23",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15H",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_24",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15I",
+      "section_title": "Act XVIII of 1891 to apply to the books of the Corporation",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_25",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Annual Budget Statement",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_26",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Custody and investment of Corporation Funds",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_27",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Maintenance of accounts",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_28",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Audit",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_29",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Annual Report",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_30",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Indemnity of Directors",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_31",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21A",
+      "section_title": "-",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_32",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Public servants",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_33",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_34",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power to make regulations",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_35",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Power to amend the Schedule",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_36",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Winding up of the Corporation",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_37",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_38",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE",
+      "parent_id": "THE_PROVINCIAL_INDUSTRIAL_DEVELOPMENT_CORPORATION_(WEST_PAKISTAN)_ORDINANCE,_1962_39",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    }
+  ]
+}

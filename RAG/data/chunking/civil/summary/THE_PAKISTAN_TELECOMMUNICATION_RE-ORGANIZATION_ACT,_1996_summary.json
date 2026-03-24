@@ -1,0 +1,682 @@
+{
+  "source_file": "THE PAKISTAN TELECOMMUNICATION (RE-ORGANIZATION) ACT, 1996.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PAKISTAN TELECOMMUNICATION (RE-ORGANIZATION) ACT, 1996.pdf",
+  "category": "civil",
+  "rgn_date": "RGN Date: 19-11-2024",
+  "total_parent_chunks": 71,
+  "total_child_chunks": 144,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PAKISTAN_TELECOMMUNICATION_RE-ORGANIZATION_ACT,_1996_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PAKISTAN_TELECOMMUNICATION_RE-ORGANIZATION_ACT,_1996_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_1",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_2",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_3",
+      "page_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "3",
+      "section_title": "Establishment of Pakistan Telecommunication Authority",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_4",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "4",
+      "section_title": "Functions of the Authority",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_5",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Powers of the Authority",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_6",
+      "page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "6",
+      "section_title": "Responsibilities of the Authority",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_7",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Appeals",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_8",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7A",
+      "section_title": "Establishment of the Tribunal",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_9",
+      "page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "7B",
+      "section_title": "Appeal to Supreme Court",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_10",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Powers of the Federal Government to issue policy directives",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_11",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_12",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Appointment of employees",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_13",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Members and employees",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_14",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Budget statement",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_15",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Pakistan Telecommunication Authority Fund",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_16",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "14",
+      "section_title": "Maintenance of accounts",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_17",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Audit",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_18",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Authority to be deemed to be a local authority",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_19",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Liability of the Federal Government to be limited",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_20",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Submission of yearly report, returns, etc",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_21",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Licensing of telecommunication services",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_22",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "21",
+      "section_title": "Exclusive power of the Authority to grant licenses",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_23",
+      "page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "22",
+      "section_title": "Modification of licence conditions",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_24",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "23",
+      "section_title": "Issue of enforcement orders and penalties",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_25",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "23A",
+      "section_title": "Fines and penalties to be credited to the Federal Consolidated Fund",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_26",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Powers of Administrator",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_27",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Accounting procedures, investments and contracts",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_28",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Tariffs",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_29",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Privileges of licensee of public switched network",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_30_1",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Privileges of licensee of public switched network",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_30_2",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "28",
+      "section_title": "National standards",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_31",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Terminal equipment and approved installers",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_32",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Recovery of arrears, etc",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_33",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Offences and penalties",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_34",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "32",
+      "section_title": "Warrants for search",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_35",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "33",
+      "section_title": "Indemnity",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_36",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33A",
+      "section_title": "Establishment of USF",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_37",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33B",
+      "section_title": "Administration and utilization of USF",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_38",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33C",
+      "section_title": "Research and Development Fund",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_39",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33D",
+      "section_title": "Administration and utilization of Research and Development Fund",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_40",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33E",
+      "section_title": "Audit and public information",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_41",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_42",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Establishment of the Company, etc",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_43",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "35",
+      "section_title": "Vesting of the rights, property and liabilities of the Corporation",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_44",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "36",
+      "section_title": "Terms and conditions of service of employees",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_45",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "37",
+      "section_title": "Special provisions",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_46",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37A",
+      "section_title": "Company shares deemed validly issued",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_47",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Exemption from taxes, audit, etc",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_48",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Licence to the Company",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_49",
+      "page_numbers": [
+        31,
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Special Communication Organization",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_50",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER IV",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_51",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "National Telecommunication Corporation",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_52",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "42",
+      "section_title": "Frequency Allocation Board",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_53",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Powers and functions of the Board",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_54",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "44",
+      "section_title": "Establishment of the Pakistan Telecommunication Employees Trust",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_55",
+      "page_numbers": [
+        35,
+        36
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "45",
+      "section_title": "Pension Fund",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_56",
+      "page_numbers": [
+        36,
+        37
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "46",
+      "section_title": "Functions and powers of the Trust",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_57",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Decision of the Trust, etc",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_58",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "48",
+      "section_title": "Delegation of Powers",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_59",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Budget",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_60",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Audit.−",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_61",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "-",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_62",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Application of Trusts Act, 1882",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_63",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53",
+      "section_title": "Winding-up of the Trust",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_64",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "National Security",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_65",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Liability of the Federal Government",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_66",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "-",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_67",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_68",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "58",
+      "section_title": "Ordinance to override other laws",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_69",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Repeal and savings",
+      "parent_id": "THE_PAKISTAN_TELECOMMUNICATION_(RE-ORGANIZATION)_ACT,_1996_70",
+      "page_numbers": [
+        40,
+        41
+      ],
+      "num_children": 3
+    }
+  ]
+}

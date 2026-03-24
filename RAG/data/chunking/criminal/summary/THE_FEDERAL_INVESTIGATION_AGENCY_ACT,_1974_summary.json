@@ -1,0 +1,135 @@
+{
+  "source_file": "THE FEDERAL INVESTIGATION AGENCY ACT, 1974.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE FEDERAL INVESTIGATION AGENCY ACT, 1974.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 13,
+  "total_child_chunks": 25,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Constitution of the Agency",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Superintendence and administration of the Agency",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Powers of the members of the Agency",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_6",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "57",
+      "section_title": "Certain Officers of the Agency deemed to be Public Prosecutors",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Power to amend the Schedule",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Indemnity",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Repeal",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_12",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_FEDERAL_INVESTIGATION_AGENCY_ACT,_1974_13",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 8
+    }
+  ]
+}

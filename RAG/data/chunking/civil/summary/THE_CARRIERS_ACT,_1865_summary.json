@@ -1,0 +1,136 @@
+{
+  "source_file": "THE CARRIERS ACT, 1865.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CARRIERS ACT, 1865.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 13,
+  "total_child_chunks": 13,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CARRIERS_ACT,_1865_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CARRIERS_ACT,_1865_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CARRIERS_ACT,_1865_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_CARRIERS_ACT,_1865_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Interpretation clause",
+      "parent_id": "THE_CARRIERS_ACT,_1865_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Carriers not to be liable for loss of certain goods above one hundred rupees in value, unless delivered as such",
+      "parent_id": "THE_CARRIERS_ACT,_1865_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "For carrying such property payment may be required at rates fixed by carrier",
+      "parent_id": "THE_CARRIERS_ACT,_1865_5",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "The person entitled to recover in respect of property lost or damaged may also recover money paid for its carriage",
+      "parent_id": "THE_CARRIERS_ACT,_1865_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "In respect of what property liability of carrier not limited or affected by public notice. Carriers, with certain exceptions, may limit liability by special contract",
+      "parent_id": "THE_CARRIERS_ACT,_1865_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Liability of owner of railroad or tramroad constructed under Act XXII of 1863, not limited by special contract. In what case owner of railroad or tramroad answerable for loss or damage",
+      "parent_id": "THE_CARRIERS_ACT,_1865_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Common carrier liable for loss or damages caused by neglect or fraud of himself or his agent",
+      "parent_id": "THE_CARRIERS_ACT,_1865_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Plaintiffs, in suits for loss, damage, or non-delivery, not required to prove negligence or criminal act",
+      "parent_id": "THE_CARRIERS_ACT,_1865_10",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Notice of loss or injury to be given within six months",
+      "parent_id": "THE_CARRIERS_ACT,_1865_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Power to Provincial Government to add to the Schedule",
+      "parent_id": "THE_CARRIERS_ACT,_1865_12",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE",
+      "parent_id": "THE_CARRIERS_ACT,_1865_13",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    }
+  ]
+}

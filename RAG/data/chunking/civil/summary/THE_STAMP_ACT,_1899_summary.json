@@ -1,0 +1,1640 @@
+{
+  "source_file": "THE STAMP ACT, 1899.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE STAMP ACT, 1899.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 176,
+  "total_child_chunks": 214,
+  "total_table_chunks": 27,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_STAMP_ACT,_1899_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_STAMP_ACT,_1899_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_STAMP_ACT,_1899_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_STAMP_ACT,_1899_1",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_STAMP_ACT,_1899_2",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_STAMP_ACT,_1899_3",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": ") \"Banker\"",
+      "parent_id": "THE_STAMP_ACT,_1899_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": ") \"Bill of exchange\"",
+      "parent_id": "THE_STAMP_ACT,_1899_5",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": ") \"Bill of exchange payable on demand\"",
+      "parent_id": "THE_STAMP_ACT,_1899_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": ") \"Bill of lading\"",
+      "parent_id": "THE_STAMP_ACT,_1899_7",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": ") Bond",
+      "parent_id": "THE_STAMP_ACT,_1899_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": ") \"Chargeable.\"",
+      "parent_id": "THE_STAMP_ACT,_1899_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": ") \"Cheque\"",
+      "parent_id": "THE_STAMP_ACT,_1899_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": ") \"Collector\"",
+      "parent_id": "THE_STAMP_ACT,_1899_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": ") \"Conveyance\"",
+      "parent_id": "THE_STAMP_ACT,_1899_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": ") \"executed and \"execution\"",
+      "parent_id": "THE_STAMP_ACT,_1899_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": ") \"Instrument\"",
+      "parent_id": "THE_STAMP_ACT,_1899_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": ") \"Instrument of partition\"",
+      "parent_id": "THE_STAMP_ACT,_1899_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": ") \"Lease\"",
+      "parent_id": "THE_STAMP_ACT,_1899_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": ") \"Mortgage-deed\"",
+      "parent_id": "THE_STAMP_ACT,_1899_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": ") \"Paper\"",
+      "parent_id": "THE_STAMP_ACT,_1899_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": ") \"Policy of insurance\"",
+      "parent_id": "THE_STAMP_ACT,_1899_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": ") \"Policy of sea-insurance\" or \"see-policy\"",
+      "parent_id": "THE_STAMP_ACT,_1899_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": ") \"Power-of-attorney\"",
+      "parent_id": "THE_STAMP_ACT,_1899_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": ") \"Promissory note\"",
+      "parent_id": "THE_STAMP_ACT,_1899_22",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": ") \"Receipt\"",
+      "parent_id": "THE_STAMP_ACT,_1899_23",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": ") \"Settlement\"",
+      "parent_id": "THE_STAMP_ACT,_1899_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": ") \"Soldier\"",
+      "parent_id": "THE_STAMP_ACT,_1899_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER I",
+      "parent_id": "THE_STAMP_ACT,_1899_26",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_STAMP_ACT,_1899_27",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Instruments chargeable with duty",
+      "parent_id": "THE_STAMP_ACT,_1899_28",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Several instruments used in single transaction of sale, mortgage or settlement",
+      "parent_id": "THE_STAMP_ACT,_1899_29",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Instruments relating to several distinct matters",
+      "parent_id": "THE_STAMP_ACT,_1899_30",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Instruments coming within several descriptions in Schedule I",
+      "parent_id": "THE_STAMP_ACT,_1899_31",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Policies of sea-insurance",
+      "parent_id": "THE_STAMP_ACT,_1899_32",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Bonds, debentures or other securities, issued on loans under Act XI, 1879",
+      "parent_id": "THE_STAMP_ACT,_1899_33",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "-",
+      "parent_id": "THE_STAMP_ACT,_1899_34",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Duties how to be paid",
+      "parent_id": "THE_STAMP_ACT,_1899_35",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Use of adhesive stamps",
+      "parent_id": "THE_STAMP_ACT,_1899_36",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Cancellation of adhesive stamps",
+      "parent_id": "THE_STAMP_ACT,_1899_37",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Instruments stamped with impressed stamps how to be written",
+      "parent_id": "THE_STAMP_ACT,_1899_38",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Only one instrument to be on same stamp",
+      "parent_id": "THE_STAMP_ACT,_1899_39",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Instrument written contrary to section 13 or 14 deemed un-stamped",
+      "parent_id": "THE_STAMP_ACT,_1899_40",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Denoting duty",
+      "parent_id": "THE_STAMP_ACT,_1899_41",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Instruments executed in Pakistan",
+      "parent_id": "THE_STAMP_ACT,_1899_42",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Instruments other than bills and notes executed out of Pakistan",
+      "parent_id": "THE_STAMP_ACT,_1899_43",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Bills and notes drawn out of Pakistan",
+      "parent_id": "THE_STAMP_ACT,_1899_44",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Conversion of amount expressed in foreign currencies",
+      "parent_id": "THE_STAMP_ACT,_1899_45",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Stock and marketable securities how to be valued",
+      "parent_id": "THE_STAMP_ACT,_1899_46",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Effect of statement of rate of exchange or average price",
+      "parent_id": "THE_STAMP_ACT,_1899_47",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Instruments reserving interest",
+      "parent_id": "THE_STAMP_ACT,_1899_48",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23A",
+      "section_title": "Certain instruments connected with mortgages of marketable securities to be chargeable as agreements",
+      "parent_id": "THE_STAMP_ACT,_1899_49",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "How transfer in consideration of debt, or subject to future payment, etc., to be charged",
+      "parent_id": "THE_STAMP_ACT,_1899_50",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "25",
+      "section_title": "Valuation in case of annuity, etc",
+      "parent_id": "THE_STAMP_ACT,_1899_51",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "26",
+      "section_title": "Stamp where value of subject-matter is indeterminate",
+      "parent_id": "THE_STAMP_ACT,_1899_52",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Facts affecting duty to be set forth in instrument",
+      "parent_id": "THE_STAMP_ACT,_1899_53",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27A",
+      "section_title": "Valuation of immovable property",
+      "parent_id": "THE_STAMP_ACT,_1899_54",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "28",
+      "section_title": "Direction as to duty in case of certain conveyances",
+      "parent_id": "THE_STAMP_ACT,_1899_55",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "29",
+      "section_title": "Duties by whom payable",
+      "parent_id": "THE_STAMP_ACT,_1899_56",
+      "page_numbers": [
+        17,
+        18,
+        19
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "30",
+      "section_title": "Obligation to give receipt in certain cases",
+      "parent_id": "THE_STAMP_ACT,_1899_57",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_STAMP_ACT,_1899_58",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Adjudication as to proper stamp",
+      "parent_id": "THE_STAMP_ACT,_1899_59",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "32",
+      "section_title": "Certificate by Collector",
+      "parent_id": "THE_STAMP_ACT,_1899_60",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "32A",
+      "section_title": "Certificate of designated officer",
+      "parent_id": "THE_STAMP_ACT,_1899_61",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_STAMP_ACT,_1899_62",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Examination and impounding of instruments",
+      "parent_id": "THE_STAMP_ACT,_1899_63",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "34",
+      "section_title": "Special provision as to unstamped receipts",
+      "parent_id": "THE_STAMP_ACT,_1899_64",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Instruments not duly stamped in admissible is evidence, etc",
+      "parent_id": "THE_STAMP_ACT,_1899_65",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "36",
+      "section_title": "Admission of instrument where not to be questioned",
+      "parent_id": "THE_STAMP_ACT,_1899_66",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Admission of improperly stamped instruments",
+      "parent_id": "THE_STAMP_ACT,_1899_67",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Instruments impounded how dealt with",
+      "parent_id": "THE_STAMP_ACT,_1899_68",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Collector's power to refund penalty paid under section 38, sub-section (1)",
+      "parent_id": "THE_STAMP_ACT,_1899_69",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Collector's power to stamp instruments impounded",
+      "parent_id": "THE_STAMP_ACT,_1899_70",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IV",
+      "parent_id": "THE_STAMP_ACT,_1899_71",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "-",
+      "parent_id": "THE_STAMP_ACT,_1899_72_1",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "-",
+      "parent_id": "THE_STAMP_ACT,_1899_72_2",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Endorsement of instruments on which duty has been paid under section 35, 40 or 41",
+      "parent_id": "THE_STAMP_ACT,_1899_73",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "43",
+      "section_title": "Prosecution for offence against Stamp-law",
+      "parent_id": "THE_STAMP_ACT,_1899_74",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Persons paying duty or penalty may recover same in certain cases",
+      "parent_id": "THE_STAMP_ACT,_1899_75",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Power to Revenue authority to refund penalty or excess duty in certain cases",
+      "parent_id": "THE_STAMP_ACT,_1899_76",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Non-liability for loss of instruments sent under section 38",
+      "parent_id": "THE_STAMP_ACT,_1899_77",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Power of payer to stamp bills and promissory notes received by him unstamped",
+      "parent_id": "THE_STAMP_ACT,_1899_78",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Recovery of duties and penalties",
+      "parent_id": "THE_STAMP_ACT,_1899_79",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Allowances for spoiled stamps",
+      "parent_id": "THE_STAMP_ACT,_1899_80",
+      "page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "50",
+      "section_title": "Application for relief under section 49 when to be made",
+      "parent_id": "THE_STAMP_ACT,_1899_81",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Allowance in case of printed forms no longer required by Corporations",
+      "parent_id": "THE_STAMP_ACT,_1899_82",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Allowance for misused stamps",
+      "parent_id": "THE_STAMP_ACT,_1899_83",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Allowance for spoiled or misused stamps how to be made",
+      "parent_id": "THE_STAMP_ACT,_1899_84",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Allowance for stamps not required for use",
+      "parent_id": "THE_STAMP_ACT,_1899_85",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Allowance on renewal of certain debentures",
+      "parent_id": "THE_STAMP_ACT,_1899_86",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER V",
+      "parent_id": "THE_STAMP_ACT,_1899_87",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Control of, and statement of case to, Chief Revenue Authority",
+      "parent_id": "THE_STAMP_ACT,_1899_88",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Statement of case by Chief Revenue Authority to High Court",
+      "parent_id": "THE_STAMP_ACT,_1899_89",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Power of High Court to call for further particulars as to case stated",
+      "parent_id": "THE_STAMP_ACT,_1899_90",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Procedure in disposing of case stated",
+      "parent_id": "THE_STAMP_ACT,_1899_91",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Statement of case by other Courts to High Court",
+      "parent_id": "THE_STAMP_ACT,_1899_92",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "61",
+      "section_title": "Revision of certain decisions of Courts regarding the sufficiency of stamps",
+      "parent_id": "THE_STAMP_ACT,_1899_93",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VI",
+      "parent_id": "THE_STAMP_ACT,_1899_94",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Penalty for executing, etc., instrument not duly stamped",
+      "parent_id": "THE_STAMP_ACT,_1899_95",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "63",
+      "section_title": "Penalty for failure to cancel adhesive stamp",
+      "parent_id": "THE_STAMP_ACT,_1899_96",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Penalty for omission to comply with provisions of section 27",
+      "parent_id": "THE_STAMP_ACT,_1899_97",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Penalty for refusal to give receipt, and for devices to evade duty on receipts",
+      "parent_id": "THE_STAMP_ACT,_1899_98",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Penalty for not making out policy, or making one not duly stamped",
+      "parent_id": "THE_STAMP_ACT,_1899_99",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Penalty for not drawing full number of bills or marine polices purporting to be in sets",
+      "parent_id": "THE_STAMP_ACT,_1899_100",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Penalty for post-dating bills, and for other devices to defraud the revenue",
+      "parent_id": "THE_STAMP_ACT,_1899_101",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Penalty for breach of rule relating to sale of stamps and for unauthorised sale",
+      "parent_id": "THE_STAMP_ACT,_1899_102",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Institution and conduct of prosecutions",
+      "parent_id": "THE_STAMP_ACT,_1899_103",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Jurisdiction of Magistrates",
+      "parent_id": "THE_STAMP_ACT,_1899_104",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Place of trial",
+      "parent_id": "THE_STAMP_ACT,_1899_105",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VII",
+      "parent_id": "THE_STAMP_ACT,_1899_106",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Books, etc., to be open to inspection",
+      "parent_id": "THE_STAMP_ACT,_1899_107",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Power to make rules relating to sale of stamps",
+      "parent_id": "THE_STAMP_ACT,_1899_108",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Power to make rules generally to carry out Act",
+      "parent_id": "THE_STAMP_ACT,_1899_109",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Publication of rules",
+      "parent_id": "THE_STAMP_ACT,_1899_110",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76A",
+      "section_title": "Delegation of certain powers",
+      "parent_id": "THE_STAMP_ACT,_1899_111_1",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76A",
+      "section_title": "Delegation of certain powers",
+      "parent_id": "THE_STAMP_ACT,_1899_111_2",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "Saving as to court-fees",
+      "parent_id": "THE_STAMP_ACT,_1899_112",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Act to be translated and old cheaply",
+      "parent_id": "THE_STAMP_ACT,_1899_113",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "-",
+      "parent_id": "THE_STAMP_ACT,_1899_114",
+      "page_numbers": [
+        35,
+        36,
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "AGREEMENT OR MEMORANDUM OF AN AGREEMENT",
+      "parent_id": "THE_STAMP_ACT,_1899_115",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "AGREEMENT RELATING TO DEPOSIT OF TITLE-DEEDS, PAWN OR PLEDGE",
+      "parent_id": "THE_STAMP_ACT,_1899_116",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "APPOINTMENT IN EXECUTION OF A POWER",
+      "parent_id": "THE_STAMP_ACT,_1899_117",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "APPRAISEMENT OR VALUATION",
+      "parent_id": "THE_STAMP_ACT,_1899_118",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "APPRENTICESHIP-DEED,",
+      "parent_id": "THE_STAMP_ACT,_1899_119",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "ARTICLES OF ASSOCIATION OF A COMPANY",
+      "parent_id": "THE_STAMP_ACT,_1899_120",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "ARTICLES OF CLERKSHIP OR",
+      "parent_id": "THE_STAMP_ACT,_1899_121",
+      "page_numbers": [
+        39,
+        40,
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "BILL OF LADING",
+      "parent_id": "THE_STAMP_ACT,_1899_122",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "BOND",
+      "parent_id": "THE_STAMP_ACT,_1899_123",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "BOTTOMRY BOND",
+      "parent_id": "THE_STAMP_ACT,_1899_124",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "CANCELLATION",
+      "parent_id": "THE_STAMP_ACT,_1899_125",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "CERTIFICATE OF SALE",
+      "parent_id": "THE_STAMP_ACT,_1899_126",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "CERTIFICATE OR OTHER DOCUMENT",
+      "parent_id": "THE_STAMP_ACT,_1899_127",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "CHARTER PARTY",
+      "parent_id": "THE_STAMP_ACT,_1899_128",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "COMPOSITION-DEED",
+      "parent_id": "THE_STAMP_ACT,_1899_129_1",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "COMPOSITION-DEED",
+      "parent_id": "THE_STAMP_ACT,_1899_129_2",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "COPY OR EXTRACT",
+      "parent_id": "THE_STAMP_ACT,_1899_130",
+      "page_numbers": [
+        42,
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "COUNTERPART OR DUPLICATE",
+      "parent_id": "THE_STAMP_ACT,_1899_131",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "CUSTOMS BOND",
+      "parent_id": "THE_STAMP_ACT,_1899_132",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "DEBENTURE OR PARTICIPATION TERM CERTIFICATE OR TERM FINANCE CERTIFICATE OR ANY OTHER INSTRUMENT OF REDEEMABLE CAPITAL OTHER THAN",
+      "parent_id": "THE_STAMP_ACT,_1899_133",
+      "page_numbers": [
+        43,
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27A",
+      "section_title": "DECREE, RULE OF A COURT OR AN ORDER OF A COURT",
+      "parent_id": "THE_STAMP_ACT,_1899_134",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "DELIVERY-ORDER IN RESPECT OF GOODS",
+      "parent_id": "THE_STAMP_ACT,_1899_135",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "DIVORCE",
+      "parent_id": "THE_STAMP_ACT,_1899_136",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "ENTRY AS AN ADVOCATE, OR ATTORNEY ON THE ROLL OF ANY HIGH COURT",
+      "parent_id": "THE_STAMP_ACT,_1899_137",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "EXCHANGE OF PROPERTY",
+      "parent_id": "THE_STAMP_ACT,_1899_138",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "FURTHER CHARGE",
+      "parent_id": "THE_STAMP_ACT,_1899_139",
+      "page_numbers": [
+        45,
+        46
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "33",
+      "section_title": "GIFT",
+      "parent_id": "THE_STAMP_ACT,_1899_140",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "INDEMNITY BOND. INSPECTORSHIP-DEED",
+      "parent_id": "THE_STAMP_ACT,_1899_141",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "LEASE",
+      "parent_id": "THE_STAMP_ACT,_1899_142",
+      "page_numbers": [
+        46,
+        47,
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "LETTER OF ALLOTMENT OF SHARES",
+      "parent_id": "THE_STAMP_ACT,_1899_143",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "LETTER OF CREDIT",
+      "parent_id": "THE_STAMP_ACT,_1899_144",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "LETTER OF LICENCE",
+      "parent_id": "THE_STAMP_ACT,_1899_145",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "MEMORANDUM OF ASSOCIATION OF A COMPANY",
+      "parent_id": "THE_STAMP_ACT,_1899_146",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "MORTGAGE-DEED not being an AGREEMENT RELATING TO DEPOSIT OF TITLE-DEEDS, PAWN OR PLEDGE (No.6), BOTTOMRY BOND (No.16), MORTGAGE OF A CROP (No.41), RESPONDENTIA BOND (No.56), OR SECURITY BOND (No.57)",
+      "parent_id": "THE_STAMP_ACT,_1899_147",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "MORTGAGE OF A CROP,",
+      "parent_id": "THE_STAMP_ACT,_1899_148",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "NOTARIAL ACT,",
+      "parent_id": "THE_STAMP_ACT,_1899_149",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "NOTE OR MEMORANDUM SENT BY",
+      "parent_id": "THE_STAMP_ACT,_1899_150",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "NOTE OF PROTEST BY THE MASTER OF A SHIP",
+      "parent_id": "THE_STAMP_ACT,_1899_151",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "PARTITION",
+      "parent_id": "THE_STAMP_ACT,_1899_152",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "46",
+      "section_title": "PARTNERSHIP",
+      "parent_id": "THE_STAMP_ACT,_1899_153",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "POLICY OF INSURANCE",
+      "parent_id": "THE_STAMP_ACT,_1899_154",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "EXEMPTION",
+      "parent_id": "THE_STAMP_ACT,_1899_155",
+      "page_numbers": [
+        53,
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "POWER-OF-ATTORNEY",
+      "parent_id": "THE_STAMP_ACT,_1899_156",
+      "page_numbers": [
+        54,
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "PROMISSORY NOTE",
+      "parent_id": "THE_STAMP_ACT,_1899_157",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "PROTEST OF BILL OR NOTE",
+      "parent_id": "THE_STAMP_ACT,_1899_158",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "PROTEST BY THE MASTER OF A SHIP",
+      "parent_id": "THE_STAMP_ACT,_1899_159",
+      "page_numbers": [
+        55,
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "PROXY",
+      "parent_id": "THE_STAMP_ACT,_1899_160",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "RECEIPTS",
+      "parent_id": "THE_STAMP_ACT,_1899_161",
+      "page_numbers": [
+        56,
+        57,
+        58
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "54",
+      "section_title": "RE-CONVEYANCE OF MORTGAGE PROPERTY",
+      "parent_id": "THE_STAMP_ACT,_1899_162",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "RELEASE,",
+      "parent_id": "THE_STAMP_ACT,_1899_163",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "RESPONDENTIA BOND,",
+      "parent_id": "THE_STAMP_ACT,_1899_164",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "SECURITY BOND OR MORTGAGE DEED",
+      "parent_id": "THE_STAMP_ACT,_1899_165",
+      "page_numbers": [
+        58,
+        59
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "58",
+      "section_title": "SETTLEMENT",
+      "parent_id": "THE_STAMP_ACT,_1899_166",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "SHARE WARRANTS",
+      "parent_id": "THE_STAMP_ACT,_1899_167",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "SHIPPING ORDER",
+      "parent_id": "THE_STAMP_ACT,_1899_168",
+      "page_numbers": [
+        60,
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": ")] EXEMPTIONS",
+      "parent_id": "THE_STAMP_ACT,_1899_169",
+      "page_numbers": [
+        61,
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "TRANSFER OF LEASE",
+      "parent_id": "THE_STAMP_ACT,_1899_170",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "TRUST",
+      "parent_id": "THE_STAMP_ACT,_1899_171",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "WARRANT FOR GOODS",
+      "parent_id": "THE_STAMP_ACT,_1899_172",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# CHAPTER VIII",
+      "parent_id": "THE_STAMP_ACT,_1899_173",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    }
+  ]
+}

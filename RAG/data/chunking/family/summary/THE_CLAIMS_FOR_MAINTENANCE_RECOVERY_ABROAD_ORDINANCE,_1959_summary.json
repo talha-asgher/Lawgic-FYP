@@ -1,0 +1,175 @@
+{
+  "source_file": "THE CLAIMS FOR MAINTENANCE (RECOVERY ABROAD) ORDINANCE, 1959.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE CLAIMS FOR MAINTENANCE (RECOVERY ABROAD) ORDINANCE, 1959.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 17,
+  "total_child_chunks": 26,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_CLAIMS_FOR_MAINTENANCE_RECOVERY_ABROAD_ORDINANCE,_1959_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_CLAIMS_FOR_MAINTENANCE_RECOVERY_ABROAD_ORDINANCE,_1959_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Publication of information",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "The Convention to have the force of law in Pakistan",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_7",
+      "page_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_8",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "TERRITORIAL APPLICATION",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_9",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SIGNATURE, RATIFICATION AND ACCESSION",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_10",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "ENTRY INTO FORCE",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_11",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "DENUNCIATION",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_12",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SETTLEMENT OF DISPUTES",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_13",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "RESERVATIONS",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_14",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "RECIPROCITY",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_15",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "NOTIFICATIONS BY THE SECRETARY-GENERAL",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_16",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_CLAIMS_FOR_MAINTENANCE_(RECOVERY_ABROAD)_ORDINANCE,_1959_17",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    }
+  ]
+}

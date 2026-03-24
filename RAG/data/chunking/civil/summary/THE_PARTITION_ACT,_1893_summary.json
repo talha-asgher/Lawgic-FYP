@@ -1,0 +1,115 @@
+{
+  "source_file": "THE PARTITION ACT, 1893.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PARTITION ACT, 1893.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 11,
+  "total_child_chunks": 11,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PARTITION_ACT,_1893_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PARTITION_ACT,_1893_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PARTITION_ACT,_1893_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title, extents and saving",
+      "parent_id": "THE_PARTITION_ACT,_1893_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Power to Court to order sale instead of division in partition suits",
+      "parent_id": "THE_PARTITION_ACT,_1893_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Procedure when sharer undertakes to buy",
+      "parent_id": "THE_PARTITION_ACT,_1893_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Partition suit by transferee of share in dewelling house",
+      "parent_id": "THE_PARTITION_ACT,_1893_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Representation of parties under disability",
+      "parent_id": "THE_PARTITION_ACT,_1893_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Reserved bidding and bidding by shareholder",
+      "parent_id": "THE_PARTITION_ACT,_1893_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Procedure to be followed in case of sales",
+      "parent_id": "THE_PARTITION_ACT,_1893_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Orders for sale to be deemed decrees",
+      "parent_id": "THE_PARTITION_ACT,_1893_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Saving of power to order partly partition and partly sale",
+      "parent_id": "THE_PARTITION_ACT,_1893_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Application of Act to pending suits",
+      "parent_id": "THE_PARTITION_ACT,_1893_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

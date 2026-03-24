@@ -1,0 +1,70 @@
+{
+  "source_file": "THE ANAND MARRIAGE ACT, 1909.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE ANAND MARRIAGE ACT, 1909.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 6,
+  "total_child_chunks": 6,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_ANAND_MARRIAGE_ACT,_1909_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_ANAND_MARRIAGE_ACT,_1909_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_ANAND_MARRIAGE_ACT,_1909_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_ANAND_MARRIAGE_ACT,_1909_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Validity of Anand marriage",
+      "parent_id": "THE_ANAND_MARRIAGE_ACT,_1909_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Exemption of certain marriage from Act",
+      "parent_id": "THE_ANAND_MARRIAGE_ACT,_1909_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Saving of marriages solemnized according to other ceremonies",
+      "parent_id": "THE_ANAND_MARRIAGE_ACT,_1909_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Non-validation of marriages within prohibited degrees",
+      "parent_id": "THE_ANAND_MARRIAGE_ACT,_1909_6",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

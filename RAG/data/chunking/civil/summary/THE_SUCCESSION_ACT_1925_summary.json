@@ -1,0 +1,3834 @@
+{
+  "source_file": "THE SUCCESSION ACT 1925.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SUCCESSION ACT 1925.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 416,
+  "total_child_chunks": 534,
+  "total_table_chunks": 4,
+  "total_form_chunks": 4,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SUCCESSION_ACT_1925_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SUCCESSION_ACT_1925_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_SUCCESSION_ACT_1925_table_chunks.json",
+  "form_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\form_chunks\\THE_SUCCESSION_ACT_1925_form_chunks.json",
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SUCCESSION_ACT_1925_1",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_SUCCESSION_ACT_1925_2",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SUCCESSION_ACT_1925_3",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Power of Provincial Government to exempt any race, sect or tribe in the Province from operation of Act",
+      "parent_id": "THE_SUCCESSION_ACT_1925_4",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART II",
+      "parent_id": "THE_SUCCESSION_ACT_1925_5",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Application of Part",
+      "parent_id": "THE_SUCCESSION_ACT_1925_6",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Law regulating succession to deceased person's immoveable and moveable property respectively",
+      "parent_id": "THE_SUCCESSION_ACT_1925_7",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "One domicile only affects succession to moveables",
+      "parent_id": "THE_SUCCESSION_ACT_1925_8",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Domicile of origin of person of legitimate birth",
+      "parent_id": "THE_SUCCESSION_ACT_1925_9",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Domicile of origin of illegitimate child",
+      "parent_id": "THE_SUCCESSION_ACT_1925_10",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Continuance of domicile of origin",
+      "parent_id": "THE_SUCCESSION_ACT_1925_11",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Acquisition of new domicile",
+      "parent_id": "THE_SUCCESSION_ACT_1925_12",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "11",
+      "section_title": "Special mode of acquiring domicile in Pakistan",
+      "parent_id": "THE_SUCCESSION_ACT_1925_13",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Domicile not acquired by residence as representative of foreign government, or as part of his family",
+      "parent_id": "THE_SUCCESSION_ACT_1925_14",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Continuance of new domicile",
+      "parent_id": "THE_SUCCESSION_ACT_1925_15",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Minor's domicile",
+      "parent_id": "THE_SUCCESSION_ACT_1925_16",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Domicile acquired by woman on marriage",
+      "parent_id": "THE_SUCCESSION_ACT_1925_17",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Wife's domicile during marriage",
+      "parent_id": "THE_SUCCESSION_ACT_1925_18",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Minor's acquisition of new domicile",
+      "parent_id": "THE_SUCCESSION_ACT_1925_19",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Lunatic's acquisition of new domicile",
+      "parent_id": "THE_SUCCESSION_ACT_1925_20",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Succession to moveable property in Pakistan, in absence of proof of domicile elsewhere",
+      "parent_id": "THE_SUCCESSION_ACT_1925_21",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART III",
+      "parent_id": "THE_SUCCESSION_ACT_1925_22",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Interests and powers not acquired nor lost by marriage",
+      "parent_id": "THE_SUCCESSION_ACT_1925_23",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Effect of marriage between person domiciled and one not domiciled in Pakistan",
+      "parent_id": "THE_SUCCESSION_ACT_1925_24",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Settlement of minor's property in contemplation of marriage",
+      "parent_id": "THE_SUCCESSION_ACT_1925_25",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IV",
+      "parent_id": "THE_SUCCESSION_ACT_1925_26",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Application of Part",
+      "parent_id": "THE_SUCCESSION_ACT_1925_27",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Kindred or consanguinity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_28",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Lineal consanguinity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_29",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Collateral consanguinity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_30",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Persons held for purpose of succession to be similarly related to deceased",
+      "parent_id": "THE_SUCCESSION_ACT_1925_31",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Mode of computing of degrees of kindred",
+      "parent_id": "THE_SUCCESSION_ACT_1925_32",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# PART V",
+      "parent_id": "THE_SUCCESSION_ACT_1925_33",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Application of Part",
+      "parent_id": "THE_SUCCESSION_ACT_1925_34",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "As to what property deceased considered to have died intestate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_35",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Chapter not to apply to Parsis",
+      "parent_id": "THE_SUCCESSION_ACT_1925_36",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Devolution of such property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_37",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Where intestate has left widow and lineal descendants, or widow and kindred only, or widow and no kindred",
+      "parent_id": "THE_SUCCESSION_ACT_1925_38",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33A",
+      "section_title": "Special provision where intestate has left widow and no lineal descendants",
+      "parent_id": "THE_SUCCESSION_ACT_1925_39",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Where intestate has left no widow, and where he has left no kindred",
+      "parent_id": "THE_SUCCESSION_ACT_1925_40",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Rights of widower",
+      "parent_id": "THE_SUCCESSION_ACT_1925_41",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Rules of distribution",
+      "parent_id": "THE_SUCCESSION_ACT_1925_42",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Where intestate has left child or children only",
+      "parent_id": "THE_SUCCESSION_ACT_1925_43",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Where intestate has left no child, but grandchild or grandchildren",
+      "parent_id": "THE_SUCCESSION_ACT_1925_44",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Where intestate has left only great-grandchildren or remoter lineal descendants",
+      "parent_id": "THE_SUCCESSION_ACT_1925_45",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Where intestate leaves lineal descendants not all in same degree of kindred to him, and those through whom the more remote are descended are dead",
+      "parent_id": "THE_SUCCESSION_ACT_1925_46",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "41",
+      "section_title": "Rules of distribution where intestate has left no lineal descendants",
+      "parent_id": "THE_SUCCESSION_ACT_1925_47",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Where intestate's father living",
+      "parent_id": "THE_SUCCESSION_ACT_1925_48",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Where intestate's father dead but his mother, brothers and sisters living",
+      "parent_id": "THE_SUCCESSION_ACT_1925_49",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Where intestate's father dead and his mother, a brother or sister, and children of any deceased brother or sister, living",
+      "parent_id": "THE_SUCCESSION_ACT_1925_50",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Where intestate's father is dead and his mother and children of any deceased brother or sister living",
+      "parent_id": "THE_SUCCESSION_ACT_1925_51",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Where intestate's father is dead, but his mother living and no sister, brother, nephew or niece",
+      "parent_id": "THE_SUCCESSION_ACT_1925_52",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Where intestate has left neither lineal descendant, nor father, nor mother",
+      "parent_id": "THE_SUCCESSION_ACT_1925_53",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Where intestate has left neither lineal descendant, nor parent, nor brother, nor sister",
+      "parent_id": "THE_SUCCESSION_ACT_1925_54",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "49",
+      "section_title": "Children's advancements not brought into hotchpot",
+      "parent_id": "THE_SUCCESSION_ACT_1925_55",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "-",
+      "parent_id": "THE_SUCCESSION_ACT_1925_56",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Division of a male intestate's property among his widow, children and parents",
+      "parent_id": "THE_SUCCESSION_ACT_1925_57",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Division of a female intestate's property among her widower and children",
+      "parent_id": "THE_SUCCESSION_ACT_1925_58",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Division of share of predeceased child of intestate leaving lineal descendants",
+      "parent_id": "THE_SUCCESSION_ACT_1925_59",
+      "page_numbers": [
+        33,
+        34
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "54",
+      "section_title": "Division of property where intestate leaves no lineal descendant but leaves a widow or widower or a widow of any lineal descendant",
+      "parent_id": "THE_SUCCESSION_ACT_1925_60",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "55",
+      "section_title": "Division of property where intestate leaves neither lineal descendants nor a widow or widower nor a widow of any lineal descendant",
+      "parent_id": "THE_SUCCESSION_ACT_1925_61",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Division of property where there is no relative entitled to succeed under the other provisions of this Chapter",
+      "parent_id": "THE_SUCCESSION_ACT_1925_62",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART VI",
+      "parent_id": "THE_SUCCESSION_ACT_1925_63",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Application of certain provisions",
+      "parent_id": "THE_SUCCESSION_ACT_1925_64",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "General application of Part",
+      "parent_id": "THE_SUCCESSION_ACT_1925_65",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Person capable of making wills",
+      "parent_id": "THE_SUCCESSION_ACT_1925_66",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "60",
+      "section_title": "Testamentary guardian",
+      "parent_id": "THE_SUCCESSION_ACT_1925_67",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Will obtained by fraud, coercion or importunity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_68",
+      "page_numbers": [
+        36,
+        37
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "62",
+      "section_title": "Will may be revoked or altered",
+      "parent_id": "THE_SUCCESSION_ACT_1925_69",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Execution of unprivileged wills",
+      "parent_id": "THE_SUCCESSION_ACT_1925_70",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "64",
+      "section_title": "Incorporation of papers by reference",
+      "parent_id": "THE_SUCCESSION_ACT_1925_71",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Privileged wills",
+      "parent_id": "THE_SUCCESSION_ACT_1925_72",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "66",
+      "section_title": "Mode of making, and rules for executing, privileged wills",
+      "parent_id": "THE_SUCCESSION_ACT_1925_73",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "67",
+      "section_title": "Effect of gift to attesting witness",
+      "parent_id": "THE_SUCCESSION_ACT_1925_74",
+      "page_numbers": [
+        39,
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Witness not disqualified by interest or by being executor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_75",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Revocation of will by testator's marriage",
+      "parent_id": "THE_SUCCESSION_ACT_1925_76",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Revocation of unprivileged will or codicil",
+      "parent_id": "THE_SUCCESSION_ACT_1925_77",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Effect of obliteration, interlineation or alteration in unprivileged will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_78",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Revocation of privileged will or codicil",
+      "parent_id": "THE_SUCCESSION_ACT_1925_79",
+      "page_numbers": [
+        40,
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Revival of unprivileged will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_80",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Wording of will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_81",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Inquiries to determine questions as to object or subject of will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_82",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "76",
+      "section_title": "Misnomer or misdescription of object",
+      "parent_id": "THE_SUCCESSION_ACT_1925_83",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "77",
+      "section_title": "When words may be supplied",
+      "parent_id": "THE_SUCCESSION_ACT_1925_84",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Rejection of erroneous particulars in description of subject",
+      "parent_id": "THE_SUCCESSION_ACT_1925_85",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "When part of description may not be rejected as erroneous",
+      "parent_id": "THE_SUCCESSION_ACT_1925_86",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "80",
+      "section_title": "Extrinsic evidence admissible in cases of patent ambiguity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_87",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "81",
+      "section_title": "Extrinsic evidence inadmissible in case of patent ambiguity or deficiency",
+      "parent_id": "THE_SUCCESSION_ACT_1925_88",
+      "page_numbers": [
+        43,
+        44
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "82",
+      "section_title": "Meaning of clause to be collected from entire will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_89",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "When words may be understood in restricted sense, and when in sense wider than usual",
+      "parent_id": "THE_SUCCESSION_ACT_1925_90",
+      "page_numbers": [
+        44,
+        45
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "84",
+      "section_title": "Which of two possible constructions preferred",
+      "parent_id": "THE_SUCCESSION_ACT_1925_91",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85",
+      "section_title": "No part rejected, if can be it reasonably construed",
+      "parent_id": "THE_SUCCESSION_ACT_1925_92",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Interpretation of words repeated in different parts of will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_93",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "87",
+      "section_title": "Testator's intention to be effectuated, as far as, possible",
+      "parent_id": "THE_SUCCESSION_ACT_1925_94",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "The last of two inconsistent clauses prevails",
+      "parent_id": "THE_SUCCESSION_ACT_1925_95",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "89",
+      "section_title": "Will or bequest void for uncertainty",
+      "parent_id": "THE_SUCCESSION_ACT_1925_96",
+      "page_numbers": [
+        45,
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "90",
+      "section_title": "Words describing subject refer to property answering description at testator's death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_97",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "91",
+      "section_title": "Power of appointment executed by general bequest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_98",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Implied gift to objects of power in default of appointment",
+      "parent_id": "THE_SUCCESSION_ACT_1925_99",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "Bequest to \"heirs\", etc., of particular person without qualifying terms",
+      "parent_id": "THE_SUCCESSION_ACT_1925_100",
+      "page_numbers": [
+        46,
+        47
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "94",
+      "section_title": "Bequest to \"representatives\", etc., of particular person",
+      "parent_id": "THE_SUCCESSION_ACT_1925_101",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "95",
+      "section_title": "Bequest without words of limitation",
+      "parent_id": "THE_SUCCESSION_ACT_1925_102",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Bequest in alternative",
+      "parent_id": "THE_SUCCESSION_ACT_1925_103",
+      "page_numbers": [
+        47,
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "97",
+      "section_title": "Effect of words describing a class added to bequest to person",
+      "parent_id": "THE_SUCCESSION_ACT_1925_104",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "98",
+      "section_title": "Bequest to class of persons under general description only",
+      "parent_id": "THE_SUCCESSION_ACT_1925_105",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "99",
+      "section_title": "Construction of terms",
+      "parent_id": "THE_SUCCESSION_ACT_1925_106",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "100",
+      "section_title": "Words expressing relationship denote only legitimate relatives or failing such relatives reputed legitimate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_107",
+      "page_numbers": [
+        49,
+        50
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "101",
+      "section_title": "Rules of construction where will purports to make two bequests to same person",
+      "parent_id": "THE_SUCCESSION_ACT_1925_108",
+      "page_numbers": [
+        50,
+        51
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "102",
+      "section_title": "Constitution of residuary legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_109",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "103",
+      "section_title": "Property to which residuary legatee entitled",
+      "parent_id": "THE_SUCCESSION_ACT_1925_110",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "104",
+      "section_title": "Time of vesting legacy in general terms",
+      "parent_id": "THE_SUCCESSION_ACT_1925_111",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "105",
+      "section_title": "In what case legacy lapses",
+      "parent_id": "THE_SUCCESSION_ACT_1925_112",
+      "page_numbers": [
+        52,
+        53
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "106",
+      "section_title": "Legacy does not lapse if one of two joint legatees die before testator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_113",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "107",
+      "section_title": "Effect of words showing testator's intention to give distinct shares",
+      "parent_id": "THE_SUCCESSION_ACT_1925_114",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "108",
+      "section_title": "When lapsed share goes as undisposed of",
+      "parent_id": "THE_SUCCESSION_ACT_1925_115",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "109",
+      "section_title": "When bequest to testator's child or lineal descendant does not lapse on his death in testator's lifetime",
+      "parent_id": "THE_SUCCESSION_ACT_1925_116",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "110",
+      "section_title": "Bequest to A for benefit of B does not lapse by A's death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_117",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "111",
+      "section_title": "Survivorship in case of bequest to described class",
+      "parent_id": "THE_SUCCESSION_ACT_1925_118",
+      "page_numbers": [
+        54,
+        55
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "112",
+      "section_title": "Bequest to person by particular description, who is not in existence at testator's death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_119",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "113",
+      "section_title": "Bequest to person not in existence at testator's death subject to prior bequest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_120",
+      "page_numbers": [
+        55,
+        56
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "114",
+      "section_title": "Rule against perpetuity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_121",
+      "page_numbers": [
+        56,
+        57
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "115",
+      "section_title": "Bequest to a class some of whom may come under rule in Section 113 and 114",
+      "parent_id": "THE_SUCCESSION_ACT_1925_122",
+      "page_numbers": [
+        57,
+        58
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "116",
+      "section_title": "Bequest to take effect on failure of prior bequest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_123",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "117",
+      "section_title": "Effect of direction for accumulation",
+      "parent_id": "THE_SUCCESSION_ACT_1925_124",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "118",
+      "section_title": "Bequest to religious or charitable uses",
+      "parent_id": "THE_SUCCESSION_ACT_1925_125",
+      "page_numbers": [
+        58,
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "119",
+      "section_title": "Date of vesting of legacy when payment or possession postponed",
+      "parent_id": "THE_SUCCESSION_ACT_1925_126",
+      "page_numbers": [
+        59,
+        60
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "120",
+      "section_title": "Date of vesting when legacy contingent upon specified uncertain event",
+      "parent_id": "THE_SUCCESSION_ACT_1925_127",
+      "page_numbers": [
+        60,
+        61
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "121",
+      "section_title": "Vesting of interest in bequest to such members of a class as shall have attained particular age",
+      "parent_id": "THE_SUCCESSION_ACT_1925_128",
+      "page_numbers": [
+        61,
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "122",
+      "section_title": "Onerous bequests",
+      "parent_id": "THE_SUCCESSION_ACT_1925_129",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "123",
+      "section_title": "One of two separate and independent bequests to same person may be accepted, and other refused",
+      "parent_id": "THE_SUCCESSION_ACT_1925_130",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "124",
+      "section_title": "Bequest contingent upon specified uncertain event, no time being mentioned for its occurrence",
+      "parent_id": "THE_SUCCESSION_ACT_1925_131",
+      "page_numbers": [
+        62,
+        63
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "125",
+      "section_title": "Bequest to such of certain persons as shall be surviving at some period not specified",
+      "parent_id": "THE_SUCCESSION_ACT_1925_132",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "126",
+      "section_title": "Bequest upon impossible condition",
+      "parent_id": "THE_SUCCESSION_ACT_1925_133",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "127",
+      "section_title": "Bequest upon illegal or immoral condition",
+      "parent_id": "THE_SUCCESSION_ACT_1925_134",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "128",
+      "section_title": "Fulfilment of condition precedent to vesting of legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_135",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "129",
+      "section_title": "Bequest to A and on failure of prior bequest to B",
+      "parent_id": "THE_SUCCESSION_ACT_1925_136",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "130",
+      "section_title": "When second bequest not to take effect on failure of first",
+      "parent_id": "THE_SUCCESSION_ACT_1925_137",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131",
+      "section_title": "Bequest over conditional upon happening or not happening of specified uncertain event",
+      "parent_id": "THE_SUCCESSION_ACT_1925_138",
+      "page_numbers": [
+        65,
+        66
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "132",
+      "section_title": "Condition must be strictly fulfilled",
+      "parent_id": "THE_SUCCESSION_ACT_1925_139",
+      "page_numbers": [
+        66
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "133",
+      "section_title": "Original bequest not affected by invalidity of second",
+      "parent_id": "THE_SUCCESSION_ACT_1925_140",
+      "page_numbers": [
+        66
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "134",
+      "section_title": "Bequest conditioned that it shall cease to have effect in case a specified uncertain event shall happen, or not happen",
+      "parent_id": "THE_SUCCESSION_ACT_1925_141",
+      "page_numbers": [
+        66,
+        67
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "135",
+      "section_title": "Such condition must not be invalid under section 120",
+      "parent_id": "THE_SUCCESSION_ACT_1925_142",
+      "page_numbers": [
+        67
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "136",
+      "section_title": "Result of legatee rendering impossible or indefinitely postponing act for which no time specified, and on non-performance of which subject matter to go over",
+      "parent_id": "THE_SUCCESSION_ACT_1925_143",
+      "page_numbers": [
+        67
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "137",
+      "section_title": "Performance of condition, precedent or subsequent, within specified time. Further time in case of fraud",
+      "parent_id": "THE_SUCCESSION_ACT_1925_144",
+      "page_numbers": [
+        68
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "138",
+      "section_title": "Direction that fund be employed in particular manner following absolute bequest of same to or for benefit of any person",
+      "parent_id": "THE_SUCCESSION_ACT_1925_145",
+      "page_numbers": [
+        68
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "139",
+      "section_title": "Direction that mode of enjoyment of absolute bequest is to be restricted, to secure specified benefit for legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_146",
+      "page_numbers": [
+        68
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "140",
+      "section_title": "Bequest of fund for certain purposes, some of which cannot be fulfilled",
+      "parent_id": "THE_SUCCESSION_ACT_1925_147",
+      "page_numbers": [
+        68,
+        69
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "141",
+      "section_title": "Legatee named as executor cannot take unless he shows intention to act as executor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_148",
+      "page_numbers": [
+        69
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "142",
+      "section_title": "Specific legacy defined",
+      "parent_id": "THE_SUCCESSION_ACT_1925_149",
+      "page_numbers": [
+        69,
+        70,
+        71
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "143",
+      "section_title": "Bequest of certain sum where stocks, etc., in which invested are described",
+      "parent_id": "THE_SUCCESSION_ACT_1925_150",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "144",
+      "section_title": "Bequest of stock where testator had, at date of will, equal or greater amount of stock of same kind",
+      "parent_id": "THE_SUCCESSION_ACT_1925_151",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "145",
+      "section_title": "Bequest of money where not payable until part of testator's property disposed of in certain way",
+      "parent_id": "THE_SUCCESSION_ACT_1925_152",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "146",
+      "section_title": "When enumerated articles not deemed specifically bequeathed",
+      "parent_id": "THE_SUCCESSION_ACT_1925_153",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "147",
+      "section_title": "Retention, in form of specific bequest to several persons in succession",
+      "parent_id": "THE_SUCCESSION_ACT_1925_154",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "148",
+      "section_title": "Sale and investment of proceeds of property bequeathed to two or more person in succession",
+      "parent_id": "THE_SUCCESSION_ACT_1925_155",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "149",
+      "section_title": "Where deficiency of assets to pay legacies, specific legacy not to abate with general legacies",
+      "parent_id": "THE_SUCCESSION_ACT_1925_156",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "150",
+      "section_title": "Demonstrative legacy defined",
+      "parent_id": "THE_SUCCESSION_ACT_1925_157",
+      "page_numbers": [
+        72,
+        73
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "151",
+      "section_title": "Order of payment when legacy directed to be paid out of fund the subject of specific legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_158",
+      "page_numbers": [
+        73
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "152",
+      "section_title": "Ademption explained",
+      "parent_id": "THE_SUCCESSION_ACT_1925_159",
+      "page_numbers": [
+        73,
+        74
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "153",
+      "section_title": "Non- ademption of demonstrative legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_160",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "154",
+      "section_title": "Ademption of specific bequest of right to receive something from third party",
+      "parent_id": "THE_SUCCESSION_ACT_1925_161",
+      "page_numbers": [
+        74,
+        75
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "157",
+      "section_title": "Order of payment where portion of fund specifically bequeathed to one legatee, and legacy charged. on same fund to another, and, testator having received portion of that fund, remainder insufficient to pay both legacies",
+      "parent_id": "THE_SUCCESSION_ACT_1925_162",
+      "page_numbers": [
+        75
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "158",
+      "section_title": "Ademption where stock, specifically bequeathed, does not exist at testator's death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_163",
+      "page_numbers": [
+        76
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "160",
+      "section_title": "Non-ademption of specific bequest of goods described as connected with certain place, by reason of removal",
+      "parent_id": "THE_SUCCESSION_ACT_1925_164",
+      "page_numbers": [
+        76
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "161",
+      "section_title": "When removal of thing bequeathed does not constitute ademption",
+      "parent_id": "THE_SUCCESSION_ACT_1925_165",
+      "page_numbers": [
+        76,
+        77
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "162",
+      "section_title": "When thing bequeathed is a valuable to be received by testator from third person; and testator himself, or his representative, receives it",
+      "parent_id": "THE_SUCCESSION_ACT_1925_166",
+      "page_numbers": [
+        77
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "163",
+      "section_title": "Change by operation of law of subject of specific bequest between date of will and testator's death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_167",
+      "page_numbers": [
+        77
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "164",
+      "section_title": "Change of subject without testator's knowledge",
+      "parent_id": "THE_SUCCESSION_ACT_1925_168",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "165",
+      "section_title": "Stock specifically bequeathed lent to third party on condition that it be replaced",
+      "parent_id": "THE_SUCCESSION_ACT_1925_169",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "166",
+      "section_title": "Stock specifically bequeathed sold but replaced, and belonging to testator at his death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_170",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER XVI",
+      "parent_id": "THE_SUCCESSION_ACT_1925_171",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "167",
+      "section_title": "Non-liability of executor to exonerate specific legatees",
+      "parent_id": "THE_SUCCESSION_ACT_1925_172",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "168",
+      "section_title": "Completion of testator's title to things bequeathed to be at cost of his estate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_173",
+      "page_numbers": [
+        79
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "169",
+      "section_title": "Exoneration of legatee's immoveable property for which land-revenue or rent payable periodically",
+      "parent_id": "THE_SUCCESSION_ACT_1925_174",
+      "page_numbers": [
+        79
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "170",
+      "section_title": "Exoneration of specific legatee's stock in joint-stock company",
+      "parent_id": "THE_SUCCESSION_ACT_1925_175",
+      "page_numbers": [
+        79,
+        80
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "171",
+      "section_title": "Bequest of thing described in general terms",
+      "parent_id": "THE_SUCCESSION_ACT_1925_176",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "172",
+      "section_title": "Bequest of interest or produce of fund",
+      "parent_id": "THE_SUCCESSION_ACT_1925_177",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "173",
+      "section_title": "Annuity created by will payable for life only unless contrary intention appears by will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_178",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "174",
+      "section_title": "Period of vesting where will directs that annuity be provided out of proceeds of property, or out of property generally, or where money bequeathed to be invested in purchase of annuity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_179",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "175",
+      "section_title": "Abatement of annuity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_180",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "176",
+      "section_title": "Where gift of annuity and residuary gift, whole annuity to be first satisfied",
+      "parent_id": "THE_SUCCESSION_ACT_1925_181",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "177",
+      "section_title": "Creditor prima facie entitled to legacy as well as debt",
+      "parent_id": "THE_SUCCESSION_ACT_1925_182",
+      "page_numbers": [
+        82
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "178",
+      "section_title": "Child prima facie entitled to legacy as well as portion",
+      "parent_id": "THE_SUCCESSION_ACT_1925_183",
+      "page_numbers": [
+        82
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "179",
+      "section_title": "No ademption by subsequent provision for legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_184",
+      "page_numbers": [
+        82
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "180",
+      "section_title": "Circumstances in which election takes place",
+      "parent_id": "THE_SUCCESSION_ACT_1925_185",
+      "page_numbers": [
+        82
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "181",
+      "section_title": "Devolution of interest relinquished by owner",
+      "parent_id": "THE_SUCCESSION_ACT_1925_186",
+      "page_numbers": [
+        82
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "182",
+      "section_title": "Testator's belief as to his ownership immaterial",
+      "parent_id": "THE_SUCCESSION_ACT_1925_187",
+      "page_numbers": [
+        82,
+        83
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "183",
+      "section_title": "Bequest for man's benefit how regarded for purpose of election",
+      "parent_id": "THE_SUCCESSION_ACT_1925_188",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "184",
+      "section_title": "Person deriving benefit indirectly not put to election",
+      "parent_id": "THE_SUCCESSION_ACT_1925_189",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "185",
+      "section_title": "Person taking in individual capacity under will may in other character elect to take in opposition",
+      "parent_id": "THE_SUCCESSION_ACT_1925_190",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "186",
+      "section_title": "Exception to provisions of last six sections",
+      "parent_id": "THE_SUCCESSION_ACT_1925_191",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "187",
+      "section_title": "When acceptance of benefit given by will constitutes election to take under will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_192",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "188",
+      "section_title": "Circumstances in which knowledge or waiver is presumed or inferred",
+      "parent_id": "THE_SUCCESSION_ACT_1925_193",
+      "page_numbers": [
+        84,
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "189",
+      "section_title": "When testator's representatives may call upon legatee to elect",
+      "parent_id": "THE_SUCCESSION_ACT_1925_194",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "190",
+      "section_title": "Postponement of election in case of disability",
+      "parent_id": "THE_SUCCESSION_ACT_1925_195",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "191",
+      "section_title": "Property transferable by gift made in contemplation of death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_196",
+      "page_numbers": [
+        85,
+        86
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART VII",
+      "parent_id": "THE_SUCCESSION_ACT_1925_197",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "192",
+      "section_title": "Person claiming right by succession to property of deceased may apply for relief against wrongful possession",
+      "parent_id": "THE_SUCCESSION_ACT_1925_198",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "193",
+      "section_title": "Inquiry made by Judge",
+      "parent_id": "THE_SUCCESSION_ACT_1925_199",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "194",
+      "section_title": "Procedure",
+      "parent_id": "THE_SUCCESSION_ACT_1925_200",
+      "page_numbers": [
+        86,
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "195",
+      "section_title": "Appointment of curator pending determination of proceeding",
+      "parent_id": "THE_SUCCESSION_ACT_1925_201",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "196",
+      "section_title": "Powers conferrable on curator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_202",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "197",
+      "section_title": "Prohibition of exercise of certain powers by curators",
+      "parent_id": "THE_SUCCESSION_ACT_1925_203",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "198",
+      "section_title": "Curator to give security and may receive remuneration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_204",
+      "page_numbers": [
+        87,
+        88
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "199",
+      "section_title": "Report from Collector where estate includes revenue- paying land",
+      "parent_id": "THE_SUCCESSION_ACT_1925_205",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "200",
+      "section_title": "Institution and defence of suits",
+      "parent_id": "THE_SUCCESSION_ACT_1925_206",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "201",
+      "section_title": "Allowances to apparent owners pending custody by curator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_207",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "202",
+      "section_title": "Accounts to be filed by curator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_208",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "203",
+      "section_title": "Inspection of accounts and right of interested party to keep duplicate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_209",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "204",
+      "section_title": "Bar to appointment of second curator for same property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_210",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "205",
+      "section_title": "Limitation of time for application for curator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_211",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "206",
+      "section_title": "Bar to enforcement of Part against public settlement or legal directions by deceased",
+      "parent_id": "THE_SUCCESSION_ACT_1925_212",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "207",
+      "section_title": "Court of Wards to be made curator in case of minors having property subject to its jurisdiction",
+      "parent_id": "THE_SUCCESSION_ACT_1925_213",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "208",
+      "section_title": "Saving of right to bring suit",
+      "parent_id": "THE_SUCCESSION_ACT_1925_214",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "209",
+      "section_title": "Effect of decision of summary proceeding",
+      "parent_id": "THE_SUCCESSION_ACT_1925_215",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "210",
+      "section_title": "Appointment of public curators",
+      "parent_id": "THE_SUCCESSION_ACT_1925_216",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART VIII",
+      "parent_id": "THE_SUCCESSION_ACT_1925_217",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "211",
+      "section_title": "Character and property of executor or administrator as such",
+      "parent_id": "THE_SUCCESSION_ACT_1925_218",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "212",
+      "section_title": "Right to intestate's property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_219",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "213",
+      "section_title": "Right as executor or legatee when established",
+      "parent_id": "THE_SUCCESSION_ACT_1925_220",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "214",
+      "section_title": "Proof of representative title a condition precedent to recovery through the Courts of debts from debtors of deceased persons",
+      "parent_id": "THE_SUCCESSION_ACT_1925_221",
+      "page_numbers": [
+        90,
+        91
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "215",
+      "section_title": "Effect on certificate of subsequent probate or letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_222",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "216",
+      "section_title": "Grantee of probate or administration alone to sue, etc., until same revoked",
+      "parent_id": "THE_SUCCESSION_ACT_1925_223",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IX",
+      "parent_id": "THE_SUCCESSION_ACT_1925_224",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "217",
+      "section_title": "Application of Part",
+      "parent_id": "THE_SUCCESSION_ACT_1925_225",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "218",
+      "section_title": "To whom administration may be granted, where deceased is a Hindu, ¹[Muslim], Buddhist/ Sikh, Jaina or exempted any person",
+      "parent_id": "THE_SUCCESSION_ACT_1925_226",
+      "page_numbers": [
+        92
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "219",
+      "section_title": "Where deceased is not a Hindu, ¹[Muslim], Buddhist, Sikh, Jaina or exempted person",
+      "parent_id": "THE_SUCCESSION_ACT_1925_227",
+      "page_numbers": [
+        92,
+        93
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "220",
+      "section_title": "Effect of letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_228",
+      "page_numbers": [
+        93
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "221",
+      "section_title": "Acts not validated by administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_229",
+      "page_numbers": [
+        93
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "222",
+      "section_title": "Probate only to appointed executor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_230",
+      "page_numbers": [
+        93
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "223",
+      "section_title": "Persons to whom probate cannot be granted",
+      "parent_id": "THE_SUCCESSION_ACT_1925_231",
+      "page_numbers": [
+        93
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "224",
+      "section_title": "Grant of probate to several executors simultaneously or at different times",
+      "parent_id": "THE_SUCCESSION_ACT_1925_232",
+      "page_numbers": [
+        93,
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "225",
+      "section_title": "Separate probate of codicil discovered after grant of probate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_233",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "226",
+      "section_title": "Accrual of representation to surviving executor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_234",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "227",
+      "section_title": "Effect of probate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_235",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "228",
+      "section_title": "Administration, with copy annexed, of authenticated copy of will proved abroad",
+      "parent_id": "THE_SUCCESSION_ACT_1925_236",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "229",
+      "section_title": "Grant of administration where executor has not renounced",
+      "parent_id": "THE_SUCCESSION_ACT_1925_237",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "230",
+      "section_title": "Form and effect of renunciation of executorship",
+      "parent_id": "THE_SUCCESSION_ACT_1925_238",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "231",
+      "section_title": "Procedure where executor renounces or fails to accept within time limited",
+      "parent_id": "THE_SUCCESSION_ACT_1925_239",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "232",
+      "section_title": "Grant of administration to universal or residuary legatees",
+      "parent_id": "THE_SUCCESSION_ACT_1925_240",
+      "page_numbers": [
+        94,
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "233",
+      "section_title": "Right to administration of representative of deceased residuary legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_241",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "234",
+      "section_title": "Grant of administration where no executor nor residuary legatee nor representative of such legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_242",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "235",
+      "section_title": "Citation before grant of administration to legatee other than universal or residuary",
+      "parent_id": "THE_SUCCESSION_ACT_1925_243",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "236",
+      "section_title": "To whom administration may not be granted",
+      "parent_id": "THE_SUCCESSION_ACT_1925_244",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_SUCCESSION_ACT_1925_245",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "237",
+      "section_title": "Probate of copy or draft of lost will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_246",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "238",
+      "section_title": "Probate of contents of lost or destroyed will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_247",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "239",
+      "section_title": "Probate of copy where original exists",
+      "parent_id": "THE_SUCCESSION_ACT_1925_248",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "240",
+      "section_title": "Administration until will produced",
+      "parent_id": "THE_SUCCESSION_ACT_1925_249",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "241",
+      "section_title": "Administration, with will annexed, to attorney of absent executor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_250",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "242",
+      "section_title": "Administration, with will annexed, to attorney of absent person who, if present, would be entitled to administer",
+      "parent_id": "THE_SUCCESSION_ACT_1925_251",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "243",
+      "section_title": "Administration to attorney of absent person entitled to administer in case of intestacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_252",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "244",
+      "section_title": "Administration during minority of sole executor or residuary legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_253",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "245",
+      "section_title": "Administration during minority of several executors or residuary legatees",
+      "parent_id": "THE_SUCCESSION_ACT_1925_254",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "246",
+      "section_title": "Administration for use and benefit of lunatic or minor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_255",
+      "page_numbers": [
+        96,
+        97
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "248",
+      "section_title": "Probate limited to purpose specified in will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_256",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "249",
+      "section_title": "Administration, with will annexed, limited to particular purpose",
+      "parent_id": "THE_SUCCESSION_ACT_1925_257",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "250",
+      "section_title": "Administration limited to property in which person has beneficial interest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_258",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "251",
+      "section_title": "Administration limited to suit",
+      "parent_id": "THE_SUCCESSION_ACT_1925_259",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "252",
+      "section_title": "Administration limited to purpose of becoming party to suit to be brought against administrator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_260",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "253",
+      "section_title": "Administration limited to collection and preservation of deceased's property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_261",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "254",
+      "section_title": "Appointment as administrator, of person other than one who, in ordinary circumstances, would be entitled to administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_262",
+      "page_numbers": [
+        97,
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "255",
+      "section_title": "Probate or administration, with will annexed, subject to exception",
+      "parent_id": "THE_SUCCESSION_ACT_1925_263",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "256",
+      "section_title": "Administration with exception",
+      "parent_id": "THE_SUCCESSION_ACT_1925_264",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "257",
+      "section_title": "Probate or administration of rest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_265",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "258",
+      "section_title": "Grant of effects unadministered",
+      "parent_id": "THE_SUCCESSION_ACT_1925_266",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "259",
+      "section_title": "Rules as to grants of effects unadministered",
+      "parent_id": "THE_SUCCESSION_ACT_1925_267",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "260",
+      "section_title": "Administration when limited grant expired and still some part of estate unadministered",
+      "parent_id": "THE_SUCCESSION_ACT_1925_268",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "261",
+      "section_title": "What errors may be rectified by Court",
+      "parent_id": "THE_SUCCESSION_ACT_1925_269",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "262",
+      "section_title": "Procedure where codicil discovered after grant of administration with will annexed",
+      "parent_id": "THE_SUCCESSION_ACT_1925_270",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "263",
+      "section_title": "Revocation or annulment for just cause",
+      "parent_id": "THE_SUCCESSION_ACT_1925_271",
+      "page_numbers": [
+        98,
+        99
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "264",
+      "section_title": "Jurisdiction of District Judge in granting and revoking probates, etc",
+      "parent_id": "THE_SUCCESSION_ACT_1925_272",
+      "page_numbers": [
+        99,
+        100
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "265",
+      "section_title": "Power to appoint delegate of District Judge to deal with non-contentious cases",
+      "parent_id": "THE_SUCCESSION_ACT_1925_273",
+      "page_numbers": [
+        100
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "266",
+      "section_title": "District Judge's powers as to grant of probate and administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_274",
+      "page_numbers": [
+        100
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "267",
+      "section_title": "District Judge may order person to produce testamentary papers",
+      "parent_id": "THE_SUCCESSION_ACT_1925_275",
+      "page_numbers": [
+        100
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "268",
+      "section_title": "Proceedings of District Judge's Court in relation to probate and administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_276",
+      "page_numbers": [
+        100
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "269",
+      "section_title": "When and how District Judge to interfere for protection of property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_277",
+      "page_numbers": [
+        100,
+        101
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "270",
+      "section_title": "When probate or administration may be granted by District Judge",
+      "parent_id": "THE_SUCCESSION_ACT_1925_278",
+      "page_numbers": [
+        101
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "271",
+      "section_title": "Disposal of application made to Judge of district in which deceased had no fixed abode",
+      "parent_id": "THE_SUCCESSION_ACT_1925_279",
+      "page_numbers": [
+        101
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "272",
+      "section_title": "Probate and letters of administration may be granted by Delegate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_280",
+      "page_numbers": [
+        101
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "273",
+      "section_title": "Conclusiveness of probate or letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_281",
+      "page_numbers": [
+        101,
+        102
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "274",
+      "section_title": "Transmission to High Courts of certificate of grants under proviso to section 273",
+      "parent_id": "THE_SUCCESSION_ACT_1925_282",
+      "page_numbers": [
+        102
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "275",
+      "section_title": "Conclusiveness of application for probate or administration if properly made and verified",
+      "parent_id": "THE_SUCCESSION_ACT_1925_283",
+      "page_numbers": [
+        102
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "276",
+      "section_title": "Petition for probate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_284",
+      "page_numbers": [
+        102,
+        103
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "277",
+      "section_title": "In what cases translation of will to be annexed to petition. Verification of translation by person other than Court translator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_285",
+      "page_numbers": [
+        103
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "278",
+      "section_title": "Petition for letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_286",
+      "page_numbers": [
+        103
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "279",
+      "section_title": "Addition to statement in petition, etc., for probate or letters of administration in certain cases",
+      "parent_id": "THE_SUCCESSION_ACT_1925_287",
+      "page_numbers": [
+        104
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "280",
+      "section_title": "Petition for probate, etc., to be signed and verified",
+      "parent_id": "THE_SUCCESSION_ACT_1925_288",
+      "page_numbers": [
+        104
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "281",
+      "section_title": "Verification of petition for probate by one witness to will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_289",
+      "page_numbers": [
+        104
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "282",
+      "section_title": "Punishment for false averment in petition or declaration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_290",
+      "page_numbers": [
+        104
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "283",
+      "section_title": "Powers of District Judge",
+      "parent_id": "THE_SUCCESSION_ACT_1925_291",
+      "page_numbers": [
+        104,
+        105
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "284",
+      "section_title": "Caveats against grant of probate or administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_292",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "285",
+      "section_title": "After entry of caveat, no proceeding taken on petition until after notice to caveator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_293",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "286",
+      "section_title": "District Delegate when not to grant probate or administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_294",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "287",
+      "section_title": "Power to transmit statement to District Judge in doubtful cases where no contention",
+      "parent_id": "THE_SUCCESSION_ACT_1925_295",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "288",
+      "section_title": "Procedure where there is contention or District Delegate thinks probate or letters of administration should be refused in his Court",
+      "parent_id": "THE_SUCCESSION_ACT_1925_296",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "289",
+      "section_title": "Grant of probate to be under seal of Court",
+      "parent_id": "THE_SUCCESSION_ACT_1925_297",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "290",
+      "section_title": "Grant of letters of administration to be under seal of Court",
+      "parent_id": "THE_SUCCESSION_ACT_1925_298",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "291",
+      "section_title": "Administration bond",
+      "parent_id": "THE_SUCCESSION_ACT_1925_299",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "292",
+      "section_title": "Assignment of administration bond",
+      "parent_id": "THE_SUCCESSION_ACT_1925_300",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "293",
+      "section_title": "Time for grant of probate and administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_301",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "294",
+      "section_title": "Filing of original wills of which probate or administration with will annexed granted",
+      "parent_id": "THE_SUCCESSION_ACT_1925_302",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "295",
+      "section_title": "Procedure in contentious cases",
+      "parent_id": "THE_SUCCESSION_ACT_1925_303",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "296",
+      "section_title": "Surrender of revoked probate or letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_304",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "297",
+      "section_title": "Payment to executor or administrator before probate or administration revoked",
+      "parent_id": "THE_SUCCESSION_ACT_1925_305",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "298",
+      "section_title": "Power to refuse letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_306",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "299",
+      "section_title": "Appeals from orders of District Judge",
+      "parent_id": "THE_SUCCESSION_ACT_1925_307",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "300",
+      "section_title": "Concurrent jurisdiction of High Court",
+      "parent_id": "THE_SUCCESSION_ACT_1925_308",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "301",
+      "section_title": "Removal of executor or administrator and provision for successor",
+      "parent_id": "THE_SUCCESSION_ACT_1925_309",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "302",
+      "section_title": "Directions to executor or administrator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_310",
+      "page_numbers": [
+        108
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "303",
+      "section_title": "Executor of his own wrong",
+      "parent_id": "THE_SUCCESSION_ACT_1925_311",
+      "page_numbers": [
+        108
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "304",
+      "section_title": "Liability of executor of his own wrong",
+      "parent_id": "THE_SUCCESSION_ACT_1925_312",
+      "page_numbers": [
+        108
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "305",
+      "section_title": "In respect of causes of action surviving deceased and debts due at death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_313",
+      "page_numbers": [
+        108
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "306",
+      "section_title": "Demands and rights of action of or against deceased survive to and against executor or administrator",
+      "parent_id": "THE_SUCCESSION_ACT_1925_314",
+      "page_numbers": [
+        109
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "307",
+      "section_title": "Power of executor or administrator to dispose of property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_315",
+      "page_numbers": [
+        109,
+        110
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "308",
+      "section_title": "General powers of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_316",
+      "page_numbers": [
+        110
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "309",
+      "section_title": "Commission or agency charges",
+      "parent_id": "THE_SUCCESSION_ACT_1925_317",
+      "page_numbers": [
+        110
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "310",
+      "section_title": "Purchase by executor or administrator of deceased's property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_318",
+      "page_numbers": [
+        110
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "311",
+      "section_title": "Powers of several executors or administrators exercisable by one",
+      "parent_id": "THE_SUCCESSION_ACT_1925_319",
+      "page_numbers": [
+        110,
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "312",
+      "section_title": "Survival of powers on death of one of several executors or administrators",
+      "parent_id": "THE_SUCCESSION_ACT_1925_320",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "313",
+      "section_title": "Powers of administrator of effects unadministered",
+      "parent_id": "THE_SUCCESSION_ACT_1925_321",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "314",
+      "section_title": "Powers of administrator during minority",
+      "parent_id": "THE_SUCCESSION_ACT_1925_322",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "315",
+      "section_title": "Powers of married executrix or administratrix",
+      "parent_id": "THE_SUCCESSION_ACT_1925_323",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "316",
+      "section_title": "As to deceased's funeral",
+      "parent_id": "THE_SUCCESSION_ACT_1925_324",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "317",
+      "section_title": "Inventory and account",
+      "parent_id": "THE_SUCCESSION_ACT_1925_325",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "318",
+      "section_title": "Inventory to include property in any part of Pakistan in certain cases",
+      "parent_id": "THE_SUCCESSION_ACT_1925_326",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "319",
+      "section_title": "As to property of and debts owing to, deceased",
+      "parent_id": "THE_SUCCESSION_ACT_1925_327",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "320",
+      "section_title": "Expenses to be paid before all debts",
+      "parent_id": "THE_SUCCESSION_ACT_1925_328",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "321",
+      "section_title": "Expenses to be paid next after such expenses",
+      "parent_id": "THE_SUCCESSION_ACT_1925_329",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "322",
+      "section_title": "Wages for certain services to be next paid and then other debts",
+      "parent_id": "THE_SUCCESSION_ACT_1925_330",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "323",
+      "section_title": "Save as aforesaid, all debts to be paid equally and rateably",
+      "parent_id": "THE_SUCCESSION_ACT_1925_331",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "324",
+      "section_title": "Application of moveable property to payment of debts where domicile not in Pakistan",
+      "parent_id": "THE_SUCCESSION_ACT_1925_332",
+      "page_numbers": [
+        112,
+        113
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "325",
+      "section_title": "Debts to be paid before legacies",
+      "parent_id": "THE_SUCCESSION_ACT_1925_333",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "326",
+      "section_title": "Executor or administrator not bound to pay legacies without indemnity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_334",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "327",
+      "section_title": "Abatement of general legacies",
+      "parent_id": "THE_SUCCESSION_ACT_1925_335",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "328",
+      "section_title": "Non- abatement of specific legacy when assets sufficient to pay debts",
+      "parent_id": "THE_SUCCESSION_ACT_1925_336",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "329",
+      "section_title": "Right under demonstrative legacy when assets sufficient to pay debts and necessary expenses",
+      "parent_id": "THE_SUCCESSION_ACT_1925_337",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "330",
+      "section_title": "Rateable abatement of specific legacies",
+      "parent_id": "THE_SUCCESSION_ACT_1925_338",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "331",
+      "section_title": "Legacies treated as general for purpose of abatement",
+      "parent_id": "THE_SUCCESSION_ACT_1925_339",
+      "page_numbers": [
+        114
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "332",
+      "section_title": "Assent necessary to complete legatee's title",
+      "parent_id": "THE_SUCCESSION_ACT_1925_340",
+      "page_numbers": [
+        114
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "333",
+      "section_title": "Effect of executor's assent to specific legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_341",
+      "page_numbers": [
+        114
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "334",
+      "section_title": "Conditional assent",
+      "parent_id": "THE_SUCCESSION_ACT_1925_342",
+      "page_numbers": [
+        115
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "335",
+      "section_title": "Assent of executor to his own legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_343",
+      "page_numbers": [
+        115
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "336",
+      "section_title": "Effect of executor's assent",
+      "parent_id": "THE_SUCCESSION_ACT_1925_344",
+      "page_numbers": [
+        115
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "337",
+      "section_title": "Executor when to deliver legacies",
+      "parent_id": "THE_SUCCESSION_ACT_1925_345",
+      "page_numbers": [
+        115
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "338",
+      "section_title": "Commencement of annuity when no time fixed by will",
+      "parent_id": "THE_SUCCESSION_ACT_1925_346",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "339",
+      "section_title": "When annuity, to be paid quarterly or monthly, first falls due",
+      "parent_id": "THE_SUCCESSION_ACT_1925_347",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "340",
+      "section_title": "Dates of successive payments when first payment directed to be made within a given time or on day certain: death of annuitant before date of payment",
+      "parent_id": "THE_SUCCESSION_ACT_1925_348",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "341",
+      "section_title": "Investment of sum bequeathed where legacy, not specific, given for life",
+      "parent_id": "THE_SUCCESSION_ACT_1925_349",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "342",
+      "section_title": "Investment of general legacy, to be paid at future time: disposal of intermediate interest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_350",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "343",
+      "section_title": "Procedure when no fund charged with, or appropriated to annuity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_351",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "344",
+      "section_title": "Transfer to residuary legatee of contingent bequest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_352",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "345",
+      "section_title": "Investment of residue bequeathed for life without direction to invest in particular securities",
+      "parent_id": "THE_SUCCESSION_ACT_1925_353",
+      "page_numbers": [
+        116,
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "346",
+      "section_title": "Investment of residue bequeathed for life, with direction to invest in specified securities",
+      "parent_id": "THE_SUCCESSION_ACT_1925_354",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "347",
+      "section_title": "Time and manner of conversion and investment",
+      "parent_id": "THE_SUCCESSION_ACT_1925_355",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "348",
+      "section_title": "Procedure where minor entitled to immediate payment or possession of bequest, and no direction to pay to person on his behalf",
+      "parent_id": "THE_SUCCESSION_ACT_1925_356",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "349",
+      "section_title": "Legatee's title to produce of specific legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_357",
+      "page_numbers": [
+        117,
+        118
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "350",
+      "section_title": "Residuary legatee's title to produce of residuary fund",
+      "parent_id": "THE_SUCCESSION_ACT_1925_358",
+      "page_numbers": [
+        118
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "351",
+      "section_title": "Interest when no time fixed for payment of general legacy",
+      "parent_id": "THE_SUCCESSION_ACT_1925_359",
+      "page_numbers": [
+        118
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "352",
+      "section_title": "Interest when time fixed",
+      "parent_id": "THE_SUCCESSION_ACT_1925_360",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "353",
+      "section_title": "Rate of interest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_361",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "354",
+      "section_title": "No interest on arrears of annuity within first year after testator's death",
+      "parent_id": "THE_SUCCESSION_ACT_1925_362",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "355",
+      "section_title": "Interest on sum to be invested to produce annuity",
+      "parent_id": "THE_SUCCESSION_ACT_1925_363",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "356",
+      "section_title": "Refund of legacy paid under Court's orders",
+      "parent_id": "THE_SUCCESSION_ACT_1925_364",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "357",
+      "section_title": "No refund if paid voluntarily",
+      "parent_id": "THE_SUCCESSION_ACT_1925_365",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "358",
+      "section_title": "Refund when legacy has become due on performance of condition within further time allowed under section 137",
+      "parent_id": "THE_SUCCESSION_ACT_1925_366",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "359",
+      "section_title": "When each legatee compellable to refund in proportion",
+      "parent_id": "THE_SUCCESSION_ACT_1925_367",
+      "page_numbers": [
+        119
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "360",
+      "section_title": "Distribution of assets",
+      "parent_id": "THE_SUCCESSION_ACT_1925_368",
+      "page_numbers": [
+        119,
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "361",
+      "section_title": "Creditor may call upon legatee to refund",
+      "parent_id": "THE_SUCCESSION_ACT_1925_369",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "362",
+      "section_title": "When legatee, not satisfied or compelled to refund under section 361, cannot oblige one paid in full to refund",
+      "parent_id": "THE_SUCCESSION_ACT_1925_370",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "363",
+      "section_title": "When unsatisfied legatee must first proceed against executor, if solvent",
+      "parent_id": "THE_SUCCESSION_ACT_1925_371",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "364",
+      "section_title": "Limit to refunding of one legatee to another",
+      "parent_id": "THE_SUCCESSION_ACT_1925_372",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "365",
+      "section_title": "Refunding to be without interest",
+      "parent_id": "THE_SUCCESSION_ACT_1925_373",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "366",
+      "section_title": "Residue after usual payments to be paid to residuary legatee",
+      "parent_id": "THE_SUCCESSION_ACT_1925_374",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "367",
+      "section_title": "Transfer of assets from Pakistan, to executor or administrator in country of domicile for distribution",
+      "parent_id": "THE_SUCCESSION_ACT_1925_375",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "368",
+      "section_title": "Liability of executor or administrator for devastation",
+      "parent_id": "THE_SUCCESSION_ACT_1925_376",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "369",
+      "section_title": "Liability of executor or administrator for neglect to get any part of property",
+      "parent_id": "THE_SUCCESSION_ACT_1925_377",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART X",
+      "parent_id": "THE_SUCCESSION_ACT_1925_378",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "370",
+      "section_title": "Restriction on grant of certificates under this Part",
+      "parent_id": "THE_SUCCESSION_ACT_1925_379",
+      "page_numbers": [
+        121,
+        122
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "371",
+      "section_title": "Court having jurisdiction to grant certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_380",
+      "page_numbers": [
+        122
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "372",
+      "section_title": "Application for certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_381",
+      "page_numbers": [
+        122
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "373",
+      "section_title": "Procedure on application",
+      "parent_id": "THE_SUCCESSION_ACT_1925_382",
+      "page_numbers": [
+        123
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "374",
+      "section_title": "Contents of certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_383",
+      "page_numbers": [
+        123
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "375",
+      "section_title": "Requisition of security from grantee of certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_384",
+      "page_numbers": [
+        123,
+        124
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "376",
+      "section_title": "Extension of certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_385",
+      "page_numbers": [
+        124
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "377",
+      "section_title": "Forms of certificate and extended certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_386",
+      "page_numbers": [
+        124
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "378",
+      "section_title": "Amendment of certificate in respect of powers as to securities",
+      "parent_id": "THE_SUCCESSION_ACT_1925_387",
+      "page_numbers": [
+        124
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "379",
+      "section_title": "Mode of collecting Court-fees on certificates",
+      "parent_id": "THE_SUCCESSION_ACT_1925_388",
+      "page_numbers": [
+        124
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "380",
+      "section_title": "Local extent of certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_389",
+      "page_numbers": [
+        124
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "381",
+      "section_title": "Effect of certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_390",
+      "page_numbers": [
+        125
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "382",
+      "section_title": "Effect of certificate granted or extended by Pakistan representative in Foreign State",
+      "parent_id": "THE_SUCCESSION_ACT_1925_391",
+      "page_numbers": [
+        125
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "383",
+      "section_title": "Revocation of certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_392",
+      "page_numbers": [
+        125
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "384",
+      "section_title": "Appeal",
+      "parent_id": "THE_SUCCESSION_ACT_1925_393",
+      "page_numbers": [
+        125,
+        126
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "385",
+      "section_title": "Effect on certificate of previous certificate, probate or letters of administration",
+      "parent_id": "THE_SUCCESSION_ACT_1925_394",
+      "page_numbers": [
+        126
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "386",
+      "section_title": "Validation of certain payments made in good faith to holder of invalid certificate",
+      "parent_id": "THE_SUCCESSION_ACT_1925_395",
+      "page_numbers": [
+        126
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "387",
+      "section_title": "Effect of decisions under this Act, and liability of holder of certificate thereunder",
+      "parent_id": "THE_SUCCESSION_ACT_1925_396",
+      "page_numbers": [
+        126
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "388",
+      "section_title": "Investiture of inferior Courts with jurisdiction of District Court for purposes of this Act",
+      "parent_id": "THE_SUCCESSION_ACT_1925_397",
+      "page_numbers": [
+        126,
+        127
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "389",
+      "section_title": "Surrender of superseded and invalid certificates",
+      "parent_id": "THE_SUCCESSION_ACT_1925_398",
+      "page_numbers": [
+        127
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "390",
+      "section_title": "Provisions with respect to certificates under Bombay Regulation VIII of 1827",
+      "parent_id": "THE_SUCCESSION_ACT_1925_399",
+      "page_numbers": [
+        127
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART XI",
+      "parent_id": "THE_SUCCESSION_ACT_1925_400",
+      "page_numbers": [
+        127
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "391",
+      "section_title": "Saving",
+      "parent_id": "THE_SUCCESSION_ACT_1925_401",
+      "page_numbers": [
+        127
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "392",
+      "section_title": "-",
+      "parent_id": "THE_SUCCESSION_ACT_1925_402",
+      "page_numbers": [
+        127
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE I",
+      "parent_id": "THE_SUCCESSION_ACT_1925_403",
+      "page_numbers": [
+        128
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "TABLE OF CONSANGUINITY",
+      "parent_id": "THE_SUCCESSION_ACT_1925_404",
+      "page_numbers": [
+        128,
+        129
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE I",
+      "parent_id": "THE_SUCCESSION_ACT_1925_405",
+      "page_numbers": [
+        129
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART I",
+      "parent_id": "THE_SUCCESSION_ACT_1925_406",
+      "page_numbers": [
+        129
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART I",
+      "parent_id": "THE_SUCCESSION_ACT_1925_407",
+      "page_numbers": [
+        129
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART II",
+      "parent_id": "THE_SUCCESSION_ACT_1925_408",
+      "page_numbers": [
+        129,
+        130
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART II",
+      "parent_id": "THE_SUCCESSION_ACT_1925_409",
+      "page_numbers": [
+        130
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE III",
+      "parent_id": "THE_SUCCESSION_ACT_1925_410",
+      "page_numbers": [
+        130
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE IV",
+      "parent_id": "THE_SUCCESSION_ACT_1925_411",
+      "page_numbers": [
+        131
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE V",
+      "parent_id": "THE_SUCCESSION_ACT_1925_412",
+      "page_numbers": [
+        131
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE VI",
+      "parent_id": "THE_SUCCESSION_ACT_1925_413",
+      "page_numbers": [
+        131
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE VII",
+      "parent_id": "THE_SUCCESSION_ACT_1925_414",
+      "page_numbers": [
+        131,
+        132
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE VIII",
+      "parent_id": "THE_SUCCESSION_ACT_1925_415",
+      "page_numbers": [
+        132
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORMS OF CERTIFICATE AND EXTENDED CERTIFICATE",
+      "parent_id": "THE_SUCCESSION_ACT_1925_416",
+      "page_numbers": [
+        132
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_file": "THE REVOCATION OF PRIVILEGES ACT, 1992.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE REVOCATION OF PRIVILEGES ACT, 1992.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 3,
+  "total_child_chunks": 5,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_REVOCATION_OF_PRIVILEGES_ACT,_1992_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_REVOCATION_OF_PRIVILEGES_ACT,_1992_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_REVOCATION_OF_PRIVILEGES_ACT,_1992_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_REVOCATION_OF_PRIVILEGES_ACT,_1992_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Annulment of certain Bills",
+      "parent_id": "THE_REVOCATION_OF_PRIVILEGES_ACT,_1992_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 3
+    }
+  ]
+}

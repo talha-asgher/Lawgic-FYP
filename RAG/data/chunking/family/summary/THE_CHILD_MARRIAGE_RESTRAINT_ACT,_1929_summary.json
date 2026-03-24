@@ -1,0 +1,116 @@
+{
+  "source_file": "THE CHILD MARRIAGE RESTRAINT ACT, 1929.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE CHILD MARRIAGE RESTRAINT ACT, 1929.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 11,
+  "total_child_chunks": 12,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Punishment for male adult above twenty-one years of age marrying a child",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Punishment for solemnising a child marriage",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Punishment for parent or guardian concerned in a child marriage",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Imprisonment not to be awarded for offences under section 3",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Jurisdiction under this Act",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "-",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Preliminary inquiries into offences under this Act",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_10",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Power to issue injunction prohibiting marriage in contravention of this Act",
+      "parent_id": "THE_CHILD_MARRIAGE_RESTRAINT_ACT,_1929_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    }
+  ]
+}

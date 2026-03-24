@@ -1,0 +1,361 @@
+{
+  "source_file": "THE CANTONMENTS RENT RESTRICTION ACT, 1963.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CANTONMENTS RENT RESTRICTION ACT, 1963.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 37,
+  "total_child_chunks": 60,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "3",
+      "section_title": "Act not to apply to certain buildings",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_4",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Power of exemption",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Act to override other laws",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Appointment of Controller",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6A",
+      "section_title": "Applications to be filed with Controller",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6B",
+      "section_title": "Power of Controller to transfer cases",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_9",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Determination of fair rent",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "8",
+      "section_title": "Increase of fair rent in certain cases",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_11",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Landlord not to claim anything in excess of fair rent",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Fine or premium not to be charged for grant, renewal or continuance of tenancy",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Moneys which should not have been paid may be recovered",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Tenant to pay taxes",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Landlord not to interfere with amenities enjoyed by the tenant",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Restriction of conversion of residential buildings into commercial buildings and",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Failure by landlord to make necessary repairs",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_18",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Reimbursement of expenses incurred on repairs under orders of a local authority",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Eviction of tenant",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_20_1",
+      "page_numbers": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "num_children": 12
+    },
+    {
+      "section_number": "17",
+      "section_title": "Eviction of tenant",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_20_2",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17A",
+      "section_title": "Eviction of tenants where the landlord is a salaried employee, widow or minor orphan",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_21",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "18",
+      "section_title": "Registration of hotels, lodging-houses",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Fixation of fair rates",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_23",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Fair rates, etc., to be displayed",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Eviction of guests from hotels, etc",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22",
+      "section_title": "Eviction of Government servants, etc",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_26",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Decisions which have become final not to be re-opened",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_27",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Appeal",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_28",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Execution of orders",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Landlord and tenant to furnish particulars",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Procedure and powers of Controller",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_31",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Penalties",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_32",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Cognizance of offence",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_33",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Controller to be a public servant",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_34",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Indemnity",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_35",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_CANTONMENTS_RENT_RESTRICTION_ACT,_1963_36",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    }
+  ]
+}

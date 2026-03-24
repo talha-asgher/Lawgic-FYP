@@ -1,0 +1,44 @@
+{
+  "source_file": "THE LEGAL REPRESENTATIVES' SUITS ACT, 1855.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE LEGAL REPRESENTATIVES' SUITS ACT, 1855.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 3,
+  "total_child_chunks": 4,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_LEGAL_REPRESENTATIVES'_SUITS_ACT,_1855_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_LEGAL_REPRESENTATIVES'_SUITS_ACT,_1855_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_LEGAL_REPRESENTATIVES'_SUITS_ACT,_1855_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Executors may sue and be sued in certain cases for wrongs committed in lifetime of deceased",
+      "parent_id": "THE_LEGAL_REPRESENTATIVES'_SUITS_ACT,_1855_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "2",
+      "section_title": "Death of either party not to abate suit",
+      "parent_id": "THE_LEGAL_REPRESENTATIVES'_SUITS_ACT,_1855_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

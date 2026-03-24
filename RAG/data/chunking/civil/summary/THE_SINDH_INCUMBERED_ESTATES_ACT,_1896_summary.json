@@ -1,0 +1,382 @@
+{
+  "source_file": "THE SINDH INCUMBERED ESTATES ACT, 1896.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SINDH INCUMBERED ESTATES ACT, 1896.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 40,
+  "total_child_chunks": 49,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title and commencement",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Application for the benefit of this Act",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Order to inquire",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "-",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_6",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Verified statement to be submitted",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_7",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Report of inquiry and proceedings thereon",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Order of management",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_9",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Effect of order of management",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "10",
+      "section_title": "Powers of manager",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_11",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Payments to be made by manager and order thereof",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_12",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Notice to claimants against debtors",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Claimants to present full particulars and documents",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_14",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Claim not duly notified to be barred",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Determination of debts and liabilities",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power to rank debts and to fix interest",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_17",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Liquidation scheme",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_18",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Proceedings of Commissioner on submission of liquidation scheme",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_19",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Power to relinquish management",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Effects of sanctioning scheme",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Power to remove mortgagee in possession",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_22",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "-",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_23",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "23",
+      "section_title": "Power to lease",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_24",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power to raise money by mortgage or sale",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_25",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Separation of part of jagir lands subject to lapse",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_26",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Manager's receipt to be a discharge",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_27",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Termination of management",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_28",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Death of debtor during management",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_29",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Mortgages, etc., made by restored jagirdar valid only for this life",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_30",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Power to revise liquidation scheme",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_31",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Appeal",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_32_1",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Appeal",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_32_2",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_33",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "34",
+      "section_title": "Power to appoint new manager",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_34",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Managers to be public servants",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_35",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Investigation to be deemed a judicial proceeding",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_36",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Power to summon witnesses and compel production of documents",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_37",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Bar of suits",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_38",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Saving of jurisdiction of Courts in Sindh in respect of certain suits",
+      "parent_id": "THE_SINDH_INCUMBERED_ESTATES_ACT,_1896_39",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    }
+  ]
+}

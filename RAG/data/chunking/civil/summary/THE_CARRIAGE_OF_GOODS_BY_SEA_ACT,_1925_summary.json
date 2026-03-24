@@ -1,0 +1,111 @@
+{
+  "source_file": "THE CARRIAGE OF GOODS BY SEA ACT, 1925.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CARRIAGE OF GOODS BY SEA ACT, 1925.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 10,
+  "total_child_chunks": 28,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Application of Rules",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Absolute warranty of sea worthiness not to be implied in contracts to which Rules apply",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Statement as to application of Rules to be included in bills of lading",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Modification of Article VI of Rules in relation to goods carried in sailing ships and by prescribed routes",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Modification of Rules 4 and 5 of Article III in relation to bulk cargoes",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Saving and operation",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# SCHEDULE",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_9",
+      "page_numbers": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "num_children": 11
+    },
+    {
+      "section_number": "-",
+      "section_title": "# SCHEDULE",
+      "parent_id": "THE_CARRIAGE_OF_GOODS_BY_SEA_ACT,_1925_10",
+      "page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "num_children": 8
+    }
+  ]
+}

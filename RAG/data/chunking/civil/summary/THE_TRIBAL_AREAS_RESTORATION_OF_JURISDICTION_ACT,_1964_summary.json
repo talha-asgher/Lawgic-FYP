@@ -1,0 +1,52 @@
+{
+  "source_file": "THE TRIBAL AREAS (RESTORATION OF JURISDICTION) ACT, 1964.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE TRIBAL AREAS (RESTORATION OF JURISDICTION) ACT, 1964.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 4,
+  "total_child_chunks": 4,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_TRIBAL_AREAS_RESTORATION_OF_JURISDICTION_ACT,_1964_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_TRIBAL_AREAS_RESTORATION_OF_JURISDICTION_ACT,_1964_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_TRIBAL_AREAS_(RESTORATION_OF_JURISDICTION)_ACT,_1964_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_TRIBAL_AREAS_(RESTORATION_OF_JURISDICTION)_ACT,_1964_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Restoration of jurisdiction of the Supreme Court and the High Court",
+      "parent_id": "THE_TRIBAL_AREAS_(RESTORATION_OF_JURISDICTION)_ACT,_1964_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Extension of limitation",
+      "parent_id": "THE_TRIBAL_AREAS_(RESTORATION_OF_JURISDICTION)_ACT,_1964_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

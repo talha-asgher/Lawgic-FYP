@@ -1,0 +1,143 @@
+{
+  "source_file": "THE DRAMATIC PERFORMANCES ACT, 1876.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE DRAMATIC PERFORMANCES ACT, 1876.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 14,
+  "total_child_chunks": 15,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_DRAMATIC_PERFORMANCES_ACT,_1876_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_DRAMATIC_PERFORMANCES_ACT,_1876_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Local extent",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "\"Magistrate\" defined",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Power to prohibit certain dramatic performances",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Power to serve order of prohibition. Penalty for disobeying order",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_6",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to notify order",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Penalty for disobeying prohibition",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Power to call for information",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power to grant warrant to Police to enter and arrest and seize",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_10",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Saving of prosecutions under Penal Code, sections 124 A and 294",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_11",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power to prohibit dramatic performance in any local area, except under license",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_12",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "[Powers exercisable by Governor-General.] Rep. by A.O., 1937",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_13",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Exclusion of performance at religious festivals",
+      "parent_id": "THE_DRAMATIC_PERFORMANCES_ACT,_1876_14",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

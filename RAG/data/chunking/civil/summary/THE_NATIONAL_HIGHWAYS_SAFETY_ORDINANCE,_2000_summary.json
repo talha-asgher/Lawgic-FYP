@@ -1,0 +1,1290 @@
+{
+  "source_file": "THE NATIONAL HIGHWAYS SAFETY ORDINANCE, 2000.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE NATIONAL HIGHWAYS SAFETY ORDINANCE, 2000.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 137,
+  "total_child_chunks": 214,
+  "total_table_chunks": 7,
+  "total_form_chunks": 7,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_table_chunks.json",
+  "form_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\form_chunks\\THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_form_chunks.json",
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_1",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_2",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_3_1",
+      "page_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_3_2",
+      "page_numbers": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "3",
+      "section_title": "Prohibition on driving without licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_4",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Age limit in connection with driving of road vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_5",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Owners of road vehicles not to permit any person to drive in contravention of section 3 or section 4",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_6",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Grant of licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_7",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "7",
+      "section_title": "Form a contents licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_8",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Additions to licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_9",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Extent of validity of licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_10",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Currency of licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_11",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Renewal of licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_12",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Cancellation of licence on grounds of disease or disability",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_13",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Order refusing to issue or renew a licence and appeals",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_14",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Power of licencing authority to disqualify for holding a licence",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_15",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Power of court to order disqualification",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_16",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Effect of disqualification order",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_17",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_18",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Road vehicles not to be driven without registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_19",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Registration where to be made",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_20",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Registration how to be made",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_21",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Temporary Registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_22",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Production of vehicle at the time of registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_23",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Refusal of registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_24",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Validity of registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_25",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "25",
+      "section_title": "Assignment of fresh registration mark on removal to another Province",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_26",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "26",
+      "section_title": "Change of residence or place of business",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_27",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Transfer of ownership",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_28",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Alteration in road vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_29",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Suspension of registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_30",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "30",
+      "section_title": "Cancellation of registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_31",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "31",
+      "section_title": "Appeals",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_32",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Special requirement for registration of transport vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_33",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Special particulars to be recorded on registration of transport vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_34",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Certificate of fitness of transport vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_35",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "35",
+      "section_title": "Registration of vehicles being the property of the Government",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_36",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "36",
+      "section_title": "Special registration of vehicles",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_37",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Application of Chapter to trailers",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_38",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_39",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "39",
+      "section_title": "General provision regarding construction and maintenance",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_40",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_41",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "41",
+      "section_title": "No fault accident compensation insurance",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_42",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Limits of speeds",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_43",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "43",
+      "section_title": "Limits of weight and limitation on use",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_44",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "44",
+      "section_title": "Power to have vehicle weighed",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_45",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Power to restrict the use of vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_46",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Power to erect traffic signs",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_47",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Parking place and halting stations",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_48",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Power to remove vehicle obstructing traffic",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_49",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Duty to obey traffic signs",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_50",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Signals and signaling devices",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_51",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Emission of smoke, vapour or grease and noise",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_52",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Vehicle with left hand control",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_53",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Leaving vehicle in dangerous position",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_54",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Riding on running boards",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_55",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Obstruction to driver",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_56",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Stationary vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_57",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Two wheeled motor vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_58",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Duty to produce licence and certificate of registration",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_59",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "59",
+      "section_title": "Duty of driver to stop in certain cases",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_60",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Duty of give information",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_61",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Duty of driver in case of accident and injury to a person or damage to property",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_62",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "62",
+      "section_title": "Inspection of vehicle in accident",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_63",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Railway crossing",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_64",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_65",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "65",
+      "section_title": "Offence relating to licences",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_66",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Driving at excessive speed",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_67",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Driving recklessly or dangerously",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_68",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Driving while under the influence of alcohol or drugs",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_69",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Driving when mentally or physically unfit",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_70",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Racing and trial of speed",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_71",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Punishment for abetment of certain offences",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_72",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Using vehicle in unsafe condition",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_73",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Using vehicle with shaded glasses",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_74",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Offences relating to construction of vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_75",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Offences relating to weights",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_76",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Offences relating to accidents",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_77",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "77",
+      "section_title": "Offences relating to disobedience of orders, obstruction and refusal of information",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_78",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Offences relating to prohibited appliances",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_79",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Offences relating to traffic safety rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_80",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "80",
+      "section_title": "General provision for punishment of offences not otherwise provided for",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_81",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "81",
+      "section_title": "Power of arrest without warrant",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_82",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "82",
+      "section_title": "Power of police officer to seize documents",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_83",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Power to detain vehicle",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_84",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "84",
+      "section_title": "Particular of summons",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_85",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85",
+      "section_title": "In the case of an accident",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_86",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Point system for traffic violations",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_87",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "87",
+      "section_title": "Compensation for death, injury or damage, etc",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_88",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "88",
+      "section_title": "Jurisdiction and procedure",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_89",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "89",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_90",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "90",
+      "section_title": "Establishment of a Police for National Highway",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_91",
+      "page_numbers": [
+        33,
+        34
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "91",
+      "section_title": "Assistance National Highways and Pakistan Motorway Police",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_92",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Superintendence and administration of National Highways and Pakistan Motorway Police",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_93",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_94",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "94",
+      "section_title": "Appointment of Magistrate",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_95",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "95",
+      "section_title": "Licencing malpractice",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_96",
+      "page_numbers": [
+        35,
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Indemnity",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_97",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "97",
+      "section_title": "Ordinance not to derogate other laws",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_98",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "98",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_99",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "99",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_100",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORM A",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_101",
+      "page_numbers": [
+        36,
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORM OF MEDICAL CERTIFICATE FOR A LICENCE TO DRIVE A VEHICLE OTHER THAN A TRANSPORT VEHICLE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_102",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORM B",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_103",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORM C",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_104",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PARTICULARS TO BE RECORDED ON LICENCE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_105",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "ENDORSEMENT",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_106",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORM G",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_107",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FORM OF CERTIFICATE OF REGISTRATION OF VEHICLE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_108",
+      "page_numbers": [
+        42,
+        43
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SECOND SCHEDULE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_109",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "MEDICAL BOARD",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_110",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE THIRD SCHEDULE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_111",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "DISEASES AND DISABILITIES DISQUALIFYING A PERSON FOR OBTAINING A LICENCE TO DRIVE A ROAD VEHICLE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_112",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE FOURTH SCHEDULE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_113",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "TEST OF COMPETENCE TO DRIVE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_114",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE FIRST SCHEDULE",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_115",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART I",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_116",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART I",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_117",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART II",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_118",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART II",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_119",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART III",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_120",
+      "page_numbers": [
+        44,
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IV",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_121",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART I",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_122",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART II",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_123",
+      "page_numbers": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART III",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_124",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IV",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_125",
+      "page_numbers": [
+        49,
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART V",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_126",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "FOR CYCLISTS",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_127",
+      "page_numbers": [
+        50,
+        51
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART V",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_128",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART VI",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_129",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART VII",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_130",
+      "page_numbers": [
+        52,
+        53
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "1",
+      "section_title": "Right turn",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_131",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Left turn",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_132",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Slow down",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_133",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Stop",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_134",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "### PART I",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_135",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART II",
+      "parent_id": "THE_NATIONAL_HIGHWAYS_SAFETY_ORDINANCE,_2000_136",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    }
+  ]
+}

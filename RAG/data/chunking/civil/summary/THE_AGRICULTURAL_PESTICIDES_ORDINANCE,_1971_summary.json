@@ -1,0 +1,336 @@
+{
+  "source_file": "THE AGRICULTURAL PESTICIDES ORDINANCE, 1971.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE AGRICULTURAL PESTICIDES ORDINANCE, 1971.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 34,
+  "total_child_chunks": 51,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title extent and commencement",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Application of other laws not barred",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_4",
+      "page_numbers": [
+        3,
+        4,
+        5
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Pesticides to be registered",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Application for registration of pesticide",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6",
+      "section_title": "Period for which registration shall be effective",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Cancellation of registration",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Renewal of registration",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Importation may be prohibited",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_11",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Labelling of packages",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_12",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Shortage and use of pesticides",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "The Agriculture Pesticide Technical Advisory Committee",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_14",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "13",
+      "section_title": "Pesticide Laboratory",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Government Analyst",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Inspectors",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_17",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Powers of Inspectors",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Procedure of Inspectors",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_19",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Report of Government Analyst",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_20",
+      "page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "19",
+      "section_title": "Publication of results of test and analysis",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Purchaser of pesticide may have it tested or analysed",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "-",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_23",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21A",
+      "section_title": "Punishment for offences not provided for in section 2",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Manufacturer's warranty to dealers",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Unlawful use of registration number lowering of pesticidal value or hindering the Inspector from performing his duty",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_26",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Entry and seizure",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_27",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Power of Court to order forfeiture",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Cognizance of offences, etc",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26A",
+      "section_title": "Cognizance and prosecution of offences",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Power to try offences summarily",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_31",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Indemnity",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_32",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_33",
+      "page_numbers": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "30",
+      "section_title": "Delegation of Powers",
+      "parent_id": "THE_AGRICULTURAL_PESTICIDES_ORDINANCE,_1971_34",
+      "page_numbers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "source_file": "THE PROBATION OF OFFENDERS ORDINANCE, 1960.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE PROBATION OF OFFENDERS ORDINANCE, 1960.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 18,
+  "total_child_chunks": 25,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Courts empowered under the Ordinance",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Conditional discharges, etc",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power of Court to make a probation order in certain cases",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6",
+      "section_title": "Order for payment of costs and compensation",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Failure to observe conditions of the bond",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Powers of court in appeal and revision",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Provisions of the Code to apply to sureties and bond",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Variation of conditions of probation",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_11",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Effects of discharge and probation",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Appointment of probation officers",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Duties of a probation officer",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_14",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "[Delegation of powers to Provincial Government.]",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "[Repeal of sections 380 and 562-564 of the Code.]",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Provisions of this Ordinance to be in addition to and not in derogation of certain laws",
+      "parent_id": "THE_PROBATION_OF_OFFENDERS_ORDINANCE,_1960_18",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    }
+  ]
+}

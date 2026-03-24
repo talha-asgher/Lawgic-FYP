@@ -1,0 +1,35 @@
+# Lawgic — dependencies aligned with extraction, chunking, SLM, BGE-M3, and DB loaders.
+# Install: pip install -r requirements.txt
+
+# --- PDF extraction (llamaparser_extractor.py, extract_single_pdf_to_json.py) ---
+llama-parse>=0.4.0
+
+# --- Chunking (process_legal_text1.py: RecursiveCharacterTextSplitter) ---
+langchain-text-splitters>=0.2.0
+# Optional fallback if the import above fails (process_legal_text1 try/except):
+# langchain>=0.2.0
+
+# --- Config ---
+python-dotenv>=1.0.0
+
+# --- Often pulled transitively; pinned for reproducibility ---
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# --- SLM summaries (slm_summarizer.py: Qwen) + BGE-M3 (embed_bge_m3_child_chunks.py) ---
+torch>=2.0
+transformers>=4.40
+FlagEmbedding
+
+# --- Postgres + pgvector (load_data_to_db.py, lawgic_retrieve.py use psycopg 3) ---
+psycopg[binary]>=3.1
+pgvector
+
+# --- Utilities ---
+numpy
+requests
+
+# --- Optional: only if you run FastAPI/SQLAlchemy services in this same env ---
+fastapi
+uvicorn
+sqlalchemy

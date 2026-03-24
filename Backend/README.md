@@ -1,14 +1,39 @@
-# 1. Create and activate virtualenv
+# Lawgic Backend (FastAPI)
+
+## Prerequisites
+- Python 3.11+
+- PostgreSQL running with the correct database and credentials (configure via `.env`)
+
+## Setup
+
+### 1. Create and activate a virtual environment
+```bash
 python -m venv .venv
+
+# Windows
 .venv\Scripts\activate
 
-# 2. Install dependancies
-pip install fastapi uvicorn sqlalchemy psycopg2-binary python-dotenv passlib[bcrypt] python-jose pydantic email-validator python-multipart
-pip install reportlab
+# macOS/Linux
+source .venv/bin/activate
+```
 
-# 3. Run the app
-uvicorn main:app --reload
-# hassan pcs
-python -m uvicorn app.main:app --reload 
-# 4. Swagger API
-Open http://127.0.0.1:8000/docs
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure environment variables
+Create a `.env` file in this directory with your database connection and secret key:
+```
+DATABASE_URL=postgresql://user:password@localhost:5432/lawgic
+SECRET_KEY=your_secret_key
+```
+
+### 4. Run the server
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+The API will be available at: http://127.0.0.1:8000
+
+Swagger docs: http://127.0.0.1:8000/docs

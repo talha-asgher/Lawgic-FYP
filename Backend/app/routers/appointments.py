@@ -17,6 +17,26 @@ VALID_STATUSES = {"pending", "accepted", "rejected", "cancelled"}
 
 VALID_MODES = {"online_meeting", "chat", "phone", "physical"}
 
+
+def _build_appt_out(appt: models.Appointment) -> schemas.AppointmentOut:
+    lawyer_name = None
+    client_name = None
+    if appt.lawyer and appt.lawyer.user:
+        lawyer_name = appt.lawyer.user.name
+    if appt.user:
+        client_name = appt.user.name
+    return schemas.AppointmentOut(
+        appt_id=appt.appt_id,
+        mode_of_comm=appt.mode_of_comm,
+        scheduled_at=appt.scheduled_at,
+        status=appt.status,
+        notes=appt.notes,
+        user_id=appt.user_id,
+        lawyer_id=appt.lawyer_id,
+        lawyer_name=lawyer_name,
+        client_name=client_name,
+    )
+
 @router.post("/", response_model=schemas.AppointmentOut)
 def create_appointment(
     appt_in: schemas.AppointmentCreate,
@@ -34,6 +54,22 @@ def create_appointment(
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Lawyer not found",
+        )
+
+    active_assignment = (
+        db.query(models.CaseAssignment)
+        .join(models.Case)
+        .filter(
+            models.Case.user_id == current_user.user_id,
+            models.CaseAssignment.lawyer_id == appt_in.lawyer_id,
+            models.CaseAssignment.status == "active",
+        )
+        .first()
+    )
+    if not active_assignment:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="You can only book appointments for cases that have been accepted by this lawyer",
         )
 
     mode = appt_in.mode_of_comm.lower() if appt_in.mode_of_comm else None
@@ -54,7 +90,7 @@ def create_appointment(
     db.add(appt)
     db.commit()
     db.refresh(appt)
-    return appt
+    return _build_appt_out(appt)
 
 
 @router.get("/my", response_model=List[schemas.AppointmentOut])
@@ -102,7 +138,7 @@ def list_my_appointments(
     if to_datetime:
         query = query.filter(models.Appointment.scheduled_at <= to_datetime)
 
-    return query.order_by(models.Appointment.scheduled_at).all()
+    return [_build_appt_out(a) for a in query.order_by(models.Appointment.scheduled_at).all()]
 
 
 @router.patch("/{appt_id}/status", response_model=schemas.AppointmentOut)
@@ -171,4 +207,4 @@ def update_appointment_status(
     appt.status = new_status
     db.commit()
     db.refresh(appt)
-    return appt
+    return _build_appt_out(appt)

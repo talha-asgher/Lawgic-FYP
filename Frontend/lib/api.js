@@ -125,8 +125,14 @@ export async function loginUser(email, password) {
   return data;
 }
 
-export async function registerUser(name, email, password, phone, role = "client") {
-  return api.post("/auth/register", { name, email, password, phone_num: phone, role });
+export async function registerUser(formData) {
+  return api.post("/auth/register", {
+    name: formData.name,
+    email: formData.email,
+    password: formData.password,
+    phone_num: formData.phone,
+    role: "client",
+  });
 }
 
 export async function getMe() {
@@ -190,8 +196,16 @@ export async function inviteLawyersToCase(caseId, lawyerIds) {
   return api.post(`/cases/${caseId}/invite`, lawyerIds);
 }
 
+export async function inviteLawyerToCase(caseId, lawyerId) {
+  return api.post(`/cases/${caseId}/invite`, [lawyerId]);
+}
+
 export async function getMyRequests(statusFilter = "pending") {
   return api.get("/cases/requests/my", { status_filter: statusFilter });
+}
+
+export async function getClientRequests() {
+  return api.get("/cases/client-requests/my");
 }
 
 export async function respondToRequest(requestId, status) {

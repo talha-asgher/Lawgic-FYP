@@ -253,6 +253,9 @@ class CaseRequestOut(BaseModel):
     created_at: datetime
     case_title: Optional[str] = None
     client_name: Optional[str] = None
+    lawyer_name: Optional[str] = None
+    case_description: Optional[str] = None
+    case_law_domain: Optional[str] = None
 
     class Config:
         from_attributes = True

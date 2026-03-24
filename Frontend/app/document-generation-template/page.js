@@ -7,8 +7,9 @@ import {
   Loader2, CheckCircle2, AlertCircle, FileText, LogIn,
 } from "lucide-react";
 import { DOCUMENT_TEMPLATES, TEMPLATE_COLORS } from "../lib/documentTemplates";
+import { getToken } from "@/lib/api";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 // ─── Field Renderer ───────────────────────────────────────────────────────────
 function FormField({ field, value, onChange, error }) {
@@ -188,8 +189,7 @@ export default function DocumentFormPage() {
     const errs = validateSection(currentSection);
     if (Object.keys(errs).length > 0) { setErrors(errs); return; }
 
-    // ✅ Check token before calling API
-    const token = localStorage.getItem("lawgic_token");
+    const token = getToken();
     if (!token) { setNotLoggedIn(true); return; }
 
     setCompletedSections((p) => new Set([...p, currentSection]));
@@ -201,12 +201,11 @@ export default function DocumentFormPage() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${token}`,  // ✅ send auth token
+          "Authorization": `Bearer ${token}`,
         },
         body: JSON.stringify({ template_type: templateKey, form_data: formData }),
       });
 
-      // ✅ Handle 401 — token expired or invalid
       if (res.status === 401) { setNotLoggedIn(true); setIsSubmitting(false); return; }
 
       if (!res.ok) {
@@ -227,7 +226,8 @@ export default function DocumentFormPage() {
 
   const handleDownload = async () => {
     if (!generatedDocId) return;
-    const token = localStorage.getItem("lawgic_token");
+    const token = getToken();
+    if (!token) { setNotLoggedIn(true); return; }
     setIsDownloading(true);
     try {
       const res = await fetch(`${API_BASE_URL}/documents/download/${generatedDocId}`, {

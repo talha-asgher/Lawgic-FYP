@@ -4,10 +4,9 @@ import datetime
 from typing import List, Optional, Any
 
 from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.responses import StreamingResponse
+from fastapi.responses import Response
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
-from io import BytesIO
 
 from app import models, schemas
 from app.deps import get_db
@@ -172,12 +171,11 @@ def download_document(
 
     filename = f"{db_doc.type}_{db_doc.doc_id}.pdf"
 
-    return StreamingResponse(
-        BytesIO(db_doc.pdf_data),
+    return Response(
+        content=bytes(db_doc.pdf_data),
         media_type="application/pdf",
         headers={
             "Content-Disposition": f'attachment; filename="{filename}"',
-            "Content-Length": str(len(db_doc.pdf_data)),
         }
     )
 

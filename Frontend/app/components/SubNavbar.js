@@ -1,23 +1,41 @@
 "use client";
 
-import { Home, Brain, FileText, FileCheck, Users, MapPin, Calculator, Briefcase, MessageSquare } from "lucide-react";
+import { Home, Brain, FileText, FileCheck, Users, MapPin, Calculator, Briefcase, MessageSquare, Calendar } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useAuthStore } from "../lib/authStore";
 
 export default function SubNavbar() {
   const pathname = usePathname();
+  const { user } = useAuthStore();
+  const role = user?.role;
 
-  const navItems = [
+  const clientItems = [
     { icon: <Home className="w-4 h-4" />, label: "Home", href: "/" },
     { icon: <Brain className="w-4 h-4" />, label: "AI Q&A", href: "/ai-qa" },
     { icon: <FileText className="w-4 h-4" />, label: "Document Analysis", href: "/document-analysis" },
     { icon: <FileCheck className="w-4 h-4" />, label: "Document Generation", href: "/document-generation" },
     { icon: <Users className="w-4 h-4" />, label: "Find Lawyers", href: "/find-lawyers" },
     { icon: <Briefcase className="w-4 h-4" />, label: "My Cases", href: "/cases" },
+    { icon: <Calendar className="w-4 h-4" />, label: "Appointments", href: "/appointments" },
     { icon: <MessageSquare className="w-4 h-4" />, label: "Messages", href: "/chat" },
     { icon: <MapPin className="w-4 h-4" />, label: "Institutions", href: "/institiutions" },
     { icon: <Calculator className="w-4 h-4" />, label: "Inheritance Calculator", href: "/inheritance-calculator" },
   ];
+
+  const lawyerItems = [
+    { icon: <Home className="w-4 h-4" />, label: "Home", href: "/" },
+    { icon: <Brain className="w-4 h-4" />, label: "AI Q&A", href: "/ai-qa" },
+    { icon: <FileText className="w-4 h-4" />, label: "Document Analysis", href: "/document-analysis" },
+    { icon: <FileCheck className="w-4 h-4" />, label: "Document Generation", href: "/document-generation" },
+    { icon: <Briefcase className="w-4 h-4" />, label: "My Cases", href: "/cases" },
+    { icon: <Calendar className="w-4 h-4" />, label: "Appointments", href: "/appointments" },
+    { icon: <MessageSquare className="w-4 h-4" />, label: "Messages", href: "/chat" },
+    { icon: <MapPin className="w-4 h-4" />, label: "Institutions", href: "/institiutions" },
+    { icon: <Calculator className="w-4 h-4" />, label: "Inheritance Calculator", href: "/inheritance-calculator" },
+  ];
+
+  const navItems = role === "lawyer" ? lawyerItems : clientItems;
 
   return (
     <nav className="border-b border-gray-200 bg-white sticky top-20 z-40">

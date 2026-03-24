@@ -189,7 +189,7 @@ export default function DocumentFormPage() {
     if (Object.keys(errs).length > 0) { setErrors(errs); return; }
 
     // ✅ Check token before calling API
-    const token = localStorage.getItem("access_token");
+    const token = localStorage.getItem("lawgic_token");
     if (!token) { setNotLoggedIn(true); return; }
 
     setCompletedSections((p) => new Set([...p, currentSection]));
@@ -227,7 +227,7 @@ export default function DocumentFormPage() {
 
   const handleDownload = async () => {
     if (!generatedDocId) return;
-    const token = localStorage.getItem("access_token");
+    const token = localStorage.getItem("lawgic_token");
     setIsDownloading(true);
     try {
       const res = await fetch(`${API_BASE_URL}/documents/download/${generatedDocId}`, {

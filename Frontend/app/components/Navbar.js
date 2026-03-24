@@ -4,6 +4,7 @@ import { Scale, ChevronDown, LogOut, LayoutDashboard } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { useAuthStore } from "../lib/authStore";
+import { clearSession } from "@/lib/api";
 
 export default function Navbar() {
   const router = useRouter();
@@ -14,8 +15,8 @@ export default function Navbar() {
   const menuRef = useRef(null);
 
   useEffect(() => {
-    const savedUser = localStorage.getItem("user");
-    const savedToken = localStorage.getItem("access_token");
+    const savedUser = localStorage.getItem("lawgic_user");
+    const savedToken = localStorage.getItem("lawgic_token");
     if (savedUser && savedToken) {
       login(JSON.parse(savedUser), savedToken);
     }
@@ -34,8 +35,7 @@ export default function Navbar() {
 
   function handleLogout() {
     logout();
-    localStorage.removeItem("access_token");
-    localStorage.removeItem("user");
+    clearSession();
     setMenuOpen(false);
     router.push("/");
   }

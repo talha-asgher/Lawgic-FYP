@@ -1,19 +1,9 @@
-/**
- * lib/api.js — Central API client for Lawgic frontend.
- *
- * All backend calls go through here.
- * Token is stored in localStorage under the key "lawgic_token".
- * User info (id, role, name) is stored under "lawgic_user".
- */
-
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const WS_BASE_URL = BASE_URL.replace(/^http:/, "ws:").replace(/^https:/, "wss:");
 
 export function getWsBaseUrl() {
   return WS_BASE_URL;
 }
-
-// ── Token helpers ─────────────────────────────────────────────────────────────
 
 export function getToken() {
   if (typeof window === "undefined") return null;
@@ -43,39 +33,49 @@ export function isLoggedIn() {
   return !!getToken();
 }
 
-// ── Core fetch wrapper ────────────────────────────────────────────────────────
+async function parseResponse(res) {
+  if (res.status === 204) return null;
+
+  const contentType = res.headers.get("content-type") || "";
+
+  if (contentType.includes("application/json")) {
+    return res.json();
+  }
+
+  const text = await res.text();
+  return text || null;
+}
 
 async function request(path, options = {}) {
   const token = getToken();
   const headers = { ...(options.headers || {}) };
 
   if (token) {
-    headers["Authorization"] = `Bearer ${token}`;
+    headers.Authorization = `Bearer ${token}`;
   }
 
-  // Don't set Content-Type for FormData (browser sets it with boundary)
   if (!(options.body instanceof FormData) && options.body && typeof options.body === "string") {
     headers["Content-Type"] = "application/json";
   }
 
   const res = await fetch(`${BASE_URL}${path}`, { ...options, headers });
+  const data = await parseResponse(res);
 
   if (!res.ok) {
     let detail = `Request failed: ${res.status}`;
-    try {
-      const err = await res.json();
-      detail = err.detail || JSON.stringify(err);
-    } catch {}
+
+    if (data && typeof data === "object") {
+      detail = data.detail || data.message || JSON.stringify(data);
+    } else if (typeof data === "string" && data.trim()) {
+      detail = data;
+    }
+
     throw new Error(detail);
   }
 
-  // 204 No Content
-  if (res.status === 204) return null;
-
-  return res.json();
+  return data;
 }
 
-// Convenience methods
 const api = {
   get: (path, params) => {
     const url = params
@@ -92,26 +92,36 @@ const api = {
     request(path, { method: "POST", body: formData }),
 };
 
-// ── Auth ──────────────────────────────────────────────────────────────────────
-
 export async function loginUser(email, password) {
-  // FastAPI OAuth2 expects application/x-www-form-urlencoded
   const body = new URLSearchParams({ username: email, password });
+
   const res = await fetch(`${BASE_URL}/auth/login`, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: body.toString(),
   });
+
+  const data = await parseResponse(res);
+
   if (!res.ok) {
-    const err = await res.json();
-    throw new Error(err.detail || "Login failed");
+    let detail = "Login failed";
+
+    if (data && typeof data === "object") {
+      detail = data.detail || data.message || detail;
+    } else if (typeof data === "string" && data.trim()) {
+      detail = data;
+    }
+
+    throw new Error(detail);
   }
-  const data = await res.json();
+
   setSession(data.access_token, {
-    user_id: data.user_id,
-    role: data.role,
-    name: data.name,
+    user_id: data.user?.user_id ?? data.user_id,
+    role: data.user?.role ?? data.role,
+    name: data.user?.name ?? data.name,
+    email: data.user?.email ?? data.email ?? email,
   });
+
   return data;
 }
 
@@ -122,8 +132,6 @@ export async function registerUser(name, email, password, phone, role = "client"
 export async function getMe() {
   return api.get("/auth/me");
 }
-
-// ── Users ─────────────────────────────────────────────────────────────────────
 
 export async function getMyProfile() {
   return api.get("/users/me");
@@ -136,8 +144,6 @@ export async function updateMyProfile(data) {
 export async function getMyStats() {
   return api.get("/users/me/stats");
 }
-
-// ── Lawyers ───────────────────────────────────────────────────────────────────
 
 export async function searchLawyers(params = {}) {
   return api.get("/lawyers/search", params);
@@ -155,8 +161,6 @@ export async function upsertLawyerProfile(data) {
   return api.post("/lawyers/profile", data);
 }
 
-// ── Reviews ───────────────────────────────────────────────────────────────────
-
 export async function getLawyerReviews(lawyerId) {
   return api.get(`/reviews/lawyer/${lawyerId}`);
 }
@@ -164,8 +168,6 @@ export async function getLawyerReviews(lawyerId) {
 export async function createReview(lawyerId, stars, comment) {
   return api.post("/reviews/", { lawyer_id: lawyerId, stars, comment });
 }
-
-// ── Cases ─────────────────────────────────────────────────────────────────────
 
 export async function getMyCases(statusFilter) {
   const params = statusFilter ? { status_filter: statusFilter } : {};
@@ -196,8 +198,6 @@ export async function respondToRequest(requestId, status) {
   return api.post(`/cases/requests/${requestId}/respond`, { status });
 }
 
-// ── Case Messages ─────────────────────────────────────────────────────────────
-
 export async function getCaseMessages(caseId) {
   return api.get(`/cases/${caseId}/messages`);
 }
@@ -205,8 +205,6 @@ export async function getCaseMessages(caseId) {
 export async function sendCaseMessage(caseId, content) {
   return api.post(`/cases/${caseId}/messages`, { content });
 }
-
-// ── Appointments ──────────────────────────────────────────────────────────────
 
 export async function getMyAppointments(params = {}) {
   return api.get("/appointments/my", params);
@@ -224,8 +222,6 @@ export async function createAppointment(lawyerId, modeOfComm, scheduledAt, notes
 export async function updateAppointmentStatus(apptId, status) {
   return api.patch(`/appointments/${apptId}/status`, { status });
 }
-
-// ── Conversations ─────────────────────────────────────────────────────────────
 
 export async function getMyConversations() {
   return api.get("/conversations/");
@@ -251,13 +247,9 @@ export async function markConversationRead(convId) {
   return api.patch(`/conversations/${convId}/read`);
 }
 
-// ── Institutions ──────────────────────────────────────────────────────────────
-
 export async function getInstitutions(params = {}) {
   return api.get("/institutions/", params);
 }
-
-// ── Document Templates & Generation ──────────────────────────────────────────
 
 export async function getDocumentTemplates(params = {}) {
   return api.get("/documents/templates", params);
@@ -279,24 +271,32 @@ export async function getMyDocuments() {
   return api.get("/documents/my");
 }
 
-// ── Document Analysis ─────────────────────────────────────────────────────────
-
 export async function createDocumentAnalysis(fileName, fileSize) {
   const params = new URLSearchParams({ file_name: fileName });
   if (fileSize) params.append("file_size", fileSize);
+
   const token = getToken();
-  const res = await fetch(`${BASE_URL}/doc-analysis/?${params}`, {
+  const res = await fetch(`${BASE_URL}/doc-analysis/?${params.toString()}`, {
     method: "POST",
     headers: token ? { Authorization: `Bearer ${token}` } : {},
   });
-  if (!res.ok) {
-    const err = await res.json();
-    throw new Error(err.detail || "Analysis failed");
-  }
-  return res.json();
-}
 
-// ── Ask AI ────────────────────────────────────────────────────────────────────
+  const data = await parseResponse(res);
+
+  if (!res.ok) {
+    let detail = "Analysis failed";
+
+    if (data && typeof data === "object") {
+      detail = data.detail || data.message || detail;
+    } else if (typeof data === "string" && data.trim()) {
+      detail = data;
+    }
+
+    throw new Error(detail);
+  }
+
+  return data;
+}
 
 export async function askAI(question, language = "en", sessionId = null) {
   return api.post("/ai/ask", { question, language, session_id: sessionId });
@@ -309,8 +309,6 @@ export async function getAIHistory(sessionId) {
 export async function getAISessions() {
   return api.get("/ai/sessions");
 }
-
-// ── Inheritance Calculator ─────────────────────────────────────────────────────
 
 export async function calculateInheritance(data) {
   return api.post("/inheritance/calculate", data);

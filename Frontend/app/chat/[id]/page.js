@@ -49,7 +49,7 @@ export default function ChatThreadPage() {
 
   useEffect(() => {
     if (!isLoggedIn()) {
-      window.location.replace("/login");
+      router.replace("/login");
       return;
     }
 

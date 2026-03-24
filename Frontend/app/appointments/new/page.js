@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import {
   Calendar, Clock, Video, Phone, MapPin, ChevronLeft,
   CheckCircle, Loader2, AlertCircle, Scale, FileText,
@@ -21,6 +21,7 @@ function todayString() {
 
 export default function BookAppointmentPage() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const lawyerId = searchParams.get("lawyer");
 
   const [lawyer, setLawyer] = useState(null);
@@ -40,13 +41,13 @@ export default function BookAppointmentPage() {
   const [submitError, setSubmitError] = useState("");
 
   useEffect(() => {
-    if (!isLoggedIn()) { window.location.replace("/login"); return; }
+    if (!isLoggedIn()) { router.replace("/login"); return; }
     const user = getUser();
     if (user?.role === "lawyer") {
-      window.location.replace("/dashboard/lawyer");
+      router.replace("/dashboard/lawyer");
       return;
     }
-    if (!lawyerId) { window.location.replace("/find-lawyers"); return; }
+    if (!lawyerId) { router.replace("/find-lawyers"); return; }
 
     getLawyerById(lawyerId)
       .then(setLawyer)
@@ -144,11 +145,11 @@ export default function BookAppointmentPage() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <button onClick={() => window.location.href = "/dashboard/user"}
+            <button onClick={() => router.push("/dashboard/user")}
               className="flex-1 px-4 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-xl hover:bg-[#041d5c] transition-colors">
               Go to Dashboard
             </button>
-            <button onClick={() => window.location.href = "/find-lawyers"}
+            <button onClick={() => router.push("/find-lawyers")}
               className="flex-1 px-4 py-2.5 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-xl hover:bg-gray-50 transition-colors">
               Find More Lawyers
             </button>
@@ -168,7 +169,7 @@ export default function BookAppointmentPage() {
     <div className="min-h-screen bg-[#F6F8FB] px-4 lg:px-8 py-8">
       <div className="max-w-2xl mx-auto">
         {/* Back */}
-        <button onClick={() => window.location.href = `/lawyers/${lawyerId}`}
+        <button onClick={() => router.push(`/lawyers/${lawyerId}`)}
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 text-sm">
           <ChevronLeft className="w-4 h-4" />
           Back to Profile

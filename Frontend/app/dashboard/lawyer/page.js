@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import {
   Users,
   Calendar,
@@ -17,6 +18,7 @@ import {
 import { getMyProfile, getMyStats, getMyLawyerProfile, getMyAppointments, getMyConversations, isLoggedIn, getUser } from '@/lib/api';
 
 export default function LawyerDashboard() {
+  const router = useRouter();
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState({
     name: "",
@@ -36,9 +38,9 @@ export default function LawyerDashboard() {
 
   
   useEffect(() => {
-    if (!isLoggedIn()) { window.location.replace('/login'); return; }
+    if (!isLoggedIn()) { router.replace('/login'); return; }
     const u = getUser();
-    if (u?.role !== 'lawyer') { window.location.replace('/dashboard/user'); return; }
+    if (u?.role !== 'lawyer') { router.replace('/dashboard/user'); return; }
 
     const fetchDashboardData = async () => {
       try {
@@ -46,7 +48,7 @@ export default function LawyerDashboard() {
         const [userProfile, lawyerProfile, statsData, appts, convs] = await Promise.all([
           getMyProfile(),
           getMyLawyerProfile().catch(() => null),
-          getMyStats(),
+          getMyStats().catch(() => ({})),
           getMyAppointments({ upcoming_only: true }).catch(() => []),
           getMyConversations().catch(() => []),
         ]);
@@ -221,7 +223,7 @@ export default function LawyerDashboard() {
 
             <div className="space-y-4">
               {messages.map((msg) => (
-                <div key={msg.id} onClick={() => { window.location.href = '/chat/' + msg.id; }} className="p-4 bg-[#F6F8FB] rounded-xl hover:bg-gray-50 transition-colors cursor-pointer group">
+                <div key={msg.id} onClick={() => router.push('/chat/' + msg.id)} className="p-4 bg-[#F6F8FB] rounded-xl hover:bg-gray-50 transition-colors cursor-pointer group">
                   <div className="flex justify-between items-start mb-1">
                     <div className="flex items-center gap-2">
                       <h3 className="text-sm font-medium text-gray-900">{msg.sender}</h3>

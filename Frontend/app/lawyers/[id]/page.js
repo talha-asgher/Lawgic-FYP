@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import {
   Star, MapPin, Briefcase, Phone, Mail, Shield, ChevronLeft,
   Calendar, MessageSquare, Clock, Award, Loader2, AlertCircle, DollarSign
@@ -10,6 +10,7 @@ import { getLawyerById, getLawyerReviews, getOrCreateConversation, createAppoint
 
 export default function LawyerDetailsPage() {
   const { id } = useParams();
+  const router = useRouter();
   const [lawyer, setLawyer] = useState(null);
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -37,21 +38,24 @@ export default function LawyerDetailsPage() {
   }, [id]);
 
   const handleChat = async () => {
-    if (!isLoggedIn()) { window.location.href = '/login'; return; }
+    if (!isLoggedIn()) { router.push('/login'); return; }
     setActionLoading(true);
     try {
       const conv = await getOrCreateConversation(parseInt(id), null, null);
-      window.location.href = '/chat/' + conv.conv_id;
+      router.push('/chat/' + conv.conv_id);
     } catch (err) {
       alert(err.message || 'Could not start conversation');
     } finally {
       setActionLoading(false); }
   };
 
-  const handleBookAppointment = () => {
-    if (!isLoggedIn()) { window.location.href = '/login'; return; }
-    window.location.href = '/appointments/new?lawyer=' + id;
-  };
+ const handleBookAppointment = () => {
+  if (!isLoggedIn()) {
+    router.push('/login');
+    return;
+  }
+  router.push(`/appointments/new?lawyer=${id}`);
+};
 
   if (loading) {
     return (
@@ -82,7 +86,7 @@ export default function LawyerDetailsPage() {
     <div className="min-h-screen bg-[#F6F8FB]">
       <div className="max-w-5xl mx-auto px-4 lg:px-8 py-8">
         {/* Back */}
-        <button onClick={() => window.location.href = '/find-lawyers'}
+        <button onClick={() => router.push('/find-lawyers')}
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 text-sm">
           <ChevronLeft className="w-4 h-4" />
           Back to Lawyers

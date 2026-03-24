@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Mail, Lock, Eye, EyeOff, Scale, Loader2, AlertCircle } from 'lucide-react';
 import { useRouter } from "next/navigation";
-import { login } from "../lib/api";
+import { loginUser } from "@/lib/api";
 import { useAuthStore } from "../lib/authStore";
 
 export default function LoginPage() {
@@ -27,10 +27,7 @@ export default function LoginPage() {
     setLoading(true);
     setError('');
     try {
-      const data = await login(formData.email, formData.password);
-
-      localStorage.setItem("access_token", data.access_token);
-      localStorage.setItem("user", JSON.stringify(data.user));
+      const data = await loginUser(formData.email, formData.password);
 
       loginStore(data.user, data.access_token);
 

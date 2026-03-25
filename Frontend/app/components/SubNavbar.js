@@ -45,6 +45,7 @@ export default function SubNavbar() {
         <div className="flex flex-wrap items-center justify-between gap-1 py-2">
           {navItems.map((item, index) => {
             const isActive = pathname === item.href;
+            pathname.startsWith(item.href + "/");
 
             return (
               <Link

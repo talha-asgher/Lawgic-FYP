@@ -77,18 +77,11 @@ export default function ChatSidebar({
               <button
                 key={conv.conv_id}
                 onClick={() => router.push("/chat/" + conv.conv_id)}
-                className={`w-full flex items-center gap-3 px-4 py-3 transition-colors text-start border-b border-gray-50
-                  ${isActive ? "bg-blue-50" : "hover:bg-gray-50"}`}
-              >
+                className={`w-full flex items-center gap-3 px-4 py-3 transition-colors text-start border-b border-gray-50`}>
                 <div className="relative flex-shrink-0">
                   <div className="w-11 h-11 bg-[#052379] rounded-full flex items-center justify-center text-white text-sm font-medium">
                     {initials}
                   </div>
-                  {conv.unread_count > 0 && (
-                    <span className="absolute -top-0.5 -end-0.5 w-4 h-4 bg-[#052379] text-white text-[9px] font-bold rounded-full flex items-center justify-center">
-                      {conv.unread_count > 9 ? "9+" : conv.unread_count}
-                    </span>
-                  )}
                 </div>
 
                 <div className="flex-1 min-w-0">

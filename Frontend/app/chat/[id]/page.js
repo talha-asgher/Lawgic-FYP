@@ -171,14 +171,12 @@ export default function ChatThreadPage() {
             <div className="w-10 h-10 bg-[#052379] rounded-full flex items-center justify-center text-white text-sm font-medium">
               {msgsLoading ? "…" : titleInitials}
             </div>
-            <span className="absolute bottom-0 end-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
           </div>
 
           <div className="flex-1 min-w-0">
             <h2 className="font-medium text-gray-900 text-sm truncate">
               {convTitle || (msgsLoading ? t("common.loading") : "Conversation")}
             </h2>
-            <p className="text-xs text-emerald-500">{t("common.online")}</p>
           </div>
         </div>
 

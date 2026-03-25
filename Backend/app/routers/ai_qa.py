@@ -1,17 +1,4 @@
 # app/routers/ai_qa.py
-"""
-Ask AI / Legal Q&A endpoint.
-Architecture:
-  - Endpoint accepts a question + language + optional session_id
-  - Persists the QAInteraction record
-  - Calls ai_service.get_answer() — currently returns a placeholder
-  - Returns the answer + citations in a schema ready for the RAG pipeline
-
-To integrate the RAG pipeline:
-  1. Replace the body of ai_service.get_answer() with the actual RAG call
-  2. The service returns (answer: str, citations: list[dict])
-  3. No changes needed to this router or the response schema
-"""
 import uuid
 from typing import List, Optional
 
@@ -37,7 +24,6 @@ def ask_legal_question(
 ):
     session_id = req.session_id or str(uuid.uuid4())
 
-    # Persist the question
     qa = models.QAInteraction(
         user_id=current_user.user_id,
         question=req.question,
@@ -48,7 +34,6 @@ def ask_legal_question(
     db.add(qa)
     db.flush()
 
-    # Call the AI service (pluggable — see services/ai_service.py)
     try:
         answer_text, raw_citations = get_answer(req.question, req.language, session_id)
         qa.answer = answer_text
@@ -58,7 +43,6 @@ def ask_legal_question(
         db.commit()
         raise HTTPException(status_code=503, detail="AI service is currently unavailable")
 
-    # Persist citations
     citation_outs: List[schemas.CitationOut] = []
     for c in raw_citations:
         qc = models.QACitation(
@@ -132,9 +116,6 @@ def list_my_sessions(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """Return distinct chat sessions for the sidebar history."""
-    # Fetch all interactions ordered by created_at asc so the first question
-    # per session becomes the session title. Dedup in Python for DB portability.
     rows = (
         db.query(
             models.QAInteraction.session_id,
@@ -149,5 +130,5 @@ def list_my_sessions(
     for session_id, question, created_at in rows:
         if session_id not in seen:
             seen[session_id] = {"session_id": session_id, "title": question[:60], "created_at": created_at}
-    # Return most recent session first
+
     return sorted(seen.values(), key=lambda x: x["created_at"], reverse=True)

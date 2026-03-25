@@ -17,10 +17,12 @@ import {
 import { useRouter } from "next/navigation";
 import { registerLawyer } from "../../lib/api";
 import { useAuthStore } from "../../lib/authStore";
+import { useLanguage } from "../../lib/LanguageContext";
 
 export default function LawyerRegistration() {
   const router = useRouter();
   const { isLoggedIn, user } = useAuthStore();
+  const { t } = useLanguage();
 
   useEffect(() => {
     if (isLoggedIn && user) {
@@ -56,12 +58,12 @@ export default function LawyerRegistration() {
   });
 
   const steps = [
-    { id: 1, title: 'Professional', icon: <Briefcase className="w-5 h-5" /> },
-    { id: 2, title: 'Contact', icon: <Phone className="w-5 h-5" /> },
-    { id: 3, title: 'Education', icon: <GraduationCap className="w-5 h-5" /> },
-    { id: 4, title: 'Documents', icon: <FileText className="w-5 h-5" /> },
-    { id: 5, title: 'Security', icon: <ShieldCheck className="w-5 h-5" /> },
-    { id: 6, title: 'Additional', icon: <User className="w-5 h-5" /> },
+    { id: 1, titleKey: 'registerLawyer.steps.professional', icon: <Briefcase className="w-5 h-5" /> },
+    { id: 2, titleKey: 'registerLawyer.steps.contact', icon: <Phone className="w-5 h-5" /> },
+    { id: 3, titleKey: 'registerLawyer.steps.education', icon: <GraduationCap className="w-5 h-5" /> },
+    { id: 4, titleKey: 'registerLawyer.steps.documents', icon: <FileText className="w-5 h-5" /> },
+    { id: 5, titleKey: 'registerLawyer.steps.security', icon: <ShieldCheck className="w-5 h-5" /> },
+    { id: 6, titleKey: 'registerLawyer.steps.additional', icon: <User className="w-5 h-5" /> },
   ];
 
   const handleChange = (e) => {
@@ -92,12 +94,12 @@ export default function LawyerRegistration() {
 
   const handleSubmit = async () => {
     if (formData.password !== formData.confirmPassword) {
-      setError("Passwords do not match.");
+      setError(t("registerLawyer.errPasswordMatch"));
       setCurrentStep(5);
       return;
     }
     if (formData.password.length < 6) {
-      setError("Password must be at least 6 characters.");
+      setError(t("registerLawyer.errPasswordLength"));
       setCurrentStep(5);
       return;
     }
@@ -107,7 +109,7 @@ export default function LawyerRegistration() {
       await registerLawyer(formData);
       router.push('/login');
     } catch (err) {
-      setError(err.message || 'Registration failed. Please try again.');
+      setError(err.message || t("registerLawyer.errRegistrationFailed"));
     } finally {
       setLoading(false);
     }
@@ -119,61 +121,38 @@ export default function LawyerRegistration() {
         return (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Full Legal Name <span className="text-red-500">*</span></label>
-              <input
-                type="text"
-                name="fullName"
-                value={formData.fullName}
-                onChange={handleChange}
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.fullLegalName")} <span className="text-red-500">*</span></label>
+              <input type="text" name="fullName" value={formData.fullName} onChange={handleChange}
                 placeholder="Advocate Name"
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900 placeholder:text-gray-500"
-              />
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Bar Association ID <span className="text-red-500">*</span></label>
-              <input
-                type="text"
-                name="barNumber"
-                value={formData.barNumber}
-                onChange={handleChange}
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.barAssocId")} <span className="text-red-500">*</span></label>
+              <input type="text" name="barNumber" value={formData.barNumber} onChange={handleChange}
                 placeholder="e.g., PK-BAR-2023"
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900 placeholder:text-gray-500"
-              />
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Jurisdiction <span className="text-red-500">*</span></label>
-              <select
-                name="jurisdiction"
-                value={formData.jurisdiction}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900"
-              >
-                <option value="">Select Jurisdiction</option>
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.jurisdiction")} <span className="text-red-500">*</span></label>
+              <select name="jurisdiction" value={formData.jurisdiction} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900">
+                <option value="">{t("registerLawyer.selectJurisdiction")}</option>
                 <option value="lahore">Lahore High Court</option>
                 <option value="karachi">Sindh High Court</option>
                 <option value="islamabad">Islamabad High Court</option>
               </select>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Experience (Years) <span className="text-red-500">*</span></label>
-              <input
-                type="number"
-                name="experience"
-                value={formData.experience}
-                onChange={handleChange}
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.experienceYears")} <span className="text-red-500">*</span></label>
+              <input type="number" name="experience" value={formData.experience} onChange={handleChange}
                 placeholder="e.g. 5"
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900 placeholder:text-gray-500"
-              />
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="col-span-1 md:col-span-2 space-y-2">
-              <label className="text-sm font-medium text-gray-900">Primary Specialization <span className="text-red-500">*</span></label>
-              <select
-                name="specialization"
-                value={formData.specialization}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900"
-              >
-                <option value="">Select Specialization</option>
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.primarySpec")} <span className="text-red-500">*</span></label>
+              <select name="specialization" value={formData.specialization} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#052379]/20 outline-none text-gray-900">
+                <option value="">{t("registerLawyer.selectSpec")}</option>
                 <option value="criminal">Criminal Law</option>
                 <option value="family">Family Law</option>
                 <option value="corporate">Corporate Law</option>
@@ -187,45 +166,25 @@ export default function LawyerRegistration() {
         return (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Email Address <span className="text-red-500">*</span></label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.emailLabel")} <span className="text-red-500">*</span></label>
+              <input type="email" name="email" value={formData.email} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Phone Number <span className="text-red-500">*</span></label>
-              <input
-                type="tel"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.phoneLabel")} <span className="text-red-500">*</span></label>
+              <input type="tel" name="phone" value={formData.phone} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="col-span-1 md:col-span-2 space-y-2">
-              <label className="text-sm font-medium text-gray-900">Office Address</label>
-              <input
-                type="text"
-                name="officeAddress"
-                value={formData.officeAddress}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.officeAddress")}</label>
+              <input type="text" name="officeAddress" value={formData.officeAddress} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">City</label>
-              <input
-                type="text"
-                name="city"
-                value={formData.city}
-                onChange={handleChange}
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.city")}</label>
+              <input type="text" name="city" value={formData.city} onChange={handleChange}
                 placeholder="e.g. Lahore"
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500"
-              />
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none focus:ring-2 focus:ring-[#052379]/20 text-gray-900 placeholder:text-gray-500" />
             </div>
           </div>
         );
@@ -234,34 +193,20 @@ export default function LawyerRegistration() {
         return (
           <div className="grid grid-cols-1 gap-6">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Law School / University</label>
-              <input
-                type="text"
-                name="lawSchool"
-                value={formData.lawSchool}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.lawSchool")}</label>
+              <input type="text" name="lawSchool" value={formData.lawSchool} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label className="text-sm font-medium text-gray-900">Graduation Year</label>
-                <input
-                  type="number"
-                  name="gradYear"
-                  value={formData.gradYear}
-                  onChange={handleChange}
-                  className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500"
-                />
+                <label className="text-sm font-medium text-gray-900">{t("registerLawyer.gradYear")}</label>
+                <input type="number" name="gradYear" value={formData.gradYear} onChange={handleChange}
+                  className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500" />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-medium text-gray-900">Degree Type</label>
-                <select
-                  name="degreeType"
-                  value={formData.degreeType}
-                  onChange={handleChange}
-                  className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900"
-                >
+                <label className="text-sm font-medium text-gray-900">{t("registerLawyer.degreeType")}</label>
+                <select name="degreeType" value={formData.degreeType} onChange={handleChange}
+                  className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900">
                   <option value="LLB">LLB</option>
                   <option value="LLM">LLM</option>
                   <option value="BarAtLaw">Bar-at-Law</option>
@@ -275,7 +220,7 @@ export default function LawyerRegistration() {
         return (
           <div className="space-y-6">
             <div className="p-4 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800">
-              Please upload clear scans. These documents are required to verify your &quot;Verified Lawyer&quot; badge.
+              {t("registerLawyer.uploadNote")}
             </div>
 
             <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:border-gray-400 transition-colors cursor-pointer relative">
@@ -283,8 +228,8 @@ export default function LawyerRegistration() {
               <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <UploadCloud className="w-6 h-6 text-gray-500" />
               </div>
-              <p className="text-sm font-medium text-gray-900">Upload Bar Council License</p>
-              <p className="text-xs text-gray-500 mt-1">{formData.barLicenseFile ? formData.barLicenseFile.name : "PDF, JPG or PNG (Max 5MB)"}</p>
+              <p className="text-sm font-medium text-gray-900">{t("registerLawyer.uploadBarLicense")}</p>
+              <p className="text-xs text-gray-500 mt-1">{formData.barLicenseFile ? formData.barLicenseFile.name : t("registerLawyer.fileSizeNote")}</p>
             </div>
 
             <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:border-gray-400 transition-colors cursor-pointer relative">
@@ -292,8 +237,8 @@ export default function LawyerRegistration() {
               <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <UploadCloud className="w-6 h-6 text-gray-500" />
               </div>
-              <p className="text-sm font-medium text-gray-900">Upload CNIC Front/Back</p>
-              <p className="text-xs text-gray-500 mt-1">{formData.cnicFile ? formData.cnicFile.name : "PDF, JPG or PNG (Max 5MB)"}</p>
+              <p className="text-sm font-medium text-gray-900">{t("registerLawyer.uploadCnic")}</p>
+              <p className="text-xs text-gray-500 mt-1">{formData.cnicFile ? formData.cnicFile.name : t("registerLawyer.fileSizeNote")}</p>
             </div>
           </div>
         );
@@ -302,24 +247,14 @@ export default function LawyerRegistration() {
         return (
           <div className="space-y-6">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Create Password</label>
-              <input
-                type="password"
-                name="password"
-                value={formData.password}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.createPassword")}</label>
+              <input type="password" name="password" value={formData.password} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Confirm Password</label>
-              <input
-                type="password"
-                name="confirmPassword"
-                value={formData.confirmPassword}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.confirmPassword")}</label>
+              <input type="password" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
           </div>
         );
@@ -328,26 +263,16 @@ export default function LawyerRegistration() {
         return (
           <div className="space-y-6">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Short Bio</label>
-              <textarea
-                name="bio"
-                rows="4"
-                value={formData.bio}
-                onChange={handleChange}
-                placeholder="Tell clients about your experience..."
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none resize-none text-gray-900 placeholder:text-gray-500"
-              />
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.shortBio")}</label>
+              <textarea name="bio" rows="4" value={formData.bio} onChange={handleChange}
+                placeholder={t("registerLawyer.bioPlaceholder")}
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none resize-none text-gray-900 placeholder:text-gray-500" />
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-900">Consultation Fee (PKR)</label>
-              <input
-                type="number"
-                name="hourlyRate"
-                value={formData.hourlyRate}
-                onChange={handleChange}
+              <label className="text-sm font-medium text-gray-900">{t("registerLawyer.consultationFee")}</label>
+              <input type="number" name="hourlyRate" value={formData.hourlyRate} onChange={handleChange}
                 placeholder="e.g. 5000"
-                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500"
-              />
+                className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg outline-none text-gray-900 placeholder:text-gray-500" />
             </div>
           </div>
         );
@@ -366,8 +291,8 @@ export default function LawyerRegistration() {
             <Briefcase className="w-6 h-6 text-white" />
           </div>
         </div>
-        <h1 className="text-3xl font-medium text-gray-900">Lawyer Registration Portal</h1>
-        <p className="text-gray-500">Complete your professional registration to join our legal network</p>
+        <h1 className="text-3xl font-medium text-gray-900">{t("registerLawyer.heading")}</h1>
+        <p className="text-gray-500">{t("registerLawyer.subheading")}</p>
       </div>
 
       {error && (
@@ -378,7 +303,7 @@ export default function LawyerRegistration() {
 
       <div className="w-full max-w-4xl bg-white border border-gray-200 rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
 
-        <div className="w-full md:w-64 bg-gray-50 border-b md:border-b-0 md:border-r border-gray-200 p-6">
+        <div className="w-full md:w-64 bg-gray-50 border-b md:border-b-0 md:border-e border-gray-200 p-6">
           <div className="space-y-1">
             {steps.map((step) => {
               const isActive = step.id === currentStep;
@@ -395,7 +320,7 @@ export default function LawyerRegistration() {
                   </div>
                   <div className="hidden md:block">
                     <p className={`text-sm font-medium ${isActive ? 'text-[#052379]' : 'text-gray-500'}`}>
-                      {step.title}
+                      {t(step.titleKey)}
                     </p>
                   </div>
                 </div>
@@ -413,12 +338,16 @@ export default function LawyerRegistration() {
                 style={{ width: `${(currentStep / steps.length) * 100}%` }}
               />
             </div>
-            <p className="text-xs text-gray-500 mt-2 text-right">Step {currentStep} of {steps.length}</p>
+            <p className="text-xs text-gray-500 mt-2 text-end">
+              {t("registerLawyer.stepOf", { n: currentStep, m: steps.length })}
+            </p>
           </div>
 
           <div className="mb-6">
-            <h2 className="text-xl font-semibold text-gray-900">{steps[currentStep - 1].title} Information</h2>
-            <p className="text-sm text-gray-500 mt-1">Please provide accurate details for verification.</p>
+            <h2 className="text-xl font-semibold text-gray-900">
+              {t(steps[currentStep - 1].titleKey)} {t("registerLawyer.information")}
+            </h2>
+            <p className="text-sm text-gray-500 mt-1">{t("registerLawyer.provideDetails")}</p>
           </div>
 
           <div className="flex-1">
@@ -435,7 +364,7 @@ export default function LawyerRegistration() {
                   : 'text-gray-700 hover:bg-gray-50 border border-gray-200'}`}
             >
               <ChevronLeft className="w-4 h-4" />
-              Back
+              {t("registerLawyer.back")}
             </button>
 
             <button
@@ -446,11 +375,11 @@ export default function LawyerRegistration() {
               {loading ? (
                 <>
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  Processing...
+                  {t("registerLawyer.processing")}
                 </>
               ) : (
                 <>
-                  {currentStep === steps.length ? 'Submit Application' : 'Next'}
+                  {currentStep === steps.length ? t("registerLawyer.submitApplication") : t("registerLawyer.next")}
                   {currentStep !== steps.length && <ChevronRight className="w-4 h-4" />}
                 </>
               )}

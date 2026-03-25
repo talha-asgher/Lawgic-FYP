@@ -2,8 +2,10 @@
 
 import React, { useMemo, useState } from "react";
 import { Calculator } from "lucide-react";
+import { useLanguage } from "@/app/lib/LanguageContext";
 
 const InheritanceCalculator = () => {
+  const { t } = useLanguage();
   const [deceasedGender, setDeceasedGender] = useState("male");
 
   const [heirs, setHeirs] = useState({
@@ -22,20 +24,6 @@ const InheritanceCalculator = () => {
 
   const [results, setResults] = useState(null);
   const [error, setError] = useState("");
-
-  const labels = {
-    husband: "Husband",
-    wives: "Wives",
-    sons: "Sons",
-    daughters: "Daughters",
-    father: "Father",
-    mother: "Mother",
-    grandfather: "Paternal Grandfather",
-    grandmother: "Grandmother",
-    uterineSiblings: "Maternal/Uterine Siblings",
-    fullBrothers: "Full Brothers",
-    fullSisters: "Full Sisters",
-  };
 
   const handleHeirChange = (heir, value) => {
     let parsed = parseInt(value, 10);
@@ -63,34 +51,13 @@ const InheritanceCalculator = () => {
   };
 
   const validateInputs = () => {
-    if (totalHeirs === 0) {
-      return "Please enter at least one heir.";
-    }
-
-    if (deceasedGender === "male" && heirs.husband > 0) {
-      return "A deceased male cannot leave a husband.";
-    }
-
-    if (deceasedGender === "female" && heirs.wives > 0) {
-      return "A deceased female cannot leave wives.";
-    }
-
-    if (deceasedGender === "male" && heirs.wives === 0) {
-      return "For a deceased male, enter number of wives or set it to 0.";
-    }
-
-    if (deceasedGender === "female" && heirs.husband > 1) {
-      return "A deceased female can have at most one husband.";
-    }
-
-    if (heirs.father > 0 && heirs.grandfather > 0) {
-      return "Grandfather is excluded if father is alive.";
-    }
-
-    if (heirs.mother > 0 && heirs.grandmother > 0) {
-      return "Grandmother is excluded if mother is alive.";
-    }
-
+    if (totalHeirs === 0) return t("inheritance.errors.noHeirs");
+    if (deceasedGender === "male" && heirs.husband > 0) return t("inheritance.errors.maleHusband");
+    if (deceasedGender === "female" && heirs.wives > 0) return t("inheritance.errors.femaleWives");
+    if (deceasedGender === "male" && heirs.wives === 0) return t("inheritance.errors.maleNoWives");
+    if (deceasedGender === "female" && heirs.husband > 1) return t("inheritance.errors.femaleOneHusband");
+    if (heirs.father > 0 && heirs.grandfather > 0) return t("inheritance.errors.grandfatherExcluded");
+    if (heirs.mother > 0 && heirs.grandmother > 0) return t("inheritance.errors.grandmotherExcluded");
     return "";
   };
 
@@ -284,10 +251,10 @@ const InheritanceCalculator = () => {
       <main className="max-w-3xl mx-auto px-6 lg:px-12 py-12">
         <div className="mb-8">
           <h1 className="text-3xl font-medium text-gray-900 mb-2 text-center">
-            Basic Islamic Inheritance Calculator
+            {t("inheritance.heading")}
           </h1>
           <p className="text-gray-600 text-center">
-            Preliminary faraid estimate for common Pakistani Muslim cases
+            {t("inheritance.subheading")}
           </p>
         </div>
 
@@ -299,27 +266,27 @@ const InheritanceCalculator = () => {
               </div>
             </div>
             <p className="text-gray-600 mb-2">
-              Enter heir information and click Calculate to estimate inheritance shares.
+              {t("inheritance.intro")}
             </p>
             <p className="text-sm text-red-600">
-              Note: This is a preliminary calculator and should not be treated as final legal advice.
+              {t("inheritance.disclaimer")}
             </p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-2xl p-8">
             <div className="mb-8">
               <h2 className="text-lg font-medium text-gray-900 mb-1">
-                Family Information
+                {t("inheritance.familyInfo")}
               </h2>
               <p className="text-gray-600">
-                Distribution is assumed after funeral expenses, debts, and any valid bequest.
+                {t("inheritance.familyNote")}
               </p>
             </div>
 
             <div className="space-y-6">
               <div className="space-y-3">
                 <label className="block text-sm font-medium text-gray-900">
-                  Deceased Gender
+                  {t("inheritance.deceasedGender")}
                 </label>
 
                 <div className="flex flex-col gap-2">
@@ -332,7 +299,7 @@ const InheritanceCalculator = () => {
                       onChange={(e) => setDeceasedGender(e.target.value)}
                       className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500"
                     />
-                    <span className="text-sm font-medium text-gray-900">Male</span>
+                    <span className="text-sm font-medium text-gray-900">{t("inheritance.male")}</span>
                   </label>
 
                   <label className="flex items-center gap-2 cursor-pointer">
@@ -344,13 +311,13 @@ const InheritanceCalculator = () => {
                       onChange={(e) => setDeceasedGender(e.target.value)}
                       className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500"
                     />
-                    <span className="text-sm font-medium text-gray-900">Female</span>
+                    <span className="text-sm font-medium text-gray-900">{t("inheritance.female")}</span>
                   </label>
                 </div>
               </div>
 
               <div className="space-y-4">
-                <h3 className="text-base font-normal text-gray-900">Heirs</h3>
+                <h3 className="text-base font-normal text-gray-900">{t("inheritance.heirs")}</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {Object.keys(heirs).map((heirKey) => {
@@ -363,7 +330,7 @@ const InheritanceCalculator = () => {
                     return (
                       <div key={heirKey} className="space-y-2">
                         <label className="block text-sm font-medium text-gray-900">
-                          {labels[heirKey]}
+                          {t(`inheritance.labels.${heirKey}`)}
                         </label>
                         <input
                           type="number"
@@ -389,7 +356,7 @@ const InheritanceCalculator = () => {
                 className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-[#052379] text-white rounded-lg font-medium hover:bg-[#041d5c] transition-colors"
               >
                 <Calculator className="w-4 h-4" />
-                Calculate Shares
+                {t("inheritance.calculateBtn")}
               </button>
             </div>
           </div>
@@ -397,7 +364,7 @@ const InheritanceCalculator = () => {
           {results && (
             <div className="bg-white border border-gray-200 rounded-2xl p-8">
               <h2 className="text-lg font-medium text-gray-900 mb-6">
-                Inheritance Distribution
+                {t("inheritance.resultHeading")}
               </h2>
 
               <div className="space-y-4">
@@ -421,9 +388,7 @@ const InheritanceCalculator = () => {
 
               <div className="mt-6 rounded-xl bg-amber-50 border border-amber-200 p-4">
                 <p className="text-sm text-amber-800">
-                  This calculator covers common shares only. Complex Pakistani succession
-                  matters, sect-based differences, orphan grandchildren, representation, wills,
-                  and disputed heirship should be reviewed by a qualified lawyer or scholar.
+                  {t("inheritance.resultDisclaimer")}
                 </p>
               </div>
             </div>

@@ -14,15 +14,16 @@ import {
   getWsBaseUrl,
 } from "@/lib/api";
 import ChatSidebar from "@/app/components/ChatSidebar";
+import { useLanguage } from "@/app/lib/LanguageContext";
 
-function dayLabel(dateStr) {
+function dayLabel(dateStr, t) {
   const d = new Date(dateStr);
   const today = new Date();
   const yesterday = new Date(today);
   yesterday.setDate(today.getDate() - 1);
 
-  if (d.toDateString() === today.toDateString()) return "Today";
-  if (d.toDateString() === yesterday.toDateString()) return "Yesterday";
+  if (d.toDateString() === today.toDateString()) return t("chat.today");
+  if (d.toDateString() === yesterday.toDateString()) return t("chat.yesterday");
   return d.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
 }
 
@@ -33,6 +34,7 @@ function isSameDay(a, b) {
 export default function ChatThreadPage() {
   const { id } = useParams();
   const router = useRouter();
+  const { t } = useLanguage();
   const currentUser = getUser();
 
   const [conversations, setConversations] = useState([]);
@@ -169,14 +171,14 @@ export default function ChatThreadPage() {
             <div className="w-10 h-10 bg-[#052379] rounded-full flex items-center justify-center text-white text-sm font-medium">
               {msgsLoading ? "…" : titleInitials}
             </div>
-            <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
+            <span className="absolute bottom-0 end-0 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
           </div>
 
           <div className="flex-1 min-w-0">
             <h2 className="font-medium text-gray-900 text-sm truncate">
-              {convTitle || (msgsLoading ? "Loading…" : "Conversation")}
+              {convTitle || (msgsLoading ? t("common.loading") : "Conversation")}
             </h2>
-            <p className="text-xs text-emerald-500">Online</p>
+            <p className="text-xs text-emerald-500">{t("common.online")}</p>
           </div>
         </div>
 
@@ -188,7 +190,7 @@ export default function ChatThreadPage() {
           ) : messages.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full gap-3 text-center">
               <MessageSquare className="w-10 h-10 text-gray-200" />
-              <p className="text-sm text-gray-400">No messages yet. Say hello!</p>
+              <p className="text-sm text-gray-400">{t("chat.noMessagesSayHello")}</p>
             </div>
           ) : (
             <div className="space-y-1 max-w-3xl mx-auto">
@@ -205,7 +207,7 @@ export default function ChatThreadPage() {
                       <div className="flex items-center gap-3 my-4">
                         <div className="flex-1 h-px bg-gray-200" />
                         <span className="text-xs text-gray-400 bg-[#F6F8FB] px-2 whitespace-nowrap">
-                          {dayLabel(msg.created_at)}
+                          {dayLabel(msg.created_at, t)}
                         </span>
                         <div className="flex-1 h-px bg-gray-200" />
                       </div>
@@ -235,7 +237,7 @@ export default function ChatThreadPage() {
 
                       <div className={`flex flex-col ${isMe ? "items-end" : "items-start"}`}>
                         {showSenderName && (
-                          <span className="text-[11px] text-gray-400 font-medium mb-1 ml-1">
+                          <span className="text-[11px] text-gray-400 font-medium mb-1 ms-1">
                             {msg.sender_name}
                           </span>
                         )}
@@ -248,7 +250,7 @@ export default function ChatThreadPage() {
                           }`}
                         >
                           <p className="leading-relaxed whitespace-pre-wrap break-words">{msg.content}</p>
-                          <p className={`text-[10px] mt-1 text-right ${isMe ? "text-blue-200" : "text-gray-400"}`}>
+                          <p className={`text-[10px] mt-1 text-end ${isMe ? "text-blue-200" : "text-gray-400"}`}>
                             {new Date(msg.created_at).toLocaleTimeString([], {
                               hour: "2-digit",
                               minute: "2-digit",
@@ -274,7 +276,7 @@ export default function ChatThreadPage() {
             value={newMessage}
             onChange={(e) => setNewMessage(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Type a message…"
+            placeholder={t("chat.inputPlaceholder")}
             className="flex-1 px-4 py-2.5 bg-[#F6F8FB] border border-gray-200 rounded-full text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-colors"
           />
           <button

@@ -184,10 +184,16 @@ export default function DocumentFormPage() {
 
   const handleSubmit = async () => {
     const errs = validateSection(currentSection);
-    if (Object.keys(errs).length > 0) { setErrors(errs); return; }
+    if (Object.keys(errs).length > 0) {
+      setErrors(errs);
+      return;
+    }
 
     const token = getToken();
-    if (!token) { setNotLoggedIn(true); return; }
+    if (!token) {
+      setNotLoggedIn(true);
+      return;
+    }
 
     setCompletedSections((p) => new Set([...p, currentSection]));
     setIsSubmitting(true);
@@ -200,10 +206,16 @@ export default function DocumentFormPage() {
           "Content-Type": "application/json",
           "Authorization": `Bearer ${token}`,
         },
-        body: JSON.stringify({ template_type: templateKey, form_data: formData }),
+        body: JSON.stringify({
+          template_type: templateKey,
+          form_data: formData,
+        }),
       });
 
-      if (genRes.status === 401) { setNotLoggedIn(true); setIsSubmitting(false); return; }
+      if (genRes.status === 401) {
+        setNotLoggedIn(true);
+        return;
+      }
 
       if (!genRes.ok) {
         const err = await genRes.json();
@@ -213,22 +225,6 @@ export default function DocumentFormPage() {
       const data = await genRes.json();
       const docId = data.document_id;
 
-      const dlRes = await fetch(`${API_BASE_URL}/documents/download/${docId}`, {
-        headers: { "Authorization": `Bearer ${token}` },
-      });
-
-      if (!dlRes.ok) throw new Error("Failed to download document");
-
-      const blob = await dlRes.blob();
-      const url  = URL.createObjectURL(blob);
-      const a    = document.createElement("a");
-      a.href = url;
-      a.download = `${templateKey}_${docId}.pdf`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-
       setGeneratedDocId(docId);
       setGeneratedDocTitle(data.title);
       setIsSuccess(true);
@@ -237,7 +233,7 @@ export default function DocumentFormPage() {
     } finally {
       setIsSubmitting(false);
     }
-  };
+ };
 
   const handleDownload = async () => {
     if (!generatedDocId) return;
@@ -368,7 +364,8 @@ export default function DocumentFormPage() {
                     className="flex items-center gap-2 bg-[#052379] text-white px-6 py-2.5 rounded-xl text-sm font-medium hover:bg-[#052379]/90 transition-all disabled:opacity-60">
                     {isSubmitting
                       ? <><Loader2 className="w-4 h-4 animate-spin" /> {t("docTemplate.generating")}</>
-                      : <><Download className="w-4 h-4" /> {t("docTemplate.generateSave")}</>}
+                      : <><Download className="w-4 h-4" /> {t("docTemplate.generateSave")}</>
+                    }
                   </button>
                 ) : (
                   <button onClick={handleNext}

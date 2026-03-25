@@ -69,8 +69,6 @@ export default function AppointmentsPage() {
     activeFilter === "all" || a.status === activeFilter
   );
 
-  const pendingCount = appointments.filter(a => a.status === "pending").length;
-
   return (
     <div className="min-h-screen bg-[#F6F8FB] px-4 lg:px-8 py-8">
       <div className="max-w-4xl mx-auto">
@@ -80,15 +78,6 @@ export default function AppointmentsPage() {
             {isLawyer ? "Manage appointment requests from clients" : "Track your scheduled appointments"}
           </p>
         </div>
-
-        {pendingCount > 0 && (
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 flex items-center gap-3">
-            <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0" />
-            <p className="text-sm text-amber-800">
-              You have <span className="font-semibold">{pendingCount}</span> pending appointment{pendingCount > 1 ? "s" : ""} {isLawyer ? "awaiting your response" : "waiting for confirmation"}.
-            </p>
-          </div>
-        )}
 
         <div className="flex gap-1 mb-6 bg-white rounded-xl border border-gray-200 p-1 overflow-x-auto">
           {filters.map(f => (

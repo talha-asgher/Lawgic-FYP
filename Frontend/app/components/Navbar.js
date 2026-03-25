@@ -5,10 +5,12 @@ import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { useAuthStore } from "../lib/authStore";
 import { clearSession } from "@/lib/api";
+import { useLanguage } from "../lib/LanguageContext";
 
 export default function Navbar() {
   const router = useRouter();
   const { user, isLoggedIn, logout, login } = useAuthStore();
+  const { lang, toggleLanguage, t } = useLanguage();
 
   const [mounted, setMounted] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -68,8 +70,11 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
 
-            <button className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-              EN ↔ اردو
+            <button
+              onClick={toggleLanguage}
+              className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            >
+              {lang === "en" ? t("nav.langToggle") : t("nav.langToggleUrdu")}
             </button>
 
             {!mounted ? (
@@ -90,7 +95,7 @@ export default function Navbar() {
                 </button>
 
                 {menuOpen && (
-                  <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-xl shadow-lg py-1 z-50">
+                  <div className="absolute end-0 mt-2 w-48 bg-white border border-gray-200 rounded-xl shadow-lg py-1 z-50">
                     <div className="px-4 py-2 border-b border-gray-100">
                       <p className="text-xs text-gray-500 capitalize">{user?.role}</p>
                       <p className="text-sm font-medium text-gray-900 truncate">{user?.name}</p>
@@ -100,7 +105,7 @@ export default function Navbar() {
                       className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors"
                     >
                       <LayoutDashboard className="w-4 h-4" />
-                      Dashboard
+                      {t("nav.dashboard")}
                     </button>
                     <div className="border-t border-gray-100 mt-1" />
                     <button
@@ -108,7 +113,7 @@ export default function Navbar() {
                       className="w-full flex items-center gap-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors"
                     >
                       <LogOut className="w-4 h-4" />
-                      Logout
+                      {t("nav.logout")}
                     </button>
                   </div>
                 )}
@@ -119,13 +124,13 @@ export default function Navbar() {
                   onClick={() => router.push("/login")}
                   className="px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
                 >
-                  Login
+                  {t("nav.login")}
                 </button>
                 <button
                   onClick={() => router.push("/register/user")}
                   className="px-4 py-2 text-sm font-medium text-white bg-[#052379] rounded-lg hover:bg-[#041d5c] transition-colors"
                 >
-                  Register
+                  {t("nav.register")}
                 </button>
               </div>
             )}

@@ -23,7 +23,6 @@ def ensure_lawyer_role(user: models.User):
 
 
 def build_lawyer_public(profile: models.LawyerProfile) -> schemas.LawyerPublic:
-    """Map a LawyerProfile ORM object to the full LawyerPublic schema."""
     specializations = [s.strip() for s in profile.specialization.split(",") if s.strip()]
     languages_list = []
     if profile.languages:
@@ -124,8 +123,8 @@ def get_my_profile(
 
 @router.get("/search", response_model=List[schemas.LawyerPublic])
 def search_lawyers(
-    q: Optional[str] = None,                   # name or specialization search
-    specialization: Optional[str] = None,       # filter by specialization (contains)
+    q: Optional[str] = None,
+    specialization: Optional[str] = None,
     city: Optional[str] = None,
     min_experience: Optional[int] = None,
     max_fee: Optional[float] = None,
@@ -135,7 +134,6 @@ def search_lawyers(
 ):
     query = db.query(models.LawyerProfile).join(models.User)
 
-    # Only show verified or pending lawyers (not soft-deleted)
     query = query.filter(models.User.is_active == True)
 
     if q:
@@ -174,7 +172,6 @@ def get_lawyer_by_id(
     lawyer_id: int,
     db: Session = Depends(get_db),
 ):
-    """Public endpoint — get full lawyer profile by ID."""
     profile = (
         db.query(models.LawyerProfile)
         .filter(models.LawyerProfile.lawyer_id == lawyer_id)

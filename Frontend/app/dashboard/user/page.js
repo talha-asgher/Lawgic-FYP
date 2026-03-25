@@ -15,12 +15,13 @@ import {
   FileCheck
 } from 'lucide-react';
 import { getMyProfile, getMyStats, getAISessions, isLoggedIn, getUser } from '@/lib/api';
+import { useLanguage } from '@/app/lib/LanguageContext';
 
 export default function UserDashboard() {
   const router = useRouter();
+  const { t } = useLanguage();
   const [loading, setLoading] = useState(true);
-  
-  // 1. User Profile State
+
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -28,17 +29,13 @@ export default function UserDashboard() {
     initials: ""
   });
 
-  // 2. Stats State
   const [stats, setStats] = useState({
     documents: 0,
     chats: 0,
     appointments: 0
   });
 
-  // 3. Recent Activity State
   const [activities, setActivities] = useState([]);
-
-  // 4. Chat History State (Sidebar)
   const [chatHistory, setChatHistory] = useState([]);
 
   useEffect(() => {
@@ -82,17 +79,14 @@ export default function UserDashboard() {
   return (
     <div className="flex min-h-[calc(100vh-80px)] bg-[#F6F8FB]">
 
-      {/* main contnt  */}
       <main className="flex-1 p-6 lg:p-12 overflow-y-auto">
-        
-        {/* Profile  Card */}
+
         <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-8 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-sm">
-         
+
           <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
             <span className="text-3xl font-medium text-gray-600">{user.initials}</span>
           </div>
-          
-          {/* Info */}
+
           <div className="flex-1 space-y-1">
             <h1 className="text-2xl font-semibold text-gray-900">{user.name}</h1>
             <p className="text-gray-500">{user.email}</p>
@@ -102,45 +96,40 @@ export default function UserDashboard() {
             </p>
           </div>
 
-          {/* Edit Button */}
           <button className="flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors">
             <Edit className="w-4 h-4" />
-            Edit Profile
+            {t("dashboardUser.editProfile")}
           </button>
         </div>
 
-        {/* Stats Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          
-          {/* Documents Stat */}
+
           <div className="bg-white p-6 rounded-2xl border border-gray-200 hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center">
                 <FileText className="w-6 h-6 text-blue-600" />
               </div>
-              <span className="text-sm font-medium text-gray-500">My Documents</span>
+              <span className="text-sm font-medium text-gray-500">{t("dashboardUser.myDocuments")}</span>
             </div>
             <div className="text-4xl font-bold text-gray-900">{stats.documents}</div>
           </div>
 
-          {/* Chats Stat */}
           <div className="bg-white p-6 rounded-2xl border border-gray-200 hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center">
                 <MessageSquare className="w-6 h-6 text-purple-600" />
               </div>
-              <span className="text-sm font-medium text-gray-500">My Chats</span>
+              <span className="text-sm font-medium text-gray-500">{t("dashboardUser.myChats")}</span>
             </div>
             <div className="text-4xl font-bold text-gray-900">{stats.chats}</div>
           </div>
 
-          {/* Appointments */}
           <div className="bg-white p-6 rounded-2xl border border-gray-200 hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center">
                 <Calendar className="w-6 h-6 text-amber-600" />
               </div>
-              <span className="text-sm font-medium text-gray-500">Appointments</span>
+              <span className="text-sm font-medium text-gray-500">{t("dashboardUser.appointments")}</span>
             </div>
             <div className="text-4xl font-bold text-gray-900">{stats.appointments}</div>
           </div>

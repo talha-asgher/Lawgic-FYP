@@ -48,7 +48,6 @@ def create_review(
     db.add(review)
     db.flush()
 
-    # Update denormalized aggregates on LawyerProfile
     agg = (
         db.query(func.avg(models.RatingReview.stars), func.count(models.RatingReview.rating_id))
         .filter(models.RatingReview.lawyer_id == review_in.lawyer_id)

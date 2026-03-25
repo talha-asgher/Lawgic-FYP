@@ -5,10 +5,12 @@ import { Mail, Lock, Eye, EyeOff, User, Phone, Scale, Loader2, AlertCircle } fro
 import { useRouter } from "next/navigation";
 import { registerUser } from "@/lib/api";
 import { useAuthStore } from "../../lib/authStore";
+import { useLanguage } from "../../lib/LanguageContext";
 
 export default function LawgicRegister() {
   const router = useRouter();
   const { isLoggedIn, user } = useAuthStore();
+  const { lang, toggleLanguage, t } = useLanguage();
 
   useEffect(() => {
     if (isLoggedIn && user) {
@@ -32,19 +34,19 @@ export default function LawgicRegister() {
   const handleRegister = async (e) => {
     e.preventDefault();
     if (formData.password !== formData.confirmPassword) {
-      setError("Passwords do not match.");
+      setError(t("registerUser.errPasswordMatch"));
       return;
     }
     if (formData.password.length < 6) {
-      setError("Password must be at least 6 characters.");
+      setError(t("registerUser.errPasswordLength"));
       return;
     }
     if (!/\d/.test(formData.password)) {
-      setError("Password must contain at least one number.");
+      setError(t("registerUser.errPasswordNumber"));
       return;
     }
     if (formData.phone.length < 8) {
-      setError("Phone number must be at least 8 characters.");
+      setError(t("registerUser.errPhoneLength"));
       return;
     }
     setLoading(true);
@@ -53,7 +55,7 @@ export default function LawgicRegister() {
       await registerUser(formData);
       router.push('/login');
     } catch (err) {
-      setError(err.message || "Registration failed. Please try again.");
+      setError(err.message || t("registerUser.errRegistrationFailed"));
     } finally {
       setLoading(false);
     }
@@ -70,8 +72,11 @@ export default function LawgicRegister() {
             <span className="text-xl font-semibold text-[#0E1726]">Lawgic</span>
           </div>
           <div className="flex items-center gap-4">
-            <button className="px-4 py-2 text-sm font-medium text-[#0E1726] bg-white/90 hover:bg-gray-100 rounded-lg border border-[#7E7E7E] transition-colors">
-              EN &#8596; اردو
+            <button
+              onClick={toggleLanguage}
+              className="px-4 py-2 text-sm font-medium text-[#0E1726] bg-white/90 hover:bg-gray-100 rounded-lg border border-[#7E7E7E] transition-colors"
+            >
+              {lang === "en" ? t("nav.langToggle") : t("nav.langToggleUrdu")}
             </button>
           </div>
         </div>
@@ -89,7 +94,7 @@ export default function LawgicRegister() {
               </div>
             </div>
             <h1 className="text-3xl font-normal text-black mb-3">Lawgic</h1>
-            <p className="text-base text-[#717182]">Fill in the details below to register your account</p>
+            <p className="text-base text-[#717182]">{t("registerUser.subtitle")}</p>
           </div>
 
           {error && (
@@ -101,81 +106,81 @@ export default function LawgicRegister() {
 
           <form onSubmit={handleRegister} className="space-y-5">
             <div className="space-y-2">
-              <label className="text-sm text-black">Name</label>
+              <label className="text-sm text-black">{t("registerUser.nameLabel")}</label>
               <div className="relative">
-                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" />
+                <User className={`absolute ${lang === 'ur' ? 'end-3' : 'start-3'} top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]`} />
                 <input type="text" name="name" required value={formData.name} onChange={handleChange}
-                  placeholder="Full Name"
-                  className="w-full h-9 pl-10 pr-3 text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]" />
+                  placeholder={t("registerUser.namePlaceholder")}
+                  className={`w-full h-9 ${lang === 'ur' ? 'pe-10 ps-3' : 'ps-10 pe-3'} text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]`} />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm text-black">Email Address</label>
+              <label className="text-sm text-black">{t("registerUser.emailLabel")}</label>
               <div className="relative">
-                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" />
+                <Mail className={`absolute ${lang === 'ur' ? 'end-3' : 'start-3'} top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]`} />
                 <input type="email" name="email" required value={formData.email} onChange={handleChange}
-                  placeholder="you@example.com"
-                  className="w-full h-9 pl-10 pr-3 text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]" />
+                  placeholder={t("registerUser.emailPlaceholder")}
+                  className={`w-full h-9 ${lang === 'ur' ? 'pe-10 ps-3' : 'ps-10 pe-3'} text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]`} />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm text-black">Password</label>
+              <label className="text-sm text-black">{t("registerUser.passwordLabel")}</label>
               <div className="relative">
-                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" />
+                <Lock className={`absolute ${lang === 'ur' ? 'end-10' : 'start-3'} top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]`} />
                 <input type={showPassword ? "text" : "password"} name="password" required
-                  value={formData.password} onChange={handleChange} placeholder="Enter your password"
-                  className="w-full h-9 pl-10 pr-10 text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]" />
+                  value={formData.password} onChange={handleChange} placeholder={t("registerUser.passwordPlaceholder")}
+                  className={`w-full h-9 ${lang === 'ur' ? 'pe-10 ps-10' : 'ps-10 pe-10'} text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]`} />
                 <button type="button" onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-[#9CA3AF] hover:text-gray-600 focus:outline-none">
+                  className={`absolute ${lang === 'ur' ? 'start-3' : 'end-3'} top-1/2 -translate-y-1/2 text-[#9CA3AF] hover:text-gray-600 focus:outline-none`}>
                   {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                 </button>
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm text-black">Confirm Password</label>
+              <label className="text-sm text-black">{t("registerUser.confirmPasswordLabel")}</label>
               <div className="relative">
-                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" />
+                <Lock className={`absolute ${lang === 'ur' ? 'end-10' : 'start-3'} top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]`} />
                 <input type={showConfirmPassword ? "text" : "password"} name="confirmPassword" required
-                  value={formData.confirmPassword} onChange={handleChange} placeholder="Confirm password"
-                  className="w-full h-9 pl-10 pr-10 text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]" />
+                  value={formData.confirmPassword} onChange={handleChange} placeholder={t("registerUser.confirmPasswordPlaceholder")}
+                  className={`w-full h-9 ${lang === 'ur' ? 'pe-10 ps-10' : 'ps-10 pe-10'} text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]`} />
                 <button type="button" onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-[#9CA3AF] hover:text-gray-600 focus:outline-none">
+                  className={`absolute ${lang === 'ur' ? 'start-3' : 'end-3'} top-1/2 -translate-y-1/2 text-[#9CA3AF] hover:text-gray-600 focus:outline-none`}>
                   {showConfirmPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                 </button>
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm text-black">Contact Number</label>
+              <label className="text-sm text-black">{t("registerUser.contactLabel")}</label>
               <div className="relative">
-                <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" />
+                <Phone className={`absolute ${lang === 'ur' ? 'end-3' : 'start-3'} top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]`} />
                 <input type="tel" name="phone" value={formData.phone} onChange={handleChange}
                   placeholder="+923001234567"
-                  className="w-full h-9 pl-10 pr-3 text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]" />
+                  className={`w-full h-9 ${lang === 'ur' ? 'pe-10 ps-3' : 'ps-10 pe-3'} text-sm text-black bg-white border border-[#D1D5DB] rounded-lg outline-none focus:border-[#4EB332]`} />
               </div>
             </div>
 
             <button type="submit" disabled={loading}
               className="w-full py-3 text-sm font-medium text-white bg-[#052379] rounded-lg hover:bg-[#041d5e] transition-colors disabled:bg-[#052379]/70 disabled:cursor-not-allowed flex items-center justify-center gap-2">
-              {loading ? <><Loader2 className="w-4 h-4 animate-spin" />Creating Account...</> : "Register"}
+              {loading ? <><Loader2 className="w-4 h-4 animate-spin" />{t("registerUser.creatingAccount")}</> : t("registerUser.register")}
             </button>
 
             <p className="text-center text-sm text-black mt-2">
-              Already have an account?{" "}
+              {t("registerUser.haveAccount")}{" "}
               <span onClick={() => router.push("/login")}
-                className="text-[#1A2B3C] hover:underline cursor-pointer">Login</span>
+                className="text-[#1A2B3C] hover:underline cursor-pointer">{t("registerUser.login")}</span>
             </p>
           </form>
 
           <div className="mt-6 pt-6 border-t border-[#E7ECF3]">
-            <p className="text-center text-sm text-[#64748B] mb-3">Or register as:</p>
+            <p className="text-center text-sm text-[#64748B] mb-3">{t("registerUser.orRegisterAs")}</p>
             <div className="flex gap-2">
               <button onClick={() => router.push("/register/lawyer")}
                 className="flex-1 px-3 py-2 text-sm font-medium text-[#0E1726] bg-white hover:bg-[#F0F2F5] rounded-lg border border-[#E7ECF3] transition-all duration-200 shadow-sm hover:shadow-md">
-                Lawyer
+                {t("registerUser.lawyer")}
               </button>
             </div>
           </div>

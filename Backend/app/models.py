@@ -48,18 +48,18 @@ class LawyerProfile(Base):
     __tablename__ = "lawyer_profiles"
 
     lawyer_id = Column(Integer, ForeignKey("users.user_id"), primary_key=True)
-    specialization = Column(Text, nullable=False)  # comma-separated for multi
+    specialization = Column(Text, nullable=False)
     bio_data = Column(Text, nullable=True)
     verification_status = Column(Text, nullable=False, default="pending")
     years_of_experience = Column(Integer, nullable=True)
     office_address = Column(Text, nullable=True)
     consultation_fee = Column(Numeric, nullable=True)
     city = Column(Text, nullable=True)
-    languages = Column(Text, nullable=True)          # comma-separated e.g. "Urdu,English"
+    languages = Column(Text, nullable=True)
     bar_council_number = Column(Text, nullable=True)
     law_school = Column(Text, nullable=True)
     grad_year = Column(Integer, nullable=True)
-    degree_type = Column(Text, nullable=True)        # LLB, LLM, Bar-at-Law
+    degree_type = Column(Text, nullable=True)
     average_rating = Column(Float, nullable=True, default=0.0)
     review_count = Column(Integer, nullable=False, default=0)
 
@@ -105,8 +105,8 @@ class DocumentTemplate(Base):
     language = Column(Text, nullable=False, default="en")
     title = Column(Text, nullable=True)
     description = Column(Text, nullable=True)
-    fields_schema = Column(Text, nullable=True)   # JSON string of expected fields
-    sample_content = Column(Text, nullable=True)  # placeholder template text
+    fields_schema = Column(Text, nullable=True)
+    sample_content = Column(Text, nullable=True)
 
     documents = relationship("Document", back_populates="template")
 
@@ -120,8 +120,8 @@ class Document(Base):
     title = Column(Text, nullable=False)
     type = Column(Text, nullable=False)
     content = Column(Text, nullable=False)
-    input_data = Column(Text, nullable=True)      # JSON of form fields used
-    pdf_data = Column(LargeBinary, nullable=True)  # raw PDF bytes
+    input_data = Column(Text, nullable=True)
+    pdf_data = Column(LargeBinary, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="documents")
@@ -137,10 +137,10 @@ class DocAnalysis(Base):
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     file_name = Column(Text, nullable=True)
     file_size = Column(Integer, nullable=True)
-    status = Column(Text, nullable=False, default="pending")  # pending, processing, done, failed
+    status = Column(Text, nullable=False, default="pending")
     summary = Column(Text, nullable=True)
-    risks = Column(Text, nullable=True)      # JSON string of risk items
-    key_details = Column(Text, nullable=True)  # JSON string
+    risks = Column(Text, nullable=True)
+    key_details = Column(Text, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     document = relationship("Document", back_populates="analysis")
@@ -164,8 +164,8 @@ class QAInteraction(Base):
     question = Column(Text, nullable=False)
     answer = Column(Text, nullable=True)
     language = Column(Text, nullable=False, default="en")
-    status = Column(Text, nullable=False, default="pending")  # pending, answered, failed
-    session_id = Column(Text, nullable=True)  # groups interactions into a conversation session
+    status = Column(Text, nullable=False, default="pending")
+    session_id = Column(Text, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="qa_interactions")
@@ -179,7 +179,7 @@ class QACitation(Base):
     qa_id = Column(Integer, ForeignKey("qa_interactions.qa_id"), nullable=False)
     source_id = Column(Integer, ForeignKey("legal_sources.source_id"), nullable=True)
     snippet_text = Column(Text, nullable=True)
-    source_title = Column(Text, nullable=True)   # denormalized for quick display
+    source_title = Column(Text, nullable=True)
     citation_ref = Column(Text, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
@@ -214,7 +214,7 @@ class Case(Base):
     description = Column(Text, nullable=False)
     law_domain = Column(Text, nullable=False)
     jurisdiction = Column(Text, nullable=True)
-    status = Column(Text, nullable=False)  # open, in_progress, closed
+    status = Column(Text, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User", back_populates="cases")
@@ -230,7 +230,7 @@ class Request(Base):
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     lawyer_id = Column(Integer, ForeignKey("lawyer_profiles.lawyer_id"), nullable=False)
-    status = Column(Text, nullable=False, default="pending")  # pending, accepted, rejected
+    status = Column(Text, nullable=False, default="pending")
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     case = relationship("Case", back_populates="requests")
@@ -244,7 +244,7 @@ class CaseAssignment(Base):
     assignment_id = Column(Integer, primary_key=True, index=True)
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     lawyer_id = Column(Integer, ForeignKey("lawyer_profiles.lawyer_id"), nullable=False)
-    status = Column(Text, nullable=False, default="active")  # active, closed
+    status = Column(Text, nullable=False, default="active")
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     case = relationship("Case", back_populates="assignments")
@@ -255,7 +255,7 @@ class Appointment(Base):
     __tablename__ = "appointments"
 
     appt_id = Column(Integer, primary_key=True, index=True)
-    mode_of_comm = Column(Text, nullable=False)   # online_meeting, phone, physical, chat
+    mode_of_comm = Column(Text, nullable=False)
     scheduled_at = Column(DateTime(timezone=True), nullable=False)
     status = Column(Text, nullable=False, default="pending")  # pending, accepted, rejected, cancelled
     notes = Column(Text, nullable=True)
@@ -268,7 +268,6 @@ class Appointment(Base):
 
 
 class CaseMessage(Base):
-    """Messages scoped to a specific case (case-level chat)."""
     __tablename__ = "case_messages"
 
     message_id = Column(Integer, primary_key=True, index=True)
@@ -282,10 +281,8 @@ class CaseMessage(Base):
     sender = relationship("User", foreign_keys=[sender_id])
 
 
-# ── Direct Messaging (Conversations) ─────────────────────────────────────────
 
 class Conversation(Base):
-    """A direct message thread between exactly two users (no case linkage)."""
     __tablename__ = "conversations"
 
     conv_id = Column(Integer, primary_key=True, index=True)
@@ -314,7 +311,6 @@ class ConversationParticipant(Base):
 
 
 class Message(Base):
-    """A message inside a Conversation."""
     __tablename__ = "messages"
 
     message_id = Column(Integer, primary_key=True, index=True)

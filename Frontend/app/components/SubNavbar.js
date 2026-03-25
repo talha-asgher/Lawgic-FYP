@@ -4,35 +4,37 @@ import { Home, Brain, FileText, FileCheck, Users, MapPin, Calculator, Briefcase,
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAuthStore } from "../lib/authStore";
+import { useLanguage } from "../lib/LanguageContext";
 
 export default function SubNavbar() {
   const pathname = usePathname();
   const { user } = useAuthStore();
+  const { t } = useLanguage();
   const role = user?.role;
 
   const clientItems = [
-    { icon: <Home className="w-4 h-4" />, label: "Home", href: "/" },
-    { icon: <Brain className="w-4 h-4" />, label: "AI Q&A", href: "/ai-qa" },
-    { icon: <FileText className="w-4 h-4" />, label: "Document Analysis", href: "/document-analysis" },
-    { icon: <FileCheck className="w-4 h-4" />, label: "Document Generation", href: "/document-generation" },
-    { icon: <Users className="w-4 h-4" />, label: "Find Lawyers", href: "/find-lawyers" },
-    { icon: <Briefcase className="w-4 h-4" />, label: "My Cases", href: "/cases" },
-    { icon: <Calendar className="w-4 h-4" />, label: "Appointments", href: "/appointments" },
-    { icon: <MessageSquare className="w-4 h-4" />, label: "Messages", href: "/chat" },
-    { icon: <MapPin className="w-4 h-4" />, label: "Institutions", href: "/institiutions" },
-    { icon: <Calculator className="w-4 h-4" />, label: "Inheritance Calculator", href: "/inheritance-calculator" },
+    { icon: <Home className="w-4 h-4" />, labelKey: "subNav.home", href: "/" },
+    { icon: <Brain className="w-4 h-4" />, labelKey: "subNav.aiQA", href: "/ai-qa" },
+    { icon: <FileText className="w-4 h-4" />, labelKey: "subNav.documentAnalysis", href: "/document-analysis" },
+    { icon: <FileCheck className="w-4 h-4" />, labelKey: "subNav.documentGeneration", href: "/document-generation" },
+    { icon: <Users className="w-4 h-4" />, labelKey: "subNav.findLawyers", href: "/find-lawyers" },
+    { icon: <Briefcase className="w-4 h-4" />, labelKey: "subNav.myCases", href: "/cases" },
+    { icon: <Calendar className="w-4 h-4" />, labelKey: "subNav.appointments", href: "/appointments" },
+    { icon: <MessageSquare className="w-4 h-4" />, labelKey: "subNav.messages", href: "/chat" },
+    { icon: <MapPin className="w-4 h-4" />, labelKey: "subNav.institutions", href: "/institiutions" },
+    { icon: <Calculator className="w-4 h-4" />, labelKey: "subNav.inheritanceCalculator", href: "/inheritance-calculator" },
   ];
 
   const lawyerItems = [
-    { icon: <Home className="w-4 h-4" />, label: "Home", href: "/" },
-    { icon: <Brain className="w-4 h-4" />, label: "AI Q&A", href: "/ai-qa" },
-    { icon: <FileText className="w-4 h-4" />, label: "Document Analysis", href: "/document-analysis" },
-    { icon: <FileCheck className="w-4 h-4" />, label: "Document Generation", href: "/document-generation" },
-    { icon: <Briefcase className="w-4 h-4" />, label: "My Cases", href: "/cases" },
-    { icon: <Calendar className="w-4 h-4" />, label: "Appointments", href: "/appointments" },
-    { icon: <MessageSquare className="w-4 h-4" />, label: "Messages", href: "/chat" },
-    { icon: <MapPin className="w-4 h-4" />, label: "Institutions", href: "/institiutions" },
-    { icon: <Calculator className="w-4 h-4" />, label: "Inheritance Calculator", href: "/inheritance-calculator" },
+    { icon: <Home className="w-4 h-4" />, labelKey: "subNav.home", href: "/" },
+    { icon: <Brain className="w-4 h-4" />, labelKey: "subNav.aiQA", href: "/ai-qa" },
+    { icon: <FileText className="w-4 h-4" />, labelKey: "subNav.documentAnalysis", href: "/document-analysis" },
+    { icon: <FileCheck className="w-4 h-4" />, labelKey: "subNav.documentGeneration", href: "/document-generation" },
+    { icon: <Briefcase className="w-4 h-4" />, labelKey: "subNav.myCases", href: "/cases" },
+    { icon: <Calendar className="w-4 h-4" />, labelKey: "subNav.appointments", href: "/appointments" },
+    { icon: <MessageSquare className="w-4 h-4" />, labelKey: "subNav.messages", href: "/chat" },
+    { icon: <MapPin className="w-4 h-4" />, labelKey: "subNav.institutions", href: "/institiutions" },
+    { icon: <Calculator className="w-4 h-4" />, labelKey: "subNav.inheritanceCalculator", href: "/inheritance-calculator" },
   ];
 
   const navItems = role === "lawyer" ? lawyerItems : clientItems;
@@ -55,7 +57,7 @@ export default function SubNavbar() {
                 `}
               >
                 {item.icon}
-                <span>{item.label}</span>
+                <span>{t(item.labelKey)}</span>
               </Link>
             );
           })}

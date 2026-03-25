@@ -10,6 +10,7 @@ import {
   getMyCases, getMyRequests, getClientRequests, respondToRequest,
   createCase, updateCaseStatus, getOrCreateConversation, getUser, isLoggedIn
 } from '@/lib/api';
+import { useLanguage } from '@/app/lib/LanguageContext';
 
 export default function CasesPage() {
   const [cases, setCases] = useState([]);
@@ -23,6 +24,7 @@ export default function CasesPage() {
   const [expandedCase, setExpandedCase] = useState(null);
   const [actionLoading, setActionLoading] = useState({});
   const router = useRouter();
+  const { t } = useLanguage();
   const currentUser = getUser();
 
   useEffect(() => {
@@ -76,7 +78,7 @@ export default function CasesPage() {
   };
 
   const handleCloseCase = async (caseId) => {
-    if (!confirm('Mark this case as closed? This cannot be undone.')) return;
+    if (!confirm(t("cases.confirmClose"))) return;
     setActionLoading(prev => ({ ...prev, [`close_${caseId}`]: true }));
     try {
       await updateCaseStatus(caseId, 'closed');
@@ -101,15 +103,15 @@ export default function CasesPage() {
   };
 
   const statusConfig = {
-    open: { label: 'Open', bg: 'bg-blue-50', text: 'text-blue-700', icon: <Clock className="w-3 h-3" /> },
-    in_progress: { label: 'Ongoing', bg: 'bg-amber-50', text: 'text-amber-700', icon: <AlertCircle className="w-3 h-3" /> },
-    closed: { label: 'Closed', bg: 'bg-gray-100', text: 'text-gray-600', icon: <CheckCircle className="w-3 h-3" /> },
+    open: { labelKey: 'cases.status.open', bg: 'bg-blue-50', text: 'text-blue-700', icon: <Clock className="w-3 h-3" /> },
+    in_progress: { labelKey: 'cases.status.in_progress', bg: 'bg-amber-50', text: 'text-amber-700', icon: <AlertCircle className="w-3 h-3" /> },
+    closed: { labelKey: 'cases.status.closed', bg: 'bg-gray-100', text: 'text-gray-600', icon: <CheckCircle className="w-3 h-3" /> },
   };
 
   const requestStatusConfig = {
-    pending: { label: 'Pending', bg: 'bg-amber-50', text: 'text-amber-700' },
-    accepted: { label: 'Accepted', bg: 'bg-emerald-50', text: 'text-emerald-700' },
-    rejected: { label: 'Declined', bg: 'bg-red-50', text: 'text-red-700' },
+    pending: { labelKey: 'cases.requestStatus.pending', bg: 'bg-amber-50', text: 'text-amber-700' },
+    accepted: { labelKey: 'cases.requestStatus.accepted', bg: 'bg-emerald-50', text: 'text-emerald-700' },
+    rejected: { labelKey: 'cases.requestStatus.rejected', bg: 'bg-red-50', text: 'text-red-700' },
   };
 
   const getRequestsForCase = (caseId) =>
@@ -120,14 +122,14 @@ export default function CasesPage() {
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className="text-2xl font-semibold text-gray-900">My Cases</h1>
-            <p className="text-gray-500 text-sm mt-1">Manage your legal cases</p>
+            <h1 className="text-2xl font-semibold text-gray-900">{t("cases.heading")}</h1>
+            <p className="text-gray-500 text-sm mt-1">{t("cases.subtitle")}</p>
           </div>
           {currentUser?.role === 'client' && (
             <button onClick={() => setShowNewCase(true)}
               className="flex items-center gap-2 px-4 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-xl hover:bg-[#041d5c] transition-colors">
               <Plus className="w-4 h-4" />
-              New Case
+              {t("cases.newCase")}
             </button>
           )}
         </div>
@@ -138,7 +140,7 @@ export default function CasesPage() {
               <button key={tab} onClick={() => setActiveTab(tab)}
                 className={`flex-1 py-2 text-sm font-medium rounded-lg transition-colors capitalize
                   ${activeTab === tab ? 'bg-[#052379] text-white' : 'text-gray-600 hover:text-gray-900'}`}>
-                {tab === 'requests' ? `Pending Requests (${requests.filter(r => r.status === 'pending').length})` : 'My Cases'}
+                {tab === 'requests' ? t("cases.tabRequests", { count: requests.filter(r => r.status === 'pending').length }) : t("cases.tabCases")}
               </button>
             ))}
           </div>
@@ -146,51 +148,51 @@ export default function CasesPage() {
 
         {showNewCase && (
           <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-6 shadow-sm">
-            <h2 className="text-lg font-medium text-gray-900 mb-4">Create New Case</h2>
+            <h2 className="text-lg font-medium text-gray-900 mb-4">{t("cases.createNewCase")}</h2>
             <form onSubmit={handleCreateCase} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="text-sm text-gray-600 mb-1 block">Case Title *</label>
+                  <label className="text-sm text-gray-600 mb-1 block">{t("cases.caseTitleLabel")}</label>
                   <input required type="text" value={newCase.title}
                     onChange={e => setNewCase({ ...newCase, title: e.target.value })}
                     className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#052379]/20" />
                 </div>
                 <div>
-                  <label className="text-sm text-gray-600 mb-1 block">Law Domain *</label>
+                  <label className="text-sm text-gray-600 mb-1 block">{t("cases.lawDomainLabel")}</label>
                   <select required value={newCase.law_domain}
                     onChange={e => setNewCase({ ...newCase, law_domain: e.target.value })}
                     className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg text-sm focus:outline-none">
-                    <option value="">Select domain</option>
-                    <option value="Criminal Law">Criminal Law</option>
-                    <option value="Family Law">Family Law</option>
-                    <option value="Property Law">Property Law</option>
-                    <option value="Corporate Law">Corporate Law</option>
-                    <option value="Civil Law">Civil Law</option>
-                    <option value="Other">Other</option>
+                    <option value="">{t("cases.selectDomain")}</option>
+                    <option value="Criminal Law">{t("cases.domains.criminal")}</option>
+                    <option value="Family Law">{t("cases.domains.family")}</option>
+                    <option value="Property Law">{t("cases.domains.property")}</option>
+                    <option value="Corporate Law">{t("cases.domains.corporate")}</option>
+                    <option value="Civil Law">{t("cases.domains.civil")}</option>
+                    <option value="Other">{t("cases.domains.other")}</option>
                   </select>
                 </div>
               </div>
               <div>
-                <label className="text-sm text-gray-600 mb-1 block">Description *</label>
+                <label className="text-sm text-gray-600 mb-1 block">{t("cases.descriptionLabel")}</label>
                 <textarea required rows="3" value={newCase.description}
                   onChange={e => setNewCase({ ...newCase, description: e.target.value })}
                   className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg text-sm focus:outline-none resize-none" />
               </div>
               <div>
-                <label className="text-sm text-gray-600 mb-1 block">Jurisdiction</label>
+                <label className="text-sm text-gray-600 mb-1 block">{t("cases.jurisdictionLabel")}</label>
                 <input type="text" value={newCase.jurisdiction}
                   onChange={e => setNewCase({ ...newCase, jurisdiction: e.target.value })}
-                  placeholder="e.g. Lahore High Court"
+                  placeholder={t("cases.jurisdictionPlaceholder")}
                   className="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg text-sm focus:outline-none" />
               </div>
               <div className="flex gap-3">
                 <button type="submit" disabled={creating}
                   className="flex items-center gap-2 px-6 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-lg hover:bg-[#041d5c] transition-colors disabled:opacity-50">
-                  {creating ? <><Loader2 className="w-4 h-4 animate-spin" />Creating...</> : 'Create Case'}
+                  {creating ? <><Loader2 className="w-4 h-4 animate-spin" />{t("cases.creating")}</> : t("cases.createCase")}
                 </button>
                 <button type="button" onClick={() => setShowNewCase(false)}
                   className="px-6 py-2.5 border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors">
-                  Cancel
+                  {t("cases.cancel")}
                 </button>
               </div>
             </form>
@@ -204,9 +206,9 @@ export default function CasesPage() {
             {cases.length === 0 ? (
               <div className="bg-white rounded-2xl border border-gray-200 p-12 text-center">
                 <Briefcase className="w-12 h-12 text-gray-300 mx-auto mb-3" />
-                <p className="text-gray-500">No cases yet.</p>
+                <p className="text-gray-500">{t("cases.noCases")}</p>
                 {currentUser?.role === 'client' && (
-                  <button onClick={() => setShowNewCase(true)} className="mt-4 text-[#052379] hover:underline text-sm">Create your first case</button>
+                  <button onClick={() => setShowNewCase(true)} className="mt-4 text-[#052379] hover:underline text-sm">{t("cases.createFirst")}</button>
                 )}
               </div>
             ) : (
@@ -225,21 +227,21 @@ export default function CasesPage() {
                           <h3 className="font-semibold text-gray-900">{c.title}</h3>
                           <p className="text-sm text-gray-500 mt-0.5">{c.law_domain}{c.jurisdiction ? ` · ${c.jurisdiction}` : ''}</p>
                         </div>
-                        <span className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium flex-shrink-0 ml-3 ${st.bg} ${st.text}`}>
-                          {st.icon}{st.label}
+                        <span className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium flex-shrink-0 ms-3 ${st.bg} ${st.text}`}>
+                          {st.icon}{t(st.labelKey)}
                         </span>
                       </div>
                       <p className="text-sm text-gray-600 mb-4 line-clamp-2">{c.description}</p>
 
                       {currentUser?.role === 'client' && isInProgress && c.assigned_lawyer_name && (
                         <p className="text-xs text-emerald-700 bg-emerald-50 rounded-lg px-3 py-1.5 mb-3 inline-block">
-                          Assigned to: {c.assigned_lawyer_name}
+                          {t("cases.assignedTo")} {c.assigned_lawyer_name}
                         </p>
                       )}
 
                       {currentUser?.role === 'lawyer' && isInProgress && (
                         <p className="text-xs text-emerald-700 bg-emerald-50 rounded-lg px-3 py-1.5 mb-3 inline-block">
-                          Client: {c.client_name || 'Client'}
+                          {t("cases.clientLabel")} {c.client_name || 'Client'}
                         </p>
                       )}
 
@@ -252,7 +254,7 @@ export default function CasesPage() {
                               {c.status === 'open' && (
                                 <button onClick={() => router.push('/find-lawyers')}
                                   className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-[#052379] border border-[#052379]/20 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                                  Find Lawyer
+                                  {t("cases.findLawyer")}
                                 </button>
                               )}
                               {isInProgress && (() => {
@@ -267,19 +269,19 @@ export default function CasesPage() {
                                       {actionLoading[`chat_${lawyerId}`]
                                         ? <Loader2 className="w-3 h-3 animate-spin" />
                                         : <MessageSquare className="w-3 h-3" />}
-                                      Chat
+                                      {t("cases.chat")}
                                     </button>
                                     <button onClick={() => lawyerId && router.push(`/appointments/new?lawyer=${lawyerId}&case=${c.case_id}`)}
                                       disabled={!lawyerId}
                                       className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50">
                                       <Calendar className="w-3 h-3" />
-                                      Appointment
+                                      {t("cases.appointment")}
                                     </button>
                                     <button onClick={() => handleCloseCase(c.case_id)}
                                       disabled={actionLoading[`close_${c.case_id}`]}
                                       className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-red-600 border border-red-200 rounded-lg hover:bg-red-50 transition-colors disabled:opacity-50">
                                       {actionLoading[`close_${c.case_id}`] ? <Loader2 className="w-3 h-3 animate-spin" /> : <XCircle className="w-3 h-3" />}
-                                      Close Case
+                                      {t("cases.closeCase")}
                                     </button>
                                   </>
                                 );
@@ -296,13 +298,13 @@ export default function CasesPage() {
                                 {actionLoading[`chat_${c.user_id}`]
                                   ? <Loader2 className="w-3 h-3 animate-spin" />
                                   : <MessageSquare className="w-3 h-3" />}
-                                Chat
+                                {t("cases.chat")}
                               </button>
                               <button onClick={() => handleCloseCase(c.case_id)}
                                 disabled={actionLoading[`close_${c.case_id}`]}
                                 className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-red-600 border border-red-200 rounded-lg hover:bg-red-50 transition-colors disabled:opacity-50">
                                 {actionLoading[`close_${c.case_id}`] ? <Loader2 className="w-3 h-3 animate-spin" /> : <XCircle className="w-3 h-3" />}
-                                Close Case
+                                {t("cases.closeCase")}
                               </button>
                             </>
                           )}
@@ -311,7 +313,7 @@ export default function CasesPage() {
                             <button onClick={() => setExpandedCase(isExpanded ? null : c.case_id)}
                               className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-600 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
                               {isExpanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
-                              Requests ({caseRequests.length})
+                              {t("cases.requests", { count: caseRequests.length })}
                             </button>
                           )}
                         </div>
@@ -319,14 +321,14 @@ export default function CasesPage() {
 
                       {currentUser?.role === 'client' && isExpanded && caseRequests.length > 0 && (
                         <div className="mt-4 pt-4 border-t border-gray-100 space-y-2">
-                          <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Case Requests</p>
+                          <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">{t("cases.caseRequestsHeading")}</p>
                           {caseRequests.map(req => {
                             const rSt = requestStatusConfig[req.status] || requestStatusConfig.pending;
                             return (
                               <div key={req.request_id} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                                 <span className="text-sm text-gray-700">{req.lawyer_name || `Lawyer #${req.lawyer_id}`}</span>
                                 <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${rSt.bg} ${rSt.text}`}>
-                                  {rSt.label}
+                                  {t(rSt.labelKey)}
                                 </span>
                               </div>
                             );
@@ -343,7 +345,7 @@ export default function CasesPage() {
           <div className="space-y-4">
             {requests.filter(r => r.status === 'pending').length === 0 ? (
               <div className="bg-white rounded-2xl border border-gray-200 p-12 text-center">
-                <p className="text-gray-500">No pending case requests.</p>
+                <p className="text-gray-500">{t("cases.noPendingRequests")}</p>
               </div>
             ) : (
               requests.filter(r => r.status === 'pending').map(req => (
@@ -351,12 +353,12 @@ export default function CasesPage() {
                   <div className="flex items-start justify-between mb-2">
                     <div>
                       <h3 className="font-semibold text-gray-900">{req.case_title || `Case #${req.case_id}`}</h3>
-                      <p className="text-sm text-gray-500 mt-0.5">From: {req.client_name || 'Client'}</p>
+                      <p className="text-sm text-gray-500 mt-0.5">{t("cases.fromLabel")} {req.client_name || 'Client'}</p>
                       {req.case_law_domain && (
                         <p className="text-xs text-gray-400 mt-0.5">{req.case_law_domain}</p>
                       )}
                     </div>
-                    <span className="px-2.5 py-1 bg-amber-50 text-amber-700 rounded-full text-xs font-medium flex-shrink-0 ml-3">Pending</span>
+                    <span className="px-2.5 py-1 bg-amber-50 text-amber-700 rounded-full text-xs font-medium flex-shrink-0 ms-3">{t("cases.requestStatus.pending")}</span>
                   </div>
                   {req.case_description && (
                     <p className="text-sm text-gray-600 mb-4 line-clamp-3">{req.case_description}</p>
@@ -366,13 +368,13 @@ export default function CasesPage() {
                       disabled={!!actionLoading[req.request_id]}
                       className="flex-1 py-2 bg-emerald-600 text-white text-sm font-medium rounded-lg hover:bg-emerald-700 transition-colors disabled:opacity-50 flex items-center justify-center gap-2">
                       {actionLoading[req.request_id] === 'accepted' ? <Loader2 className="w-4 h-4 animate-spin" /> : null}
-                      Accept
+                      {t("cases.accept")}
                     </button>
                     <button onClick={() => handleRespond(req.request_id, 'rejected')}
                       disabled={!!actionLoading[req.request_id]}
                       className="flex-1 py-2 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50 flex items-center justify-center gap-2">
                       {actionLoading[req.request_id] === 'rejected' ? <Loader2 className="w-4 h-4 animate-spin" /> : null}
-                      Decline
+                      {t("cases.decline")}
                     </button>
                   </div>
                 </div>

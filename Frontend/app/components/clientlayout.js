@@ -4,11 +4,11 @@ import { usePathname } from "next/navigation";
 import Navbar from "./Navbar";
 import SubNavbar from "./SubNavbar";
 import Footer from "./Footer";
+import { LanguageProvider } from "../lib/LanguageContext";
 
 export default function ClientLayout({ children }) {
   const pathname = usePathname();
 
-  // Login / register pages render their own full-page header
   const hideAll =
     pathname.startsWith("/login") ||
     pathname.startsWith("/register");
@@ -16,11 +16,11 @@ export default function ClientLayout({ children }) {
   const hideSubAndFooter = hideAll;
 
   return (
-    <>
+    <LanguageProvider>
       {!hideAll && <Navbar />}
       {!hideSubAndFooter && <SubNavbar />}
       <main>{children}</main>
       {!hideSubAndFooter && <Footer />}
-    </>
+    </LanguageProvider>
   );
 }

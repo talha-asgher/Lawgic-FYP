@@ -8,11 +8,11 @@ import {
 } from "lucide-react";
 import { DOCUMENT_TEMPLATES, TEMPLATE_COLORS } from "../lib/documentTemplates";
 import { getToken } from "@/lib/api";
+import { useLanguage } from "@/app/lib/LanguageContext";
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
-// ─── Field Renderer ───────────────────────────────────────────────────────────
-function FormField({ field, value, onChange, error }) {
+function FormField({ field, value, onChange, error, t }) {
   const base = "w-full px-4 py-2.5 bg-white border rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-all";
   const err  = error ? "border-red-400" : "border-gray-200";
   const handle = (e) => onChange(field.name, e.target.value);
@@ -21,7 +21,7 @@ function FormField({ field, value, onChange, error }) {
     <div className="flex flex-col gap-1.5">
       <label className="text-sm font-medium text-gray-700">
         {field.label}
-        {field.required && <span className="text-red-500 ml-1">*</span>}
+        {field.required && <span className="text-red-500 ms-1">*</span>}
       </label>
       {field.type === "textarea" ? (
         <textarea rows={3} value={value || ""} onChange={handle}
@@ -29,7 +29,7 @@ function FormField({ field, value, onChange, error }) {
           className={`${base} ${err} resize-none`} />
       ) : field.type === "select" ? (
         <select value={value || ""} onChange={handle} className={`${base} ${err}`}>
-          <option value="">Select an option...</option>
+          <option value="">{t("docTemplate.selectOption")}</option>
           {field.options?.map((opt) => <option key={opt} value={opt}>{opt}</option>)}
         </select>
       ) : (
@@ -46,7 +46,6 @@ function FormField({ field, value, onChange, error }) {
   );
 }
 
-// ─── Step Indicator ───────────────────────────────────────────────────────────
 function StepIndicator({ sections, currentSection, completedSections }) {
   return (
     <div className="flex items-center gap-2 mb-8 overflow-x-auto pb-1">
@@ -77,46 +76,44 @@ function StepIndicator({ sections, currentSection, completedSections }) {
   );
 }
 
-// ─── Not Logged In Screen ─────────────────────────────────────────────────────
-function NotLoggedInScreen({ onLogin }) {
+function NotLoggedInScreen({ onLogin, t }) {
   return (
     <div className="flex flex-col items-center justify-center py-16 text-center">
       <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
         <LogIn className="w-8 h-8 text-amber-600" />
       </div>
-      <h2 className="text-xl font-semibold text-gray-900 mb-2">Login Required</h2>
+      <h2 className="text-xl font-semibold text-gray-900 mb-2">{t("docTemplate.loginRequired")}</h2>
       <p className="text-gray-500 mb-6 max-w-sm text-sm">
-        You need to be logged in to generate and save legal documents to your account.
+        {t("docTemplate.loginRequiredMsg")}
       </p>
       <button onClick={onLogin}
         className="bg-[#052379] text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-[#052379]/90 transition-all">
-        Go to Login
+        {t("docTemplate.goToLogin")}
       </button>
     </div>
   );
 }
 
-// ─── Success Screen ───────────────────────────────────────────────────────────
-function SuccessScreen({ template, docId, docTitle, onReset, onDownload, isDownloading }) {
+function SuccessScreen({ template, docId, docTitle, onReset, onDownload, isDownloading, t }) {
   return (
     <div className="flex flex-col items-center justify-center py-16 text-center">
       <div className="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center mb-6">
         <CheckCircle2 className="w-10 h-10 text-green-600" />
       </div>
-      <h2 className="text-2xl font-semibold text-gray-900 mb-2">Document Generated!</h2>
+      <h2 className="text-2xl font-semibold text-gray-900 mb-2">{t("docTemplate.successHeading")}</h2>
       <p className="text-gray-500 mb-2 max-w-sm">
-        Your <strong>{template.title}</strong> has been saved to your account.
+        {t("docTemplate.successMsg", { title: template.title })}
       </p>
-      <p className="text-xs text-gray-400 mb-8">Document ID: #{docId}</p>
+      <p className="text-xs text-gray-400 mb-8">{t("docTemplate.docId", { id: docId })}</p>
 
       <div className="bg-gray-50 border border-gray-200 rounded-2xl p-5 w-full max-w-sm mb-8">
         <div className="flex items-center gap-4">
           <div className="w-12 h-14 bg-red-100 rounded-lg flex items-center justify-center">
             <FileText className="w-6 h-6 text-red-500" />
           </div>
-          <div className="text-left">
+          <div className="text-start">
             <p className="font-medium text-gray-900 text-sm">{docTitle}</p>
-            <p className="text-xs text-gray-400 mt-0.5">PDF · Saved to your account</p>
+            <p className="text-xs text-gray-400 mt-0.5">{t("docTemplate.pdfSaved")}</p>
           </div>
         </div>
       </div>
@@ -125,21 +122,21 @@ function SuccessScreen({ template, docId, docTitle, onReset, onDownload, isDownl
         <button onClick={onDownload} disabled={isDownloading}
           className="flex items-center gap-2 bg-[#052379] text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-[#052379]/90 transition-all disabled:opacity-60">
           {isDownloading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
-          {isDownloading ? "Downloading..." : "Download PDF"}
+          {isDownloading ? t("docTemplate.downloading") : t("docTemplate.downloadPdf")}
         </button>
         <button onClick={onReset}
           className="px-6 py-3 rounded-xl text-sm font-medium border border-gray-200 text-gray-700 hover:bg-gray-50 transition-all">
-          Generate Another
+          {t("docTemplate.generateAnother")}
         </button>
       </div>
     </div>
   );
 }
 
-// ─── Main Page ─────────────────────────────────────────────────────────────────
 export default function DocumentFormPage() {
   const router       = useRouter();
   const searchParams = useSearchParams();
+  const { t } = useLanguage();
   const templateKey  = searchParams.get("type");
   const template     = templateKey ? DOCUMENT_TEMPLATES[templateKey] : null;
   const colors       = template ? TEMPLATE_COLORS[template.color] || TEMPLATE_COLORS.blue : null;
@@ -166,7 +163,7 @@ export default function DocumentFormPage() {
     const errs = {};
     section.fields.forEach((f) => {
       if (f.required && !formData[f.name]?.toString().trim()) {
-        errs[f.name] = `${f.label} is required`;
+        errs[f.name] = t("docTemplate.fieldRequired", { label: f.label });
       }
     });
     return errs;
@@ -278,11 +275,11 @@ export default function DocumentFormPage() {
     return (
       <div className="min-h-screen bg-[#F6F8FB] flex items-center justify-center">
         <div className="text-center">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-2">Template Not Found</h2>
-          <p className="text-gray-500 mb-6">Please go back and select a valid template.</p>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-2">{t("docTemplate.templateNotFound")}</h2>
+          <p className="text-gray-500 mb-6">{t("docTemplate.templateNotFoundMsg")}</p>
           <button onClick={() => router.push("/document-generation")}
             className="bg-[#052379] text-white px-6 py-3 rounded-xl text-sm font-medium">
-            Back to Templates
+            {t("docTemplate.backBtn")}
           </button>
         </div>
       </div>
@@ -298,10 +295,9 @@ export default function DocumentFormPage() {
 
         <button onClick={() => router.push("/document-generation")}
           className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-900 mb-6 transition-colors">
-          <ChevronLeft className="w-4 h-4" /> Back to Templates
+          <ChevronLeft className="w-4 h-4" /> {t("docTemplate.backToTemplates")}
         </button>
 
-        {/* Header */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 mb-6">
           <div className="flex items-start gap-4">
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${colors.bg} ${colors.icon}`}>
@@ -317,10 +313,9 @@ export default function DocumentFormPage() {
           </div>
         </div>
 
-        {/* Form Card */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
           {notLoggedIn ? (
-            <NotLoggedInScreen onLogin={() => router.push("/login")} />
+            <NotLoggedInScreen onLogin={() => router.push("/login")} t={t} />
           ) : isSuccess ? (
             <SuccessScreen
               template={template}
@@ -329,6 +324,7 @@ export default function DocumentFormPage() {
               onReset={handleReset}
               onDownload={handleDownload}
               isDownloading={isDownloading}
+              t={t}
             />
           ) : (
             <>
@@ -341,7 +337,7 @@ export default function DocumentFormPage() {
               <div className="mb-6">
                 <h2 className="text-lg font-semibold text-gray-900">{currentSectionData.heading}</h2>
                 <p className="text-sm text-gray-400 mt-0.5">
-                  Step {currentSection + 1} of {template.sections.length}
+                  {t("docTemplate.stepOf", { n: currentSection + 1, m: template.sections.length })}
                 </p>
               </div>
 
@@ -349,7 +345,7 @@ export default function DocumentFormPage() {
                 {currentSectionData.fields.map((field) => (
                   <div key={field.name} className={field.type === "textarea" ? "sm:col-span-2" : ""}>
                     <FormField field={field} value={formData[field.name]}
-                      onChange={handleFieldChange} error={errors[field.name]} />
+                      onChange={handleFieldChange} error={errors[field.name]} t={t} />
                   </div>
                 ))}
               </div>
@@ -364,20 +360,20 @@ export default function DocumentFormPage() {
                 <button onClick={handleBack}
                   className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-medium border border-gray-200 text-gray-700 hover:bg-gray-50 transition-all">
                   <ChevronLeft className="w-4 h-4" />
-                  {currentSection === 0 ? "Cancel" : "Back"}
+                  {currentSection === 0 ? t("docTemplate.cancel") : t("docTemplate.back")}
                 </button>
 
                 {isLastSection ? (
                   <button onClick={handleSubmit} disabled={isSubmitting}
                     className="flex items-center gap-2 bg-[#052379] text-white px-6 py-2.5 rounded-xl text-sm font-medium hover:bg-[#052379]/90 transition-all disabled:opacity-60">
                     {isSubmitting
-                      ? <><Loader2 className="w-4 h-4 animate-spin" /> Generating...</>
-                      : <><Download className="w-4 h-4" /> Generate & Save PDF</>}
+                      ? <><Loader2 className="w-4 h-4 animate-spin" /> {t("docTemplate.generating")}</>
+                      : <><Download className="w-4 h-4" /> {t("docTemplate.generateSave")}</>}
                   </button>
                 ) : (
                   <button onClick={handleNext}
                     className="flex items-center gap-2 bg-[#052379] text-white px-6 py-2.5 rounded-xl text-sm font-medium hover:bg-[#052379]/90 transition-all">
-                    Next <ChevronRight className="w-4 h-4" />
+                    {t("docTemplate.next")} <ChevronRight className="w-4 h-4" />
                   </button>
                 )}
               </div>

@@ -80,8 +80,6 @@ def get_my_stats(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """Dashboard stats for the current user (works for both client and lawyer)."""
-    # Shared: count unread messages
     my_conv_ids = [
         p.conv_id for p in db.query(models.ConversationParticipant)
         .filter(models.ConversationParticipant.user_id == current_user.user_id)

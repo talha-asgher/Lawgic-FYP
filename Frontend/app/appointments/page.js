@@ -4,26 +4,28 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import {
   Calendar, Clock, Video, Phone, MapPin, MessageSquare,
-  Loader2, AlertCircle, CheckCircle, XCircle, Ban
+  Loader2, CheckCircle, XCircle, Ban
 } from "lucide-react";
 import { getMyAppointments, updateAppointmentStatus, isLoggedIn, getUser } from "@/lib/api";
+import { useLanguage } from "@/app/lib/LanguageContext";
 
-const MODE_LABELS = {
-  online_meeting: { label: "Video Call", icon: Video },
-  phone: { label: "Phone Call", icon: Phone },
-  physical: { label: "In Person", icon: MapPin },
-  chat: { label: "Chat", icon: MessageSquare },
+const MODE_ICONS = {
+  online_meeting: Video,
+  phone: Phone,
+  physical: MapPin,
+  chat: MessageSquare,
 };
 
-const STATUS_CONFIG = {
-  pending: { label: "Pending", bg: "bg-amber-50", text: "text-amber-700" },
-  accepted: { label: "Confirmed", bg: "bg-emerald-50", text: "text-emerald-700" },
-  rejected: { label: "Declined", bg: "bg-red-50", text: "text-red-700" },
-  cancelled: { label: "Cancelled", bg: "bg-gray-100", text: "text-gray-500" },
+const STATUS_STYLES = {
+  pending: { bg: "bg-amber-50", text: "text-amber-700" },
+  accepted: { bg: "bg-emerald-50", text: "text-emerald-700" },
+  rejected: { bg: "bg-red-50", text: "text-red-700" },
+  cancelled: { bg: "bg-gray-100", text: "text-gray-500" },
 };
 
 export default function AppointmentsPage() {
   const router = useRouter();
+  const { t } = useLanguage();
   const currentUser = getUser();
   const isLawyer = currentUser?.role === "lawyer";
 
@@ -73,9 +75,9 @@ export default function AppointmentsPage() {
     <div className="min-h-screen bg-[#F6F8FB] px-4 lg:px-8 py-8">
       <div className="max-w-4xl mx-auto">
         <div className="mb-6">
-          <h1 className="text-2xl font-semibold text-gray-900">Appointments</h1>
+          <h1 className="text-2xl font-semibold text-gray-900">{t("appointments.heading")}</h1>
           <p className="text-gray-500 text-sm mt-1">
-            {isLawyer ? "Manage appointment requests from clients" : "Track your scheduled appointments"}
+            {isLawyer ? t("appointments.lawyerSubtitle") : t("appointments.clientSubtitle")}
           </p>
         </div>
 
@@ -84,7 +86,7 @@ export default function AppointmentsPage() {
             <button key={f} onClick={() => setActiveFilter(f)}
               className={`flex-1 py-2 text-sm font-medium rounded-lg transition-colors capitalize whitespace-nowrap min-w-[80px]
                 ${activeFilter === f ? "bg-[#052379] text-white" : "text-gray-600 hover:text-gray-900"}`}>
-              {f === "all" ? `All (${appointments.length})` : STATUS_CONFIG[f]?.label || f}
+              {f === "all" ? t("appointments.filterAll", { count: appointments.length }) : t(`appointments.status.${f}`)}
             </button>
           ))}
         </div>
@@ -98,22 +100,21 @@ export default function AppointmentsPage() {
             <Calendar className="w-12 h-12 text-gray-300 mx-auto mb-3" />
             <p className="text-gray-500">
               {activeFilter === "all"
-                ? isLawyer ? "No appointments yet." : "No appointments yet. Book one from your active cases."
-                : `No ${activeFilter} appointments.`}
+                ? isLawyer ? t("appointments.noAppointmentsLawyer") : t("appointments.noAppointmentsClient")
+                : t("appointments.noFilterAppt", { filter: t(`appointments.status.${activeFilter}`) })}
             </p>
             {!isLawyer && activeFilter === "all" && (
               <button onClick={() => router.push("/cases")}
                 className="mt-4 text-[#052379] hover:underline text-sm">
-                Go to Cases
+                {t("appointments.goToCases")}
               </button>
             )}
           </div>
         ) : (
           <div className="space-y-4">
             {filtered.map(appt => {
-              const st = STATUS_CONFIG[appt.status] || STATUS_CONFIG.pending;
-              const modeInfo = MODE_LABELS[appt.mode_of_comm];
-              const ModeIcon = modeInfo?.icon || Calendar;
+              const st = STATUS_STYLES[appt.status] || STATUS_STYLES.pending;
+              const ModeIcon = MODE_ICONS[appt.mode_of_comm] || Calendar;
               const scheduledDate = new Date(appt.scheduled_at);
               const isPast = scheduledDate < new Date();
               const isLoading = actionLoading[appt.appt_id];
@@ -130,10 +131,12 @@ export default function AppointmentsPage() {
                           <p className="font-semibold text-gray-900 text-sm">
                             {isLawyer ? (appt.client_name || "Client") : (appt.lawyer_name || "Lawyer")}
                           </p>
-                          <p className="text-xs text-gray-500">{modeInfo?.label || appt.mode_of_comm}</p>
+                          <p className="text-xs text-gray-500">
+                            {appt.mode_of_comm ? t(`appointments.modes.${appt.mode_of_comm}`) : appt.mode_of_comm}
+                          </p>
                         </div>
-                        <span className={`ml-auto sm:hidden px-2.5 py-1 rounded-full text-xs font-medium ${st.bg} ${st.text}`}>
-                          {st.label}
+                        <span className={`ms-auto sm:hidden px-2.5 py-1 rounded-full text-xs font-medium ${st.bg} ${st.text}`}>
+                          {t(`appointments.status.${appt.status}`)}
                         </span>
                       </div>
 
@@ -147,7 +150,7 @@ export default function AppointmentsPage() {
                           {scheduledDate.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                         </span>
                         {isPast && appt.status === "accepted" && (
-                          <span className="text-xs text-gray-400 italic">Past</span>
+                          <span className="text-xs text-gray-400 italic">{t("appointments.past")}</span>
                         )}
                       </div>
 
@@ -160,7 +163,7 @@ export default function AppointmentsPage() {
 
                     <div className="flex flex-col items-end gap-3">
                       <span className={`hidden sm:inline-flex px-2.5 py-1 rounded-full text-xs font-medium ${st.bg} ${st.text}`}>
-                        {st.label}
+                        {t(`appointments.status.${appt.status}`)}
                       </span>
 
                       {isLawyer && appt.status === "pending" && (
@@ -170,14 +173,14 @@ export default function AppointmentsPage() {
                             disabled={!!isLoading}
                             className="flex items-center gap-1 px-3 py-1.5 bg-emerald-600 text-white text-xs font-medium rounded-lg hover:bg-emerald-700 transition-colors disabled:opacity-50">
                             {isLoading === "accepted" ? <Loader2 className="w-3 h-3 animate-spin" /> : <CheckCircle className="w-3 h-3" />}
-                            Accept
+                            {t("appointments.accept")}
                           </button>
                           <button
                             onClick={() => handleStatusUpdate(appt.appt_id, "rejected")}
                             disabled={!!isLoading}
                             className="flex items-center gap-1 px-3 py-1.5 bg-white border border-gray-200 text-gray-700 text-xs font-medium rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50">
                             {isLoading === "rejected" ? <Loader2 className="w-3 h-3 animate-spin" /> : <XCircle className="w-3 h-3" />}
-                            Decline
+                            {t("appointments.decline")}
                           </button>
                         </div>
                       )}
@@ -188,7 +191,7 @@ export default function AppointmentsPage() {
                           disabled={!!isLoading}
                           className="flex items-center gap-1 px-3 py-1.5 bg-white border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-50 transition-colors disabled:opacity-50">
                           {isLoading === "cancelled" ? <Loader2 className="w-3 h-3 animate-spin" /> : <Ban className="w-3 h-3" />}
-                          Cancel
+                          {t("appointments.cancel")}
                         </button>
                       )}
                     </div>

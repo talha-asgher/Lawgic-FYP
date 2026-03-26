@@ -18,7 +18,7 @@ typing-extensions>=4.8.0
 
 # --- SLM summaries (slm_summarizer.py: Qwen) + BGE-M3 (embed_bge_m3_child_chunks.py) ---
 torch>=2.0
-transformers>=4.40
+transformers>=4.44.0,<4.51.0
 FlagEmbedding
 
 # --- Postgres + pgvector (load_data_to_db.py, lawgic_retrieve.py use psycopg 3) ---

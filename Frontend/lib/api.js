@@ -316,6 +316,36 @@ export async function askAI(question, language = "en", sessionId = null) {
   return api.post("/ai/ask", { question, language, session_id: sessionId });
 }
 
+export async function ragAsk(
+  query,
+  {
+    actName = null,
+    category = null,
+    sectionNumber = null,
+    topKRetrieval = 15,
+    topKContext = 6,
+    searchTables = null,
+    searchForms = null,
+    signal = undefined,
+  } = {}
+) {
+  const body = {
+    query,
+    top_k_retrieval: topKRetrieval,
+    top_k_context: topKContext,
+  };
+  if (actName != null) body.act_name = actName;
+  if (category != null) body.category = category;
+  if (sectionNumber != null) body.section_number = sectionNumber;
+  if (searchTables !== null && searchTables !== undefined) body.search_tables = searchTables;
+  if (searchForms !== null && searchForms !== undefined) body.search_forms = searchForms;
+  return request("/rag/ask", {
+    method: "POST",
+    body: JSON.stringify(body),
+    signal,
+  });
+}
+
 export async function getAIHistory(sessionId) {
   return api.get("/ai/history", sessionId ? { session_id: sessionId } : {});
 }

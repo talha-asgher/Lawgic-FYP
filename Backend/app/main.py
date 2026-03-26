@@ -1,4 +1,6 @@
 # app/main.py
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
@@ -18,15 +20,25 @@ from app.routers import (
     reviews,
     documents,
     ai_qa,
+    rag,
 )
 from app.routers.documents import analysis_router
+from app.services.reranker_service import warm_reranker_if_enabled
 
 Base.metadata.create_all(bind=engine)
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    warm_reranker_if_enabled()
+    yield
+
 
 app = FastAPI(
     title="Lawgic API",
     description="AI-powered legal platform for Pakistan",
     version="1.0.0",
+    lifespan=lifespan,
 )
 
 origins = [
@@ -55,6 +67,7 @@ app.include_router(institutions.router)
 app.include_router(documents.router)
 app.include_router(analysis_router)
 app.include_router(ai_qa.router)
+app.include_router(rag.router)
 
 
 @app.get("/health")

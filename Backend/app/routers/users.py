@@ -39,6 +39,8 @@ def update_my_profile(
         current_user.name = update.name
     if update.phone_num is not None:
         current_user.phone_num = update.phone_num
+    if update.city is not None:
+        current_user.city = update.city
 
     db.commit()
     db.refresh(current_user)

@@ -366,13 +366,13 @@ export default function CasesPage() {
                   <div className="flex gap-3 mt-4">
                     <button onClick={() => handleRespond(req.request_id, 'accepted')}
                       disabled={!!actionLoading[req.request_id]}
-                      className="flex-1 py-2 bg-emerald-600 text-white text-sm font-medium rounded-lg hover:bg-emerald-700 transition-colors disabled:opacity-50 flex items-center justify-center gap-2">
+                      className="flex-1 py-2 bg-emerald-400 text-white text-sm font-medium rounded-lg hover:bg-emerald-700 transition-colors disabled:opacity-50 flex items-center justify-center gap-2">
                       {actionLoading[req.request_id] === 'accepted' ? <Loader2 className="w-4 h-4 animate-spin" /> : null}
                       {t("cases.accept")}
                     </button>
                     <button onClick={() => handleRespond(req.request_id, 'rejected')}
                       disabled={!!actionLoading[req.request_id]}
-                      className="flex-1 py-2 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50 flex items-center justify-center gap-2">
+                      className="flex-1 py-2 bg-red-400 text-white text-sm font-medium rounded-lg hover:bg-red-700 transition-colors disabled:opacity-50 flex items-center justify-center gap-2">
                       {actionLoading[req.request_id] === 'rejected' ? <Loader2 className="w-4 h-4 animate-spin" /> : null}
                       {t("cases.decline")}
                     </button>

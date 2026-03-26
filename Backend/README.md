@@ -1,9 +1,5 @@
 # Lawgic Backend (FastAPI)
 
-## Prerequisites
-- Python 3.11+
-- PostgreSQL running with the correct database and credentials (configure via `.env`)
-
 ## Setup
 
 ### 1. Create and activate a virtual environment

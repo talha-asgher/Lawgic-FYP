@@ -8,7 +8,6 @@ from sqlalchemy.orm import Session
 from app import models, schemas
 from app.deps import get_db
 from app.routers.auth import get_current_user
-from app.services.ai_service import get_answer  # pluggable interface
 
 router = APIRouter(
     prefix="/ai",

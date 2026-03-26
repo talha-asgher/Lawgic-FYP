@@ -51,7 +51,6 @@ export default function DocumentAnalysisPage() {
   const handleFileSelection = (selectedFile) => {
     setFile(selectedFile);
     setAnalysisResult(null);
-    simulateAnalysis();
   };
 
   const removeFile = () => {

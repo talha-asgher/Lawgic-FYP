@@ -10,7 +10,7 @@ const InheritanceCalculator = () => {
 
   const [heirs, setHeirs] = useState({
     husband: 0,
-    wives: 1,
+    wives: 0,
     sons: 0,
     daughters: 0,
     father: 0,

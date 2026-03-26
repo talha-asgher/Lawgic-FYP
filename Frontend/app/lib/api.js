@@ -112,12 +112,26 @@ export function getMyProfile() {
   return apiFetch("/users/me");
 }
 
+export function updateMyProfile(data) {
+  return apiFetch("/users/me", {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
 export function getMyStats() {
   return apiFetch("/users/me/stats");
 }
 
 export function getMyLawyerProfile() {
   return apiFetch("/lawyers/me");
+}
+
+export function updateLawyerProfile(data) {
+  return apiFetch("/lawyers/profile", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
 }
 
 export function searchLawyers(params = {}) {

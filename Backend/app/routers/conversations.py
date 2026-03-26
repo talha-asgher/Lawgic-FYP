@@ -203,7 +203,6 @@ def list_my_conversations(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    """List all conversations the current user participates in, newest first."""
     conv_ids = (
         db.query(models.ConversationParticipant.conv_id)
         .filter(models.ConversationParticipant.user_id == current_user.user_id)

@@ -23,7 +23,7 @@ def get_styles():
         spaceAfter=4,
         alignment=TA_CENTER,
         fontName='Helvetica-Bold',
-        textColor=colors.HexColor('#052379'),
+        textColor=colors.HexColor("#000000"),
     ))
     styles.add(ParagraphStyle(
         name='DocSubTitle',
@@ -41,7 +41,7 @@ def get_styles():
         spaceBefore=12,
         spaceAfter=6,
         fontName='Helvetica-Bold',
-        textColor=colors.HexColor('#052379'),
+        textColor=colors.HexColor("#000000"),
     ))
     styles.add(ParagraphStyle(
         name='BodyText2',

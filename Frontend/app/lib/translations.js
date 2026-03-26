@@ -101,6 +101,7 @@ const en = {
     errPasswordNumber: "Password must contain at least one number.",
     errPhoneLength: "Phone number must be at least 8 characters.",
     errRegistrationFailed: "Registration failed. Please try again.",
+    errEmailInvalid: "Please enter a valid email address.",
   },
   registerLawyer: {
     heading: "Lawyer Registration Portal",
@@ -565,6 +566,7 @@ const ur = {
     errPasswordNumber: "پاس ورڈ میں کم از کم ایک نمبر ہونا چاہیے۔",
     errPhoneLength: "فون نمبر کم از کم 8 حروف کا ہونا چاہیے۔",
     errRegistrationFailed: "رجسٹریشن ناکام۔ دوبارہ کوشش کریں۔",
+    errEmailInvalid: "براہ کرم ایک درست ای میل پتہ درج کریں۔",
   },
   registerLawyer: {
     heading: "وکیل رجسٹریشن پورٹل",

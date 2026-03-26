@@ -49,6 +49,22 @@ export default function LawgicRegister() {
       setError(t("registerUser.errPhoneLength"));
       return;
     }
+    if (formData.phone.length > 15) {
+      setError(t("registerUser.errPhoneLength"));
+      return;
+    }
+    if (
+          !formData.email.includes("@") ||
+          !formData.email.includes(".com") ||
+          formData.email.startsWith("@") ||
+          formData.email.endsWith("@") ||
+          formData.email.indexOf("@") === formData.email.length - 1 ||
+          formData.email.split("@")[0].length === 0 ||
+          formData.email.split("@")[1].split(".com")[0].length === 0
+        ) {
+          setError(t("registerUser.errEmailInvalid"));
+          return;
+        }
     setLoading(true);
     setError('');
     try {

@@ -27,6 +27,7 @@ class User(Base):
     name = Column(Text, nullable=False)
     password_hash = Column(Text, nullable=False)
     phone_num = Column(Text, nullable=True)
+    city = Column(Text, nullable=True)
     role = Column(Text, nullable=False)  # 'client' or 'lawyer'
     is_active = Column(Boolean, default=True)
     profile_image_url = Column(Text, nullable=True)

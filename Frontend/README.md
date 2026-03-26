@@ -1,8 +1,5 @@
 # Lawgic Frontend (Next.js)
 
-## Prerequisites
-- Node.js 18+
-
 ## Setup
 
 ### 1. Install dependencies

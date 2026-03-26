@@ -1,6 +1,7 @@
 # app/main.py
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy import text
 from sqlalchemy.orm import Session
 
 from app.database import engine, Base
@@ -13,13 +14,11 @@ from app.routers import (
     appointments,
     users,
     cases,
-    case_messages,
     conversations,
     reviews,
     documents,
     ai_qa,
 )
-from app.routers.documents import analysis_router
 
 Base.metadata.create_all(bind=engine)
 
@@ -48,12 +47,10 @@ app.include_router(users.router)
 app.include_router(lawyers.router)
 app.include_router(reviews.router)
 app.include_router(cases.router)
-app.include_router(case_messages.router)
 app.include_router(conversations.router)
 app.include_router(appointments.router)
 app.include_router(institutions.router)
 app.include_router(documents.router)
-app.include_router(analysis_router)
 app.include_router(ai_qa.router)
 
 

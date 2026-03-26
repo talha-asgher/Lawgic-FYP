@@ -47,6 +47,7 @@ class UserProfileOut(BaseModel):
     email: EmailStr
     name: str
     phone_num: Optional[str] = None
+    city: Optional[str] = None
     role: str
     profile_image_url: Optional[str] = None
 
@@ -58,6 +59,7 @@ class UserProfileUpdate(BaseModel):
     email: Optional[EmailStr] = None
     name: Optional[str] = None
     phone_num: Optional[str] = None
+    city: Optional[str] = None
 
 
 class PasswordChange(BaseModel):

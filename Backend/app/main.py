@@ -19,7 +19,6 @@ from app.routers import (
     documents,
     ai_qa,
 )
-from app.routers.documents import analysis_router
 
 Base.metadata.create_all(bind=engine)
 
@@ -53,7 +52,6 @@ app.include_router(conversations.router)
 app.include_router(appointments.router)
 app.include_router(institutions.router)
 app.include_router(documents.router)
-app.include_router(analysis_router)
 app.include_router(ai_qa.router)
 
 

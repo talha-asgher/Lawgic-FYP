@@ -25,7 +25,6 @@ def ask_legal_question(
 ):
     session_id = req.session_id or str(uuid.uuid4())
 
-    # Persist the question
     qa = models.QAInteraction(
         user_id=current_user.user_id,
         question=req.question,
@@ -45,7 +44,7 @@ def ask_legal_question(
         db.commit()
         raise HTTPException(status_code=503, detail="AI service is currently unavailable") from None
 
-    # Release DB connection before rerank / SLM (can take minutes; idle sessions get dropped by Postgres).
+    # Release DB connection before rerank / SLM
     db.commit()
 
     try:

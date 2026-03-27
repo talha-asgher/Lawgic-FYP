@@ -3,9 +3,9 @@
 Extract text from a single PDF using LlamaParser and save to a JSON file.
 
 Uses the same extraction logic as llamaparser_extractor.py. The PDF path is
-passed as an argument; the PDF must be under data/raw_pdfs/<category>/ where
+passed as an argument; the PDF must be under RAG/data/raw_pdfs/<category>/ where
 category is civil, criminal, or family. The output JSON is written to
-data/extracted_text/<category>/ with the same base filename.
+RAG/data/extracted_text/<category>/ with the same base filename.
 """
 
 import argparse
@@ -31,7 +31,7 @@ def main():
     parser.add_argument(
         "pdf_path",
         type=str,
-        help="Path to the PDF file (must be under data/raw_pdfs)",
+        help="Path to the PDF file (must be under RAG/data/raw_pdfs)",
     )
     args = parser.parse_args()
 
@@ -43,12 +43,12 @@ def main():
         print(f"Error: PDF file not found: {pdf_path}", file=sys.stderr)
         sys.exit(1)
 
-    raw_pdfs = (project_root / "data" / "raw_pdfs").resolve()
+    raw_pdfs = (project_root /"RAG" /"data" / "raw_pdfs").resolve()
     try:
         rel = pdf_path.resolve().relative_to(raw_pdfs)
     except ValueError:
         print(
-            f"Error: PDF must be under data/raw_pdfs. Got: {pdf_path}",
+            f"Error: PDF must be under RAG/data/raw_pdfs. Got: {pdf_path}",
             file=sys.stderr,
         )
         sys.exit(1)
@@ -57,13 +57,13 @@ def main():
     parts = rel.parts
     if not parts or parts[0].lower() not in ALLOWED_CATEGORIES:
         print(
-            f"Error: PDF must be under data/raw_pdfs/<category>/ where category is one of {ALLOWED_CATEGORIES}. Got: {pdf_path}",
+            f"Error: PDF must be under RAG/data/raw_pdfs/<category>/ where category is one of {ALLOWED_CATEGORIES}. Got: {pdf_path}",
             file=sys.stderr,
         )
         sys.exit(1)
     category = parts[0].lower()
 
-    out_dir = project_root / "data" / "extracted_text" / category
+    out_dir = project_root /"RAG" /"data" / "extracted_text" / category
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / pdf_path.with_suffix(".json").name
 

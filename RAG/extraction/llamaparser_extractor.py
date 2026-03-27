@@ -22,9 +22,9 @@ from llama_parse import LlamaParse
 
 # Paths for batch processing and resume state
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-RAW_PDFS_DIR = PROJECT_ROOT / "data" / "raw_pdfs"
-EXTRACTED_TEXT_DIR = PROJECT_ROOT / "data" / "extracted_text"
-LAST_PROCESSED_FILE = PROJECT_ROOT / "data" / ".last_processed_extraction.json"
+RAW_PDFS_DIR = PROJECT_ROOT /"RAG" /"data" / "raw_pdfs"
+EXTRACTED_TEXT_DIR = PROJECT_ROOT /"RAG" /"data" / "extracted_text"
+LAST_PROCESSED_FILE = PROJECT_ROOT/"RAG" / "data" / ".last_processed_extraction.json"
 CATEGORIES = ("civil", "criminal", "family")
 
 # Load environment variables
@@ -1072,10 +1072,7 @@ across pages rather than visual page boundaries.
                         footnote['end_pos'] = -1
             
             all_footnotes.extend(page_footnotes)
-            
-            # if page_footnotes:
-            #     print(f"  Found {len(page_footnotes)} footnote(s) on page {page_number}")
-            
+
             # Track positions for the document text (no separator)
             current_pos = len(extracted_text)
             extracted_text += doc_text
@@ -1086,39 +1083,6 @@ across pages rather than visual page boundaries.
             extracted_text += "\n"
             position_to_page[len(extracted_text) - 1] = page_number
         
-        # # Print text at specific positions
-        # print("=" * 80)
-        # print("TEXT AT SPECIFIC POSITIONS")
-        # print("=" * 80)
-        
-        # # Print text at positions 1738-1800
-        # if len(extracted_text) > 1800:
-        #     text_1738_1800 = extracted_text[1738:1800]
-        #     page_1738 = position_to_page.get(1738, "N/A")
-        #     page_1800 = position_to_page.get(1800, "N/A")
-        #     print(f"\nPositions 1738-1800 (Page {page_1738} to {page_1800}):")
-        #     print(f"  Text: {repr(text_1738_1800)}")
-        # else:
-        #     print("\nPositions 1738-1800: Text not available (extracted text too short)")
-        
-        # # Print text at positions 1950-2000
-        # if len(extracted_text) > 2000:
-        #     text_1950_2000 = extracted_text[1950:2000]
-        #     page_1950 = position_to_page.get(1950, "N/A")
-        #     page_2000 = position_to_page.get(2000, "N/A")
-        #     print(f"\nPositions 1950-2000 (Page {page_1950} to {page_2000}):")
-        #     print(f"  Text: {repr(text_1950_2000)}")
-        # else:
-        #     print("\nPositions 1950-2000: Text not available (extracted text too short)")
-        # print("=" * 80 + "\n")
-        
-      
-        # # Print only the second half of extracted text
-        # text_length = len(extracted_text)
-        # second_half_start = text_length // 2
-        # second_half = extracted_text[second_half_start-2000:]
-        # print("Extracted text (second half only)\n", second_half)
-       # print("All footnotes\n",all_footnotes)
         return extracted_text, all_footnotes, position_to_page
         
     except Exception as e:
@@ -1245,166 +1209,6 @@ def process_all_pdfs() -> None:
         save_last_processed(category, pdf_path.name)
 
     print("All PDFs processed.")
-
-
-# Unused function - only called in main() for testing
-# def print_footnotes(footnotes: List[Dict[str, str]]):
-#     """
-#     Print footnotes in a formatted way.
-#     
-#     Args:
-#         footnotes: List of footnote dictionaries
-#     """
-#     print("\n" + "=" * 80)
-#     print("FOOTNOTES EXTRACTION")
-#     print("=" * 80)
-#     
-#     if not footnotes:
-#         print("No footnotes found in the document.")
-#         return
-#     # Also print as a structured dictionary
-#     print("\n" + "=" * 80)
-#     print("FOOTNOTES AS DICTIONARY:")
-#     print("=" * 80)
-#     print(footnotes)
-
-
-# Unused function - only called in main() for testing
-# def print_page_boundary_chars(position_to_page: Dict[int, int], extracted_text: str, pages: List[int] = None):
-#     """
-#     Print first 30 and last 30 characters for specified pages (or all pages if pages is None).
-#     
-#     Args:
-#         position_to_page: Dictionary mapping character position to page number
-#         extracted_text: The extracted text
-#         pages: List of page numbers to show (default: None, shows all pages)
-#     """
-#     print("\n" + "=" * 80)
-#     print("PAGE BOUNDARY CHARACTERS (First 30 & Last 30)")
-#     print("=" * 80)
-#     
-#     if not position_to_page or not extracted_text:
-#         print("No position mapping or text available.")
-#         return
-#     
-#     # If pages not specified, get all pages from position mapping
-#     if pages is None:
-#         pages = sorted(set(position_to_page.values()))
-#     
-#     # Find positions for each page
-#     for page in pages:
-#         page_positions = [pos for pos, p in position_to_page.items() if p == page]
-#         
-#         if not page_positions:
-#             print(f"\nPage {page}: No positions found")
-#             continue
-#         
-#         first_pos = min(page_positions)
-#         last_pos = max(page_positions)
-#         
-#         # Get first 30 characters
-#         first_chars_start = first_pos
-#         first_chars_end = min(first_pos + 30, len(extracted_text))
-#         first_30_chars = extracted_text[first_chars_start:first_chars_end]
-#         
-#         # Get last 30 characters
-#         last_chars_start = max(first_pos, last_pos - 29)
-#         last_chars_end = min(last_pos + 1, len(extracted_text))
-#         last_30_chars = extracted_text[last_chars_start:last_chars_end]
-#         
-#         print(f"\nPage {page}:")
-#         print(f"  Position range: {first_pos} to {last_pos}")
-#         print(f"  First 30 characters (positions {first_chars_start}-{first_chars_end-1}):")
-#         print(f"    {repr(first_30_chars)}")
-#         print(f"  Last 30 characters (positions {last_chars_start}-{last_chars_end-1}):")
-#         print(f"    {repr(last_30_chars)}")
-
-
-# Unused function - only called in main() for testing
-# def print_position_mapping(position_to_page: Dict[int, int], extracted_text: str = "", sample_size: int = 50):
-#     """
-#     Print character position to page mapping for verification.
-#     
-#     Args:
-#         position_to_page: Dictionary mapping character position to page number
-#         extracted_text: The extracted text (optional, for showing actual characters)
-#         sample_size: Number of sample positions to print (default: 50)
-#     """
-#     print("\n" + "=" * 80) 
-#     print("CHARACTER POSITION TO PAGE MAPPING")
-#     print("=" * 80)
-#     
-#     if not position_to_page:
-#         print("No position mapping available.")
-#         return
-#     
-#     total_positions = len(position_to_page)
-#     print(f"\nTotal character positions mapped: {total_positions}")
-#     
-#     # Print sample positions
-#     print(f"\nSample positions (first {sample_size}):")
-#     print("-" * 80)
-#     print(f"{'Position':<12} {'Page':<8} {'Character':<20} {'Context':<30}")
-#     print("-" * 80)
-#     
-#     sorted_positions = sorted(position_to_page.items())
-#     for i, (pos, page) in enumerate(sorted_positions[:sample_size]):
-#         # Get actual character if text is available
-#         if extracted_text and pos < len(extracted_text):
-#             try:
-#                 char = extracted_text[pos]
-#                 # Show context (surrounding characters)
-#                 start = max(0, pos - 10)
-#                 end = min(len(extracted_text), pos + 10)
-#                 context = extracted_text[start:end].replace('\n', '\\n')
-#                 # Handle encoding issues
-#                 try:
-#                     char_repr = repr(char) if (char.isprintable() or char == '\n') else f"\\x{ord(char):02x}"
-#                     context_display = context[:30]
-#                 except (UnicodeEncodeError, UnicodeDecodeError):
-#                     char_repr = f"\\x{ord(char):02x}"
-#                     context_display = context[:30].encode('ascii', 'replace').decode('ascii')
-#             except (IndexError, UnicodeEncodeError):
-#                 char_repr = "N/A"
-#                 context_display = "N/A"
-#         else:
-#             char_repr = "N/A"
-#             context_display = "N/A"
-#         
-#         try:
-#             print(f"{pos:<12} {page:<8} {char_repr:<20} {context_display[:30]:<30}")
-#         except UnicodeEncodeError:
-#             # Fallback for encoding issues
-#             print(f"{pos:<12} {page:<8} {char_repr:<20} [context]")
-#     
-#     if total_positions > sample_size:
-#         print(f"\n... and {total_positions - sample_size} more positions")
-#     
-#     # Print page boundaries
-#     print(f"\n{'=' * 80}")
-#     print("PAGE BOUNDARIES:")
-#     print("-" * 80)
-#     
-#     # Find first and last position for each page
-#     page_boundaries = {}
-#     for pos, page in position_to_page.items():
-#         if page not in page_boundaries:
-#             page_boundaries[page] = {'first': pos, 'last': pos}
-#         else:
-#             page_boundaries[page]['first'] = min(page_boundaries[page]['first'], pos)
-#             page_boundaries[page]['last'] = max(page_boundaries[page]['last'], pos)
-#     
-#     for page in sorted(page_boundaries.keys()):
-#         boundaries = page_boundaries[page]
-#         print(f"Page {page}: positions {boundaries['first']} to {boundaries['last']} "
-#               f"(span: {boundaries['last'] - boundaries['first'] + 1} characters)")
-#     
-#     print(f"\n{'=' * 80}")
-#     print("POSITION MAPPING SUMMARY:")
-#     print("-" * 80)
-#     print(f"Total positions: {total_positions}")
-#     print(f"Pages covered: {len(page_boundaries)}")
-#     print(f"Position range: {min(position_to_page.keys())} to {max(position_to_page.keys())}")
 
 
 def main():

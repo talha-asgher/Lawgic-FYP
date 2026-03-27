@@ -18,7 +18,7 @@ DEFAULT_EMBED_MODEL = os.environ.get("LAWGIC_EMBED_MODEL", "bge-m3")
 
 _WS_RE = re.compile(r"\s+")
 _TOKEN_RE = re.compile(r"[A-Za-z0-9\u0600-\u06FF]+", re.UNICODE)
-# Narrow routing hints: broad regexes (e.g. "schedule", "rows") fire on normal legal prose.
+
 _TABLE_ROUTE_KEYWORDS = ("table", "rate", "list", "schedule")
 _FORM_ROUTE_KEYWORDS = ("form", "application", "schedule")
 _SECTION_RES = (
@@ -368,7 +368,7 @@ def section_title_keyword_overlap(query_tokens: Set[str], section_title: str) ->
     return min(1.0, inter / max(1, len(query_tokens)))
 
 
-# Light query/title heuristics: down-rank evidentiary/procedural headings for substantive Qs (best-effort).
+
 _SUBSTANTIVE_QUERY_RE = re.compile(
     r"\b(what can|what should|what may|how can|remedy|relief|punishment|penalt|offen[sc]e|liability|"
     r"sue|claim|right|divorce|dissolution|custody|maintenance|inherit|talaq|khul|dower|dowry)\b",

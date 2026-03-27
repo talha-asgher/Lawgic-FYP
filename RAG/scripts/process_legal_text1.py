@@ -290,115 +290,6 @@ def apply_form_and_table_placeholders_to_sections(
         section["text"] = "".join(out_parts)
 
 
-# def extract_tables_from_text(raw_text: str):
-#     """
-#     Finds markdown tables and replaces them with placeholders.
-    
-#     Returns:
-#       cleaned_text: Text with tables replaced by placeholders
-#       tables: list of dicts containing:
-#         table_id, markdown, char_start
-#     """
-#     tables = []
-#     table_counter = 1
-    
-#     def _replace(match):
-#         nonlocal table_counter
-#         table_md = match.group(0)
-#         table_id = f"TABLE_{table_counter}"
-#         char_start = match.start()
-#         char_end = match.end()
-#         tables.append({
-#             "table_id": table_id,
-#             "markdown": table_md.strip(),
-#             "char_start": char_start,
-#             "char_end": char_end,
-#         })
-#         table_counter += 1
-#         return f"\n[{table_id}]\n"
-    
-#     cleaned_text = TABLE_PATTERN.sub(_replace, raw_text)
-#     return cleaned_text, tables
-
-# _spans_overlap: only used by the commented-out old attach_forms_tables_to_sections
-# def _spans_overlap(a_start: int, a_end: int, b_start: int, b_end: int) -> bool:
-#     """Return True if two [start, end) spans overlap at all."""
-#     if not (isinstance(a_start, int) and isinstance(a_end, int) and
-#             isinstance(b_start, int) and isinstance(b_end, int)):
-#         return False
-#     return not (a_end <= b_start or a_start >= b_end)
-
-# def attach_forms_tables_to_sections(
-#     sections: List[Dict],
-#     forms: List[Dict],
-#     tables: List[Dict],
-# ) -> None:
-#     """
-#     For each section in `sections`, attach:
-#       - section["forms"]  = list of form dicts inside this section span
-#       - section["tables"] = list of table dicts inside this section span
-#     """
-#     for sec in sections:
-#         s_start = sec.get("start_pos")
-#         s_end = sec.get("end_pos")
-
-#         if not (isinstance(s_start, int) and isinstance(s_end, int) and s_start < s_end):
-#             continue
-
-#         sec_forms = []
-#         for f in forms:
-#             f_start = f.get("char_start")
-#             f_end = f.get("char_end")
-#             if _spans_overlap(s_start, s_end, f_start, f_end):
-#                 sec_forms.append(f)
-
-#         sec_tables = []
-#         for t in tables:
-#             t_start = t.get("char_start")
-#             t_end = t.get("char_end")
-#             if _spans_overlap(s_start, s_end, t_start, t_end):
-#                 sec_tables.append(t)
-
-#         if sec_forms:
-#             sec["forms"] = sec_forms
-#         else:
-#             sec["forms"] = []
-
-#         if sec_tables:
-#             sec["tables"] = sec_tables
-#         else:
-#             sec["tables"] = []
-
-# attach_forms_tables_to_sections: section form_ids/table_ids are never read;
-# parent chunk metadata is derived from scanning text for [TABLE_n]/[FORM_n] placeholders.
-# def attach_forms_tables_to_sections(sections, forms, tables):
-#     for sec in sections:
-#         s_start = sec.get("start_pos")
-#         s_end = sec.get("end_pos")
-#         if not (isinstance(s_start, int) and isinstance(s_end, int) and s_start < s_end):
-#             continue
-#
-#         sec_forms = []
-#         sec_tables = []
-#
-#         for f in forms:
-#             f_start, f_end = f.get("char_start"), f.get("char_end")
-#             if isinstance(f_start, int) and isinstance(f_end, int):
-#                 # Form fully inside this section
-#                 if s_start <= f_start and f_end <= s_end:
-#                     sec_forms.append(f["form_id"])
-#
-#         for t in tables:
-#             t_start, t_end = t.get("char_start"), t.get("char_end")
-#             if isinstance(t_start, int) and isinstance(t_end, int):
-#                 if s_start <= t_start and t_end <= s_end:
-#                     sec_tables.append(t["table_id"])
-#
-#         if sec_forms:
-#             sec["form_ids"] = sec_forms
-#         if sec_tables:
-#             sec["table_ids"] = sec_tables
-
 
 def extract_tables_from_text(
     raw_text: str,
@@ -434,7 +325,7 @@ def extract_tables_from_text(
         table_start = match.start()
         table_end = match.end()
 
-        # ✅ If this table lies inside any FORM span, skip it (no extraction)
+        # If this table lies inside any FORM span, skip it (no extraction)
         if _overlaps_form(table_start, table_end):
             return match.group(0)  # leave the original table text unchanged
 
@@ -452,41 +343,7 @@ def extract_tables_from_text(
     cleaned_text = TABLE_PATTERN.sub(_replace, raw_text)
     return cleaned_text, tables
 
-# remove_tables_from_text: unused; only referenced in commented-out code.
-# Pipeline uses extract_tables_from_text (placeholders) instead.
-# def remove_tables_from_text(text: str) -> str:
-#     return TABLE_PATTERN.sub("\n", text)
 
-
-# def extract_forms_from_text(raw_text: str):
-#     """
-#     Finds forms between <<<FORM_START>>> and <<<FORM_END>>> markers and replaces them with placeholders.
-    
-#     Returns:
-#       cleaned_text: Text with forms replaced by placeholders
-#       forms: list of dicts containing:
-#         form_id, markdown, char_start
-#     """
-#     forms = []
-#     form_counter = 1
-    
-#     def _replace(match):
-#         nonlocal form_counter
-#         form_content = match.group(1)  # Content between markers
-#         form_id = f"FORM_{form_counter}"
-#         char_start = match.start()
-#         char_end = match.end()
-#         forms.append({
-#             "form_id": form_id,
-#             "markdown": form_content.strip(),
-#             "char_start": char_start,
-#             "char_end": char_end,
-#         })
-#         form_counter += 1
-#         return f"\n[{form_id}]\n"
-    
-#     cleaned_text = FORM_PATTERN.sub(_replace, raw_text)
-#     return cleaned_text, forms
 def extract_forms_from_text(raw_text: str):
     """
     Finds forms and replaces them with placeholders.
@@ -600,11 +457,6 @@ def extract_forms_from_text(raw_text: str):
     return cleaned_text, forms
 
 
-# remove_forms_from_text: unused; only referenced in commented-out code.
-# Pipeline uses extract_forms_from_text (placeholders) instead.
-# def remove_forms_from_text(text: str) -> str:
-#     return FORM_PATTERN.sub("\n", text)
-
 
 def clean_text(raw_text: str, position_to_page: Optional[Dict[int, int]] = None, skip_toc_detection: bool = False) -> Tuple[str, Dict[int, int]]:
     """
@@ -627,15 +479,6 @@ def clean_text(raw_text: str, position_to_page: Optional[Dict[int, int]] = None,
     lines = raw_text.split('\n')
     cleaned_lines = []
     
-    # Use provided position_to_page or build it from page markers
-    # if position_to_page is None:
-    #     position_to_page = {}
-    #     current_position = 0
-    #     current_page = 1
-    #     build_position_mapping = True
-    # else:
-    #     current_position = 0
-    #     build_position_mapping = False
     position_to_page = {}  # Always return empty dict
     
     # Patterns
@@ -680,11 +523,6 @@ def clean_text(raw_text: str, position_to_page: Optional[Dict[int, int]] = None,
         # Add line to cleaned text
         cleaned_lines.append(line)
         
-        # Track position to page mapping (only if building it)
-        # if build_position_mapping:
-        #     for i in range(len(line)):
-        #         position_to_page[current_position + i] = current_page
-        #     current_position += len(line) + 1  # +1 for newline
     
     cleaned_text = '\n'.join(cleaned_lines)
 
@@ -755,29 +593,6 @@ def normalize_schedule_section_text(text: str) -> str:
     if not text:
         return text
     
-    # # Protect placeholders before processing
-    # placeholder_map = {}
-    # placeholder_counter = 0
-    
-    # def protect_form_placeholder(match):
-    #     nonlocal placeholder_counter
-    #     placeholder = match.group(0)
-    #     protected = f"__PLACEHOLDER_FORM_{placeholder_counter}__"
-    #     placeholder_map[protected] = placeholder
-    #     placeholder_counter += 1
-    #     return protected
-    
-    # def protect_table_placeholder(match):
-    #     nonlocal placeholder_counter
-    #     placeholder = match.group(0)
-    #     protected = f"__PLACEHOLDER_TABLE_{placeholder_counter}__"
-    #     placeholder_map[protected] = placeholder
-    #     placeholder_counter += 1
-    #     return protected
-    
-    # # Protect placeholders
-    # text = re.sub(r"\[FORM_\d+\]", protect_form_placeholder, text)
-    # text = re.sub(r"\[TABLE_\d+\]", protect_table_placeholder, text)
     
     lines = text.split('\n')
     cleaned_lines = []
@@ -1404,177 +1219,7 @@ def remove_footnotes_from_section_text(
     Returns:
         Text with footnote text removed (but reference markers kept)
     """
-    # OLD IMPLEMENTATION - COMMENTED OUT
-    # if start_pos == -1 or end_pos == -1:
-    #     return text
-    # 
-    # if start_pos >= len(raw_text) or end_pos > len(raw_text):
-    #     return text
-    # 
-    # # Get the section text span from raw_text
-    # section_text_span = raw_text[start_pos:end_pos]
-    # lines = section_text_span.split('\n')
-    # 
-    # # Pattern to match superscript at start of line
-    # superscript_pattern = re.compile(r'^([¹²³⁴⁵⁶⁷⁸⁹⁰]+)')
-    # 
-    # # Pattern to match section definition items like (a), (b), (f), etc.
-    # # This helps distinguish section content from footnotes
-    # section_item_pattern = re.compile(r'^[¹²³⁴⁵⁶⁷⁸⁹⁰]*\[?\([a-z]\)', re.IGNORECASE)
-    # 
-    # # Pattern to match page markers (footnotes appear before these)
-    # page_marker_pattern = re.compile(r'Page\s+\d+\s+of\s+\d+', re.IGNORECASE)
-    # 
-    # # Track which lines are footnotes
-    # is_footnote_line = [False] * len(lines)
-    # 
-    # # Search from the end backwards to find footnote regions
-    # # Footnotes typically appear at the end of pages, before page markers
-    # for i in range(len(lines) - 1, -1, -1):  # Iterate backwards from end
-    #     line = lines[i]
-    #     line_stripped = line.strip()
-    #     
-    #     # Check if this line has a page marker
-    #     if page_marker_pattern.search(line):
-    #         # Found a page marker - look backwards from here for footnotes
-    #         # Continue backwards until we hit normal text or a separator
-    #         lookback_end = i
-    #         
-    #         # Look backwards from the page marker until we find normal text or separator
-    #         j = i - 1
-    #         while j >= 0:
-    #             if is_footnote_line[j]:
-    #                 j -= 1
-    #                 continue  # Already marked
-    #             
-    #             prev_line = lines[j].strip()
-    #             if not prev_line:
-    #                 j -= 1
-    #                 continue
-    #             
-    #             # Check for separator (horizontal line, multiple dashes/underscores)
-    #             if re.match(r'^[_\-\s]{10,}$', prev_line):
-    #                 # Found a separator - stop here
-    #                 break
-    #             
-    #             # Check if line starts with superscript
-    #             match = superscript_pattern.match(prev_line)
-    #             if match:
-    #                 # Check if it's section content (like ¹[(f) "specified person"...])
-    #                 if section_item_pattern.match(prev_line):
-    #                     # This is section content, NOT a footnote - stop here (normal text found)
-    #                     break
-    #                 
-    #                 # This is likely a footnote
-    #                 is_footnote_line[j] = True
-    #                 
-    #                 # Also mark continuation lines (lines after the footnote marker)
-    #                 k = j + 1
-    #                 while k < lookback_end and k < len(lines):
-    #                     next_line = lines[k].strip()
-    #                     if not next_line:
-    #                         k += 1
-    #                         continue
-    #                     
-    #                     # Check for separator
-    #                     if re.match(r'^[_\-\s]{10,}$', next_line):
-    #                         break
-    #                     
-    #                     # Check if it's a continuation (short, not a header, not a new section, not a page marker)
-    #                     if (len(next_line) < 200 and 
-    #                         not next_line.startswith('#') and 
-    #                         not re.match(r'^\d+\.', next_line) and
-    #                         not superscript_pattern.match(next_line) and
-    #                         not page_marker_pattern.search(next_line)):
-    #                         is_footnote_line[k] = True
-    #                         k += 1
-    #                     else:
-    #                         # Normal text found - stop
-    #                         break
-    #                 
-    #                 j -= 1
-    #             else:
-    #                 # No superscript - check if this looks like normal text
-    #                 # If it's a long line, starts with section number, or looks like main content, stop
-    #                 if (len(prev_line) > 100 or 
-    #                     re.match(r'^\d+\.', prev_line) or
-    #                     prev_line.startswith('**') or
-    #                     re.match(r'^[A-Z][A-Z\s]{20,}', prev_line)):  # All caps header-like text
-    #                     # Normal text found - stop
-    #                     break
-    #                 j -= 1
-    # 
-    # # Also check for standalone footnote lines near the end of the section
-    # # (in case there's no page marker in this section)
-    # # Search from the end backwards until we find normal text or separator
-    # for i in range(len(lines) - 1, -1, -1):
-    #     if is_footnote_line[i]:
-    #         continue  # Already marked
-    #     
-    #     line = lines[i]
-    #     line_stripped = line.strip()
-    #     
-    #     if not line_stripped:
-    #         continue
-    #     
-    #     # Check for separator (horizontal line, multiple dashes/underscores)
-    #     if re.match(r'^[_\-\s]{10,}$', line_stripped):
-    #         # Found a separator - stop here
-    #         break
-    #     
-    #     # Check if this line starts with a superscript marker
-    #     match = superscript_pattern.match(line_stripped)
-    #     if match:
-    #         # Check if this is actually section content
-    #         if section_item_pattern.match(line_stripped):
-    #             # This is section content, NOT a footnote - stop here (normal text found)
-    #             break
-    #         
-    #         # This is likely a footnote - mark it and continuation lines
-    #         is_footnote_line[i] = True
-    #         
-    #         # Mark continuation lines forward
-    #         j = i + 1
-    #         while j < len(lines):
-    #             next_line = lines[j].strip()
-    #             if not next_line:
-    #                 j += 1
-    #                 continue
-    #             
-    #             # Check for separator
-    #             if re.match(r'^[_\-\s]{10,}$', next_line):
-    #                 break
-    #             
-    #             # Check if it's a continuation (short, not a header, not a new section)
-    #             if (len(next_line) < 200 and 
-    #                 not next_line.startswith('#') and 
-    #                 not re.match(r'^\d+\.', next_line) and
-    #                 not superscript_pattern.match(next_line)):
-    #                 is_footnote_line[j] = True
-    #                 j += 1
-    #             else:
-    #                 # Normal text found - stop
-    #                 break
-    #     else:
-    #         # No superscript - check if this looks like normal text
-    #         # If it's a long line, starts with section number, or looks like main content, stop
-    #         if (len(line_stripped) > 100 or 
-    #             re.match(r'^\d+\.', line_stripped) or
-    #             line_stripped.startswith('**') or
-    #             re.match(r'^[A-Z][A-Z\s]{20,}', line_stripped)):  # All caps header-like text
-    #             # Normal text found - stop
-    #             break
-    # 
-    # # Build cleaned text by skipping footnote lines
-    # cleaned_lines = []
-    # for i, line in enumerate(lines):
-    #     if not is_footnote_line[i]:
-    #         cleaned_lines.append(line)
-    # 
-    # cleaned_text = '\n'.join(cleaned_lines)
-    # return cleaned_text
-    
-    # NEW IMPLEMENTATION
+   
     if start_pos == -1 or end_pos == -1:
         return text
     
@@ -2254,10 +1899,6 @@ def extract_schedule_sections(text: str, raw_text: str, position_to_page: Option
                 # Group 1 doesn't exist or match is None - schedule has no number
                 schedule_number = '-'
             
-            # print(f"\nDEBUG: SCHEDULE {schedule_idx + 1}: match at position {schedule_start}-{schedule_end}")
-            # print(f"  Match text: {repr(text[schedule_start:min(schedule_start+100, len(text))])}")
-            # print(f"  Extracted schedule number: {schedule_number}")
-            
             # Find the end of this SCHEDULE section
             # SCHEDULE ends at the end of text, but if there are multiple SCHEDULE sections,
             # each one ends at the start of the next SCHEDULE
@@ -2271,9 +1912,6 @@ def extract_schedule_sections(text: str, raw_text: str, position_to_page: Option
             
             # Extract SCHEDULE text (only the text within this SCHEDULE section)
             schedule_text = text[schedule_start:schedule_text_end].strip()
-            
-            # print(f"  Schedule text end: {schedule_text_end}")
-            # print(f"  Schedule text length: {len(schedule_text)}")
             
             if not schedule_text:
                 print(f"  WARNING: Schedule text is empty, skipping")
@@ -2620,13 +2258,6 @@ def extract_schedule_sections(text: str, raw_text: str, position_to_page: Option
                         'page_numbers': subsection_pages
                     })
             
-            # print(f"  DEBUG: Finished processing subsections loop. Total subsections: {len(subsections)}")
-            
-            # Create sections based on whether subsections were found
-            # print(f"\nDEBUG: Processing SCHEDULE {schedule_idx + 1}")
-            # print(f"  Schedule start: {schedule_start}, end: {schedule_text_end}")
-            # print(f"  Schedule text length: {len(schedule_text)}")
-            # print(f"  Number of subsections found: {len(subsections)}")
             if subsections:
                 print(f"  Creating {len(subsections)} subsection sections")
                 # Create a section for each subsection
@@ -2670,26 +2301,6 @@ def extract_schedule_sections(text: str, raw_text: str, position_to_page: Option
             traceback.print_exc()
             continue
     
-    # # Debug: Print all SCHEDULE sections and subsections
-    # print("\n" + "="*80)
-    # print("SCHEDULE SECTIONS EXTRACTION DEBUG")
-    # print("="*80)
-    # print(f"Total SCHEDULE sections found: {len(schedule_sections)}")
-    # print()
-    
-    # for idx, schedule_sec in enumerate(schedule_sections, 1):
-    #     print(f"SCHEDULE Section {idx}:")
-    #     print(f"  Number: {schedule_sec['number']}")
-    #     print(f"  Title: {schedule_sec['title']}")
-    #     print(f"  Start Position: {schedule_sec['start_pos']}")
-    #     print(f"  End Position: {schedule_sec['end_pos']}")
-    #     print(f"  Page Numbers: {schedule_sec.get('page_numbers', [])}")
-    #     text_preview = schedule_sec['text'][:200] + "..." if len(schedule_sec['text']) > 200 else schedule_sec['text']
-    #     print(f"  Text Preview: {text_preview}")
-    #     print()
-    
-    # print("="*80)
-    # print()
     
     return schedule_sections
 
@@ -2736,8 +2347,6 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
             text = text.replace(k, v)
         return text
     sections = []
-    # print("TEXT\n\n")
-    # print(text)
     
     # Pattern to match section headers:
     # - **1. Title** or **1 Title** (with or without period)
@@ -3204,30 +2813,6 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
             section_number = match.group(1).strip()
             captured_content = match.group(2).strip() if match.lastindex >= 2 else ""
         
-        # # DEBUG: Track section title extraction for specific sections
-        # if section_number in ['2', '8', '15', '18', '19']:
-        #     print(f"\n{'='*80}")
-        #     print(f"DEBUG: Section Title Extraction for Section {section_number}")
-        #     print(f"{'='*80}")
-        #     print(f"Match pattern: {match.re.pattern[:100]}...")
-        #     print(f"Match text: {repr(text[match.start():match.start()+150])}")
-        #     print(f"Section number: {repr(section_number)}")
-        #     print(f"Captured content: {repr(captured_content)}")
-        #     print(f"Captured content length: {len(captured_content) if captured_content else 0}")
-        #     # Check if captured_content contains the full title between ** markers
-        #     if captured_content:
-        #         # Look for ** markers in the original match
-        #         full_match_text = text[match.start():match.end()]
-        #         print(f"Full match text: {repr(full_match_text[:300])}")
-        #         # Check if there are ** markers in the match
-        #         bold_markers = re.findall(r'\*\*[^*]+\*\*', full_match_text)
-        #         print(f"Bold markers found in match: {bold_markers}")
-        #         # Try to extract the full title between the opening **NUMBER. and closing **
-        #         title_match = re.search(r'\*\*\d+[A-Za-z-]*\.?\s+([^*]+?)\*\*', full_match_text)
-        #         if title_match:
-        #             full_title_in_match = title_match.group(1).strip()
-        #             print(f"Full title extracted from match (between ** markers): {repr(full_title_in_match)}")
-        
         # Check if this is an omitted/repealed/deleted section
         is_omitted_section = False
         omitted_status = None
@@ -3395,13 +2980,6 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
             # Extract section title - prioritize captured_content for ALL patterns
             section_title = ""
             
-            # # DEBUG: Track title extraction for specific sections
-            # debug_section = section_number in ['2', '8', '15', '18', '19']
-            # if debug_section:
-            #     print(f"  Before title extraction:")
-            #     print(f"    captured_content: {repr(captured_content)}")
-            #     print(f"    section_content preview: {repr(section_content[:100])}")
-            
             # For ALL patterns, captured_content should contain the title
             # This includes both superscript patterns and the main pattern
             if captured_content:
@@ -3409,41 +2987,24 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
                 # The title might end with closing **, period, or em dash
                 # First, remove any closing ** and period
                 title_text = captured_content.strip()
-                # if debug_section:
-                #     print(f"    title_text after strip: {repr(title_text)}")
                 # Remove closing ** and period if present
                 title_text = re.sub(r'\*\*\.?$', '', title_text).strip()
-                # if debug_section:
-                #     print(f"    title_text after removing **: {repr(title_text)}")
                 # Extract title before em dash or en dash if present
                 # Handle both — (em dash) and – (en dash)
                 title_match = re.match(r'^([^—–]+)', title_text)
                 if title_match:
                     section_title = title_match.group(1).strip()
-                    # if debug_section:
-                    #     print(f"    section_title after dash removal: {repr(section_title)}")
+
                     # Remove trailing period or markdown bold markers
                     section_title = re.sub(r'[.\*\*]+$', '', section_title).strip()
-                    # if debug_section:
-                    #     print(f"    section_title final: {repr(section_title)}")
                 else:
                     # Use the whole title_text as title
                     section_title = title_text
-                    # if debug_section:
-                    #     print(f"    section_title (no dash): {repr(section_title)}")
                     # Remove trailing period or markdown bold markers
                     section_title = re.sub(r'[.\*\*]+$', '', section_title).strip()
-                    # if debug_section:
-                    #     print(f"    section_title final: {repr(section_title)}")
-            
-            # If title is still empty, extract from section_content (fallback)
-            # This should rarely happen now that closing ** is compulsory
-            # if debug_section:
-            #     print(f"  Checking if title is empty before fallback: {repr(section_title)}")
-            #     print(f"  Title is empty: {not section_title}")
+                  
             if not section_title:
-                # if debug_section:
-                #     print(f"  Title is empty, using fallback from section_content")
+
                 # Pakistani legal sections often have format: "Title.—(1) Content" or "Title.**—(1) Content"
                 # Try to extract title before the em dash
                 title_match = re.match(r'^([^.—]+(?:\.|—|$))', section_content)
@@ -3451,8 +3012,7 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
                     section_title = title_match.group(1).strip()
                     # Remove trailing em dash, period, or markdown bold markers
                     section_title = re.sub(r'[.—\*\*]+$', '', section_title).strip()
-                    # if debug_section:
-                    #     print(f"  Fallback extracted title from em dash: {repr(section_title)}")
+
                 else:
                 # Fallback: first line
                     lines = section_content.split('\n')
@@ -3464,19 +3024,10 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
                     sentence_match = re.match(r'^([^.]{1,100})\.', section_title)
                     if sentence_match:
                         section_title = sentence_match.group(1).strip()
-                        # if debug_section:
-                        #     print(f"  Fallback extracted title from first line: {repr(section_title)}")
-            
+                    
             # Final fallback: if title is still empty, use section number as title
             if not section_title or section_title.strip() == "":
                 section_title = f"Section {section_number}"
-            
-            # DEBUG: Print final section title for specific sections
-            # if debug_section:
-            #     print(f"  Final section_title (before any modifications): {repr(section_title)}")
-            #     print(f"  section_title length: {len(section_title) if section_title else 0}")
-            #     print(f"  section_title is truthy: {bool(section_title)}")
-            #     print(f"{'='*80}\n")
             
             # SAFEGUARD: Normal sections (with numeric section numbers) should NEVER have SCHEDULE titles
             # If a normal section somehow got a SCHEDULE title, it's a bug - fix it
@@ -5793,24 +5344,7 @@ def create_child_chunks(
         # DEBUG: Track page number assignment for specific chunk
         # Note: chunk_idx is the index in the chunks list for this parent
         chunk_idx_local = len(child_chunks)  # Current chunk index
-        # if parent_chunk.metadata.get('section_number') == '2' and chunk_idx_local == 1:
-        #     print(f"\n{'='*80}")
-        #     print(f"DEBUG: Page Number Assignment for Section 2, Chunk {chunk_idx_local + 1}")
-        #     print(f"{'='*80}")
-        #     print(f"Parent start_pos_raw: {parent_start_pos_raw}")
-        #     print(f"Parent end_pos_raw: {parent_end_pos_raw}")
-        #     print(f"Child start_pos_raw: {child_start_pos_raw}")
-        #     print(f"Child end_pos_raw: {child_end_pos_raw}")
-        #     print(f"position_to_page provided: {position_to_page is not None}")
-        #     if position_to_page:
-        #         print(f"position_to_page has {len(position_to_page)} entries")
-        #         # Check if positions exist in position_to_page
-        #         if child_start_pos_raw != -1:
-        #             pages_at_start = [position_to_page.get(pos) for pos in range(child_start_pos_raw, min(child_start_pos_raw + 10, child_end_pos_raw)) if pos in position_to_page]
-        #             print(f"Pages near start position: {pages_at_start[:5]}")
-        #     print(f"Child pages assigned: {child_pages}")
-        #     print(f"Child text preview: {repr(child_text_normalized[:100])}")
-        #     print(f"{'='*80}\n")
+
         
         # Clean markdown artifacts from child text
         clean_child_text = clean_markdown_artifacts(child_text)
@@ -5892,122 +5426,7 @@ def process_legal_text(
     Returns:
         Tuple of (parent_chunks, child_chunks, table_chunks)
     """
-    # STEP 1: Extract forms and tables from raw_text at the very start
-    # CRITICAL EXTRACTION ORDER (MANDATORY):
-    # (a) Extract forms FIRST - forms use <<<FORM_START>>> markers that must be processed before tables
-    # (b) Extract tables SECOND - tables are extracted from text that may have had forms removed
-    # (c) Then perform normalization and chunking
-    # 
-    # Why forms first? Forms can contain table-like structures, and form markers are explicit.
-    # Extracting forms first ensures form boundaries are clear before table pattern matching.
-    # We'll use raw_text for section extraction to preserve positions
-    # _, extracted_forms = extract_forms_from_text(raw_text)
-    # #_, extracted_tables = extract_tables_from_text(raw_text)
-    # # Build list of (start, end) spans for all forms in raw_text
-    # form_spans: List[Tuple[int, int]] = [
-    #     (f["char_start"], f["char_end"]) for f in extracted_forms
-    # ]
-
-    # # 2) Extract tables from raw_text, explicitly skipping any region that overlaps a FORM
-    # _, extracted_tables = extract_tables_from_text(
-    #     raw_text,
-    #     skip_spans=form_spans,
-    # )
-
-#     # ======================================================
-# # STEP A: Extract FORMS and TABLES ONCE (raw_text only)
-# # ======================================================
-
-#     text_for_chunking = raw_text
-
-# # 1) Extract FORMS first (highest priority)
-#     text_for_chunking, extracted_forms = extract_forms_from_text(
-#         text_for_chunking
-#     )
-
-# # Build form spans so tables inside forms are skipped
-#     form_spans = [
-#     (f["char_start"], f["char_end"])
-#     for f in extracted_forms
-#     if isinstance(f.get("char_start"), int)
-#     ]
-
-# # 2) Extract TABLES next (outside forms only)
-#     text_for_chunking, extracted_tables = extract_tables_from_text(
-#     text_for_chunking,
-#     skip_spans=form_spans
-#     )
-
-# ✅ IMPORTANT:
-# From this point onward:
-# - text_for_chunking is the ONLY text used for sections & chunks
-# - raw_text is ONLY for metadata (page numbers, footnotes, spans)
-
-    # # Print 10 characters from raw_text at specific positions
-    # positions_to_check = [8214, 14290, 15054,14974, 15920, 15785, 16733, 16719, 17000, 17013, 17581, 17594, 18068, 18081, 18748, 18761, 19380, 19223, 19816, 19900, 20577, 20590, 21346, 21359, 21522, 21535, 21775, 21788, 22082, 22095, 22297, 22388, 22798, 22811,23031, 23044, 23520, 23533, 24490, 24259, 25173, 25183, 25214 ]
-    # print("=" * 80)
-    # print("TEXT AT SPECIFIC POSITIONS")
-    # print("=" * 80)
-    # for pos in positions_to_check:
-    #     if pos < len(raw_text):
-    #         # Get 10 characters starting from position
-    #         text_snippet = raw_text[pos:pos+10]
-    #         # Get page number from position_to_page if available
-    #         page_num = position_to_page.get(pos, "N/A") if position_to_page else "N/A"
-    #         # Use repr to show special characters clearly
-    #         print(f"Position {pos}: {repr(text_snippet)} (Page: {page_num})")
-    #     else:
-    #         print(f"Position {pos}: OUT OF RANGE (text length: {len(raw_text)})")
-    # print("=" * 80 + "\n")
-    
-    # # Print 15 characters from raw_text at specific positions
-    # positions_to_check = [115, 494, 706, 2292, 2496, 3732, 4337, 6081, 6959, 7355, 7964]
-    # print("=" * 80)
-    # print("TEXT AT SPECIFIC POSITIONS (First Set)")
-    # print("=" * 80)
-    # for pos in positions_to_check:
-    #     if pos < len(raw_text):
-    #         # Get 15 characters starting from position
-    #         text_snippet = raw_text[pos:pos+15]
-    #         # Get page number from position_to_page if available
-    #         page_num = position_to_page.get(pos, "N/A") if position_to_page else "N/A"
-    #         # Use repr to show special characters clearly
-    #         print(f"Position {pos}: {repr(text_snippet)} (Page: {page_num})")
-    #     else:
-    #         print(f"Position {pos}: OUT OF RANGE (text length: {len(raw_text)})")
-    # print("=" * 80 + "\n")
-    
-    # # Print 15 characters from raw_text at additional specific positions
-    # positions_to_check_2 = [1357, 1736, 1948, 3547, 3751, 4987, 5606, 7349, 8224, 8623, 9245]
-    # print("=" * 80)
-    # print("TEXT AT SPECIFIC POSITIONS (Second Set)")
-    # print("=" * 80)
-    # for pos in positions_to_check_2:
-    #     if pos < len(raw_text):
-    #         # Get 15 characters starting from position
-    #         text_snippet = raw_text[pos:pos+15]
-    #         # Get page number from position_to_page if available
-    #         page_num = position_to_page.get(pos, "N/A") if position_to_page else "N/A"
-    #         # Use repr to show special characters clearly
-    #         print(f"Position {pos}: {repr(text_snippet)} (Page: {page_num})")
-    #     else:
-    #         print(f"Position {pos}: OUT OF RANGE (text length: {len(raw_text)})")
-    # print("=" * 80 + "\n")
-    
-    # Step 1: Clean text (use provided position_to_page or build it)
-    # cleaned_text, position_to_page = clean_text(raw_text, position_to_page)
-    # cleaned_text, _ = clean_text(raw_text, None)  # Don't use position_to_page
-    
-    # # Step 1.5: Apply global cleaning - fix broken words
-    # cleaned_text = fix_broken_words(cleaned_text)
-    
-    # Step 2: Extract sections (find in cleaned_text, but get positions from raw_text)
-    # sections = extract_sections(cleaned_text, raw_text, position_to_page)
-    # sections = extract_sections(cleaned_text, raw_text, None)  # Don't use position_to_page
-    
-    # Calculate second law-title end position (for section search boundary).
-    # Use strict title-like patterns first to avoid false matches such as
-    # "ACT No. VI..." or "AMENDMENT OF ... ACTS".
+ 
     strict_law_title_pattern1 = re.compile(
         r"^\s*#\s*([A-Z][A-Z\s,()'&\-]*(?:ACT|ORDINANCE|LAW)[A-Z\s,()'&\-]*\d{4})\s*$",
         re.MULTILINE | re.IGNORECASE
@@ -6191,46 +5610,11 @@ def process_legal_text(
         )
     )
 
-    #sections = extract_sections(text_for_chunking, raw_text, position_to_page, schedule_sections)  # Use raw_text for both finding and positions, pass position_to_page and schedule_sections
-    # 🔒 CRITICAL FIX: ensure section.text comes from text_for_chunking
-    # for section in sections:
-    #     start = section.get("start_pos")
-    #     end = section.get("end_pos")
 
-    #     if isinstance(start, int) and isinstance(end, int) and start < end:
-    #         section["text"] = text_for_chunking[start:end]
-
-    # Attach forms/tables to normal sections too
-    # attach_forms_tables_to_sections(
-    #     sections,
-    #     extracted_forms,
-    #     extracted_tables,)
-
-          
-    
-    # Sections are already a single ordered list from Level-1 → Level-2 → Level-3 (no separate schedule_sections).
-
-
-
-    # # NEW: Replace forms/tables inside section text with placeholders
-    # apply_form_and_table_placeholders_to_sections(
-    #     sections,
-    #     raw_text,
-    #     extracted_forms,
-    #     extracted_tables,
-    # )
-    # Apply section text with [FORM_n] and [TABLE_n] placeholders (position-based replacement).
-    # Tables and forms are extracted BEFORE normalization; placeholders are inserted here
-    # so they flow through footnote removal and section normalization.
     apply_form_and_table_placeholders_to_sections(
         sections, raw_text, extracted_forms, extracted_tables
     )
 
-    # attach_forms_tables_to_sections: section form_ids/table_ids are never read;
-    # parent chunk metadata comes from scanning text for placeholders instead.
-    # attach_forms_tables_to_sections(sections, extracted_forms, extracted_tables)
-
-    
     # Remove footnotes from all sections FIRST (before any cleaning)
     # Footnotes appear at the end of pages above page numbers, so we search from the end
     for section in sections:
@@ -6296,27 +5680,13 @@ def process_legal_text(
     
     # Print footnotes received from llamaparser_extractor.py
     if all_footnotes:
-        # print("=" * 80)
-        # print("FOOTNOTES FROM LLAMAPARSER_EXTRACTOR")
-        # print("=" * 80)
-        # print(f"Total footnotes: {len(all_footnotes)}")
         for idx, footnote_dict in enumerate(all_footnotes):
             marker = footnote_dict.get('marker', '')
             marker_number = footnote_dict.get('marker_number', '')
             page_number = footnote_dict.get('page_number', 'N/A')
             footnote_text = footnote_dict.get('text', '')
             text_preview = footnote_text[:50] if len(footnote_text) > 50 else footnote_text
-            #print(f"  Footnote {idx}: Marker='{marker}' (number={marker_number}), Page={page_number}, Text='{text_preview}...'")
-        #print("=" * 80 + "\n")
-    # else:
-    #     print("=" * 80)
-    #     print("FOOTNOTES FROM LLAMAPARSER_EXTRACTOR: None provided")
-    #     print("=" * 80 + "\n")
-    
-    # # Print superscripts found in each section
-    # print("=" * 80)
-    # print("SUPERSCRIPTS FOUND IN SECTIONS")
-    # print("=" * 80)
+          
     superscript_pattern = re.compile(r'([¹²³⁴⁵⁶⁷⁸⁹⁰]+)')
     marker_map = {
         '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5',
@@ -6355,29 +5725,7 @@ def process_legal_text(
                 'page': page_num
             })
         
-       # print(f"\nSection {idx} ({section['number']} - {section['title']}):")
-       # print(f"  Section Position: [{section_start_pos}:{section_end_pos}]")
-    #     if superscripts_found:
-    #         print(f"  Found {len(superscripts_found)} superscript marker(s):")
-    #         for sup in superscripts_found:
-    #             print(f"    Position: {sup['position']}, Marker: '{sup['marker_unicode']}' (normalized: '{sup['marker_normalized']}'), Page: {sup['page']}")
-    #     else:
-    #         print(f"  No superscript markers found")
-    
-    
-    
-    # Print complete text for all sections before creating parent chunks
-    # print("=" * 80)
-    # print("COMPLETE SECTION TEXTS BEFORE CREATING PARENT CHUNKS")
-    # print("=" * 80)
-    # for idx, section in enumerate(sections):
-    #     print(f"\nSection {idx + 1}: {section.get('number', 'N/A')} - {section.get('title', 'N/A')}")
 
-    #     print(f"  Complete Text:")
-    #     print("-" * 80)
-    #     print(section.get('text', ''))
-    #     print("-" * 80)
-    # print("=" * 80 + "\n")
     
     # Step 3: Create parent chunks
     # Use pdf_path if provided, otherwise use filename (may not work for category extraction)
@@ -6459,14 +5807,7 @@ def process_legal_text(
                         section_title = section.get('title', '')
                         break
         
-        # # Get page number for table
-        # table_page = None
-        # if position_to_page:
-        #     # Find the closest position in position_to_page that is <= table_char_start
-        #     valid_positions = [p for p in position_to_page.keys() if p <= table_char_start]
-        #     if valid_positions:
-        #         closest_pos = max(valid_positions)
-        #         table_page = position_to_page[closest_pos]
+
         # Get ALL page numbers for this table based on its char range
         table_pages = set()
         if position_to_page:
@@ -6571,15 +5912,7 @@ def process_legal_text(
                         section_title = section.get('title', '')
                         break
         
-        # # Get page number for form
-        # form_page = None
-        # if position_to_page:
-        #     # Find the closest position in position_to_page that is <= form_char_start
-        #     valid_positions = [p for p in position_to_page.keys() if p <= form_char_start]
-        #     if valid_positions:
-        #         closest_pos = max(valid_positions)
-        #         form_page = position_to_page[closest_pos]
-        # Get ALL page numbers for this form based on its char range
+ 
         form_pages = set()
         if position_to_page:
             max_pos = max(position_to_page.keys())
@@ -6691,33 +6024,6 @@ Page 4 of 12
     
     # Process the text
     parent_chunks, child_chunks, table_chunks, form_chunks = process_legal_text(sample_text, filename)
-    
-    # Print results for verification
-    # print("=" * 80)
-    # print("PROCESSING RESULTS")
-    # print("=" * 80)
-    # print(f"\nTotal Parent Chunks: {len(parent_chunks)}")
-    # print(f"Total Child Chunks: {len(child_chunks)}")
-    
-    # Print one parent and its children as JSON
-    # if parent_chunks:
-    #     print("\n" + "=" * 80)
-    #     print("EXAMPLE PARENT CHUNK (JSON)")
-    #     print("=" * 80)
-    #     parent = parent_chunks[0]
-    #     print(json.dumps(parent.to_dict(), indent=2, ensure_ascii=False))
-    #     
-    #     # Find children for this parent
-    #     parent_children = [c for c in child_chunks if c.parent_id == parent.parent_id]
-    #     
-    #     print("\n" + "=" * 80)
-    #     print(f"CHILDREN FOR PARENT: {parent.parent_id}")
-    #     print("=" * 80)
-    #     print(f"Number of children: {len(parent_children)}")
-    #     
-    #     if parent_children:
-    #         print("\nFirst Child Chunk (JSON):")
-    #         print(json.dumps(parent_children[0].to_dict(), indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

@@ -34,7 +34,7 @@ if sys.platform == 'win32':
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 PROJECT_ROOT = Path(__file__).parent.parent
-EXTRACTED_TEXT_DIR = PROJECT_ROOT / "data" / "extracted_text"
+EXTRACTED_TEXT_DIR = PROJECT_ROOT / "RAG""/data" / "extracted_text"
 
 # Lazy import: process_legal_text1 pulls in langchain → nltk → scipy/numpy, which can take 15–30s on first run.
 # Import is done inside process_single_pdf so we can print "Processing..." before the slow load.

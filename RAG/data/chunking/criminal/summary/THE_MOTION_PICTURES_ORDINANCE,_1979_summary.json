@@ -1,0 +1,246 @@
+{
+  "source_file": "THE MOTION PICTURES ORDINANCE, 1979.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE MOTION PICTURES ORDINANCE, 1979.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 25,
+  "total_child_chunks": 36,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_MOTION_PICTURES_ORDINANCE,_1979_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_MOTION_PICTURES_ORDINANCE,_1979_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER I",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_1",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_2",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_3",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IV",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_4",
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Constitution of Board",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Uncertified film not to be exhibited",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Certification of films",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_9",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Principles of guidance in certifying films",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Appeals",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_11",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Powers to suspend exhibition of films in certain cases",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_12",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "9",
+      "section_title": "Revisional powers of the Federal Government",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Information and documents to be given to distributors and exhibitors with respect to certified films",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_14",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Powers to direct exhibition of films for examination",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_15",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Vacancies, etc., not to invalidate proceedings",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Licensing of places for exhibition of films",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "14",
+      "section_title": "Directions as to screening of documentarise, etc",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_18",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Certain persons to be public servants",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Bar to legal proceedings",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Penalties and procedure",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_22",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "19",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_23",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power to exempt",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Repeals and savings",
+      "parent_id": "THE_MOTION_PICTURES_ORDINANCE,_1979_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    }
+  ]
+}

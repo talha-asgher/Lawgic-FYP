@@ -1,0 +1,80 @@
+{
+  "source_file": "THE RAILWAYS (TRANSPORT OF GOODS) ACT, 1947.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE RAILWAYS (TRANSPORT OF GOODS) ACT, 1947.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 7,
+  "total_child_chunks": 8,
+  "total_table_chunks": 4,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_RAILWAYS_TRANSPORT_OF_GOODS_ACT,_1947_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_RAILWAYS_TRANSPORT_OF_GOODS_ACT,_1947_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_RAILWAYS_TRANSPORT_OF_GOODS_ACT,_1947_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent, commencement and duration",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Interpretation",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Power to give directions in regard to the transport of goods by railways",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_4",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Directions to be complied with",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Protection of action taken",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Power to amend Schedule",
+      "parent_id": "THE_RAILWAYS_(TRANSPORT_OF_GOODS)_ACT,_1947_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

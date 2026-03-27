@@ -1,0 +1,80 @@
+{
+  "source_file": "THE DIPLOMATIC IMMUNITIES (CONFERENCES WITH COMMONWEALTH COUNTRIES) ACT, 1963.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE DIPLOMATIC IMMUNITIES (CONFERENCES WITH COMMONWEALTH COUNTRIES) ACT, 1963.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 7,
+  "total_child_chunks": 9,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_DIPLOMATIC_IMMUNITIES_CONFERENCES_WITH_COMMONWEALTH_COUNTRIES_ACT,_1963_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_DIPLOMATIC_IMMUNITIES_CONFERENCES_WITH_COMMONWEALTH_COUNTRIES_ACT,_1963_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Application of Act reciprocal",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Compilation and Publication of lists",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_5",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Diplomatic Immunities of Commonwealth Representatives attending Conferences in Pakistan",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "List to be conclusive proof of right to Immunities",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(CONFERENCES_WITH_COMMONWEALTH_COUNTRIES)_ACT,_1963_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

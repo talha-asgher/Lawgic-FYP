@@ -1,0 +1,277 @@
+{
+  "source_file": "THE SECURITY OF PAKISTAN ACT, 1952.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE SECURITY OF PAKISTAN ACT, 1952.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 28,
+  "total_child_chunks": 57,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_SECURITY_OF_PAKISTAN_ACT,_1952_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_SECURITY_OF_PAKISTAN_ACT,_1952_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Restrictions on the movements of suspected persons and their detention",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_4",
+      "page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "3A",
+      "section_title": "Temporary release of persons detained",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_5",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3B",
+      "section_title": "Execution of detention order",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_6",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3C",
+      "section_title": "Detention orders not to be invalid or inoperative on certain grounds",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_7",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Powers of photographing, etc., persons",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "-",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Communication of grounds of order",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_10",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6A",
+      "section_title": "Reference to Board and its procedure",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_11",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "-",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_12",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "-",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "-",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_14",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Control of subversive associations",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "11",
+      "section_title": "Control of information",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_16",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11A",
+      "section_title": "Control of certain undertakings and sale of shares, etc",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_17",
+      "page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "11B",
+      "section_title": "Removal of control and possession, etc",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_18",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11C",
+      "section_title": "Payment of sale price, etc",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_19",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "12",
+      "section_title": "Regulation of publication of certain matters",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_20",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "13",
+      "section_title": "Penalties",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_21",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Cognizance of offences",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_22",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Procedure for the trial of offences",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_23",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Offences to be cognizable and non-bailable",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_24",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Bar of jurisdiction of Courts",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_25",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "-",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_26",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_27",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "-",
+      "parent_id": "THE_SECURITY_OF_PAKISTAN_ACT,_1952_28",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    }
+  ]
+}

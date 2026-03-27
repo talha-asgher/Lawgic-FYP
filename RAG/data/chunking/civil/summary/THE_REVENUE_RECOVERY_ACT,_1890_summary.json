@@ -1,0 +1,127 @@
+{
+  "source_file": "THE REVENUE RECOVERY ACT, 1890.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE REVENUE RECOVERY ACT, 1890.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 12,
+  "total_child_chunks": 15,
+  "total_table_chunks": 0,
+  "total_form_chunks": 1,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_REVENUE_RECOVERY_ACT,_1890_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_REVENUE_RECOVERY_ACT,_1890_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\form_chunks\\THE_REVENUE_RECOVERY_ACT,_1890_form_chunks.json",
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title and extent",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Recovery of public demands by enforcement of process in other districts than those in which they become payable",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Remedy available to person denying liability to pay amount recovered under last foregoing section",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Recovery by Collectors of sums recoverable as arrears of revenue by other public officers or by local authorities",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Property liable to sale under this Act",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_7",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Saving of local laws relating to revenue",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Recovery in Pakistan of certain public demands arising beyond Pakistan",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "-",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Duty of Collectors to remit moneys collected in certain cases",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_11",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_REVENUE_RECOVERY_ACT,_1890_12",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    }
+  ]
+}

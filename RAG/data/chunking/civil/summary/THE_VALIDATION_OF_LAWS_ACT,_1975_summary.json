@@ -1,0 +1,109 @@
+{
+  "source_file": "THE VALIDATION OF LAWS ACT, 1975.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE VALIDATION OF LAWS ACT, 1975.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 9,
+  "total_child_chunks": 35,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_VALIDATION_OF_LAWS_ACT,_1975_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_VALIDATION_OF_LAWS_ACT,_1975_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Validation of laws",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_4",
+      "page_numbers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_5",
+      "page_numbers": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_6",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "-",
+      "section_title": "MARTIAL LAW ORDERS (ZONE 'D')",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_7",
+      "page_numbers": [
+        14,
+        15,
+        16
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "-",
+      "section_title": "REGULATION",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_8",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_VALIDATION_OF_LAWS_ACT,_1975_9",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    }
+  ]
+}

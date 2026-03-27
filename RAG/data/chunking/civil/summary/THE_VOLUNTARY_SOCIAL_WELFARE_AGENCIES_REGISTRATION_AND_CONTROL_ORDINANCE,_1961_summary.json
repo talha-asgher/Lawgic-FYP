@@ -1,0 +1,216 @@
+{
+  "source_file": "THE VOLUNTARY SOCIAL WELFARE AGENCIES (REGISTRATION AND CONTROL) ORDINANCE, 1961.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE VOLUNTARY SOCIAL WELFARE AGENCIES (REGISTRATION AND CONTROL) ORDINANCE, 1961.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 22,
+  "total_child_chunks": 26,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_REGISTRATION_AND_CONTROL_ORDINANCE,_1961_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_REGISTRATION_AND_CONTROL_ORDINANCE,_1961_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Prohibition against establishing or continuing an agency without registration",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Application for registration, etc",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Establishment and continuance of agency",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Appeal",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Conditions to be complied with by registered agencies",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Amendment of the constitution of registered agency",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Suspension or dissolution of governing bodies of registered agencies",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Dissolution of registered agency",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Voluntary dissolution of registered agency",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_12",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Consequences of dissolution",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_13",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Inspection of documents, etc",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_14",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Penalties and procedure",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_15",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "Indemnity",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_16",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power to amend Schedule",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_17",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Power to exempt",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_18",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_19",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Rules",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_20",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SCHEDULE",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_21",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SCHEDULE",
+      "parent_id": "THE_VOLUNTARY_SOCIAL_WELFARE_AGENCIES_(REGISTRATION_AND_CONTROL)_ORDINANCE,_1961_22",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    }
+  ]
+}

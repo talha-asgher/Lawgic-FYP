@@ -1,0 +1,107 @@
+{
+  "source_file": "THE ELECTRICITY CONTROL ORDINANCE, 1965.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE ELECTRICITY CONTROL ORDINANCE, 1965.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 10,
+  "total_child_chunks": 11,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Control of production, distribution, etc. of electrical energy",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Penalty, etc",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Saving as to orders",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Indemnity",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Cognizance of offences",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Effect of provisions inconsistent with other enactments",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Service of Order (IX of 1910)",
+      "parent_id": "THE_ELECTRICITY_CONTROL_ORDINANCE,_1965_10",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

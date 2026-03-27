@@ -1,0 +1,734 @@
+{
+  "source_file": "THE CANAL AND DRAINAGE ACT, 1873.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CANAL AND DRAINAGE ACT, 1873.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 78,
+  "total_child_chunks": 106,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CANAL_AND_DRAINAGE_ACT,_1873_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CANAL_AND_DRAINAGE_ACT,_1873_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_1",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_2",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_3",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation-clause",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_4",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Power to appoint officers",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_5",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Notification to issue when water supply is to be applied for public purposes",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_6",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Powers of Canal-officer",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_7",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Notice as to claims for compensation",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_8",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Damage for which compensation shall not be awarded",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_9",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "9",
+      "section_title": "Limitation of claims",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_10",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Enquiry into claims and amount of compensation",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_11",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Abatement of rent on interruption of water-supply",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_12",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Enhancement of rent on restoration of water-supply",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_13",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Compensation when due",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_14",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Power to enter and survey, etc",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_15",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Power to enter for repairs and to prevent accidents",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_16",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Application by persons desiring to use canal-water",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_17",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Government to provide means of crossing canals",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_18",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Persons using water course to construct works for passing water across roads, etc",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_19",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "19",
+      "section_title": "Adjustment of claims between persons jointly using water-course",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_20",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Supply of water through intervening water-course",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_21",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Application for construction of new water-course",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_22",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Procedure of Canal-officer thereupon",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_23",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "23",
+      "section_title": "Application for transfer of existing water-course",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_24",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Objections to construction or transfer applied for",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_25",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "When applicant may be placed in occupation",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_26",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Procedure when objection is held valid",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_27",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Procedure when Canal-officer disagrees with Collector",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Expenses to be paid by applicant before receiving occupation",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_29",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "29",
+      "section_title": "Conditions binding on applicant placed in occupation",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_30",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "30",
+      "section_title": "Procedure applicable to occupation for extensions and alterations",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_31",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "In absence of written contract, water-supply to be subject to rules",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_32",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Conditions as to",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_33",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "33",
+      "section_title": "Liability when person using unauthorisedly cannot be identified",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_34",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Liability when water runs to waste",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_35",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Charges recoverable in addition to penalties",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_36",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Charge on occupier for water, how determined",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_37",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "\"Owner's rate\"",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_38",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Amount of owner's rate",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_39",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Owner's rate, when not chargeable",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_40",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "When occupier is to pay both owner's rate and occupier's rate",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_41",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Power to make rules for apportioning owner's rate",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_42",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "When owner is to pay owner's rate",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_43",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Effect of introduction of canal irrigation on landlord's right to enhance",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_44",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Water-rate by whom payable when charged on land held by several owners",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_45",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Certified dues recoverable as land-revenue",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_46",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Power to contract for collection of canal-dues",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_47",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Lambardars may be required to collect canal-dues",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_48",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Fines excluded from sections 45,46,47",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_49",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Detainer of vessels violating rules",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_50",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Recovery of fines for offences in navigating canals",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_51",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Power to seize and detain vessel on failure to pay charges",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_52",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Power to seize cargo or goods, if charges due thereon are not paid",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_53",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Procedure for recovery of such charges after seizure",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_54",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "54",
+      "section_title": "Procedure in respect of vessels abandoned and goods unclaimed",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_55",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "55",
+      "section_title": "Power to prohibit obstructions or order their removal",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_56",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Power to remove obstructions after prohibition",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_57",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Preparation of schemes for works of improvement",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_58",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Powers of persons employed on such schemes",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_59",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Rate on lands benefited by works",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_60",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "60",
+      "section_title": "Recovery of rate",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_61",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Disposal of claims to compensation",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_62",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Limitation of such claims",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_63",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Definition of \"labourer\"",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_64",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Power to prescribe number of labourers to be supplied by persons benefited by canal",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_65",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Procedure for obtaining labour for works urgently required",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_66",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "66",
+      "section_title": "Liability of labourers under requisition",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_67",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Jurisdiction under this Act of Civil Courts",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_68",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Settlement of differences as to mutual rights and liabilities of persons interested in water-course",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_69",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Power to summon and examine witnesses",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_70",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART IX",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_71",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Offences under Act",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_72",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "71",
+      "section_title": "Saving of prosecution under other laws",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_73",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Compensation to person injured",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_74",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Power to arrest without warrant",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_75",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Definition of \"canal\"",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_76",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Power to make, alter and cancel rules",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_77",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE",
+      "parent_id": "THE_CANAL_AND_DRAINAGE_ACT,_1873_78",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    }
+  ]
+}

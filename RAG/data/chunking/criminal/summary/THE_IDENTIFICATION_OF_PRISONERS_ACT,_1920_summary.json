@@ -1,0 +1,108 @@
+{
+  "source_file": "THE IDENTIFICATION OF PRISONERS ACT, 1920.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE IDENTIFICATION OF PRISONERS ACT, 1920.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 10,
+  "total_child_chunks": 10,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Taking of measurements, etc., of convicted persons",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Taking of measurements, etc., of non-convicted persons",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power of Magistrate to order a person to be measured or photographed",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Resistance to the taking of measurements, etc",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Destruction of photographs and records of measurements, etc., on acquittal",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power to make rules.— (1)",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_9",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Bar of suits",
+      "parent_id": "THE_IDENTIFICATION_OF_PRISONERS_ACT,_1920_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

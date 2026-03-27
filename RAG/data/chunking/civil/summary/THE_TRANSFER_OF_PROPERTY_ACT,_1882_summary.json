@@ -1,0 +1,1462 @@
+{
+  "source_file": "THE TRANSFER OF PROPERTY ACT, 1882.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE TRANSFER OF PROPERTY ACT, 1882.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 157,
+  "total_child_chunks": 243,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_TRANSFER_OF_PROPERTY_ACT,_1882_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_TRANSFER_OF_PROPERTY_ACT,_1882_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_TRANSFER_OF_PROPERTY_ACT,_1882_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_1",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_2",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "2",
+      "section_title": "Repeal of Acts. Saving of certain enactments, incidents, rights, liabilities, etc",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_3",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation clause",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_4",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "4",
+      "section_title": "Enactments relating to contracts to be taken as part of Contract Act",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_5",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER I",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_6",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_7",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "\"Transfer of property\" defined",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_8",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "What may be transferred",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_9",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "7",
+      "section_title": "Persons competent to transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_10",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Operation of transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_11",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Oral transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_12",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Condition restraining alienation",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_13",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Restriction repugnant to interest created",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_14",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Condition making interest determinable on insolvency or attempted alienation",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_15",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Transfer for benefit of unborn person",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_16",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Rule against perpetuity",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_17",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Transfer to class some of whom come under sections 13 and 14",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_18",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Transfer to take effect on failure of prior interest",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_19",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Direction for accumulation",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_20",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Transfer in perpetuity for benefit of public",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_21",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Vested interest",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_22",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "When unborn person acquires vested interest on transfer for his benefit",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_23",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Contingent interest",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_24",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Transfer to members of a class who attain a particular age",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_25",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Transfer contingent on happening of specified uncertain event",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_26",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Transfer to such of certain persons as survive at some period not specified",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_27",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Conditional transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_28",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Fulfilment of condition precedent",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_29",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Conditional transfer to one person coupled with transfer to another on failure of prior disposition",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_30",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "28",
+      "section_title": "Ulterior transfer conditional on happening or not happening of specified event",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_31",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Fulfilment of condition subsequent",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_32",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Prior disposition not affected by invalidity of ulterior disposition",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_33",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Condition that transfer shall cease to have effect in case specified uncertain event happens or does not happen",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_34",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Such condition must not be invalid",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_35",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Transfer conditional on performance of act, no time being specified for performance",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_36",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Transfer conditional on performance of act, time being specified",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_37",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Election when necessary",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_38",
+      "page_numbers": [
+        17,
+        18,
+        19
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "36",
+      "section_title": "Apportionment of periodical payments on determination of interest of person entitled",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_39",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Apportionment of benefit of obligation on severance",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_40",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "38",
+      "section_title": "Transfer by person authorized only under certain circumstances to transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_41",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "39",
+      "section_title": "Transfer where third person is entitled to maintenance",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_42",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Burden of obligation imposing restriction on use of land, or of obligation annexed to ownership but not amounting to interest or easement",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_43",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "41",
+      "section_title": "Transfer by ostensible owner",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_44",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Transfer by person having authority to revoke former transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_45",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Transfer by unauthorized person who subsequently acquires interest in property transferred",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_46",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Transfer by one co-owner",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_47",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Joint transfer for consideration",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_48",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Transfer for consideration by persons having distinct interests",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_49",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Transfer by co-owner of share in common property",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_50",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Priority of rights created by transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_51",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Transferee's right under policy",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_52",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Rent _bona-fide_ paid to holder under defective title",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_53",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Improvements made by _bona-fide_ holders under defective titles",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_54",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Transfer of property pending suit relating thereto",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_55",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53",
+      "section_title": "Fradulent transfer",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_56",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53A",
+      "section_title": "Part performance",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_57",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "54",
+      "section_title": "\"Sale\" defined",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_58",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Rights and liabilities of buyer and seller",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_59",
+      "page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "56",
+      "section_title": "Marshalling by subsequent purchaser",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_60",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Provision by Court for incumbrance and sale freed therefrom",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_61",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "58",
+      "section_title": "\"Mortgage,\" \"mortgagor,\" mortgagee,\" \"mortgage-money\" and \"mortgage-deed\" defined",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_62",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "59",
+      "section_title": "Mortgage when to be by assurance",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_63",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "OF MORTGAGES OF IMMOVEABLE PROPERTY AND CHARGES",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_64",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59A",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_65_1",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59A",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_65_2",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Right of mortgagor to redeem",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_66",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "OF MORTGAGES OF IMMOVEABLE PROPERTY AND CHARGES",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_67",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60A",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_68_1",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60A",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_68_2",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "60B",
+      "section_title": "Right to inspection and production of documents",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_69",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "OF MORTGAGES OF IMMOVEABLE PROPERTY AND CHARGES",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_70",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_71_1",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_71_2",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Right of usufructuary mortgagor to recover possession",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_72",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Accession to mortgaged property",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_73",
+      "page_numbers": [
+        31,
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "OF MORTGAGES OF IMMOVEABLE PROPERTY AND CHARGES",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_74",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63A",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_75_1",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63A",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_75_2",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "64",
+      "section_title": "Renewal of mortgaged lease",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_76",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Implied contracts by mortgagor",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_77",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "65A",
+      "section_title": "Mortgagor's power to lease",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_78",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "66",
+      "section_title": "Waste by mortgagor in possession",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_79",
+      "page_numbers": [
+        33,
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Right to foreclosure or sale",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_80",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "67A",
+      "section_title": "Mortgagee when bound to bring one suit on several mortgages",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_81",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Right to sue for mortgage-money",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_82",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "69",
+      "section_title": "Power of sale when valid",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_83",
+      "page_numbers": [
+        35,
+        36
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "69A",
+      "section_title": "Appointment of receiver",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_84",
+      "page_numbers": [
+        36,
+        37,
+        38
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "70",
+      "section_title": "Accession to mortgaged property",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_85",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Renewal of mortgaged lease",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_86",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Rights of mortgagee in possession",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_87",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "73",
+      "section_title": "Right to proceeds of revenue sale or compensation on acquisition",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_88",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "74",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_89",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_90",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Liabilities of mortgagee in possession",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_91",
+      "page_numbers": [
+        40,
+        41
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "77",
+      "section_title": "Receipts in lieu of interest",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_92",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Postponement of prior mortgagee",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_93",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Mortgage to secure uncertain amount when maximum is expressed",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_94",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "80",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_95",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "81",
+      "section_title": "Marshalling securities",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_96",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "82",
+      "section_title": "Contribution to mortgage-debt",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_97",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "83",
+      "section_title": "Power to deposit in Court money due on mortgage",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_98",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "84",
+      "section_title": "Cessation of interest",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_99",
+      "page_numbers": [
+        42,
+        43
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "85",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_100",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "to 90.]",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_101",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "91",
+      "section_title": "Persons who may sue for redemption",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_102",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Subrogation",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_103",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "Prohibition of tacking",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_104",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "94",
+      "section_title": "Rights of mesne mortgagee",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_105",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "95",
+      "section_title": "Right of redeeming co-mortgagor to expenses",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_106",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Mortgage by deposit of title-deeds",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_107",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "97",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_108",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "98",
+      "section_title": "Rights and liabilities of parties to anomalous mortgages",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_109",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "99",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_110",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "100",
+      "section_title": "Charges",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_111",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "101",
+      "section_title": "No merger in case of subsequent encumbrance",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_112",
+      "page_numbers": [
+        44,
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "102",
+      "section_title": "Service or tender on or to agent",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_113",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "103",
+      "section_title": "Notice, etc., to or by person incompetent to contract",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_114",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "104",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_115",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IV",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_116",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "105",
+      "section_title": "Lease defined",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_117",
+      "page_numbers": [
+        45,
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "106",
+      "section_title": "Duration of certain leases in absence of written contract or local usage",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_118",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "107",
+      "section_title": "Leases how made",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_119",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "108",
+      "section_title": "Rights and liabilities of lessor and lessee",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_120",
+      "page_numbers": [
+        46,
+        47,
+        48
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "109",
+      "section_title": "Rights of lessor's transferee",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_121",
+      "page_numbers": [
+        48,
+        49
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "110",
+      "section_title": "Exclusion of day on which term commences",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_122",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "111",
+      "section_title": "Determination of lease",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_123",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "112",
+      "section_title": "Waiver of forfeiture",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_124",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "113",
+      "section_title": "Waiver of notice to quit",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_125",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "114",
+      "section_title": "Relief against forfeiture for non-payment of rent",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_126",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "114A",
+      "section_title": "Relief against forfeiture in certain other cases",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_127",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "115",
+      "section_title": "Effect of surrender and forfeiture on under-leases",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_128",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "116",
+      "section_title": "Effect of holding over",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_129",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "117",
+      "section_title": "Exemption of leases for agricultural purposes",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_130",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "118",
+      "section_title": "\"Exchange\" defined",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_131",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "119",
+      "section_title": "Right of party deprived of thing received in exchange",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_132",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "120",
+      "section_title": "Rights and liabilities of parties",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_133",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "121",
+      "section_title": "Exchange of money",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_134",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VI",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_135",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "122",
+      "section_title": "\"Gift\" defined",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_136",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "123",
+      "section_title": "Transfer how effected",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_137",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "124",
+      "section_title": "Gift of existing and future property",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_138",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "125",
+      "section_title": "Gift to several of whom one does not accept",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_139",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "126",
+      "section_title": "When gift may be suspended or revoked",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_140",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "127",
+      "section_title": "Onerous gift",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_141",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "128",
+      "section_title": "Universal donee",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_142",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "129",
+      "section_title": "Saving of donations mortis casua and Muslim law",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_143",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "130",
+      "section_title": "Transfer of actionable claim",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_144",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "131",
+      "section_title": "Notice to be in writing, signed",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_145",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "132",
+      "section_title": "Liability of transferee of actionable claim",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_146",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "133",
+      "section_title": "Warranty of solvency of debtor",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_147",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "134",
+      "section_title": "Mortgaged debt",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_148",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "135",
+      "section_title": "Assignment of rights under policy of insurance against fire",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_149",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "136",
+      "section_title": "Incapacity of officers connected with Courts of Justice",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_150",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "137",
+      "section_title": "Saving of negotiable instruments, etc",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_151",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VII",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_152",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# THE SCHEDULE",
+      "parent_id": "THE_TRANSFER_OF_PROPERTY_ACT,_1882_153",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    }
+  ]
+}

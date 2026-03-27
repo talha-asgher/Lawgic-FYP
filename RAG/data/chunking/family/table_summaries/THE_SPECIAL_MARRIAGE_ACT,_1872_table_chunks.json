@@ -1,0 +1,20 @@
+[
+  {
+    "text": "| Names | Condition         | Rank or profession | Age            | Dwelling place | Length of residence |\n| ----- | ----------------- | ------------------ | -------------- | -------------- | ------------------- |\n| A B   | Unmarried Widower | Landowner          | Of full age .. |                | 23 days             |\n| C D   | Spinster          | ..                 | Minor          | ..             | ..                  |",
+    "summary": "Title: ## FIRST SCHEDULE\nType: property details table\nContains: Condition; Unmarried Widower; Spinster",
+    "metadata": {
+      "table_id": "TABLE_1",
+      "parent_id": "THE_SPECIAL_MARRIAGE_ACT,_1872_35",
+      "act_name": "THE SPECIAL MARRIAGE ACT, 1872",
+      "section_number": "-",
+      "section_title": "## FIRST SCHEDULE",
+      "category": "family",
+      "table_index_in_section": 1,
+      "page_numbers": [
+        7
+      ],
+      "page": 7,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE SPECIAL MARRIAGE ACT, 1872.pdf"
+    }
+  }
+]

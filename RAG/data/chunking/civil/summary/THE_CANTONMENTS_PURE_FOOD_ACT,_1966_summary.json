@@ -1,0 +1,350 @@
+{
+  "source_file": "THE CANTONMENTS PURE FOOD ACT, 1966.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CANTONMENTS PURE FOOD ACT, 1966.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 36,
+  "total_child_chunks": 62,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CANTONMENTS_PURE_FOOD_ACT,_1966_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CANTONMENTS_PURE_FOOD_ACT,_1966_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_3",
+      "page_numbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "3",
+      "section_title": "False warranty",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_4",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Prohibition of mixing, colouring, staining or powdering of food, etc",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_5",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Prohibition of preparation, manufactured, sale, etc., of adulterated and other foods",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Manufacture import and sale of unwholesome food",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_7",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Manufacture and sale of food not of proper nature or quality",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Pre-packed food",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Import or manufacture etc., without complying with rules",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Sale of banaspati margarine and charbi",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Licence for manufacture, storage and sale of goods",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_12",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Register for manufacture and wholesale business",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Food poisoning",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_14",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "14",
+      "section_title": "Duty of local authorities",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Appointment of Inspector",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "16",
+      "section_title": "Powers of Inspector",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_17",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "17",
+      "section_title": "Public Analyst",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_18",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Purchase of Samples, etc",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_19",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "19",
+      "section_title": "Right of private persons to have samples analysed",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_20",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Action in respect of samples",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Certificate of Public Analyst",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Power of Government to seize sample",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_23",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Penalties",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power to try Summarily",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Certain things to be presumed",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_26",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "26",
+      "section_title": "Declaration under section 18 to be evidence",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_27",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Certificate of Public Analyst to be evidence of act stated therein",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Analysis by Chemical Examiner",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "What shall or shall not be a good defence",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_30",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Forfeiture of food upon conviction",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_31",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Expenses of analysis",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_32",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Trial of offence",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_33",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Indemnity",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_34",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Inspector, etc., to be public servant",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_35",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_CANTONMENTS_PURE_FOOD_ACT,_1966_36",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 4
+    }
+  ]
+}

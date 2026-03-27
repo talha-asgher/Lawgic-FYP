@@ -1,0 +1,429 @@
+{
+  "source_file": "THE SMALL CLAIMS AND MINOR OFFENCES COURTS ORDINANCE, 2002.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SMALL CLAIMS AND MINOR OFFENCES COURTS ORDINANCE, 2002.pdf",
+  "category": "civil",
+  "rgn_date": "RGN Date: 20-05-2024",
+  "total_parent_chunks": 45,
+  "total_child_chunks": 53,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Ordinance to override other laws",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Establishment of Courts",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Jurisdiction",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Procedure in civil trials",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Rejection of plaint",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_8",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Process fee",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Summons",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_10",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "10",
+      "section_title": "Appearance through Advocate or recognized agent",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Written statement",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Appearance of parties and effect of non-appearance, etc",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_13",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Final disposal of suit",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Amicable settlement",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "List of persons for amicable settlement",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_16",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Appearance of parties for settlement",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Responsibilities of the Salis",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Settlement of suit or complaint",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Objections on award",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Payment of fees",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Non-commencement of settlement proceedings",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_22",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Failure of settlement",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_23",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Prohibition of appearing in proceedings or as witness",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Prohibition of making record",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Prohibition of using information",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_26",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Commencement of trial in suit or claim",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_27",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Evidence",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_28",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Power to order any point to be proved by affidavit",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_29",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Power to order attendance of deponent for cross-examination",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_30",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Matters to which affidavits shall be confined",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_31",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Examination or re-examination of witness",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_32",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Conclusion of trial",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_33",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Costs",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_34",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Procedure in criminal trial",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_35",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Execution of decree",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_36",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Inherent powers of Court",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_37",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Power of the Court",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_38",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Appeal in suit",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_39",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Appeal in criminal proceedings",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_40",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Amendment in the Schedule",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_41",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_42",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Repeal and savings",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_43",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "Schedule",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_44",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PART I",
+      "parent_id": "THE_SMALL_CLAIMS_AND_MINOR_OFFENCES_COURTS_ORDINANCE,_2002_45",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    }
+  ]
+}

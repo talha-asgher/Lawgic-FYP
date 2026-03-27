@@ -1,0 +1,986 @@
+{
+  "source_file": "THE TRUSTS ACT, 1882.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE TRUSTS ACT, 1882.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 105,
+  "total_child_chunks": 146,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_TRUSTS_ACT,_1882_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_TRUSTS_ACT,_1882_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER I",
+      "parent_id": "THE_TRUSTS_ACT,_1882_1",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_TRUSTS_ACT,_1882_2",
+      "page_numbers": [
+        1
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_TRUSTS_ACT,_1882_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IV",
+      "parent_id": "THE_TRUSTS_ACT,_1882_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER V",
+      "parent_id": "THE_TRUSTS_ACT,_1882_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VI",
+      "parent_id": "THE_TRUSTS_ACT,_1882_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VII",
+      "parent_id": "THE_TRUSTS_ACT,_1882_7",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VIII",
+      "parent_id": "THE_TRUSTS_ACT,_1882_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IX",
+      "parent_id": "THE_TRUSTS_ACT,_1882_9",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, Commencement",
+      "parent_id": "THE_TRUSTS_ACT,_1882_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation clause",
+      "parent_id": "THE_TRUSTS_ACT,_1882_11",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Lawful purpose",
+      "parent_id": "THE_TRUSTS_ACT,_1882_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Trust of immoveable property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Creation of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_14",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Who may create trusts",
+      "parent_id": "THE_TRUSTS_ACT,_1882_15",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Subject of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Who may be beneficiary",
+      "parent_id": "THE_TRUSTS_ACT,_1882_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Who may be trustee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_18",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Trustee to execute trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_19",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Trustee to inform himself of state of trust-property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Trustee to protect title to trust-property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Trustee not to set up title adverse to beneficiary",
+      "parent_id": "THE_TRUSTS_ACT,_1882_22",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Care required from trustee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_23",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "16",
+      "section_title": "Conversion of perishable property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_24",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Trustee to be impartial",
+      "parent_id": "THE_TRUSTS_ACT,_1882_25",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Trustee to prevent waste",
+      "parent_id": "THE_TRUSTS_ACT,_1882_26",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Accounts and information",
+      "parent_id": "THE_TRUSTS_ACT,_1882_27",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Investment of trust-money",
+      "parent_id": "THE_TRUSTS_ACT,_1882_28",
+      "page_numbers": [
+        12,
+        13,
+        14
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "20A",
+      "section_title": "-",
+      "parent_id": "THE_TRUSTS_ACT,_1882_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Mortgage of land pledged to Government under Act XIX of 1883. Deposit in Government Savings Bank",
+      "parent_id": "THE_TRUSTS_ACT,_1882_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Sale by trustee directed to sell within specified time",
+      "parent_id": "THE_TRUSTS_ACT,_1882_31",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Liability for breach of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_32",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "24",
+      "section_title": "No set-off allowed to trustee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_33",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Non-liability for predecessor's default",
+      "parent_id": "THE_TRUSTS_ACT,_1882_34",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Non-liability for co-trustee's default",
+      "parent_id": "THE_TRUSTS_ACT,_1882_35",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Several liability of co-trustees",
+      "parent_id": "THE_TRUSTS_ACT,_1882_36",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Non-liability of trustee paying without notice of transfer by beneficiary",
+      "parent_id": "THE_TRUSTS_ACT,_1882_37",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Liability of trustee where beneficiary's interest is forfeited to the Government",
+      "parent_id": "THE_TRUSTS_ACT,_1882_38",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Indemnity of trustees",
+      "parent_id": "THE_TRUSTS_ACT,_1882_39",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Right to title-deed",
+      "parent_id": "THE_TRUSTS_ACT,_1882_40",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Right to reimbursement of expenses",
+      "parent_id": "THE_TRUSTS_ACT,_1882_41",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "33",
+      "section_title": "Right to indemnity from gainer by breach of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_42",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Right to apply to Court for opinion in management of trust-property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_43",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Right to settlement of accounts",
+      "parent_id": "THE_TRUSTS_ACT,_1882_44",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "General authority of trustee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_45",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Power to sell in lots, and either by public auction or private contract",
+      "parent_id": "THE_TRUSTS_ACT,_1882_46",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Power to sell under special conditions",
+      "parent_id": "THE_TRUSTS_ACT,_1882_47",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "39",
+      "section_title": "Power to convey",
+      "parent_id": "THE_TRUSTS_ACT,_1882_48",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Power to vary investments",
+      "parent_id": "THE_TRUSTS_ACT,_1882_49",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Power to apply property of minors, etc., for their maintenance, etc",
+      "parent_id": "THE_TRUSTS_ACT,_1882_50",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "42",
+      "section_title": "Power to give receipts",
+      "parent_id": "THE_TRUSTS_ACT,_1882_51",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Power to compound, etc",
+      "parent_id": "THE_TRUSTS_ACT,_1882_52",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "44",
+      "section_title": "Power to several trustees of whom one disclaim or dies",
+      "parent_id": "THE_TRUSTS_ACT,_1882_53",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Suspension of trustee's powers by decree",
+      "parent_id": "THE_TRUSTS_ACT,_1882_54",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Trustee cannot renounce after acceptance",
+      "parent_id": "THE_TRUSTS_ACT,_1882_55",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Trustee cannot delegate",
+      "parent_id": "THE_TRUSTS_ACT,_1882_56",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "48",
+      "section_title": "Co-trustees cannot act singly",
+      "parent_id": "THE_TRUSTS_ACT,_1882_57",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Control of discretionary power",
+      "parent_id": "THE_TRUSTS_ACT,_1882_58",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Trustee may not charge for services",
+      "parent_id": "THE_TRUSTS_ACT,_1882_59",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Trustee may not use trust property for his own profit",
+      "parent_id": "THE_TRUSTS_ACT,_1882_60",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Trustee for sale or this agent may not buy",
+      "parent_id": "THE_TRUSTS_ACT,_1882_61",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Trustee may not buy beneficiary's interest without permission",
+      "parent_id": "THE_TRUSTS_ACT,_1882_62",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Co-trustees may not lend to one of themselves",
+      "parent_id": "THE_TRUSTS_ACT,_1882_63",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Rights to rents and profits",
+      "parent_id": "THE_TRUSTS_ACT,_1882_64",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Right to specific execution",
+      "parent_id": "THE_TRUSTS_ACT,_1882_65",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "57",
+      "section_title": "Rights to inspect and take copies of instrument of trust, accounts, etc",
+      "parent_id": "THE_TRUSTS_ACT,_1882_66",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Right to transfer beneficial interest",
+      "parent_id": "THE_TRUSTS_ACT,_1882_67",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Right to sue for execution of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_68",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Right to proper trustees",
+      "parent_id": "THE_TRUSTS_ACT,_1882_69",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "61",
+      "section_title": "Right to compel to any act of duty",
+      "parent_id": "THE_TRUSTS_ACT,_1882_70",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Wrongful purchase by trustee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_71",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "63",
+      "section_title": "Following trust-property into the hands of third persons; into that into which it has been converted",
+      "parent_id": "THE_TRUSTS_ACT,_1882_72",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "64",
+      "section_title": "Saving of rights of certain transferees",
+      "parent_id": "THE_TRUSTS_ACT,_1882_73",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Acquisition by trustee of trust-property wrongfully converted",
+      "parent_id": "THE_TRUSTS_ACT,_1882_74",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Right in case of blended property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_75",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Wrongful employment by partner-trustee of trust-property for partnership",
+      "parent_id": "THE_TRUSTS_ACT,_1882_76",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "68",
+      "section_title": "Liability of beneficiary joining in breach of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_77",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "69",
+      "section_title": "Rights and liabilities of beneficiary's transferee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_78",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Office how vacated",
+      "parent_id": "THE_TRUSTS_ACT,_1882_79",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Discharge of trustee",
+      "parent_id": "THE_TRUSTS_ACT,_1882_80",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Petition to be discharge from trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_81",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Appointment of new trustees on death, etc",
+      "parent_id": "THE_TRUSTS_ACT,_1882_82",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "74",
+      "section_title": "Appointment by Court",
+      "parent_id": "THE_TRUSTS_ACT,_1882_83",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Vesting of trust-property in new trustees",
+      "parent_id": "THE_TRUSTS_ACT,_1882_84",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Survival of trusts",
+      "parent_id": "THE_TRUSTS_ACT,_1882_85",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "Trust how extinguished",
+      "parent_id": "THE_TRUSTS_ACT,_1882_86",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Revocation of trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_87",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Revocation not to defeat what trustees have duly done",
+      "parent_id": "THE_TRUSTS_ACT,_1882_88",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "80",
+      "section_title": "Where obligation in nature of trust is created",
+      "parent_id": "THE_TRUSTS_ACT,_1882_89",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "81",
+      "section_title": "Where it does not appear that transferor intended to dispose of beneficial interests",
+      "parent_id": "THE_TRUSTS_ACT,_1882_90",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "82",
+      "section_title": "Transfer to one for consideration paid by another",
+      "parent_id": "THE_TRUSTS_ACT,_1882_91",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Trust incapable of execution or executed without exhausting trust-property",
+      "parent_id": "THE_TRUSTS_ACT,_1882_92",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "84",
+      "section_title": "Transfer for illegal purpose",
+      "parent_id": "THE_TRUSTS_ACT,_1882_93",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85",
+      "section_title": "Bequest for illegal purpose",
+      "parent_id": "THE_TRUSTS_ACT,_1882_94",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Transfer pursuant to rescindable contract",
+      "parent_id": "THE_TRUSTS_ACT,_1882_95",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "87",
+      "section_title": "Debtor becoming creditor's representative",
+      "parent_id": "THE_TRUSTS_ACT,_1882_96",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "Advantage gained by fiduciary",
+      "parent_id": "THE_TRUSTS_ACT,_1882_97",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "89",
+      "section_title": "Advantage gained by exercise of undue influence",
+      "parent_id": "THE_TRUSTS_ACT,_1882_98",
+      "page_numbers": [
+        31,
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "90",
+      "section_title": "Advantage gained by qualified owner",
+      "parent_id": "THE_TRUSTS_ACT,_1882_99",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "91",
+      "section_title": "Property acquired with notice of existing contract",
+      "parent_id": "THE_TRUSTS_ACT,_1882_100",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Purchase by person contracting to buy property to be held on trust",
+      "parent_id": "THE_TRUSTS_ACT,_1882_101",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "Advantage secretly gained by one of several compounding creditors",
+      "parent_id": "THE_TRUSTS_ACT,_1882_102",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "94",
+      "section_title": "Constructive trusts in cases not expressly provided for",
+      "parent_id": "THE_TRUSTS_ACT,_1882_103",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "95",
+      "section_title": "Obligor's duties, liabilities and disabilities",
+      "parent_id": "THE_TRUSTS_ACT,_1882_104",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Saving of rights of",
+      "parent_id": "THE_TRUSTS_ACT,_1882_105",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    }
+  ]
+}

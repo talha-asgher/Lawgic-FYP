@@ -1,0 +1,1864 @@
+{
+  "source_file": "THE CONTRACT ACT, 1872.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CONTRACT ACT, 1872.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 201,
+  "total_child_chunks": 259,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CONTRACT_ACT,_1872_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CONTRACT_ACT,_1872_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CONTRACT_ACT,_1872_1",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_CONTRACT_ACT,_1872_2",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Interpretation clause",
+      "parent_id": "THE_CONTRACT_ACT,_1872_3",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Communication, acceptance and revocation of proposals",
+      "parent_id": "THE_CONTRACT_ACT,_1872_4",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Communication when complete",
+      "parent_id": "THE_CONTRACT_ACT,_1872_5",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Revocation of proposals and acceptances",
+      "parent_id": "THE_CONTRACT_ACT,_1872_6",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Revocation how made",
+      "parent_id": "THE_CONTRACT_ACT,_1872_7",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Acceptance must be absolute",
+      "parent_id": "THE_CONTRACT_ACT,_1872_8",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Acceptance by performing, conditions, or receiving consideration",
+      "parent_id": "THE_CONTRACT_ACT,_1872_9",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Promises, express and implied",
+      "parent_id": "THE_CONTRACT_ACT,_1872_10",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "What agreements are contracts",
+      "parent_id": "THE_CONTRACT_ACT,_1872_11",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Who are competent to contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_12",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "What is a sound mind for the purposes of contracting",
+      "parent_id": "THE_CONTRACT_ACT,_1872_13",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "\"Consent\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_14",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "\"Free consent\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_15",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "\"Coercion\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_16",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "17",
+      "section_title": "\"Fraud\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_17",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "\"Misrepresentation\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_18",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Voidability of agreements without free consent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_19_1",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "19",
+      "section_title": "Voidability of agreements without free consent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_19_2",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Agreement void where both parties are under mistake as to matter of fact",
+      "parent_id": "THE_CONTRACT_ACT,_1872_20",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Effect of mistakes as to law",
+      "parent_id": "THE_CONTRACT_ACT,_1872_21",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Contract caused by mistake of one party as to matter of fact",
+      "parent_id": "THE_CONTRACT_ACT,_1872_22",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "What considerations and objects are lawful and what not",
+      "parent_id": "THE_CONTRACT_ACT,_1872_23",
+      "page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "24",
+      "section_title": "Agreements void, if considerations and objects unlawful in part",
+      "parent_id": "THE_CONTRACT_ACT,_1872_24",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Agreement without consideration void, unless it is in writing and registered, or is a promise to compensate for something done, or is a promise to pay a debt barred by limitation law",
+      "parent_id": "THE_CONTRACT_ACT,_1872_25",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "26",
+      "section_title": "Agreement in restraint of marriage void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_26",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Agreement in restraint of trade void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_27",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Agreements in restraint of legal proceedings void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_28",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "29",
+      "section_title": "Agreements void for uncertainty",
+      "parent_id": "THE_CONTRACT_ACT,_1872_29",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Agreements by way of wager void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_30_1",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Agreements by way of wager void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_30_2",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30B",
+      "section_title": "No suit for recovery of money, commission etc., in respect of void agreements",
+      "parent_id": "THE_CONTRACT_ACT,_1872_31",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30C",
+      "section_title": "Payment by guardian, executor etc., in respect of void agreements not to be allowed credit",
+      "parent_id": "THE_CONTRACT_ACT,_1872_32",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "\"Contingent contract\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_33",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Enforcement of contracts contingent on an event happening",
+      "parent_id": "THE_CONTRACT_ACT,_1872_34",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Enforcement of contracts contingent on an event not happening",
+      "parent_id": "THE_CONTRACT_ACT,_1872_35",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "When event on which contract is contingent to be deemed impossible, if it is the future conduct of a living person",
+      "parent_id": "THE_CONTRACT_ACT,_1872_36",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "When contracts become void which are contingent on happening of specified event within fixed time",
+      "parent_id": "THE_CONTRACT_ACT,_1872_37",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "36",
+      "section_title": "Agreement contingent on impossible events void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_38",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Obligation of parties to contracts",
+      "parent_id": "THE_CONTRACT_ACT,_1872_39",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Effect of refusal to accept offer of performance",
+      "parent_id": "THE_CONTRACT_ACT,_1872_40",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "39",
+      "section_title": "Effect of refusal of party to perform promise wholly",
+      "parent_id": "THE_CONTRACT_ACT,_1872_41",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "40",
+      "section_title": "Person by whom promise is to be performed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_42",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Effect of accepting performance from third person",
+      "parent_id": "THE_CONTRACT_ACT,_1872_43",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Devolution of Joint liabilities",
+      "parent_id": "THE_CONTRACT_ACT,_1872_44",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Any one of joint promisors may be compelled to perform",
+      "parent_id": "THE_CONTRACT_ACT,_1872_45",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "44",
+      "section_title": "Effect of release of one joint promisor",
+      "parent_id": "THE_CONTRACT_ACT,_1872_46",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Devolution of joint rights",
+      "parent_id": "THE_CONTRACT_ACT,_1872_47",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Time for performance of promise where no application is to be made and no time is specified",
+      "parent_id": "THE_CONTRACT_ACT,_1872_48",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Time and place for performance of promise where time is specified and no application to be made",
+      "parent_id": "THE_CONTRACT_ACT,_1872_49",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Application for performance on certain day to be at proper time and place",
+      "parent_id": "THE_CONTRACT_ACT,_1872_50",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Place for performance of promise where no application to be made and no place fixed for performance",
+      "parent_id": "THE_CONTRACT_ACT,_1872_51",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Performance in manner or at time prescribed or sanctioned by promisee",
+      "parent_id": "THE_CONTRACT_ACT,_1872_52",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Promisor not bound to perform unless reciprocal promisee ready and willing to perform",
+      "parent_id": "THE_CONTRACT_ACT,_1872_53",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Order of performance of reciprocal promises",
+      "parent_id": "THE_CONTRACT_ACT,_1872_54",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Liability of party preventing event on which the contract is to take effect",
+      "parent_id": "THE_CONTRACT_ACT,_1872_55",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Effect of default as to that promise which should be first performed, in contract consisting of reciprocal promises",
+      "parent_id": "THE_CONTRACT_ACT,_1872_56",
+      "page_numbers": [
+        31,
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "55",
+      "section_title": "Effect of failure to perform at fixed time, in contract in which time is essential",
+      "parent_id": "THE_CONTRACT_ACT,_1872_57",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "56",
+      "section_title": "Agreement to do impossible act",
+      "parent_id": "THE_CONTRACT_ACT,_1872_58",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "57",
+      "section_title": "Reciprocal promise to do things legal, and also other things illegal",
+      "parent_id": "THE_CONTRACT_ACT,_1872_59",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Alternative promise, one branch being illegal",
+      "parent_id": "THE_CONTRACT_ACT,_1872_60",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Application of payment, where debt to be discharged is indicated",
+      "parent_id": "THE_CONTRACT_ACT,_1872_61",
+      "page_numbers": [
+        33,
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Application of payment, where debt to be discharged is not indicated",
+      "parent_id": "THE_CONTRACT_ACT,_1872_62",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Application of payment where neither party appropriates",
+      "parent_id": "THE_CONTRACT_ACT,_1872_63",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Effect of novation, rescission and alteration of contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_64",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Promisee may dispense with or remit performance of promise",
+      "parent_id": "THE_CONTRACT_ACT,_1872_65",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "64",
+      "section_title": "Consequences of rescission of voidable contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_66",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Obligation of person who has received advantage under void agreement or contract that becomes void",
+      "parent_id": "THE_CONTRACT_ACT,_1872_67",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "66",
+      "section_title": "Mode of communicating or revoking rescission of voidable contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_68",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Effect of neglect of promisee to afford promisor reasonable facilities for performance",
+      "parent_id": "THE_CONTRACT_ACT,_1872_69",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Claim for necessaries supplied to person incapable of contracting, or on his account",
+      "parent_id": "THE_CONTRACT_ACT,_1872_70",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Reimbursement of person paying money due by another in payment of which he is interested",
+      "parent_id": "THE_CONTRACT_ACT,_1872_71",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Obligation of person enjoying benefit of non-gratuitous act",
+      "parent_id": "THE_CONTRACT_ACT,_1872_72",
+      "page_numbers": [
+        36,
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Responsibility of finder of goods",
+      "parent_id": "THE_CONTRACT_ACT,_1872_73",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Liability of person to whom money is paid or thing delivered by mistake or under coercion",
+      "parent_id": "THE_CONTRACT_ACT,_1872_74",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Compensation for loss or damage caused by breach of contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_75_1",
+      "page_numbers": [
+        37,
+        38,
+        39
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "73",
+      "section_title": "Compensation for loss or damage caused by breach of contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_75_2",
+      "page_numbers": [
+        39,
+        40
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "74",
+      "section_title": "Compensation for breach of contract where penalty stipulated for",
+      "parent_id": "THE_CONTRACT_ACT,_1872_76",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "75",
+      "section_title": "Party rightfully rescinding contract entitled to compensation",
+      "parent_id": "THE_CONTRACT_ACT,_1872_77",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER V",
+      "parent_id": "THE_CONTRACT_ACT,_1872_78",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# CHAPTER VII",
+      "parent_id": "THE_CONTRACT_ACT,_1872_79",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "124",
+      "section_title": "\"Contract of indemnity\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_80",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "125",
+      "section_title": "Rights of indemnity-holder when sued",
+      "parent_id": "THE_CONTRACT_ACT,_1872_81",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "126",
+      "section_title": "\"Contract of guarantee\", \"surety\", \"principal debtor\" and \"creditor\"",
+      "parent_id": "THE_CONTRACT_ACT,_1872_82",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "127",
+      "section_title": "Consideration for guarantee",
+      "parent_id": "THE_CONTRACT_ACT,_1872_83",
+      "page_numbers": [
+        42,
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "128",
+      "section_title": "Surety's liability",
+      "parent_id": "THE_CONTRACT_ACT,_1872_84",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "129",
+      "section_title": "\"Continuing guarantee\"",
+      "parent_id": "THE_CONTRACT_ACT,_1872_85",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "130",
+      "section_title": "Revocation of continuing guarantee",
+      "parent_id": "THE_CONTRACT_ACT,_1872_86",
+      "page_numbers": [
+        43,
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131",
+      "section_title": "Revocation of continuing guarantee by surety's death",
+      "parent_id": "THE_CONTRACT_ACT,_1872_87",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "132",
+      "section_title": "Liability of two persons primarily liable, not affected by arrangement between them that one shall be surety on other's default",
+      "parent_id": "THE_CONTRACT_ACT,_1872_88",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "133",
+      "section_title": "Discharge of surety by variance in terms of contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_89",
+      "page_numbers": [
+        44,
+        45
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "134",
+      "section_title": "Discharge of surety by release or discharge of principal debtor",
+      "parent_id": "THE_CONTRACT_ACT,_1872_90",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "135",
+      "section_title": "Discharge of surety when creditor compounds with, gives time to, or agrees not to sue, principal debtor",
+      "parent_id": "THE_CONTRACT_ACT,_1872_91",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "136",
+      "section_title": "Surety not discharged when agreement made with third person to give time to principal debtor",
+      "parent_id": "THE_CONTRACT_ACT,_1872_92",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "137",
+      "section_title": "Creditor's forbearance to sue does not discharge surety",
+      "parent_id": "THE_CONTRACT_ACT,_1872_93",
+      "page_numbers": [
+        45,
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "138",
+      "section_title": "Release of one co-surety does not discharge others",
+      "parent_id": "THE_CONTRACT_ACT,_1872_94",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "139",
+      "section_title": "Discharge of surety by creditor's act or omission impairing surety's eventual remedy",
+      "parent_id": "THE_CONTRACT_ACT,_1872_95",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "140",
+      "section_title": "Rights of surety on payment or performance",
+      "parent_id": "THE_CONTRACT_ACT,_1872_96",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "141",
+      "section_title": "Surety's right to benefit of creditor's securities",
+      "parent_id": "THE_CONTRACT_ACT,_1872_97",
+      "page_numbers": [
+        46,
+        47
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "142",
+      "section_title": "Guarantee obtained by misrepresentation invalid",
+      "parent_id": "THE_CONTRACT_ACT,_1872_98",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "143",
+      "section_title": "Guarantee obtained by concealment invalid",
+      "parent_id": "THE_CONTRACT_ACT,_1872_99",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "144",
+      "section_title": "Guarantee on contract that creditor shall not act on it until co-surety joins",
+      "parent_id": "THE_CONTRACT_ACT,_1872_100",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "145",
+      "section_title": "Implied promise to indemnify surety",
+      "parent_id": "THE_CONTRACT_ACT,_1872_101",
+      "page_numbers": [
+        47,
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "146",
+      "section_title": "Co-sureties liable to contribute equally",
+      "parent_id": "THE_CONTRACT_ACT,_1872_102",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "147",
+      "section_title": "Liability of co-sureties bound in different sums",
+      "parent_id": "THE_CONTRACT_ACT,_1872_103",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "148",
+      "section_title": "\"Bailment\", \"bailor\", and \"bailee\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_104",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "149",
+      "section_title": "Delivery to bailee how made",
+      "parent_id": "THE_CONTRACT_ACT,_1872_105",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "150",
+      "section_title": "Bailor's duty to disclose faults in goods bailed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_106",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "151",
+      "section_title": "Care to be taken by bailee",
+      "parent_id": "THE_CONTRACT_ACT,_1872_107",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "152",
+      "section_title": "Bailee when not liable for loss, etc., of thing bailed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_108",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "153",
+      "section_title": "Termination of bailment by bailee's act inconsistent with conditions",
+      "parent_id": "THE_CONTRACT_ACT,_1872_109",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "154",
+      "section_title": "Liability of bailee making unauthorized use of goods bailed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_110",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "155",
+      "section_title": "Effect of mixture, with bailor's consent, of his goods with bailee's",
+      "parent_id": "THE_CONTRACT_ACT,_1872_111",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "156",
+      "section_title": "Effect of mixture, without bailor's consent, when the goods can be separated",
+      "parent_id": "THE_CONTRACT_ACT,_1872_112",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "157",
+      "section_title": "Effect of mixture, without bailor's consent, when the goods cannot be separated",
+      "parent_id": "THE_CONTRACT_ACT,_1872_113",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "158",
+      "section_title": "Repayment by bailor of necessary expenses",
+      "parent_id": "THE_CONTRACT_ACT,_1872_114",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "159",
+      "section_title": "Restoration of goods lent gratuitously",
+      "parent_id": "THE_CONTRACT_ACT,_1872_115",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "160",
+      "section_title": "Return of goods bailed on expiration of time or accomplishment of purpose",
+      "parent_id": "THE_CONTRACT_ACT,_1872_116",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "161",
+      "section_title": "Bailee's responsibility when goods are not duly returned",
+      "parent_id": "THE_CONTRACT_ACT,_1872_117",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "162",
+      "section_title": "Termination of gratuitous bailment by death",
+      "parent_id": "THE_CONTRACT_ACT,_1872_118",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "163",
+      "section_title": "Bailor entitled to increase or profit from goods bailed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_119",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "164",
+      "section_title": "Bailor's responsibility to bailee",
+      "parent_id": "THE_CONTRACT_ACT,_1872_120",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "165",
+      "section_title": "Bailment by several joint owners",
+      "parent_id": "THE_CONTRACT_ACT,_1872_121",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "166",
+      "section_title": "Bailee not responsible on re-delivery to bailor without title",
+      "parent_id": "THE_CONTRACT_ACT,_1872_122",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "167",
+      "section_title": "Right of third person claiming goods bailed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_123",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "168",
+      "section_title": "Right of finder of goods; may sue for specific reward offered",
+      "parent_id": "THE_CONTRACT_ACT,_1872_124",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "169",
+      "section_title": "When finder of thing commonly on sale may sell it",
+      "parent_id": "THE_CONTRACT_ACT,_1872_125",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "170",
+      "section_title": "Bailee's particular lien",
+      "parent_id": "THE_CONTRACT_ACT,_1872_126",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "171",
+      "section_title": "General lien of bankers, factors, wharfingers, attorneys and policy brokers",
+      "parent_id": "THE_CONTRACT_ACT,_1872_127",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "172",
+      "section_title": "\"Pledge,\" \"pawnor\", and \"pawnee\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_128",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "173",
+      "section_title": "Pawnee's right of retainer",
+      "parent_id": "THE_CONTRACT_ACT,_1872_129",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "174",
+      "section_title": "Pawnee not to retain for debt or promise other than that for which goods pledged. Presumption incase of subsequent advances",
+      "parent_id": "THE_CONTRACT_ACT,_1872_130",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "175",
+      "section_title": "Pawnee's right as to extraordinary expenses incurred",
+      "parent_id": "THE_CONTRACT_ACT,_1872_131",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "176",
+      "section_title": "Pawnee's right where pawnor makes default",
+      "parent_id": "THE_CONTRACT_ACT,_1872_132",
+      "page_numbers": [
+        52,
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "177",
+      "section_title": "Defaulting pawnors' right to redeem",
+      "parent_id": "THE_CONTRACT_ACT,_1872_133_1",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "177",
+      "section_title": "Defaulting pawnors' right to redeem",
+      "parent_id": "THE_CONTRACT_ACT,_1872_133_2",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "178A",
+      "section_title": "Pledge by person in possession under voidable contract",
+      "parent_id": "THE_CONTRACT_ACT,_1872_134",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "179",
+      "section_title": "Pledge where pawnor has only a limited interest",
+      "parent_id": "THE_CONTRACT_ACT,_1872_135",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "180",
+      "section_title": "Suit by bailor or bailee against wrongdoer",
+      "parent_id": "THE_CONTRACT_ACT,_1872_136",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "181",
+      "section_title": "Apportionment of relief or compensation obtained by such suits",
+      "parent_id": "THE_CONTRACT_ACT,_1872_137",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# CHAPTER X",
+      "parent_id": "THE_CONTRACT_ACT,_1872_138",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "182",
+      "section_title": "\"Agent\" and \"principal\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_139",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "183",
+      "section_title": "Who may employ agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_140",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "184",
+      "section_title": "Who may be an agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_141",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "185",
+      "section_title": "Consideration not necessary",
+      "parent_id": "THE_CONTRACT_ACT,_1872_142",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "186",
+      "section_title": "Agent's authority may be expressed or implied",
+      "parent_id": "THE_CONTRACT_ACT,_1872_143",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "187",
+      "section_title": "Definitions of express and implied authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_144",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "188",
+      "section_title": "Extent of agent's authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_145",
+      "page_numbers": [
+        54
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "189",
+      "section_title": "Agent's authority in an emergency",
+      "parent_id": "THE_CONTRACT_ACT,_1872_146",
+      "page_numbers": [
+        54,
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "190",
+      "section_title": "When agent cannot delegate",
+      "parent_id": "THE_CONTRACT_ACT,_1872_147",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "191",
+      "section_title": "\"Sub-agent\" defined",
+      "parent_id": "THE_CONTRACT_ACT,_1872_148",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "192",
+      "section_title": "Representation of principal by sub-agent properly appointed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_149",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "193",
+      "section_title": "Agent's responsibility for sub-agent appointed without authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_150",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "194",
+      "section_title": "Relation between principal and person duly appointed by agent to act in business of agency",
+      "parent_id": "THE_CONTRACT_ACT,_1872_151",
+      "page_numbers": [
+        55,
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "195",
+      "section_title": "Agent's duty in naming such person",
+      "parent_id": "THE_CONTRACT_ACT,_1872_152",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "196",
+      "section_title": "Right of person as to acts done for him without his authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_153",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "197",
+      "section_title": "Ratification may be expressed or implied",
+      "parent_id": "THE_CONTRACT_ACT,_1872_154",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "198",
+      "section_title": "Knowledge requisite for valid ratification",
+      "parent_id": "THE_CONTRACT_ACT,_1872_155",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "199",
+      "section_title": "Effect of ratifying unauthorized act forming part of a transaction",
+      "parent_id": "THE_CONTRACT_ACT,_1872_156",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "200",
+      "section_title": "Ratification of unauthorized act cannot injure third person",
+      "parent_id": "THE_CONTRACT_ACT,_1872_157",
+      "page_numbers": [
+        56,
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "201",
+      "section_title": "Termination of agency",
+      "parent_id": "THE_CONTRACT_ACT,_1872_158",
+      "page_numbers": [
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "202",
+      "section_title": "Termination of agency where agent has an interest in subject matter",
+      "parent_id": "THE_CONTRACT_ACT,_1872_159",
+      "page_numbers": [
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "203",
+      "section_title": "When principal may revoke agent's authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_160",
+      "page_numbers": [
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "204",
+      "section_title": "Revocation where authority has been partly exercised",
+      "parent_id": "THE_CONTRACT_ACT,_1872_161",
+      "page_numbers": [
+        57,
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "205",
+      "section_title": "Compensation for revocation by principal or renunciation by agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_162",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "206",
+      "section_title": "Notice of revocation or renunciation",
+      "parent_id": "THE_CONTRACT_ACT,_1872_163",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "207",
+      "section_title": "Revocation and renunciation may be expressed or implied",
+      "parent_id": "THE_CONTRACT_ACT,_1872_164",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "208",
+      "section_title": "When termination of agent's authority takes effect as to agent, and as to third persons",
+      "parent_id": "THE_CONTRACT_ACT,_1872_165",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "209",
+      "section_title": "Agent's duty on termination of agency by principal's death or insanity",
+      "parent_id": "THE_CONTRACT_ACT,_1872_166",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "210",
+      "section_title": "Termination of sub-agent's authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_167",
+      "page_numbers": [
+        58,
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "211",
+      "section_title": "Agent's duty in conducting principal's business",
+      "parent_id": "THE_CONTRACT_ACT,_1872_168",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "212",
+      "section_title": "Skill and diligence required from agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_169",
+      "page_numbers": [
+        59,
+        60
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "213",
+      "section_title": "Agent's accounts",
+      "parent_id": "THE_CONTRACT_ACT,_1872_170",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "214",
+      "section_title": "Agent's duty to communicate with principal",
+      "parent_id": "THE_CONTRACT_ACT,_1872_171",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "215",
+      "section_title": "Right of principal when agent deals, on his own account, in business of agency without principal's consent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_172",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "216",
+      "section_title": "Principal's right to benefit gained by agent dealing on his own account in business of agency",
+      "parent_id": "THE_CONTRACT_ACT,_1872_173",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "217",
+      "section_title": "Agent's right of retainer out of sums received on principal's account",
+      "parent_id": "THE_CONTRACT_ACT,_1872_174",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "218",
+      "section_title": "Agent's duty to pay sums received for principal",
+      "parent_id": "THE_CONTRACT_ACT,_1872_175",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "219",
+      "section_title": "When agent's remuneration becomes due",
+      "parent_id": "THE_CONTRACT_ACT,_1872_176",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "220",
+      "section_title": "Agent not entitled to remuneration for business misconducted",
+      "parent_id": "THE_CONTRACT_ACT,_1872_177",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "221",
+      "section_title": "Agent's lien on principal's property",
+      "parent_id": "THE_CONTRACT_ACT,_1872_178",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "222",
+      "section_title": "Agent to be indemnified against consequences of lawful acts",
+      "parent_id": "THE_CONTRACT_ACT,_1872_179",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "223",
+      "section_title": "Agent to be indemnified against consequences of acts done in good faith",
+      "parent_id": "THE_CONTRACT_ACT,_1872_180",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "224",
+      "section_title": "Non-liability of employer of agent to do a criminal act",
+      "parent_id": "THE_CONTRACT_ACT,_1872_181",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "225",
+      "section_title": "Compensation to agent for injury caused by principal's neglect",
+      "parent_id": "THE_CONTRACT_ACT,_1872_182",
+      "page_numbers": [
+        62,
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "226",
+      "section_title": "Enforcement and consequences of agent's contracts",
+      "parent_id": "THE_CONTRACT_ACT,_1872_183",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "227",
+      "section_title": "Principal how far bound, when agent exceeds authority",
+      "parent_id": "THE_CONTRACT_ACT,_1872_184",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "228",
+      "section_title": "Principal not bound when excess of agent's authority is not separable",
+      "parent_id": "THE_CONTRACT_ACT,_1872_185",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "229",
+      "section_title": "Consequences of notice given to agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_186",
+      "page_numbers": [
+        63,
+        64
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "230",
+      "section_title": "Agent cannot personally enforce, nor be bound by, contracts on behalf of principal",
+      "parent_id": "THE_CONTRACT_ACT,_1872_187",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "231",
+      "section_title": "Rights of parties to a contract made by agent not disclosed",
+      "parent_id": "THE_CONTRACT_ACT,_1872_188",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "232",
+      "section_title": "Performance of contract with agent supposed to be principal",
+      "parent_id": "THE_CONTRACT_ACT,_1872_189",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "233",
+      "section_title": "Right of person dealing with agent personally liable",
+      "parent_id": "THE_CONTRACT_ACT,_1872_190",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "234",
+      "section_title": "Consequence of inducing agent or principal to act on belief that principal or agent will be held exclusively liable",
+      "parent_id": "THE_CONTRACT_ACT,_1872_191",
+      "page_numbers": [
+        64,
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "235",
+      "section_title": "Liability of pretended agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_192",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "236",
+      "section_title": "Person falsely contracting as agent not entitled to performance",
+      "parent_id": "THE_CONTRACT_ACT,_1872_193",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "237",
+      "section_title": "Liability of principal inducing belief that agent's unauthorized acts were authorized",
+      "parent_id": "THE_CONTRACT_ACT,_1872_194",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "238",
+      "section_title": "Effect, on agreement, of misrepresentation or fraud by agent",
+      "parent_id": "THE_CONTRACT_ACT,_1872_195",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER XI",
+      "parent_id": "THE_CONTRACT_ACT,_1872_196",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER XI",
+      "parent_id": "THE_CONTRACT_ACT,_1872_197",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 1
+    }
+  ]
+}

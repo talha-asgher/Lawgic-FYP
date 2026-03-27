@@ -1,0 +1,347 @@
+{
+  "source_file": "THE PRISONERS ACT, 1900.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE PRISONERS ACT, 1900.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 36,
+  "total_child_chunks": 47,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_PRISONERS_ACT,_1900_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_PRISONERS_ACT,_1900_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PRISONERS_ACT,_1900_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_PRISONERS_ACT,_1900_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PRISONERS_ACT,_1900_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Officers in charge of prisons to detain persons duly committed to their custody",
+      "parent_id": "THE_PRISONERS_ACT,_1900_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Officers in charge of prisons to return writs, etc., after execution or discharge",
+      "parent_id": "THE_PRISONERS_ACT,_1900_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "References in this Part to prisons, etc., to be construed as referring also to Reformatory Schools",
+      "parent_id": "THE_PRISONERS_ACT,_1900_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Power of officers in charge of prisons to give effect to sentences of certain Courts",
+      "parent_id": "THE_PRISONERS_ACT,_1900_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Warrant of officer of such Court to be sufficient authority",
+      "parent_id": "THE_PRISONERS_ACT,_1900_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Procedure where officer in charge of prison doubts the legality of warrant sent to him for execution under this Part",
+      "parent_id": "THE_PRISONERS_ACT,_1900_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Execution in the Provinces, etc., of certain capital sentences not ordinarily executable there",
+      "parent_id": "THE_PRISONERS_ACT,_1900_10",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "28",
+      "section_title": "References in this part to the prisons, etc., to be constructed as referring also to Reformatory Schools",
+      "parent_id": "THE_PRISONERS_ACT,_1900_11",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "-",
+      "parent_id": "THE_PRISONERS_ACT,_1900_12",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Lunatic prisoners how to be dealt with",
+      "parent_id": "THE_PRISONERS_ACT,_1900_13",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "31",
+      "section_title": "-",
+      "parent_id": "THE_PRISONERS_ACT,_1900_14",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Release on recognizance, by order of High Court, of prisoner recommended for pardon",
+      "parent_id": "THE_PRISONERS_ACT,_1900_15",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IX",
+      "parent_id": "THE_PRISONERS_ACT,_1900_16",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "References in this part to prisons, etc., to be construed as referring also to Reformatory Schools",
+      "parent_id": "THE_PRISONERS_ACT,_1900_17",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Power for Civil Courts to require appearance of prisoner to give evidence",
+      "parent_id": "THE_PRISONERS_ACT,_1900_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "District Judge in certain cases to countersign orders made under section 35",
+      "parent_id": "THE_PRISONERS_ACT,_1900_19",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Power for certain Criminal Courts to require attendance of prisoner to give evidence or answer to charge",
+      "parent_id": "THE_PRISONERS_ACT,_1900_20",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "38",
+      "section_title": "Order to be transmitted through Magistrate of the district or sub-division in which person is confined",
+      "parent_id": "THE_PRISONERS_ACT,_1900_21",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Procedure where removal is desired of person confined more than one hundred miles from place where evidence is required",
+      "parent_id": "THE_PRISONERS_ACT,_1900_22",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "40",
+      "section_title": "Persons confined beyond limits of appellate jurisdiction of High Court",
+      "parent_id": "THE_PRISONERS_ACT,_1900_23",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Prisoner to be brought up",
+      "parent_id": "THE_PRISONERS_ACT,_1900_24",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Power to Government to exempt certain prisoners from operation of this Part",
+      "parent_id": "THE_PRISONERS_ACT,_1900_25",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Officer in charge of prison when to abstain from carrying out order",
+      "parent_id": "THE_PRISONERS_ACT,_1900_26",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "44",
+      "section_title": "Commissions for examination of prisoners",
+      "parent_id": "THE_PRISONERS_ACT,_1900_27",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Commissions for examination of prisoners beyond limits of appellate jurisdiction of High Court",
+      "parent_id": "THE_PRISONERS_ACT,_1900_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Commission how to be directed",
+      "parent_id": "THE_PRISONERS_ACT,_1900_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Process how served on prisoners,",
+      "parent_id": "THE_PRISONERS_ACT,_1900_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Process served to be transmitted at prisoner's request",
+      "parent_id": "THE_PRISONERS_ACT,_1900_31",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Deposit of costs",
+      "parent_id": "THE_PRISONERS_ACT,_1900_32",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Power to make rules under this part",
+      "parent_id": "THE_PRISONERS_ACT,_1900_33",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Power to declare who shall be deemed officer in charge of prison",
+      "parent_id": "THE_PRISONERS_ACT,_1900_34",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "[Repeals]",
+      "parent_id": "THE_PRISONERS_ACT,_1900_35",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_PRISONERS_ACT,_1900_36",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    }
+  ]
+}

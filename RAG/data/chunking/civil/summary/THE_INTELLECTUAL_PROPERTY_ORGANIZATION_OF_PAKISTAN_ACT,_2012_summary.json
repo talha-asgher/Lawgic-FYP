@@ -1,0 +1,413 @@
+{
+  "source_file": "THE INTELLECTUAL PROPERTY ORGANIZATION OF PAKISTAN ACT, 2012.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE INTELLECTUAL PROPERTY ORGANIZATION OF PAKISTAN ACT, 2012.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 43,
+  "total_child_chunks": 64,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Establishment of the Organization",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Policy Board",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_5",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "5",
+      "section_title": "Powers of the Federal Government",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Functions etc., of the Board",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_7",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "7",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Meetings of the Board",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Chairman",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Privileges and perquisites of the Members",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Functions and powers of the Chairman",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Director-General",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_13",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Powers and functions of the Organization",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_14",
+      "page_numbers": [
+        8,
+        9,
+        10
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "14",
+      "section_title": "Intellectual property rights advocacy",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_15",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_16",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Trial of offences",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_17",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Establishment of Intellectual Property Tribunals",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_18",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_19",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Powers of the Tribunals",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_20",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "18",
+      "section_title": "Jurisdiction of the Tribunals",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Appeals from Court",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Authentication of orders and other instruments of the Organization",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_23",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Prohibition of use of certain names, marks, seals, etc",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_24",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Exercise of powers of the Organization by other bodies",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Certain matters to be kept confidential",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_26",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Appointment of officers, etc., by the Organization",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_27",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Members and officers, etc., to be public servants",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_28",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Intellectual Property Organization of Pakistan Fund",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_29",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Budget",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Audit and Accounts",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_31",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Power to amend the Schedule",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_32",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Submission of yearly reports and returns",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_33",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Protection of action taken under the Act",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_34",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Exemption from any provision of this Act",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_35",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Policy directives",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_36",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_37",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Power to make regulations",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_38",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Integration of the Trade Marks Registry, Copyright Office and Patent Office",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_39",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "37",
+      "section_title": "Authorities to assist and aid the Organization",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_40",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_41",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Act to override other laws",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_42",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_INTELLECTUAL_PROPERTY_ORGANIZATION_OF_PAKISTAN_ACT,_2012_43",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    }
+  ]
+}

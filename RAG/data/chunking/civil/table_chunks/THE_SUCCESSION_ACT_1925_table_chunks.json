@@ -1,0 +1,74 @@
+[
+  {
+    "text": "| Serial No. | ¹Number of debtor. | Amount of debt, including interest, on date of application for certificate. | Description and date of instrument, if any, by which the debt is secured. |\n| ---------- | ------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------- |\n|            |                    |                                                                             |                                                                           |",
+    "summary": "",
+    "metadata": {
+      "table_id": "TABLE_1",
+      "parent_id": "",
+      "act_name": "THE SUCCESSION ACT 1925",
+      "section_number": "-",
+      "section_title": "FORMS OF CERTIFICATE AND EXTENDED CERTIFICATE",
+      "category": "civil",
+      "table_index_in_section": 1,
+      "page_numbers": [
+        132
+      ],
+      "page": 132,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SUCCESSION ACT 1925.pdf"
+    }
+  },
+  {
+    "text": "| DESCRIPTION |                                              |                                   |                                  |                                                                  |\n| ----------- | -------------------------------------------- | --------------------------------- | -------------------------------- | ---------------------------------------------------------------- |\n| Serial No.  | Distinguishing number or letter of security. | Name, title or class of security. | Amount or par value of security. | Market-value of security on date of application for certificate. |\n|             |                                              |                                   |                                  |                                                                  |",
+    "summary": "",
+    "metadata": {
+      "table_id": "TABLE_2",
+      "parent_id": "",
+      "act_name": "THE SUCCESSION ACT 1925",
+      "section_number": "-",
+      "section_title": "FORMS OF CERTIFICATE AND EXTENDED CERTIFICATE",
+      "category": "civil",
+      "table_index_in_section": 2,
+      "page_numbers": [
+        132
+      ],
+      "page": 132,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SUCCESSION ACT 1925.pdf"
+    }
+  },
+  {
+    "text": "| Serial No. | Number of debtor. | Amount of debt, including interest, on date of application for extension. | Description and date of instrument, if any, by which the debt is secured. |\n| ---------- | ----------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |\n|            |                   |                                                                           |                                                                           |",
+    "summary": "",
+    "metadata": {
+      "table_id": "TABLE_3",
+      "parent_id": "",
+      "act_name": "THE SUCCESSION ACT 1925",
+      "section_number": "-",
+      "section_title": "",
+      "category": "civil",
+      "table_index_in_section": 1,
+      "page_numbers": [
+        133
+      ],
+      "page": 133,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SUCCESSION ACT 1925.pdf"
+    }
+  },
+  {
+    "text": "| DESCRIPTION |                                              |                                   |                                  |                                                                |\n| ----------- | -------------------------------------------- | --------------------------------- | -------------------------------- | -------------------------------------------------------------- |\n| Serial No.  | Distinguishing number or letter of security. | Name, title or class of security. | Amount or par value of security. | Market-value of security on date of application for extension. |\n|             |                                              |                                   |                                  |                                                                |",
+    "summary": "",
+    "metadata": {
+      "table_id": "TABLE_4",
+      "parent_id": "",
+      "act_name": "THE SUCCESSION ACT 1925",
+      "section_number": "-",
+      "section_title": "",
+      "category": "civil",
+      "table_index_in_section": 1,
+      "page_numbers": [
+        133
+      ],
+      "page": 133,
+      "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SUCCESSION ACT 1925.pdf"
+    }
+  }
+]

@@ -34,7 +34,7 @@ def ask_legal_question(
     db.flush()
 
     try:
-        answer_text, raw_citations = get_answer(req.question, req.language, session_id)
+        answer_text, raw_citations = (req.question, req.language, session_id)
         qa.answer = answer_text
         qa.status = "answered"
     except Exception:

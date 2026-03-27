@@ -12,8 +12,6 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT, TA_JUSTIFY
 from io import BytesIO
 import datetime
 
-# ─── Common Styles ─────────────────────────────────────────────────────────────
-
 def get_styles():
     styles = getSampleStyleSheet()
 
@@ -25,7 +23,7 @@ def get_styles():
         spaceAfter=4,
         alignment=TA_CENTER,
         fontName='Helvetica-Bold',
-        textColor=colors.HexColor('#052379'),
+        textColor=colors.HexColor("#000000"),
     ))
     styles.add(ParagraphStyle(
         name='DocSubTitle',
@@ -43,7 +41,7 @@ def get_styles():
         spaceBefore=12,
         spaceAfter=6,
         fontName='Helvetica-Bold',
-        textColor=colors.HexColor('#052379'),
+        textColor=colors.HexColor("#000000"),
     ))
     styles.add(ParagraphStyle(
         name='BodyText2',
@@ -73,7 +71,6 @@ def get_styles():
 
 
 def build_header(story, styles, title, subtitle, legal_basis):
-    """Common document header"""
     story.append(Paragraph("ISLAMIC REPUBLIC OF PAKISTAN", styles['DocSubTitle']))
     story.append(Paragraph(title.upper(), styles['DocTitle']))
     story.append(Paragraph(subtitle, styles['DocSubTitle']))
@@ -82,7 +79,6 @@ def build_header(story, styles, title, subtitle, legal_basis):
 
 
 def kv_row(key, value):
-    """Helper to build a key-value table row"""
     return [key, value or "____________________"]
 
 
@@ -119,7 +115,6 @@ def build_footer(story, styles, date_str=None):
 
 
 def signature_block(story, styles, parties):
-    """Add signature lines for parties"""
     story.append(Spacer(1, 0.5 * inch))
     story.append(Paragraph("Signatures", styles['SectionHeading']))
 
@@ -140,9 +135,6 @@ def signature_block(story, styles, parties):
             ('BOTTOMPADDING', (0, 0), (-1, -1), 12),
         ]))
         story.append(sig_table)
-
-
-# ─── FIR ───────────────────────────────────────────────────────────────────────
 
 def generate_fir_pdf(data: dict) -> bytes:
     buffer = BytesIO()
@@ -204,9 +196,6 @@ def generate_fir_pdf(data: dict) -> bytes:
     build_footer(story, styles)
     doc.build(story)
     return buffer.getvalue()
-
-
-# ─── Tenancy Agreement ─────────────────────────────────────────────────────────
 
 def generate_tenancy_pdf(data: dict) -> bytes:
     buffer = BytesIO()
@@ -285,9 +274,6 @@ def generate_tenancy_pdf(data: dict) -> bytes:
     doc.build(story)
     return buffer.getvalue()
 
-
-# ─── Divorce Notice ────────────────────────────────────────────────────────────
-
 def generate_divorce_pdf(data: dict) -> bytes:
     buffer = BytesIO()
     doc = SimpleDocTemplate(buffer, pagesize=A4,
@@ -358,9 +344,6 @@ def generate_divorce_pdf(data: dict) -> bytes:
     doc.build(story)
     return buffer.getvalue()
 
-
-# ─── Affidavit ─────────────────────────────────────────────────────────────────
-
 def generate_affidavit_pdf(data: dict) -> bytes:
     buffer = BytesIO()
     doc = SimpleDocTemplate(buffer, pagesize=A4,
@@ -418,9 +401,6 @@ def generate_affidavit_pdf(data: dict) -> bytes:
     build_footer(story, styles)
     doc.build(story)
     return buffer.getvalue()
-
-
-# ─── Power of Attorney ─────────────────────────────────────────────────────────
 
 def generate_poa_pdf(data: dict) -> bytes:
     buffer = BytesIO()
@@ -494,9 +474,6 @@ def generate_poa_pdf(data: dict) -> bytes:
     doc.build(story)
     return buffer.getvalue()
 
-
-# ─── Legal Notice ──────────────────────────────────────────────────────────────
-
 def generate_legal_notice_pdf(data: dict) -> bytes:
     buffer = BytesIO()
     doc = SimpleDocTemplate(buffer, pagesize=A4,
@@ -559,9 +536,6 @@ def generate_legal_notice_pdf(data: dict) -> bytes:
     build_footer(story, styles)
     doc.build(story)
     return buffer.getvalue()
-
-
-# ─── Dispatcher ────────────────────────────────────────────────────────────────
 
 PDF_GENERATORS = {
     "fir":          generate_fir_pdf,

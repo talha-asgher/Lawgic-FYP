@@ -1,10 +1,10 @@
-
 "use client";
 
 import React, { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { FileText, FilePlus, Files, FileWarning, ChevronRight, Search, FileSignature, Gavel, ScrollText,} from "lucide-react";
+import { FileText, FilePlus, Files, FileWarning, ChevronRight, Search, FileSignature, Gavel, ScrollText } from "lucide-react";
 import { TEMPLATE_LIST, TEMPLATE_COLORS } from "../lib/documentTemplates";
+import { useLanguage } from "@/app/lib/LanguageContext";
 
 const TEMPLATE_ICONS = {
   fir:          <FileWarning className="w-8 h-8" />,
@@ -17,6 +17,7 @@ const TEMPLATE_ICONS = {
 
 export default function DocumentGenerationPage() {
   const router = useRouter();
+  const { t, lang } = useLanguage();
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredTemplates = useMemo(() => {
@@ -30,7 +31,6 @@ export default function DocumentGenerationPage() {
     );
   }, [searchQuery]);
 
-  // ✅ Navigate using query param — matches your folder name
   const handleTemplateClick = (templateKey) => {
     router.push(`/document-generation-template?type=${templateKey}`);
   };
@@ -40,33 +40,30 @@ export default function DocumentGenerationPage() {
       <main className="flex-1 bg-[#F6F8FB]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12">
 
-          {/* Header */}
           <div className="mb-8">
-            <h1 className="text-3xl font-medium text-gray-900 mb-2">Document Generation</h1>
-            <p className="text-gray-600">Create legal documents using our verified templates</p>
+            <h1 className="text-3xl font-medium text-gray-900 mb-2">{t("docGeneration.heading")}</h1>
+            <p className="text-gray-600">{t("docGeneration.subtitle")}</p>
           </div>
 
-          {/* Search */}
           <div className="mb-10 relative max-w-lg">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <Search className={`absolute ${lang === 'ur' ? 'end-4' : 'start-4'} top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400`} />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search for a template (e.g. Affidavit, Lease)..."
-              className="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-all"
+              placeholder={t("docGeneration.searchPlaceholder")}
+              className={`w-full ${lang === 'ur' ? 'pe-12 ps-4' : 'ps-12 pe-4'} py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-all`}
             />
           </div>
 
-          {/* Templates Grid */}
           {filteredTemplates.length === 0 ? (
             <div className="text-center py-16">
-              <p className="text-gray-400 text-lg">No templates found for "{searchQuery}"</p>
+              <p className="text-gray-400 text-lg">{t("docGeneration.noTemplates", { query: searchQuery })}</p>
               <button
                 onClick={() => setSearchQuery("")}
                 className="mt-3 text-[#052379] text-sm hover:underline"
               >
-                Clear search
+                {t("docGeneration.clearSearch")}
               </button>
             </div>
           ) : (
@@ -98,14 +95,13 @@ export default function DocumentGenerationPage() {
                     </div>
 
                     <button className="flex items-center gap-1 text-sm font-medium text-gray-900 group-hover:gap-2 transition-all mt-5">
-                      Start Draft
+                      {t("docGeneration.startDraft")}
                       <ChevronRight className="w-4 h-4" />
                     </button>
                   </div>
                 );
               })}
 
-              {/* Custom Document Card */}
               <div
                 onClick={() => handleTemplateClick("custom")}
                 className="group bg-white rounded-2xl p-6 border-2 border-dashed border-gray-200 hover:border-[#052379]/40 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
@@ -114,14 +110,14 @@ export default function DocumentGenerationPage() {
                   <FilePlus className="w-8 h-8" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-base font-semibold text-gray-900 mb-1">Custom Document</h3>
-                  <p className="text-xs text-gray-500 mb-3">Create a custom legal document from scratch</p>
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">{t("docGeneration.customTitle")}</h3>
+                  <p className="text-xs text-gray-500 mb-3">{t("docGeneration.customDesc")}</p>
                   <span className="inline-block text-xs px-2 py-0.5 rounded-full font-medium bg-gray-100 text-gray-600">
-                    AI-Assisted
+                    {t("docGeneration.aiAssisted")}
                   </span>
                 </div>
                 <button className="flex items-center gap-1 text-sm font-medium text-gray-900 group-hover:gap-2 transition-all mt-5">
-                  Start Draft
+                  {t("docGeneration.startDraft")}
                   <ChevronRight className="w-4 h-4" />
                 </button>
               </div>

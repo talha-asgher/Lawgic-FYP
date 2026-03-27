@@ -1,11 +1,6 @@
-// Frontend/lib/documentTemplates.js
 
 export const DOCUMENT_TEMPLATES = {
 
-  // ─── FIR ────────────────────────────────────────────────────────────────────
-  // Legal Basis: Section 154 Cr.P.C (Code of Criminal Procedure 1898)
-  // FIR must be registered at the police station of jurisdiction where offense occurred
-  // Mandatory fields per Pakistani law: complainant identity, offense details, accused info
   fir: {
     key: "fir",
     title: "FIR (First Information Report)",
@@ -39,7 +34,6 @@ export const DOCUMENT_TEMPLATES = {
       {
         heading: "Offense & Accused Details",
         fields: [
-          // PPC sections are mandatory for proper FIR registration
           { name: "ppc_sections",      label: "Relevant PPC Sections",      type: "text",     required: false, placeholder: "e.g. 302 (Murder), 392 (Robbery), 354 (Assault)" },
           { name: "offense_details",   label: "Full Details of Offense",    type: "textarea", required: true,  placeholder: "Describe what happened in complete detail — who, what, when, where, how..." },
           { name: "accused_name",      label: "Accused Name(s)",            type: "text",     required: false, placeholder: "Full name(s), leave blank if unknown" },
@@ -53,10 +47,6 @@ export const DOCUMENT_TEMPLATES = {
     ]
   },
 
-  // ─── TENANCY AGREEMENT ──────────────────────────────────────────────────────
-  // Legal Basis: Rent Restriction Ordinance 2001 (Punjab), Sindh Rented Premises Ordinance 1979
-  // Must be on stamp paper (Rs. 500 or as per provincial rates)
-  // Registration with Rent Controller recommended
   tenancy: {
     key: "tenancy",
     title: "Tenancy Agreement",
@@ -106,11 +96,6 @@ export const DOCUMENT_TEMPLATES = {
     ]
   },
 
-  // ─── DIVORCE NOTICE (TALAQ) ─────────────────────────────────────────────────
-  // Legal Basis: Muslim Family Laws Ordinance 1961 (MFLO), Section 7
-  // MANDATORY: Notice to Union Council Chairman within 7 days of Talaq pronouncement
-  // 90-day reconciliation period (iddat) before divorce is effective
-  // Copy must be sent to wife AND Union Council
   divorce: {
     key: "divorce",
     title: "Divorce Notice (Talaq)",
@@ -163,10 +148,7 @@ export const DOCUMENT_TEMPLATES = {
     ]
   },
 
-  // ─── AFFIDAVIT ──────────────────────────────────────────────────────────────
-  // Legal Basis: Qanoon-e-Shahadat Order 1984, Oaths Act 1873
-  // Must be sworn before Oath Commissioner / Notary Public / Magistrate
-  // Should be on Rs. 50 or Rs. 100 stamp paper
+
   affidavit: {
     key: "affidavit",
     title: "Affidavit",
@@ -192,7 +174,6 @@ export const DOCUMENT_TEMPLATES = {
           { name: "court_authority",  label: "Before (Court / Authority)",  type: "text",     required: false, placeholder: "e.g. Senior Civil Judge Lahore / NADRA / Registrar LHC" },
           { name: "case_number",      label: "Case / Reference Number",     type: "text",     required: false, placeholder: "If related to a court case" },
           { name: "subject",          label: "Subject of Affidavit",        type: "text",     required: true,  placeholder: "e.g. Declaration of Name Change / Property Ownership / Income" },
-          // Pakistani affidavits use numbered paragraphs
           { name: "statement",        label: "Statement / Declaration",     type: "textarea", required: true,  placeholder: "Write each point as a separate paragraph. e.g:\n1. That I am a citizen of Pakistan...\n2. That I am the owner of...\n3. That the above facts are true..." },
           { name: "date",             label: "Date",                        type: "date",     required: true },
           { name: "city",             label: "City / District",             type: "text",     required: true },
@@ -202,11 +183,6 @@ export const DOCUMENT_TEMPLATES = {
     ]
   },
 
-  // ─── POWER OF ATTORNEY ──────────────────────────────────────────────────────
-  // Legal Basis: Powers of Attorney Act 1882
-  // General POA must be registered with Sub-Registrar under Registration Act 1908
-  // Special POA for property must be attested by Notary Public + registered
-  // Stamp duty applies as per provincial schedule
   poa: {
     key: "poa",
     title: "Power of Attorney",
@@ -259,10 +235,7 @@ export const DOCUMENT_TEMPLATES = {
     ]
   },
 
-  // ─── LEGAL NOTICE ───────────────────────────────────────────────────────────
-  // Legal Basis: Code of Civil Procedure 1908 (CPC), various special laws
-  // Sent via registered post / courier with acknowledgment
-  // Creates legal record before filing suit
+
   legal_notice: {
     key: "legal_notice",
     title: "Legal Notice",

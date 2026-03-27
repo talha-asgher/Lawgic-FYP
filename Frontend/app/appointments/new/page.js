@@ -7,12 +7,7 @@ import {
   CheckCircle, Loader2, AlertCircle,
 } from "lucide-react";
 import { getLawyerById, getCaseById, createAppointment, isLoggedIn, getUser } from "@/lib/api";
-
-const MODES = [
-  { value: "physical", label: "In Person", icon: MapPin, desc: "Visit the lawyer's office" },
-  { value: "online_meeting", label: "Video Call", icon: Video, desc: "Join via video conference" },
-  { value: "phone", label: "Phone Call", icon: Phone, desc: "Talk over the phone" },
-];
+import { useLanguage } from "@/app/lib/LanguageContext";
 
 function todayString() {
   return new Date().toISOString().split("T")[0];
@@ -21,6 +16,7 @@ function todayString() {
 export default function BookAppointmentPage() {
   const searchParams = useSearchParams();
   const router = useRouter();
+  const { t } = useLanguage();
   const lawyerId = searchParams.get("lawyer");
   const caseId = searchParams.get("case");
 
@@ -41,12 +37,18 @@ export default function BookAppointmentPage() {
   const [success, setSuccess] = useState(false);
   const [submitError, setSubmitError] = useState("");
 
+  const MODES = [
+    { value: "physical", labelKey: "newAppointment.modes.physical.label", descKey: "newAppointment.modes.physical.desc", icon: MapPin },
+    { value: "online_meeting", labelKey: "newAppointment.modes.online_meeting.label", descKey: "newAppointment.modes.online_meeting.desc", icon: Video },
+    { value: "phone", labelKey: "newAppointment.modes.phone.label", descKey: "newAppointment.modes.phone.desc", icon: Phone },
+  ];
+
   useEffect(() => {
     if (!isLoggedIn()) { router.replace("/login"); return; }
     const user = getUser();
     if (user?.role === "lawyer") { router.replace("/dashboard/lawyer"); return; }
     if (!lawyerId || !caseId) {
-      setFetchError("Invalid appointment link. Please go to your cases and try again.");
+      setFetchError(t("newAppointment.errInvalidLink"));
       setLoadingLawyer(false);
       return;
     }
@@ -57,7 +59,7 @@ export default function BookAppointmentPage() {
     ])
       .then(([lawyerData, caseInfo]) => {
         if (caseInfo.status !== "in_progress") {
-          setFetchError("Appointments can only be booked for cases that have been accepted by a lawyer.");
+          setFetchError(t("newAppointment.errAcceptedOnly"));
           return;
         }
         setLawyer(lawyerData);
@@ -74,10 +76,10 @@ export default function BookAppointmentPage() {
   };
 
   const validate = () => {
-    if (!date) { setValidationError("Please select a date."); return false; }
-    if (!hour) { setValidationError("Please select a time."); return false; }
+    if (!date) { setValidationError(t("newAppointment.errDate")); return false; }
+    if (!hour) { setValidationError(t("newAppointment.errTime")); return false; }
     const scheduled = new Date(`${date}T${get24hTime()}`);
-    if (scheduled <= new Date()) { setValidationError("Please select a future date and time."); return false; }
+    if (scheduled <= new Date()) { setValidationError(t("newAppointment.errFuture")); return false; }
     return true;
   };
 
@@ -104,7 +106,7 @@ export default function BookAppointmentPage() {
       <div className="min-h-screen bg-[#F6F8FB] flex items-center justify-center">
         <div className="flex flex-col items-center gap-3">
           <Loader2 className="w-10 h-10 text-[#052379] animate-spin" />
-          <p className="text-gray-500 text-sm">Loading…</p>
+          <p className="text-gray-500 text-sm">{t("common.loading")}</p>
         </div>
       </div>
     );
@@ -118,7 +120,7 @@ export default function BookAppointmentPage() {
           <p className="text-gray-700 mb-4">{fetchError}</p>
           <button onClick={() => router.push("/cases")}
             className="px-4 py-2 bg-[#052379] text-white text-sm font-medium rounded-xl hover:bg-[#041d5c] transition-colors">
-            Back to Cases
+            {t("newAppointment.backToCasesBtn")}
           </button>
         </div>
       </div>
@@ -127,19 +129,19 @@ export default function BookAppointmentPage() {
 
   if (success) {
     const scheduledAt = new Date(`${date}T${get24hTime()}`);
+    const selectedMode = MODES.find(m => m.value === mode);
     return (
       <div className="min-h-screen bg-[#F6F8FB] flex items-center justify-center px-4">
         <div className="bg-white rounded-2xl border border-gray-200 shadow-sm max-w-md w-full p-8 text-center">
           <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <CheckCircle className="w-9 h-9 text-emerald-600" />
           </div>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Appointment Requested</h2>
+          <h2 className="text-xl font-semibold text-gray-900 mb-2">{t("newAppointment.successHeading")}</h2>
           <p className="text-gray-500 text-sm mb-6">
-            Your appointment with <span className="font-medium text-gray-900">{lawyer?.name}</span> has
-            been submitted. You'll be notified once it's confirmed.
+            {t("newAppointment.successMsg", { name: lawyer?.name || "" })}
           </p>
 
-          <div className="bg-[#F6F8FB] rounded-xl p-4 text-left mb-6 space-y-2">
+          <div className="bg-[#F6F8FB] rounded-xl p-4 text-start mb-6 space-y-2">
             <div className="flex items-center gap-2 text-sm">
               <Calendar className="w-4 h-4 text-gray-400" />
               <span className="text-gray-600">{scheduledAt.toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</span>
@@ -148,20 +150,22 @@ export default function BookAppointmentPage() {
               <Clock className="w-4 h-4 text-gray-400" />
               <span className="text-gray-600">{scheduledAt.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}</span>
             </div>
-            <div className="flex items-center gap-2 text-sm">
-              {(() => { const M = MODES.find(m => m.value === mode); return M ? <M.icon className="w-4 h-4 text-gray-400" /> : null; })()}
-              <span className="text-gray-600">{MODES.find(m => m.value === mode)?.label}</span>
-            </div>
+            {selectedMode && (
+              <div className="flex items-center gap-2 text-sm">
+                <selectedMode.icon className="w-4 h-4 text-gray-400" />
+                <span className="text-gray-600">{t(selectedMode.labelKey)}</span>
+              </div>
+            )}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
             <button onClick={() => router.push("/appointments")}
               className="flex-1 px-4 py-2.5 bg-[#052379] text-white text-sm font-medium rounded-xl hover:bg-[#041d5c] transition-colors">
-              View Appointments
+              {t("newAppointment.viewAppointments")}
             </button>
             <button onClick={() => router.push("/cases")}
               className="flex-1 px-4 py-2.5 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-xl hover:bg-gray-50 transition-colors">
-              Back to Cases
+              {t("newAppointment.backToCasesBtn")}
             </button>
           </div>
         </div>
@@ -179,10 +183,10 @@ export default function BookAppointmentPage() {
         <button onClick={() => router.push("/cases")}
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 text-sm">
           <ChevronLeft className="w-4 h-4" />
-          Back to Cases
+          {t("newAppointment.backToCases")}
         </button>
 
-        <h1 className="text-2xl font-semibold text-gray-900 mb-6">Book Appointment</h1>
+        <h1 className="text-2xl font-semibold text-gray-900 mb-6">{t("newAppointment.heading")}</h1>
 
         {lawyer && (
           <div className="bg-white rounded-2xl border border-gray-200 p-4 mb-6 shadow-sm flex items-center gap-4">
@@ -195,12 +199,12 @@ export default function BookAppointmentPage() {
                 {(lawyer.specializations || [lawyer.specialization]).filter(Boolean).join(", ")}
               </p>
               {caseData && (
-                <p className="text-xs text-emerald-700 mt-0.5">Case: {caseData.title}</p>
+                <p className="text-xs text-emerald-700 mt-0.5">{t("newAppointment.caseLabel")} {caseData.title}</p>
               )}
             </div>
             {lawyer.consultation_fee && (
-              <div className="text-right flex-shrink-0">
-                <p className="text-xs text-gray-400">Fee</p>
+              <div className="text-end flex-shrink-0">
+                <p className="text-xs text-gray-400">{t("newAppointment.feeLabel")}</p>
                 <p className="text-sm font-medium text-gray-900">PKR {lawyer.consultation_fee.toLocaleString()}</p>
               </div>
             )}
@@ -209,7 +213,7 @@ export default function BookAppointmentPage() {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-            <h2 className="font-medium text-gray-900 mb-4">How would you like to meet?</h2>
+            <h2 className="font-medium text-gray-900 mb-4">{t("newAppointment.howMeet")}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {MODES.map((m) => (
                 <button
@@ -223,19 +227,19 @@ export default function BookAppointmentPage() {
                     }`}
                 >
                   <m.icon className="w-6 h-6" />
-                  <span className="text-sm font-medium">{m.label}</span>
-                  <span className="text-xs text-gray-400 leading-snug">{m.desc}</span>
+                  <span className="text-sm font-medium">{t(m.labelKey)}</span>
+                  <span className="text-xs text-gray-400 leading-snug">{t(m.descKey)}</span>
                 </button>
               ))}
             </div>
           </div>
 
           <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-            <h2 className="font-medium text-gray-900 mb-4">Select Date &amp; Time</h2>
+            <h2 className="font-medium text-gray-900 mb-4">{t("newAppointment.selectDateTime")}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm text-gray-600 mb-2">
-                  <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />Date</span>
+                  <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />{t("newAppointment.dateLabel")}</span>
                 </label>
                 <input
                   type="date"
@@ -247,7 +251,7 @@ export default function BookAppointmentPage() {
               </div>
               <div>
                 <label className="block text-sm text-gray-600 mb-2">
-                  <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />Time</span>
+                  <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{t("newAppointment.timeLabel")}</span>
                 </label>
                 <div className="flex gap-2">
                   <select
@@ -283,13 +287,15 @@ export default function BookAppointmentPage() {
           </div>
 
           <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-            <h2 className="font-medium text-gray-900 mb-1">Additional Notes <span className="text-gray-400 font-normal text-sm">(optional)</span></h2>
-            <p className="text-xs text-gray-400 mb-3">Briefly describe your legal matter so the lawyer can prepare.</p>
+            <h2 className="font-medium text-gray-900 mb-1">
+              {t("newAppointment.notesHeading")} <span className="text-gray-400 font-normal text-sm">{t("newAppointment.notesOptional")}</span>
+            </h2>
+            <p className="text-xs text-gray-400 mb-3">{t("newAppointment.notesHint")}</p>
             <textarea
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
               rows={4}
-              placeholder="e.g. I need help with a property dispute in Lahore…"
+              placeholder={t("newAppointment.notesPlaceholder")}
               className="w-full px-3 py-2.5 bg-[#F6F8FB] border border-gray-200 rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] resize-none"
             />
           </div>
@@ -307,9 +313,9 @@ export default function BookAppointmentPage() {
             className="w-full py-3 bg-[#052379] hover:bg-[#041d5c] disabled:opacity-60 disabled:cursor-not-allowed text-white text-sm font-medium rounded-xl transition-colors flex items-center justify-center gap-2 shadow-sm"
           >
             {submitting ? (
-              <><Loader2 className="w-4 h-4 animate-spin" /> Booking…</>
+              <><Loader2 className="w-4 h-4 animate-spin" /> {t("newAppointment.booking")}</>
             ) : (
-              <><Calendar className="w-4 h-4" /> Confirm Appointment</>
+              <><Calendar className="w-4 h-4" /> {t("newAppointment.confirmAppointment")}</>
             )}
           </button>
         </form>

@@ -4,7 +4,7 @@ from typing import Optional, List, Any, Dict
 from datetime import datetime
 
 
-# ── Auth / User ───────────────────────────────────────────────────────────────
+
 
 class UserBase(BaseModel):
     email: EmailStr
@@ -37,7 +37,6 @@ class UserLogin(BaseModel):
 
 
 class Token(BaseModel):
-    """Token response — includes nested user object for frontend routing."""
     access_token: str
     token_type: str
     user: UserOut
@@ -48,6 +47,7 @@ class UserProfileOut(BaseModel):
     email: EmailStr
     name: str
     phone_num: Optional[str] = None
+    city: Optional[str] = None
     role: str
     profile_image_url: Optional[str] = None
 
@@ -59,6 +59,7 @@ class UserProfileUpdate(BaseModel):
     email: Optional[EmailStr] = None
     name: Optional[str] = None
     phone_num: Optional[str] = None
+    city: Optional[str] = None
 
 
 class PasswordChange(BaseModel):
@@ -66,16 +67,17 @@ class PasswordChange(BaseModel):
     new_password: str
 
 
-# ── Lawyer Profile ────────────────────────────────────────────────────────────
+
+
 
 class LawyerProfileCreate(BaseModel):
-    specialization: str               # comma-separated for multi e.g. "Criminal Law,Family Law"
+    specialization: str               # Criminal Law,Family Law, etc.
     bio_data: Optional[str] = None
     years_of_experience: Optional[int] = None
     office_address: Optional[str] = None
     consultation_fee: Optional[float] = None
     city: Optional[str] = None
-    languages: Optional[str] = None  # comma-separated e.g. "Urdu,English"
+    languages: Optional[str] = None  # Urdu,English
     bar_council_number: Optional[str] = None
     law_school: Optional[str] = None
     grad_year: Optional[int] = None
@@ -140,7 +142,7 @@ class LawyerRegister(BaseModel):
     consultation_fee: Optional[float] = None
 
 
-# ── Reviews ───────────────────────────────────────────────────────────────────
+
 
 class ReviewCreate(BaseModel):
     lawyer_id: int
@@ -168,7 +170,7 @@ class ReviewOut(BaseModel):
         from_attributes = True
 
 
-# ── Legal Institutions ────────────────────────────────────────────────────────
+
 
 class LegalInstitutionOut(BaseModel):
     inst_id: int
@@ -187,7 +189,8 @@ class LegalInstitutionOut(BaseModel):
         from_attributes = True
 
 
-# ── Appointments ──────────────────────────────────────────────────────────────
+
+
 
 class AppointmentCreate(BaseModel):
     mode_of_comm: str
@@ -215,7 +218,8 @@ class AppointmentStatusUpdate(BaseModel):
     status: str
 
 
-# ── Cases ─────────────────────────────────────────────────────────────────────
+
+
 
 class CaseCreate(BaseModel):
     title: str
@@ -276,7 +280,8 @@ class RequestResponse(BaseModel):
     status: str
 
 
-# ── Case Messages (in-case chat) ──────────────────────────────────────────────
+
+
 
 class CaseMessageCreate(BaseModel):
     content: str
@@ -295,7 +300,8 @@ class CaseMessageOut(BaseModel):
         from_attributes = True
 
 
-# ── Direct Messaging / Conversations ─────────────────────────────────────────
+
+
 
 class ConversationCreate(BaseModel):
     other_user_id: int
@@ -358,7 +364,9 @@ class MessageOut(BaseModel):
         from_attributes = True
 
 
-# ── Documents / Templates ─────────────────────────────────────────────────────
+
+
+
 
 class DocumentTemplateOut(BaseModel):
     template_id: int
@@ -391,7 +399,9 @@ class DocumentOut(BaseModel):
         from_attributes = True
 
 
-# ── Document Analysis ─────────────────────────────────────────────────────────
+
+
+
 
 class DocAnalysisOut(BaseModel):
     analysis_id: int
@@ -399,7 +409,7 @@ class DocAnalysisOut(BaseModel):
     file_name: Optional[str] = None
     status: str
     summary: Optional[str] = None
-    risks: Optional[str] = None        # JSON string — parsed on FE
+    risks: Optional[str] = None        # JSON string
     key_details: Optional[str] = None  # JSON string
     created_at: datetime
 
@@ -407,12 +417,13 @@ class DocAnalysisOut(BaseModel):
         from_attributes = True
 
 
-# ── Ask AI / Q&A ─────────────────────────────────────────────────────────────
+
+
 
 class AskAIRequest(BaseModel):
     question: str
     language: str = "en"
-    session_id: Optional[str] = None  # groups questions into one chat session
+    session_id: Optional[str] = None
 
 
 class CitationOut(BaseModel):
@@ -499,9 +510,11 @@ class RagAskResponse(BaseModel):
 
 # ── Inheritance Calculator ────────────────────────────────────────────────────
 
+
+
 class HeirInput(BaseModel):
     deceased_gender: str          # "male" or "female"
-    spouse_count: int = 0         # wives (if male) or husband (if female, max 1)
+    spouse_count: int = 0
     sons: int = 0
     daughters: int = 0
     father_alive: bool = False
@@ -510,14 +523,14 @@ class HeirInput(BaseModel):
     grandmother_alive: bool = False
     full_brothers: int = 0
     full_sisters: int = 0
-    estate_value: Optional[float] = None  # PKR, optional for % only mode
+    estate_value: Optional[float] = None
 
 
 class HeirShare(BaseModel):
     heir: str
-    fraction: str     # e.g. "1/2", "1/8"
+    fraction: str
     percentage: float
-    amount: Optional[float] = None   # only if estate_value provided
+    amount: Optional[float] = None
 
 
 class InheritanceResult(BaseModel):
@@ -526,7 +539,8 @@ class InheritanceResult(BaseModel):
     notes: List[str] = []
 
 
-# ── Dashboard ─────────────────────────────────────────────────────────────────
+
+
 
 class UserDashboardStats(BaseModel):
     documents: int = 0

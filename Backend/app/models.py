@@ -131,13 +131,17 @@ class Document(Base):
 
 class DocAnalysis(Base):
     __tablename__ = "doc_analysis"
+    __table_args__ = (Index("ix_doc_analysis_user_file_hash", "user_id", "file_hash"),)
 
     analysis_id = Column(Integer, primary_key=True, index=True)
     doc_id = Column(Integer, ForeignKey("documents.doc_id"), nullable=True)
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     file_name = Column(Text, nullable=True)
     file_size = Column(Integer, nullable=True)
+    file_hash = Column(String(64), nullable=True)
     status = Column(Text, nullable=False, default="pending")  # pending, processing, done, failed
+    progress_stage = Column(Text, nullable=True)
+    analysis_json = Column(Text, nullable=True)
     summary = Column(Text, nullable=True)
     risks = Column(Text, nullable=True)      # JSON string of risk items
     key_details = Column(Text, nullable=True)  # JSON string

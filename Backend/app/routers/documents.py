@@ -1,17 +1,24 @@
 # app/routers/documents.py
+import hashlib
 import json
 import datetime
+import time
 from typing import List, Optional, Any
 
-from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.responses import Response
+from fastapi import APIRouter, BackgroundTasks, Depends, File, HTTPException, UploadFile, status
+from fastapi.responses import Response, StreamingResponse
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
 from app import models, schemas
 from app.deps import get_db
+from app.database import SessionLocal
 from app.routers.auth import get_current_user
 from app.utils.pdf_generator import generate_document, PDF_GENERATORS
+from app.services.document_text_extraction import detect_kind
+from app.services.doc_analysis_tasks import run_doc_analysis_job
+
+MAX_ANALYSIS_FILE_BYTES = 20 * 1024 * 1024
 
 router = APIRouter(
     prefix="/documents",
@@ -217,6 +224,43 @@ def get_document(
     return doc
 
 
+def serialize_doc_analysis(row: models.DocAnalysis) -> schemas.DocAnalysisOut:
+    result = None
+    if row.analysis_json:
+        try:
+            parsed = json.loads(row.analysis_json)
+            if isinstance(parsed, dict):
+                result = schemas.document_analysis_from_stored_dict(parsed)
+            else:
+                result = None
+        except Exception:
+            result = None
+    summary_text = row.summary
+    if result is not None and result.summary:
+        summary_text = result.summary
+    return schemas.DocAnalysisOut(
+        analysis_id=row.analysis_id,
+        user_id=row.user_id,
+        file_name=row.file_name,
+        file_size=row.file_size,
+        file_hash=row.file_hash,
+        status=row.status,
+        progress_stage=row.progress_stage,
+        summary=summary_text,
+        risks=row.risks,
+        key_details=row.key_details,
+        result=result,
+        created_at=row.created_at,
+    )
+
+
+def serialize_doc_analysis_created(
+    row: models.DocAnalysis, from_cache: bool
+) -> schemas.DocAnalysisCreatedOut:
+    base = serialize_doc_analysis(row)
+    return schemas.DocAnalysisCreatedOut(**base.model_dump(), from_cache=from_cache)
+
+
 # ── Document Analysis ─────────────────────────────────────────────────────────
 
 analysis_router = APIRouter(
@@ -225,43 +269,77 @@ analysis_router = APIRouter(
 )
 
 
-@analysis_router.post("/", response_model=schemas.DocAnalysisOut)
-def create_analysis_job(
-    file_name: str,
-    file_size: Optional[int] = None,
+@analysis_router.post("/", response_model=schemas.DocAnalysisCreatedOut)
+async def create_analysis_job(
+    background_tasks: BackgroundTasks,
+    file: UploadFile = File(...),
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
     """
-    Create an analysis job record.
-    Actual file upload + AI analysis is a future integration point.
-    Returns a placeholder analysis result for now.
+    Upload a PDF, DOCX, TXT, or image. Structured analysis runs in the background.
+    Identical file bytes (per user, SHA-256) return a cached completed result.
+    Poll GET /doc-analysis/{id} for `progress_stage` and `result`.
     """
+    raw = await file.read()
+    if len(raw) > MAX_ANALYSIS_FILE_BYTES:
+        raise HTTPException(
+            status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+            detail=f"File too large. Maximum size is {MAX_ANALYSIS_FILE_BYTES // (1024 * 1024)} MB.",
+        )
+    if len(raw) == 0:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Empty file.",
+        )
+
+    name = file.filename or "document"
+    ct = file.content_type
+    if detect_kind(name, ct) is None:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Unsupported file type. Upload a PDF, DOCX, TXT, or image (PNG, JPEG, WebP).",
+        )
+
+    file_hash = hashlib.sha256(raw).hexdigest()
+    cached = (
+        db.query(models.DocAnalysis)
+        .filter(
+            models.DocAnalysis.user_id == current_user.user_id,
+            models.DocAnalysis.file_hash == file_hash,
+            models.DocAnalysis.status == "done",
+            models.DocAnalysis.analysis_json.isnot(None),
+        )
+        .order_by(models.DocAnalysis.created_at.desc())
+        .first()
+    )
+    if cached:
+        return serialize_doc_analysis_created(cached, from_cache=True)
+
     analysis = models.DocAnalysis(
         user_id=current_user.user_id,
-        file_name=file_name,
-        file_size=file_size,
-        status="done",
-        summary=(
-            "This document appears to be a standard legal agreement. "
-            "Key obligations are outlined in sections 2, 4, and 7."
-        ),
-        risks=json.dumps([
-            "Clause 5.2 contains a broad indemnification clause that may expose you to unlimited liability.",
-            "No dispute resolution mechanism specified — defaults to local court jurisdiction.",
-            "Termination clause (Section 8) allows termination without cause with only 7 days notice.",
-        ]),
-        key_details=json.dumps({
-            "document_type": "Contract / Agreement",
-            "parties": "Identified in Section 1",
-            "effective_date": "Upon signing",
-            "governing_law": "Laws of Pakistan",
-        }),
+        file_name=name,
+        file_size=len(raw),
+        file_hash=file_hash,
+        status="pending",
+        progress_stage="pending",
+        summary=None,
+        risks=None,
+        key_details=None,
+        analysis_json=None,
     )
     db.add(analysis)
     db.commit()
     db.refresh(analysis)
-    return analysis
+
+    background_tasks.add_task(
+        run_doc_analysis_job,
+        analysis.analysis_id,
+        raw,
+        name,
+        ct,
+    )
+    return serialize_doc_analysis_created(analysis, from_cache=False)
 
 
 @analysis_router.get("/my", response_model=List[schemas.DocAnalysisOut])
@@ -269,11 +347,51 @@ def list_my_analyses(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
-    return (
+    rows = (
         db.query(models.DocAnalysis)
         .filter(models.DocAnalysis.user_id == current_user.user_id)
         .order_by(models.DocAnalysis.created_at.desc())
         .all()
+    )
+    return [serialize_doc_analysis(r) for r in rows]
+
+
+@analysis_router.get("/{analysis_id}/stream")
+def stream_analysis_progress(
+    analysis_id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+):
+    """
+    Server-Sent Events: emits `status` and `progress_stage` about once per second until
+    `done` or `failed`. Optional alternative to polling GET /doc-analysis/{id}.
+    """
+    a = db.get(models.DocAnalysis, analysis_id)
+    if not a:
+        raise HTTPException(status_code=404, detail="Analysis not found")
+    if a.user_id != current_user.user_id:
+        raise HTTPException(status_code=403, detail="Access denied")
+
+    def event_generator():
+        while True:
+            s = SessionLocal()
+            try:
+                row = s.get(models.DocAnalysis, analysis_id)
+                if not row:
+                    yield f"data: {json.dumps({'status': 'gone', 'progress_stage': None})}\n\n"
+                    break
+                payload = {"status": row.status, "progress_stage": row.progress_stage}
+                yield f"data: {json.dumps(payload)}\n\n"
+                if row.status in ("done", "failed"):
+                    break
+            finally:
+                s.close()
+            time.sleep(1.0)
+
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
 
 
@@ -288,4 +406,4 @@ def get_analysis(
         raise HTTPException(status_code=404, detail="Analysis not found")
     if a.user_id != current_user.user_id:
         raise HTTPException(status_code=403, detail="Access denied")
-    return a
+    return serialize_doc_analysis(a)

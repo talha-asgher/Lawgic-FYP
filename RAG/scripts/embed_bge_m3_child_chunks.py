@@ -48,7 +48,7 @@ SCRIPTS_DIR = Path(__file__).parent.resolve()
 PROJECT_ROOT = SCRIPTS_DIR.parent
 
 # Chunked JSON layout: data/chunking/<category>/...
-CHUNKING_ROOT = PROJECT_ROOT / "data" / "chunking"
+CHUNKING_ROOT = PROJECT_ROOT /"RAG"/ "data" / "chunking"
 BASE_CHUNKS_DIR = CHUNKING_ROOT
 CATEGORIES = ["civil", "criminal", "family"]
 

@@ -393,18 +393,78 @@ class DocumentOut(BaseModel):
 
 # ── Document Analysis ─────────────────────────────────────────────────────────
 
+class DocumentAnalysisResult(BaseModel):
+    document_type: str = ""
+    summary: str = ""
+    disclaimer: str = ""
+
+
+def document_analysis_from_stored_dict(data: dict) -> DocumentAnalysisResult:
+    """Build the slim result; merge legacy array fields into summary when needed."""
+    disclaimer = (
+        str(data.get("disclaimer") or "").strip()
+        or "This is AI-generated legal assistance and not a substitute for professional legal advice."
+    )
+    doc_type = str(data.get("document_type") or "").strip() or "Unknown"
+    summary = str(data.get("summary") or "").strip()
+
+    if not summary:
+        blocks: list[str] = []
+        pairs = [
+            ("Overview / key points", "key_clauses"),
+            ("Missing or unclear information", "missing_information"),
+            ("Risks or red flags", "risks"),
+            ("Suggestions", "suggestions"),
+        ]
+        for title, key in pairs:
+            arr = data.get(key)
+            if isinstance(arr, list) and arr:
+                lines = "\n".join(f"• {str(x).strip()}" for x in arr if str(x).strip())
+                if lines:
+                    blocks.append(f"{title}\n{lines}")
+        if data.get("legal_references") and isinstance(data["legal_references"], list):
+            ref_lines = []
+            for ref in data["legal_references"][:5]:
+                if not isinstance(ref, dict):
+                    continue
+                act = str(ref.get("act_name") or "").strip()
+                reason = str(ref.get("reason") or "").strip()
+                if act or reason:
+                    ref_lines.append(
+                        f"• {act}"
+                        + (f" ({reason})" if reason else "")
+                    )
+            if ref_lines:
+                blocks.append("Legal references (verify independently)\n" + "\n".join(ref_lines))
+        summary = "\n\n".join(blocks).strip()
+
+    return DocumentAnalysisResult(
+        document_type=doc_type,
+        summary=summary or "—",
+        disclaimer=disclaimer,
+    )
+
+
 class DocAnalysisOut(BaseModel):
     analysis_id: int
     user_id: int
     file_name: Optional[str] = None
+    file_size: Optional[int] = None
+    file_hash: Optional[str] = None
     status: str
+    progress_stage: Optional[str] = None
     summary: Optional[str] = None
-    risks: Optional[str] = None        # JSON string — parsed on FE
-    key_details: Optional[str] = None  # JSON string
+    risks: Optional[str] = None
+    key_details: Optional[str] = None
+    result: Optional[DocumentAnalysisResult] = None
     created_at: datetime
 
     class Config:
         from_attributes = True
+
+
+class DocAnalysisCreatedOut(DocAnalysisOut):
+    from_cache: bool = False
 
 
 # ── Ask AI / Q&A ─────────────────────────────────────────────────────────────

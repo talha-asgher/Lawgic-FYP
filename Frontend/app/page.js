@@ -1,16 +1,19 @@
-
 "use client";
 
 import React from "react";
-import { Scale, MessageSquare, FileText, FileCheck, Users, Calculator, MapPin, ChevronRight } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { MessageSquare, FileText, FileCheck, Users, Calculator, MapPin, ChevronRight } from "lucide-react";
+import { isLoggedIn } from "@/lib/api";
 
 export default function HomePage() {
- 
-  const router = {
-    push: (path) => {
-      console.log(`Navigating to: ${path}`);
-      window.location.href = path;
+  const router = useRouter();
+
+  const goToModule = (path) => {
+    if (!isLoggedIn()) {
+      router.push(`/login?next=${encodeURIComponent(path)}`);
+      return;
     }
+    router.push(path);
   };
 
   const services = [
@@ -74,7 +77,7 @@ export default function HomePage() {
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <button 
-                  onClick={() => router.push('/ai-qa')}
+                  onClick={() => goToModule("/ai-qa")}
                   className="flex items-center gap-2 px-6 py-3 bg-[#052379] text-white rounded-lg font-medium hover:bg-[#041d5c] transition-colors"
                 >
                   Ask a Legal Question
@@ -111,7 +114,7 @@ export default function HomePage() {
               <div 
                 key={index}
             
-                onClick={() => router.push(service.route)}
+                onClick={() => goToModule(service.route)}
                 className="group cursor-pointer p-6 bg-white border-2 border-gray-100 rounded-2xl hover:border-gray-200 hover:shadow-lg transition-all duration-300"
               >
                 <div className={`w-12 h-12 ${service.color.split(" ")[0]} rounded-xl flex items-center justify-center mb-6`}>

@@ -1,3 +1,5 @@
+import { useAuthStore } from "../app/lib/authStore";
+
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const WS_BASE_URL = BASE_URL.replace(/^http:/, "ws:").replace(/^https:/, "wss:");
 
@@ -46,6 +48,24 @@ async function parseResponse(res) {
   return text || null;
 }
 
+function pathWithoutQuery(path) {
+  const q = path.indexOf("?");
+  return q === -1 ? path : path.slice(0, q);
+}
+
+function isPublicAuthRequestPath(path) {
+  const p = pathWithoutQuery(path);
+  return p === "/auth/login" || p.startsWith("/auth/register");
+}
+
+function redirectToLoginSessionExpired() {
+  if (typeof window === "undefined") return;
+  const next = encodeURIComponent(
+    `${window.location.pathname}${window.location.search}`
+  );
+  window.location.assign(`/login?session=expired&next=${next}`);
+}
+
 async function request(path, options = {}) {
   const token = getToken();
   const headers = { ...(options.headers || {}) };
@@ -60,6 +80,19 @@ async function request(path, options = {}) {
 
   const res = await fetch(`${BASE_URL}${path}`, { ...options, headers });
   const data = await parseResponse(res);
+
+  if (res.status === 401 && typeof window !== "undefined") {
+    if (!isPublicAuthRequestPath(path)) {
+      clearSession();
+      try {
+        useAuthStore.getState().logout();
+      } catch {
+        /* */
+      }
+      redirectToLoginSessionExpired();
+      throw new Error("Session expired. Please sign in again.");
+    }
+  }
 
   if (!res.ok) {
     let detail = `Request failed: ${res.status}`;
@@ -285,31 +318,15 @@ export async function getMyDocuments() {
   return api.get("/documents/my");
 }
 
-export async function createDocumentAnalysis(fileName, fileSize) {
-  const params = new URLSearchParams({ file_name: fileName });
-  if (fileSize) params.append("file_size", fileSize);
+export async function createDocumentAnalysis(file) {
+  const form = new FormData();
+  form.append("file", file);
 
-  const token = getToken();
-  const res = await fetch(`${BASE_URL}/doc-analysis/?${params.toString()}`, {
-    method: "POST",
-    headers: token ? { Authorization: `Bearer ${token}` } : {},
-  });
+  return api.postForm("/doc-analysis/", form);
+}
 
-  const data = await parseResponse(res);
-
-  if (!res.ok) {
-    let detail = "Analysis failed";
-
-    if (data && typeof data === "object") {
-      detail = data.detail || data.message || detail;
-    } else if (typeof data === "string" && data.trim()) {
-      detail = data;
-    }
-
-    throw new Error(detail);
-  }
-
-  return data;
+export async function getDocumentAnalysis(analysisId) {
+  return api.get(`/doc-analysis/${analysisId}`);
 }
 
 export async function askAI(question, language = "en", sessionId = null) {

@@ -16,7 +16,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from models.slm_summarizer import TableFormSummarizer
 
-DEFAULT_CHUNKS_ROOT = PROJECT_ROOT / "data" / "chunking"
+DEFAULT_CHUNKS_ROOT = PROJECT_ROOT /"RAG"/ "data" / "chunking"
 
 BAD_PHRASES = [
     "financial information",

@@ -2605,22 +2605,13 @@ def extract_sections(text: str, raw_text: str, position_to_page: Optional[Dict[i
     
     # Also try the original pattern (start of line)
     asterisk_bold_matches = list(section_pattern_asterisk_bold.finditer(text))
-    
-    # print(f"\nDEBUG: Found {len(asterisk_bold_matches)} asterisk_bold pattern matches (start of line)")
-    # print(f"DEBUG: Found {len(asterisk_bold_matches_anywhere)} asterisk_bold pattern matches (*** anywhere)")
-    # print(f"DEBUG: Found {len(asterisk_bold_matches_backslash)} asterisk_bold pattern matches (**\\* format)")
-    
+  
     # Search for actual occurrences of *** or **\* followed by number in text
     simple_search1 = re.finditer(r'\*\*\*\d+', text)
     simple_search2 = re.finditer(r'\*\*\\\*\d+', text)
     simple_matches1 = list(simple_search1)
     simple_matches2 = list(simple_search2)
-    # if simple_matches1 or simple_matches2:
-    #     print(f"DEBUG: Found {len(simple_matches1)} occurrences of '***' followed by number")
-    #     print(f"DEBUG: Found {len(simple_matches2)} occurrences of '**\\*' followed by number")
-    #     for sm in (simple_matches1 + simple_matches2)[:5]:  # Show first 5
-    #         print(f"  At position {sm.start()}: {repr(text[sm.start():sm.start()+30])}")
-    
+  
     # Combine all matches (use anywhere pattern as primary since it's more flexible)
     all_asterisk_matches = asterisk_bold_matches_anywhere + asterisk_bold_matches_backslash + asterisk_bold_matches
     

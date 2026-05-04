@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from app.database import engine, Base
 from app import models
 from app.deps import get_db
+from app.schema_migrations import ensure_doc_analysis_columns
 from app.routers import (
     auth,
     lawyers,
@@ -26,6 +27,7 @@ from app.routers.documents import analysis_router
 from app.services.reranker_service import warm_reranker_if_enabled
 
 Base.metadata.create_all(bind=engine)
+ensure_doc_analysis_columns(engine)
 
 
 @asynccontextmanager

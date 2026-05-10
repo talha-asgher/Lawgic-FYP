@@ -190,8 +190,6 @@ export default function AiQAPage() {
         retrievedSources: data.retrieved_sources || [],
         insufficientContext: !!data.insufficient_context,
         usedSourceIndexes: data.used_source_indexes || [],
-        confidenceLabel: data.confidence_label,
-        confidenceScore: data.confidence_score,
         retrievalMeta: data.retrieval_meta,
         timestamp: formatNowTime(),
       };
@@ -507,23 +505,6 @@ export default function AiQAPage() {
                     <p className="mt-2 text-[11px] text-gray-500">
                       Sources referenced in model output:{" "}
                       {msg.usedSourceIndexes.join(", ")}
-                    </p>
-                  )}
-
-                {msg.role === "assistant" &&
-                  (msg.confidenceLabel != null ||
-                    msg.confidenceScore != null) && (
-                    <p className="mt-2 text-xs text-gray-500">
-                      Retrieval confidence:{" "}
-                      <span className="font-medium text-gray-700">
-                        {msg.confidenceLabel}
-                      </span>
-                      {msg.confidenceScore != null && (
-                        <span>
-                          {" "}
-                          ({Number(msg.confidenceScore).toFixed(2)})
-                        </span>
-                      )}
                     </p>
                   )}
 

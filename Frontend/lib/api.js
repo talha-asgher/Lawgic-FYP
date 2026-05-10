@@ -31,6 +31,71 @@ export function clearSession() {
   localStorage.removeItem("lawgic_user");
 }
 
+/** Seconds of leeway vs server clock / latency (matches typical JWT usage). */
+const JWT_EXPIRY_SKEW_MS = 15_000;
+
+/**
+ * Returns true if JWT `exp` is at or before now (token should be treated as dead).
+ * Does not verify signature — use with server validation via verifySession().
+ */
+export function isAccessTokenExpired(token) {
+  if (!token || typeof token !== "string") return true;
+  const parts = token.split(".");
+  if (parts.length !== 3) return false;
+  try {
+    const b64 = parts[1].replace(/-/g, "+").replace(/_/g, "/");
+    const pad = "=".repeat((4 - (b64.length % 4)) % 4);
+    const payload = JSON.parse(atob(b64 + pad));
+    if (payload.exp == null) return false;
+    return payload.exp * 1000 <= Date.now() + JWT_EXPIRY_SKEW_MS;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Confirms the bearer token with GET /auth/me. On 401/403 clears local session.
+ * Does not redirect (for app startup). Returns { ok, user?, networkError? }.
+ */
+export async function verifySession() {
+  if (typeof window === "undefined") return { ok: false, user: null };
+  const token = localStorage.getItem("lawgic_token");
+  if (!token) return { ok: false, user: null };
+
+  try {
+    const res = await fetch(`${BASE_URL}/auth/me`, {
+      method: "GET",
+      headers: { Authorization: `Bearer ${token}` },
+    });
+
+    if (res.status === 401 || res.status === 403) {
+      clearSession();
+      try {
+        useAuthStore.getState().logout();
+      } catch {
+        /* */
+      }
+      return { ok: false, user: null, sessionInvalid: true };
+    }
+
+    if (!res.ok) {
+      return { ok: false, user: null };
+    }
+
+    const data = await res.json();
+    const user = {
+      user_id: data.user_id,
+      role: data.role,
+      name: data.name,
+      email: data.email,
+    };
+    setSession(token, user);
+    return { ok: true, user };
+  } catch {
+    return { ok: false, user: null, networkError: true };
+  }
+}
+
 export function isLoggedIn() {
   return !!getToken();
 }

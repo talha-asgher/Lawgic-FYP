@@ -27,20 +27,35 @@ const ACCEPT_MIME = new Set([
   "image/webp",
 ]);
 
-const STAGE_ORDER = [
-  "extracting_text",
-  "analyzing_clauses",
-  "checking_risks",
-  "generating_suggestions",
-];
+/** Two user-visible steps; backend still sends analyzing_clauses / checking_risks / generating_suggestions. */
+const STAGE_ORDER = ["extracting_text", "generating_summary"];
 
 const STAGE_LABELS = {
   pending: "Queued…",
   extracting_text: "Extracting text…",
-  analyzing_clauses: "Analyzing clauses…",
-  checking_risks: "Checking risks…",
-  generating_suggestions: "Generating suggestions…",
+  generating_summary: "Generating summary…",
 };
+
+const SUMMARY_SUBSTAGES = new Set([
+  "analyzing_clauses",
+  "checking_risks",
+  "generating_suggestions",
+]);
+
+/** Map API progress_stage to index in STAGE_ORDER (-1 = pending/queued). */
+function stageToActiveIndex(stage) {
+  if (stage === "pending" || stage == null) return -1;
+  if (stage === "extracting_text") return 0;
+  if (SUMMARY_SUBSTAGES.has(stage)) return 1;
+  return 0;
+}
+
+function headlineForStage(stage) {
+  if (stage === "pending" || stage == null) return STAGE_LABELS.pending;
+  if (stage === "extracting_text") return STAGE_LABELS.extracting_text;
+  if (SUMMARY_SUBSTAGES.has(stage)) return STAGE_LABELS.generating_summary;
+  return STAGE_LABELS.pending;
+}
 
 function isAllowedFile(file) {
   if (!file) return false;
@@ -86,14 +101,13 @@ function AnalysisCard({ title, icon: Icon, children, accent }) {
 }
 
 function ProgressPanel({ stage }) {
-  const activeIdx =
-    stage === "pending" ? -1 : Math.max(0, STAGE_ORDER.indexOf(stage));
+  const activeIdx = stageToActiveIndex(stage);
 
   return (
     <div className="rounded-xl border border-[#052379]/20 bg-white p-6 shadow-sm">
       <Loader2 className="w-10 h-10 text-[#052379] animate-spin mx-auto mb-5" />
       <p className="text-center text-base font-medium text-gray-900 mb-1">
-        {STAGE_LABELS[stage] || STAGE_LABELS.pending}
+        {headlineForStage(stage)}
       </p>
       <p className="text-center text-xs text-gray-500 mb-6">
         Long documents are chunked and condensed before analysis.

@@ -9,7 +9,7 @@ import { useAuthStore } from "../lib/authStore";
 export default function LoginPage() {
   const router = useRouter();
   const loginStore = useAuthStore((state) => state.login);
-  const { isLoggedIn, user } = useAuthStore();
+  const { isLoggedIn, user, authInitialized } = useAuthStore();
 
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [showPassword, setShowPassword] = useState(false);
@@ -26,6 +26,7 @@ export default function LoginPage() {
   }, []);
 
   useEffect(() => {
+    if (!authInitialized) return;
     if (!isLoggedIn || !user) return;
     const params = new URLSearchParams(window.location.search);
     const next = params.get("next");
@@ -34,7 +35,7 @@ export default function LoginPage() {
       return;
     }
     router.replace(user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
-  }, [isLoggedIn, user, router]);
+  }, [authInitialized, isLoggedIn, user, router]);
 
   const handleLogin = async (e) => {
     e.preventDefault();

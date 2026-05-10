@@ -541,6 +541,7 @@ class RetrievedChunkOut(BaseModel):
 class RagAskResponse(BaseModel):
     answer: str
     insufficient_context: bool = False
+    low_retrieval_confidence: bool = False
     used_source_indexes: List[int] = Field(default_factory=list)
     used_source_ids: List[str] = Field(default_factory=list)
     confidence_score: float

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
 import hashlib
 import json
 import os
@@ -22,6 +23,55 @@ from app.services.ollama_service import (
 from app.services.query_embedder import embed_query_text
 from app.services.reranker_service import is_reranker_enabled, max_rerank_candidates, rerank_candidates
 from app.services.retrieval_service import RetrievalResponse, RetrievalResultItem, RetrievalService
+
+_DEFAULT_LOW_CONFIDENCE_MESSAGE = (
+    "I could not find sufficiently relevant legal passages in the database for your question, "
+    "so a generated answer was not shown. Try rephrasing, adding an Act or section if you know it, "
+    "or consult a qualified lawyer for advice tailored to your situation."
+)
+
+
+def _low_confidence_threshold() -> float:
+    raw = os.environ.get("RAG_LOW_CONFIDENCE_THRESHOLD", "0.42").strip()
+    try:
+        return float(raw)
+    except ValueError:
+        return 0.42
+
+
+def _low_confidence_user_message() -> str:
+    return os.environ.get("RAG_LOW_CONFIDENCE_USER_MESSAGE", _DEFAULT_LOW_CONFIDENCE_MESSAGE).strip() or _DEFAULT_LOW_CONFIDENCE_MESSAGE
+
+
+_DEFAULT_LOW_LABEL_DISCLAIMER = (
+    "The retrieved statutes may only partially match your question. "
+    "This is not legal advice; verify everything against the cited sources or a qualified lawyer."
+)
+
+
+def _append_low_label_disclaimer(answer: str, retrieval: RetrievalResponse) -> str:
+    """When label is still 'low' but score cleared the block threshold, warn in the reply text."""
+    if (retrieval.confidence_label or "").strip().lower() != "low":
+        return answer
+    custom = os.environ.get("RAG_LOW_LABEL_DISCLAIMER", "").strip()
+    note = custom if custom else _DEFAULT_LOW_LABEL_DISCLAIMER
+    if not note:
+        return answer
+    return f"{answer.rstrip()}\n\n---\n{note}"
+
+
+@dataclass
+class RagEvaluationRetrieval:
+    pre_rerank_results: List[RetrievalResultItem]
+    post_rerank_results: List[RetrievalResultItem]
+    post_context_deduped: List[RetrievalResultItem]
+    retrieval: RetrievalResponse
+    reranker_enabled: bool
+    rerank_pool_size: int
+    candidate_k: int
+    pool_n: int
+    retrieve_k: int
+    max_ctx_used: int
 
 
 def _retrieval_sort_score(c: RetrievalResultItem) -> float:
@@ -398,6 +448,79 @@ def retrieve_for_rag_ask(db: Session, req: RagAskRequest) -> RetrievalResponse:
     )
 
 
+def retrieve_for_rag_evaluation(
+    db: Session,
+    req: RagAskRequest,
+    candidate_k: int,
+) -> RagEvaluationRetrieval:
+    """Evaluation-only retrieval aligned with production `finalize_rag_ask` rerank/dedupe.
+
+    One pass per call (no duplicate work):
+    - Single `embed_query_text` for the question.
+    - Single `RetrievalService.retrieve` (first-stage hybrid/dense/BM25) with shared
+      `query_embedding=qvec`; `pre_rerank_results` and the rerank pool are slices of
+      `retrieval.results` from that call.
+    - Single `rerank_candidates` when the reranker is enabled; `post_rerank_results` is
+      the reranked pool only.
+
+    - DB retrieval depth matches `retrieve_for_rag_ask` when rerank is on:
+      max(candidate_k, pool_n).
+    - Reranking runs on the first pool_n fused hits only (same as production).
+    - `post_rerank_results` is that reranked pool only (length <= pool_n); there is no
+      tail appended — chunks beyond pool_n are never reranked in production.
+    - `post_context_deduped` mirrors the prompt path: top `max_ctx` of the reranked pool
+      (or fused list if rerank off), then `dedupe_chunks_by_act_section`.
+    """
+    effective_candidate_k = max(1, int(candidate_k))
+    pool_n = max_rerank_candidates()
+    use_rerank = is_reranker_enabled()
+    retrieve_k = (
+        max(effective_candidate_k, pool_n) if use_rerank else effective_candidate_k
+    )
+    max_ctx = int(os.environ.get("RAG_CONTEXT_MAX_CHUNKS", "6"))
+    max_ctx = min(max_ctx, max(1, req.top_k_context))
+
+    qvec = embed_query_text(req.query)
+    retriever = RetrievalService()
+    retrieval = retriever.retrieve(
+        db=db,
+        query=req.query,
+        query_embedding=qvec,
+        act_name=req.act_name,
+        category=req.category,
+        section_number=req.section_number,
+        top_k=retrieve_k,
+        search_tables=req.search_tables,
+        search_forms=req.search_forms,
+    )
+    pre = list(retrieval.results[:retrieve_k])
+    pool = list(retrieval.results[:pool_n])
+
+    if use_rerank:
+        post = rerank_candidates(req.query, pool)
+        rerank_pool_size = len(pool)
+        top_for_dedupe = post[:max_ctx]
+    else:
+        post = list(pre)
+        rerank_pool_size = 0
+        top_for_dedupe = pre[:max_ctx]
+
+    post_context_deduped = dedupe_chunks_by_act_section(top_for_dedupe)
+
+    return RagEvaluationRetrieval(
+        pre_rerank_results=pre,
+        post_rerank_results=post,
+        post_context_deduped=post_context_deduped,
+        retrieval=retrieval,
+        reranker_enabled=use_rerank,
+        rerank_pool_size=rerank_pool_size,
+        candidate_k=effective_candidate_k,
+        pool_n=pool_n,
+        retrieve_k=retrieve_k,
+        max_ctx_used=max_ctx,
+    )
+
+
 def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAskResponse:
     """Rerank, build context, call SLM. No DB — safe for long-running work after session is closed."""
     max_ctx = int(os.environ.get("RAG_CONTEXT_MAX_CHUNKS", "6"))
@@ -415,6 +538,38 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
     else:
         top = retrieval.results[:max_ctx]
     deduped_top = dedupe_chunks_by_act_section(top)
+
+    conf_threshold = _low_confidence_threshold()
+    if conf_threshold > 0 and retrieval.confidence_score < conf_threshold:
+        all_sources = chunks_to_sources(deduped_top)
+        retrieved = chunks_to_retrieved_out(deduped_top, max_text_len=max_resp_text)
+        meta: Dict[str, Any] = {
+            "needs_table": retrieval.needs_table,
+            "needs_form": retrieval.needs_form,
+            "fallback_used": retrieval.fallback_used,
+            "applied_filters": retrieval.applied_filters,
+            "sources_used_count": 0,
+            "retrieved_sources_fallback": True,
+            "reranker_enabled": use_rerank,
+            "rerank_pool_size": pool_n if use_rerank else 0,
+            "context_chunks_selected": max_ctx,
+            "context_chunks_after_dedupe": len(deduped_top),
+            "low_confidence_blocked": True,
+        }
+        return RagAskResponse(
+            answer=_low_confidence_user_message(),
+            insufficient_context=False,
+            low_retrieval_confidence=True,
+            used_source_indexes=[],
+            used_source_ids=[],
+            confidence_score=retrieval.confidence_score,
+            confidence_label=retrieval.confidence_label,
+            sources=[],
+            retrieved_sources=all_sources,
+            retrieved_chunks=retrieved,
+            retrieval_meta=meta,
+        )
+
     context_block = build_grounded_context(deduped_top, max_chars_per_chunk=max_chars)
     user_msg = (
         f"Retrieved passages (sole authority; use only these):\n\n{context_block}\n\n"
@@ -435,6 +590,7 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
     answer, insufficient, used_idx, used_ids = parse_legal_model_json(raw)
     if not answer:
         answer = raw if raw else "No answer was returned by the model."
+    answer = _append_low_label_disclaimer(answer, retrieval)
 
     all_sources = chunks_to_sources(deduped_top)
     # Frontend "sources" = only passages the model listed; "retrieved_sources" = full list if lists empty
@@ -458,6 +614,7 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
     return RagAskResponse(
         answer=answer,
         insufficient_context=insufficient,
+        low_retrieval_confidence=False,
         used_source_indexes=used_idx,
         used_source_ids=used_ids,
         confidence_score=retrieval.confidence_score,

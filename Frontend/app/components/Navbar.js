@@ -8,20 +8,10 @@ import { clearSession } from "@/lib/api";
 
 export default function Navbar() {
   const router = useRouter();
-  const { user, isLoggedIn, logout, login } = useAuthStore();
+  const { user, isLoggedIn, logout, authInitialized } = useAuthStore();
 
-  const [mounted, setMounted] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
-
-  useEffect(() => {
-    const savedUser = localStorage.getItem("lawgic_user");
-    const savedToken = localStorage.getItem("lawgic_token");
-    if (savedUser && savedToken) {
-      login(JSON.parse(savedUser), savedToken);
-    }
-    setMounted(true);
-  }, [login]);
 
   useEffect(() => {
     function handleClickOutside(e) {
@@ -72,7 +62,7 @@ export default function Navbar() {
               EN ↔ اردو
             </button>
 
-            {!mounted ? (
+            {!authInitialized ? (
               <div className="w-24 h-9" />
             ) : isLoggedIn ? (
               <div className="relative" ref={menuRef}>

@@ -717,10 +717,21 @@ def main() -> int:
             "retrieve_k will be pool_n; see summary retrieve_k.",
             file=sys.stderr,
         )
-    for _, row in progress_iter(rows, args.verbose):
+        total_rows = len(rows)
+
+    for idx, row in progress_iter(rows, args.verbose):
+        print(
+            f"\nStarting query {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+            flush=True,
+        )
+
         question = safe_str(row.get("question"))
         if not question:
             errors.append({"eval_id": row.get("id"), "error": "missing_question"})
+            print(
+                f"Completed row {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+                flush=True,
+            )
             continue
         try:
             eval_retrieval = retrieve_question(
@@ -773,6 +784,10 @@ def main() -> int:
             rec["post_rerank_results_len"] = n_after
             rec["context_deduped_len"] = n_ctx
             details.append(rec)
+            print(
+                f"Completed row {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+                flush=True,
+            )
         except Exception as exc:
             errors.append(
                 {
@@ -780,6 +795,10 @@ def main() -> int:
                     "question": question,
                     "error": str(exc),
                 }
+            )
+            print(
+                f"Completed row {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+                flush=True,
             )
             if args.verbose:
                 print(f"[WARN] retrieval failed for {row.get('id')}: {exc}", file=sys.stderr)

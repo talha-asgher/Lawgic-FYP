@@ -14,7 +14,7 @@ from sqlalchemy.orm import Session
 from pgvector.sqlalchemy import Vector
 
 VECTOR_DIM = int(os.environ.get("LAWGIC_VECTOR_DIM", "1024"))
-DEFAULT_EMBED_MODEL = os.environ.get("LAWGIC_EMBED_MODEL", "bge-m3")
+DEFAULT_EMBED_MODEL = os.environ.get("LAWGIC_EMBED_MODEL", "BAAI/bge-m3")
 
 _WS_RE = re.compile(r"\s+")
 _TOKEN_RE = re.compile(r"[A-Za-z0-9\u0600-\u06FF]+", re.UNICODE)
@@ -765,6 +765,10 @@ class RetrievalResponse(BaseModel):
     confidence_score: float
     confidence_label: str
     results: List[RetrievalResultItem]
+    translation_meta: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="Populated by rag_service when the user query was normalized via MT for retrieval.",
+    )
 
 
 class RetrievalService:

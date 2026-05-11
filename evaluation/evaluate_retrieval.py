@@ -4,6 +4,9 @@
 Run:
   python evaluation/evaluate_retrieval.py --dataset evaluation/datasets/new_dataset.jsonl --top-k 10
 
+  Only specific rows (e.g. smoke test):
+  python evaluation/evaluate_retrieval.py --eval-ids eval_0012,eval_0013 --top-k 10
+
 This script calls the existing backend retrieval components through the
 evaluation-only `retrieve_for_rag_evaluation` helper. It does not evaluate LLM
 answers and does not modify database schema, embeddings, frontend, or chatbot
@@ -32,7 +35,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -75,6 +78,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--mrr-cutoff", type=int, default=10)
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument(
+        "--eval-ids",
+        default=None,
+        help="Comma-separated dataset `id` values (e.g. eval_0012,eval_0013). Only these rows are evaluated.",
+    )
     parser.add_argument("--language", choices=("en", "ur", "all"), default="all")
     parser.add_argument("--question-type", default=None)
     parser.add_argument("--verbose", action="store_true")
@@ -129,9 +137,15 @@ def load_jsonl(path: Path) -> List[Dict[str, Any]]:
     return rows
 
 
-def filter_rows(rows: List[Dict[str, Any]], args: argparse.Namespace) -> List[Dict[str, Any]]:
+def filter_rows(
+    rows: List[Dict[str, Any]],
+    args: argparse.Namespace,
+    eval_ids_filter: Optional[Set[str]] = None,
+) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for row in rows:
+        if eval_ids_filter is not None and safe_str(row.get("id")) not in eval_ids_filter:
+            continue
         if args.language != "all" and safe_str(row.get("language")) != args.language:
             continue
         if args.question_type and safe_str(row.get("question_type")) != args.question_type:
@@ -684,7 +698,14 @@ def main() -> int:
         print(f"[ERROR] dataset not found: {args.dataset}", file=sys.stderr)
         return 1
 
-    rows = filter_rows(load_jsonl(args.dataset), args)
+    eval_ids_filter: Optional[Set[str]] = None
+    if args.eval_ids:
+        eval_ids_filter = {x.strip() for x in args.eval_ids.split(",") if x.strip()}
+        if not eval_ids_filter:
+            print("[ERROR] --eval-ids produced an empty id set", file=sys.stderr)
+            return 2
+
+    rows = filter_rows(load_jsonl(args.dataset), args, eval_ids_filter=eval_ids_filter)
     if not rows:
         print("[ERROR] no dataset rows matched the provided filters", file=sys.stderr)
         return 1
@@ -711,16 +732,27 @@ def main() -> int:
         "context_k": context_k,
     }
     pool_n_cfg = deps["max_rerank_candidates"]()
+    total_rows = len(rows)
     if deps["is_reranker_enabled"]() and args.candidate_k < pool_n_cfg:
         print(
             f"[WARN] candidate_k ({args.candidate_k}) < pool_n ({pool_n_cfg}): "
             "retrieve_k will be pool_n; see summary retrieve_k.",
             file=sys.stderr,
         )
-    for _, row in progress_iter(rows, args.verbose):
+
+    for idx, row in progress_iter(rows, args.verbose):
+        print(
+            f"\nStarting query {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+            flush=True,
+        )
+
         question = safe_str(row.get("question"))
         if not question:
             errors.append({"eval_id": row.get("id"), "error": "missing_question"})
+            print(
+                f"Completed row {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+                flush=True,
+            )
             continue
         try:
             eval_retrieval = retrieve_question(
@@ -773,6 +805,10 @@ def main() -> int:
             rec["post_rerank_results_len"] = n_after
             rec["context_deduped_len"] = n_ctx
             details.append(rec)
+            print(
+                f"Completed row {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+                flush=True,
+            )
         except Exception as exc:
             errors.append(
                 {
@@ -780,6 +816,10 @@ def main() -> int:
                     "question": question,
                     "error": str(exc),
                 }
+            )
+            print(
+                f"Completed row {idx}/{total_rows} | Success: {len(details)} | Errors: {len(errors)}",
+                flush=True,
             )
             if args.verbose:
                 print(f"[WARN] retrieval failed for {row.get('id')}: {exc}", file=sys.stderr)

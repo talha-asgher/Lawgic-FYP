@@ -10,6 +10,7 @@ from app.deps import get_db
 from app.routers.auth import get_current_user
 from app.services.ollama_service import OllamaServiceError
 from app.services.rag_service import finalize_rag_ask, retrieve_for_rag_ask
+from app.services.language_output import normalize_output_language
 
 router = APIRouter(
     prefix="/ai",
@@ -24,11 +25,12 @@ def ask_legal_question(
     current_user: models.User = Depends(get_current_user),
 ):
     session_id = req.session_id or str(uuid.uuid4())
+    out_lang = normalize_output_language(req.language)
 
     qa = models.QAInteraction(
         user_id=current_user.user_id,
         question=req.question,
-        language=req.language,
+        language=out_lang,
         status="pending",
         session_id=session_id,
     )
@@ -36,7 +38,13 @@ def ask_legal_question(
     db.flush()
     qa_id = qa.qa_id
 
-    rag_req = schemas.RagAskRequest(query=req.question, top_k_retrieval=15, top_k_context=6)
+    rag_req = schemas.RagAskRequest(
+        query=req.question,
+        top_k_retrieval=15,
+        top_k_context=6,
+        output_language=out_lang,
+        query_language=req.query_language,
+    )
     try:
         retrieval = retrieve_for_rag_ask(db, rag_req)
     except Exception:
@@ -66,6 +74,7 @@ def ask_legal_question(
     if not qa_u:
         raise HTTPException(status_code=500, detail="QA record missing after RAG")
     qa_u.answer = rag_resp.answer
+    qa_u.language = rag_resp.output_language
     qa_u.status = "answered"
 
     citation_outs: List[schemas.CitationOut] = []

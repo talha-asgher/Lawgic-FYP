@@ -12,6 +12,7 @@ from app.services.document_structured_analysis import (
     generate_structured_analysis,
 )
 from app.services.document_text_extraction import extract_document_text
+from app.services.translation_service import prepare_document_body_for_english_pipeline
 from app.services.ollama_service import OllamaServiceError
 
 logger = logging.getLogger(__name__)
@@ -34,6 +35,7 @@ def run_doc_analysis_job(
     file_bytes: bytes,
     file_name: str,
     content_type: str | None,
+    output_language: str = "en",
 ) -> None:
     db = SessionLocal()
     try:
@@ -52,11 +54,12 @@ def run_doc_analysis_job(
                 "No readable text was extracted. The file may be empty, scanned-only, or corrupted."
             )
 
+        text_body, _doc_tr_meta = prepare_document_body_for_english_pipeline(text)
         _progress(db, analysis_id, STAGE_CLAUSES)
-        brief = build_consolidated_brief(text)
+        brief = build_consolidated_brief(text_body)
 
         _progress(db, analysis_id, STAGE_RISKS)
-        payload = generate_structured_analysis(brief)
+        payload = generate_structured_analysis(brief, output_language)
 
         _progress(db, analysis_id, STAGE_SUGGEST)
 

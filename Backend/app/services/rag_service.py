@@ -23,11 +23,17 @@ from app.services.ollama_service import (
 from app.services.query_embedder import embed_query_text
 from app.services.reranker_service import is_reranker_enabled, max_rerank_candidates, rerank_candidates
 from app.services.retrieval_service import RetrievalResponse, RetrievalResultItem, RetrievalService
-
-_DEFAULT_LOW_CONFIDENCE_MESSAGE = (
-    "I could not find sufficiently relevant legal passages in the database for your question, "
-    "so a generated answer was not shown. Try rephrasing, adding an Act or section if you know it, "
-    "or consult a qualified lawyer for advice tailored to your situation."
+from app.services.language_output import (
+    OUTPUT_LANG_EN,
+    OUTPUT_LANG_UR,
+    build_grounding_system_english_pipeline,
+    low_confidence_user_message,
+    low_label_disclaimer_note,
+)
+from app.services.translation_service import (
+    looks_like_urdu_script_query,
+    translate_rag_query_to_english,
+    translate_text,
 )
 
 
@@ -39,22 +45,29 @@ def _low_confidence_threshold() -> float:
         return 0.42
 
 
-def _low_confidence_user_message() -> str:
-    return os.environ.get("RAG_LOW_CONFIDENCE_USER_MESSAGE", _DEFAULT_LOW_CONFIDENCE_MESSAGE).strip() or _DEFAULT_LOW_CONFIDENCE_MESSAGE
+def _context_min_top_score_allow_llm() -> float:
+    """If best in-context chunk score meets this floor, still call the LLM when confidence_score is below RAG_LOW_CONFIDENCE_THRESHOLD (retrieval had signal but heuristic confidence stayed low)."""
+    raw = os.environ.get("RAG_CONTEXT_MIN_TOP_SCORE_ALLOW_LLM", "0.25").strip()
+    try:
+        return max(0.0, min(1.0, float(raw)))
+    except ValueError:
+        return 0.25
 
 
-_DEFAULT_LOW_LABEL_DISCLAIMER = (
-    "The retrieved statutes may only partially match your question. "
-    "This is not legal advice; verify everything against the cited sources or a qualified lawyer."
-)
+def _best_context_fused_score(items: List[RetrievalResultItem]) -> float:
+    """Max hybrid fused score on context chunks (same scale as retrieval `final_score`; not reranker logits)."""
+    if not items:
+        return 0.0
+    return max(float(c.score or 0.0) for c in items)
 
 
-def _append_low_label_disclaimer(answer: str, retrieval: RetrievalResponse) -> str:
+def _append_low_label_disclaimer(
+    answer: str, retrieval: RetrievalResponse, output_lang: str
+) -> str:
     """When label is still 'low' but score cleared the block threshold, warn in the reply text."""
     if (retrieval.confidence_label or "").strip().lower() != "low":
         return answer
-    custom = os.environ.get("RAG_LOW_LABEL_DISCLAIMER", "").strip()
-    note = custom if custom else _DEFAULT_LOW_LABEL_DISCLAIMER
+    note = low_label_disclaimer_note(output_lang)
     if not note:
         return answer
     return f"{answer.rstrip()}\n\n---\n{note}"
@@ -392,52 +405,43 @@ def partition_sources_by_model_usage(
     return ([], list(all_sources))
 
 
-GROUNDING_SYSTEM = """You are a legal research assistant for Pakistani law. You must answer ONLY from the numbered passages the user provides ([1], [2], …).
+def _rag_query_hint(req: RagAskRequest) -> str:
+    h = getattr(req, "query_language", None)
+    if h is None or not str(h).strip():
+        return "auto"
+    return str(h).strip().lower()
 
-Reading order:
-- Do not rely only on the first passage. Carefully consider ALL provided passages before answering.
-- If multiple passages are relevant, combine them appropriately while staying within what they actually say.
-- Some passages include an "Adjacent excerpts" block under the same [n] — treat that material as supporting context for that passage only, not a separate citation index.
-- Some passages include a short "Parent section excerpt" under the same [n] — use it only to interpret backward references or missing conditions in the child text; do not treat it as a separate statute index.
 
-Strict grounding (always):
-- Ground every legal statement in those passages. If the passages do not clearly support a point, do not state it as settled law.
-- Preserve qualifiers, provisos, exceptions, penalties, conditions, and cross-references exactly as in the passages; do not flatten or soften nuance.
-- When the law distinguishes general rules from conditional or special cases, keep that distinction clear; do not overgeneralize a conditional rule as if it always applies.
-- If the statutes set out separate remedies, procedures, or grounds, present them as distinct where the text does (do not merge them into one vague remedy).
-- Do not invent statutes, sections, penalties, or interpretations not supported by the passages.
-- If the passages are insufficient to answer safely, set "insufficient_context" to true and explain briefly in simple English what is missing (still only as JSON).
-
-Plain-language style when context is sufficient:
-- Write in simple, everyday English for a common person (avoid dense legalese unless the passage requires quoting it).
-- Usually use about 2–4 short sentences: the first sentence states the direct legal answer to the question; the next sentence(s) give a brief plain-language explanation of what that means in practice, strictly based on the passages.
-- Do not become verbose: no long essays, repetition, or extra background not supported by the passages.
-
-Source attribution:
-- In "used_source_indexes", include EVERY passage index you relied on for any part of the answer—including passages you only partially used for context or supporting detail. Do not omit an index to keep the list short.
-- Use the integer passage numbers exactly as labeled (1 for [1], 2 for [2], …). If no passage applies at all, use [] and set "used_source_ids" to [].
-
-Output:
-- Respond with a single JSON object ONLY (no markdown fences), with exactly these keys:
-  "answer": string (you may mention passage numbers like [1] where helpful),
-  "insufficient_context": boolean,
-  "used_source_indexes": array of integers,
-  "used_source_ids": array of strings (optional; object_id values from passage headers when used, else [])
-"""
+def _respond_in_urdu_for_query(req: RagAskRequest, q_trans_meta: Dict[str, Any]) -> bool:
+    """Match assistant reply script to query language (not output_language preference)."""
+    hint = _rag_query_hint(req)
+    if hint == "en":
+        return False
+    if hint == "ur":
+        return True
+    raw = (req.query or "").strip()
+    if looks_like_urdu_script_query(raw):
+        return True
+    if q_trans_meta.get("retrieval_query_translated"):
+        return True
+    return False
 
 
 def retrieve_for_rag_ask(db: Session, req: RagAskRequest) -> RetrievalResponse:
     """DB-bound hybrid/dense retrieval only. Callers should close the session before rerank/LLM."""
-    qvec = embed_query_text(req.query)
+    q_hint = _rag_query_hint(req)
+    q_en, q_meta = translate_rag_query_to_english(req.query or "", query_language_hint=q_hint)
+    q_for_retrieval = q_en.strip() if q_en.strip() else (req.query or "").strip()
+    qvec = embed_query_text(q_for_retrieval)
     retriever = RetrievalService()
     pool_n = max_rerank_candidates()
     use_rerank = is_reranker_enabled()
     retrieve_k = (
         max(max(1, req.top_k_retrieval), pool_n) if use_rerank else max(1, req.top_k_retrieval)
     )
-    return retriever.retrieve(
+    out = retriever.retrieve(
         db=db,
-        query=req.query,
+        query=q_for_retrieval,
         query_embedding=qvec,
         act_name=req.act_name,
         category=req.category,
@@ -446,6 +450,10 @@ def retrieve_for_rag_ask(db: Session, req: RagAskRequest) -> RetrievalResponse:
         search_tables=req.search_tables,
         search_forms=req.search_forms,
     )
+    meta = dict(q_meta)
+    if meta.get("retrieval_query_translated"):
+        meta["retrieval_query_english"] = q_for_retrieval
+    return out.model_copy(update={"translation_meta": meta})
 
 
 def retrieve_for_rag_evaluation(
@@ -480,11 +488,14 @@ def retrieve_for_rag_evaluation(
     max_ctx = int(os.environ.get("RAG_CONTEXT_MAX_CHUNKS", "6"))
     max_ctx = min(max_ctx, max(1, req.top_k_context))
 
-    qvec = embed_query_text(req.query)
+    q_hint = _rag_query_hint(req)
+    q_en, eval_q_meta = translate_rag_query_to_english(req.query or "", query_language_hint=q_hint)
+    q_for_retrieval = q_en.strip() if q_en.strip() else (req.query or "").strip()
+    qvec = embed_query_text(q_for_retrieval)
     retriever = RetrievalService()
-    retrieval = retriever.retrieve(
+    raw_retrieval = retriever.retrieve(
         db=db,
-        query=req.query,
+        query=q_for_retrieval,
         query_embedding=qvec,
         act_name=req.act_name,
         category=req.category,
@@ -493,11 +504,15 @@ def retrieve_for_rag_evaluation(
         search_tables=req.search_tables,
         search_forms=req.search_forms,
     )
+    meta_eval = dict(eval_q_meta)
+    if meta_eval.get("retrieval_query_translated"):
+        meta_eval["retrieval_query_english"] = q_for_retrieval
+    retrieval = raw_retrieval.model_copy(update={"translation_meta": meta_eval})
     pre = list(retrieval.results[:retrieve_k])
     pool = list(retrieval.results[:pool_n])
 
     if use_rerank:
-        post = rerank_candidates(req.query, pool)
+        post = rerank_candidates(q_for_retrieval, pool)
         rerank_pool_size = len(pool)
         top_for_dedupe = post[:max_ctx]
     else:
@@ -522,7 +537,17 @@ def retrieve_for_rag_evaluation(
 
 
 def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAskResponse:
-    """Rerank, build context, call SLM. No DB — safe for long-running work after session is closed."""
+    """Rerank, build context, call SLM. No DB — safe for long-running work after session is closed.
+
+    Reply language follows the user's question: Urdu when query_language is "ur", or when
+    query_language is auto/unset and the question has Urdu (Arabic) script or was translated
+    for retrieval; English when query_language is "en" or otherwise. Request output_language
+    is ignored for this choice.
+    """
+    q_sl = (retrieval.query or "").strip() or (req.query or "").strip()
+    q_trans_meta = retrieval.translation_meta if retrieval.translation_meta else {}
+    answer_in_urdu = _respond_in_urdu_for_query(req, q_trans_meta)
+    response_out_lang = OUTPUT_LANG_UR if answer_in_urdu else OUTPUT_LANG_EN
     max_ctx = int(os.environ.get("RAG_CONTEXT_MAX_CHUNKS", "6"))
     max_ctx = min(max_ctx, max(1, req.top_k_context))
     max_chars = int(os.environ.get("RAG_CONTEXT_MAX_CHARS_PER_CHUNK", "2500"))
@@ -533,14 +558,21 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
 
     if use_rerank:
         pool = retrieval.results[:pool_n]
-        reranked = rerank_candidates(req.query, pool)
+        reranked = rerank_candidates(q_sl, pool)
         top = reranked[:max_ctx]
     else:
         top = retrieval.results[:max_ctx]
     deduped_top = dedupe_chunks_by_act_section(top)
 
     conf_threshold = _low_confidence_threshold()
-    if conf_threshold > 0 and retrieval.confidence_score < conf_threshold:
+    min_ctx_top = _context_min_top_score_allow_llm()
+    best_ctx_score = _best_context_fused_score(deduped_top)
+    low_conf_heuristic = (
+        conf_threshold > 0 and retrieval.confidence_score < conf_threshold
+    )
+    context_score_override = bool(deduped_top) and best_ctx_score >= min_ctx_top
+    block_low_conf = low_conf_heuristic and not context_score_override
+    if block_low_conf:
         all_sources = chunks_to_sources(deduped_top)
         retrieved = chunks_to_retrieved_out(deduped_top, max_text_len=max_resp_text)
         meta: Dict[str, Any] = {
@@ -556,10 +588,13 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
             "context_chunks_after_dedupe": len(deduped_top),
             "low_confidence_blocked": True,
         }
+        if q_trans_meta:
+            meta["query_translation"] = q_trans_meta
         return RagAskResponse(
-            answer=_low_confidence_user_message(),
+            answer=low_confidence_user_message(response_out_lang),
             insufficient_context=False,
             low_retrieval_confidence=True,
+            output_language=response_out_lang,
             used_source_indexes=[],
             used_source_ids=[],
             confidence_score=retrieval.confidence_score,
@@ -573,13 +608,15 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
     context_block = build_grounded_context(deduped_top, max_chars_per_chunk=max_chars)
     user_msg = (
         f"Retrieved passages (sole authority; use only these):\n\n{context_block}\n\n"
-        f"User question: {req.query}\n\n"
+        f"User question: {q_sl}\n\n"
         "Return only the JSON object described in your instructions."
     )
 
+    system_grounding = build_grounding_system_english_pipeline()
+
     raw = chat_completion(
         [
-            {"role": "system", "content": GROUNDING_SYSTEM},
+            {"role": "system", "content": system_grounding},
             {"role": "user", "content": user_msg},
         ],
         temperature=get_ollama_temperature(),
@@ -590,7 +627,11 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
     answer, insufficient, used_idx, used_ids = parse_legal_model_json(raw)
     if not answer:
         answer = raw if raw else "No answer was returned by the model."
-    answer = _append_low_label_disclaimer(answer, retrieval)
+    if answer_in_urdu:
+        answer = _append_low_label_disclaimer(answer, retrieval, OUTPUT_LANG_EN)
+        answer = translate_text(answer, source="en", target="ur")
+    else:
+        answer = _append_low_label_disclaimer(answer, retrieval, OUTPUT_LANG_EN)
 
     all_sources = chunks_to_sources(deduped_top)
     # Frontend "sources" = only passages the model listed; "retrieved_sources" = full list if lists empty
@@ -610,11 +651,16 @@ def finalize_rag_ask(req: RagAskRequest, retrieval: RetrievalResponse) -> RagAsk
         "context_chunks_selected": max_ctx,
         "context_chunks_after_dedupe": len(deduped_top),
     }
+    if low_conf_heuristic and context_score_override:
+        meta["low_confidence_overridden_by_context_score"] = True
+    if q_trans_meta:
+        meta["query_translation"] = q_trans_meta
 
     return RagAskResponse(
         answer=answer,
         insufficient_context=insufficient,
         low_retrieval_confidence=False,
+        output_language=response_out_lang,
         used_source_indexes=used_idx,
         used_source_ids=used_ids,
         confidence_score=retrieval.confidence_score,

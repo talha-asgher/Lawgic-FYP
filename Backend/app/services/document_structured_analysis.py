@@ -8,6 +8,15 @@ import re
 from typing import Any
 
 from app.services.ollama_service import OllamaServiceError, chat_completion
+from app.services.language_output import (
+    DOC_DISCLAIMER_BY_LANG,
+    OUTPUT_LANG_EN,
+    OUTPUT_LANG_UR,
+    normalize_output_language,
+    structured_schema_hint_footer,
+    structured_system_prompt,
+)
+from app.services.translation_service import translate_text
 
 logger = logging.getLogger(__name__)
 
@@ -15,10 +24,6 @@ logger = logging.getLogger(__name__)
 CHUNK_INPUT_CHARS = 6_000
 CHUNK_OVERLAP = 300
 MAX_CONSOLIDATED_CHARS = 18_000
-
-DEFAULT_DISCLAIMER = (
-    "This is AI-generated legal assistance and not a substitute for professional legal advice."
-)
 
 CHUNK_EXTRACT_SYS = (
     "You extract legally relevant information from a document excerpt. "
@@ -31,20 +36,6 @@ CONSOLIDATE_SYS = (
     "Remove duplicates; preserve legally important detail (parties, dates, clauses, amounts, obligations). "
     "Use structured prose and bullets as needed. For long sources, the brief may run up to about 3000 words; "
     "do not over-shorten—keep information needed to explain the full document."
-)
-
-STRUCTURED_SYS = (
-    "You are a legal document analyst for readers in Pakistan where applicable. "
-    "Output MUST be a single JSON object with exactly three string fields: document_type, summary, disclaimer. "
-    "The summary field must be a comprehensive explanation of the COMPLETE document as reflected in the brief—"
-    "not a short blurb. Write in plain language but be thorough: multiple substantial paragraphs (and bullet "
-    "lines inside the string where helpful). Cover what the document is; parties and roles; main purpose; "
-    "important definitions and obligations; timelines, payments, or penalties if present; termination and "
-    "dispute handling where stated; important risks, red flags, gaps or missing information; and practical "
-    "suggestions. Aim for substantial length when the source material is rich—typically on the order of "
-    "800–2000 words for complex agreements, shorter only when the brief itself is very short. "
-    "Do not invent facts; use only information supported by the brief. "
-    "Set disclaimer to: This is AI-generated legal assistance and not a substitute for professional legal advice."
 )
 
 
@@ -132,9 +123,9 @@ def _strip_json_fence(raw: str) -> str:
     return s
 
 
-def normalize_payload(data: dict[str, Any]) -> dict[str, Any]:
+def normalize_payload(data: dict[str, Any], default_disclaimer: str) -> dict[str, Any]:
     """Enforce three-field shape and default disclaimer."""
-    disclaimer = str(data.get("disclaimer") or "").strip() or DEFAULT_DISCLAIMER
+    disclaimer = str(data.get("disclaimer") or "").strip() or default_disclaimer
     return {
         "document_type": str(data.get("document_type") or "").strip() or "Unknown",
         "summary": str(data.get("summary") or "").strip(),
@@ -142,24 +133,29 @@ def normalize_payload(data: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def generate_structured_analysis(consolidated_brief: str) -> dict[str, Any]:
+def generate_structured_analysis(
+    consolidated_brief: str, output_language: str = "en"
+) -> dict[str, Any]:
+    lang = normalize_output_language(output_language)
     brief = consolidated_brief.strip()
     if len(brief) > MAX_CONSOLIDATED_CHARS:
         brief = brief[:MAX_CONSOLIDATED_CHARS] + "\n\n[Content truncated for analysis.]"
 
+    # Always generate structured fields in English first; translate to Urdu when output_language is ur
+    # (works for English-source and Urdu-source briefs after upstream normalization).
+    sys_prompt = structured_system_prompt(OUTPUT_LANG_EN)
     schema_hint = """
 Return exactly this JSON shape (no markdown fences):
 {
   "document_type": "",
   "summary": "",
-  "disclaimer": "This is AI-generated legal assistance and not a substitute for professional legal advice."
+  "disclaimer": ""
 }
-The summary must be a long, complete narrative that explains the entire document (as represented in the brief).
-Cover all major themes, clauses, and facts you can infer from the brief; integrate risks, gaps, and suggestions
-within that narrative. Prefer depth and completeness over brevity.
-"""
+""" + structured_schema_hint_footer(OUTPUT_LANG_EN)
+    expected_disc = DOC_DISCLAIMER_BY_LANG[OUTPUT_LANG_EN]
+
     messages = [
-        {"role": "system", "content": STRUCTURED_SYS},
+        {"role": "system", "content": sys_prompt},
         {
             "role": "user",
             "content": f"Document brief:\n\n{brief}\n\n{schema_hint}",
@@ -171,7 +167,7 @@ within that narrative. Prefer depth and completeness over brevity.
     except json.JSONDecodeError as e:
         logger.warning("JSON parse failed, retrying without strict format: %s", e)
         messages_retry = [
-            {"role": "system", "content": STRUCTURED_SYS},
+            {"role": "system", "content": sys_prompt},
             {
                 "role": "user",
                 "content": f"Document brief:\n\n{brief}\n\n{schema_hint}\nRespond with raw JSON only.",
@@ -182,4 +178,15 @@ within that narrative. Prefer depth and completeness over brevity.
 
     if not isinstance(data, dict):
         raise OllamaServiceError("Model returned non-object JSON.")
-    return normalize_payload(data)
+    payload = normalize_payload(data, expected_disc)
+    if lang == OUTPUT_LANG_UR:
+        payload["document_type"] = translate_text(
+            str(payload.get("document_type") or ""), source="en", target="ur"
+        )
+        payload["summary"] = translate_text(
+            str(payload.get("summary") or ""), source="en", target="ur"
+        )
+        payload["disclaimer"] = translate_text(
+            str(payload.get("disclaimer") or ""), source="en", target="ur"
+        )
+    return payload

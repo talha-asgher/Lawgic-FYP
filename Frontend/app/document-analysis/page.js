@@ -27,6 +27,13 @@ const ACCEPT_MIME = new Set([
   "image/webp",
 ]);
 
+function normalizeUiOutputLang(lang) {
+  if (!lang || typeof lang !== "string") return "en";
+  const s = lang.trim().toLowerCase();
+  if (s === "ur_latn" || s === "roman" || s === "roman_urdu") return "ur";
+  return s === "ur" ? "ur" : "en";
+}
+
 /** Two user-visible steps; backend still sends analyzing_clauses / checking_risks / generating_suggestions. */
 const STAGE_ORDER = ["extracting_text", "generating_summary"];
 
@@ -150,21 +157,22 @@ function ProgressPanel({ stage }) {
 export default function DocumentAnalysisPage() {
   const [isDragging, setIsDragging] = useState(false);
   const [file, setFile] = useState(null);
-  const [previewUrl, setPreviewUrl] = useState(null);
+  const [outputLang, setOutputLang] = useState("en");
   const [currentJob, setCurrentJob] = useState(null);
   const [fromCache, setFromCache] = useState(false);
   const [uploadError, setUploadError] = useState(null);
   const fileInputRef = useRef(null);
 
-  useEffect(() => {
-    if (!file || !isPdfFile(file)) {
-      setPreviewUrl(null);
-      return;
-    }
-    const url = URL.createObjectURL(file);
-    setPreviewUrl(url);
-    return () => URL.revokeObjectURL(url);
+  const pdfObjectUrl = useMemo(() => {
+    if (!file || !isPdfFile(file)) return null;
+    return URL.createObjectURL(file);
   }, [file]);
+
+  useEffect(() => {
+    const url = pdfObjectUrl;
+    if (!url) return;
+    return () => URL.revokeObjectURL(url);
+  }, [pdfObjectUrl]);
 
   const handleDragOver = (e) => {
     e.preventDefault();
@@ -193,7 +201,7 @@ export default function DocumentAnalysisPage() {
     }
   };
 
-  const handleFileSelection = useCallback(async (selectedFile) => {
+  async function handleFileSelection(selectedFile) {
     if (!isAllowedFile(selectedFile)) {
       alert("Please upload a PDF, DOCX, TXT, or image (PNG, JPEG, WebP).");
       return;
@@ -203,7 +211,7 @@ export default function DocumentAnalysisPage() {
     setCurrentJob(null);
     setFromCache(false);
     try {
-      const job = await createDocumentAnalysis(selectedFile);
+      const job = await createDocumentAnalysis(selectedFile, outputLang);
       setFromCache(!!job.from_cache);
       setCurrentJob(job);
     } catch (err) {
@@ -211,7 +219,7 @@ export default function DocumentAnalysisPage() {
       setFile(null);
       if (fileInputRef.current) fileInputRef.current.value = "";
     }
-  }, []);
+  }
 
   const resetSession = useCallback(() => {
     setFile(null);
@@ -254,7 +262,7 @@ export default function DocumentAnalysisPage() {
       cancelled = true;
       clearInterval(id);
     };
-  }, [currentJob?.analysis_id, currentJob?.status]);
+ }, [currentJob?.analysis_id, currentJob?.status]);
 
   const analyzing =
     currentJob &&
@@ -264,8 +272,11 @@ export default function DocumentAnalysisPage() {
   const failMessage =
     failed && parseAnalysisError(currentJob.key_details);
   const result = currentJob?.result;
-
-  const showPdfPreview = file && previewUrl && isPdfFile(file);
+  const scriptDir =
+    normalizeUiOutputLang((currentJob && currentJob.output_language) || outputLang) ===
+    "ur"
+      ? "rtl"
+      : "ltr";
 
   const fileMeta = useMemo(() => {
     if (!file) return null;
@@ -322,11 +333,11 @@ export default function DocumentAnalysisPage() {
             </button>
           )}
         </div>
-        {showPdfPreview ? (
+        {pdfObjectUrl ? (
           <div className="mt-4 rounded-lg border border-gray-200 overflow-hidden bg-gray-100">
             <iframe
               title="PDF preview"
-              src={`${previewUrl}#toolbar=0`}
+              src={`${pdfObjectUrl}#toolbar=0`}
               className="w-full h-[min(70vh,560px)] bg-white"
             />
           </div>
@@ -339,10 +350,9 @@ export default function DocumentAnalysisPage() {
     );
   }, [
     file,
-    previewUrl,
-    showPdfPreview,
+    pdfObjectUrl,
     analyzing,
-    currentJob?.file_hash,
+    currentJob,
     fromCache,
     loadNewDocument,
     removeFile,
@@ -358,6 +368,24 @@ export default function DocumentAnalysisPage() {
           Upload a legal document. Text is extracted (with OCR when needed), then
           analyzed into structured sections below.
         </p>
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          <span className="text-sm text-gray-600">Output language</span>
+          <select
+            value={outputLang}
+            onChange={(e) => setOutputLang(e.target.value)}
+            disabled={!!file}
+            className="rounded-lg border border-gray-200 bg-white px-2.5 py-1.5 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#052379]/30 disabled:opacity-60"
+            aria-label="Analysis output language"
+          >
+            <option value="en">English</option>
+            <option value="ur">اردو</option>
+          </select>
+          {file && (
+            <span className="text-xs text-gray-500">
+              Clear the current file to change language
+            </span>
+          )}
+        </div>
       </div>
 
       <div className="max-w-7xl mx-auto">
@@ -411,7 +439,7 @@ export default function DocumentAnalysisPage() {
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             <div className="space-y-4 lg:sticky lg:top-8">{fileMeta}</div>
 
-            <div className="space-y-5 min-h-[200px]">
+            <div className="space-y-5 min-h-50">
               {uploadError && (
                 <div className="p-4 rounded-xl border border-amber-200 bg-amber-50 text-amber-900 text-sm flex gap-2 items-start">
                   <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
@@ -453,11 +481,16 @@ export default function DocumentAnalysisPage() {
                     icon={ClipboardList}
                     accent="slate"
                   >
-                    <p className="text-sm">{result.document_type || "—"}</p>
+                    <p className="text-sm" dir={scriptDir}>
+                      {result.document_type || "—"}
+                    </p>
                   </AnalysisCard>
 
                   <AnalysisCard title="Quick Summary" icon={Info} accent="blue">
-                    <div className="text-sm leading-relaxed whitespace-pre-wrap text-gray-800">
+                    <div
+                      dir={scriptDir}
+                      className="text-sm leading-relaxed whitespace-pre-wrap text-gray-800"
+                    >
                       {result.summary || "—"}
                     </div>
                   </AnalysisCard>
@@ -467,7 +500,10 @@ export default function DocumentAnalysisPage() {
                     icon={FileWarning}
                     accent="slate"
                   >
-                    <p className="text-sm text-gray-700 leading-relaxed">
+                    <p
+                      className="text-sm text-gray-700 leading-relaxed"
+                      dir={scriptDir}
+                    >
                       {result.disclaimer}
                     </p>
                   </AnalysisCard>

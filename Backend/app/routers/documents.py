@@ -5,9 +5,10 @@ import datetime
 import time
 from typing import List, Optional, Any
 
-from fastapi import APIRouter, BackgroundTasks, Depends, File, HTTPException, UploadFile, status
+from fastapi import APIRouter, BackgroundTasks, Depends, File, Form, HTTPException, UploadFile, status
 from fastapi.responses import Response, StreamingResponse
 from pydantic import BaseModel
+from sqlalchemy import or_
 from sqlalchemy.orm import Session
 
 from app import models, schemas
@@ -17,6 +18,11 @@ from app.routers.auth import get_current_user
 from app.utils.pdf_generator import generate_document, PDF_GENERATORS
 from app.services.document_text_extraction import detect_kind
 from app.services.doc_analysis_tasks import run_doc_analysis_job
+from app.services.language_output import OUTPUT_LANG_EN, OUTPUT_LANG_UR, normalize_output_language
+from app.services.translation_service import (
+    translate_doc_analysis_payload,
+    urdu_arabic_script_ratio,
+)
 
 MAX_ANALYSIS_FILE_BYTES = 20 * 1024 * 1024
 
@@ -244,6 +250,7 @@ def serialize_doc_analysis(row: models.DocAnalysis) -> schemas.DocAnalysisOut:
         file_name=row.file_name,
         file_size=row.file_size,
         file_hash=row.file_hash,
+        output_language=getattr(row, "output_language", None) or "en",
         status=row.status,
         progress_stage=row.progress_stage,
         summary=summary_text,
@@ -261,6 +268,73 @@ def serialize_doc_analysis_created(
     return schemas.DocAnalysisCreatedOut(**base.model_dump(), from_cache=from_cache)
 
 
+def _stored_doc_analysis_dict(row: models.DocAnalysis) -> dict:
+    if row.analysis_json:
+        try:
+            parsed = json.loads(row.analysis_json)
+            if isinstance(parsed, dict):
+                return parsed
+        except Exception:
+            pass
+    return {"summary": str(row.summary or "").strip()}
+
+
+def _cache_row_language(row: models.DocAnalysis, payload: dict) -> str:
+    lang = normalize_output_language(getattr(row, "output_language", None))
+    summary = str(payload.get("summary") or row.summary or "")
+    if lang == OUTPUT_LANG_UR and summary and urdu_arabic_script_ratio(summary) < 0.12:
+        return OUTPUT_LANG_EN
+    return lang
+
+
+def _materialize_cached_analysis(
+    db: Session,
+    row: models.DocAnalysis,
+    *,
+    target_lang: str,
+    file_name: str,
+    file_size: int,
+) -> models.DocAnalysis:
+    payload = _stored_doc_analysis_dict(row)
+    source_lang = _cache_row_language(row, payload)
+    if source_lang == target_lang:
+        return row
+
+    translated = translate_doc_analysis_payload(
+        payload,
+        source_lang=source_lang,
+        target_lang=target_lang,
+    )
+    translated_summary = str(translated.get("summary") or "").strip()
+    if (
+        source_lang == OUTPUT_LANG_EN
+        and target_lang == OUTPUT_LANG_UR
+        and translated_summary
+        and urdu_arabic_script_ratio(translated_summary) < 0.12
+    ):
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Cached summary translation to Urdu failed. Try again when the translation service is available.",
+        )
+    translated_row = models.DocAnalysis(
+        user_id=row.user_id,
+        file_name=file_name,
+        file_size=file_size,
+        file_hash=row.file_hash,
+        output_language=target_lang,
+        status="done",
+        progress_stage=None,
+        summary=translated_summary or None,
+        risks=json.dumps([]),
+        key_details=None,
+        analysis_json=json.dumps(translated, ensure_ascii=False),
+    )
+    db.add(translated_row)
+    db.commit()
+    db.refresh(translated_row)
+    return translated_row
+
+
 # ── Document Analysis ─────────────────────────────────────────────────────────
 
 analysis_router = APIRouter(
@@ -273,12 +347,15 @@ analysis_router = APIRouter(
 async def create_analysis_job(
     background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
+    output_language: str = Form("en"),
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
     """
     Upload a PDF, DOCX, TXT, or image. Structured analysis runs in the background.
-    Identical file bytes (per user, SHA-256) return a cached completed result.
+    Same file bytes + same output_language (per user, SHA-256 + language) may return a cached result.
+    If the file was already analyzed in the other supported language (English vs Urdu), the stored
+    result/summary is translated so the user does not wait for a full re-analysis.
     Poll GET /doc-analysis/{id} for `progress_stage` and `result`.
     """
     raw = await file.read()
@@ -302,25 +379,76 @@ async def create_analysis_job(
         )
 
     file_hash = hashlib.sha256(raw).hexdigest()
+    out_lang = normalize_output_language(output_language)
     cached = (
         db.query(models.DocAnalysis)
         .filter(
             models.DocAnalysis.user_id == current_user.user_id,
             models.DocAnalysis.file_hash == file_hash,
+            models.DocAnalysis.output_language == out_lang,
             models.DocAnalysis.status == "done",
-            models.DocAnalysis.analysis_json.isnot(None),
+            or_(
+                models.DocAnalysis.analysis_json.isnot(None),
+                models.DocAnalysis.summary.isnot(None),
+            ),
         )
         .order_by(models.DocAnalysis.created_at.desc())
         .first()
     )
     if cached:
+        try:
+            cached = _materialize_cached_analysis(
+                db,
+                cached,
+                target_lang=out_lang,
+                file_name=name,
+                file_size=len(raw),
+            )
+        except HTTPException:
+            db.rollback()
+            raise
+        except Exception:
+            db.rollback()
         return serialize_doc_analysis_created(cached, from_cache=True)
+
+    sibling_lang = OUTPUT_LANG_UR if out_lang == OUTPUT_LANG_EN else OUTPUT_LANG_EN
+    sibling = (
+        db.query(models.DocAnalysis)
+        .filter(
+            models.DocAnalysis.user_id == current_user.user_id,
+            models.DocAnalysis.file_hash == file_hash,
+            models.DocAnalysis.output_language == sibling_lang,
+            models.DocAnalysis.status == "done",
+            or_(
+                models.DocAnalysis.analysis_json.isnot(None),
+                models.DocAnalysis.summary.isnot(None),
+            ),
+        )
+        .order_by(models.DocAnalysis.created_at.desc())
+        .first()
+    )
+    if sibling:
+        try:
+            translated_row = _materialize_cached_analysis(
+                db,
+                sibling,
+                target_lang=out_lang,
+                file_name=name,
+                file_size=len(raw),
+            )
+            return serialize_doc_analysis_created(translated_row, from_cache=True)
+        except HTTPException:
+            db.rollback()
+            raise
+        except Exception:
+            db.rollback()
 
     analysis = models.DocAnalysis(
         user_id=current_user.user_id,
         file_name=name,
         file_size=len(raw),
         file_hash=file_hash,
+        output_language=out_lang,
         status="pending",
         progress_stage="pending",
         summary=None,
@@ -338,6 +466,7 @@ async def create_analysis_job(
         raw,
         name,
         ct,
+        out_lang,
     )
     return serialize_doc_analysis_created(analysis, from_cache=False)
 

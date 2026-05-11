@@ -62,10 +62,18 @@ export async function verifySession() {
   const token = localStorage.getItem("lawgic_token");
   if (!token) return { ok: false, user: null };
 
+  const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+  const timeoutMs = 12_000;
+  const timeoutId =
+    controller &&
+    typeof window !== "undefined" &&
+    setTimeout(() => controller.abort(), timeoutMs);
+
   try {
     const res = await fetch(`${BASE_URL}/auth/me`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
+      signal: controller?.signal,
     });
 
     if (res.status === 401 || res.status === 403) {
@@ -91,8 +99,13 @@ export async function verifySession() {
     };
     setSession(token, user);
     return { ok: true, user };
-  } catch {
+  } catch (e) {
+    if (e?.name === "AbortError") {
+      return { ok: false, user: null, networkError: true };
+    }
     return { ok: false, user: null, networkError: true };
+  } finally {
+    if (timeoutId) clearTimeout(timeoutId);
   }
 }
 
@@ -383,9 +396,10 @@ export async function getMyDocuments() {
   return api.get("/documents/my");
 }
 
-export async function createDocumentAnalysis(file) {
+export async function createDocumentAnalysis(file, outputLanguage = "en") {
   const form = new FormData();
   form.append("file", file);
+  form.append("output_language", outputLanguage);
 
   return api.postForm("/doc-analysis/", form);
 }
@@ -408,6 +422,7 @@ export async function ragAsk(
     topKContext = 6,
     searchTables = null,
     searchForms = null,
+    outputLanguage = undefined,
     signal = undefined,
   } = {}
 ) {
@@ -416,6 +431,9 @@ export async function ragAsk(
     top_k_retrieval: topKRetrieval,
     top_k_context: topKContext,
   };
+  if (outputLanguage !== undefined && outputLanguage !== null) {
+    body.output_language = outputLanguage;
+  }
   if (actName != null) body.act_name = actName;
   if (category != null) body.category = category;
   if (sectionNumber != null) body.section_number = sectionNumber;

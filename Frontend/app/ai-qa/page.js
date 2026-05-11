@@ -22,6 +22,13 @@ import { ragAsk, isLoggedIn } from "@/lib/api";
 
 const STORAGE_KEY = "lawgic_ai_qa_sessions_v1";
 
+function normalizeUiOutputLang(lang) {
+  if (!lang || typeof lang !== "string") return "en";
+  const s = lang.trim().toLowerCase();
+  if (s === "ur_latn" || s === "roman" || s === "roman_urdu") return "ur";
+  return s === "ur" ? "ur" : "en";
+}
+
 function formatNowTime() {
   return new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
@@ -30,7 +37,9 @@ function greetingMessage() {
   return {
     id: "greeting",
     role: "assistant",
-    text: "Hello! I'm your AI legal assistant. I can help you understand Pakistani laws, or find legal procedures. How can I help you today?",
+    text:
+      "Hello! I'm your AI legal assistant for Pakistani law. Ask in English or اردو — replies match your question's language.",
+    outputLang: "en",
     timestamp: formatNowTime(),
   };
 }
@@ -64,6 +73,7 @@ function formatSourceOneLine(src) {
 
 export default function AiQAPage() {
   const router = useRouter();
+  const [mounted, setMounted] = useState(false);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -79,13 +89,24 @@ export default function AiQAPage() {
   const messages = activeSession?.messages ?? [];
 
   useEffect(() => {
+  setMounted(true);
+}, []);
+  useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const data = JSON.parse(raw);
         if (Array.isArray(data.sessions) && data.sessions.length) {
-          setSessions(data.sessions);
-          setActiveId(data.activeId || data.sessions[0].id);
+          const migrated = data.sessions.map((sess) => ({
+            ...sess,
+            messages: (sess.messages || []).map((m) =>
+              m.role === "assistant"
+                ? { ...m, outputLang: normalizeUiOutputLang(m.outputLang) }
+                : m
+            ),
+          }));
+          setSessions(migrated);
+          setActiveId(data.activeId || migrated[0].id);
           return;
         }
       }
@@ -186,6 +207,7 @@ export default function AiQAPage() {
         id: Date.now() + 1,
         role: "assistant",
         text: data.answer || "",
+        outputLang: normalizeUiOutputLang(data.output_language || "en"),
         sources: data.sources || [],
         retrievedSources: data.retrieved_sources || [],
         insufficientContext: !!data.insufficient_context,
@@ -334,10 +356,20 @@ export default function AiQAPage() {
   const sortedRecent = [...sessions].sort(
     (a, b) => (b.updatedAt || 0) - (a.updatedAt || 0)
   );
+  
+  if (!mounted) {
+    return (
+      <div className="flex h-[85vh] min-h-0 min-w-0 w-full max-w-full overflow-x-hidden bg-[#F6F8FB] border-t border-gray-200">
+        <main className="flex-1 flex items-center justify-center text-sm text-gray-500">
+          Loading Lawgic AI Assistant...
+        </main>
+      </div>
+    );
+  }
 
   return (
-    <div className="flex h-[85vh] bg-[#F6F8FB] border-t border-gray-200">
-      <aside className="hidden md:flex w-80 bg-white border-r border-gray-200 flex-col">
+    <div className="flex h-[85vh] min-h-0 min-w-0 w-full max-w-full overflow-x-hidden bg-[#F6F8FB] border-t border-gray-200">
+      <aside className="hidden md:flex w-80 shrink-0 bg-white border-r border-gray-200 flex-col min-h-0 min-w-0">
         <div className="p-6 border-b border-gray-100">
           <button
             type="button"
@@ -385,7 +417,7 @@ export default function AiQAPage() {
                   <div className="flex items-center gap-1.5 pl-7">
                     <Clock className="w-3 h-3 text-gray-400" />
                     <span className="text-xs text-gray-500">
-                      {formatRelativeTime(item.updatedAt || Date.now())}
+                    {item.updatedAt ? formatRelativeTime(item.updatedAt) : "Just now"}
                     </span>
                   </div>
                 </button>
@@ -404,9 +436,9 @@ export default function AiQAPage() {
         </div>
       </aside>
 
-      <main className="flex-1 flex flex-col relative">
-        <div className="bg-white border-b border-gray-200 px-6 py-4 shadow-sm z-10">
-          <div className="flex items-center gap-3">
+      <main className="flex-1 flex flex-col relative min-w-0 min-h-0 max-w-full overflow-x-hidden">
+        <div className="bg-white border-b border-gray-200 px-4 sm:px-6 py-4 shadow-sm z-10">
+          <div className="flex items-center gap-3 w-full max-w-none min-w-0">
             <div className="w-8 h-8 bg-[#052379]/10 rounded-lg flex items-center justify-center">
               <Scale className="w-5 h-5 text-[#052379]" />
             </div>
@@ -416,30 +448,39 @@ export default function AiQAPage() {
           </div>
         </div>
 
-        <div className="flex-1 overflow-y-auto p-6 space-y-6 scroll-smooth">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden min-h-0 min-w-0 scroll-smooth">
+          <div className="w-full max-w-none min-w-0 px-4 sm:px-6 py-6 space-y-6">
           {error && (
-            <div className="mx-auto max-w-3xl rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+            <div className="w-full min-w-0 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 break-words">
               {error}
             </div>
           )}
-          {messages.map((msg) => (
+          {messages.map((msg) => {
+            const userBubbleRtl =
+              msg.role === "user" &&
+              /[\u0600-\u06FF\u0750-\u077F]/.test(msg.text || "");
+            const assistantBubbleRtl =
+              msg.role === "assistant" &&
+              normalizeUiOutputLang(msg.outputLang) === "ur";
+            return (
             <div
               key={msg.id}
-              className={`flex gap-4 ${
+              className={`flex w-full max-w-full min-w-0 items-start gap-3 ${
                 msg.role === "user" ? "justify-end" : "justify-start"
               }`}
             >
               {msg.role === "assistant" && (
-                <div className="w-8 h-8 bg-[#052379] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-[#052379] rounded-full flex items-center justify-center shrink-0 mt-0.5">
                   <Scale className="w-4 h-4 text-white" />
                 </div>
               )}
 
               <div
-                className={`max-w-[80%] rounded-2xl px-5 py-3 shadow-sm ${
+                dir={msg.role === "user" ? (userBubbleRtl ? "rtl" : undefined) : assistantBubbleRtl ? "rtl" : undefined}
+                className={`min-w-0 shrink rounded-2xl px-4 sm:px-5 py-3 shadow-sm overflow-hidden ${
                   msg.role === "user"
-                    ? "bg-[#052379] text-white rounded-br-none"
-                    : "bg-white text-gray-800 border border-gray-100 rounded-bl-none"
+                    ? "bg-[#052379] text-white rounded-br-none w-fit max-w-[min(100%,28rem)]"
+                    : "bg-white text-gray-800 border border-gray-100 rounded-bl-none max-w-[min(100%,40rem)] flex-1 basis-0 sm:basis-auto"
                 }`}
               >
                 {msg.role === "user" && editingUserMsgId === msg.id ? (
@@ -460,7 +501,7 @@ export default function AiQAPage() {
                       }}
                       rows={4}
                       disabled={isLoading}
-                      className="w-full min-w-[min(100%,16rem)] text-sm leading-relaxed text-white bg-white/10 placeholder-white/50 border border-white/30 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-white/40 resize-y"
+                      className="w-full min-w-0 max-w-full text-sm leading-relaxed text-white bg-white/10 placeholder-white/50 border border-white/30 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-white/40 resize-y"
                       placeholder="Edit your question…"
                       aria-label="Edit question"
                     />
@@ -487,9 +528,9 @@ export default function AiQAPage() {
                     </p>
                   </div>
                 ) : (
-                  <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                  <div className="text-sm leading-relaxed whitespace-pre-wrap break-words text-start">
                     {msg.text}
-                  </p>
+                  </div>
                 )}
 
                 {msg.role === "assistant" && msg.insufficientContext && (
@@ -530,13 +571,13 @@ export default function AiQAPage() {
                       });
                     if (!blocks.length) return null;
                     return (
-                      <div className="mt-3 border-t border-gray-100 pt-3 text-left space-y-3">
+                      <div className="mt-3 border-t border-gray-100 pt-3 text-start space-y-3 min-w-0 max-w-full" dir="ltr">
                         {blocks.map((block) => (
-                          <div key={block.prefix}>
-                            <p className="text-xs font-semibold text-gray-600 mb-1.5">
+                          <div key={block.prefix} className="min-w-0 max-w-full">
+                            <p className="text-xs font-semibold text-gray-600 mb-1.5 break-words">
                               {block.title}
                             </p>
-                            <ul className="space-y-1.5 text-xs text-gray-800">
+                            <ul className="space-y-1.5 text-xs text-gray-800 min-w-0">
                               {block.items.map((src, i) => {
                                 const expKey = `${msg.id}-${block.prefix}-${i}`;
                                 const expanded = !!expandedSources[expKey];
@@ -545,11 +586,11 @@ export default function AiQAPage() {
                                 return (
                                   <li
                                     key={`${block.prefix}-${src.object_id || i}-${i}`}
-                                    className="rounded-lg border border-gray-100 bg-gray-50/80 px-2 py-1.5"
+                                    className="rounded-lg border border-gray-100 bg-gray-50/80 px-2 py-1.5 min-w-0 max-w-full overflow-hidden"
                                   >
-                                    <div className="flex items-start justify-between gap-2">
+                                    <div className="flex items-start justify-between gap-2 min-w-0">
                                       <p
-                                        className="min-w-0 flex-1 leading-snug truncate"
+                                        className="min-w-0 flex-1 leading-snug line-clamp-2 sm:truncate"
                                         title={line}
                                       >
                                         {line}
@@ -581,7 +622,7 @@ export default function AiQAPage() {
                                       ) : null}
                                     </div>
                                     {expanded && full ? (
-                                      <div className="mt-2 text-gray-700 whitespace-pre-wrap text-[11px] leading-relaxed max-h-64 overflow-y-auto border-t border-gray-100 pt-2">
+                                      <div className="mt-2 text-gray-700 whitespace-pre-wrap text-[11px] leading-relaxed max-h-64 overflow-y-auto overflow-x-hidden border-t border-gray-100 pt-2 break-words">
                                         {full}
                                       </div>
                                     ) : null}
@@ -596,17 +637,11 @@ export default function AiQAPage() {
                   })()}
 
                 <div
-                  className={`flex flex-wrap items-center gap-2 mt-2 ${
+                  dir={msg.role === "user" ? "ltr" : undefined}
+                  className={`flex flex-wrap items-center gap-x-2 gap-y-1 mt-2 w-full max-w-full min-w-0 ${
                     msg.role === "user" ? "justify-end" : "justify-start"
                   }`}
                 >
-                  <span
-                    className={`text-[10px] opacity-70 ${
-                      msg.role === "user" ? "order-last" : ""
-                    }`}
-                  >
-                    {msg.timestamp}
-                  </span>
                   {msg.role === "user" &&
                     msg.id !== "greeting" &&
                     editingUserMsgId !== msg.id && (
@@ -614,38 +649,41 @@ export default function AiQAPage() {
                       <button
                         type="button"
                         onClick={() => copyText("question", msg.text)}
-                        className="inline-flex items-center gap-1 text-[10px] font-medium text-white/90 hover:text-white"
+                        className="inline-flex items-center gap-1 text-[10px] font-medium text-white/90 hover:text-white shrink-0"
                       >
-                        <Copy className="w-3 h-3" />
+                        <Copy className="w-3 h-3 shrink-0" />
                         Copy
                       </button>
                       <button
                         type="button"
                         disabled={isLoading}
                         onClick={() => startEditUserMessage(msg)}
-                        className="inline-flex items-center gap-1 text-[10px] font-medium text-white/90 hover:text-white disabled:opacity-50"
+                        className="inline-flex items-center gap-1 text-[10px] font-medium text-white/90 hover:text-white disabled:opacity-50 shrink-0"
                       >
-                        <Pencil className="w-3 h-3" />
+                        <Pencil className="w-3 h-3 shrink-0" />
                         Edit
                       </button>
                       <button
                         type="button"
                         disabled={isLoading}
                         onClick={() => retryUserMessage(msg.id)}
-                        className="inline-flex items-center gap-1 text-[10px] font-medium text-white/90 hover:text-white disabled:opacity-50"
+                        className="inline-flex items-center gap-1 text-[10px] font-medium text-white/90 hover:text-white disabled:opacity-50 shrink-0"
                       >
-                        <RotateCcw className="w-3 h-3" />
+                        <RotateCcw className="w-3 h-3 shrink-0" />
                         Retry
                       </button>
                     </>
                   )}
+                  <span className="text-[10px] opacity-70 tabular-nums shrink-0">
+                    {msg.timestamp}
+                  </span>
                   {msg.role === "assistant" && (
                     <button
                       type="button"
                       onClick={() => copyText("answer", msg.text)}
-                      className="inline-flex items-center gap-1 text-[10px] font-medium text-[#052379] hover:underline"
+                      className="inline-flex items-center gap-1 text-[10px] font-medium text-[#052379] hover:underline shrink-0"
                     >
-                      <Copy className="w-3 h-3" />
+                      <Copy className="w-3 h-3 shrink-0" />
                       Copy
                     </button>
                   )}
@@ -653,43 +691,45 @@ export default function AiQAPage() {
               </div>
 
               {msg.role === "user" && (
-                <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                   <User className="w-4 h-4 text-gray-500" />
                 </div>
               )}
             </div>
-          ))}
+            );
+          })}
 
           {isLoading && (
-            <div className="flex gap-4">
-              <div className="w-8 h-8 bg-[#052379] rounded-full flex items-center justify-center flex-shrink-0">
+            <div className="flex w-full max-w-full min-w-0 items-start gap-3 justify-start">
+              <div className="w-8 h-8 bg-[#052379] rounded-full flex items-center justify-center shrink-0">
                 <Scale className="w-4 h-4 text-white" />
               </div>
-              <div className="bg-white px-5 py-3 rounded-2xl rounded-bl-none border border-gray-100 shadow-sm flex items-center gap-3">
-                <Loader2 className="w-4 h-4 text-[#052379] animate-spin" />
-                <span className="text-sm text-gray-500">
+              <div className="min-w-0 flex-1 max-w-[min(100%,40rem)] bg-white px-4 sm:px-5 py-3 rounded-2xl rounded-bl-none border border-gray-100 shadow-sm flex flex-wrap items-center gap-2 sm:gap-3">
+                <Loader2 className="w-4 h-4 text-[#052379] animate-spin shrink-0" />
+                <span className="text-sm text-gray-500 min-w-0 break-words">
                   Processing legal text…
                 </span>
                 <button
                   type="button"
                   onClick={handleStop}
-                  className="ml-2 inline-flex items-center gap-1 rounded-lg border border-gray-200 bg-gray-50 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-100"
+                  className="inline-flex items-center gap-1 rounded-lg border border-gray-200 bg-gray-50 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-100 shrink-0"
                 >
-                  <Square className="w-3 h-3" />
+                  <Square className="w-3 h-3 shrink-0" />
                   Stop
                 </button>
               </div>
             </div>
           )}
+          </div>
         </div>
 
-        <div className="p-6 bg-white border-t border-gray-200">
+        <div className="p-4 sm:p-6 bg-white border-t border-gray-200 min-w-0">
           <form
             onSubmit={(e) => {
               e.preventDefault();
               handleSend();
             }}
-            className="relative flex items-center"
+            className="relative flex items-center w-full max-w-none min-w-0"
           >
             <input
               type="text"
@@ -697,7 +737,7 @@ export default function AiQAPage() {
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type your legal question..."
               disabled={isLoading}
-              className="w-full bg-[#F6F8FB] text-gray-900 placeholder-gray-500 border border-gray-200 rounded-xl pl-4 pr-14 py-3.5 focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-all"
+              className="w-full min-w-0 max-w-full box-border bg-[#F6F8FB] text-gray-900 placeholder-gray-500 border border-gray-200 rounded-xl pl-4 pr-14 py-3.5 focus:outline-none focus:ring-2 focus:ring-[#052379]/20 focus:border-[#052379] transition-all"
             />
             <button
               type="submit"
@@ -707,7 +747,7 @@ export default function AiQAPage() {
               <Send className="w-4 h-4" />
             </button>
           </form>
-          <p className="text-center text-xs text-gray-400 mt-3">
+          <p className="text-center text-xs text-gray-400 mt-3 w-full max-w-none px-1 break-words">
             Lawgic AI can make mistakes. Always consult a verified lawyer for
             critical matters.
           </p>

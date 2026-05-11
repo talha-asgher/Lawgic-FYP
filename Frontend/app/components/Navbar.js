@@ -63,7 +63,10 @@ export default function Navbar() {
             </button>
 
             {!authInitialized ? (
-              <div className="w-24 h-9" />
+              <div
+                className="w-24 h-9 rounded-lg bg-gray-100 animate-pulse"
+                aria-hidden
+              />
             ) : isLoggedIn ? (
               <div className="relative" ref={menuRef}>
                 <button

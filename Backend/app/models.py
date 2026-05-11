@@ -139,6 +139,7 @@ class DocAnalysis(Base):
     file_name = Column(Text, nullable=True)
     file_size = Column(Integer, nullable=True)
     file_hash = Column(String(64), nullable=True)
+    output_language = Column(Text, nullable=False, default="en")
     status = Column(Text, nullable=False, default="pending")  # pending, processing, done, failed
     progress_stage = Column(Text, nullable=True)
     analysis_json = Column(Text, nullable=True)

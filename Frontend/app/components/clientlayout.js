@@ -23,23 +23,22 @@ export default function ClientLayout({ children }) {
     let cancelled = false;
 
     async function hydrateAuth() {
-      const token = getToken();
-      if (!token) {
+      try {
+        const token = getToken();
+        if (!token) return;
+        if (isAccessTokenExpired(token)) {
+          clearSession();
+          logout();
+          return;
+        }
+        const result = await verifySession();
+        if (cancelled) return;
+        if (result.ok && result.user) {
+          login(result.user, token);
+        }
+      } finally {
         if (!cancelled) setAuthInitialized(true);
-        return;
       }
-      if (isAccessTokenExpired(token)) {
-        clearSession();
-        logout();
-        if (!cancelled) setAuthInitialized(true);
-        return;
-      }
-      const result = await verifySession();
-      if (cancelled) return;
-      if (result.ok && result.user) {
-        login(result.user, token);
-      }
-      setAuthInitialized(true);
     }
 
     hydrateAuth();

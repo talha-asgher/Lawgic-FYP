@@ -149,17 +149,29 @@ def build_grounding_system_english_pipeline() -> str:
     return GROUNDING_BASE + _grounding_output_block(OUTPUT_LANG_EN) + GROUNDING_TAIL
 
 
+# STRUCTURED_SYS_EN = (
+#     "You are a legal document analyst for readers in Pakistan where applicable. "
+#     "Output MUST be a single JSON object with exactly three string fields: document_type, summary, disclaimer. "
+#     "The summary field must be a comprehensive explanation of the COMPLETE document as reflected in the brief—"
+#     "not a short blurb. Write in plain language but be thorough: multiple substantial paragraphs (and bullet "
+#     "lines inside the string where helpful). Cover what the document is; parties and roles; main purpose; "
+#     "important definitions and obligations; timelines, payments, or penalties if present; termination and "
+#     "dispute handling where stated; important risks, red flags, gaps or missing information; and practical "
+#     "suggestions. Aim for substantial length when the source material is rich—typically on the order of "
+#     "800–2000 words for complex agreements, shorter only when the brief itself is very short. "
+#     "Do not invent facts; use only information supported by the brief. "
+#     "Set disclaimer to exactly the sentence provided in the user message for the disclaimer field."
+# )
+
 STRUCTURED_SYS_EN = (
     "You are a legal document analyst for readers in Pakistan where applicable. "
     "Output MUST be a single JSON object with exactly three string fields: document_type, summary, disclaimer. "
-    "The summary field must be a comprehensive explanation of the COMPLETE document as reflected in the brief—"
-    "not a short blurb. Write in plain language but be thorough: multiple substantial paragraphs (and bullet "
-    "lines inside the string where helpful). Cover what the document is; parties and roles; main purpose; "
-    "important definitions and obligations; timelines, payments, or penalties if present; termination and "
-    "dispute handling where stated; important risks, red flags, gaps or missing information; and practical "
-    "suggestions. Aim for substantial length when the source material is rich—typically on the order of "
-    "800–2000 words for complex agreements, shorter only when the brief itself is very short. "
-    "Do not invent facts; use only information supported by the brief. "
+    "The summary must be concise: typically about 120–350 words (roughly one to three short paragraphs, or "
+    "compact bullet lines inside the JSON string where clearer). Still cover the essentials implied by the brief—"
+    "what the document is; parties and roles; main purpose; key obligations, amounts, timelines, or penalties "
+    "if present; termination or dispute handling if stated; and the most important risks, gaps, or red flags. "
+    "Prefer tight wording over repetition; do not pad length. For a very thin brief, keep the summary proportionally "
+    "short. Do not invent facts; use only information supported by the brief. "
     "Set disclaimer to exactly the sentence provided in the user message for the disclaimer field."
 )
 
@@ -169,10 +181,13 @@ def structured_system_prompt(output_lang: str) -> str:
     if code == OUTPUT_LANG_EN:
         return STRUCTURED_SYS_EN
     if code == OUTPUT_LANG_UR:
+        # Previously appended: same depth/completeness as English (encouraged very long summaries).
+        # + " (Arabic script). The summary must follow the same depth and completeness requirements as in English."
         return (
             STRUCTURED_SYS_EN
             + " All user-visible string values (document_type, summary, disclaimer) must be in standard Urdu "
-            "(Arabic script). The summary must follow the same depth and completeness requirements as in English."
+            "(Arabic script). The summary must stay concise with the same coverage priorities as in English "
+            "(no long essays; same approximate length band)."
         )
     return STRUCTURED_SYS_EN
 
@@ -180,9 +195,15 @@ def structured_system_prompt(output_lang: str) -> str:
 def structured_schema_hint_footer(output_lang: str) -> str:
     code = normalize_output_language(output_lang)
     disc = DOC_DISCLAIMER_BY_LANG.get(code, DOC_DISCLAIMER_BY_LANG[OUTPUT_LANG_EN])
+    # return (
+    #     f'The summary must be a long, complete narrative that explains the entire document (as represented in the brief).\n'
+    #     f'Cover all major themes, clauses, and facts you can infer from the brief; integrate risks, gaps, and suggestions '
+    #     f'within that narrative. Prefer depth and completeness over brevity.\n'
+    #     f'Set "disclaimer" to exactly: {disc}'
+    # )
     return (
-        f'The summary must be a long, complete narrative that explains the entire document (as represented in the brief).\n'
-        f'Cover all major themes, clauses, and facts you can infer from the brief; integrate risks, gaps, and suggestions '
-        f'within that narrative. Prefer depth and completeness over brevity.\n'
+        f"The summary must be concise but complete on the important points: entire document as represented in the brief, "
+        f"without exhaustive clause-by-clause narration. Integrate major themes, key facts, risks, gaps, and brief "
+        f"practical suggestions in tight prose; avoid repetition and filler.\n"
         f'Set "disclaimer" to exactly: {disc}'
     )

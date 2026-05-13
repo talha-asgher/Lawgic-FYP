@@ -10,19 +10,34 @@ import { useLanguage } from "../lib/LanguageContext";
 export default function LoginPage() {
   const router = useRouter();
   const loginStore = useAuthStore((state) => state.login);
-  const { isLoggedIn, user } = useAuthStore();
+  const { isLoggedIn, user, authInitialized } = useAuthStore();
   const { lang, toggleLanguage, t } = useLanguage();
 
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [sessionNotice, setSessionNotice] = useState('');
 
   useEffect(() => {
-    if (isLoggedIn && user) {
-      router.replace(user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("session") === "expired") {
+      setSessionNotice("Your session has expired. Please sign in again.");
     }
-  }, [isLoggedIn, user, router]);
+  }, []);
+
+  useEffect(() => {
+    if (!authInitialized) return;
+    if (!isLoggedIn || !user) return;
+    const params = new URLSearchParams(window.location.search);
+    const next = params.get("next");
+    if (next && next.startsWith("/") && !next.startsWith("//")) {
+      router.replace(next);
+      return;
+    }
+    router.replace(user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
+  }, [authInitialized, isLoggedIn, user, router]);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -31,6 +46,14 @@ export default function LoginPage() {
     try {
       const data = await loginUser(formData.email, formData.password);
       loginStore(data.user, data.access_token);
+
+      const params = new URLSearchParams(window.location.search);
+      const next = params.get("next");
+      if (next && next.startsWith("/") && !next.startsWith("//")) {
+        router.replace(next);
+        return;
+      }
+
       router.push(data.user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
     } catch (err) {
       setError(err.message || t("login.loginFailed"));
@@ -70,7 +93,14 @@ export default function LoginPage() {
               </div>
             </div>
             <h1 className="text-3xl font-normal text-center text-black mb-4">Lawgic</h1>
-            <p className="text-center text-[#4A5568] text-base mb-8">{t("login.subtitle")}</p>
+            <p className="text-center text-[#4A5568] text-base mb-8">Enter your credentials to access your account</p>
+
+            {sessionNotice && (
+              <div className="mb-6 p-3 bg-amber-50 border border-amber-200 rounded-lg flex items-center gap-2 text-amber-900 text-sm">
+                <AlertCircle className="w-4 h-4 shrink-0" />
+                <span>{sessionNotice}</span>
+              </div>
+            )}
 
             {error && (
               <div className="mb-6 p-3 bg-red-50 border border-red-200 rounded-lg flex items-center gap-2 text-red-700 text-sm">

@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 from app.database import engine, Base
 from app import models
 from app.deps import get_db
+from app.schema_migrations import ensure_doc_analysis_columns
 from app.routers import (
     auth,
     lawyers,
@@ -20,24 +21,16 @@ from app.routers import (
     conversations,
     reviews,
     documents,
-    rag,
+    ai_qa,
 )
-#from app.services.reranker_service import warm_reranker_if_enabled
+from app.routers.documents import analysis_router
 
 Base.metadata.create_all(bind=engine)
-
-
-# @asynccontextmanager
-# async def lifespan(_app: FastAPI):
-#     warm_reranker_if_enabled()
-#     yield
-
 
 app = FastAPI(
     title="Lawgic API",
     description="AI-powered legal platform for Pakistan",
     version="1.0.0",
-    #lifespan=lifespan,
 )
 
 origins = [
@@ -64,8 +57,8 @@ app.include_router(conversations.router)
 app.include_router(appointments.router)
 app.include_router(institutions.router)
 app.include_router(documents.router)
-#app.include_router(ai_qa.router)
-#app.include_router(rag.router)
+app.include_router(analysis_router)
+app.include_router(ai_qa.router)
 
 
 @app.get("/health")

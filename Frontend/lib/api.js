@@ -1,3 +1,5 @@
+import { useAuthStore } from "../app/lib/authStore";
+
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const WS_BASE_URL = BASE_URL.replace(/^http:/, "ws:").replace(/^https:/, "wss:");
 
@@ -29,6 +31,84 @@ export function clearSession() {
   localStorage.removeItem("lawgic_user");
 }
 
+/** Seconds of leeway vs server clock / latency (matches typical JWT usage). */
+const JWT_EXPIRY_SKEW_MS = 15_000;
+
+/**
+ * Returns true if JWT `exp` is at or before now (token should be treated as dead).
+ * Does not verify signature — use with server validation via verifySession().
+ */
+export function isAccessTokenExpired(token) {
+  if (!token || typeof token !== "string") return true;
+  const parts = token.split(".");
+  if (parts.length !== 3) return false;
+  try {
+    const b64 = parts[1].replace(/-/g, "+").replace(/_/g, "/");
+    const pad = "=".repeat((4 - (b64.length % 4)) % 4);
+    const payload = JSON.parse(atob(b64 + pad));
+    if (payload.exp == null) return false;
+    return payload.exp * 1000 <= Date.now() + JWT_EXPIRY_SKEW_MS;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Confirms the bearer token with GET /auth/me. On 401/403 clears local session.
+ * Does not redirect (for app startup). Returns { ok, user?, networkError? }.
+ */
+export async function verifySession() {
+  if (typeof window === "undefined") return { ok: false, user: null };
+  const token = localStorage.getItem("lawgic_token");
+  if (!token) return { ok: false, user: null };
+
+  const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+  const timeoutMs = 12_000;
+  const timeoutId =
+    controller &&
+    typeof window !== "undefined" &&
+    setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const res = await fetch(`${BASE_URL}/auth/me`, {
+      method: "GET",
+      headers: { Authorization: `Bearer ${token}` },
+      signal: controller?.signal,
+    });
+
+    if (res.status === 401 || res.status === 403) {
+      clearSession();
+      try {
+        useAuthStore.getState().logout();
+      } catch {
+        /* */
+      }
+      return { ok: false, user: null, sessionInvalid: true };
+    }
+
+    if (!res.ok) {
+      return { ok: false, user: null };
+    }
+
+    const data = await res.json();
+    const user = {
+      user_id: data.user_id,
+      role: data.role,
+      name: data.name,
+      email: data.email,
+    };
+    setSession(token, user);
+    return { ok: true, user };
+  } catch (e) {
+    if (e?.name === "AbortError") {
+      return { ok: false, user: null, networkError: true };
+    }
+    return { ok: false, user: null, networkError: true };
+  } finally {
+    if (timeoutId) clearTimeout(timeoutId);
+  }
+}
+
 export function isLoggedIn() {
   return !!getToken();
 }
@@ -46,6 +126,24 @@ async function parseResponse(res) {
   return text || null;
 }
 
+function pathWithoutQuery(path) {
+  const q = path.indexOf("?");
+  return q === -1 ? path : path.slice(0, q);
+}
+
+function isPublicAuthRequestPath(path) {
+  const p = pathWithoutQuery(path);
+  return p === "/auth/login" || p.startsWith("/auth/register");
+}
+
+function redirectToLoginSessionExpired() {
+  if (typeof window === "undefined") return;
+  const next = encodeURIComponent(
+    `${window.location.pathname}${window.location.search}`
+  );
+  window.location.assign(`/login?session=expired&next=${next}`);
+}
+
 async function request(path, options = {}) {
   const token = getToken();
   const headers = { ...(options.headers || {}) };
@@ -60,6 +158,19 @@ async function request(path, options = {}) {
 
   const res = await fetch(`${BASE_URL}${path}`, { ...options, headers });
   const data = await parseResponse(res);
+
+  if (res.status === 401 && typeof window !== "undefined") {
+    if (!isPublicAuthRequestPath(path)) {
+      clearSession();
+      try {
+        useAuthStore.getState().logout();
+      } catch {
+        /* */
+      }
+      redirectToLoginSessionExpired();
+      throw new Error("Session expired. Please sign in again.");
+    }
+  }
 
   if (!res.ok) {
     let detail = `Request failed: ${res.status}`;
@@ -285,31 +396,16 @@ export async function getMyDocuments() {
   return api.get("/documents/my");
 }
 
-export async function createDocumentAnalysis(fileName, fileSize) {
-  const params = new URLSearchParams({ file_name: fileName });
-  if (fileSize) params.append("file_size", fileSize);
+export async function createDocumentAnalysis(file, outputLanguage = "en") {
+  const form = new FormData();
+  form.append("file", file);
+  form.append("output_language", outputLanguage);
 
-  const token = getToken();
-  const res = await fetch(`${BASE_URL}/doc-analysis/?${params.toString()}`, {
-    method: "POST",
-    headers: token ? { Authorization: `Bearer ${token}` } : {},
-  });
+  return api.postForm("/doc-analysis/", form);
+}
 
-  const data = await parseResponse(res);
-
-  if (!res.ok) {
-    let detail = "Analysis failed";
-
-    if (data && typeof data === "object") {
-      detail = data.detail || data.message || detail;
-    } else if (typeof data === "string" && data.trim()) {
-      detail = data;
-    }
-
-    throw new Error(detail);
-  }
-
-  return data;
+export async function getDocumentAnalysis(analysisId) {
+  return api.get(`/doc-analysis/${analysisId}`);
 }
 
 export async function askAI(question, language = "en", sessionId = null) {
@@ -326,6 +422,7 @@ export async function ragAsk(
     topKContext = 6,
     searchTables = null,
     searchForms = null,
+    outputLanguage = undefined,
     signal = undefined,
   } = {}
 ) {
@@ -334,6 +431,9 @@ export async function ragAsk(
     top_k_retrieval: topKRetrieval,
     top_k_context: topKContext,
   };
+  if (outputLanguage !== undefined && outputLanguage !== null) {
+    body.output_language = outputLanguage;
+  }
   if (actName != null) body.act_name = actName;
   if (category != null) body.category = category;
   if (sectionNumber != null) body.section_number = sectionNumber;

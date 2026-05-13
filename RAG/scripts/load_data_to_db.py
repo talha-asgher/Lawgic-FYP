@@ -61,7 +61,7 @@ from pgvector.psycopg import register_vector
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPTS_DIR.parent
-CHUNKING_ROOT = PROJECT_ROOT / "data" / "chunking"
+CHUNKING_ROOT = PROJECT_ROOT / "RAG"/"data" / "chunking"
 CATEGORIES = ("civil", "criminal", "family")
 DEFAULT_MODEL_NAME = os.environ.get("LAWGIC_EMBED_MODEL", "bge-m3")
 

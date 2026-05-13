@@ -3,6 +3,7 @@ from pydantic import BaseModel, EmailStr, Field, field_validator
 from typing import Optional, List, Any, Dict
 from datetime import datetime
 
+from app.services.language_output import normalize_output_language as _norm_out_lang
 
 
 
@@ -399,22 +400,91 @@ class DocumentOut(BaseModel):
         from_attributes = True
 
 
+# ── Document Analysis ─────────────────────────────────────────────────────────
+
+class DocumentAnalysisResult(BaseModel):
+    document_type: str = ""
+    summary: str = ""
+    disclaimer: str = ""
 
 
+def document_analysis_from_stored_dict(data: dict) -> DocumentAnalysisResult:
+    """Build the slim result; merge legacy array fields into summary when needed."""
+    disclaimer = (
+        str(data.get("disclaimer") or "").strip()
+        or "This is AI-generated legal assistance and not a substitute for professional legal advice."
+    )
+    doc_type = str(data.get("document_type") or "").strip() or "Unknown"
+    summary = str(data.get("summary") or "").strip()
+
+    if not summary:
+        blocks: list[str] = []
+        pairs = [
+            ("Overview / key points", "key_clauses"),
+            ("Missing or unclear information", "missing_information"),
+            ("Risks or red flags", "risks"),
+            ("Suggestions", "suggestions"),
+        ]
+        for title, key in pairs:
+            arr = data.get(key)
+            if isinstance(arr, list) and arr:
+                lines = "\n".join(f"• {str(x).strip()}" for x in arr if str(x).strip())
+                if lines:
+                    blocks.append(f"{title}\n{lines}")
+        if data.get("legal_references") and isinstance(data["legal_references"], list):
+            ref_lines = []
+            for ref in data["legal_references"][:5]:
+                if not isinstance(ref, dict):
+                    continue
+                act = str(ref.get("act_name") or "").strip()
+                reason = str(ref.get("reason") or "").strip()
+                if act or reason:
+                    ref_lines.append(
+                        f"• {act}"
+                        + (f" ({reason})" if reason else "")
+                    )
+            if ref_lines:
+                blocks.append("Legal references (verify independently)\n" + "\n".join(ref_lines))
+        summary = "\n\n".join(blocks).strip()
+
+    return DocumentAnalysisResult(
+        document_type=doc_type,
+        summary=summary or "—",
+        disclaimer=disclaimer,
+    )
 
 
 class DocAnalysisOut(BaseModel):
     analysis_id: int
     user_id: int
     file_name: Optional[str] = None
+    file_size: Optional[int] = None
+    file_hash: Optional[str] = None
+    output_language: str = Field(
+        default="en",
+        description="Analysis output language: en | ur (Arabic script). Legacy codes map to ur.",
+    )
     status: str
+    progress_stage: Optional[str] = None
     summary: Optional[str] = None
-    risks: Optional[str] = None        # JSON string
-    key_details: Optional[str] = None  # JSON string
+    risks: Optional[str] = None
+    key_details: Optional[str] = None
+    result: Optional[DocumentAnalysisResult] = None
     created_at: datetime
+
+    @field_validator("output_language", mode="before")
+    @classmethod
+    def _normalize_doc_output_language(cls, v: object) -> str:
+        return _norm_out_lang(v)
 
     class Config:
         from_attributes = True
+
+
+class DocAnalysisCreatedOut(DocAnalysisOut):
+    from_cache: bool = False
+
+
 
 
 
@@ -423,7 +493,16 @@ class DocAnalysisOut(BaseModel):
 class AskAIRequest(BaseModel):
     question: str
     language: str = "en"
-    session_id: Optional[str] = None
+    session_id: Optional[str] = None  # groups questions into one chat session
+    query_language: Optional[str] = Field(
+        default=None,
+        description="Same as RagAskRequest.query_language: optional auto | en | ur for retrieval translation.",
+    )
+
+    @field_validator("language", mode="before")
+    @classmethod
+    def _normalize_ask_ai_language(cls, v: object) -> str:
+        return _norm_out_lang(v)
 
 
 class CitationOut(BaseModel):
@@ -455,6 +534,26 @@ class RagAskRequest(BaseModel):
     top_k_context: int = 6
     search_tables: Optional[bool] = None
     search_forms: Optional[bool] = None
+    output_language: str = Field(
+        default="en",
+        description=(
+            "Legacy field; chat responses follow the query language (Urdu script / query_language vs English). "
+            "Kept for API compatibility. Values: en | ur."
+        ),
+    )
+    query_language: Optional[str] = Field(
+        default=None,
+        description=(
+            "Optional hint for the user query: auto (default), en, ur. "
+            "When ur or Urdu Arabic script under auto, the query is translated to English "
+            "for embedding, lexical search, reranking, and the SLM prompt (main pipeline stays English)."
+        ),
+    )
+
+    @field_validator("output_language", mode="before")
+    @classmethod
+    def _normalize_rag_ask_output_language(cls, v: object) -> str:
+        return _norm_out_lang(v)
 
 
 class RagSourceOut(BaseModel):
@@ -492,6 +591,11 @@ class RetrievedChunkOut(BaseModel):
 class RagAskResponse(BaseModel):
     answer: str
     insufficient_context: bool = False
+    low_retrieval_confidence: bool = False
+    output_language: str = Field(
+        default="en",
+        description="en | ur — follows the user's query language (see finalize_rag_ask rules).",
+    )
     used_source_indexes: List[int] = Field(default_factory=list)
     used_source_ids: List[str] = Field(default_factory=list)
     confidence_score: float
@@ -506,6 +610,11 @@ class RagAskResponse(BaseModel):
     )
     retrieved_chunks: List[RetrievedChunkOut] = Field(default_factory=list)
     retrieval_meta: Dict[str, Any] = Field(default_factory=dict)
+
+    @field_validator("output_language", mode="before")
+    @classmethod
+    def _normalize_rag_response_language(cls, v: object) -> str:
+        return _norm_out_lang(v)
 
 
 # ── Inheritance Calculator ────────────────────────────────────────────────────

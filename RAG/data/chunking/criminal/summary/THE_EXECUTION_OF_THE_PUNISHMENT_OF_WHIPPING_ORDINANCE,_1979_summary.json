@@ -1,0 +1,88 @@
+{
+  "source_file": "THE EXECUTION OF THE PUNISHMENT OF WHIPPING ORDINANCE, 1979.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE EXECUTION OF THE PUNISHMENT OF WHIPPING ORDINANCE, 1979.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 8,
+  "total_child_chunks": 11,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent, application and commencement.—(1)",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Ordinance to override other laws",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Specifications of whip",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "The conditions and mode of execution of punishment of whipping",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "6",
+      "section_title": "Custody of convict pending execution of punishment, etc",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_EXECUTION_OF_THE_PUNISHMENT_OF_WHIPPING_ORDINANCE,_1979_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

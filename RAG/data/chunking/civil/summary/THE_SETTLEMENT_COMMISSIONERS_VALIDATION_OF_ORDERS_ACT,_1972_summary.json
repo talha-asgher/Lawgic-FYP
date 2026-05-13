@@ -1,0 +1,52 @@
+{
+  "source_file": "THE SETTLEMENT COMMISSIONERS (VALIDATION OF ORDERS) ACT, 1972.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SETTLEMENT COMMISSIONERS (VALIDATION OF ORDERS) ACT, 1972.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 4,
+  "total_child_chunks": 4,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SETTLEMENT_COMMISSIONERS_VALIDATION_OF_ORDERS_ACT,_1972_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SETTLEMENT_COMMISSIONERS_VALIDATION_OF_ORDERS_ACT,_1972_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SETTLEMENT_COMMISSIONERS_(VALIDATION_OF_ORDERS)_ACT,_1972_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SETTLEMENT_COMMISSIONERS_(VALIDATION_OF_ORDERS)_ACT,_1972_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Validation",
+      "parent_id": "THE_SETTLEMENT_COMMISSIONERS_(VALIDATION_OF_ORDERS)_ACT,_1972_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "-",
+      "parent_id": "THE_SETTLEMENT_COMMISSIONERS_(VALIDATION_OF_ORDERS)_ACT,_1972_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

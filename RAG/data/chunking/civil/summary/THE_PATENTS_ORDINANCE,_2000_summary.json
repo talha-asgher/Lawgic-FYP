@@ -1,0 +1,1039 @@
+{
+  "source_file": "THE PATENTS ORDINANCE, 2000.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PATENTS ORDINANCE, 2000.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 110,
+  "total_child_chunks": 189,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PATENTS_ORDINANCE,_2000_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PATENTS_ORDINANCE,_2000_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_1",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_2",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_3",
+      "page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "3",
+      "section_title": "Appointment of Controller and other officers",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_4",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Patent Office",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_5",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Officers and employees incapable of an interest in a patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_6",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Officers and employees not to divulge certain information or advise in certain matters",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_7",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Patentable inventions",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_8",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "8",
+      "section_title": "Novelty",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_9",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Inventive step",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_10",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Industrial application",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_11",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Persons entitled to make an application for patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_12",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Right to patent for invention made by employee",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_13",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Application for patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_14",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "14",
+      "section_title": "Complete and provisional application",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_15",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Contents of specification",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_16",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "16",
+      "section_title": "Examination of application",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_17",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "17",
+      "section_title": "Reference to other patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_18",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Substitution of applicants, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_19",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power of Controller to require certain information and documents relating to foreign application",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_20",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Acceptance of complete specification",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_21",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Effect of acceptance of complete Specification",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_22",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Opposition to the grant of patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_23",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Third party observations on patentability",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_24",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Information prejudicial to defence of Pakistan or safety of public",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_25",
+      "page_numbers": [
+        20,
+        21,
+        22
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "26",
+      "section_title": "Residents not to apply outside Pakistan without permission",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_26",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER VII",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_27",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Grant and sealing of Patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_28",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "28",
+      "section_title": "Amendment of patent granted to a deceased person",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_29",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Date of patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_30",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Rights conferred by patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_31",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "31",
+      "section_title": "Term of patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_32",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Grant of patents to be subjected to certain conditions",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_33",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Priority date in case of invention obtained from other person",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_34",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "34",
+      "section_title": "Grant of patent to two or more persons",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_35",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "35",
+      "section_title": "Power of Controller to give directions to co-owners",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_36",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "36",
+      "section_title": "Power of Controller or Court to determine the matter in dispute between employer and employee",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_37",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "37",
+      "section_title": "Avoidance of restrictive condition in contracts",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_38",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "38",
+      "section_title": "Determination of certain contracts",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_39",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Patents of addition",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_40",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "40",
+      "section_title": "Term of patents of addition",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_41",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "41",
+      "section_title": "Patent of addition not to be refused, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_42",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Amendment of specification with leave of Controller",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_43",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "43",
+      "section_title": "Amendment of specification with leave of High Court",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_44",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Supplementary provisions as to amendment of specification",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_45",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Restoration of lapsed patents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_46",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "46",
+      "section_title": "Revocation of patent by High Court",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_47",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Revocation of patent by Controller",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_48",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER XIV",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_49",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Revocation of patent by the Federal Government",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_50",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Revocation of surrendered patent by Controller",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_51",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Controller to have certain powers of a civil court",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_52",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Power of Controller to correct clerical errors",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_53",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "52",
+      "section_title": "Evidence before Controller",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_54",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Exercise of discretionary powers by Controller",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_55",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER XIV",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_56",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Register of Patents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_57",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Registration of assignments, transmissions, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_58",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "56",
+      "section_title": "Power of High Court regarding rectification of the Register",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_59",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "57",
+      "section_title": "Inspection of, and extracts from, the Register, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_60",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Exploitation by a Government agency or third person",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_61",
+      "page_numbers": [
+        35,
+        36,
+        37
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "59",
+      "section_title": "Powers of Controller in granting compulsory licenses",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_62",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "60",
+      "section_title": "Suit for infringement of a patent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_63",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Reliefs in suits for infringement",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_64",
+      "page_numbers": [
+        39,
+        40
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "62",
+      "section_title": "Damages not to be awarded against defendant in certain cases",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_65",
+      "page_numbers": [
+        40,
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Relief for infringement of partially valid specification",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_66",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Proceedings for infringement by exclusive licensee",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_67",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Certificate of contested validity of specification",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_68",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Remedy for groundless threats of infringement proceedings",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_69",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "67",
+      "section_title": "Power of Court to make declaration as to non-infringement",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_70",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "68",
+      "section_title": "Power of Court to appoint scientific advisers",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_71",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Appeals",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_72",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Procedure for hearing appeals",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_73",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Penalty for contravention of secrecy provisions relating to certain inventions",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_74",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Penalty for false entry in any register, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_75",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Penalty for false representation",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_76",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "74",
+      "section_title": "Penalty for wrongful use of Words \"patent office\"",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_77",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Penalty for refusal or failure to supply information",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_78",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Penalty for contravention of section 20",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_79",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "Penalty for practice by non-registered patent agents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_80",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Offences by companies etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_81",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Register of patent agents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_82",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "80",
+      "section_title": "Registration as patent agent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_83",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "81",
+      "section_title": "Subscription and verification of certain documents by patent agents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_84",
+      "page_numbers": [
+        45,
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "82",
+      "section_title": "Restrictions on practice as patent agent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_85",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Removal from register of patent agents and restoration",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_86",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "84",
+      "section_title": "Power of controller to refuse to recognize as agent",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_87",
+      "page_numbers": [
+        46,
+        47
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "85",
+      "section_title": "Saving in respect of other persons authorize to act as agents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_88",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Power of the Federal Government to declare a country as Convention country",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_89",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "87",
+      "section_title": "Supplementary provisions as to Convention application",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_90",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "Documents to be filed with a Convention application",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_91",
+      "page_numbers": [
+        47,
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "89",
+      "section_title": "Fees",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_92",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "90",
+      "section_title": "Restrictions upon publication of specifications, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_93",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "91",
+      "section_title": "Reports of examiners to be confidential",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_94",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Publication of Patented Inventions",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_95",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "Power of Controller to call for information from patentees",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_96",
+      "page_numbers": [
+        48,
+        49
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "94",
+      "section_title": "Evidence of entries, documents, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_97",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "95",
+      "section_title": "Declaration by infants, lunatics, etc",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_98",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Service of notice, etc., by post",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_99",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "97",
+      "section_title": "Security for cost",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_100",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "98",
+      "section_title": "Transmission of orders of High Court or Court to the Controller",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_101",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "99",
+      "section_title": "Transmission of copies of specifications, etc. and inspection thereof",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_102",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "100",
+      "section_title": "Information relating to patents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_103",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "101",
+      "section_title": "Loss or destruction of patents",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_104",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "103",
+      "section_title": "Right of the Government to sell or use forfeited articles",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_105",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "104",
+      "section_title": "Power of High Court to make rules",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_106",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "105",
+      "section_title": "Power of the Federal Government to make rules",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_107",
+      "page_numbers": [
+        50,
+        51,
+        52
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "106",
+      "section_title": "Repeal and savings",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_108_1",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "106",
+      "section_title": "Repeal and savings",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_108_2",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "108",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_PATENTS_ORDINANCE,_2000_109",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    }
+  ]
+}

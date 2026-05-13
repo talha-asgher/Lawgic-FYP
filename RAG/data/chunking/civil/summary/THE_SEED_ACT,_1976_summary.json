@@ -1,0 +1,491 @@
+{
+  "source_file": "THE SEED ACT, 1976.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SEED ACT, 1976.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 51,
+  "total_child_chunks": 82,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SEED_ACT,_1976_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SEED_ACT,_1976_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_SEED_ACT,_1976_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SEED_ACT,_1976_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SEED_ACT,_1976_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SEED_ACT,_1976_3",
+      "page_numbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "3",
+      "section_title": "Establishment of the National Seed Development and Regulatory Authority",
+      "parent_id": "THE_SEED_ACT,_1976_4",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3A",
+      "section_title": "Appointment and term of office of the Chairperson and members",
+      "parent_id": "THE_SEED_ACT,_1976_5",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3B",
+      "section_title": "Meeting of the Authority",
+      "parent_id": "THE_SEED_ACT,_1976_6",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3C",
+      "section_title": "Constitution of committees, bodies, etc",
+      "parent_id": "THE_SEED_ACT,_1976_7",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3D",
+      "section_title": "Board of Governors",
+      "parent_id": "THE_SEED_ACT,_1976_8",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3E",
+      "section_title": "Powers and functions of the Board",
+      "parent_id": "THE_SEED_ACT,_1976_9",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Powers and functions of the Authority",
+      "parent_id": "THE_SEED_ACT,_1976_10",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "4A",
+      "section_title": "Fund of the Authority",
+      "parent_id": "THE_SEED_ACT,_1976_11",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Establishment of Federal Seed Certification Agency",
+      "parent_id": "THE_SEED_ACT,_1976_12",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Functions of Federal Seed Certification ¹[and Registration Department]",
+      "parent_id": "THE_SEED_ACT,_1976_13",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "7",
+      "section_title": "-",
+      "parent_id": "THE_SEED_ACT,_1976_14",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "-",
+      "parent_id": "THE_SEED_ACT,_1976_15",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Establishment of Provincial Seed Council",
+      "parent_id": "THE_SEED_ACT,_1976_16",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power to notify varieties or species of seed",
+      "parent_id": "THE_SEED_ACT,_1976_17",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Regulation of sale of seeds of ¹[Plant] varieties and species",
+      "parent_id": "THE_SEED_ACT,_1976_18",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Appointment of registered growers",
+      "parent_id": "THE_SEED_ACT,_1976_19",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Grant of certificate by Federal Certification ¹[and Registration Department]",
+      "parent_id": "THE_SEED_ACT,_1976_20",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Period for which registration and certification shall be effective",
+      "parent_id": "THE_SEED_ACT,_1976_21",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Cancellation of certification",
+      "parent_id": "THE_SEED_ACT,_1976_22",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Appeal",
+      "parent_id": "THE_SEED_ACT,_1976_23",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Seed Analyst",
+      "parent_id": "THE_SEED_ACT,_1976_24",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Seed Certification Officer",
+      "parent_id": "THE_SEED_ACT,_1976_25",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Seed Inspector",
+      "parent_id": "THE_SEED_ACT,_1976_26",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power of Seed Inspectors",
+      "parent_id": "THE_SEED_ACT,_1976_27",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "21",
+      "section_title": "Procedure to be followed by Seed Inspector",
+      "parent_id": "THE_SEED_ACT,_1976_28",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "22",
+      "section_title": "Report of Seed Testing Laboratory",
+      "parent_id": "THE_SEED_ACT,_1976_29",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22A",
+      "section_title": "Registration or enlisting of plant variety or hybrid",
+      "parent_id": "THE_SEED_ACT,_1976_30",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "22B",
+      "section_title": "Registration to do seed business",
+      "parent_id": "THE_SEED_ACT,_1976_31",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22C",
+      "section_title": "Registration of seed dealer",
+      "parent_id": "THE_SEED_ACT,_1976_32",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22D",
+      "section_title": "Registration of seed processing units",
+      "parent_id": "THE_SEED_ACT,_1976_33",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22E",
+      "section_title": "Restrictions",
+      "parent_id": "THE_SEED_ACT,_1976_34",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22F",
+      "section_title": "Establishment of seed testing laboratories",
+      "parent_id": "THE_SEED_ACT,_1976_35",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22G",
+      "section_title": "Registration of genetically modified plant varieties",
+      "parent_id": "THE_SEED_ACT,_1976_36",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22H",
+      "section_title": "Horticulture nurseries to be registered",
+      "parent_id": "THE_SEED_ACT,_1976_37",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22J",
+      "section_title": "Variety Evaluation Committee",
+      "parent_id": "THE_SEED_ACT,_1976_38",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Offences and penalty",
+      "parent_id": "THE_SEED_ACT,_1976_39",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power of court to order forfeiture",
+      "parent_id": "THE_SEED_ACT,_1976_40",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24A",
+      "section_title": "Appeal to the Authority",
+      "parent_id": "THE_SEED_ACT,_1976_41",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24B",
+      "section_title": "Seed Tribunals",
+      "parent_id": "THE_SEED_ACT,_1976_42",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24C",
+      "section_title": "Powers and functions of the Tribunals",
+      "parent_id": "THE_SEED_ACT,_1976_43",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "25",
+      "section_title": "Cognizance of offence etc",
+      "parent_id": "THE_SEED_ACT,_1976_44",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Presumption as to order",
+      "parent_id": "THE_SEED_ACT,_1976_45",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Indemnity",
+      "parent_id": "THE_SEED_ACT,_1976_46",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_SEED_ACT,_1976_47",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28A",
+      "section_title": "Audit",
+      "parent_id": "THE_SEED_ACT,_1976_48",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_SEED_ACT,_1976_49",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Power to make regulations",
+      "parent_id": "THE_SEED_ACT,_1976_50",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Savings",
+      "parent_id": "THE_SEED_ACT,_1976_51",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    }
+  ]
+}

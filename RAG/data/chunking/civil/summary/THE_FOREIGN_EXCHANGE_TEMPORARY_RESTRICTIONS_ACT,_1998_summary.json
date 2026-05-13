@@ -1,0 +1,71 @@
+{
+  "source_file": "THE FOREIGN EXCHANGE (TEMPORARY RESTRICTIONS) ACT, 1998.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE FOREIGN EXCHANGE (TEMPORARY RESTRICTIONS) ACT, 1998.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 6,
+  "total_child_chunks": 6,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_FOREIGN_EXCHANGE_TEMPORARY_RESTRICTIONS_ACT,_1998_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_FOREIGN_EXCHANGE_TEMPORARY_RESTRICTIONS_ACT,_1998_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_FOREIGN_EXCHANGE_(TEMPORARY_RESTRICTIONS)_ACT,_1998_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_FOREIGN_EXCHANGE_(TEMPORARY_RESTRICTIONS)_ACT,_1998_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Restriction on withdrawal of foreign exchange etc",
+      "parent_id": "THE_FOREIGN_EXCHANGE_(TEMPORARY_RESTRICTIONS)_ACT,_1998_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Certain protection to remain unaffected",
+      "parent_id": "THE_FOREIGN_EXCHANGE_(TEMPORARY_RESTRICTIONS)_ACT,_1998_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_FOREIGN_EXCHANGE_(TEMPORARY_RESTRICTIONS)_ACT,_1998_5",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Repeal and saving",
+      "parent_id": "THE_FOREIGN_EXCHANGE_(TEMPORARY_RESTRICTIONS)_ACT,_1998_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

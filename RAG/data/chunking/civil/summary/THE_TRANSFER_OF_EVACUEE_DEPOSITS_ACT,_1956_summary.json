@@ -1,0 +1,156 @@
+{
+  "source_file": "THE TRANSFER OF EVACUEE DEPOSITS ACT, 1956.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE TRANSFER OF EVACUEE DEPOSITS ACT, 1956.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 15,
+  "total_child_chunks": 25,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "3",
+      "section_title": "Appointment of Custodian and Assistant Custodian of Deposits",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Procedure for transfer of certain deposits",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_5",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Procedure for transfer of certain other deposits",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6",
+      "section_title": "Transfer of records relating to transferable deposits",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_7",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Power of Court or Custodian to convert deposits into money before transmission to India",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Cessation of jurisdiction in respect of deposits transferred",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Reception in Pakistan of deposits transferred from India",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_10",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "10",
+      "section_title": "Powers of Custodian",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Jurisdiction of Civil courts barred",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Protection of action taken in good faith",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_14",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "14",
+      "section_title": "-",
+      "parent_id": "THE_TRANSFER_OF_EVACUEE_DEPOSITS_ACT,_1956_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    }
+  ]
+}

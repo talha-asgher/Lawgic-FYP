@@ -1,0 +1,276 @@
+{
+  "source_file": "THE SECURITIES ACT, 1920.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SECURITIES ACT, 1920.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 28,
+  "total_child_chunks": 42,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SECURITIES_ACT,_1920_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SECURITIES_ACT,_1920_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SECURITIES_ACT,_1920_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SECURITIES_ACT,_1920_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SECURITIES_ACT,_1920_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Notice of trust not receivable save as provided",
+      "parent_id": "THE_SECURITIES_ACT,_1920_4",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Right of survivors of joint or several payees of Government securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Indorsements to be made on security itself",
+      "parent_id": "THE_SECURITIES_ACT,_1920_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Holding of Government securities by holders of public offices",
+      "parent_id": "THE_SECURITIES_ACT,_1920_7",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Issue of securities to rulers of Acceding States or non Acceding States",
+      "parent_id": "THE_SECURITIES_ACT,_1920_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Indorser of Government security not liable for amount therof",
+      "parent_id": "THE_SECURITIES_ACT,_1920_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Impression of signature on Government securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Issue of duplicate securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_11",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Renewal of bearer bonds",
+      "parent_id": "THE_SECURITIES_ACT,_1920_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Renewal of promissory notes",
+      "parent_id": "THE_SECURITIES_ACT,_1920_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Renewal of promissory notes in case of dispute as to title",
+      "parent_id": "THE_SECURITIES_ACT,_1920_14",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "14",
+      "section_title": "Renewal of other securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Issue of converted, etc., securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Liability in respect of promissory note renewed, etc",
+      "parent_id": "THE_SECURITIES_ACT,_1920_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Immediate discharge in certain case",
+      "parent_id": "THE_SECURITIES_ACT,_1920_18",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Discharge in other cases",
+      "parent_id": "THE_SECURITIES_ACT,_1920_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18A",
+      "section_title": "-",
+      "parent_id": "THE_SECURITIES_ACT,_1920_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Procedure on death of holder of securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_21",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "20",
+      "section_title": "Payment in case of securities held by minors and lunatics",
+      "parent_id": "THE_SECURITIES_ACT,_1920_22",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Indemnity",
+      "parent_id": "THE_SECURITIES_ACT,_1920_23",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Inspection of documents",
+      "parent_id": "THE_SECURITIES_ACT,_1920_24",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Penalty",
+      "parent_id": "THE_SECURITIES_ACT,_1920_25",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power to make rule",
+      "parent_id": "THE_SECURITIES_ACT,_1920_26",
+      "page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "25",
+      "section_title": "[Repeals.]",
+      "parent_id": "THE_SECURITIES_ACT,_1920_27",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Provision as to Pakistan securities",
+      "parent_id": "THE_SECURITIES_ACT,_1920_28",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    }
+  ]
+}

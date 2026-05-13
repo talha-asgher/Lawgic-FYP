@@ -1,0 +1,545 @@
+{
+  "source_file": "THE PARSI MARRIAGE AND DIVORCE ACT, 1936.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE PARSI MARRIAGE AND DIVORCE ACT, 1936.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 58,
+  "total_child_chunks": 70,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\table_chunks\\THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_3",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Requisites to validity of Parsi marriages",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Remarriage when unlawful",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Punishment of bigamy",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Certificate and registry of marriage",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Appointment of Registrar",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Marriage registers to be open for public inspection",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Copy of certificate to be sent to Registrar-General of Births, Deaths and Marriages",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Registration of divorces",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Penalty for solemnizing marriage contrary to section 4",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Penalty for Priest's neglect of requirements of section 6",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Penalty for omitting to subscribe and attest certificate",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_14",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Penalty for making, etc., false certificate",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_15",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Penalty for failing to register certificate",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Penalty for secreting, destroying or altering register",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Formal irregularity not to invalidate marriage",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_18",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Constitution of Special Courts under the Act",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_19",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "-",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_20",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Parsi District Matrimonial Courts",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_21",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Power to alter territorial jurisdiction of District Courts",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_22",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "-",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_23",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Court seals",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_24",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Appointment of delegates",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_25",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Power to appoint new delegates",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_26",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Delegates to be deemed public servants",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_27",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Selection of delegates under section 20 to be from those appointed under section 24",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_28",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Practitioners in Matrimonial Courts",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_29",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Court in which suits to be brought",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_30",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Suits for nullity",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_31",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Suits for dissolution",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_32",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Grounds for divorce",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_33",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "33",
+      "section_title": "Joining of co-defendant",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_34",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Suits for judicial separation",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_35",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Decrees in certain suits",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_36",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Suit for restitution of conjugal rights",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_37",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Counter-claim by defendant for any relief",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_38",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "No suit to be brought to enforce marriage or contract arising out of marriage when husband is under sixteen or wife under fourteen years",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_39",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Alimony",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_40",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Permanent alimony",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_41",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "41",
+      "section_title": "Payment of alimony to wife or to her trustee",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_42",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Disposal of joint property",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_43",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Suits may be heard with closed doors",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_44",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Validity of trial",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_45",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Provisions of Civil Procedure Code to apply to suits under the Act",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_46",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Determination of questions of law and procedure and of fact",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_47",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Appeal to High Court",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_48",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Liberty to parties to marry again",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_49",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Custody of children",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_50",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Settlement of wife's property for benefit of children",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_51",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_52",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "-",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_53_1",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "-",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_53_2",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Applicability of provisions of the Act",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_54",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53",
+      "section_title": "³[",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_55",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# SCHEDULE I",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_56",
+      "page_numbers": [
+        14,
+        15,
+        16
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE II",
+      "parent_id": "THE_PARSI_MARRIAGE_AND_DIVORCE_ACT,_1936_57",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    }
+  ]
+}

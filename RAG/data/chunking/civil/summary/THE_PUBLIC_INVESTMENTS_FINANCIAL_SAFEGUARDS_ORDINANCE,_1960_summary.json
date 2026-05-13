@@ -1,0 +1,124 @@
+{
+  "source_file": "THE PUBLIC INVESTMENTS (FINANCIAL SAFEGUARDS) ORDINANCE, 1960.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PUBLIC INVESTMENTS (FINANCIAL SAFEGUARDS) ORDINANCE, 1960.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 12,
+  "total_child_chunks": 14,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PUBLIC_INVESTMENTS_FINANCIAL_SAFEGUARDS_ORDINANCE,_1960_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PUBLIC_INVESTMENTS_FINANCIAL_SAFEGUARDS_ORDINANCE,_1960_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Power to appropriate Government to prescribe procedures, etc., in certain cases",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Power to appropriate Government to give directions in certain other cases",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to call for documents, etc",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Penalties",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Offences by Corporations etc",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "False information etc",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Cognizance of offence",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9A",
+      "section_title": "Ordinance not to apply to certain bodies corporate, etc",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PUBLIC_INVESTMENTS_(FINANCIAL_SAFEGUARDS)_ORDINANCE,_1960_12",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

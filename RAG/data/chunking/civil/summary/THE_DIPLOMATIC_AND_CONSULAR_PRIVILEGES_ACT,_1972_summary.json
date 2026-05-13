@@ -1,0 +1,223 @@
+{
+  "source_file": "THE DIPLOMATIC AND CONSULAR PRIVILEGES ACT, 1972.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE DIPLOMATIC AND CONSULAR PRIVILEGES ACT, 1972.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 21,
+  "total_child_chunks": 72,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Provisions of Conventions to have force of law",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Restriction of privileges and immunities",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Certificate of Federal Government",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to amend Schedules",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Repeal",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_8",
+      "page_numbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_9",
+      "page_numbers": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_10",
+      "page_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_11",
+      "page_numbers": [
+        12,
+        13,
+        14
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "-",
+      "section_title": "CONSULAR FEES AND CHARGES",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_12",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PERSONAL INVIOLABILITY OF CONSULAR OFFCERS",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_13",
+      "page_numbers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "-",
+      "section_title": "PERSONAL INVIOLABILITY OF CONSULAR OFFCERS",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_14",
+      "page_numbers": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "-",
+      "section_title": "EXEMPTION FROM TAXATION OF CONSULAR PREMISES",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_15",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "INVIOLABILITY OF CONSULAR ARCHIVES AND DOCUMENTS",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_16",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "EXEMPTION FROM CUSTOMS DUTIES",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_17",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "EXEMPTION FROM TAXATION",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_18",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "EXEMPTION FROM PERSONAL SERVICES AND CONTRIBUTIONS",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_19",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_20",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# CHAPTER IV",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_PRIVILEGES_ACT,_1972_21",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 3
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "source_file": "THE EXPLOSIVES ACT, 1884.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE EXPLOSIVES ACT, 1884.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 28,
+  "total_child_chunks": 45,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_EXPLOSIVES_ACT,_1884_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_EXPLOSIVES_ACT,_1884_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short Title",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Commencement",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Repealed",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Definitions",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_5",
+      "page_numbers": [
+        3,
+        4,
+        5
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to make rules as to licensing of the manufacture, possession, use, sale, transport and importation of explosives",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5A",
+      "section_title": "Offences of minor and major violations",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_7",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5B",
+      "section_title": "Trial of offences",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "-",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6A",
+      "section_title": "-",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_10",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6B",
+      "section_title": "Jurisdiction",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_11",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Power to make rules conferring powers of inspection, search, seizure, detention and removal",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Notice of accidents",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_13",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Inquiry into accidents",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_14",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9A",
+      "section_title": "Inquiry into more serious accidents",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_15",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "9B",
+      "section_title": "Offences by companies",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_16",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9C",
+      "section_title": "Assistance by organizations, etc",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_17",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Forfeiture of explosives",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_18",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Distress of aircraft or vessel",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_19",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Abetment and attempts",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_20",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Power to arrest without warrant persons committing dangerous offences",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Saving and power to exempt",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_22",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Saving of Arms Act, 1878",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_23",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Saving as to liability under other law",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Extension of definition of \"explosive\" to other explosive substances",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Procedure for making publication and confirmation of rules",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_26",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "19",
+      "section_title": "Transportation of explosives by air",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_27",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_EXPLOSIVES_ACT,_1884_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -75,7 +75,7 @@ def build_header(story, styles, title, subtitle, legal_basis):
     story.append(Paragraph(title.upper(), styles['DocTitle']))
     story.append(Paragraph(subtitle, styles['DocSubTitle']))
     story.append(Paragraph(f"Legal Basis: {legal_basis}", styles['SmallText']))
-    story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor('#052379'), spaceAfter=12))
+    story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor('#333333'), spaceAfter=12))
 
 
 def kv_row(key, value):
@@ -88,7 +88,7 @@ def styled_table(data, col_widths=None):
         col_widths = [5.5 * cm, 11 * cm]
     table = Table(data, colWidths=col_widths)
     table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#F0F4FF')),
+        ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#F2F2F2')),
         ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
         ('FONTNAME', (1, 0), (1, -1), 'Helvetica'),
         ('FONTSIZE', (0, 0), (-1, -1), 9),
@@ -98,8 +98,8 @@ def styled_table(data, col_widths=None):
         ('LEFTPADDING', (0, 0), (-1, -1), 8),
         ('RIGHTPADDING', (0, 0), (-1, -1), 8),
         ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#CCCCCC')),
-        ('ROWBACKGROUNDS', (0, 0), (-1, -1), [colors.white, colors.HexColor('#F8F9FE')]),
-        ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#EEF2FF')),
+        ('ROWBACKGROUNDS', (0, 0), (-1, -1), [colors.white, colors.HexColor('#F8F8F8')]),
+        ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#E8E8E8')),
     ]))
     return table
 

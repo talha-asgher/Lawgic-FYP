@@ -1,0 +1,289 @@
+{
+  "source_file": "THE CATTLE-TRESPASS ACT, 1871.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE CATTLE-TRESPASS ACT, 1871.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 30,
+  "total_child_chunks": 34,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_CATTLE-TRESPASS_ACT,_1871_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_CATTLE-TRESPASS_ACT,_1871_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title and Extent",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation-clause",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Establishment of pounds",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Control of pounds. Rates of charge for feeding impounded cattle",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Appointment of Pound keepers",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "To keep registers and furnish returns",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "To register seizures",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "To take charge of and feed cattle",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Cattle damaging land",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_11",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IV",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_12",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "Delivery to owner disputing legality of the seizure but making deposits",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Procedure when owner refuses or omits to pay the fines and expenses",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Disposal of fines, expenses and surplus proceeds of sales",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_15",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "-",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Officers and pound-keepers not to purchase cattle at sale under Act",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power to make complaints",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Procedure on complaints",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Compensation for illegal seizure or detention",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Recovery of compensation",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER IV",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_22",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Penalty for forcibly opposing the seizure of cattle or rescuing the same",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_23",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Recovery of penalty for mischief committed by causing cattle to trespass",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Penalty for damages caused to land or crops or public roads by pigs",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Penalty on pound-keeper failing to perform duties",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_26",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Application of fines recovered under sections 25, 26 or 27",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_27",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Saving of right to sue for compensation",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_28",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Set-off",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_29",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Power for Provincial Government to transfer certain functions to local authority and direct credit of surplus receipts to local fund",
+      "parent_id": "THE_CATTLE-TRESPASS_ACT,_1871_30",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    }
+  ]
+}

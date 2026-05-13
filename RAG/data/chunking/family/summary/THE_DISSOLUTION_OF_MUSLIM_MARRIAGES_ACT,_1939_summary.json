@@ -1,0 +1,81 @@
+{
+  "source_file": "THE DISSOLUTION OF MUSLIM MARRIAGES ACT, 1939.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE DISSOLUTION OF MUSLIM MARRIAGES ACT, 1939.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 7,
+  "total_child_chunks": 10,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Grounds for decree for dissolution of marriage",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_3",
+      "page_numbers": [
+        2,
+        3,
+        4
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "3",
+      "section_title": "Notice to be served on heirs of the husband when the husbands' whereabout are not known",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Effect of conversion to another faith",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Rights to dower not to be affected",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "¹[Repealed]",
+      "parent_id": "THE_DISSOLUTION_OF_MUSLIM_MARRIAGES_ACT,_1939_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

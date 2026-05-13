@@ -1,0 +1,126 @@
+{
+  "source_file": "THE PORT AUTHORITIES LANDS AND BUILDINGS (RECOVERY OF POSSESSION) ORDINANCE, 1962.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PORT AUTHORITIES LANDS AND BUILDINGS (RECOVERY OF POSSESSION) ORDINANCE, 1962.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 12,
+  "total_child_chunks": 17,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_RECOVERY_OF_POSSESSION_ORDINANCE,_1962_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_RECOVERY_OF_POSSESSION_ORDINANCE,_1962_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, application and commencement",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Eviction of out-going lessees and unauthorized occupants from land",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "4",
+      "section_title": "Proceedings before Authorized Officer",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_5",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Appeal",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Service of notice and order",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Recovery of cost of demolition of structures",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Recovery of arrears of rent",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Jurisdiction of courts barred",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Indemnity",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_11",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Rules",
+      "parent_id": "THE_PORT_AUTHORITIES_LANDS_AND_BUILDINGS_(RECOVERY_OF_POSSESSION)_ORDINANCE,_1962_12",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    }
+  ]
+}

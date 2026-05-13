@@ -268,6 +268,7 @@ class Appointment(Base):
     lawyer = relationship("LawyerProfile", back_populates="appointments")
 
 
+
 class CaseMessage(Base):
     __tablename__ = "case_messages"
 
@@ -275,12 +276,11 @@ class CaseMessage(Base):
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     sender_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     content = Column(Text, nullable=False)
-    is_read = Column(Boolean, default=False)
+    is_read = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     case = relationship("Case", back_populates="messages")
     sender = relationship("User", foreign_keys=[sender_id])
-
 
 
 class Conversation(Base):

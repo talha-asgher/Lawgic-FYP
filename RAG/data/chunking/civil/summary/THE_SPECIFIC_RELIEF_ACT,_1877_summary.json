@@ -1,0 +1,536 @@
+{
+  "source_file": "THE SPECIFIC RELIEF ACT, 1877.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SPECIFIC RELIEF ACT, 1877.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 55,
+  "total_child_chunks": 115,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SPECIFIC_RELIEF_ACT,_1877_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SPECIFIC_RELIEF_ACT,_1877_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_1",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_2",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_3",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation-clause",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_4",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Savings",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_5",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Specific relief how given",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_6",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Preventive relief",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_7",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Relief not granted to enforce penal law",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART II",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "### CHAPTER I",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Recovery of specific immoveable property",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Suit by person dispossessed of immoveable property",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_12",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Recovery of specific moveable property",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "11",
+      "section_title": "Liability of person in possession, not as owner, to deliver to person entitled to immediate possession",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_14",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Cases in which specific performance enforceable",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_16",
+      "page_numbers": [
+        9,
+        10,
+        11
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "13",
+      "section_title": "Contract of which the subject has partially ceased to exist",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_17",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Specific performance of part of contract where part unperformed is small",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_18",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Specific performance of part of contract where part unperformed is large",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_19",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "16",
+      "section_title": "Specific performance of independent part of contract",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_20",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Bar in other cases of specific performance of part of contract",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Purchaser's rights against vendor with imperfect title",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "19",
+      "section_title": "Power to award compensation in certain cases",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_23",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "20",
+      "section_title": "Liquidation of damages not a bar to specific performance",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Contracts not specifically enforceable",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_25",
+      "page_numbers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "22",
+      "section_title": "Discretion as to decreeing specific performance",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_26",
+      "page_numbers": [
+        17,
+        18,
+        19
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "23",
+      "section_title": "Who may obtain specific performance",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_27",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Personal bars to the relief",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_28",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "25",
+      "section_title": "Contracts to sell property by one who has no title or who is a voluntary settler",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_29",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "26",
+      "section_title": "Non enforcement except with variation",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_30",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "27",
+      "section_title": "Relief against parties and persons claiming under them by subsequent title",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_31_1",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "27",
+      "section_title": "Relief against parties and persons claiming under them by subsequent title",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_31_2",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "28",
+      "section_title": "What parties cannot be compelled to perform",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_32",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "29",
+      "section_title": "Bar of suit for breach after dismissal",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_33",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Application of preceding sections to awards and testamentary directions to execute settlements",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_34",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "When instrument may be rectified",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_35",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "32",
+      "section_title": "Presumption as to intent of parties",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_36",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Principles of rectification",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_37",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Specific enforcement of rectified contract",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_38",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "When rescission may be adjudged",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_39",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "37",
+      "section_title": "Alternative prayer for rescission in suit for specific performance",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_40",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Court may require party rescinding to do equity",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_41",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "When cancellation may be ordered",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_42",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "40",
+      "section_title": "What instruments may be partially cancelled",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_43",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Power to require party for whom instrument is cancelled to make compensation",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_44",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "-",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_45",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Effect of declaration",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_46",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Appointment of receivers discretionary",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_47",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# PART III",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_48",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Preventive relief how granted",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_49",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Temporary injunctions",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_50",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Perpetual injunctions when granted",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_51",
+      "page_numbers": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "55",
+      "section_title": "Mandatory injunction",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_52",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "56",
+      "section_title": "Injunction when refused",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_53",
+      "page_numbers": [
+        33,
+        34
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "57",
+      "section_title": "Injunction to perform negative agreement",
+      "parent_id": "THE_SPECIFIC_RELIEF_ACT,_1877_54",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 3
+    }
+  ]
+}

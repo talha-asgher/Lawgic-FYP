@@ -1,0 +1,89 @@
+{
+  "source_file": "THE ENEMY PROPERTY (CONTINUANCE OF EMERGENCY PROVISIONS) ORDINANCE, 1969.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE ENEMY PROPERTY (CONTINUANCE OF EMERGENCY PROVISIONS) ORDINANCE, 1969.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 8,
+  "total_child_chunks": 10,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_ENEMY_PROPERTY_CONTINUANCE_OF_EMERGENCY_PROVISIONS_ORDINANCE,_1969_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_ENEMY_PROPERTY_CONTINUANCE_OF_EMERGENCY_PROVISIONS_ORDINANCE,_1969_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_ENEMY_PROPERTY_CONTINUANCE_OF_EMERGENCY_PROVISIONS_ORDINANCE,_1969_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Continuance of certain emergency provisions",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Effect of rules, etc. inconsistent with other enactments",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Delegations",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Savings as to orders, etc",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Protection of action take under rules",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_7",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_ENEMY_PROPERTY_(CONTINUANCE_OF_EMERGENCY_PROVISIONS)_ORDINANCE,_1969_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

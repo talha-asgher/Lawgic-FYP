@@ -1,0 +1,675 @@
+{
+  "source_file": "THE SALE OF GOODS ACT, 1930.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SALE OF GOODS ACT, 1930.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 72,
+  "total_child_chunks": 86,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SALE_OF_GOODS_ACT,_1930_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SALE_OF_GOODS_ACT,_1930_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_1",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_2",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_3",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "3",
+      "section_title": "Application of provisions of Act IX of 1872",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_4",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER II",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_5",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Sale and agreement to sell",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Contract of sale how made",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_7",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Existing or future goods",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_8",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Goods perishing before making of contract",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Goods perishing before sale but after agreement to sell",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Ascertainment of Price",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Agreement to sell at valuation",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Stipulations as to time",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Condition and warranty",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_14",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "When condition to be treated as warranty",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_15",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Implied undertaking as to title, etc",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Sale by description",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Implied conditions as to quality or fitness",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_18",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "16A",
+      "section_title": "Seller to inform buyer of defect in goods sold",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_19",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Sale by sample",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_20",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_21",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Goods must be ascertained",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_22",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Property passes when intended to pass",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_23",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Specific goods in a deliverable state",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_24",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Specific goods to be put into a deliverable state",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_25",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Specific goods in a deliverable state, when the seller has to do anything thereto in order to ascertain price",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_26",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Sale of unascertained goods and appropriation",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_27",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Goods sent on approval or \"on sale or return\"",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_28",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Reservation of right of disposal",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_29",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "26",
+      "section_title": "Risk prima facie passes with property",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_30",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Sale by person not the owner",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_31",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Sale by one of joint owners",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_32",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Sale by person in possession under voidable contract",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_33",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Seller or buyer in possession after sale",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_34",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "31",
+      "section_title": "Duties of seller and buyer",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_35",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Payment and delivery are concurrent conditions",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_36",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Delivery",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_37",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Effect of part delivery",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_38",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Buyer to apply for delivery",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_39",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Rule as to delivery",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_40",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "37",
+      "section_title": "Delivery of wrong quantity",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_41",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "38",
+      "section_title": "Installment deliveries",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_42",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Delivery to carrier or wharfinger",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_43",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "40",
+      "section_title": "Risk where goods are delivered at distant place",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_44",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Buyer's right of examining the goods",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_45",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Acceptance",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_46",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Buyer not bound to return rejected goods",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_47",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Liability of buyer for neglecting or refusing delivery of goods",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_48",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER IV",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_49",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "\"Unpaid seller\" defined",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_50",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Unpaid seller's rights",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_51",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Seller's lien",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_52",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Part delivery",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_53",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Termination of lien",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_54",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Right of stoppage in transit",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_55",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Duration of transit",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_56",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "52",
+      "section_title": "How stoppage in transit is effected",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_57",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Effect of sub-sale or pledge by buyer",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_58",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "54",
+      "section_title": "Sale not generally rescinded by lien or stoppage in transit",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_59",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "55",
+      "section_title": "Suit for price",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_60",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Damages for non acceptance",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_61",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Damages for non-delivery",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_62",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Specific performance",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_63",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Remedy for breach of warranty",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_64",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Repudiation of contract before due date",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_65",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Interest by way of damages and special damages",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_66",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Exclusion of implied terms and conditions",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_67",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Reasonable time a question of fact",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_68",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Auction sale",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_69",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "64A",
+      "section_title": "In contracts of sale amount of increased or decreased duty or tax to be added or deducted",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_70",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "65",
+      "section_title": "-",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_71",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Savings",
+      "parent_id": "THE_SALE_OF_GOODS_ACT,_1930_72",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    }
+  ]
+}

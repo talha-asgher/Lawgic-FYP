@@ -1,0 +1,174 @@
+{
+  "source_file": "THE SOLDIERS (LITIGATION) ACT, 1925.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SOLDIERS (LITIGATION) ACT, 1925.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 17,
+  "total_child_chunks": 22,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SOLDIERS_LITIGATION_ACT,_1925_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SOLDIERS_LITIGATION_ACT,_1925_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Circumstances in which a solider shall be deemed to be serving under special conditions",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_4",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Particulars to be furnished in plaints applications or appeals to Court",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power of Collector to intervene in case of un-represented soldier",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Notice to be given in case of unrepresented solider",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Postponement of proceedings",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Court may proceed when no certificate received",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_9",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Postponement of proceedings against solider on leave",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power to set aside decrees and orders passed against a solider serving under war or special conditions",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_11",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Modification of law of limitation where solider or his legal representatives is a party",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_12",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Power of Court to refer questions to prescribed authorities",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Rule making power",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_14",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Power to apply the provisions of the Act to other persons in the service of the State",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_15",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14A",
+      "section_title": "[",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "[",
+      "parent_id": "THE_SOLDIERS_(LITIGATION)_ACT,_1925_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    }
+  ]
+}

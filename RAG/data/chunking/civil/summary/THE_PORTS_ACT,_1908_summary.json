@@ -1,0 +1,746 @@
+{
+  "source_file": "THE PORTS ACT, 1908.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PORTS ACT, 1908.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 79,
+  "total_child_chunks": 113,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PORTS_ACT,_1908_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PORTS_ACT,_1908_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_PORTS_ACT,_1908_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PORTS_ACT,_1908_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title and extent",
+      "parent_id": "THE_PORTS_ACT,_1908_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Savings",
+      "parent_id": "THE_PORTS_ACT,_1908_3",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_PORTS_ACT,_1908_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Power to extend or withdraw the Act or certain portions thereof",
+      "parent_id": "THE_PORTS_ACT,_1908_5",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Alteration of limits of ports",
+      "parent_id": "THE_PORTS_ACT,_1908_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Power to make port-rules",
+      "parent_id": "THE_PORTS_ACT,_1908_7",
+      "page_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "7",
+      "section_title": "Appointment of conservator",
+      "parent_id": "THE_PORTS_ACT,_1908_8",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power of conservator to give and enforce directions for certain specified purposes",
+      "parent_id": "THE_PORTS_ACT,_1908_9",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Power to cut warps and ropes",
+      "parent_id": "THE_PORTS_ACT,_1908_10",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Removal of obstruction within limits of port",
+      "parent_id": "THE_PORTS_ACT,_1908_11",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Recovery of expenses of removal",
+      "parent_id": "THE_PORTS_ACT,_1908_12",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Removal of lawful obstructions",
+      "parent_id": "THE_PORTS_ACT,_1908_13",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Fouling of Government moorings",
+      "parent_id": "THE_PORTS_ACT,_1908_14",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Raising or removal of wreck impeding navigation within limits of port",
+      "parent_id": "THE_PORTS_ACT,_1908_15",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "Power to board vessels and enter buildings",
+      "parent_id": "THE_PORTS_ACT,_1908_16",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power to require crews to prevent or extinguish fire",
+      "parent_id": "THE_PORTS_ACT,_1908_17",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Appointment and powers of health officer",
+      "parent_id": "THE_PORTS_ACT,_1908_18",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Indemnity of Government against act or default of port-official or pilot",
+      "parent_id": "THE_PORTS_ACT,_1908_19",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Injuring buoys, beacons and moorings",
+      "parent_id": "THE_PORTS_ACT,_1908_20",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Wilfully loosening vessel from moorings",
+      "parent_id": "THE_PORTS_ACT,_1908_21",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Improperly discharging ballast",
+      "parent_id": "THE_PORTS_ACT,_1908_22",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "22",
+      "section_title": "Graving vessels within prohibited limits",
+      "parent_id": "THE_PORTS_ACT,_1908_23",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Boiling pitch on board vessel within prohibited limits",
+      "parent_id": "THE_PORTS_ACT,_1908_24",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Drawing spirits by unprotected artificial light",
+      "parent_id": "THE_PORTS_ACT,_1908_25",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Warping",
+      "parent_id": "THE_PORTS_ACT,_1908_26",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Leaving out warp or hawser after sunset",
+      "parent_id": "THE_PORTS_ACT,_1908_27",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Discharge of fire-arms in port",
+      "parent_id": "THE_PORTS_ACT,_1908_28",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Penalty on master omitting to take order to extinguish fire",
+      "parent_id": "THE_PORTS_ACT,_1908_29",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Unauthorized person not to search for lost stories",
+      "parent_id": "THE_PORTS_ACT,_1908_30",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Removing stones or injuring shores of port prohibited",
+      "parent_id": "THE_PORTS_ACT,_1908_31",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "31",
+      "section_title": "Moving of vessels without pilot or permission of harbor master",
+      "parent_id": "THE_PORTS_ACT,_1908_32",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "32",
+      "section_title": "Provision of certain vessels with fire extinguishing apparatus",
+      "parent_id": "THE_PORTS_ACT,_1908_33",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Levy of port-dues",
+      "parent_id": "THE_PORTS_ACT,_1908_34",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "34",
+      "section_title": "Variation of port-dues by Government",
+      "parent_id": "THE_PORTS_ACT,_1908_35",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Fees for pilotage and certain other services",
+      "parent_id": "THE_PORTS_ACT,_1908_36",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Receipt, expenditure and account of port-charges",
+      "parent_id": "THE_PORTS_ACT,_1908_37",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "37",
+      "section_title": "Grouping of ports",
+      "parent_id": "THE_PORTS_ACT,_1908_38",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "38",
+      "section_title": "Receipts for port-charges",
+      "parent_id": "THE_PORTS_ACT,_1908_39",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Master to report arrival",
+      "parent_id": "THE_PORTS_ACT,_1908_40",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Conservator may in certain cases ascertain draught and charge expense to master",
+      "parent_id": "THE_PORTS_ACT,_1908_41",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Ascertainment of tonnage of vessel liable to port-dues",
+      "parent_id": "THE_PORTS_ACT,_1908_42",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "42",
+      "section_title": "Distraint and sale on refusal to pay port-charges",
+      "parent_id": "THE_PORTS_ACT,_1908_43",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "No port-clearance to be granted until port charges are paid",
+      "parent_id": "THE_PORTS_ACT,_1908_44",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Port-charges payable in one port recoverable at any other port",
+      "parent_id": "THE_PORTS_ACT,_1908_45",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Penalty for evading payment of port-charges",
+      "parent_id": "THE_PORTS_ACT,_1908_46",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Port-due on vessels in ballast",
+      "parent_id": "THE_PORTS_ACT,_1908_47",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Port-due on vessels not discharging or taking in cargo",
+      "parent_id": "THE_PORTS_ACT,_1908_48",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Port-due not to be chargeable in certain cases",
+      "parent_id": "THE_PORTS_ACT,_1908_49",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Power to impose hospital port-dues",
+      "parent_id": "THE_PORTS_ACT,_1908_50",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "50",
+      "section_title": "Application and account of hospital port-dues",
+      "parent_id": "THE_PORTS_ACT,_1908_51",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Master to hoist number of vessel",
+      "parent_id": "THE_PORTS_ACT,_1908_52",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER V",
+      "parent_id": "THE_PORTS_ACT,_1908_53",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VI",
+      "parent_id": "THE_PORTS_ACT,_1908_54",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Pilot to require master to hoist number",
+      "parent_id": "THE_PORTS_ACT,_1908_55",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Penalty on pilot disobeying provisions of this Chapter",
+      "parent_id": "THE_PORTS_ACT,_1908_56",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Penalty for disobedience to rules and orders of the Government",
+      "parent_id": "THE_PORTS_ACT,_1908_57",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Offences how triable, and penalties how recovered",
+      "parent_id": "THE_PORTS_ACT,_1908_58",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Cost of conviction",
+      "parent_id": "THE_PORTS_ACT,_1908_59",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Ascertainment and recovery of expenses and damages payable under this Act",
+      "parent_id": "THE_PORTS_ACT,_1908_60",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Cost of distress",
+      "parent_id": "THE_PORTS_ACT,_1908_61",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Magistrate to determine the amount to be levied in case of dispute",
+      "parent_id": "THE_PORTS_ACT,_1908_62",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Jurisdiction over offences beyond local limits of jurisdiction",
+      "parent_id": "THE_PORTS_ACT,_1908_63",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Conviction to be quashed on merits only",
+      "parent_id": "THE_PORTS_ACT,_1908_64",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Hoisting unlawful colours in port",
+      "parent_id": "THE_PORTS_ACT,_1908_65",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "63",
+      "section_title": "Foreign deserters",
+      "parent_id": "THE_PORTS_ACT,_1908_66",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "64",
+      "section_title": "Application of sections 10 and 21",
+      "parent_id": "THE_PORTS_ACT,_1908_67",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Grant of sites for sailors' institutes",
+      "parent_id": "THE_PORTS_ACT,_1908_68",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Exercise of powers of conservator by his assistants",
+      "parent_id": "THE_PORTS_ACT,_1908_69",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Service of written notice of directions",
+      "parent_id": "THE_PORTS_ACT,_1908_70",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Publication of orders of Government",
+      "parent_id": "THE_PORTS_ACT,_1908_71",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VIII",
+      "parent_id": "THE_PORTS_ACT,_1908_72",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68A",
+      "section_title": "-",
+      "parent_id": "THE_PORTS_ACT,_1908_73_1",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68A",
+      "section_title": "-",
+      "parent_id": "THE_PORTS_ACT,_1908_73_2",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "68B",
+      "section_title": "Duties of the said authorities in an emergency",
+      "parent_id": "THE_PORTS_ACT,_1908_74",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "69",
+      "section_title": "[Repeal.] Rep",
+      "parent_id": "THE_PORTS_ACT,_1908_75",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PORTS, VESSELS CHARGEABLE, RATE OF PORT-DUES AND FREQUENCY",
+      "parent_id": "THE_PORTS_ACT,_1908_76",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "OF PAYMENT,",
+      "parent_id": "THE_PORTS_ACT,_1908_77",
+      "page_numbers": [
+        29,
+        30,
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE FIRST SCHEDULE",
+      "parent_id": "THE_PORTS_ACT,_1908_78",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "source_file": "THE PUNJAB LAWS ACT, 1872.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PUNJAB LAWS ACT, 1872.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 39,
+  "total_child_chunks": 43,
+  "total_table_chunks": 2,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PUNJAB_LAWS_ACT,_1872_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PUNJAB_LAWS_ACT,_1872_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_PUNJAB_LAWS_ACT,_1872_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Local extent",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Enactments in force",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Decisions in certain cases to be according to Native law",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_6",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Decisions in cases not specially provided for",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Local customs and mercantile usages when valid",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "to 20",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "to 32",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_11",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_12",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "to 38",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_13",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39A",
+      "section_title": "Power to establish a system of village-watchmen and municipal watchmen, and to make rules",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_14",
+      "page_numbers": [
+        5,
+        6,
+        7
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "39B",
+      "section_title": "Obligation to assist watchman and headman",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39C",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_17_1",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39C",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_17_2",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39D",
+      "section_title": "Notice of taxes proposed to be levied",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_18",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39E",
+      "section_title": "Power to fix rates of tax",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39F",
+      "section_title": "Power to make rules for collection of taxes",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39G",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Provincial Government may confer powers of Police-officer",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_22",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Trackers may call for assistance in carrying on tracks",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_23",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Penalty for withholding assistance or conniving at offence or escape; limit to fine",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_24",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "43",
+      "section_title": "Control of slaughter of kine and sale of beef",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_26",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_27",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_28",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Crossing of streams on buoys or skins",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_29",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Use of pasturage or natural product of Government land",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_30",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_31",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Power to make rules as to matters mentioned in sections 43 to 48",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_32",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50A",
+      "section_title": "Conditions of validity of rules hereafter made under this Act",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_33",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50B",
+      "section_title": "Penalties for beach of rules",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_34",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_35",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "-",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_36",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## ⁴SCHEDULE I",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_37",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE II",
+      "parent_id": "THE_PUNJAB_LAWS_ACT,_1872_38",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    }
+  ]
+}

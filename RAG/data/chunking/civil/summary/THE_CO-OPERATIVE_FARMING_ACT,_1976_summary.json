@@ -1,0 +1,555 @@
+{
+  "source_file": "THE CO-OPERATIVE FARMING ACT, 1976.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CO-OPERATIVE FARMING ACT, 1976.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 59,
+  "total_child_chunks": 72,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CO-OPERATIVE_FARMING_ACT,_1976_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CO-OPERATIVE_FARMING_ACT,_1976_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Shot title, extent and commencement",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Act to override other laws",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_4",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "4",
+      "section_title": "Conditions of registration",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_5",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Procedure of registration",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_6",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Evidence of registration",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_7",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Amendment of the bye-laws of a society",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "General meeting",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Special general meeting",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_10",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Managing committee of a society",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Pooling of land",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_12",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Liability of members",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_13",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Evaluation of land, etc",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_14",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Withdrawal from membership",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_15",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "Admission of new members",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Societies to be bodies corporate",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_17",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Office of society",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_18",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Copy of Act, etc., to be open to inspection",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_19",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Liability in respect of encumbrances on land",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Audit and accounts",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Transfer of interest on death of a member",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_22",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Assets of the Society",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_23",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Provisions for Reserve Fund, Development Fund and other expenses",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_24",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Distribution of produce income of co-operative farm",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_25",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Distribution of profits",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_26",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Rights of tenants, etc",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_27",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "CHAPTER VI",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_28",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Winding up",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_29",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Winding up if membership is reduced",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_30",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Effect of winding up",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_31",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Power of Chairman of District Co-operative Federation to assess damage",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_32",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "31",
+      "section_title": "Bar of suit",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_33",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Arbitration",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_34",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "33",
+      "section_title": "Attachment before award",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_35",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Recoveries of dues",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_36",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "District Co-operative Federation",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_37",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "36",
+      "section_title": "Fund and functions of District Co-operative Federation",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_38",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Provincial Co-operative Federation",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_39",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Fund and functions of the Provincial Co-operative Federation",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_40",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "District Co-operative Council",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_41",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Functions of the District Co-operative Council",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_42",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Provincial Co-operative Council",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_43",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Functions of the Provincial Co-operative Council",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_44",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "National Co-operative Council",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_45",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Functions of the National Co-operative Council",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_46",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Inquiry by Chairman District Co-operative Federation",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_47",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Inspection of books of indebted society",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_48",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Power of Chairman, District Co-operative Federation to exercise powers under section 30 in the course of an inquiry or inspection",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_49",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Costs of inquiry",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_50",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Recovery of costs",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_51",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Amalgamation or transfer of societies",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_52",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Powers to exempt from stamp duty or registration fee, etc",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_53",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Exemption from Income-tax",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_54",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Notice necessary in suits",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_55",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Power of revision",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_56",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Transitional provisions",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_57",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_58",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Repeal",
+      "parent_id": "THE_CO-OPERATIVE_FARMING_ACT,_1976_59",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    }
+  ]
+}

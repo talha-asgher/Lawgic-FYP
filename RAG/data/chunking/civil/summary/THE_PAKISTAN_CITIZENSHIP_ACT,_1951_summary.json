@@ -1,0 +1,281 @@
+{
+  "source_file": "THE PAKISTAN CITIZENSHIP ACT, 1951.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PAKISTAN CITIZENSHIP ACT, 1951.pdf",
+  "category": "civil",
+  "rgn_date": "RGN Date: 03-09-2025",
+  "total_parent_chunks": 29,
+  "total_child_chunks": 39,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PAKISTAN_CITIZENSHIP_ACT,_1951_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PAKISTAN_CITIZENSHIP_ACT,_1951_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Citizenship at the date of commencement of this Act",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_4",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Citizenship by birth",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Citizenship by descent",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Citizenship by migration",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Persons migrating from the territories of Pakistan",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Rights of citizenship of certain persons resident abroad",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Citizenship by naturalisation",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Married women",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_11",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Registration of minors",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Citizenship by registration to begin on date of registration",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Citizenship by incorporation of territory",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_14",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Dual citizenship or nationality not permitted",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_15_1",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "14",
+      "section_title": "Dual citizenship or nationality not permitted",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_15_2",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "14",
+      "section_title": "Dual citizenship or nationality not permitted",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_15_3",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Persons becoming citizens to have the status of Commonwealth citizens",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Deprivation of citizenship",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_17",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "16A",
+      "section_title": "Certain persons to lose and others to retain citizenship",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_18",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Certificate of domicile",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_19",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_20",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Cases of doubt as to citizenship",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Acquisition of Pakistan citizenship by citizens of Commonwealth countries",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_22",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Penalties",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_23",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Interpretation",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_24",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Rules",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_25",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_26",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE",
+      "parent_id": "THE_PAKISTAN_CITIZENSHIP_ACT,_1951_27",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    }
+  ]
+}

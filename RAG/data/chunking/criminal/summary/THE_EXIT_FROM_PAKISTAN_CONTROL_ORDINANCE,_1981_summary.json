@@ -1,0 +1,70 @@
+{
+  "source_file": "THE EXIT FROM PAKISTAN (CONTROL) ORDINANCE, 1981.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE EXIT FROM PAKISTAN (CONTROL) ORDINANCE, 1981.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 6,
+  "total_child_chunks": 6,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_EXIT_FROM_PAKISTAN_CONTROL_ORDINANCE,_1981_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_EXIT_FROM_PAKISTAN_CONTROL_ORDINANCE,_1981_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_EXIT_FROM_PAKISTAN_(CONTROL)_ORDINANCE,_1981_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_EXIT_FROM_PAKISTAN_(CONTROL)_ORDINANCE,_1981_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Power to prohibit exit from Pakistan",
+      "parent_id": "THE_EXIT_FROM_PAKISTAN_(CONTROL)_ORDINANCE,_1981_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Review",
+      "parent_id": "THE_EXIT_FROM_PAKISTAN_(CONTROL)_ORDINANCE,_1981_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Punishment",
+      "parent_id": "THE_EXIT_FROM_PAKISTAN_(CONTROL)_ORDINANCE,_1981_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_EXIT_FROM_PAKISTAN_(CONTROL)_ORDINANCE,_1981_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

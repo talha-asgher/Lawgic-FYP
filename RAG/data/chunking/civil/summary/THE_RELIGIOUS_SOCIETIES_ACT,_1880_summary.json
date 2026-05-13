@@ -1,0 +1,115 @@
+{
+  "source_file": "THE RELIGIOUS SOCIETIES ACT, 1880.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE RELIGIOUS SOCIETIES ACT, 1880.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 11,
+  "total_child_chunks": 11,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_RELIGIOUS_SOCIETIES_ACT,_1880_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_RELIGIOUS_SOCIETIES_ACT,_1880_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Appointment of new trustee in cases not otherwise provided for",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Appointment under section 2 to be recorded in a memorandum under the hand of the chairman of the meeting",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Property to vest in new trustees without conveyance",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Saving of existing modes of appointment and conveyance",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Provision for dissolution of Societies and adjustment of their affairs",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Upon a dissolution no member to receive profit",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Saving of certain provisions of instruments",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Questions may be submitted to High Court",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_10",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# THE SCHEDULE",
+      "parent_id": "THE_RELIGIOUS_SOCIETIES_ACT,_1880_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

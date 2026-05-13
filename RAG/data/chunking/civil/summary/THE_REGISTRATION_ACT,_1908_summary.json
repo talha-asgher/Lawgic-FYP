@@ -1,0 +1,963 @@
+{
+  "source_file": "THE REGISTRATION ACT, 1908.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE REGISTRATION ACT, 1908.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 104,
+  "total_child_chunks": 142,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_REGISTRATION_ACT,_1908_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_REGISTRATION_ACT,_1908_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_1",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_2",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_3",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "3",
+      "section_title": "Inspector-General of Registration",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_4",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_5",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Districts and sub-districts",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_6",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Registrars and Sub-Registrars",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_7",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Offices of Registrars and Sub-Registrars",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_8",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Inspectors of Registration offices",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_9",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_10",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Absence of Registrar or vacancy in his office",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_11",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Absence of Registrar on duty in his district",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Absence of Sub-Registrar or vacancy in his office",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_13",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Report to Provincial Government of appointments under sections 10, 11 and 12",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_14",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Establishment of registering officers",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Seal of registering officers",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Register-books and fire-proof boxes",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_17",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Documents of which registration is compulsory",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_18",
+      "page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "18",
+      "section_title": "Documents of which registration is optional",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_19",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Documents in language not understood by registering officer",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_20",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Documents containing interlineations, blanks, erasures or alterations",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Description of property and maps or plans",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22",
+      "section_title": "Description of houses and land by reference to Government maps or surveys",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_23",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Time for presenting documents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_24",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23A",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_25",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "24",
+      "section_title": "Documents executed by several persons at different times",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_26",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Provision where delay in presentation is unavoidable",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_27",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Documents executed out of the Pakistan, etc",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_28",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Wills may be presented or deposited at any time",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_29",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Place for registering documents relating to land",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "29",
+      "section_title": "Place for registering other documents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_31",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Registration by Registrars in certain cases",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_32",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Registration or acceptance for deposit at private residence",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_33",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Persons to present documents for registration",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_34",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Power-of attorney recognizable for purposes of section 32",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_35",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "34",
+      "section_title": "Enquiry before registration by registering officer",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_36",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "35",
+      "section_title": "Procedure on admission and denial of execution respectively",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_37",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "36",
+      "section_title": "Procedure where appearance of executant or witness is desired",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_38",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Officer or Court to issue and cause service of summons",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_39",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Persons exempt from appearance at registration office",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_40",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Law as to summonses, commissions and witnesses",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_41",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Persons entitled to present wills and authorities to adopt",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_42",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Registration of wills and authorities to adopt",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_43",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Deposit of wills",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_44",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Procedure on deposit of wills",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_45",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Withdrawal of sealed cover deposited under section 42",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_46",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Proceedings on death of depositor",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_47",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Saving of certain enactments and powers of Courts",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_48",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46A",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_49",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "47",
+      "section_title": "Time from which registered document operates",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_50",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Registered documents relating to property when to take effect against oral agreements",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_51",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Effect of non-registration of documents required to be registered",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_52",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Certain registered documents relating to land to take effect against unregistered documents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_53",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "50",
+      "section_title": "Certain registered documents relating to land to take effect against unregistered documents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_54",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART XI",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_55",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Register-books to be kept in the several offices",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_56",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "52",
+      "section_title": "Duties of registering officers when document presented",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_57",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Entries to be numbered consecutively",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_58",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Current indexes and entries therein",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_59",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Indexes to be made by registering officers, and their contents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_60",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "56",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_61",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Registering officers to allow inspection of certain books and indexes, and to given certified copies of entries",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_62",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "58",
+      "section_title": "Particulars to be endorsed on documents admitted to registration",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_63",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "59",
+      "section_title": "Endorsements to be dated and signed by registering officer",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_64",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "Certificate of registration",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_65",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Endorsements and certificate to be copied and document returned",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_66",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Procedure on presenting document in language unknown to registering officer",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_67",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Power to administer oaths and record of substance of statements",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_68",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Procedure where document relates to land in several sub-districts",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_69",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Procedure where document relates to land in several districts",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_70",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Procedure after registration of documents relating to land",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_71",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Procedure after registration under section 30, sub-section (2)",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_72",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Power of Registrar to superintend and control Sub-Registrars",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_73",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Power of Inspector-General to superintend registration officers and make rules",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_74",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "70",
+      "section_title": "Power of Inspector-General to remit fines",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_75",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70-A",
+      "section_title": "Application of this Part",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_76",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70-B",
+      "section_title": "Definition",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_77",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70-C",
+      "section_title": "Appointment of Photo-Registrars",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_78",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70-D",
+      "section_title": "Documents may be photographed in areas notified by Government",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_79",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70-E",
+      "section_title": "Application of Act to areas notified under section 70-D",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_80",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "70-F",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_81",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Reasons for refusal to register to be recorded",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_82",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Appeal to Registrar from orders of Sub-Registrar refusing registration on ground other than denial of execution",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_83",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "73",
+      "section_title": "Application to Registrar where Sub-Registrar refuses to register on ground of denial of execution",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_84",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Procedure of Registrar on such application",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_85",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Order by Registrar to register and procedure thereon",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_86",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "76",
+      "section_title": "Order of refusal by Registrar",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_87",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "Suit in case of order of refusal by Registrar",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_88",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "78",
+      "section_title": "Fees to be fixed by Provincial Government",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_89",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "79",
+      "section_title": "Publication of fees",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_90",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "80",
+      "section_title": "Fees payable on presentation",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_91",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "81",
+      "section_title": "Penalty for incorrectly endorsing, copying, translating or registering documents with intent to injure",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_92",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "82",
+      "section_title": "Penalty for making false statements, delivering false copies or translation, false personation, and abetment",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_93",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Registering officer may commence prosecutions",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_94",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "84",
+      "section_title": "Registering officers to be deemed public servants",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_95",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85",
+      "section_title": "Destruction of unclaimed documents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_96",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Registering officer not liable for thing",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_97",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "87",
+      "section_title": "Nothing so done invalidated by defect in appointment or procedure",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_98",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "Registration of documents executed by Government officers or certain public functionaries",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_99",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "89",
+      "section_title": "Copies of certain orders, certificates and instruments to be sent to registering officers and filed.— (1)",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_100",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "90",
+      "section_title": "Exemption of certain documents executed by or in favour of Government",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_101",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "91",
+      "section_title": "Inspection and copies of such documents",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_102",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_103",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "-",
+      "parent_id": "THE_REGISTRATION_ACT,_1908_104",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    }
+  ]
+}

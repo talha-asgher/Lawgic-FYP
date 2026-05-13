@@ -1,0 +1,90 @@
+{
+  "source_file": "THE CANTONMENTS (REQUISITIONING OF IMMOVEABLE PROPERTY) ORDINANCE, 1948.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CANTONMENTS (REQUISITIONING OF IMMOVEABLE PROPERTY) ORDINANCE, 1948.pdf",
+  "category": "civil",
+  "rgn_date": "RGN Date: 04-06-2024",
+  "total_parent_chunks": 8,
+  "total_child_chunks": 10,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CANTONMENTS_REQUISITIONING_OF_IMMOVEABLE_PROPERTY_ORDINANCE,_1948_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CANTONMENTS_REQUISITIONING_OF_IMMOVEABLE_PROPERTY_ORDINANCE,_1948_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "-",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "-",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "-",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5A",
+      "section_title": "-",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "-",
+      "parent_id": "THE_CANTONMENTS_(REQUISITIONING_OF_IMMOVEABLE_PROPERTY)_ORDINANCE,_1948_8",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    }
+  ]
+}

@@ -446,6 +446,69 @@ class AskAIResponse(BaseModel):
         from_attributes = True
 
 
+class RagAskRequest(BaseModel):
+    query: str
+    act_name: Optional[str] = None
+    category: Optional[str] = None
+    section_number: Optional[str] = None
+    top_k_retrieval: int = 15
+    top_k_context: int = 6
+    search_tables: Optional[bool] = None
+    search_forms: Optional[bool] = None
+
+
+class RagSourceOut(BaseModel):
+    """One retrieved passage for display as a source (UI: collapsed metadata + optional full text)."""
+    source_index: int = Field(..., ge=1, description="Matches [n] in grounded context and model output")
+    act_name: Optional[str] = None
+    section_number: Optional[str] = None
+    section_title: Optional[str] = None
+    page_numbers: Optional[List[Any]] = None
+    chunk_type: Optional[str] = None
+    object_id: Optional[str] = None
+    source_reference: Optional[str] = Field(
+        default=None,
+        description="Human-readable pointer, e.g. Section X — title",
+    )
+    excerpt_text: Optional[str] = Field(default=None, description="Short excerpt; use full_source_text when expanded")
+    full_source_text: Optional[str] = Field(default=None, description="Full chunk text for expanded source view")
+
+
+class RetrievedChunkOut(BaseModel):
+    chunk_type: str
+    object_id: str
+    parent_id: Optional[str] = None
+    act_name: Optional[str] = None
+    category: Optional[str] = None
+    section_number: Optional[str] = None
+    section_title: Optional[str] = None
+    page_numbers: Optional[List[Any]] = None
+    score: float = 0.0
+    rerank_score: Optional[float] = None
+    summary: Optional[str] = None
+    text: str = ""
+
+
+class RagAskResponse(BaseModel):
+    answer: str
+    insufficient_context: bool = False
+    used_source_indexes: List[int] = Field(default_factory=list)
+    used_source_ids: List[str] = Field(default_factory=list)
+    confidence_score: float
+    confidence_label: str
+    sources: List[RagSourceOut] = Field(
+        default_factory=list,
+        description="Passages the model reported using (filtered by used_source_indexes / used_source_ids)",
+    )
+    retrieved_sources: List[RagSourceOut] = Field(
+        default_factory=list,
+        description="All deduped context sources when the model did not report any used indexes or ids",
+    )
+    retrieved_chunks: List[RetrievedChunkOut] = Field(default_factory=list)
+    retrieval_meta: Dict[str, Any] = Field(default_factory=dict)
+
+
+# ── Inheritance Calculator ────────────────────────────────────────────────────
 
 
 

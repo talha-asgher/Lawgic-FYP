@@ -1,0 +1,192 @@
+{
+  "source_file": "THE PUBLIC GAMBLING ACT, 1867.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE PUBLIC GAMBLING ACT, 1867.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 19,
+  "total_child_chunks": 24,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_PUBLIC_GAMBLING_ACT,_1867_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_PUBLIC_GAMBLING_ACT,_1867_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_1",
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Interpretation clause",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Power to extend Act",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Penalty for owning or keeping, or having charge of gaming-house",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Penalty for being found in gaming-house",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Powers to enter and authorise police to enter and search",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_6",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Finding cards, etc., in suspected houses, to be evidence that such houses are common gaming-houses",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Penalty on persons arrested for giving false names and addresses",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "On conviction for keeping a gaminghouse, instruments of gaming to be destroyed",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Proof of playing for stake unnecessary",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Magistrate may require any person apprehended to be sworn and give evidence",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Witnesses indemnified",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Act not to apply to certain games",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Gaming and setting birds and animals to fight in public streets",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_14",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "14",
+      "section_title": "Offences, by whom triable",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Penalty for subsequent offence",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Portion of fine may be paid to informer",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_17",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Recovery and application of fines",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_18",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "-",
+      "parent_id": "THE_PUBLIC_GAMBLING_ACT,_1867_19",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    }
+  ]
+}

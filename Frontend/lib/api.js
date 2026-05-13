@@ -423,6 +423,7 @@ export async function ragAsk(
     searchTables = null,
     searchForms = null,
     outputLanguage = undefined,
+    sessionId = null,
     signal = undefined,
   } = {}
 ) {
@@ -431,6 +432,7 @@ export async function ragAsk(
     top_k_retrieval: topKRetrieval,
     top_k_context: topKContext,
   };
+  if (sessionId != null) body.session_id = sessionId;
   if (outputLanguage !== undefined && outputLanguage !== null) {
     body.output_language = outputLanguage;
   }

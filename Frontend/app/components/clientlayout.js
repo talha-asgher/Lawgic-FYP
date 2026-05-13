@@ -12,6 +12,7 @@ import {
   getToken,
 } from "@/lib/api";
 import { useAuthStore } from "../lib/authStore";
+import { LanguageProvider } from "../lib/LanguageContext";
 
 export default function ClientLayout({ children }) {
   const pathname = usePathname();

@@ -527,6 +527,7 @@ class AskAIResponse(BaseModel):
 
 class RagAskRequest(BaseModel):
     query: str
+    session_id: Optional[str] = None
     act_name: Optional[str] = None
     category: Optional[str] = None
     section_number: Optional[str] = None

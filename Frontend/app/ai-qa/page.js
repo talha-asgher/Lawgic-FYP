@@ -18,9 +18,14 @@ import {
   Trash2,
   Pencil,
 } from "lucide-react";
-import { ragAsk, isLoggedIn } from "@/lib/api";
+import { ragAsk, isLoggedIn, getUser, getAISessions, getAIHistory } from "@/lib/api";
 
 const STORAGE_KEY = "lawgic_ai_qa_sessions_v1";
+
+function userStorageKey() {
+  const uid = getUser()?.user_id;
+  return uid != null ? `${STORAGE_KEY}:${uid}` : STORAGE_KEY;
+}
 
 function normalizeUiOutputLang(lang) {
   if (!lang || typeof lang !== "string") return "en";
@@ -59,6 +64,80 @@ function formatRelativeTime(ts) {
   return `${Math.floor(diff / 86400_000)}d ago`;
 }
 
+function citationsToSources(citations = []) {
+  return citations.map((c, i) => ({
+    source_index: i + 1,
+    act_name: c.source_title,
+    source_reference: c.citation_ref,
+    excerpt_text: c.snippet_text,
+  }));
+}
+
+function qaHistoryToMessages(items) {
+  const sorted = [...items].sort(
+    (a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
+  );
+  const msgs = [greetingMessage()];
+  for (const qa of sorted) {
+    const ts = qa.created_at
+      ? new Date(qa.created_at).toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+        })
+      : formatNowTime();
+    msgs.push({
+      id: `u-${qa.qa_id}`,
+      role: "user",
+      text: qa.question,
+      timestamp: ts,
+    });
+    if (qa.answer) {
+      msgs.push({
+        id: `a-${qa.qa_id}`,
+        role: "assistant",
+        text: qa.answer,
+        outputLang: normalizeUiOutputLang(qa.language || "en"),
+        sources: citationsToSources(qa.citations),
+        retrievedSources: [],
+        insufficientContext: false,
+        usedSourceIndexes: [],
+        retrievalMeta: null,
+        timestamp: ts,
+      });
+    }
+  }
+  return msgs;
+}
+
+function sessionNeedsHistory(sess) {
+  if (!sess?.messages?.length) return true;
+  return !sess.messages.some((m) => m.role === "user");
+}
+
+function migrateStoredSessions(rawSessions) {
+  return rawSessions.map((sess) => ({
+    ...sess,
+    messages: (sess.messages || []).map((m) =>
+      m.role === "assistant"
+        ? { ...m, outputLang: normalizeUiOutputLang(m.outputLang) }
+        : m
+    ),
+  }));
+}
+
+function createEmptySession() {
+  const id =
+    typeof crypto !== "undefined" && crypto.randomUUID
+      ? crypto.randomUUID()
+      : `s-${Date.now()}`;
+  return {
+    id,
+    title: "New chat",
+    updatedAt: Date.now(),
+    messages: [greetingMessage()],
+  };
+}
+
 function formatSourceOneLine(src) {
   const parts = [];
   if (src.act_name) parts.push(String(src.act_name).trim());
@@ -88,51 +167,127 @@ export default function AiQAPage() {
   const activeSession = sessions.find((s) => s.id === activeId);
   const messages = activeSession?.messages ?? [];
 
+  const hydrateSession = useCallback(async (sessionId) => {
+    const history = await getAIHistory(sessionId);
+    const nextMessages = qaHistoryToMessages(history || []);
+    setSessions((prev) =>
+      prev.map((s) =>
+        s.id === sessionId
+          ? {
+              ...s,
+              messages: nextMessages,
+              title: sessionTitleFromMessages(nextMessages),
+              updatedAt: Date.now(),
+            }
+          : s
+      )
+    );
+  }, []);
+
   useEffect(() => {
     setMounted(true);
   }, []);
 
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const data = JSON.parse(raw);
-        if (Array.isArray(data.sessions) && data.sessions.length) {
-          const migrated = data.sessions.map((sess) => ({
-            ...sess,
-            messages: (sess.messages || []).map((m) =>
-              m.role === "assistant"
-                ? { ...m, outputLang: normalizeUiOutputLang(m.outputLang) }
-                : m
-            ),
-          }));
-          setSessions(migrated);
-          setActiveId(data.activeId || migrated[0].id);
+    if (!isLoggedIn()) {
+      router.replace("/login");
+      return;
+    }
+
+    let cancelled = false;
+
+    async function initSessions() {
+      const key = userStorageKey();
+      let localSessions = null;
+      let localActiveId = null;
+
+      try {
+        const raw = localStorage.getItem(key);
+        if (raw) {
+          const data = JSON.parse(raw);
+          if (Array.isArray(data.sessions) && data.sessions.length) {
+            localSessions = migrateStoredSessions(data.sessions);
+            localActiveId = data.activeId || localSessions[0].id;
+          }
+        }
+      } catch (_) {
+        /* ignore */
+      }
+
+      try {
+        const serverList = await getAISessions();
+        if (cancelled) return;
+
+        if (Array.isArray(serverList) && serverList.length) {
+          const localById = new Map((localSessions || []).map((s) => [s.id, s]));
+          const serverIds = new Set(serverList.map((row) => row.session_id));
+          const merged = serverList.map((row) => {
+            const local = localById.get(row.session_id);
+            if (local) {
+              return {
+                ...local,
+                title: row.title || local.title,
+                updatedAt: Math.max(
+                  local.updatedAt || 0,
+                  new Date(row.created_at).getTime()
+                ),
+              };
+            }
+            return {
+              id: row.session_id,
+              title: row.title || "Chat",
+              updatedAt: new Date(row.created_at).getTime(),
+              messages: [greetingMessage()],
+            };
+          });
+
+          for (const sess of localSessions || []) {
+            if (!serverIds.has(sess.id)) merged.push(sess);
+          }
+
+          merged.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+          const pickId =
+            localActiveId && merged.some((s) => s.id === localActiveId)
+              ? localActiveId
+              : merged[0].id;
+
+          setSessions(merged);
+          setActiveId(pickId);
+
+          const active = merged.find((s) => s.id === pickId);
+          if (!cancelled && active && sessionNeedsHistory(active)) {
+            await hydrateSession(pickId);
+          }
           return;
         }
+      } catch (err) {
+        console.error("Failed to load AI sessions:", err);
       }
-    } catch (_) {
-      /* ignore */
+
+      if (cancelled) return;
+
+      if (localSessions?.length) {
+        setSessions(localSessions);
+        setActiveId(localActiveId || localSessions[0].id);
+        return;
+      }
+
+      const initial = createEmptySession();
+      setSessions([initial]);
+      setActiveId(initial.id);
     }
-    const id =
-      typeof crypto !== "undefined" && crypto.randomUUID
-        ? crypto.randomUUID()
-        : `s-${Date.now()}`;
-    const initial = {
-      id,
-      title: "New chat",
-      updatedAt: Date.now(),
-      messages: [greetingMessage()],
+
+    initSessions();
+    return () => {
+      cancelled = true;
     };
-    setSessions([initial]);
-    setActiveId(id);
-  }, []);
+  }, [router, hydrateSession]);
 
   useEffect(() => {
-    if (!sessions.length || !activeId) return;
+    if (!sessions.length || !activeId || !isLoggedIn()) return;
     try {
       localStorage.setItem(
-        STORAGE_KEY,
+        userStorageKey(),
         JSON.stringify({ sessions, activeId })
       );
     } catch (_) {
@@ -200,6 +355,7 @@ export default function AiQAPage() {
 
     try {
       const data = await ragAsk(text.trim(), {
+        sessionId: activeId,
         topKRetrieval: 15,
         topKContext: 6,
         signal: abortRef.current.signal,
@@ -244,30 +400,31 @@ export default function AiQAPage() {
   };
 
   const startNewChat = () => {
-    const id =
-      typeof crypto !== "undefined" && crypto.randomUUID
-        ? crypto.randomUUID()
-        : `s-${Date.now()}`;
-    const fresh = {
-      id,
-      title: "New chat",
-      updatedAt: Date.now(),
-      messages: [greetingMessage()],
-    };
+    const fresh = createEmptySession();
     setSessions((prev) => [fresh, ...prev]);
-    setActiveId(id);
+    setActiveId(fresh.id);
     setError(null);
     setExpandedSources({});
     setEditingUserMsgId(null);
     setEditDraft("");
   };
 
-  const selectSession = (sessionId) => {
+  const selectSession = async (sessionId) => {
     setActiveId(sessionId);
     setError(null);
     setExpandedSources({});
     setEditingUserMsgId(null);
     setEditDraft("");
+
+    const sess = sessions.find((s) => s.id === sessionId);
+    if (!sessionNeedsHistory(sess)) return;
+
+    try {
+      await hydrateSession(sessionId);
+    } catch (err) {
+      console.error("Failed to load chat history:", err);
+      setError("Could not load this chat.");
+    }
   };
 
   const deleteSession = (e, sessionId) => {
@@ -276,19 +433,9 @@ export default function AiQAPage() {
 
     const remaining = sessions.filter((s) => s.id !== sessionId);
     if (remaining.length === 0) {
-      const id =
-        typeof crypto !== "undefined" && crypto.randomUUID
-          ? crypto.randomUUID()
-          : `s-${Date.now()}`;
-      setSessions([
-        {
-          id,
-          title: "New chat",
-          updatedAt: Date.now(),
-          messages: [greetingMessage()],
-        },
-      ]);
-      setActiveId(id);
+      const fresh = createEmptySession();
+      setSessions([fresh]);
+      setActiveId(fresh.id);
     } else {
       setSessions(remaining);
       if (activeId === sessionId) {

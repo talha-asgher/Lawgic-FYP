@@ -24,9 +24,9 @@ requests>=2.31.0
 # --- GPU PyTorch for university PC NVIDIA GPU / CUDA 12.x driver ---
 # If this fails, install manually instead:
 #   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
---extra-index-url https://download.pytorch.org/whl/cu124
-torch==2.6.0+cu124
-
+#--extra-index-url https://download.pytorch.org/whl/cu124
+#torch==2.6.0+cu124
+torch==2.6.0
 # --- Embeddings + reranking ---
 # Keep these versions aligned. Newer sentence-transformers 5.x can cause:
 # XLMRobertaModel.__init__() got an unexpected keyword argument 'dtype'

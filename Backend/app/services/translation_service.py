@@ -1,4 +1,5 @@
-"""English ⟷ Urdu via AI4Bharat IndicTrans2 (local transformers).
+"""English ⟷ Urdu via AI4Bharat IndicTrans2 on GPU, with Helsinki-NLP OPUS-MT Marian
+models on CPU (and as GPU fallback when IndicTrans2 fails).
 
 Gated HF models: log in (`huggingface-cli login` or set `HF_TOKEN`) and accept the
 model license on Hugging Face before first download (ai4bharat/indictrans2-*-1B).
@@ -17,18 +18,25 @@ logger = logging.getLogger(__name__)
 
 MODEL_EN_INDIC = "ai4bharat/indictrans2-en-indic-1B"
 MODEL_INDIC_EN = "ai4bharat/indictrans2-indic-en-1B"
+MODEL_OPUS_EN_UR = os.environ.get("LAWGIC_OPUS_MT_EN_UR", "Helsinki-NLP/opus-mt-en-ur")
+MODEL_OPUS_UR_EN = os.environ.get("LAWGIC_OPUS_MT_UR_EN", "Helsinki-NLP/opus-mt-ur-en")
 LANG_EN = "eng_Latn"
 LANG_UR = "urd_Arab"
 
 _MAX_SEG_LEN = int(os.environ.get("LAWGIC_TRANSLATE_MAX_SEGMENT_CHARS", "4500"))
+_OPUS_MAX_SEG_LEN = int(os.environ.get("LAWGIC_OPUS_MAX_SEGMENT_CHARS", "450"))
 _MAX_NEW_TOKENS = int(os.environ.get("LAWGIC_INDICTRANS_MAX_NEW_TOKENS", "256"))
+_OPUS_MAX_NEW_TOKENS = int(os.environ.get("LAWGIC_OPUS_MAX_NEW_TOKENS", "256"))
 _NUM_BEAMS = int(os.environ.get("LAWGIC_INDICTRANS_NUM_BEAMS", "5"))
+_OPUS_NUM_BEAMS = int(os.environ.get("LAWGIC_OPUS_NUM_BEAMS", "4"))
 
 _load_lock = threading.Lock()
 _infer_lock = threading.Lock()
 _processor = None
 _en_indic: Optional[Tuple[Any, Any]] = None
 _indic_en: Optional[Tuple[Any, Any]] = None
+_opus_en_ur: Optional[Tuple[Any, Any]] = None
+_opus_ur_en: Optional[Tuple[Any, Any]] = None
 
 
 def urdu_arabic_script_ratio(text: str, sample_chars: int = 8000) -> float:
@@ -52,20 +60,21 @@ def looks_like_urdu_script_query(text: str) -> bool:
     return ratio >= thr
 
 
-def _split_segments(text: str) -> List[str]:
+def _split_segments(text: str, max_len: Optional[int] = None) -> List[str]:
     text = text.strip()
     if not text:
         return []
-    if len(text) <= _MAX_SEG_LEN:
+    limit = max_len if max_len is not None else _MAX_SEG_LEN
+    if len(text) <= limit:
         return [text]
     parts: List[str] = []
     start = 0
     n = len(text)
     while start < n:
-        end = min(start + _MAX_SEG_LEN, n)
+        end = min(start + limit, n)
         if end < n:
             cut = text.rfind("\n\n", start, end)
-            if cut == -1 or cut < start + _MAX_SEG_LEN // 2:
+            if cut == -1 or cut < start + limit // 2:
                 cut = text.rfind(" ", start, end)
             if cut > start:
                 end = cut + 1
@@ -190,32 +199,109 @@ def _translate_batch(
     return ip.postprocess_batch(decoded, lang=tgt)
 
 
-def translate_en_to_ur(text: str) -> str:
+def _load_opus_pair(model_id: str) -> Tuple[Any, Any]:
+    from transformers import MarianMTModel, MarianTokenizer
+
+    tok = MarianTokenizer.from_pretrained(model_id, token=_hf_token())
+    device = _device()
+    model = MarianMTModel.from_pretrained(model_id, token=_hf_token()).to(device)
+    model.eval()
+    return tok, model
+
+
+def _get_opus_en_ur() -> Tuple[Any, Any]:
+    global _opus_en_ur
+    if _opus_en_ur is not None:
+        return _opus_en_ur
+    with _load_lock:
+        if _opus_en_ur is None:
+            _opus_en_ur = _load_opus_pair(MODEL_OPUS_EN_UR)
+    return _opus_en_ur
+
+
+def _get_opus_ur_en() -> Tuple[Any, Any]:
+    global _opus_ur_en
+    if _opus_ur_en is not None:
+        return _opus_ur_en
+    with _load_lock:
+        if _opus_ur_en is None:
+            _opus_ur_en = _load_opus_pair(MODEL_OPUS_UR_EN)
+    return _opus_ur_en
+
+
+def _translate_opus_batch(
+    sentences: List[str],
+    *,
+    direction: str,
+) -> List[str]:
+    if not sentences:
+        return []
+    if direction == "en2ur":
+        tok, model = _get_opus_en_ur()
+    elif direction == "ur2en":
+        tok, model = _get_opus_ur_en()
+    else:
+        raise ValueError(f"unknown direction {direction!r}")
+
+    import torch
+
+    device = _device()
+    with _infer_lock:
+        inputs = tok(
+            sentences,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+        ).to(device)
+        with torch.no_grad():
+            gen = model.generate(
+                **inputs,
+                max_new_tokens=_OPUS_MAX_NEW_TOKENS,
+                num_beams=_OPUS_NUM_BEAMS,
+                num_return_sequences=1,
+            )
+        return tok.batch_decode(gen, skip_special_tokens=True)
+
+
+def _translate_opus_segments(text: str, direction: str) -> str:
+    out: List[str] = []
+    for seg in _split_segments(text, _OPUS_MAX_SEG_LEN):
+        out.extend(_translate_opus_batch([seg], direction=direction))
+    return "\n\n".join(part.strip() for part in out if part and part.strip()).strip()
+
+
+def _translate_by_segments(text: str, direction: str) -> str:
     text = (text or "").strip()
     if not text:
         return text
+
+    if _device() == "cuda":
+        try:
+            out: List[str] = []
+            for seg in _split_segments(text):
+                out.extend(_translate_batch([seg], direction=direction))
+            joined = "\n\n".join(part.strip() for part in out if part and part.strip()).strip()
+            if joined:
+                return joined
+        except Exception as e:
+            logger.warning("IndicTrans2 %s failed: %s", direction, e)
+
     try:
-        out: List[str] = []
-        for seg in _split_segments(text):
-            out.extend(_translate_batch([seg], direction="en2ur"))
-        return "\n\n".join(out).strip()
+        joined = _translate_opus_segments(text, direction)
+        if joined:
+            return joined
     except Exception as e:
-        logger.exception("IndicTrans2 en→ur failed: %s", e)
-        return text
+        logger.warning("OPUS-MT %s failed: %s", direction, e)
+
+    return text
+
+
+def translate_en_to_ur(text: str) -> str:
+    return _translate_by_segments(text, "en2ur")
 
 
 def translate_ur_to_en(text: str) -> str:
-    text = (text or "").strip()
-    if not text:
-        return text
-    try:
-        out: List[str] = []
-        for seg in _split_segments(text):
-            out.extend(_translate_batch([seg], direction="ur2en"))
-        return "\n\n".join(out).strip()
-    except Exception as e:
-        logger.exception("IndicTrans2 ur→en failed: %s", e)
-        return text
+    return _translate_by_segments(text, "ur2en")
 
 
 def translate_text_lang(text: str, src_lang: str, tgt_lang: str) -> str:

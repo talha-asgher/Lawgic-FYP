@@ -16,6 +16,7 @@ import {
   createDocumentAnalysis,
   getDocumentAnalysis,
 } from "@/lib/api";
+import { useLanguage } from "@/app/lib/LanguageContext";
 
 const ACCEPT_EXT = [".pdf", ".docx", ".txt", ".png", ".jpg", ".jpeg", ".webp"];
 const ACCEPT_MIME = new Set([

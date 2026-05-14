@@ -1,0 +1,364 @@
+{
+  "source_file": "THE TRADE ORGANIZATIONS ACT, 2013.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE TRADE ORGANIZATIONS ACT, 2013.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 37,
+  "total_child_chunks": 69,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_TRADE_ORGANIZATIONS_ACT,_2013_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_TRADE_ORGANIZATIONS_ACT,_2013_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent, application and commencement",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_3",
+      "page_numbers": [
+        3,
+        4,
+        5
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "3",
+      "section_title": "Licensing and registration of trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_4",
+      "page_numbers": [
+        5,
+        6,
+        7
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "4",
+      "section_title": "Revocation of licences of existing trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_5",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Privileges and obligations of trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_6",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Renewal of licence",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_7",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Cancellation of licence and exemption",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_8",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "8",
+      "section_title": "Cancellation of registration",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_9",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Grant of licence",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_10",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Membership of trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_11",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "11",
+      "section_title": "Organisation and tenure of office-bearers and executive committee of trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_12",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Uniformity in structure and autonomy of trade organizations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_13",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "The Regulator",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_14",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Powers and functions of the Regulator",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_15",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "15",
+      "section_title": "Powers to enter and search the premises",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_16",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "16",
+      "section_title": "Supersession of Executive Committee, office-bearers and appointment of Administrator",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_17",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "17",
+      "section_title": "Administrator to act under control of the Regulator",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_18",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "18",
+      "section_title": "Restriction on suits against trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_19",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Compulsory membership of trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_20",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Restriction on membership",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_21",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Appeal",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_22",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_23",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Federal Government may carry out functions of the Regulator",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_24",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power to levy fee etc",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_25",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Penalty",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_26",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Contravention by companies, etc",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_27",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Trade Organisations Fund",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_28",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Presumption as to orders",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_29",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Mode of recovery",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_30",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Indemnity",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_31",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_32",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Act to override other laws",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_33",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Merger of trade organisations",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_34",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Transitional provisions",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_35",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "35",
+      "section_title": "Repeal and savings",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_36",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "36",
+      "section_title": "Validation of actions etc.⸻",
+      "parent_id": "THE_TRADE_ORGANIZATIONS_ACT,_2013_37",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments (if you ever create them inside project folder)
+venv/
+.venv/
+.env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.pyc
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+env/
+ENV/

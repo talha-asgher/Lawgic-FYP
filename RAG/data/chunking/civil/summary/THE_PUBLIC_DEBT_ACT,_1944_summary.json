@@ -1,0 +1,285 @@
+{
+  "source_file": "THE PUBLIC DEBT ACT, 1944.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PUBLIC DEBT ACT, 1944.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 29,
+  "total_child_chunks": 39,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PUBLIC_DEBT_ACT,_1944_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PUBLIC_DEBT_ACT,_1944_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Transfer of Government securities",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Transferor of Government securities not liable for amount thereof",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Holding of Government securities by holders of public offices",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_6",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Notice of trust not receivable",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_7",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Persons whose title to a Government security of a deceased sole holder may be recognised by the Bank",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Right of survivors of joint holders of several payees",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_9",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "10",
+      "section_title": "Government securities not exceeding five thousand rupees face value belonging to minor or insane person",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Issue of duplicate securities and of new securities on conversion, consolidation, sub-division or renewal",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_11",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "12",
+      "section_title": "Summary determination by the Bank of title to Government security in case of dispute",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Law applicable in regard to Government securities",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Recording of evidence",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_14",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Postponement of payments and registration of transfers pending the making of a vesting Order",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_15",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power of Bank to require bonds",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Publication of notices in official gazette",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Scope of vesting order",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Legal effect of orders made by the Bank",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Stay of proceedings on order of Court",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_20",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Cancellation by the Bank of vesting proceedings",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_21",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Discharge in respect of interest on Government securities",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_22",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Discharge in respect of bearer bonds",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_23",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Period of limitation of Government's liability in respect of interest",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Inspection of documents",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "The Bank and its officers to be deemed public officers",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_26",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Penalty",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_27",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_28",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "29",
+      "section_title": "Act X of 1920 not to apply to Government securities",
+      "parent_id": "THE_PUBLIC_DEBT_ACT,_1944_29",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    }
+  ]
+}

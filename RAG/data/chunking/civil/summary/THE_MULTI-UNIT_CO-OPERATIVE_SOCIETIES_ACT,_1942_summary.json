@@ -1,0 +1,90 @@
+{
+  "source_file": "THE MULTI-UNIT CO-OPERATIVE SOCIETIES ACT, 1942.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE MULTI-UNIT CO-OPERATIVE SOCIETIES ACT, 1942.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 8,
+  "total_child_chunks": 17,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title extent and application",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Co-operative societies to which this Act applies registered before commencement of this Act",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "3",
+      "section_title": "Co-operative societies to which this Act applies registered after commencement of this Act",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "3A",
+      "section_title": "-",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_5",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "4",
+      "section_title": "Appointment and powers of Central Registrar of Co-operative Societies",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Penalty for failure to furnish information required under this Act",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Power of ¹[Federal Government] to make rules",
+      "parent_id": "THE_MULTI-UNIT_CO-OPERATIVE_SOCIETIES_ACT,_1942_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

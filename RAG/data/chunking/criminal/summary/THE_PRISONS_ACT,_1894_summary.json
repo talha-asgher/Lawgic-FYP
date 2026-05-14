@@ -1,0 +1,600 @@
+{
+  "source_file": "THE PRISONS ACT, 1894.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE PRISONS ACT, 1894.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 64,
+  "total_child_chunks": 76,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_PRISONS_ACT,_1894_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_PRISONS_ACT,_1894_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PRISONS_ACT,_1894_1",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title, extent and commencement",
+      "parent_id": "THE_PRISONS_ACT,_1894_2",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_PRISONS_ACT,_1894_3",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_PRISONS_ACT,_1894_4",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Accommodation for prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_5",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Inspector-General",
+      "parent_id": "THE_PRISONS_ACT,_1894_6",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Officers of prisons",
+      "parent_id": "THE_PRISONS_ACT,_1894_7",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Temporary accommodation for prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_8",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_PRISONS_ACT,_1894_9",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Control and duties of officers of prisons",
+      "parent_id": "THE_PRISONS_ACT,_1894_10",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Officers not to have business dealings with prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_11",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Officers not to be interested in prison contracts",
+      "parent_id": "THE_PRISONS_ACT,_1894_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Superintendent",
+      "parent_id": "THE_PRISONS_ACT,_1894_13",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Records to be kept by Superintendent",
+      "parent_id": "THE_PRISONS_ACT,_1894_14",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Duties of Medical Officer",
+      "parent_id": "THE_PRISONS_ACT,_1894_15",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Medical Officer to report in certain cases",
+      "parent_id": "THE_PRISONS_ACT,_1894_16",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Report on death of prisoner",
+      "parent_id": "THE_PRISONS_ACT,_1894_17",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Jailer",
+      "parent_id": "THE_PRISONS_ACT,_1894_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Jailer to give notice of death of prisoner",
+      "parent_id": "THE_PRISONS_ACT,_1894_19",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Responsibility of Jailer",
+      "parent_id": "THE_PRISONS_ACT,_1894_20",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Jailer to be present at night",
+      "parent_id": "THE_PRISONS_ACT,_1894_21",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Powers of Deputy and Assistant Jailers",
+      "parent_id": "THE_PRISONS_ACT,_1894_22",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Duties of gate-keeper",
+      "parent_id": "THE_PRISONS_ACT,_1894_23",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Subordinate Officers not to be absent without leave",
+      "parent_id": "THE_PRISONS_ACT,_1894_24",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Convict officers",
+      "parent_id": "THE_PRISONS_ACT,_1894_25",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Prisoners to be examined on admission",
+      "parent_id": "THE_PRISONS_ACT,_1894_26",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Effects of prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_27",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Removal and discharge of prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_28",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Separation of prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_29",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Association and segregation of prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_30",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Solitary confinement",
+      "parent_id": "THE_PRISONS_ACT,_1894_31",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Prisoners under sentence of death",
+      "parent_id": "THE_PRISONS_ACT,_1894_32",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Maintenance of certain prisoner from private sources",
+      "parent_id": "THE_PRISONS_ACT,_1894_33",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Restriction on transfer of food and clothing between certain prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_34",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Supply of clothing and bedding to civil and unconvinced criminal prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_35",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Employment of civil prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_36",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Employment of criminal prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_37",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Employment of criminal prisoners sentenced to simple imprisonment",
+      "parent_id": "THE_PRISONS_ACT,_1894_38",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Sick prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_39",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Record of directions of Medical officers",
+      "parent_id": "THE_PRISONS_ACT,_1894_40",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Hospital",
+      "parent_id": "THE_PRISONS_ACT,_1894_41",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Visits to civil and unconvicted criminal prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_42",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Search of visitors",
+      "parent_id": "THE_PRISONS_ACT,_1894_43",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Penalty for introduction or removal of prohibited article into or from prison and communication with prisoners",
+      "parent_id": "THE_PRISONS_ACT,_1894_44",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Power to arrest for offence under section 42",
+      "parent_id": "THE_PRISONS_ACT,_1894_45",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Publication of penalties",
+      "parent_id": "THE_PRISONS_ACT,_1894_46",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Prison-offences",
+      "parent_id": "THE_PRISONS_ACT,_1894_47",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "46",
+      "section_title": "Punishment of such offences",
+      "parent_id": "THE_PRISONS_ACT,_1894_48",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "47",
+      "section_title": "-",
+      "parent_id": "THE_PRISONS_ACT,_1894_49",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "48",
+      "section_title": "Award of punishments under sections 46 and 47",
+      "parent_id": "THE_PRISONS_ACT,_1894_50",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Punishments to be in accordance with foregoing sections",
+      "parent_id": "THE_PRISONS_ACT,_1894_51",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Medical Officer to certify to fitness of prisoner for punishment",
+      "parent_id": "THE_PRISONS_ACT,_1894_52",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Entries in punishment book",
+      "parent_id": "THE_PRISONS_ACT,_1894_53",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Procedure on committal of heinous offence",
+      "parent_id": "THE_PRISONS_ACT,_1894_54",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53",
+      "section_title": "Whipping",
+      "parent_id": "THE_PRISONS_ACT,_1894_55",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Offences by prison subordinates",
+      "parent_id": "THE_PRISONS_ACT,_1894_56",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Extramural custody, control and employment of prisons",
+      "parent_id": "THE_PRISONS_ACT,_1894_57",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Confinement in irons",
+      "parent_id": "THE_PRISONS_ACT,_1894_58",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Confinements of prisoners under sentence of transportation in irons",
+      "parent_id": "THE_PRISONS_ACT,_1894_59",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Prisoners not to be ironed by Jailer except under necessity",
+      "parent_id": "THE_PRISONS_ACT,_1894_60",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PRISONS_ACT,_1894_61",
+      "page_numbers": [
+        20,
+        21,
+        22
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "60",
+      "section_title": "[Power of Local Government to make rules.] Rep. by A.O., 1937",
+      "parent_id": "THE_PRISONS_ACT,_1894_62",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Exhibition of copies of rules",
+      "parent_id": "THE_PRISONS_ACT,_1894_63",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Exercise of powers of Superintendent and Medical Officer",
+      "parent_id": "THE_PRISONS_ACT,_1894_64",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    }
+  ]
+}

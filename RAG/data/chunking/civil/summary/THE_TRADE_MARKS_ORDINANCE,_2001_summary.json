@@ -1,0 +1,1901 @@
+{
+  "source_file": "THE TRADE MARKS ORDINANCE, 2001.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE TRADE MARKS ORDINANCE, 2001.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 202,
+  "total_child_chunks": 333,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_TRADE_MARKS_ORDINANCE,_2001_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_TRADE_MARKS_ORDINANCE,_2001_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_1",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_2",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_3_1",
+      "page_numbers": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_3_2",
+      "page_numbers": [
+        12,
+        13,
+        14
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "3",
+      "section_title": "Goods and services when associated, etc",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_4",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Reference to use of a trade mark, etc",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_5",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Decision by tribunal regarding use of a trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_6",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6",
+      "section_title": "Application of other laws not barred",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_7",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "-",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_8",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power of Registrar to review, withdraw or transfer cases",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_9",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Trade Marks Registry and branches thereof",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_10",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Register of Trade Marks",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_11",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "10A",
+      "section_title": "Validity of electronic documents",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_12",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Evidence of entries in Register and things done by Registrar",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_13",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Classification of goods and services",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_14",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Publication of an alphabetical index of classification of goods and services",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_15",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Absolute grounds for refusal of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_16",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Limitation as to colour",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_17",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Use of names of chemical compounds barred",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_18",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Relative grounds for refusal of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_19",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "18",
+      "section_title": "Meaning of \"earlier trade mark\"",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_20",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "19",
+      "section_title": "Raising of relative grounds in case of honest concurrent use",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_21",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Registration of parts of trade marks and of trade marks as a series",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_22",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Registration subject to disclaimer",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_23",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22",
+      "section_title": "Application for registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_24",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "23",
+      "section_title": "Date of filing",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_25",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Co-ownership of trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_26",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "25",
+      "section_title": "Meaning of Convention application, and right to priority",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_27",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "26",
+      "section_title": "Application to provide temporary protection during exhibition",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_28",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Examination of application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_29",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "28",
+      "section_title": "Publication, opposition proceedings and observations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_30",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "29",
+      "section_title": "Grounds of opposition",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_31",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "30",
+      "section_title": "Circumstances in which opposition may proceed in the name of a person other than the person who filed the notice of opposition",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_32",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Withdrawal of application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_33",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Definition of divisional application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_34",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_35",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "34",
+      "section_title": "Duration and renewal of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_36",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Renewal of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_37",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "36",
+      "section_title": "Effect of removal from Register for failure to pay fee for renewal",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_38",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Alteration of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_39",
+      "page_numbers": [
+        31,
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Surrender of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_40",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Rights conferred by registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_41",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "40",
+      "section_title": "Infringement of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_42",
+      "page_numbers": [
+        32,
+        33,
+        34
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "41",
+      "section_title": "Infringement of trade mark by breach of certain restrictions",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_43",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "42",
+      "section_title": "When a trade mark is not infringed",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_44",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "43",
+      "section_title": "Registration to be prima facie evidence of validity",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_45",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Registration to be conclusive as to validity after five years",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_46",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Saving for words used as name or description of an article or a substance",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_47",
+      "page_numbers": [
+        35,
+        36,
+        37
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "46",
+      "section_title": "Action for infringement",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_48",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Order for erasure of offending mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_49",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Order for delivery up of infringing goods, material or articles",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_50",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "49",
+      "section_title": "Meaning of \"infringing goods, material or articles\"",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_51",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "50",
+      "section_title": "Period after which remedy of delivery be not available",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_52",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Order as to disposal of infringing goods, material or articles",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_53",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "52",
+      "section_title": "Remedy for groundless threats of infringement proceedings",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_54",
+      "page_numbers": [
+        39,
+        40
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53",
+      "section_title": "Infringement goods, material or articles may be treated as prohibited",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_55",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "54",
+      "section_title": "Notice for intervention by customs authorities",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_56",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Furnishing of security or equivalent assurance to customs authority",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_57",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Collector of Customs may seize goods bearing infringing trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_58",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "57",
+      "section_title": "Notice of seizure",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_59",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "58",
+      "section_title": "Forfeiture of goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_60",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Release of goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_61",
+      "page_numbers": [
+        42,
+        43
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "60",
+      "section_title": "Action for infringement against importation of infringing goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_62",
+      "page_numbers": [
+        43,
+        44
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "61",
+      "section_title": "Action for infringement by licensee in relation to any seized goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_63",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Disposal of forfeited goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_64",
+      "page_numbers": [
+        44,
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Power of the Collector of Customs to retain control of goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_65",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Insufficient security",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_66",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "The Federal Government not be liable to loss, etc., suffered because of seizure",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_67",
+      "page_numbers": [
+        45
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Power of the Collector of Customs to make regulations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_68",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Definition of unfair competition and provisions relating thereto",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_69",
+      "page_numbers": [
+        46,
+        47
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "68",
+      "section_title": "Misleading and comparative advertisement",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_70",
+      "page_numbers": [
+        47,
+        48
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "69",
+      "section_title": "Assignment of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_71",
+      "page_numbers": [
+        48,
+        49
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "70",
+      "section_title": "Registration of transactions affecting registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_72",
+      "page_numbers": [
+        49,
+        50
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "71",
+      "section_title": "Application for registration of trade mark as an object of property",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_73",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Proposed use of trade mark by company to be formed",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_74",
+      "page_numbers": [
+        50,
+        51
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "73",
+      "section_title": "Revocation of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_75",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "74",
+      "section_title": "Use of trade mark by a person other than the proprietor thereof",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_76",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Licensing of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_77",
+      "page_numbers": [
+        52,
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Exclusive license defined",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_78",
+      "page_numbers": [
+        53
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "General provisions as to the rights of licensees in case of infringement",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_79",
+      "page_numbers": [
+        53,
+        54
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "78",
+      "section_title": "Exclusive licensee having rights and remedies of assignee",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_80",
+      "page_numbers": [
+        54,
+        55
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "79",
+      "section_title": "Surrender of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_81",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "80",
+      "section_title": "Grounds for invalidity of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_82",
+      "page_numbers": [
+        55,
+        56
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "81",
+      "section_title": "Effect of acquiescence",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_83",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "82",
+      "section_title": "Collective marks",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_84",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Certification marks",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_85",
+      "page_numbers": [
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "84",
+      "section_title": "Domain names",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_86",
+      "page_numbers": [
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85",
+      "section_title": "Meaning of \"Paris Convention\" and \"Convention country\"",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_87",
+      "page_numbers": [
+        57
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Protection of well known trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_88",
+      "page_numbers": [
+        57,
+        58
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "87",
+      "section_title": "National emblems of Convention countries",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_89",
+      "page_numbers": [
+        58,
+        59
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "88",
+      "section_title": "Emblems of certain international organizations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_90",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "89",
+      "section_title": "Notifications under Article 6ter of the Paris Convention",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_91",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "90",
+      "section_title": "Acts of agent or representative",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_92",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "91",
+      "section_title": "Nature of goods or services to which a mark is to be applied",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_93",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Trade name",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_94",
+      "page_numbers": [
+        60,
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92A",
+      "section_title": "International registration under Madrid Protocol",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_95",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92B",
+      "section_title": "Definitions",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_96",
+      "page_numbers": [
+        61,
+        62
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "92C",
+      "section_title": "Trade Marks Registry to deal with international applications",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_97",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92D",
+      "section_title": "International application originating from Pakistan",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_98",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "92G",
+      "section_title": "Duration and renewal of international registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_99",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92H",
+      "section_title": "Transformation",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_100",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92I",
+      "section_title": "Extracts from the international register",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_101",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "Textile goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_102",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "94",
+      "section_title": "Restrictions on registration of textile goods",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_103",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "95",
+      "section_title": "Advisory Committees",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_104",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Rectification or correction of Register",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_105",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "97",
+      "section_title": "Adoption of entries to new classification",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_106",
+      "page_numbers": [
+        64,
+        65
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "98",
+      "section_title": "Meaning of applying a trade description",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_107",
+      "page_numbers": [
+        65
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "99",
+      "section_title": "Penalty for applying false trade description, etc",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_108",
+      "page_numbers": [
+        65,
+        66
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "100",
+      "section_title": "Enhanced penalty on second or subsequent convictions",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_109",
+      "page_numbers": [
+        66
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "101",
+      "section_title": "Penalty for falsification of entries in Register",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_110",
+      "page_numbers": [
+        66
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "102",
+      "section_title": "Penalty for falsely representing a trade mark as registered",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_111",
+      "page_numbers": [
+        66,
+        67
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "103",
+      "section_title": "Restraint of use of Government Arms and State emblems",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_112",
+      "page_numbers": [
+        67,
+        68
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "104",
+      "section_title": "Offences by companies",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_113",
+      "page_numbers": [
+        68
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "105",
+      "section_title": "Powers to award compensation for offences",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_114",
+      "page_numbers": [
+        68
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "106",
+      "section_title": "Punishment of abetment in Pakistan of acts done out of Pakistan",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_115",
+      "page_numbers": [
+        68
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "107",
+      "section_title": "Penalty for improperly describing a place of business as connected with the Trade Marks Registry",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_116",
+      "page_numbers": [
+        68,
+        69
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "108",
+      "section_title": "Power of Registrar to require use of forms",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_117",
+      "page_numbers": [
+        69
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "109",
+      "section_title": "Information about applications and registered trade marks",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_118",
+      "page_numbers": [
+        69
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "110",
+      "section_title": "Costs, security for costs and fine",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_119",
+      "page_numbers": [
+        69,
+        70
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "111",
+      "section_title": "Procedure before the Registrar",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_120",
+      "page_numbers": [
+        70
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "112",
+      "section_title": "Certificate of validity of contested registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_121",
+      "page_numbers": [
+        70
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "113",
+      "section_title": "Registrar's appearance in proceedings involving the Register",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_122",
+      "page_numbers": [
+        70,
+        71
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "114",
+      "section_title": "Appeal against the decision of the Registrar",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_123",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "115",
+      "section_title": "Procedure before the Federal Government",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_124",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "116",
+      "section_title": "Procedure in certain cases of option to apply to the High Court, a District Court or the Registrar",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_125",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "117",
+      "section_title": "Suits for infringement to be instituted before ¹[IP Tribunal]",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_126",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "118",
+      "section_title": "Costs of Registrar in proceedings before the High Court or ¹[an IP Tribunal]",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_127",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "119",
+      "section_title": "Burden of proving use of trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_128",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "120",
+      "section_title": "Certain persons to be public servants",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_129",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "121",
+      "section_title": "Documents open to public inspection",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_130",
+      "page_numbers": [
+        72
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "122",
+      "section_title": "Death of a party to any proceedings under this Ordinance",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_131",
+      "page_numbers": [
+        73
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "123",
+      "section_title": "Extension of time",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_132",
+      "page_numbers": [
+        73
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "124",
+      "section_title": "Registrar and other officers not compellable to produce Register, etc",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_133",
+      "page_numbers": [
+        73
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "125",
+      "section_title": "Power to require goods to show indication of origin",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_134",
+      "page_numbers": [
+        73,
+        74
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "126",
+      "section_title": "Address for service",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_135",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "127",
+      "section_title": "Trade mark agents",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_136",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "128",
+      "section_title": "Fees",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_137",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "129",
+      "section_title": "The Federal Government and a Provincial Government to be bound",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_138",
+      "page_numbers": [
+        75
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "130",
+      "section_title": "Power to make reciprocal arrangements with any other Government",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_139",
+      "page_numbers": [
+        75
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131",
+      "section_title": "Power of the High Court to make rules",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_140",
+      "page_numbers": [
+        75
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "132",
+      "section_title": "Power of the Federal Government to make rules",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_141_1",
+      "page_numbers": [
+        75,
+        76,
+        77,
+        78
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "132",
+      "section_title": "Power of the Federal Government to make rules",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_141_2",
+      "page_numbers": [
+        78,
+        79
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "133",
+      "section_title": "Transitional",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_142",
+      "page_numbers": [
+        79
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "134",
+      "section_title": "Repeal and savings",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_143",
+      "page_numbers": [
+        79
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# THE FIRST SCHEDULE",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_144",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "General",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_145",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Signs of which a collective mark may consist",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_146",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Indication of geographical origin",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_147",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Collective mark not to be misleading as to character or significance",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_148",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Regulations governing use of collective mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_149",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Approval of regulations by the Registrar",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_150",
+      "page_numbers": [
+        80,
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Procedure of acceptance or refusal of application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_151",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Regulations to be published",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_152",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Regulations to be open to inspection",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_153",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Amendment of regulations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_154",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Infringement of rights of authorized user",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_155",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Infringement of a registered collective mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_156",
+      "page_numbers": [
+        81,
+        82
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "13",
+      "section_title": "Additional grounds for revocation of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_157",
+      "page_numbers": [
+        82,
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Additional grounds for invalidity of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_158",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "General",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_159",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Signs of which certification mark may consist",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_160",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Indication of geographical origin",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_161",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Nature of proprietor's business",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_162",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Certification mark not to be misleading as to character or significance",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_163",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Regulations governing use of certification mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_164",
+      "page_numbers": [
+        83,
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Approval of regulations by the Registrar",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_165",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Procedure for acceptance or refusal of application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_166",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Regulations to be published",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_167",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Regulations to be open to inspection",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_168",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Amendment of regulations",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_169",
+      "page_numbers": [
+        84,
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Consent to assignment of registered certification mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_170",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Infringement of rights of authorised user",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_171",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "The High Court or ¹[an IP Tribunal] to take into account loss suffered by authorised users",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_172",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Additional grounds for revocation of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_173",
+      "page_numbers": [
+        85,
+        86
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "16",
+      "section_title": "Additional grounds for invalidity of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_174",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "General",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_175",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Requirements for registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_176",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Indication of geographical origin",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_177",
+      "page_numbers": [
+        86
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Domain name not to lie misleading as to character or significance",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_178",
+      "page_numbers": [
+        86,
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Procedure for acceptance, opposition and registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_179",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Term of registration and renewal",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_180",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Provisions of section 73 not to apply to domain names",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_181",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Rules",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_182",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Introductory",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_183",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Existing registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_184",
+      "page_numbers": [
+        87,
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Disclaimer, limitations and conditions",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_185",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Effect of Infringement",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_186",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Infringing goods, material and articles",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_187",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Rights and remedies of licensee or authorised user",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_188",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Co-ownership of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_189",
+      "page_numbers": [
+        88
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Assignment of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_190",
+      "page_numbers": [
+        88,
+        89
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "9",
+      "section_title": "Licensing of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_191",
+      "page_numbers": [
+        89,
+        90
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Pending applications for registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_192",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Conversion of pending application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_193",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Trade marks registered according to old classification",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_194",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Claim to priority from overseas application",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_195",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Duration and renewal of registration",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_196",
+      "page_numbers": [
+        90
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Pending application for alteration of registered trade mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_197",
+      "page_numbers": [
+        90,
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Revocation for non-use",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_198",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Application for rectification",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_199",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Regulations as to use of certification mark",
+      "parent_id": "THE_TRADE_MARKS_ORDINANCE,_2001_200",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_file": "THE HINDU WOMEN’S RIGHTS TO PROPERTY ACT, 1937.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE HINDU WOMEN’S RIGHTS TO PROPERTY ACT, 1937.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 6,
+  "total_child_chunks": 8,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Application",
+      "parent_id": "THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Devolution of property",
+      "parent_id": "THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_4",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "4",
+      "section_title": "Savings",
+      "parent_id": "THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_5_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Savings",
+      "parent_id": "THE_HINDU_WOMEN’S_RIGHTS_TO_PROPERTY_ACT,_1937_5_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

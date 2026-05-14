@@ -1,0 +1,35 @@
+{
+  "source_file": "THE CASTE DISABILITIES REMOVAL ACT, 1850.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE CASTE DISABILITIES REMOVAL ACT, 1850.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 2,
+  "total_child_chunks": 3,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_CASTE_DISABILITIES_REMOVAL_ACT,_1850_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_CASTE_DISABILITIES_REMOVAL_ACT,_1850_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CASTE_DISABILITIES_REMOVAL_ACT,_1850_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Law or usage which inflicts forfeiture of, effects, rights on change of religion or loss of caste to cease to be enforced",
+      "parent_id": "THE_CASTE_DISABILITIES_REMOVAL_ACT,_1850_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,1576 @@
+{
+  "source_file": "THE NEGOTIABLE INSTRUMENTS ACT, 1881.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE NEGOTIABLE INSTRUMENTS ACT, 1881.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 171,
+  "total_child_chunks": 195,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_1",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_2",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1A",
+      "section_title": "Application of the Act",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_3",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "-",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_4",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Interpretation-clause",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_5",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "\"Promissory note.\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_6",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "\"Bill of exchange\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_7",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "6",
+      "section_title": "\"Cheque\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_8",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "\"Drawer.\" \"Drawee\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_9",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "10",
+      "section_title": "\"Payment in due course\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_10",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Inland instrument",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_11",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Foreign instrument",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_12",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "\"Negotiable instrument\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_13",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "14",
+      "section_title": "Negotiation",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_14",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Indorsement",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_15",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "\"Indorsement in blank\" and \"in full\".―",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_16",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Ambiguous instruments",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_17",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Where amount is stated differently in figures and words",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_18_1",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Where amount is stated differently in figures and words",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_18_2",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Inchoate stamped instruments",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_19",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "\"At sight\". \"On presentment.\" \"After sight\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_20_1",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "\"At sight\". \"On presentment.\" \"After sight\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_20_2",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21B",
+      "section_title": "A note or bill payable at a determinable future time",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_21",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21C",
+      "section_title": "Anti-dating and post-dating",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_22",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "\"Maturity\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_23",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Calculating maturity of bill or note payable so many months after date or sight",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_24",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Calculating maturity of bill or note payable so many days after date or sight",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_25",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "When day of maturity is a holiday",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_26",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Capacity to make, etc., promissory notes, etc",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_27",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Agency",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_28",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27A",
+      "section_title": "Authority of partners",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_29",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Liability of agent signing",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_30",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28A",
+      "section_title": "Transferor by delivery and transferee",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_31",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Liability of legal representative signing",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_32_1",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Liability of legal representative signing",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_32_2",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29B",
+      "section_title": "Forged or unauthorized signature",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_33",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29C",
+      "section_title": "Stranger signing instrument presumed to be indorser",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_34",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Liability of drawer",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_35",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Liability of drawee of cheque",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_36",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Liability of maker of note and acceptor of bill",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_37",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Only drawee can be acceptor except in need or for honour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_38",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Acceptance by several drawees not partners",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_39",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Liability of indorser",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_40",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Liability of prior parties to holder in due course",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_41",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Maker, drawer and acceptor principals",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_42",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Prior party a principal in respect of each subsequent party",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_43",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38A",
+      "section_title": "Liability of accommodation party and position of accommodation party",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_44",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Suretyship",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_45",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Discharge of indorser's liability",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_46",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Acceptor bound although indorsement forged",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_47",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Acceptance of bill drawn in fictitious name",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_48",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Negotiable instrument made, etc. without consideration",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_49",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "44",
+      "section_title": "Partial absence or failure of money consideration",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_50",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Partial failure of consideration not consisting of money",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_51_1",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Partial failure of consideration not consisting of money",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_51_2",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Delivery",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_52",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "47",
+      "section_title": "Negotiation by delivery",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_53",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Negotiation by indorsement",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_54_1",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Negotiation by indorsement",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_54_2",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Effect of indorsement",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_55",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Who may negotiate",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_56",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Indorser who excludes his own liability or makes it conditional",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_57_1",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "52",
+      "section_title": "Indorser who excludes his own liability or makes it conditional",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_57_2",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Indorser who excludes his own liability or makes it conditional",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_57_3",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Instrument indorsed in blank",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_58",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Conversion of indorsement in blank in to indorsement in full",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_59",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Requisites of indorsement",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_60",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Legal representative cannot by delivery only negotiate instrument indorsed by deceased",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_61_1",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Legal representative cannot by delivery only negotiate instrument indorsed by deceased",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_61_2",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57B",
+      "section_title": "Rigts of holder",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_62_1",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57B",
+      "section_title": "Rigts of holder",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_62_2",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Instrument acquired after dishonour or when overdue",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_63",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "60",
+      "section_title": "Instrument negotiable till payment or satisfaction",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_64",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Presentment or acceptance",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_65",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Presentment of promissory note for sight",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_66",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Drawees time for deliberation",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_67",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Presentment for payment",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_68",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "Hours for presentment",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_69",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Presentment for payment of instrument payable after date or sight",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_70",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Presentment for payment of promissory note payable by instalments",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_71",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Presentment for payment of instrument payable at specified place and not elsewhere",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_72",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Instrument payable at specified place",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_73",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Presentment where no exclusive place specified",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_74",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Presentment when maker etc., has no known place of business or residence",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_75",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71A",
+      "section_title": "What constitutes valid presentment and mode of presentment",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_76",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Presentment of cheque to charge drawer",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_77",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Presentment of cheque to charge any other person",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_78",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Presentment of instrument payable on demand",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_79",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Presentment by or to agent, representative of deceased or assignee of insolvent",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_80_1",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Presentment by or to agent, representative of deceased or assignee of insolvent",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_80_2",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "When presentment unnecessary",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_81",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "77",
+      "section_title": "Liability of banker for negligently dealing with bill presented for payment",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_82",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "To whom payment should be made",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_83",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Interest or return in any other form when rate specified or not specified",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_84",
+      "page_numbers": [
+        28,
+        29
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "80",
+      "section_title": "Interest when no rate specified",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_85",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "81",
+      "section_title": "Delivery of instrument on payment, or indemnity in case of loss",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_86",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "82",
+      "section_title": "Discharge from liability",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_87",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "83",
+      "section_title": "Discharge by allowing drawee more than forty-eight hours to accept",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_88",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "84",
+      "section_title": "When cheque not duly presented and drawer damaged thereby",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_89",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "85",
+      "section_title": "Cheque payable to order",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_90",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "85A",
+      "section_title": "Draft drawn by one branch of a bank on another payable to order",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_91",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "86",
+      "section_title": "Parties not consenting discharged by qualified or limited acceptance",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_92",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "87",
+      "section_title": "Effect of material alteration",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_93",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "Acceptor indorser bound notwithstanding previous alteration",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_94",
+      "page_numbers": [
+        32
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "89",
+      "section_title": "Payment of instrument on which alteration is not apparent",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_95",
+      "page_numbers": [
+        32,
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "90",
+      "section_title": "Extinguishment of rights of action on bill in acceptor's hands",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_96",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "91",
+      "section_title": "Dishonour by non-acceptance",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_97",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "92",
+      "section_title": "Dishonour by non-payment",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_98",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "93",
+      "section_title": "By and to whom notice should be given",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_99",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "94",
+      "section_title": "Mode in which notice may be given",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_100",
+      "page_numbers": [
+        33,
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "95",
+      "section_title": "Party receiving must transmit notice of dishonour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_101",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Agent for presentment",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_102",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "97",
+      "section_title": "When party to whom notice given is dead",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_103",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "98",
+      "section_title": "When notice of dishonour is unnecessary",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_104",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "99",
+      "section_title": "Noting",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_105",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "100",
+      "section_title": "Protest",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_106",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "101",
+      "section_title": "Contents of protest",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_107",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "102",
+      "section_title": "Notice of protest",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_108",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "103",
+      "section_title": "Protest for non-payment after dishonour by non-acceptance",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_109",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "104",
+      "section_title": "Protest of foreign bills",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_110",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "104A",
+      "section_title": "When noting equivalent to protest",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_111",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "105",
+      "section_title": "Reasonable time",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_112",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "106",
+      "section_title": "Reasonable time of giving notice of dishonour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_113",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "107",
+      "section_title": "Reasonable time for transmitting such notice",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_114",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "108",
+      "section_title": "Acceptance for honour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_115",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "109",
+      "section_title": "How acceptance for honour must be made",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_116",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "110",
+      "section_title": "Acceptance not specifying for whose honour it is made",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_117",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "111",
+      "section_title": "Liability of acceptor for honour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_118",
+      "page_numbers": [
+        36,
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "112",
+      "section_title": "When acceptor for honour may be charged",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_119",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "113",
+      "section_title": "Payment for honour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_120",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "114",
+      "section_title": "Right of payer for honour",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_121",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "115",
+      "section_title": "Drawee in case of need",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_122",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "116",
+      "section_title": "Acceptance and payment without protest",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_123",
+      "page_numbers": [
+        37
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "117",
+      "section_title": "Rules as to compensation",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_124",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "118",
+      "section_title": "Presumptions as to negotiable instruments",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_125",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "119",
+      "section_title": "Presumption on proof of protest",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_126",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "120",
+      "section_title": "Estoppel against denying original validity of instrument",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_127",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "121",
+      "section_title": "Estoppel against denying capacity of payee to indorse",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_128",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "122",
+      "section_title": "Estoppel against denying signature or capacity of prior party",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_129",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER XIV",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_130",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "122A",
+      "section_title": "Revocation of banker's authority",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_131",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "123",
+      "section_title": "Cheque crossed generally",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_132",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "123A",
+      "section_title": "Cheque crossed \"account payee\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_133",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "124",
+      "section_title": "Cheque crossed specially",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_134",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "125",
+      "section_title": "Crossing after issue",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_135",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "125A",
+      "section_title": "Crossing a material part of a cheque",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_136",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "126",
+      "section_title": "Payment of cheque crossed generally",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_137",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "127",
+      "section_title": "Payment of cheque crossed specially more than once",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_138",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "128",
+      "section_title": "Payment in due course of crossed cheque",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_139",
+      "page_numbers": [
+        40
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "129",
+      "section_title": "Payment of crossed cheque out of due course",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_140",
+      "page_numbers": [
+        40,
+        41
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "130",
+      "section_title": "Cheque bearing \"not negotiable\"",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_141",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131",
+      "section_title": "Non-liability of banker receiving payment of cheque",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_142_1",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131",
+      "section_title": "Non-liability of banker receiving payment of cheque",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_142_2",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131",
+      "section_title": "Non-liability of banker receiving payment of cheque",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_142_3",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131C",
+      "section_title": "Cheque not operating as assignment of funds",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_143",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# CHAPTER XV",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_144",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131D",
+      "section_title": "Several drawees",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_145",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131E",
+      "section_title": "In whose favour a bill may be drawn",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_146",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131F",
+      "section_title": "When presentment for acceptance is necessary",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_147",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131G",
+      "section_title": "When presentment excused",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_148",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131H",
+      "section_title": "Holder's right of recourse against drawer and indorsers",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_149",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "131I",
+      "section_title": "Holder may refuse qualified acceptance",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_150",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "132",
+      "section_title": "Set of bills",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_151",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "133",
+      "section_title": "Holder of first acquired part entitled to all",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_152",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER XVI",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_153",
+      "page_numbers": [
+        43
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "135",
+      "section_title": "[Law of place of payment governs dishonour.]",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_154",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "136",
+      "section_title": "Instrument made, etc., outside Pakistan, but in accordance with their Law",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_155",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "137",
+      "section_title": "Presumption as to foreign law",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_156",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "138",
+      "section_title": "Power to appoint notaries public",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_157",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "139",
+      "section_title": "Power to make rules for notaries public",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_158",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER XVI",
+      "parent_id": "THE_NEGOTIABLE_INSTRUMENTS_ACT,_1881_159",
+      "page_numbers": [
+        44
+      ],
+      "num_children": 1
+    }
+  ]
+}

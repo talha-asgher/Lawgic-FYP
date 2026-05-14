@@ -1,0 +1,191 @@
+{
+  "source_file": "THE PAKISTAN COINAGE ACT, 1906.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PAKISTAN COINAGE ACT, 1906.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 19,
+  "total_child_chunks": 21,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PAKISTAN_COINAGE_ACT,_1906_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PAKISTAN_COINAGE_ACT,_1906_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Power to establish and abolish Mints",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_4",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Denominations, dimensions, designs and composition of coins",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Standard weight and remedy",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "to 12",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "-",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_8",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15A",
+      "section_title": "Power to call in coin",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15AA",
+      "section_title": "Decimal coinage",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_10",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power to certain persons to cut diminished or defaced silver coins",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Procedure in regard to coin cut under section 16 (a)",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Procedure in regard to coin cut under section 16 (b)",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_13",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Procedure in regard to coin which is liable to be cut under both clause (a) and clause (b) of section 16",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_14",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Power to certain persons to cut counterfeit or fraudulently defaced coin and procedure in regard to coin so cut",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Bar of suits",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Saving of making of other coins at Mints",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "-",
+      "parent_id": "THE_PAKISTAN_COINAGE_ACT,_1906_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    }
+  ]
+}

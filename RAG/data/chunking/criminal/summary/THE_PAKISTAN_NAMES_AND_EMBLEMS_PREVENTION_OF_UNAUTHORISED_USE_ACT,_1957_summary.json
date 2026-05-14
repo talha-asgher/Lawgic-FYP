@@ -1,0 +1,107 @@
+{
+  "source_file": "THE PAKISTAN NAMES AND EMBLEMS (PREVENTION OF UNAUTHORISED USE) ACT, 1957.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE PAKISTAN NAMES AND EMBLEMS (PREVENTION OF UNAUTHORISED USE) ACT, 1957.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 10,
+  "total_child_chunks": 10,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_PAKISTAN_NAMES_AND_EMBLEMS_PREVENTION_OF_UNAUTHORISED_USE_ACT,_1957_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_PAKISTAN_NAMES_AND_EMBLEMS_PREVENTION_OF_UNAUTHORISED_USE_ACT,_1957_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Prohibition of use of name or emblem and penalty",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Prohibition of grant or registration of patent, trade-mark, etc",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Amendment of the Schedule",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Previous sanction for prosecution",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Act not to prejudice other law",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_PAKISTAN_NAMES_AND_EMBLEMS_(PREVENTION_OF_UNAUTHORISED_USE)_ACT,_1957_10",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "source_file": "THE HINDU WIDOWS’ RE-MARRIAGE ACT, 1856.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE HINDU WIDOWS’ RE-MARRIAGE ACT, 1856.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 8,
+  "total_child_chunks": 14,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "1",
+      "section_title": "Marriage of Hindu widows legalized",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Rights of widow in deceased husband's property to cease on her re-marriage",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Guardianship of children of deceased husband on the re-marriage of his widow",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "4",
+      "section_title": "Nothing in this Act to render any childless widow capable of inheriting",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Saving of rights of widow marrying, except as provided in sections 2 to 4",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Ceremonies constituting valid marriage to have same effect on widow's marriage",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Consent to re-marriage of minor widow",
+      "parent_id": "THE_HINDU_WIDOWS’_RE-MARRIAGE_ACT,_1856_8",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    }
+  ]
+}

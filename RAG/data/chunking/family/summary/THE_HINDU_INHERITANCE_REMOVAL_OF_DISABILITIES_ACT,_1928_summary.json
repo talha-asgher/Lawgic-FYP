@@ -1,0 +1,53 @@
+{
+  "source_file": "THE HINDU INHERITANCE (REMOVAL OF DISABILITIES) ACT, 1928.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE HINDU INHERITANCE (REMOVAL OF DISABILITIES) ACT, 1928.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 4,
+  "total_child_chunks": 4,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_HINDU_INHERITANCE_REMOVAL_OF_DISABILITIES_ACT,_1928_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_HINDU_INHERITANCE_REMOVAL_OF_DISABILITIES_ACT,_1928_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_HINDU_INHERITANCE_(REMOVAL_OF_DISABILITIES)_ACT,_1928_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and application",
+      "parent_id": "THE_HINDU_INHERITANCE_(REMOVAL_OF_DISABILITIES)_ACT,_1928_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Persons not to be excluded form inheritance or rights in joint-family property",
+      "parent_id": "THE_HINDU_INHERITANCE_(REMOVAL_OF_DISABILITIES)_ACT,_1928_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Saving and exception",
+      "parent_id": "THE_HINDU_INHERITANCE_(REMOVAL_OF_DISABILITIES)_ACT,_1928_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,5013 @@
+{
+  "source_file": "THE PAKISTAN MERCHANT SHIPPING ORDINANCE, 2001.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PAKISTAN MERCHANT SHIPPING ORDINANCE, 2001.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 536,
+  "total_child_chunks": 929,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_1",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent, application and commencement",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_2",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_3_1",
+      "page_numbers": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_3_2",
+      "page_numbers": [
+        33,
+        34,
+        35
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "3",
+      "section_title": "Office of Mercantile Marine Department",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_4",
+      "page_numbers": [
+        35,
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Surveyors",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_5",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Radio Inspectors",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_6",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Shipping Offices",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_7",
+      "page_numbers": [
+        36
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Conduct of business of shipping office at other office",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_8",
+      "page_numbers": [
+        36,
+        37
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART II",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_9",
+      "page_numbers": [
+        37,
+        38
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "14",
+      "section_title": "Obligation to register ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_10",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Exemption from registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_11",
+      "page_numbers": [
+        38
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Registrars of Pakistani ships and ports of registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_12",
+      "page_numbers": [
+        38,
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Provisions for entries in register book",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_13",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Measurement of ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_14",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Marking of ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_15",
+      "page_numbers": [
+        39
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Entry of particulars in register book",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_16",
+      "page_numbers": [
+        39,
+        40,
+        41
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "27",
+      "section_title": "Endorsement of change of master on certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_17",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Endorsement of change of ownership",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_18",
+      "page_numbers": [
+        41
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "29",
+      "section_title": "Provisional certificate for ships becoming Pakistani owned abroad",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_19",
+      "page_numbers": [
+        41,
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Temporary passes in lieu of certificates of registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_20",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Transfer of ships or shares",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_21",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Declaration of transfer",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_22",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Registry of transfer",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_23",
+      "page_numbers": [
+        42
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Transmission of property in ship on death, bankruptcy, marriage, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_24",
+      "page_numbers": [
+        42,
+        43
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "35",
+      "section_title": "Order for sale on transmission to unqualified person",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_25_1",
+      "page_numbers": [
+        43,
+        44,
+        45
+      ],
+      "num_children": 11
+    },
+    {
+      "section_number": "35",
+      "section_title": "Order for sale on transmission to unqualified person",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_25_2",
+      "page_numbers": [
+        45,
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "48",
+      "section_title": "Restrictions on certificates of mortgage and sale",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_26",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Power of the Federal Government in case of loss of certificate of mortgage or sale",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_27",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Revocation of certificates of mortgage and sale",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_28",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Registry of alterations, registry anew and transfer of registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_29",
+      "page_numbers": [
+        46
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "Provisional certificate and endorsement",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_30",
+      "page_numbers": [
+        46,
+        47
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "53",
+      "section_title": "Registry anew on change of ownership",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_31",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Restrictions on re-registration of abandoned ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_32",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Provision for cases of infancy or other incapacity",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_33",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "Equities not included by Ordinance",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_34",
+      "page_numbers": [
+        47
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Liability of owners",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_35",
+      "page_numbers": [
+        47,
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "59",
+      "section_title": "Forgery of documents",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_36",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "False declaration",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_37",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "61",
+      "section_title": "National character of ship to be declared before clearance",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_38",
+      "page_numbers": [
+        48
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Penalty for concealment of Pakistan character or assumption of foreign character",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_39",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Penalty for acquiring ownership if unqualified",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_40",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Liabilities of ships not recognized as Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_41",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "65",
+      "section_title": "National colours for ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_42",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Penalty for unduly assuming Pakistani character",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_43",
+      "page_numbers": [
+        49
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Pakistani ships to hoist proper national colours in certain cases",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_44",
+      "page_numbers": [
+        49,
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Saving for Pakistan Navy",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_45",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Recognition of tonnage measurement of ships of foreign country",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_46",
+      "page_numbers": [
+        50
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "70",
+      "section_title": "Space occupied by deck cargo to be liable to dues",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_47",
+      "page_numbers": [
+        50,
+        51
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "71",
+      "section_title": "Surveyors and regulations for measurement of ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_48",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Levy of tonnage rates under local laws on the registered tonnage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_49",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Close of registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_50",
+      "page_numbers": [
+        51
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Powers to make rules in respect of matters in this Part",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_51",
+      "page_numbers": [
+        51,
+        52
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "75",
+      "section_title": "Application",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_52",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "International shipping operators",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_53",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "Government cargo",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_54",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "78",
+      "section_title": "Requirements for participation in coastal shipping",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_55",
+      "page_numbers": [
+        52
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "79",
+      "section_title": "Power to fix shipping rates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_56",
+      "page_numbers": [
+        52,
+        53
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "79A",
+      "section_title": "Regulation and determination of port charges by Shipping Companies and Shipping Agents etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_57",
+      "page_numbers": [
+        53,
+        54
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "87",
+      "section_title": "Power of Shipping Authority to enter ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_58",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "88",
+      "section_title": "Penalty",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_59",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "89",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_60",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IV",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_61",
+      "page_numbers": [
+        55
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "91",
+      "section_title": "Ships to be provided with certificated officers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_62",
+      "page_numbers": [
+        55,
+        56
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "92",
+      "section_title": "When officers or ratings deemed to be certificated",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_63",
+      "page_numbers": [
+        56
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "93",
+      "section_title": "Grades of certificates of competency",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_64",
+      "page_numbers": [
+        56,
+        57,
+        58
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "94",
+      "section_title": "Examinations for certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_65",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "95",
+      "section_title": "Grant of certificates on passing examination",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_66",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "96",
+      "section_title": "Certificate of competency for Naval Officer",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_67",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "97",
+      "section_title": "Form of certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_68",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "98",
+      "section_title": "Record of orders affecting certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_69",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "99",
+      "section_title": "Loss of certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_70",
+      "page_numbers": [
+        58
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "100",
+      "section_title": "Recognition of certificates of competency granted in other countries",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_71",
+      "page_numbers": [
+        58,
+        59
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "101",
+      "section_title": "Restriction on employment of aliens",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_72",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "102",
+      "section_title": "Production of certificates and other documents of qualifications",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_73",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "103",
+      "section_title": "Power to cancel or suspend certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_74",
+      "page_numbers": [
+        59
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "104",
+      "section_title": "Penalty",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_75",
+      "page_numbers": [
+        59,
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "105",
+      "section_title": "Power to make rules as to grant of certificates of competency",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_76",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "106",
+      "section_title": "Assistance for apprenticeship to sea service",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_77",
+      "page_numbers": [
+        60
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "107",
+      "section_title": "Special provisions as to apprenticeship to sea service",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_78",
+      "page_numbers": [
+        60,
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "108",
+      "section_title": "Manner in which contract, etc. is to be recorded",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_79",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "109",
+      "section_title": "Production of contracts to persons before voyage in ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_80",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "110",
+      "section_title": "Employment of young persons",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_81",
+      "page_numbers": [
+        61
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "111",
+      "section_title": "Engagement of young persons as trimmer or stoker",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_82",
+      "page_numbers": [
+        61,
+        62
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "112",
+      "section_title": "Medical examination of young persons",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_83",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "113",
+      "section_title": "Penalty for false representation by parent or guardian",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_84",
+      "page_numbers": [
+        62
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "114",
+      "section_title": "Penalty for contravention of sections 110, 111 and 112",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_85",
+      "page_numbers": [
+        62,
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "115",
+      "section_title": "Maintenance of list or register of young persons in a ship and penalty for failure to maintain or produce for inspection register of such persons",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_86",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "116",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_87",
+      "page_numbers": [
+        63
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "117",
+      "section_title": "Rules relating to engagement of seaman and maritime labour",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_88",
+      "page_numbers": [
+        63,
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "118",
+      "section_title": "Supply of seamen in contravention of this Ordinance prohibited",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_89",
+      "page_numbers": [
+        64
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "119",
+      "section_title": "Manning agent",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_90",
+      "page_numbers": [
+        64,
+        65
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "125",
+      "section_title": "Agreement with crew",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_91",
+      "page_numbers": [
+        66
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "126",
+      "section_title": "Forms and contents of agreement",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_92",
+      "page_numbers": [
+        66,
+        67
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "127",
+      "section_title": "Engagement in Pakistan of seamen for foreign ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_93",
+      "page_numbers": [
+        67
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "128",
+      "section_title": "Special provisions with regard to agreements with crew of Pakistani foreign-going ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_94",
+      "page_numbers": [
+        67,
+        68
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "129",
+      "section_title": "Renewal of running agreements in certain cases",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_95",
+      "page_numbers": [
+        68,
+        69
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "130",
+      "section_title": "Special provisions as to agreements with crew of home trade or coasting ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_96",
+      "page_numbers": [
+        69
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "131",
+      "section_title": "Changes in crew to be reported",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_97",
+      "page_numbers": [
+        69,
+        70
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "132",
+      "section_title": "Certificates as to agreements with crew of foreign going and home trade ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_98",
+      "page_numbers": [
+        70
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "133",
+      "section_title": "Certificate as to agreement with crew of coasting ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_99",
+      "page_numbers": [
+        70
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "134",
+      "section_title": "Copy of agreement with crew to be made accessible to the crew",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_100",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "135",
+      "section_title": "Alteration in agreement with the crew",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_101",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "136",
+      "section_title": "List of crew to be furnished to Shipping Master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_102",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "137",
+      "section_title": "Power to prohibit engagement of specified Pakistani seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_103",
+      "page_numbers": [
+        71
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "138",
+      "section_title": "Power to board ships and muster seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_104",
+      "page_numbers": [
+        71,
+        72,
+        73
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "142",
+      "section_title": "Discharge of a seaman abroad",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_105",
+      "page_numbers": [
+        73
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "143",
+      "section_title": "Discharge of seamen and apprentices on change of ownership",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_106",
+      "page_numbers": [
+        73
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "144",
+      "section_title": "Transmission of documents on transfer of seaman from one ship to another",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_107",
+      "page_numbers": [
+        73,
+        74
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "145",
+      "section_title": "Repatriation of seamen and apprentices on termination of service abroad",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_108",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "146",
+      "section_title": "Leaving behind in Pakistan a seaman or apprentice shipped abroad",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_109",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "147",
+      "section_title": "Leaving behind a seaman or apprentice by masters of Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_110",
+      "page_numbers": [
+        74
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "148",
+      "section_title": "Wages and other property of seaman or apprentice left behind Pakistani ships abroad",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_111",
+      "page_numbers": [
+        75
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "149",
+      "section_title": "Master to deliver account of wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_112",
+      "page_numbers": [
+        75
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "150",
+      "section_title": "Deduction from wages of seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_113",
+      "page_numbers": [
+        76
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "151",
+      "section_title": "Disrating of seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_114",
+      "page_numbers": [
+        76
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "152",
+      "section_title": "Deductions on account of provident fund, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_115",
+      "page_numbers": [
+        76
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "153",
+      "section_title": "Payment of wages before Shipping Master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_116",
+      "page_numbers": [
+        76
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "154",
+      "section_title": "Time of payment of wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_117",
+      "page_numbers": [
+        76,
+        77
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "155",
+      "section_title": "Settlement of wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_118",
+      "page_numbers": [
+        77,
+        78
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "158",
+      "section_title": "Rate of exchange for payment of seamen in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_119",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "159",
+      "section_title": "Right to wages and provisions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_120",
+      "page_numbers": [
+        78
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "160",
+      "section_title": "Wages not to depend on freight",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_121",
+      "page_numbers": [
+        78,
+        79
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "161",
+      "section_title": "Wages on termination of service by wreck, illness, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_122",
+      "page_numbers": [
+        79
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "162",
+      "section_title": "Wages not to accrue during refusal or imprisonment",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_123",
+      "page_numbers": [
+        79
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "163",
+      "section_title": "Compensation to seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_124",
+      "page_numbers": [
+        79,
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "164",
+      "section_title": "Restriction on sale of and charges upon wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_125",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "165",
+      "section_title": "Summary proceedings for wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_126",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "166",
+      "section_title": "Restrictions on suits for wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_127",
+      "page_numbers": [
+        80
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "167",
+      "section_title": "Advances and allotments",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_128",
+      "page_numbers": [
+        80,
+        81
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "168",
+      "section_title": "Stipulations as to allotment notes",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_129",
+      "page_numbers": [
+        81
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "169",
+      "section_title": "Payment of sums allotted",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_130",
+      "page_numbers": [
+        81,
+        82
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "170",
+      "section_title": "Master to take charge of the effects of deceased seaman",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_131",
+      "page_numbers": [
+        82
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "171",
+      "section_title": "Disposal of property of seaman who dies during the voyage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_132",
+      "page_numbers": [
+        82,
+        83
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "172",
+      "section_title": "Liability of master in respect of property of deceased seamen, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_133",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "173",
+      "section_title": "Property of deceased seamen left abroad but not on board ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_134",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "174",
+      "section_title": "Dealing with property of deceased seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_135",
+      "page_numbers": [
+        83
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "175",
+      "section_title": "Recovery of wages, etc., of seamen lost with their ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_136",
+      "page_numbers": [
+        83,
+        84
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "176",
+      "section_title": "Property of seamen dying in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_137",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "177",
+      "section_title": "Payment over property of deceased seamen be Shipping Master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_138",
+      "page_numbers": [
+        84
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "178",
+      "section_title": "Disposal of unclaimed property of deceased seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_139",
+      "page_numbers": [
+        84,
+        85
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "179",
+      "section_title": "Application of Chapter to apprentices",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_140",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "180",
+      "section_title": "Power to make rules with respect to distressed seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_141",
+      "page_numbers": [
+        85
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "181",
+      "section_title": "Relief and maintenance of distressed seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_142",
+      "page_numbers": [
+        85,
+        86
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "183",
+      "section_title": "Receiving distressed seamen on ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_143",
+      "page_numbers": [
+        86,
+        87
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "184",
+      "section_title": "Pakistan Consular officer of Shipping Master to decide return port to or route by which seaman is to be sent",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_144",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "185",
+      "section_title": "Provisions as to taking distressed seamen on ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_145",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "186",
+      "section_title": "What shall be evidence of distress",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_146",
+      "page_numbers": [
+        87
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "187",
+      "section_title": "Ships to have sufficient provisions and water",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_147",
+      "page_numbers": [
+        87,
+        88
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "190",
+      "section_title": "Medicines to be provided and kept on board certain ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_148",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "191",
+      "section_title": "Certain ships to carry medical officers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_149",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "192",
+      "section_title": "Weights and measures on board",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_150",
+      "page_numbers": [
+        89
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "193",
+      "section_title": "Expenses of medical attendance in case of illness",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_151",
+      "page_numbers": [
+        89,
+        90,
+        91
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "195",
+      "section_title": "Inspection of crew accommodation when a ship is re-registered",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_152",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "196",
+      "section_title": "Bedding, towels, etc., to be provided",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_153",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "197",
+      "section_title": "Inspection of provisions, water and medicines",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_154",
+      "page_numbers": [
+        91
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "198",
+      "section_title": "Inspection by master of provisions, water and accommodation at sea",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_155",
+      "page_numbers": [
+        91,
+        92
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "199",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_156",
+      "page_numbers": [
+        92
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "201",
+      "section_title": "Maintenance of discipline",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_157",
+      "page_numbers": [
+        92
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "202",
+      "section_title": "On change of master, documents to be handed over to successor",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_158",
+      "page_numbers": [
+        92
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "203",
+      "section_title": "Misconduct endangering life or ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_159",
+      "page_numbers": [
+        92,
+        93
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "204",
+      "section_title": "Desertion and absence without leave",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_160",
+      "page_numbers": [
+        93
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "206",
+      "section_title": "Conveyance of deserter or imprisoned seaman or apprentice on board ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_161",
+      "page_numbers": [
+        93,
+        94
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "207",
+      "section_title": "Power of Court to order offender to be taken on board ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_162",
+      "page_numbers": [
+        94
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "208",
+      "section_title": "General offences against discipline",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_163",
+      "page_numbers": [
+        94,
+        95
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "209",
+      "section_title": "Report of desertion and absence without leave",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_164",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "210",
+      "section_title": "Entries and certificates of desertion abroad",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_165",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "211",
+      "section_title": "Facilities for proving desertion in proceeding for forfeiture of wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_166",
+      "page_numbers": [
+        95
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "212",
+      "section_title": "Application of forfeiture",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_167",
+      "page_numbers": [
+        95,
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "213",
+      "section_title": "Decisions of questions for forfeiture and deductions in suits for wages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_168",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "214",
+      "section_title": "Payment of fines imposed under agreement to Shipping Master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_169",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "215",
+      "section_title": "Penalty for enticing to desert",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_170",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "216",
+      "section_title": "Penalty for harboring deserters",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_171",
+      "page_numbers": [
+        96
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "217",
+      "section_title": "Penalties on stowaways and discipline of stowaways and seamen carried under compulsion",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_172",
+      "page_numbers": [
+        96,
+        97
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "218",
+      "section_title": "Unauthorised presence on board ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_173",
+      "page_numbers": [
+        97
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "219",
+      "section_title": "Procedure where officer, seaman or apprentice not shipped in Pakistan is imprisoned on complaint of master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_174",
+      "page_numbers": [
+        97,
+        98
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "220",
+      "section_title": "Power to send on board officer or seaman or apprentice not shipped in Pakistan who is undergoing imprisonment",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_175",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "221",
+      "section_title": "Deserters from foreign ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_176",
+      "page_numbers": [
+        98
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "222",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_177",
+      "page_numbers": [
+        98,
+        99
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "223",
+      "section_title": "Particulars to be furnished in plaints, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_178",
+      "page_numbers": [
+        99
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "224",
+      "section_title": "Power of Collector to intervene in case of an unrepresented seaman",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_179",
+      "page_numbers": [
+        99
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "225",
+      "section_title": "Notice to be given in case of unrepresented seaman",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_180",
+      "page_numbers": [
+        99
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "226",
+      "section_title": "Postponement of proceedings",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_181",
+      "page_numbers": [
+        99,
+        100
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "227",
+      "section_title": "Power to set aside decrees and orders passed against serving seaman",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_182",
+      "page_numbers": [
+        100
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "228",
+      "section_title": "Modifications of law of limitation where seaman is a party",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_183",
+      "page_numbers": [
+        100
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "229",
+      "section_title": "Reference in matters of doubt to Shipping Master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_184",
+      "page_numbers": [
+        100,
+        101
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "234",
+      "section_title": "Uniforms when not to be worn",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_185",
+      "page_numbers": [
+        102
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "235",
+      "section_title": "Persons not to be dressed partly in uniform",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_186",
+      "page_numbers": [
+        102
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "236",
+      "section_title": "Penalties",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_187",
+      "page_numbers": [
+        102
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "237",
+      "section_title": "Facilities for making complaints",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_188",
+      "page_numbers": [
+        102
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "238",
+      "section_title": "Salvage reward invalid",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_189",
+      "page_numbers": [
+        102,
+        103
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "239",
+      "section_title": "Debts not recoverable till the conclusion of agreed services",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_190",
+      "page_numbers": [
+        103
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "241",
+      "section_title": "Prohibition again taking out property from ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_191",
+      "page_numbers": [
+        103
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "243",
+      "section_title": "Ship not to be boarded without permission before seamen leaves",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_192",
+      "page_numbers": [
+        103
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "244",
+      "section_title": "Power of Court to rescind contract between master, owner or agent and seaman or apprentice",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_193",
+      "page_numbers": [
+        103
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "245",
+      "section_title": "Constitution and functions of Central Maritime Advisory Committee",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_194",
+      "page_numbers": [
+        104
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "246",
+      "section_title": "Constitution of National Welfare Board for seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_195",
+      "page_numbers": [
+        104,
+        105
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "247",
+      "section_title": "Application",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_196",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "248",
+      "section_title": "No ship to carry passengers without a certificate of survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_197",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "249",
+      "section_title": "Powers of Federal Government to exempt certain ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_198",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "250",
+      "section_title": "No port clearance until certificate of survey produced",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_199",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "251",
+      "section_title": "Power to detain ship not having certificate of survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_200",
+      "page_numbers": [
+        105
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "252",
+      "section_title": "Owner or Agent responsible for survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_201",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "253",
+      "section_title": "Powers of surveyors",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_202",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "254",
+      "section_title": "Fees in respect of surveys",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_203",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "255",
+      "section_title": "Powers of the Federal Government to direct those two or more surveyors be employed",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_204",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "256",
+      "section_title": "Division of duties when two or more surveyors employed",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_205",
+      "page_numbers": [
+        106
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "257",
+      "section_title": "Declaration of survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_206",
+      "page_numbers": [
+        106,
+        107
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "258",
+      "section_title": "Sending of declaration by owner or master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_207",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "259",
+      "section_title": "Grant of certificate of survey by Federal Government",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_208",
+      "page_numbers": [
+        107
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "260",
+      "section_title": "Powers of the Federal Government to order a second survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_209",
+      "page_numbers": [
+        107,
+        108
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "261",
+      "section_title": "Ships with certificates of survey or certificates of partial survey granted outside Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_210",
+      "page_numbers": [
+        108
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "262",
+      "section_title": "Duration of certificate of survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_211",
+      "page_numbers": [
+        108
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "263",
+      "section_title": "Cancellation or suspension of certificate of survey by Federal Government",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_212",
+      "page_numbers": [
+        108,
+        109
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "264",
+      "section_title": "Alterations in ships subsequent to grant of certificate of survey and additional surveys",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_213",
+      "page_numbers": [
+        109
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "265",
+      "section_title": "Delivery of expired or cancelled certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_214",
+      "page_numbers": [
+        109
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "266",
+      "section_title": "Certificate of survey to be affixed in conspicuous part of ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_215",
+      "page_numbers": [
+        109
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "267",
+      "section_title": "Ship not to carry passengers in contravention of the Ordinance",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_216",
+      "page_numbers": [
+        109,
+        110
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "268",
+      "section_title": "Offenses in connection with passenger ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_217",
+      "page_numbers": [
+        110,
+        111
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "269",
+      "section_title": "Power to exclude drunken passengers from passenger ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_218",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "270",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_219",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "271",
+      "section_title": "Special trade passenger ships to be mechanically propelled",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_220",
+      "page_numbers": [
+        111
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "272",
+      "section_title": "Places appointed by Federal Government",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_221",
+      "page_numbers": [
+        111,
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "273",
+      "section_title": "Notice to be given on day of departure",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_222",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "274",
+      "section_title": "Power to enter on and inspect ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_223",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "275",
+      "section_title": "Special trade safety and space certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_224",
+      "page_numbers": [
+        112
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "276",
+      "section_title": "Ship not to sail without certificate A and B",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_225",
+      "page_numbers": [
+        112,
+        113
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "277",
+      "section_title": "Contents of certificate A",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_226",
+      "page_numbers": [
+        113
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "278",
+      "section_title": "Contents of certificate B",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_227",
+      "page_numbers": [
+        113,
+        114
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "279",
+      "section_title": "Customs Collector or officer of Customs not to grant port-clearance certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_228",
+      "page_numbers": [
+        114
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "280",
+      "section_title": "Survey of ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_229",
+      "page_numbers": [
+        114
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "281",
+      "section_title": "Discretion as to grant of certificate B",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_230",
+      "page_numbers": [
+        114,
+        115
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "282",
+      "section_title": "Copy of certificate to be exhibited",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_231",
+      "page_numbers": [
+        115
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "283",
+      "section_title": "Ship taking additional passengers at intermediate places",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_232",
+      "page_numbers": [
+        115
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "284",
+      "section_title": "Statements concerning passengers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_233",
+      "page_numbers": [
+        115,
+        116
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "285",
+      "section_title": "Deaths on voyage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_234",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "286",
+      "section_title": "Special trade passenger ships to carry medical officers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_235",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "287",
+      "section_title": "Penalty for non-compliance with certain provisions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_236",
+      "page_numbers": [
+        116
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "288",
+      "section_title": "Penalty for bringing passengers from any foreign port in excess of authorised number",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_237",
+      "page_numbers": [
+        116,
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "289",
+      "section_title": "Penalty for failing to supply special trade passengers with prescribed provisions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_238",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "290",
+      "section_title": "Penalty for ship unlawfully departing or receiving passengers on board",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_239",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "291",
+      "section_title": "Penalty for fraudulent alteration in ship after certificate obtained",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_240",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "292",
+      "section_title": "Number of passengers on board not to exceed that allowed by or under this Chapter",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_241",
+      "page_numbers": [
+        117
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "293",
+      "section_title": "Penalty for discharging special trade passengers at any port or place other than that contracted for",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_242",
+      "page_numbers": [
+        117,
+        118,
+        119,
+        120
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "300",
+      "section_title": "Application of certain provisions of Chapter 19 to pilgrim ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_243",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "301",
+      "section_title": "Pilgrim ships to be mechanically propelled",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_244",
+      "page_numbers": [
+        120
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "302",
+      "section_title": "Accommodation, etc; for pilgrims",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_245",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "303",
+      "section_title": "Disposal of pilgrims baggage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_246",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "304",
+      "section_title": "Hospital accommodation",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_247",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "305",
+      "section_title": "Statement concerning pilgrims to be delivered before ship departs",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_248",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "306",
+      "section_title": "Death on voyage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_249",
+      "page_numbers": [
+        121
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "307",
+      "section_title": "Pilgrim ship taking additional pilgrims at intermediate place",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_250",
+      "page_numbers": [
+        121,
+        122
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "308",
+      "section_title": "Statement concerning pilgrims to be delivered before pilgrims disembark in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_251",
+      "page_numbers": [
+        122
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "309",
+      "section_title": "Penalty for not complying with requirements as to statements concerning pilgrims, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_252",
+      "page_numbers": [
+        122
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "310",
+      "section_title": "Certain pilgrim ships to carry medical officers and attendants",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_253",
+      "page_numbers": [
+        122
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "312",
+      "section_title": "Bond where pilgrim ship proceeds on outward voyage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_254",
+      "page_numbers": [
+        122,
+        123
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "313",
+      "section_title": "Medical inspection and permission required before embarkation of pilgrims",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_255",
+      "page_numbers": [
+        123
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "314",
+      "section_title": "Medical inspections after embarkation in certain cases",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_256",
+      "page_numbers": [
+        123
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "315",
+      "section_title": "Returan passage to be secured",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_257",
+      "page_numbers": [
+        123,
+        124
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "316",
+      "section_title": "Issue or production of tickets",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_258",
+      "page_numbers": [
+        124
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "318",
+      "section_title": "Unclaimed deposits and passage money to vest in Federal Government",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_259_1",
+      "page_numbers": [
+        125,
+        126,
+        127
+      ],
+      "num_children": 12
+    },
+    {
+      "section_number": "318",
+      "section_title": "Unclaimed deposits and passage money to vest in Federal Government",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_259_2",
+      "page_numbers": [
+        127,
+        128
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "322",
+      "section_title": "Substitution of ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_260",
+      "page_numbers": [
+        128
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "323",
+      "section_title": "Sanitary taxes payable by the master",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_261",
+      "page_numbers": [
+        128
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "324",
+      "section_title": "Power to exempt ship from provisions of Chapter 20",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_262",
+      "page_numbers": [
+        128
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "325",
+      "section_title": "Appointment of officers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_263",
+      "page_numbers": [
+        128
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "326",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_264",
+      "page_numbers": [
+        128,
+        129,
+        130
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "327",
+      "section_title": "Countries to which the safety and Load Line Convention apply",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_265",
+      "page_numbers": [
+        130
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "328",
+      "section_title": "Construction of passenger ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_266",
+      "page_numbers": [
+        131
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "329",
+      "section_title": "Construction of cargo ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_267",
+      "page_numbers": [
+        131
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "330",
+      "section_title": "Power to make Rules with respect to the construction and survey of cargo ships, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_268",
+      "page_numbers": [
+        131
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "331",
+      "section_title": "Power to make rules as to life saving and fire fighting appliances, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_269",
+      "page_numbers": [
+        132,
+        133
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "332",
+      "section_title": "Inspection of life saving appliances, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_270",
+      "page_numbers": [
+        133
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "333",
+      "section_title": "Control of water-tight openings",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_271",
+      "page_numbers": [
+        133,
+        134
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "334",
+      "section_title": "Stability information and damage control",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_272",
+      "page_numbers": [
+        134,
+        135
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "335",
+      "section_title": "Requirements of radio installation and radio equipment",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_273",
+      "page_numbers": [
+        135
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "336",
+      "section_title": "Requirements as to radio direction finding apparatus",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_274",
+      "page_numbers": [
+        135
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "337",
+      "section_title": "Radio log",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_275",
+      "page_numbers": [
+        135
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "338",
+      "section_title": "Inspection, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_276",
+      "page_numbers": [
+        135,
+        136
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "339",
+      "section_title": "Requirements as to navigational equipment",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_277",
+      "page_numbers": [
+        136
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "340",
+      "section_title": "Application of chapter to foreign ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_278",
+      "page_numbers": [
+        136
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "341",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_279",
+      "page_numbers": [
+        136,
+        137
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "342",
+      "section_title": "Passenger ship safety certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_280",
+      "page_numbers": [
+        137
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "343",
+      "section_title": "Cargo ship safety equipment certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_281",
+      "page_numbers": [
+        137
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "344",
+      "section_title": "Cargo ship equipment certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_282",
+      "page_numbers": [
+        137
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "345",
+      "section_title": "Cargo ship safety radio certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_283",
+      "page_numbers": [
+        138
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "346",
+      "section_title": "Cargo ship safety construction certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_284",
+      "page_numbers": [
+        138
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "347",
+      "section_title": "Issuance of Exemption certificate or any other certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_285",
+      "page_numbers": [
+        138,
+        139
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "348",
+      "section_title": "Duration of certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_286",
+      "page_numbers": [
+        139
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "349",
+      "section_title": "Modification of passenger ship safety certificate in respect of life saving appliances",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_287",
+      "page_numbers": [
+        139,
+        140
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "350",
+      "section_title": "Recognition of certificates issued outside Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_288",
+      "page_numbers": [
+        140
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "351",
+      "section_title": "Issue of certificates to foreign ships in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_289",
+      "page_numbers": [
+        140
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "352",
+      "section_title": "Issue by foreign Governments of certificates to Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_290",
+      "page_numbers": [
+        140
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "353",
+      "section_title": "Prohibition on proceeding to sea without certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_291",
+      "page_numbers": [
+        140,
+        141
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "354",
+      "section_title": "Delegation of powers to perform certain functions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_292",
+      "page_numbers": [
+        141
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "355",
+      "section_title": "Production of certificates by ships other than Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_293",
+      "page_numbers": [
+        141
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "356",
+      "section_title": "Application of sections to certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_294",
+      "page_numbers": [
+        141
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "357",
+      "section_title": "Power of Federal Government to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_295",
+      "page_numbers": [
+        142
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "358",
+      "section_title": "Ships exempt from provisions relating to load lines",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_296",
+      "page_numbers": [
+        142,
+        143
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "359",
+      "section_title": "Power to make rules as to load lines",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_297",
+      "page_numbers": [
+        143
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "360",
+      "section_title": "Marking of deck line and load lines",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_298",
+      "page_numbers": [
+        144
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "361",
+      "section_title": "Alterations after survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_299",
+      "page_numbers": [
+        144
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "362",
+      "section_title": "Submersion of load line",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_300",
+      "page_numbers": [
+        144
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "363",
+      "section_title": "Submersion of sub-division load lines in case of passenger ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_301",
+      "page_numbers": [
+        144,
+        145
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "364",
+      "section_title": "Penalty for submersion of load lines and sub-division load lines",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_302",
+      "page_numbers": [
+        145
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "365",
+      "section_title": "Offences in relation to marks",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_303",
+      "page_numbers": [
+        145
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "366",
+      "section_title": "Inspection of ships with respect to load lines",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_304",
+      "page_numbers": [
+        145
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "367",
+      "section_title": "Issue, duration and extension of load line certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_305",
+      "page_numbers": [
+        145,
+        146,
+        147
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "368",
+      "section_title": "Issue, duration and cancellation of exemption certificates, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_306",
+      "page_numbers": [
+        147
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "369",
+      "section_title": "Ship not to proceed to sea without certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_307",
+      "page_numbers": [
+        148
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "370",
+      "section_title": "Publication of load line certificates and particulars relating to depth of loading",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_308",
+      "page_numbers": [
+        148
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "371",
+      "section_title": "Insertion of particulars as to load lines in agreements with crew",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_309",
+      "page_numbers": [
+        148,
+        149
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "372",
+      "section_title": "Load lines certificates of ships other than Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_310",
+      "page_numbers": [
+        149
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "373",
+      "section_title": "Recognition of load line and exemption certificates issued outside Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_311",
+      "page_numbers": [
+        149
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "374",
+      "section_title": "Inspection and control of foreign ships belonging to countries to which Load Line Convention applies",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_312",
+      "page_numbers": [
+        149,
+        150
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "375",
+      "section_title": "Certificate of ship other than Pakistani ships to be produced to Customs",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_313",
+      "page_numbers": [
+        150,
+        151
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "376",
+      "section_title": "Marking of deck line and load lines of ships other than Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_314",
+      "page_numbers": [
+        151
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "377",
+      "section_title": "Submersion of load lines of ships other than Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_315",
+      "page_numbers": [
+        151
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "378",
+      "section_title": "Inspection of ships belonging to non-convention countries",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_316",
+      "page_numbers": [
+        151
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "379",
+      "section_title": "Load line certificates and load line exemption certificates of ships other than Pakistani ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_317",
+      "page_numbers": [
+        151,
+        152
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "380",
+      "section_title": "Certificates to be produced to Customs by ships, other than Pakistani ships, belonging to non-Convention countries",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_318",
+      "page_numbers": [
+        152,
+        153
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "381",
+      "section_title": "Power to make rules in respect of timber cargo",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_319",
+      "page_numbers": [
+        153
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "382",
+      "section_title": "Carriage of dangerous goods",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_320",
+      "page_numbers": [
+        153,
+        154
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "383",
+      "section_title": "Restrictions on carriage of dangerous goods",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_321",
+      "page_numbers": [
+        154
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "384",
+      "section_title": "Penalty for misdescription of goods",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_322",
+      "page_numbers": [
+        154
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "385",
+      "section_title": "Power to deal with goods suspected of being dangerous",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_323",
+      "page_numbers": [
+        154
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "386",
+      "section_title": "Forfeiture of dangerous goods improperly sent or carried",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_324",
+      "page_numbers": [
+        154,
+        155
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "387",
+      "section_title": "Saving for other enactments relating to dangerous goods",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_325",
+      "page_numbers": [
+        155
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "388",
+      "section_title": "Grain loading plan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_326",
+      "page_numbers": [
+        155
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "389",
+      "section_title": "Carriage of grain",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_327",
+      "page_numbers": [
+        155,
+        156,
+        157
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "390",
+      "section_title": "Carriage of bulk cargoes other than grain, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_328",
+      "page_numbers": [
+        157
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "391",
+      "section_title": "Unseaworthy ship defined",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_329",
+      "page_numbers": [
+        157
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "392",
+      "section_title": "Unseaworthy ships not to be sent to sea",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_330",
+      "page_numbers": [
+        157
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "393",
+      "section_title": "Obligation of ship owner to crew with respect to seaworthiness",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_331",
+      "page_numbers": [
+        157,
+        158
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "394",
+      "section_title": "Power to detain unsafe ship and procedure for detention",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_332",
+      "page_numbers": [
+        158,
+        159
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "395",
+      "section_title": "Liability of Federal Government for costs and damages when ship wrongly detained",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_333",
+      "page_numbers": [
+        159
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "396",
+      "section_title": "Liability of ship owner for costs when ship rightly detained",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_334",
+      "page_numbers": [
+        159,
+        160
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "397",
+      "section_title": "Method of calculating costs of detention and survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_335",
+      "page_numbers": [
+        160
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "398",
+      "section_title": "Power to require from complainant security for costs",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_336",
+      "page_numbers": [
+        160
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "399",
+      "section_title": "Costs, etc., payable by Federal Government to be recovered from complainant",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_337",
+      "page_numbers": [
+        160
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "400",
+      "section_title": "Application to ships other than Pakistani ships of provisions as to detention",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_338",
+      "page_numbers": [
+        160,
+        161
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "401",
+      "section_title": "Detention, etc., of foreign ships in cases to which section 400 does not apply",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_339",
+      "page_numbers": [
+        161
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "402",
+      "section_title": "Exemption of ships from certain provisions of the Chapter",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_340",
+      "page_numbers": [
+        161
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "403",
+      "section_title": "Method of giving helm order",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_341",
+      "page_numbers": [
+        161
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "404",
+      "section_title": "Duty to report dangers to navigation",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_342",
+      "page_numbers": [
+        161,
+        162
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "405",
+      "section_title": "Careful navigation near ice",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_343",
+      "page_numbers": [
+        162
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "406",
+      "section_title": "Obligation to render assistance on receiving signal of distress",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_344",
+      "page_numbers": [
+        162,
+        163
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "407",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_345",
+      "page_numbers": [
+        163
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "408",
+      "section_title": "Ships to carry certain navigational instruments, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_346",
+      "page_numbers": [
+        163
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "409",
+      "section_title": "Signalling lamps",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_347",
+      "page_numbers": [
+        163
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "410",
+      "section_title": "Meteorological observations to be recorded, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_348",
+      "page_numbers": [
+        164
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "411",
+      "section_title": "Collision regulations",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_349",
+      "page_numbers": [
+        164
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "412",
+      "section_title": "Observance of collision regulations",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_350",
+      "page_numbers": [
+        164
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "413",
+      "section_title": "Inspection of lights and shapes, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_351",
+      "page_numbers": [
+        164,
+        165
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "414",
+      "section_title": "Saving for rules of navigation in harbour, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_352",
+      "page_numbers": [
+        165
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "415",
+      "section_title": "Duty of master to assist in case of collision",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_353",
+      "page_numbers": [
+        165
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "416",
+      "section_title": "Collision to be entered in official-log",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_354",
+      "page_numbers": [
+        165
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "417",
+      "section_title": "Report to Federal Government of accidents to ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_355",
+      "page_numbers": [
+        165,
+        166
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "418",
+      "section_title": "Notice of loss of Pakistani ship to be given",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_356",
+      "page_numbers": [
+        166
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "419",
+      "section_title": "Division of loss in case of collision",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_357",
+      "page_numbers": [
+        166
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "420",
+      "section_title": "Damages for personal injuries",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_358",
+      "page_numbers": [
+        166
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "421",
+      "section_title": "Right of contribution",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_359",
+      "page_numbers": [
+        166,
+        167
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "422",
+      "section_title": "Power to make rules for maritime communication",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_360",
+      "page_numbers": [
+        167
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "423",
+      "section_title": "Power to make regulations for search and rescue",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_361",
+      "page_numbers": [
+        167
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "424",
+      "section_title": "Official logs to be kept and to be dated",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_362",
+      "page_numbers": [
+        167,
+        168
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "425",
+      "section_title": "Entries required to be made in official log-book",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_363",
+      "page_numbers": [
+        168,
+        169,
+        170
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "426",
+      "section_title": "Entries required to be made in official log-book of every other ship which carries Pakistani seamen",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_364",
+      "page_numbers": [
+        170
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "427",
+      "section_title": "Offences in respect of official log",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_365",
+      "page_numbers": [
+        170
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "428",
+      "section_title": "Delivery of official logs",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_366",
+      "page_numbers": [
+        170
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "429",
+      "section_title": "Official logs to be sent to Shipping Master in the case of transfer or loss of ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_367",
+      "page_numbers": [
+        171
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "430",
+      "section_title": "Power to call for official logs",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_368",
+      "page_numbers": [
+        171
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "431",
+      "section_title": "Application of Chapter",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_369",
+      "page_numbers": [
+        171
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "432",
+      "section_title": "Ascertainment of tonnage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_370",
+      "page_numbers": [
+        171
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "433",
+      "section_title": "Registration of fishing vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_371",
+      "page_numbers": [
+        171,
+        172
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "434",
+      "section_title": "Effect of registration of fishing vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_372",
+      "page_numbers": [
+        172
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "435",
+      "section_title": "Particulars relating to fishing vessels to be painted",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_373",
+      "page_numbers": [
+        172,
+        173
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "436",
+      "section_title": "Change of name",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_374",
+      "page_numbers": [
+        173
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "437",
+      "section_title": "Change of ownership",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_375",
+      "page_numbers": [
+        173
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "438",
+      "section_title": "Mortgages of fishing vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_376",
+      "page_numbers": [
+        173
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "439",
+      "section_title": "Registration of alterations",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_377",
+      "page_numbers": [
+        173,
+        174
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "440",
+      "section_title": "Transfer of registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_378",
+      "page_numbers": [
+        174
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "441",
+      "section_title": "Entries in register relating to vessel lost, etc; to stand closed",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_379",
+      "page_numbers": [
+        174
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "442",
+      "section_title": "Certificate of inspection",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_380",
+      "page_numbers": [
+        174,
+        175
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "443",
+      "section_title": "Fishing vessel safety certificate and exemption certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_381",
+      "page_numbers": [
+        175
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "444",
+      "section_title": "Port clearance not to be given",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_382",
+      "page_numbers": [
+        175
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "445",
+      "section_title": "Fraudulent use of certificate of registry, certificate of inspection or safety certificate, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_383",
+      "page_numbers": [
+        175
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "446",
+      "section_title": "Life saving appliances, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_384",
+      "page_numbers": [
+        175,
+        176
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "447",
+      "section_title": "Skippers and engine drivers to be duly certificated",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_385",
+      "page_numbers": [
+        176
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "448",
+      "section_title": "Statement relating to crew to be maintained",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_386",
+      "page_numbers": [
+        176
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "449",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_387",
+      "page_numbers": [
+        176,
+        177
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "450",
+      "section_title": "Application of Chapter",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_388",
+      "page_numbers": [
+        177
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "451",
+      "section_title": "Decision of question whether a vessel is a sailing vessel",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_389",
+      "page_numbers": [
+        177
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "452",
+      "section_title": "Certificate of registry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_390",
+      "page_numbers": [
+        177,
+        178
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "453",
+      "section_title": "Change of name of sailing vessel",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_391",
+      "page_numbers": [
+        178,
+        179
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "455",
+      "section_title": "Certificate of inspection",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_392",
+      "page_numbers": [
+        179,
+        180
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "456",
+      "section_title": "Inquiry into jettisoning of cargo",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_393",
+      "page_numbers": [
+        180
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "458",
+      "section_title": "Detention of overloaded foreign sailing vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_394",
+      "page_numbers": [
+        180,
+        181
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "459",
+      "section_title": "Application to sailing vessels of certain provisions relating to ships and fishing vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_395",
+      "page_numbers": [
+        181
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "460",
+      "section_title": "Powers to make rules respecting sailing vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_396",
+      "page_numbers": [
+        181,
+        182
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "461",
+      "section_title": "Application of Ordinance to nuclear ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_397",
+      "page_numbers": [
+        182
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "462",
+      "section_title": "Nuclear passenger ship safety certificates and nuclear cargo ship safety certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_398",
+      "page_numbers": [
+        182
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "464",
+      "section_title": "Safety assessment and operating manual",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_399",
+      "page_numbers": [
+        183
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "465",
+      "section_title": "Foreign nuclear ships to give advance notice of arrival",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_400",
+      "page_numbers": [
+        183
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "466",
+      "section_title": "Control on arrival of nuclear ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_401",
+      "page_numbers": [
+        183
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "467",
+      "section_title": "Notice of accidents to nuclear ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_402",
+      "page_numbers": [
+        183,
+        184
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "468",
+      "section_title": "Application of certain section to or in relation to certain certificates under section 462",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_403",
+      "page_numbers": [
+        184
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "469",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_404",
+      "page_numbers": [
+        184,
+        185
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "470",
+      "section_title": "Shipping casualties and report thereof",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_405",
+      "page_numbers": [
+        185,
+        186,
+        187
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "472",
+      "section_title": "Application to Court for a formal inquiry",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_406",
+      "page_numbers": [
+        187
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "473",
+      "section_title": "Power of Court to inquire into charges against masters, mates and engineers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_407",
+      "page_numbers": [
+        187
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "474",
+      "section_title": "Person accused to be heard",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_408",
+      "page_numbers": [
+        187
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "475",
+      "section_title": "Powers of Courts as to evidence and regulation of proceedings",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_409",
+      "page_numbers": [
+        187
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "476",
+      "section_title": "Assessors",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_410",
+      "page_numbers": [
+        188
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "477",
+      "section_title": "Power to arrest witnesses and enter ships, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_411",
+      "page_numbers": [
+        188
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "478",
+      "section_title": "Power to commit for trial and bind over making the witnesses",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_412",
+      "page_numbers": [
+        188
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "479",
+      "section_title": "Report by Court to Federal Government",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_413",
+      "page_numbers": [
+        188
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "480",
+      "section_title": "Investigation into causes of explosion or fire on board ship, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_414",
+      "page_numbers": [
+        188,
+        189
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "481",
+      "section_title": "Power of Federal Government to direct inquiry into charges of incompetency or misconduct",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_415",
+      "page_numbers": [
+        189
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "482",
+      "section_title": "Provisions of this Chapter to apply to certain other vessels",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_416",
+      "page_numbers": [
+        189
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "483",
+      "section_title": "Convening of Maritime Boards outside Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_417",
+      "page_numbers": [
+        189,
+        190
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "484",
+      "section_title": "Constitution and procedure of Maritime Board",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_418",
+      "page_numbers": [
+        190
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "485",
+      "section_title": "Decisions of Maritime Boards to be by majority",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_419",
+      "page_numbers": [
+        190
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "486",
+      "section_title": "Powers of Maritime Boards",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_420",
+      "page_numbers": [
+        190,
+        191
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "488",
+      "section_title": "Application of Chapter",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_421",
+      "page_numbers": [
+        192
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "489",
+      "section_title": "Power of Federal Government to cancel, suspend, etc. Certificates of master, mate or engineer",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_422",
+      "page_numbers": [
+        192
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "490",
+      "section_title": "Delivery of cancelled or suspended certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_423",
+      "page_numbers": [
+        192
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "491",
+      "section_title": "Effect of cancellation or suspension of certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_424",
+      "page_numbers": [
+        192,
+        193
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "492",
+      "section_title": "Suspended certificates not to be endorsed",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_425",
+      "page_numbers": [
+        193
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "493",
+      "section_title": "Power of Federal Government to cancel or suspend other certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_426",
+      "page_numbers": [
+        193
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "494",
+      "section_title": "Re-hearing",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_427",
+      "page_numbers": [
+        193
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "495",
+      "section_title": "Power of Federal Government to revoke cancellation, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_428",
+      "page_numbers": [
+        193,
+        194
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "496",
+      "section_title": "Appeal to Court of Survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_429",
+      "page_numbers": [
+        194
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "497",
+      "section_title": "Constitution of Court of Survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_430",
+      "page_numbers": [
+        194
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "498",
+      "section_title": "Powers and procedure of Court of Survey",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_431",
+      "page_numbers": [
+        195
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "499",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_432",
+      "page_numbers": [
+        195
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "500",
+      "section_title": "Reference in difficult cases to scientific persons",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_433",
+      "page_numbers": [
+        195,
+        196
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "501",
+      "section_title": "Receivers of wreck",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_434",
+      "page_numbers": [
+        196
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "502",
+      "section_title": "Duty of receiver where vessel is in distress",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_435",
+      "page_numbers": [
+        196
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "503",
+      "section_title": "Power of receiver in case of vessel in distress",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_436",
+      "page_numbers": [
+        196
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "504",
+      "section_title": "Power to pass over adjoining lands and order removal of the wreck and penalties for non-compliance",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_437",
+      "page_numbers": [
+        196,
+        197
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "505",
+      "section_title": "Power of receiver to suppress plunder and disorder by force",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_438",
+      "page_numbers": [
+        197,
+        198
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "506",
+      "section_title": "Procedure to be observed by persons finding wreck",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_439",
+      "page_numbers": [
+        198
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "507",
+      "section_title": "Investigation of certain matters in respect of vessels wrecked",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_440",
+      "page_numbers": [
+        198
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "508",
+      "section_title": "Penalty for taking wreck at time of casualty",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_441",
+      "page_numbers": [
+        198,
+        199
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "509",
+      "section_title": "Taking wreck to foreign port",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_442",
+      "page_numbers": [
+        199
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "510",
+      "section_title": "Notice to be given by receiver",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_443",
+      "page_numbers": [
+        199
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "511",
+      "section_title": "Wrecks may in certain cases be sold",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_444",
+      "page_numbers": [
+        199
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "512",
+      "section_title": "Proceeds how applied",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_445",
+      "page_numbers": [
+        199
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "513",
+      "section_title": "Removal of wreck by harbour or conservancy authority",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_446",
+      "page_numbers": [
+        199,
+        200
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "514",
+      "section_title": "Claims of owners to wrecks",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_447",
+      "page_numbers": [
+        200,
+        201,
+        202,
+        203
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "524",
+      "section_title": "Liability for reasonable costs",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_448",
+      "page_numbers": [
+        203
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "525",
+      "section_title": "Unseaworthy ships brought to Pakistani water without prior permission",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_449",
+      "page_numbers": [
+        203
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "526",
+      "section_title": "Salvage payable for saving life, cargo or wreck",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_450",
+      "page_numbers": [
+        203,
+        204
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "527",
+      "section_title": "Savings",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_451",
+      "page_numbers": [
+        204
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "528",
+      "section_title": "Instructions to prevent harmful consequences",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_452",
+      "page_numbers": [
+        204
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "529",
+      "section_title": "Measures to prevent harmful consequences",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_453",
+      "page_numbers": [
+        205
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "530",
+      "section_title": "Proportionality of instructions and measures",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_454",
+      "page_numbers": [
+        205
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "531",
+      "section_title": "Consultation",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_455",
+      "page_numbers": [
+        205
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "532",
+      "section_title": "Duty to co-operate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_456",
+      "page_numbers": [
+        205
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "533",
+      "section_title": "Power to make rules respecting wreck and salvage",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_457",
+      "page_numbers": [
+        205,
+        206
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "534",
+      "section_title": "Scope",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_458",
+      "page_numbers": [
+        206
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "535",
+      "section_title": "Persons entitled to limit liability",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_459",
+      "page_numbers": [
+        206,
+        207
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "536",
+      "section_title": "Claims subject to limitation",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_460",
+      "page_numbers": [
+        207
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "537",
+      "section_title": "Claims excepted from limitation",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_461",
+      "page_numbers": [
+        207,
+        208
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "538",
+      "section_title": "Conduct barring limitation",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_462",
+      "page_numbers": [
+        208
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "539",
+      "section_title": "Counter-claims",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_463",
+      "page_numbers": [
+        208
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "540",
+      "section_title": "Applications of the limits",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_464",
+      "page_numbers": [
+        208
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "541",
+      "section_title": "General limits of liability",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_465",
+      "page_numbers": [
+        208,
+        209
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "542",
+      "section_title": "Limit for passenger claims",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_466",
+      "page_numbers": [
+        209,
+        210
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "543",
+      "section_title": "Unit of account",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_467",
+      "page_numbers": [
+        210
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "544",
+      "section_title": "Aggregation of claims",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_468",
+      "page_numbers": [
+        210
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "545",
+      "section_title": "Limitation of fund and consolidation of claims against owners",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_469",
+      "page_numbers": [
+        210,
+        211
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "546",
+      "section_title": "Release of ships, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_470",
+      "page_numbers": [
+        211,
+        212
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "547",
+      "section_title": "Application to ships in course of completion or construction, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_471",
+      "page_numbers": [
+        212
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "548",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_472",
+      "page_numbers": [
+        212
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "551",
+      "section_title": "Priorities",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_473",
+      "page_numbers": [
+        213
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART IV",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_474",
+      "page_numbers": [
+        213
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "552",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_475",
+      "page_numbers": [
+        213,
+        214,
+        215
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "553",
+      "section_title": "International pollution prevention certificates",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_476",
+      "page_numbers": [
+        215
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "554",
+      "section_title": "Prevention of pollution by sewage and garbage from ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_477",
+      "page_numbers": [
+        216
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "555",
+      "section_title": "Prohibition against oil pollution from ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_478",
+      "page_numbers": [
+        216,
+        217
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "556",
+      "section_title": "Prohibition against pollution due to discharge of noxious liquid substances from ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_479",
+      "page_numbers": [
+        217
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "557",
+      "section_title": "Special Powers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_480",
+      "page_numbers": [
+        217,
+        218
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "558",
+      "section_title": "Exceptions in cases of emergencies",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_481",
+      "page_numbers": [
+        218
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "559",
+      "section_title": "Equipment in ships to prevent pollution",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_482",
+      "page_numbers": [
+        218
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "560",
+      "section_title": "Oil record book",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_483",
+      "page_numbers": [
+        219
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "561",
+      "section_title": "Cargo record book for chemical tankers",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_484",
+      "page_numbers": [
+        219
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "562",
+      "section_title": "Inspection and control of ships with respect to prevention of pollution",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_485",
+      "page_numbers": [
+        219,
+        220
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "563",
+      "section_title": "Information regarding contravention of the provisions of the convention",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_486",
+      "page_numbers": [
+        220
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "564",
+      "section_title": "Oil reception facilities at ports in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_487",
+      "page_numbers": [
+        220
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "565",
+      "section_title": "Reception facilities for noxious liquid substances in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_488",
+      "page_numbers": [
+        220
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "566",
+      "section_title": "Pollution from shipping casualties",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_489",
+      "page_numbers": [
+        220,
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "567",
+      "section_title": "Prohibition of dumping",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_490",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "568",
+      "section_title": "Permits for dumping",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_491",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "569",
+      "section_title": "Prohibition of loading without permit",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_492",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "570",
+      "section_title": "Exemption",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_493",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "571",
+      "section_title": "Issuance of special permit",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_494",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "572",
+      "section_title": "Conditions to permits",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_495",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "573",
+      "section_title": "Recognition of foreign permits",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_496",
+      "page_numbers": [
+        221
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "574",
+      "section_title": "Recovery and liability",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_497",
+      "page_numbers": [
+        222
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "575",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_498",
+      "page_numbers": [
+        222
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "576",
+      "section_title": "Certain persons to be deemed public servant",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_499",
+      "page_numbers": [
+        222,
+        223
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "577",
+      "section_title": "Jurisdiction",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_500",
+      "page_numbers": [
+        223
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "578",
+      "section_title": "Place of trial",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_501",
+      "page_numbers": [
+        223
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "579",
+      "section_title": "Enforcement of penalties in certain cases",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_502",
+      "page_numbers": [
+        223
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "580",
+      "section_title": "Special provision regarding punishment",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_503",
+      "page_numbers": [
+        223
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "581",
+      "section_title": "Offences by companies",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_504",
+      "page_numbers": [
+        223,
+        224
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "582",
+      "section_title": "Depositions to be received in evidence when witnesses cannot be produced",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_505",
+      "page_numbers": [
+        224
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "583",
+      "section_title": "Survey of ships alleged by seamen to be unseaworthy",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_506",
+      "page_numbers": [
+        224,
+        225
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "584",
+      "section_title": "Jurisdiction over ships laying off coasts",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_507",
+      "page_numbers": [
+        225
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "585",
+      "section_title": "Jurisdiction in case of offences on board",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_508",
+      "page_numbers": [
+        225,
+        226
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "589",
+      "section_title": "Levy of wages, fines etc. by sale of ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_509",
+      "page_numbers": [
+        227
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "590",
+      "section_title": "Notice to be given to consular representative of proceedings taken in respect of foreign ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_510",
+      "page_numbers": [
+        227
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "591",
+      "section_title": "Service of documents",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_511",
+      "page_numbers": [
+        227
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "592",
+      "section_title": "Proof of attestation not required",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_512",
+      "page_numbers": [
+        227
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "593",
+      "section_title": "Fines to compensate for damages",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_513",
+      "page_numbers": [
+        227
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "594",
+      "section_title": "Shipping Development Fund",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_514",
+      "page_numbers": [
+        227,
+        228
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "595",
+      "section_title": "Fees for establishing training institutions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_515",
+      "page_numbers": [
+        228
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "596",
+      "section_title": "Inquiry into cause of death on board Pakistani ship",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_516",
+      "page_numbers": [
+        228,
+        229
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "597",
+      "section_title": "Power to appoint examiners and to make rules as to qualifications of surveyors",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_517",
+      "page_numbers": [
+        229
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "598",
+      "section_title": "No person to practise as surveyor unless qualified",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_518",
+      "page_numbers": [
+        229
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "599",
+      "section_title": "Penalty for practising as surveyor without certificate",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_519",
+      "page_numbers": [
+        229
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "600",
+      "section_title": "Powers of person appointed or authorised to survey ships",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_520",
+      "page_numbers": [
+        229
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "601",
+      "section_title": "Decision of consular officer to be final until ship returns to the final port of discharge in Pakistan",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_521",
+      "page_numbers": [
+        229
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "602",
+      "section_title": "Penalty for hindering or obstructing execution of duties, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_522",
+      "page_numbers": [
+        230
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "603",
+      "section_title": "General power to make rules or regulations and penalty for breach thereof",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_523",
+      "page_numbers": [
+        230
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "604",
+      "section_title": "Power to appoint officers to try certain offences, etc",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_524",
+      "page_numbers": [
+        230
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "605",
+      "section_title": "Power to exempt ships from the provisions of the Ordinance",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_525",
+      "page_numbers": [
+        230
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "606",
+      "section_title": "Power to constitute committees to advise on rules, regulations and scales of fees",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_526",
+      "page_numbers": [
+        230,
+        231
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "607",
+      "section_title": "Protection of persons acting under Ordinance",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_527",
+      "page_numbers": [
+        231
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "608",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_528",
+      "page_numbers": [
+        231
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "609",
+      "section_title": "Power to make rules with respect to maritime international conventions",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_529",
+      "page_numbers": [
+        231
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART XVI",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_530",
+      "page_numbers": [
+        231,
+        232
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SCHEDULE",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_531",
+      "page_numbers": [
+        232
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "ENACTMENTS REPEALED",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_532",
+      "page_numbers": [
+        232,
+        233
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SCHEDULE",
+      "parent_id": "THE_PAKISTAN_MERCHANT_SHIPPING_ORDINANCE,_2001_533",
+      "page_numbers": [
+        233
+      ],
+      "num_children": 1
+    }
+  ]
+}

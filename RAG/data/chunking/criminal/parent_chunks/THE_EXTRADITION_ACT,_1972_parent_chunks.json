@@ -1,0 +1,502 @@
+[
+  {
+    "text": "ACT No. XXI OF 1972\n\n[25th September, 1972]\n\nAn Act to consolidate and amend the law relating to the extradition of fugitive offenders.\n\nWHEREAS it is expedient to consolidate and amend the law relating to the extradition of fugitive offenders;\n\nIt is hereby enacted as follows:—",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_1",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "category": "criminal",
+      "start_pos_raw": 1391,
+      "end_pos_raw": 1670,
+      "page_numbers": [
+        3
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "1. Short title, extent, commencement and application.—(1) This Act may be called the Extradition Act, 1972.\n\n(2) It extends to the whole of Pakistan.\n\n(3) It shall come into force on such date as the Federal Government may, by notification in the official Gazette, appoint.\n\n(4) It shall apply in relation to the return of persons to, and to persons returned from,—\n\n\n(a) a treaty State, subject to a declaration under section 3, if any; and\n\n\n(b) a foreign State not being a treaty State, subject to a direction under section 4.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_2",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "1",
+      "section_title": "Short title, extent, commencement and application",
+      "category": "criminal",
+      "start_pos_raw": 1702,
+      "end_pos_raw": 2233,
+      "page_numbers": [
+        3
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "2. Definitions. —(1) In this Act, unless there is anything repugnant in the subject or context,—\n\n\n(a) \"extradition offence\" means an offence the act or omission constituting which falls within any of the descriptions set out in the Schedule and, if it took place within, or within the jurisdiction of, Pakistan, would constitute an offence against the law of Pakistan and also—\n\n\n\n(i) in the case of a treaty State, an offence a person accused of which is, under the extradition treaty with that State, to be returned to or from that State; and\n\n\n(ii) in the case of a foreign State not being a treaty State, an offence specified in a direction issued under section 4;\n\n\n(b) \"extradition treaty\" means a treaty or agreement between Pakistan and a foreign State for the extradition to or from such State of a person accused or convicted of an extradition offence;\n\n\n\n(c) \"foreign State\" includes every constituent part, colony or dependency of such State;\n\n\n\n(d) \"fugitive offender\" means the person who, being accused or convicted of an extradition offence is, or is suspected to be, in any part of Pakistan;\n\n\n(e) \"prescribed\" means prescribed by rules made under this Act;\n\n\n(f) \"treaty State\" means a foreign State with which an extradition treaty is for the time being in operation.\n\n(2) In determining for the purposes of this Act whether an offence against the law of a foreign State falls within a description set out in the Schedule, any special intent or state of mind or special circumstances of aggravation which may be necessary to constitute that offence under the law shall be disregarded.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_3",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "2",
+      "section_title": "Definitions",
+      "category": "criminal",
+      "start_pos_raw": 2235,
+      "end_pos_raw": 3850,
+      "page_numbers": [
+        3,
+        4
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "3. Treaty State.—(1) As soon as may be after the commencement of this Act, the Federal Government shall publish in the official Gazette a list of the foreign States with which an extradition treaty is in operation, specifying in respect of each such State the offences persons accused of which are, under the treaty, to be returned to or from that State.\n\n(2) Whenever there is concluded an extradition treaty between Pakistan and a foreign State, the Federal Government may, by notification in the official Gazette, declare such State to be a treaty State for the purposes of this Act.\n\n(3) A declaration under sub-section (2) in relation to a foreign state shall specify the offences persons accused of which are, under the extradition treaty with that State, to be returned to or from that State and may provide that this Act shall apply in relation to that State with such modification as may be set out therein; and the provisions of this Act shall have effect accordingly.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_4",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "3",
+      "section_title": "Treaty State",
+      "category": "criminal",
+      "start_pos_raw": 3852,
+      "end_pos_raw": 4834,
+      "page_numbers": [
+        4
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "4. Application of Act to non-treaty States.—(1) Where the Federal Government considers it expedient that the persons who, being accused or convicted of offences at places within, or within the jurisdiction of, a foreign State, are or are suspected to be in Pakistan should be returned to the State, notwithstanding that there is no extradition treaty with that State, it may, by notification in the official Gazette, direct that the provisions of this Act shall, with respect to such offences and subject to such modifications, exceptions, conditions and qualifications, if any, as may be specified therein, have effect in relation to that State.\n\n(2) Where a direction under sub-section (1) in relation to a foreign State is in force, the provisions of this Act shall, with respect to the offences specified in that direction, have effect in relation to such State as if it were a treaty State.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_5",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "4",
+      "section_title": "Application of Act to non-treaty States",
+      "category": "criminal",
+      "start_pos_raw": 4836,
+      "end_pos_raw": 5735,
+      "page_numbers": [
+        4
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "5. Liability of fugitive offenders to be surrendered.—(1) Subject to the provisions of sub-section (2), every fugitive offender shall be liable to be apprehended and surrendered in the manner provided in this Act, whether the offence in respect of which his surrender is sought was committed before or after the commencement of this Act and whether or not a court in Pakistan has jurisdiction to try that offence.\n\n(2) No fugitive offender shall be surrendered—\n\n\n(a) if the offence in respect of which his surrender is sought is of a political character or if it is shown to the satisfaction of the Federal Government or of\n\nthe Magistrate or court before whom he may be produced that the requisition for his surrender has, in fact, been made with a view to his being tried or punished for an offence of a political character;\n\n- *(b)* if the offence in respect of which his surrender is sought is not punishable with death or with imprisonment for life or a term which is not less than twelve months;\n\n- *(c)* if the prosecution for the offence in respect of which the surrender is sought is, according to the law of the State asking for the surrender, barred by time;\n\n- *(d)* if there is no provision in the law of, or in the extradition treaty with, the State asking for the surrender that the fugitive offender shall not, until he has been restored or has had an opportunity of returning to Pakistan, be detailed or tried in that State for any offence committed prior to his surrender, other than the extradition offence proved by the facts on which the surrender is based;\n\n- *(e)* if it appears to the Federal Government that he is accused or alleged to have been convicted of such an offence that if he were charged with that offence in Pakistan he would be entitled to be discharged under any law relating to previous acquittal or conviction;\n\n- *(f)* if he has been accused of some offence in Pakistan, not being the offence for which his surrender is sought, or is undergoing sentence under any conviction in Pakistan, until after he has been discharged, whether by acquittal or on the expiration of his sentence or otherwise;\n\n- *(g)* if it is shown to the satisfaction of the Federal Government or of the Magistrate or court before whom he may be produced that he might if surrendered be prejudiced at his trial or punished, detained or restricted in his personal liberty by reason of his race, religion, nationality or political opinions.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_6",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "5",
+      "section_title": "Liability of fugitive offenders to be surrendered",
+      "category": "criminal",
+      "start_pos_raw": 5788,
+      "end_pos_raw": 8265,
+      "page_numbers": [
+        4,
+        5
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "6. Requisition for surrender of fugitive offender. A requisition for the surrender of a fugitive offender shall be made to the Federal Government—\n\n- *(a)* by a diplomatic representative in Pakistan of the State asking for the surrender; or\n\n- *(b)* by the Government of the State asking for the surrender through the diplomatic representative of Pakistan in that State; or\n\n- *(c)* in such other manner as may have been settled by arrangement between the Federal Government and the Government of the State asking for the surrender.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_7",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "6",
+      "section_title": "Requisition for surrender of fugitive offender",
+      "category": "criminal",
+      "start_pos_raw": 8267,
+      "end_pos_raw": 8803,
+      "page_numbers": [
+        5
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "7. Order of Magisterial enquiry. Where a requisition is made under section 6, the ¹[Secretary of the Division to which business of this Act stands allocated may, if he] thinks fit, issue an order to\n\nenquire into the case to any Magistrate of the first class who would have had jurisdiction to enquire into the extradition offence to which the requisition relates if it had been an offence committed within the local limits of his jurisdiction.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_8",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "7",
+      "section_title": "Order of Magisterial enquiry",
+      "category": "criminal",
+      "start_pos_raw": 8805,
+      "end_pos_raw": 9315,
+      "page_numbers": [
+        5,
+        6
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "8. Magisterial enquiry.—(1) On receipt of an order under section 7, the Magistrate shall issue a summon or a warrant for the arrest of the fugitive offender according as the case appears to be one in which according to the law of Pakistan a summon or warrant would ordinarily issue.\n\n(2) When the fugitive offender appears or is brought before him, the Magistrate shall enquire into the case in the same manner, and have the same jurisdiction and powers, as nearly as may be, as if the case were one triable by a court of session and shall take such evidence as may be produced in support of the requisition and on behalf of the fugitive offender, including any evidence to show that the offence of which the fugitive offender is accused or alleged to have been convicted is an offence of a political character or is not an extradition offence.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_9",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "8",
+      "section_title": "Magisterial enquiry",
+      "category": "criminal",
+      "start_pos_raw": 9317,
+      "end_pos_raw": 10165,
+      "page_numbers": [
+        6
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "9. Receipt in evidence of exhibits, depositions, etc.—(1) In any proceedings against a fugitive offender under this Act, exhibits and depositions, whether or not they are received or taken in the presence of the person against whom they are used, and copies thereof, and official certificates of facts and judicial documents stating facts, may, if duly authenticated, be received as evidence.\n\n(2) Warrants, depositions or statements on oath which purport to have been issued, received or taken by any Court of Justice outside Pakistan, or copies thereof, and certificates of, or judicial documents stating the fact of, conviction before any such Court, shall be deemed duly authenticated—\n\n-\n\n(a) if the warrant purports to be signed by a Judge, Magistrate, or officer of the State where the same was issued or acting in or for such State;\n\n-\n\n(b) if the depositions or statements or copies thereof purport to be certified, under the hand of a Judge, Magistrate or officer of the State where the same were taken or acting in or for such State, to be the original depositions or statements or to be true copies thereof, as the case may require;\n\n-\n\n\n\n(c) if the certificate of, or judicial document stating the fact of, a conviction purports to be certified by a Judge, Magistrate or officer of the State where the conviction took place or acting in or for such State; and\n\n-\n\n\n\n(d) if the warrant, depositions, statements, copies, certificates and judicial documents, as the case may be, are authenticated by the oath of some witness or by the official seal of a minister of the State where the name were respectively issued, taken or given.\n\n(3) For the purposes of this section, \"warrant\" includes any judicial document authorising the arrest of any person accused or convicted of an offence.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_10",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "9",
+      "section_title": "Receipt in evidence of exhibits, depositions, etc",
+      "category": "criminal",
+      "start_pos_raw": 10167,
+      "end_pos_raw": 11958,
+      "page_numbers": [
+        6
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "10. Magistrate to report after enquiry. If, after the enquiry under section 8, the Magistrate is of opinion—\n\n\n(a) that a *prima facie* case has not been made out in support of the requisition for surrender of the fugitive offender, he shall discharge the fugitive offender and make a report to that effect to the Federal Government;\n\n\n(b) that a *prima facie* case has been made out in support of such requisition, he shall—\n\n*(i)* report the result of his enquiry to the Federal Government;\n\n*(ii)* forward, together with such report, any written statement which the fugitive offender may desire to submit for the consideration of the Federal Government; and\n\n*(iii)* subject to any provision relating to bail, commit the fugitive offender to prison to await the orders of the Federal Government.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_11",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "10",
+      "section_title": "Magistrate to report after enquiry",
+      "category": "criminal",
+      "start_pos_raw": 11960,
+      "end_pos_raw": 12778,
+      "page_numbers": [
+        6,
+        7
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "11. Removal and delivery of the fugitive offender. If, upon receipt of the report and statement under clause\n\n(b) of section 10, the Federal Government is of opinion that the fugitive offender ought to be surrendered, it may issue a warrant for the custody and removal of the fugitive offender and for his delivery at a place and to a person to be named in the warrant:\n\nProvided that the fugitive offender shall not be so delivered until after the expiration of fifteen days from the date he has been taken in custody under such warrant.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_12",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "11",
+      "section_title": "Removal and delivery of the fugitive offender",
+      "category": "criminal",
+      "start_pos_raw": 12780,
+      "end_pos_raw": 13321,
+      "page_numbers": [
+        7
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "12. Discharge of person apprehended if not surrendered within two months. If a fugitive offender who, in pursuance of this Act, has been taken into custody to await his surrender, is not conveyed out of Pakistan within two months after such committal, the High Court, upon application made to it by or on behalf of the fugitive offender and upon proof that reasonable notice of the intention to make such application has been given to the Federal Government, may order such prisoner to be discharged unless sufficient cause is shown to the contrary.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_13",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "12",
+      "section_title": "Discharge of person apprehended if not surrendered within two months",
+      "category": "criminal",
+      "start_pos_raw": 13323,
+      "end_pos_raw": 13876,
+      "page_numbers": [
+        7
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "13. Power to the Federal Government to discharge a fugitive offender. If it appears to the Federal Government that by reason of the trivial nature of the case or by reason of the application for the surrender of a fugitive offender not being made in good faith or in the interest of justice or for any other reason it would be unjust or inexpedient to surrender the fugitive offender, it may, by order, at any time stay the proceedings under this Act against him and direct any summons or warrant issued under this Act to be cancelled and the fugitive offender, if he is in custody or under detention, to be discharged.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_14",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "13",
+      "section_title": "Power to the Federal Government to discharge a fugitive offender",
+      "category": "criminal",
+      "start_pos_raw": 13878,
+      "end_pos_raw": 14501,
+      "page_numbers": [
+        7
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "14. Simultaneous requisitions. If requisitions for the surrender of a fugitive offender are received from more than one treaty State, the Federal Government may, having regard to the circumstances of the case, surrender the fugitive offender to such State as it may think fit.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_15",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "14",
+      "section_title": "Simultaneous requisitions",
+      "category": "criminal",
+      "start_pos_raw": 14503,
+      "end_pos_raw": 14783,
+      "page_numbers": [
+        7
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "15. Requisition for surrender of persons to Pakistan. A requisition for the surrender to Pakistan of a person who, being accused or convicted of an extradition offence, is or is suspected to be in a treaty State may be made by the Federal Government—\n\n\n(a) to the diplomatic representative in Pakistan of that State;\n\n\n(b) to the Government of that State through the diplomatic representative of Pakistan in that State; or\n\n\n\n(c) in such other manner as may have been settled by arrangement between the Federal Government and the Government of that State.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_16",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "15",
+      "section_title": "Requisition for surrender of persons to Pakistan",
+      "category": "criminal",
+      "start_pos_raw": 14870,
+      "end_pos_raw": 15443,
+      "page_numbers": [
+        7,
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "16. A person surrendered by a treaty State not to be tried for previous offence. A person surrendered by a treaty State in pursuance of a requisition under section 15 shall not, until he has been restored or has had an opportunity of returning to that State, be tried in Pakistan for an offence committed prior to the surrender, other than the extradition offence proved by the facts on which the surrender is based.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_17",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "16",
+      "section_title": "A person surrendered by a treaty State not to be tried for previous offence",
+      "category": "criminal",
+      "start_pos_raw": 15445,
+      "end_pos_raw": 15865,
+      "page_numbers": [
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "17. Return of the persons surrendered to Pakistan. The Federal Government may, if it thinks fit, on the request of a person surrendered to Pakistan in pursuance of a requisition under section 15, arrange for him to be sent back at the cost of the Federal Government and with as little delay as possible to the State by which he was so surrendered if—\n\n\n(a) proceedings against him for the offence for which he was surrendered are not begun within the period of six months from the day of his arrival in Pakistan; or\n\n\n(b) he is acquitted or discharged on his trial for that offence.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_18",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "17",
+      "section_title": "Return of the persons surrendered to Pakistan",
+      "category": "criminal",
+      "start_pos_raw": 15867,
+      "end_pos_raw": 16451,
+      "page_numbers": [
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "18. Jurisdiction as to offences committed at sea or in air. Where the offence in respect of which the surrender of a fugitive offender is sought was committed on board any vessel on the high seas or any aircraft in the air outside Pakistan or the Pakistan territorial waters and such vessel or aircraft comes into any port or aerodrome of Pakistan with the fugitive offender on board, the Federal Government and any Magistrate having jurisdiction in such port or aerodrome may exercise the powers conferred on it or him by this Act.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_19",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "18",
+      "section_title": "Jurisdiction as to offences committed at sea or in air",
+      "category": "criminal",
+      "start_pos_raw": 16486,
+      "end_pos_raw": 17022,
+      "page_numbers": [
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "19. Release of persons arrested on bail. The provisions of the Code of Criminal Procedure, 1898 (Act V of 1898), relating to bail shall apply to a fugitive offender arrested or detained under this Act in the same manner as they would apply if he were accused of committing in Pakistan the offence of which he is accused or has been convicted; and in relation to such bail the Magistrate before whom he is brought shall have, as far as may be, the same powers and jurisdiction as a court of session under that Code.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_20",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "19",
+      "section_title": "Release of persons arrested on bail",
+      "category": "criminal",
+      "start_pos_raw": 17024,
+      "end_pos_raw": 17542,
+      "page_numbers": [
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "20. Property found on fugitive offender. Everything found in the possession of a fugitive offender at the time of his arrest which may be material as evidence in proving the extradition offence may be delivered up with the fugitive offender on his surrender, subject to the rights, if any, of third parties with respect thereto.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_21",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "20",
+      "section_title": "Property found on fugitive offender",
+      "category": "criminal",
+      "start_pos_raw": 17544,
+      "end_pos_raw": 17876,
+      "page_numbers": [
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "21. Lawfulness of custody and re-taking under warrant issued under Act. It shall be lawful for any person to whom a warrant is directed in pursuance of the provisions of this Act to receive, hold in custody and convey the fugitive offender mentioned in the warrant to the place named in the warrant, and, if such offender escapes out of any custody to which he may be delivered in pursuance of such warrant, he may be re-taken as a person accused of an offence against the law of Pakistan may be re-taken upon an escape.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_22",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "21",
+      "section_title": "Lawfulness of custody and re-taking under warrant issued under Act",
+      "category": "criminal",
+      "start_pos_raw": 17878,
+      "end_pos_raw": 18402,
+      "page_numbers": [
+        8
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "22. Power to make rules.—(1) The Federal Government may, by notification in the official Gazette, make rules for carrying out the purposes of this Act.\n\n(2) In particular and without prejudice to the generality of the foregoing power, such rules may provide for all or any of the following matters, namely:—\n\n- *(a)* the form in which a requisition for the surrender of a fugitive offender may be made;\n\n- *(b)* the removal of fugitive offenders apprehended or in custody under this Act and their control and maintenance until such time as they are handed over to the persons entitled to receive them;\n\n- *(c)* the seizure and disposition of any property which is the subject of, or required for proof of, any alleged offence with respect to which this Act applies; and\n\n- *(d)* the form and manner in which the Magistrate may be required to make his report to the Federal Government under this Act.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_23",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "22",
+      "section_title": "Power to make rules",
+      "category": "criminal",
+      "start_pos_raw": 18404,
+      "end_pos_raw": 19325,
+      "page_numbers": [
+        8,
+        9
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "23. Power to amend the Schedule. The Federal Government may, by notification in the official Gazette, amend the Schedule so as to add any entry thereto or modify or omit any entry therein.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_24",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "23",
+      "section_title": "Power to amend the Schedule",
+      "category": "criminal",
+      "start_pos_raw": 19327,
+      "end_pos_raw": 19519,
+      "page_numbers": [
+        9
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "24. ¹[Omitted]",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_25",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "24",
+      "section_title": "-",
+      "category": "criminal",
+      "start_pos_raw": 19521,
+      "end_pos_raw": 19539,
+      "page_numbers": [
+        9
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "[*See* section 2 (1) *(a)*]\n\n1. Culpable homicide.\n\n2. Maliciously or wilfully wounding or inflicting grievous bodily harm.\n\n3. Rape.\n\n4. Procuring or trafficking in women or young persons for immoral purposes.\n\n5. Kidnapping, abduction or false imprisonment or dealing in slaves.\n\n6. Stealing, abandoning, exposing or unlawfully detaining a child.\n\n7. Bribery.\n\n8. Perjury or subornation of perjury or conspiring to defeat the course of justice.\n\n9. Arson.\n\n10. An offence concerning counterfeit currency.\n\n11. An offence against the law relating to forgery.\n\n12. Stealing, embezzlement, fraudulent conversion, fraudulent false accounting, obtaining property or credit by false pretences, receiving stolen property or any other offence in respect of property involving fraud.\n\n13. Burglary, house-breaking or any similar offence.\n\n14. Robbery.\n\n15. Blackmail or extortion by means of threats or by abuse of authority.\n\n16. An offence against bankruptcy law or company law.\n\n17. Malicious or wilful /damage to property.\n\n18. Acts done with the intention of endangering vehicles, vessels or aircraft.\n\n19. An offence against the law relating to dangerous drugs or narcotics.\n\n20. Piracy.\n\n21. Revolt against the authority of the master of a ship or the commander of an aircraft.\n\n22. Contravention of import or export prohibitions relating to precious stones, gold and other precious metals.",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_26",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "category": "criminal",
+      "start_pos_raw": 19541,
+      "end_pos_raw": 21121,
+      "page_numbers": [
+        9,
+        10
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "¹[22.A Illicit dealing in arms, ammunition or explosive material used in their production]\n\n23. Aiding and abetting, or counselling or procuring the commission of, or being an accessory before or after the fact to, or attempting or conspiring to commit, any of the aforesaid offences.\n\nRGN Dated.04-09-2025",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_27",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "22",
+      "section_title": "-",
+      "category": "criminal",
+      "start_pos_raw": 21123,
+      "end_pos_raw": 21429,
+      "page_numbers": [
+        10
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "²[24. Financing for terrorism,]",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_28",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "24",
+      "section_title": "-",
+      "category": "criminal",
+      "start_pos_raw": 21432,
+      "end_pos_raw": 21463,
+      "page_numbers": [
+        10
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  },
+  {
+    "text": "³[25. Money Laundering]",
+    "metadata": {
+      "parent_id": "THE_EXTRADITION_ACT,_1972_29",
+      "act_name": "THE EXTRADITION ACT, 1972",
+      "section_number": "25",
+      "section_title": "-",
+      "category": "criminal",
+      "start_pos_raw": 21465,
+      "end_pos_raw": 21698,
+      "page_numbers": [
+        10
+      ],
+      "table_numbers": [],
+      "form_numbers": []
+    }
+  }
+]

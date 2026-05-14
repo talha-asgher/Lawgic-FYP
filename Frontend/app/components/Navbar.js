@@ -9,21 +9,11 @@ import { useLanguage } from "../lib/LanguageContext";
 
 export default function Navbar() {
   const router = useRouter();
-  const { user, isLoggedIn, logout, login } = useAuthStore();
+  const { user, isLoggedIn, logout, authInitialized } = useAuthStore();
   const { lang, toggleLanguage, t } = useLanguage();
 
-  const [mounted, setMounted] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
-
-  useEffect(() => {
-    const savedUser = localStorage.getItem("lawgic_user");
-    const savedToken = localStorage.getItem("lawgic_token");
-    if (savedUser && savedToken) {
-      login(JSON.parse(savedUser), savedToken);
-    }
-    setMounted(true);
-  }, [login]);
 
   useEffect(() => {
     function handleClickOutside(e) {
@@ -77,8 +67,11 @@ export default function Navbar() {
               {lang === "en" ? t("nav.langToggle") : t("nav.langToggleUrdu")}
             </button>
 
-            {!mounted ? (
-              <div className="w-24 h-9" />
+            {!authInitialized ? (
+              <div
+                className="w-24 h-9 rounded-lg bg-gray-100 animate-pulse"
+                aria-hidden
+              />
             ) : isLoggedIn ? (
               <div className="relative" ref={menuRef}>
                 <button

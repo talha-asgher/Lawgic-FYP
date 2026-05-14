@@ -1,0 +1,379 @@
+{
+  "source_file": "THE PAKISTAN ENVIRONMENTAL PROTECTION ACT, 1997.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE PAKISTAN ENVIRONMENTAL PROTECTION ACT, 1997.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 38,
+  "total_child_chunks": 84,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_3_1",
+      "page_numbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "num_children": 11
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_3_2",
+      "page_numbers": [
+        6,
+        7,
+        8
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "3",
+      "section_title": "Establishment of the Pakistan Environmental Protection Council",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_4",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Functions and powers of the Council",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_5",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Establishment of the Pakistan Environmental Protection Agency",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_6",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Functions of the Federal Agency",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_7",
+      "page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "7",
+      "section_title": "Powers of the Federal Agency",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_8",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "8",
+      "section_title": "Establishment, powers and functions of the Provincial Environmental Protection Agencies",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_9",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Establishment of the Provincial Sustainable Development Funds",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_10",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Management of the Provincial Sustainable Development Fund",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_11",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Prohibition of certain discharges or emissions",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_12",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Initial environmental examination and environmental impact assessment",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_13",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "13",
+      "section_title": "Prohibition of import of hazardous waste",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_14",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Handling of hazardous substances",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_15",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Regulation of motor vehicles",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_16",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Environmental protection order",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_17",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "17",
+      "section_title": "Penalties",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_18",
+      "page_numbers": [
+        18,
+        19,
+        20
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "18",
+      "section_title": "Offences by bodies corporate",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_19",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Offences by Government Agencies, local authorities or local councils",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_20",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Environmental Tribunals",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_21",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "21",
+      "section_title": "Jurisdiction and powers of Environmental Tribunals",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_22",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "22",
+      "section_title": "Appeals to the Environmental Tribunal",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_23",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Appeals from orders of the Environmental Tribunal",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_24",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Jurisdiction of Environmental Magistrates",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_25",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Appeals from orders of Environmental Magistrates",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_26",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Power to delegate",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_27",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Power to give directions",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_28",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Indemnity",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_29",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Dues recoverable as arrears of land revenue",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_30",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Act to over-ride other laws",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_31",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_32",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Power to amend the Schedule",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_33",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Power to make regulations",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_34",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "34",
+      "section_title": "Repeal, savings and succession",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_35",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_36",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE",
+      "parent_id": "THE_PAKISTAN_ENVIRONMENTAL_PROTECTION_ACT,_1997_37",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    }
+  ]
+}

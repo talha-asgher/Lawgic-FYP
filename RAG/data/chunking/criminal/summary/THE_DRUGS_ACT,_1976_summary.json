@@ -1,0 +1,478 @@
+{
+  "source_file": "THE DRUGS ACT, 1976.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE DRUGS ACT, 1976.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 49,
+  "total_child_chunks": 107,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_DRUGS_ACT,_1976_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_DRUGS_ACT,_1976_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DRUGS_ACT,_1976_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_DRUGS_ACT,_1976_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Application of other laws not barred",
+      "parent_id": "THE_DRUGS_ACT,_1976_3",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_DRUGS_ACT,_1976_4_1",
+      "page_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "3",
+      "section_title": "Definitions",
+      "parent_id": "THE_DRUGS_ACT,_1976_4_2",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Regulation and prohibition of import, etc., of drugs",
+      "parent_id": "THE_DRUGS_ACT,_1976_5",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "5",
+      "section_title": "Regulation of manufacture of drugs",
+      "parent_id": "THE_DRUGS_ACT,_1976_6",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Regulation of sale of drugs",
+      "parent_id": "THE_DRUGS_ACT,_1976_7",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Registration of drugs",
+      "parent_id": "THE_DRUGS_ACT,_1976_8",
+      "page_numbers": [
+        9,
+        10,
+        11
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "8",
+      "section_title": "Pakistan National Formulary",
+      "parent_id": "THE_DRUGS_ACT,_1976_9",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Appellate Board",
+      "parent_id": "THE_DRUGS_ACT,_1976_10",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "9A",
+      "section_title": "Appeals to the Provincial Appellate Authority",
+      "parent_id": "THE_DRUGS_ACT,_1976_11",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Expert Committees",
+      "parent_id": "THE_DRUGS_ACT,_1976_12",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Provincial Quality Control Board",
+      "parent_id": "THE_DRUGS_ACT,_1976_13",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "11A",
+      "section_title": "Conflict of interest",
+      "parent_id": "THE_DRUGS_ACT,_1976_14",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Power to fix maximum prices of drugs, etc",
+      "parent_id": "THE_DRUGS_ACT,_1976_15",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Directions to Provincial Governments",
+      "parent_id": "THE_DRUGS_ACT,_1976_16",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Federal Drug Laboratory and institutes, etc",
+      "parent_id": "THE_DRUGS_ACT,_1976_17",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Provincial Drugs Testing Laboratory",
+      "parent_id": "THE_DRUGS_ACT,_1976_18",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Government Analysts",
+      "parent_id": "THE_DRUGS_ACT,_1976_19",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Inspectors",
+      "parent_id": "THE_DRUGS_ACT,_1976_20",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Powers of Inspectors",
+      "parent_id": "THE_DRUGS_ACT,_1976_21",
+      "page_numbers": [
+        14,
+        15,
+        16
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "19",
+      "section_title": "Procedure for Inspectors",
+      "parent_id": "THE_DRUGS_ACT,_1976_22",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "20",
+      "section_title": "Persons bound to disclose place where drugs rue manufactured or kept",
+      "parent_id": "THE_DRUGS_ACT,_1976_23",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Disclosure of the name of the manufacturer",
+      "parent_id": "THE_DRUGS_ACT,_1976_24",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Reports of Government Analysts",
+      "parent_id": "THE_DRUGS_ACT,_1976_25",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "23",
+      "section_title": "Import, manufacture and sale of drugs",
+      "parent_id": "THE_DRUGS_ACT,_1976_26",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "24",
+      "section_title": "Control of advertisement",
+      "parent_id": "THE_DRUGS_ACT,_1976_27",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Control of sampling",
+      "parent_id": "THE_DRUGS_ACT,_1976_28",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Control of printing of labelling",
+      "parent_id": "THE_DRUGS_ACT,_1976_29",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Penalties",
+      "parent_id": "THE_DRUGS_ACT,_1976_30",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "28",
+      "section_title": "Penalty for subsequent offence",
+      "parent_id": "THE_DRUGS_ACT,_1976_31",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Forfeiture",
+      "parent_id": "THE_DRUGS_ACT,_1976_32",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Cognizance of offences",
+      "parent_id": "THE_DRUGS_ACT,_1976_33",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "31",
+      "section_title": "Drug Courts",
+      "parent_id": "THE_DRUGS_ACT,_1976_34",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "32",
+      "section_title": "Pleas",
+      "parent_id": "THE_DRUGS_ACT,_1976_35",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "33",
+      "section_title": "Application of law relating to customs and powers of officers of customs",
+      "parent_id": "THE_DRUGS_ACT,_1976_36",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "34",
+      "section_title": "Offences by companies, etc",
+      "parent_id": "THE_DRUGS_ACT,_1976_37",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Publication of offender's name",
+      "parent_id": "THE_DRUGS_ACT,_1976_38",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Powers to exempt",
+      "parent_id": "THE_DRUGS_ACT,_1976_39",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Inspectors to be public servants",
+      "parent_id": "THE_DRUGS_ACT,_1976_40",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "38",
+      "section_title": "Indemnity",
+      "parent_id": "THE_DRUGS_ACT,_1976_41",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Finality of orders, etc",
+      "parent_id": "THE_DRUGS_ACT,_1976_42",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Publication of result of test or analysis, etc",
+      "parent_id": "THE_DRUGS_ACT,_1976_43",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Cancellation or suspension of licences",
+      "parent_id": "THE_DRUGS_ACT,_1976_44",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Cancellation or suspension of registration of registered drugs",
+      "parent_id": "THE_DRUGS_ACT,_1976_45",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Power of Federal Government to make rules",
+      "parent_id": "THE_DRUGS_ACT,_1976_46",
+      "page_numbers": [
+        26,
+        27,
+        28
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "44",
+      "section_title": "Power of the Provincial Government to make rules",
+      "parent_id": "THE_DRUGS_ACT,_1976_47",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "45",
+      "section_title": "Repeal and Savings",
+      "parent_id": "THE_DRUGS_ACT,_1976_48",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 2
+    }
+  ]
+}

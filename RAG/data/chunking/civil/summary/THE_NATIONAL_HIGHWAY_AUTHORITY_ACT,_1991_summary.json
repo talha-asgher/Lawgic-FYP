@@ -1,0 +1,400 @@
+{
+  "source_file": "THE NATIONAL HIGHWAY AUTHORITY ACT, 1991.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE NATIONAL HIGHWAY AUTHORITY ACT, 1991.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 42,
+  "total_child_chunks": 53,
+  "total_table_chunks": 4,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "3",
+      "section_title": "Establishment of National Highway Authority",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Purpose and functions of Authority",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "National Highway Council",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_6",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Powers and function of the Council",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_7_1",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Powers and function of the Council",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_7_2",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Executive Board",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_8_1",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Executive Board",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_8_2",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Powers and functions of the Executive Board",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_9_1",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Powers and functions of the Executive Board",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_9_2",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "¹[Chief Executive Officer], his duties, functions and powers",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_10",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "The powers of the Authority",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_11",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "11",
+      "section_title": "Plans and schemes",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Powers to eject unauthorized occupants",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_13",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Appointment of officers, servants etc",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_14",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Recruitment and condition of service",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_15",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "¹[Chief Executive Officer], etc., to be deemed to be public servants",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_16",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Delegation of powers to ¹[Chief Executive Officer], etc",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_17",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Industrial Relations Ordinance, 1969 (XXIII of 1969), not to apply",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_18",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Persons serving National Highways Board",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_19",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "19",
+      "section_title": "Authority to be local authority",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_20",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Submission of yearly reports and returns, etc",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_21",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "National Highway Authority Fund",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_22",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "22",
+      "section_title": "Maintenance of accounts",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_23",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Annual statement of accounts",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_24",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Audit",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_25",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Recovery of arrears due as arrears of land revenues",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_26",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Land acquisition",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_27",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Transfer of rights and liabilities",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_28",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Authentication of orders and other instruments of the Authority",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_29",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Power to enter",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_30",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Indemnity, etc",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_31",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Rules",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_32",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Regulations",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_33",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_34",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SCHEDULE",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_35",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "MAP OF PAKISTAN SHOWING LOCATION",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_36",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "OF",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_37",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "LEGEND",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_38",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "THE SCHEDULE",
+      "parent_id": "THE_NATIONAL_HIGHWAY_AUTHORITY_ACT,_1991_39",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    }
+  ]
+}

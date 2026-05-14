@@ -1,0 +1,126 @@
+{
+  "source_file": "THE OFFENCE OF ZINA (ENFORCEMENT OF HUDOOD) ORDINANCE, 1979.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE OFFENCE OF ZINA (ENFORCEMENT OF HUDOOD) ORDINANCE, 1979.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 12,
+  "total_child_chunks": 14,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_OFFENCE_OF_ZINA_ENFORCEMENT_OF_HUDOOD_ORDINANCE,_1979_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_OFFENCE_OF_ZINA_ENFORCEMENT_OF_HUDOOD_ORDINANCE,_1979_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Zina",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Zina liable to hadd",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5A",
+      "section_title": "-",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_6",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Proof of",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Cases in which",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Mode of execution of punishment of stoning to death",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Application of Code of Criminal Procedure, 1898 and amendment",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_10",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "21",
+      "section_title": "Presiding Officer of Court to be a Muslim",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_11",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Saving",
+      "parent_id": "THE_OFFENCE_OF_ZINA_(ENFORCEMENT_OF_HUDOOD)_ORDINANCE,_1979_12",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    }
+  ]
+}

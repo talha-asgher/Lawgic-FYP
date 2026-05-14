@@ -1,0 +1,53 @@
+{
+  "source_file": "THE HINDU MARRIED WOMEN’S RIGHT TO SEPARATE RESIDENCE AND MAINTENANCE ACT, 1946.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE HINDU MARRIED WOMEN’S RIGHT TO SEPARATE RESIDENCE AND MAINTENANCE ACT, 1946.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 4,
+  "total_child_chunks": 5,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_HINDU_MARRIED_WOMEN’S_RIGHT_TO_SEPARATE_RESIDENCE_AND_MAINTENANCE_ACT,_1946_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_HINDU_MARRIED_WOMEN’S_RIGHT_TO_SEPARATE_RESIDENCE_AND_MAINTENANCE_ACT,_1946_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_HINDU_MARRIED_WOMEN’S_RIGHT_TO_SEPARATE_RESIDENCE_AND_MAINTENANCE_ACT,_1946_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_HINDU_MARRIED_WOMEN’S_RIGHT_TO_SEPARATE_RESIDENCE_AND_MAINTENANCE_ACT,_1946_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Grounds for claiming separate residence and maintenance",
+      "parent_id": "THE_HINDU_MARRIED_WOMEN’S_RIGHT_TO_SEPARATE_RESIDENCE_AND_MAINTENANCE_ACT,_1946_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Amount of maintenance",
+      "parent_id": "THE_HINDU_MARRIED_WOMEN’S_RIGHT_TO_SEPARATE_RESIDENCE_AND_MAINTENANCE_ACT,_1946_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

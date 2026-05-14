@@ -132,13 +132,18 @@ class Document(Base):
 
 class DocAnalysis(Base):
     __tablename__ = "doc_analysis"
+    __table_args__ = (Index("ix_doc_analysis_user_file_hash", "user_id", "file_hash"),)
 
     analysis_id = Column(Integer, primary_key=True, index=True)
     doc_id = Column(Integer, ForeignKey("documents.doc_id"), nullable=True)
     user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     file_name = Column(Text, nullable=True)
     file_size = Column(Integer, nullable=True)
-    status = Column(Text, nullable=False, default="pending")
+    file_hash = Column(String(64), nullable=True)
+    output_language = Column(Text, nullable=False, default="en")
+    status = Column(Text, nullable=False, default="pending")  # pending, processing, done, failed
+    progress_stage = Column(Text, nullable=True)
+    analysis_json = Column(Text, nullable=True)
     summary = Column(Text, nullable=True)
     risks = Column(Text, nullable=True)
     key_details = Column(Text, nullable=True)
@@ -268,6 +273,7 @@ class Appointment(Base):
     lawyer = relationship("LawyerProfile", back_populates="appointments")
 
 
+
 class CaseMessage(Base):
     __tablename__ = "case_messages"
 
@@ -275,12 +281,11 @@ class CaseMessage(Base):
     case_id = Column(Integer, ForeignKey("cases.case_id"), nullable=False)
     sender_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)
     content = Column(Text, nullable=False)
-    is_read = Column(Boolean, default=False)
+    is_read = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     case = relationship("Case", back_populates="messages")
     sender = relationship("User", foreign_keys=[sender_id])
-
 
 
 class Conversation(Base):

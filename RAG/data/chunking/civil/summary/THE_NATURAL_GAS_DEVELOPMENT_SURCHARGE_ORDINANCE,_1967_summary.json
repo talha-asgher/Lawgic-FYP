@@ -1,0 +1,117 @@
+{
+  "source_file": "THE NATURAL GAS (DEVELOPMENT SURCHARGE) ORDINANCE, 1967.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE NATURAL GAS (DEVELOPMENT SURCHARGE) ORDINANCE, 1967.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 11,
+  "total_child_chunks": 13,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_NATURAL_GAS_DEVELOPMENT_SURCHARGE_ORDINANCE,_1967_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_NATURAL_GAS_DEVELOPMENT_SURCHARGE_ORDINANCE,_1967_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_3",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Levy of Development Surcharge",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_4",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Allowance to be made for Development Surcharge for purposes of Income-Tax",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Maximum Sale Price",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_6",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Cognizance of offence",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_7",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_8",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power to amend Schedule",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_9",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "-",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "-",
+      "parent_id": "THE_NATURAL_GAS_(DEVELOPMENT_SURCHARGE)_ORDINANCE,_1967_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}

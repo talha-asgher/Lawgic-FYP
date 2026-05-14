@@ -1,0 +1,287 @@
+{
+  "source_file": "THE TERRORIST AFFECTED AREAS (SPECIAL COURTS) ACT, 1992.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE TERRORIST AFFECTED AREAS (SPECIAL COURTS) ACT, 1992.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 29,
+  "total_child_chunks": 48,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_TERRORIST_AFFECTED_AREAS_SPECIAL_COURTS_ACT,_1992_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_TERRORIST_AFFECTED_AREAS_SPECIAL_COURTS_ACT,_1992_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_3",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "3",
+      "section_title": "Declaration of terrorist affected areas",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Use of Police and Civil Armed Forces, etc",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_5",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power of police, civil armed forces, etc",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_6",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Establishment of Special Courts",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_7",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Composition and appointment of Presiding officers of Special Courts",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Place of sitting",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_9",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Jurisdiction of Special Court",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_10",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Transfer of cases",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Powers of Special Courts with respect to other offences",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Public prosecutors",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_13",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Procedure and powers of Special Court",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_14",
+      "page_numbers": [
+        8,
+        9,
+        10
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "14",
+      "section_title": "Protection of witnesses",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_15",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "Manner and place of execution of sentence",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_16",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Power to transfer cases to regular courts",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_17",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Appeal",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_18",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Trial before special Court to have precedence",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_19",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Modified application of certain provisions of the Code",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_20",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Overriding effect of Act",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_21",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Delegation",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_22",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Power to amend the Schedule",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_23",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_24",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Saving",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_25",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Presumption as to certain offences",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_26",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "26",
+      "section_title": "Contempt of Court",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_27",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Indemnity",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_28",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## THE SCHEDULE",
+      "parent_id": "THE_TERRORIST_AFFECTED_AREAS_(SPECIAL_COURTS)_ACT,_1992_29",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    }
+  ]
+}

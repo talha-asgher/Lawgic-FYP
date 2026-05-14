@@ -1,0 +1,562 @@
+{
+  "source_file": "THE CHEMICAL WEAPONS CONVENTION IMPLEMENTATION ORDINANCE, 2000.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE CHEMICAL WEAPONS CONVENTION IMPLEMENTATION ORDINANCE, 2000.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 58,
+  "total_child_chunks": 107,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\table_chunks\\THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_3",
+      "page_numbers": [
+        3,
+        4,
+        5
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "3",
+      "section_title": "Prohibition on development etc; of chemical weapon",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Premises or equipment for producing chemical weapons",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_5",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Prohibition on production, etc. of toxic chemicals and precursors",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_6",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Transfer of any scheduled chemical for permitted purposes",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_7",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Production, etc, for permitted purposes",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_8",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Verification activities",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_9",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "National Authority",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_10",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Functions of the Authority",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_11",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Delegation of powers",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_12",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Inspections under the Convention",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Particulars of authorisation",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Effect of authorisation",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_15",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "15",
+      "section_title": "Right of occupier, etc",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_16",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Bar to jurisdiction",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_17",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Proof regarding status of a member of inspection team",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Power to amend authorisation, and its effect",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_19",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Offences in respect of an inspection",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_20",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Privileges and immunities of members of inspection team and observers",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_21",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "21",
+      "section_title": "Disclosure of information",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_22",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Privileged information and documents",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_23",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "23",
+      "section_title": "Registration",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_24",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Power to enter a premises and search, remove or immobilise objects",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_25",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "25",
+      "section_title": "Extension to external territories",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_26",
+      "page_numbers": [
+        11,
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_27",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE I",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_28",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE II",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_29",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "SCHEDULE II",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_30",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE III",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_31",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE III",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_32",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## Schedule IV",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_33",
+      "page_numbers": [
+        15,
+        16,
+        17
+      ],
+      "num_children": 9
+    },
+    {
+      "section_number": "-",
+      "section_title": "## Schedule IV",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_34",
+      "page_numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "num_children": 10
+    },
+    {
+      "section_number": "-",
+      "section_title": "## Schedule IV",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_35",
+      "page_numbers": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "num_children": 11
+    },
+    {
+      "section_number": "-",
+      "section_title": "## Schedule IV",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_36",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE V",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_37",
+      "page_numbers": [
+        27,
+        28,
+        29
+      ],
+      "num_children": 7
+    },
+    {
+      "section_number": "3",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_38",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_39",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_40",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_41",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_42",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_43",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_44",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_45",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_46",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_47",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_48",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_49",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_50",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_51",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_52",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_53",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_54",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_55",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_56",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_57",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "-",
+      "parent_id": "THE_CHEMICAL_WEAPONS_CONVENTION_IMPLEMENTATION_ORDINANCE,_2000_58",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "source_file": "THE REFORMATORY SCHOOLS ACT, 1897.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\criminal\\THE REFORMATORY SCHOOLS ACT, 1897.pdf",
+  "category": "criminal",
+  "rgn_date": "",
+  "total_parent_chunks": 32,
+  "total_child_chunks": 36,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\parent_chunks\\THE_REFORMATORY_SCHOOLS_ACT,_1897_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\criminal\\child_chunks\\THE_REFORMATORY_SCHOOLS_ACT,_1897_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_1",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Title an extent",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_2",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "and 3",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_3",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Definitions",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_4",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Power to establish and discontinue Reformatory Schools",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_5",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Requisites of schools",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_6",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Inspection of Reformatory Schools",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_7",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power of Courts to direct youthful offenders to be sent to Reformatory Schools",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_8",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Procedure where Magistrate is not empowered to pass an order under section 8",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_9",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Power of Magistrates to direct boys under fifteen sentenced to imprisonment to be sent to Reformatory Schools",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_10",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Preliminary inquiry and finding as to age of youthful offender",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_11",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Government to determine Reformatory School to which offenders shall be sent",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_12",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Persons found to be over eighteen years not to be detained in Reformatory Schools",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_13",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Discharge removal by order of Government",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_14",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "-",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_15",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Certain orders not subject to appeal or revision",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_16",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Appointment of Superintendent and Committee of Visitors or Board of Management",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_17",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Superintendent may license youthful offenders to employers of labour",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_18",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Cancellation of license",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_19",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Determination of license",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_20",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Cancellation of license in case of ill-treatment",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_21",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Superintendent to be deemed guardian of youthful offenders",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_22",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Duties of Committee of Visitors",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_23",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "24",
+      "section_title": "Powers of Board of Management",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_24",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Power to appoint Trustees or other Managers of a school to be a Board of Management",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_25",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Power of Board to make rules",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_26",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Penalty for introduction or removal or supply of prohibited articles and communication with youthful offenders",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_27",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "28",
+      "section_title": "Penalty for abetting escape of youthful offender",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_28",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Arrest of escaped youthful offender",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_29",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "-",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_30",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Power to deal in other ways with youthful offenders including girls",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_31",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "32",
+      "section_title": "Procedure when youthful offender under detention in a Reformatory School is again convicted and sentenced",
+      "parent_id": "THE_REFORMATORY_SCHOOLS_ACT,_1897_32",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    }
+  ]
+}

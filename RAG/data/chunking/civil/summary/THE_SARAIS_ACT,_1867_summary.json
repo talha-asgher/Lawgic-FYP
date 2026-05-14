@@ -1,0 +1,199 @@
+{
+  "source_file": "THE SARAIS ACT, 1867.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE SARAIS ACT, 1867.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 20,
+  "total_child_chunks": 22,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_SARAIS_ACT,_1867_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_SARAIS_ACT,_1867_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_SARAIS_ACT,_1867_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Interpretation-clause",
+      "parent_id": "THE_SARAIS_ACT,_1867_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "\"Sarai\"",
+      "parent_id": "THE_SARAIS_ACT,_1867_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Notice of this Act to be given to keepers of sarais",
+      "parent_id": "THE_SARAIS_ACT,_1867_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Registers of sarais to be kept",
+      "parent_id": "THE_SARAIS_ACT,_1867_5",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Lodgers, etc.,not to be received in sarais until registered",
+      "parent_id": "THE_SARAIS_ACT,_1867_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Magistrate may refuse to register keeper not producing certificate of character",
+      "parent_id": "THE_SARAIS_ACT,_1867_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Duties of keepers of sarais",
+      "parent_id": "THE_SARAIS_ACT,_1867_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Power to order reports from keepers of sarais",
+      "parent_id": "THE_SARAIS_ACT,_1867_9",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Power to shut up, secure, clear and clean deserted sarais",
+      "parent_id": "THE_SARAIS_ACT,_1867_10",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Taking down of repairing ruinous saris",
+      "parent_id": "THE_SARAIS_ACT,_1867_11",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Sale of materials of ruinous sarais",
+      "parent_id": "THE_SARAIS_ACT,_1867_12",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Penalty of any permitting sarais to be filthy or overgrown",
+      "parent_id": "THE_SARAIS_ACT,_1867_13",
+      "page_numbers": [
+        4,
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Power for Provincial Government to make regulations",
+      "parent_id": "THE_SARAIS_ACT,_1867_14",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Penalty for infringing Act or regulations",
+      "parent_id": "THE_SARAIS_ACT,_1867_15",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Conviction for third offence to disqualify persons from keeping sarais",
+      "parent_id": "THE_SARAIS_ACT,_1867_16",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "16",
+      "section_title": "Nothing in Act to apply to certain sarai",
+      "parent_id": "THE_SARAIS_ACT,_1867_17",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Power to Provincial Government to extend this Act",
+      "parent_id": "THE_SARAIS_ACT,_1867_18",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Short title",
+      "parent_id": "THE_SARAIS_ACT,_1867_19",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## SCHEDULE",
+      "parent_id": "THE_SARAIS_ACT,_1867_20",
+      "page_numbers": [
+        6
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "source_file": "THE EASEMENTS ACT, 1882.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE EASEMENTS ACT, 1882.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 68,
+  "total_child_chunks": 107,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_EASEMENTS_ACT,_1882_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_EASEMENTS_ACT,_1882_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_1",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_2",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Savings",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_3",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "-",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_4",
+      "page_numbers": [
+        5
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "\"Easement\" defined",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_5",
+      "page_numbers": [
+        5,
+        6
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "5",
+      "section_title": "Continuous and discontinuous, apparent and non-apparent, easements",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_6",
+      "page_numbers": [
+        6,
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Easement for limited time or on condition",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_7",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Easements restrictive of certain rights",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_8",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER I",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_9",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Who may impose easements",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_10",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "9",
+      "section_title": "Servient owners",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_11",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "10",
+      "section_title": "Lessor and mortgagor",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_12",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "11",
+      "section_title": "Lessee",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_13",
+      "page_numbers": [
+        9
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "12",
+      "section_title": "Who may acquire easements",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_14",
+      "page_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "num_children": 8
+    },
+    {
+      "section_number": "14",
+      "section_title": "Direction of way of necessity",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_15",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "15",
+      "section_title": "Acquisition by prescription",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_16",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "16",
+      "section_title": "Exclusion in favour of reverionser of servoient heritage",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_17",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "17",
+      "section_title": "Rights which cannot be acquired by prescription",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_18",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "18",
+      "section_title": "Customary easements",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_19",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "19",
+      "section_title": "Transfer of dominant heritage passes easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_20",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "20",
+      "section_title": "Rules controlled by contract or title",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_21",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Bar to use unconnected with enjoyment",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_22",
+      "page_numbers": [
+        14,
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Exercise of easement. Confinement of exercise of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_23",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Right to alter mode of enjoyment",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_24",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Right to do acts to secure enjoyment",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_25",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "25",
+      "section_title": "Liability for expenses necessary for preservation of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_26",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Liability for damage from want of repair",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_27",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "27",
+      "section_title": "Servient owner not bound to do anything",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_28",
+      "page_numbers": [
+        16,
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "28",
+      "section_title": "Extent of easements",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_29",
+      "page_numbers": [
+        17,
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "29",
+      "section_title": "Increase of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_30",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "30",
+      "section_title": "Partition of dominant heritage",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_31",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "31",
+      "section_title": "Obstruction in case of excessive user",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_32",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER III",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_33",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "32",
+      "section_title": "Right to enjoyment without disturbance",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_34",
+      "page_numbers": [
+        19
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "33",
+      "section_title": "Suit for disturbance of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_35",
+      "page_numbers": [
+        19,
+        20
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "34",
+      "section_title": "When cause of action arises for removal of support",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_36",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Injunction to restrain disturbance",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_37",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Abatement of obstruction of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_38",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Extinction by dissolution of right of servient owner",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_39",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "38",
+      "section_title": "Extinction by release",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_40",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "39",
+      "section_title": "Extinction by revocation",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_41",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "40",
+      "section_title": "Extinction on expiration of limited period or happening of dissolving condition",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_42",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Extinction on termination of necessity",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_43",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "42",
+      "section_title": "Extinction of useless easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_44",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Extinction by permanent change in dominant heritage",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_45",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Extinction on permanent alteration of servient heritage by superior force",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_46",
+      "page_numbers": [
+        22,
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Extinction by destruction of either heritage",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_47",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Extinction by unity of ownership",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_48",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Extinction by non-enjoyment",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_49",
+      "page_numbers": [
+        23,
+        24
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "48",
+      "section_title": "Extinction of accessory rights",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_50",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "49",
+      "section_title": "Suspension of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_51",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Servient owner not entitled to require continuance",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_52",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "51",
+      "section_title": "Revival of easement",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_53",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER V",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_54",
+      "page_numbers": [
+        25
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "52",
+      "section_title": "\"License\" defined",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_55",
+      "page_numbers": [
+        25,
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "53",
+      "section_title": "Who may grant license",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_56",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Grant may be express or implied",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_57",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "55",
+      "section_title": "Accessory licenses annexed by law",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_58",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "56",
+      "section_title": "License when transferable",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_59",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Grantor's duty to disclose defects",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_60",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Grantor's duty not to render property unsafe",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_61",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "59",
+      "section_title": "Grantor's transferee not bound by license",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_62",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "60",
+      "section_title": "License when revocable",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_63",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "61",
+      "section_title": "Revocation express or implied",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_64",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "License when deemed revoked",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_65",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "63",
+      "section_title": "Licensee's rights on revocation",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_66",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Licensee's rights on eviction",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_67",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## CHAPTER VI",
+      "parent_id": "THE_EASEMENTS_ACT,_1882_68",
+      "page_numbers": [
+        27
+      ],
+      "num_children": 1
+    }
+  ]
+}

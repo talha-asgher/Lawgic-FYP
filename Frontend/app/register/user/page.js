@@ -9,14 +9,15 @@ import { useLanguage } from "../../lib/LanguageContext";
 
 export default function LawgicRegister() {
   const router = useRouter();
-  const { isLoggedIn, user } = useAuthStore();
+  const { isLoggedIn, user, authInitialized } = useAuthStore();
   const { lang, toggleLanguage, t } = useLanguage();
 
   useEffect(() => {
+    if (!authInitialized) return;
     if (isLoggedIn && user) {
       router.replace(user.role === 'lawyer' ? '/dashboard/lawyer' : '/dashboard/user');
     }
-  }, [isLoggedIn, user, router]);
+  }, [authInitialized, isLoggedIn, user, router]);
 
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);

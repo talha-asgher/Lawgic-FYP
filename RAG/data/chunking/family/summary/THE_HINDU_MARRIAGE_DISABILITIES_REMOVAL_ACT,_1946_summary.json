@@ -1,0 +1,44 @@
+{
+  "source_file": "THE HINDU MARRIAGE DISABILITIES REMOVAL ACT, 1946.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\family\\THE HINDU MARRIAGE DISABILITIES REMOVAL ACT, 1946.pdf",
+  "category": "family",
+  "rgn_date": "",
+  "total_parent_chunks": 3,
+  "total_child_chunks": 3,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\parent_chunks\\THE_HINDU_MARRIAGE_DISABILITIES_REMOVAL_ACT,_1946_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\family\\child_chunks\\THE_HINDU_MARRIAGE_DISABILITIES_REMOVAL_ACT,_1946_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_HINDU_MARRIAGE_DISABILITIES_REMOVAL_ACT,_1946_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and extent",
+      "parent_id": "THE_HINDU_MARRIAGE_DISABILITIES_REMOVAL_ACT,_1946_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Marriages between persons of same",
+      "parent_id": "THE_HINDU_MARRIAGE_DISABILITIES_REMOVAL_ACT,_1946_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

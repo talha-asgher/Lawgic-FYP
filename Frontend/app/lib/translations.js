@@ -51,7 +51,7 @@ const en = {
   },
   home: {
     heading: "Simplifying Law for Everyone in Pakistan",
-    subheading: "Get instant legal guidance, analyze documents, and connect with verified lawyers — all powered by AI",
+    subheading: "Get instant legal guidance, analyze documents, and connect with verified lawyers",
     askLegal: "Ask a Legal Question",
     tryUrdu: "Try in Urdu",
     tryEnglish: "Try in English",
@@ -516,7 +516,7 @@ const ur = {
   },
   home: {
     heading: "پاکستان میں سب کے لیے قانون کو آسان بنانا",
-    subheading: "فوری قانونی رہنمائی حاصل کریں، دستاویزات کا تجزیہ کریں، اور تصدیق شدہ وکلاء سے رابطہ کریں — سب کچھ اے آئی کی طاقت سے",
+    subheading: "فوری قانونی رہنمائی حاصل کریں، دستاویزات کا تجزیہ کریں، اور تصدیق شدہ وکلاء سے رابطہ کریں",
     askLegal: "قانونی سوال پوچھیں",
     tryUrdu: "اردو میں آزمائیں",
     tryEnglish: "انگریزی میں آزمائیں",

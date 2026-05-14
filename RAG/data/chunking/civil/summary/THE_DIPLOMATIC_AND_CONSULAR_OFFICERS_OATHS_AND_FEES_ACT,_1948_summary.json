@@ -1,0 +1,106 @@
+{
+  "source_file": "THE DIPLOMATIC AND CONSULAR OFFICERS (OATHS AND FEES) ACT, 1948.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE DIPLOMATIC AND CONSULAR OFFICERS (OATHS AND FEES) ACT, 1948.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 10,
+  "total_child_chunks": 11,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_OATHS_AND_FEES_ACT,_1948_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_OATHS_AND_FEES_ACT,_1948_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title and commencement",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Powers as to oaths and notarial acts abroad",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "4",
+      "section_title": "Powers to fix fees",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_5",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Exhibition of tables of fees",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Penalty for taking excessive fees",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Punishments for offence under this Act",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Trail of offences",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_9",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "9",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_DIPLOMATIC_AND_CONSULAR_OFFICERS_(OATHS_AND_FEES)_ACT,_1948_10",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "source_file": "THE ANTI­DUMPING DUTIES ORDINANCE, 2000.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE ANTI­DUMPING DUTIES ORDINANCE, 2000.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 80,
+  "total_child_chunks": 139,
+  "total_table_chunks": 1,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_child_chunks.json",
+  "table_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\table_chunks\\THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_table_chunks.json",
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_1",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_2",
+      "page_numbers": [
+        4
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definition",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_3",
+      "page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "3",
+      "section_title": "Levy of anti-dumping duty",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_4",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Identification of dumping",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_5",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Normal value based on prices in exporting country",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_6",
+      "page_numbers": [
+        7
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "6",
+      "section_title": "Normal value based on export price to a third country or on constructed value",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_7",
+      "page_numbers": [
+        7,
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "7",
+      "section_title": "Circumstances in which certain sales may be disregarded in determining normal value",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_8",
+      "page_numbers": [
+        8
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "8",
+      "section_title": "Calculation of costs for the purposes of sections 6 and 7",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_9",
+      "page_numbers": [
+        8,
+        9
+      ],
+      "num_children": 4
+    },
+    {
+      "section_number": "9",
+      "section_title": "Exports from a country in which the government exercises sufficient control over economic decisions so that the domestic market does not operate freely",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_10",
+      "page_numbers": [
+        9,
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "10",
+      "section_title": "Export price",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_11",
+      "page_numbers": [
+        10
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "11",
+      "section_title": "Comparison",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_12",
+      "page_numbers": [
+        10,
+        11
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "12",
+      "section_title": "Comparison methods",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_13",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "13",
+      "section_title": "Currency conversion",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_14",
+      "page_numbers": [
+        11
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "14",
+      "section_title": "Individual dumping margin",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_15",
+      "page_numbers": [
+        12
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "15",
+      "section_title": "Determination of injury",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_16",
+      "page_numbers": [
+        12,
+        13
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "16",
+      "section_title": "Cumulation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_17",
+      "page_numbers": [
+        13
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "17",
+      "section_title": "Examination of impact of dumped imports on domestic industry",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_18",
+      "page_numbers": [
+        13,
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "18",
+      "section_title": "Causation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_19",
+      "page_numbers": [
+        14
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "19",
+      "section_title": "Threat of material injury",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_20",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "20",
+      "section_title": "Requirement of a written application",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_21",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "21",
+      "section_title": "Notice to government of exporting country",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_22",
+      "page_numbers": [
+        15
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "22",
+      "section_title": "Withdrawal of application before initiation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_23",
+      "page_numbers": [
+        15,
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "23",
+      "section_title": "Initiation of an investigation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_24",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "24",
+      "section_title": "Application by or on behalf of domestic industry",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_25",
+      "page_numbers": [
+        16
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "25",
+      "section_title": "Self-initiation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_26",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "26",
+      "section_title": "Imposition of anti-dumping measures on behalf of a third country",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_27",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "27",
+      "section_title": "Notice of decision to initiate investigation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_28",
+      "page_numbers": [
+        17
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "28",
+      "section_title": "Provision of copy of an application",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_29",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "29",
+      "section_title": "Duration of investigation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_30",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "30",
+      "section_title": "Customs clearance",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_31",
+      "page_numbers": [
+        18
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "31",
+      "section_title": "Confidentiality",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_32",
+      "page_numbers": [
+        18,
+        19
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "32",
+      "section_title": "Reliance on best information available",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_33",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "33",
+      "section_title": "Information to parties",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_34",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "34",
+      "section_title": "Proposed schedule for investigation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_35",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "35",
+      "section_title": "Acquisition of information by the Commission",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_36",
+      "page_numbers": [
+        20
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "36",
+      "section_title": "Assessments to be on the basis of data relating to defined periods",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_37",
+      "page_numbers": [
+        20,
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "37",
+      "section_title": "Preliminary determination",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_38",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "38",
+      "section_title": "Written arguments. In an investigation,",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_39",
+      "page_numbers": [
+        21
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "39",
+      "section_title": "Final determination",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_40",
+      "page_numbers": [
+        21,
+        22
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "40",
+      "section_title": "Withdrawal of an application",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_41",
+      "page_numbers": [
+        22
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "41",
+      "section_title": "Termination for insufficient evidence, negligible dumping margin or negligible volume",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_42",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "42",
+      "section_title": "Notice of conclusion of an investigation without imposition of measures",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_43",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "43",
+      "section_title": "Imposition of provisional measures",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_44",
+      "page_numbers": [
+        23
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "44",
+      "section_title": "Form of provisional measures",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_45",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "45",
+      "section_title": "Duration of application of provisional measures",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_46",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "46",
+      "section_title": "Acceptance of price undertaking",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_47",
+      "page_numbers": [
+        24
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "47",
+      "section_title": "Conditions for acceptance of price undertaking",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_48",
+      "page_numbers": [
+        24,
+        25
+      ],
+      "num_children": 5
+    },
+    {
+      "section_number": "48",
+      "section_title": "Completion of an investigation",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_49",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "49",
+      "section_title": "Violation of price undertaking",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_50",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "50",
+      "section_title": "Mandatory Imposition of anti-dumping duty",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_51",
+      "page_numbers": [
+        26
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "51",
+      "section_title": "Imposition and collection of anti-dumping duties",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_52",
+      "page_numbers": [
+        26,
+        27
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "52",
+      "section_title": "Refund of anti-dumping duties paid in excess of dumping margin",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_53",
+      "page_numbers": [
+        27,
+        28
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "53",
+      "section_title": "Anti-dumping duties and fees to be held in a non-lapseable personal ledger account",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_54",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "54",
+      "section_title": "Retroactive application of definitive anti-dumping duties in certain circumstances",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_55",
+      "page_numbers": [
+        28
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "55",
+      "section_title": "Imposition of definitive anti-dumping duties retroactively",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_56",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 3
+    },
+    {
+      "section_number": "56",
+      "section_title": "Circumstances in which provisional measures and anti-dumping duties shall apply",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_57",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "57",
+      "section_title": "Duration of anti-dumping duty",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_58",
+      "page_numbers": [
+        29
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "58",
+      "section_title": "Review of anti-dumping duty",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_59",
+      "page_numbers": [
+        29,
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "59",
+      "section_title": "Review for change of circumstances",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_60",
+      "page_numbers": [
+        30
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "60",
+      "section_title": "Newcomer review",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_61",
+      "page_numbers": [
+        30,
+        31
+      ],
+      "num_children": 2
+    },
+    {
+      "section_number": "61",
+      "section_title": "Duration and review of price undertaking",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_62",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "62",
+      "section_title": "Evidence and procedure",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_63",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "63",
+      "section_title": "Anti-circumvention measures",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_64",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "## PART XVI",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_65",
+      "page_numbers": [
+        31
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "64",
+      "section_title": "Appeal to the Appellate Tribunal",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_66",
+      "page_numbers": [
+        31,
+        32,
+        33
+      ],
+      "num_children": 6
+    },
+    {
+      "section_number": "65",
+      "section_title": "Powers of the Appellate Tribunal",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_67",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "66",
+      "section_title": "Power of the Appellate Tribunal to call for and examine record",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_68",
+      "page_numbers": [
+        33
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "67",
+      "section_title": "Power to make rules",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_69",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "68",
+      "section_title": "Public servants",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_70",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "69",
+      "section_title": "Failure to disclose correct information",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_71",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "70",
+      "section_title": "Cognizance of offences",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_72",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "71",
+      "section_title": "Protection to persons prejudiced in employment because of assisting the Commission",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_73",
+      "page_numbers": [
+        34
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "72",
+      "section_title": "Appointment of advisers and consultants",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_74",
+      "page_numbers": [
+        34,
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "73",
+      "section_title": "Indemnity",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_75",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "74",
+      "section_title": "Removal of difficulties",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_76",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "75",
+      "section_title": "Ordinance override other laws",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_77",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "76",
+      "section_title": "Repeal",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_78",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "77",
+      "section_title": "Savings",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_79",
+      "page_numbers": [
+        35
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "-",
+      "section_title": "# THE SCHEDULE",
+      "parent_id": "THE_ANTI­DUMPING_DUTIES_ORDINANCE,_2000_80",
+      "page_numbers": [
+        35,
+        36,
+        37
+      ],
+      "num_children": 6
+    }
+  ]
+}

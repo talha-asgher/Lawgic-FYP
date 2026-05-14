@@ -1,0 +1,35 @@
+{
+  "source_file": "THE INTEREST ACT, 1839.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE INTEREST ACT, 1839.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 2,
+  "total_child_chunks": 2,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_INTEREST_ACT,_1839_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_INTEREST_ACT,_1839_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_INTEREST_ACT,_1839_1",
+      "page_numbers": [
+        1,
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Power of Court to allow interest",
+      "parent_id": "THE_INTEREST_ACT,_1839_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    }
+  ]
+}

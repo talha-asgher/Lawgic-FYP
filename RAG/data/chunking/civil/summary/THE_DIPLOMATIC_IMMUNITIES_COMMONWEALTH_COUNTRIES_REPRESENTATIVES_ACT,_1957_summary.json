@@ -1,0 +1,99 @@
+{
+  "source_file": "THE DIPLOMATIC IMMUNITIES (COMMONWEALTH COUNTRIES REPRESENTATIVES) ACT, 1957.pdf",
+  "pdf_path": "D:\\University\\FYP\\Implementation\\Lawgic-1\\data\\raw_pdfs\\civil\\THE DIPLOMATIC IMMUNITIES (COMMONWEALTH COUNTRIES REPRESENTATIVES) ACT, 1957.pdf",
+  "category": "civil",
+  "rgn_date": "",
+  "total_parent_chunks": 9,
+  "total_child_chunks": 9,
+  "total_table_chunks": 0,
+  "total_form_chunks": 0,
+  "parent_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\parent_chunks\\THE_DIPLOMATIC_IMMUNITIES_COMMONWEALTH_COUNTRIES_REPRESENTATIVES_ACT,_1957_parent_chunks.json",
+  "child_chunks_file": "D:\\University\\FYP\\Implementation\\Lawgic-1\\temp\\civil\\child_chunks\\THE_DIPLOMATIC_IMMUNITIES_COMMONWEALTH_COUNTRIES_REPRESENTATIVES_ACT,_1957_child_chunks.json",
+  "table_chunks_file": null,
+  "form_chunks_file": null,
+  "sections": [
+    {
+      "section_number": "-",
+      "section_title": "PREAMBLE",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_1",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_2",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "2",
+      "section_title": "Definitions",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_3",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "3",
+      "section_title": "Immunity of chief representative",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_4",
+      "page_numbers": [
+        2
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "4",
+      "section_title": "Immunity of member of staff or family",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_5",
+      "page_numbers": [
+        2,
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "5",
+      "section_title": "Rules for grant of consular immunity",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_6",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "6",
+      "section_title": "Waiver of immunity",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_7",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "7",
+      "section_title": "Certificate regarding immunity",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_8",
+      "page_numbers": [
+        3
+      ],
+      "num_children": 1
+    },
+    {
+      "section_number": "8",
+      "section_title": "Rules",
+      "parent_id": "THE_DIPLOMATIC_IMMUNITIES_(COMMONWEALTH_COUNTRIES_REPRESENTATIVES)_ACT,_1957_9",
+      "page_numbers": [
+        3,
+        4
+      ],
+      "num_children": 1
+    }
+  ]
+}
